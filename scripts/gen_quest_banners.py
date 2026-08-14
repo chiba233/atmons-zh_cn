@@ -108,7 +108,7 @@ OUT = PACK / 'assets' / 'atm' / 'textures' / 'questpics'
 INST = Path(os.environ.get(
     'ATM_PACK_ROOT',
     '/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons'))
-SRC = INST / 'kubejs' / 'assets' / 'atm' / 'textures' / 'questpics'
+PICS = INST / 'kubejs' / 'assets' / 'atm' / 'textures' / 'questpics'
 QUESTS = INST / 'config' / 'ftbquests' / 'quests'
 
 MARGIN = 4    # 原图四周的透明边
@@ -409,7 +409,7 @@ def check_boxes():
         # 背景条补回去，不算啃掉装饰，所以跳过。
         if cfg.get('touching') or 'patch_from' in cfg:
             continue
-        im = Image.open(SRC / rel).convert('RGBA')
+        im = Image.open(PICS / rel).convert('RGBA')
         w, h = im.size
         a = im.getchannel('A').load()
         x0, y0 = round(w * cfg['box'][0] / 100), round(h * cfg['box'][1] / 100)
@@ -481,15 +481,10 @@ TEXTURED = {
     'apothic/logo.png',                      # 裂纹石头
     'apothic/spawners_title.png',
     'undergarden/undergarden_title.png',     # 长苔石
-    'iceandfire/iaf_title_firedragon.png',   # 岩浆岩
-    'iceandfire/iaf_title_icedragon.png',
     'relics/relics_title.png',
     'aether/aether_title.png',               # 金色云纹
     'building_tips/building.png',            # 裂纹石砖，砍成纯灰就认不出是「建造」那套字了
-    'building_tips/building_building.png',
-    'building_tips/building_tips.png',
     'building_tips/tips.png',
-    'xycraft/xycraft.png',                   # 碎石纹
 }
 
 BANNERS = {
@@ -519,8 +514,6 @@ BANNERS = {
     'bees/productive_bees.png':                             '资源蜜蜂',
     'bounty.png':                                           '悬赏板',
     'building_tips/building.png':                           '建造',
-    'building_tips/building_building.png':                  '建造',
-    'building_tips/building_tips.png':                      '技巧',
     'building_tips/tips.png':                               '技巧',
     'bumblezone/bumble_title.png':                          '蜜蜂领域',
     'cataclysm/cataclysm_title.png':                        '灾变',
@@ -542,7 +535,6 @@ BANNERS = {
     'id_title.png':                                         '动态\n联合',   # 原图两行，画布 400x400，单行会缩得很小
     'immersive/immersive_title.png':                        '沉浸工程',
     'industrialforegoing/industrial_foregoing_title.png':   '工业先锋',
-    'iron_spells/spells_title.png':                         '铁魔法',      # 章节标题仍夹英文，横幅用社区通用名
     'logistics/basic.png':                                  '基础',
     'logistics/integrated-.png':                            '动态联合',
     'logistics/logistics.png':                              '物流',
@@ -623,28 +615,6 @@ BANNERS = {
     'forbidden/forbidden_title_tier3.png': '第三阶',
     'forbidden/forbidden_title_tier4.png': '第四阶',
     'forbidden/forbidden_title_tier5.png': '第五阶',
-    'iceandfire/iaf_title_1.png': '冰',
-    'iceandfire/iaf_title_2.png': '与',
-    'iceandfire/iaf_title_3.png': '火',
-    'iceandfire/iaf_title_amphithere.png': '翼蚺',
-    'iceandfire/iaf_title_birds.png': '鸟类',
-    'iceandfire/iaf_title_cockatrice.png': '鸡蛇',
-    'iceandfire/iaf_title_cyclops.png': '独眼巨人',
-    'iceandfire/iaf_title_firedragon.png': '火龙',
-    'iceandfire/iaf_title_ghosts.png': '幽灵',
-    'iceandfire/iaf_title_gorgon.png': '蛇发女妖',
-    'iceandfire/iaf_title_hippocampus.png': '海马',
-    'iceandfire/iaf_title_hippogryth.png': '骏鹰',
-    'iceandfire/iaf_title_hydra.png': '九头蛇',
-    'iceandfire/iaf_title_icedragon.png': '冰龙',
-    'iceandfire/iaf_title_lightningdragon.png': '电龙',
-    'iceandfire/iaf_title_pets.png': '宠物',
-    'iceandfire/iaf_title_pixie.png': '小精灵',
-    'iceandfire/iaf_title_serpent.png': '海蟒',
-    'iceandfire/iaf_title_siren.png': '塞壬',
-    'iceandfire/iaf_title_stymphalian.png': '铜羽泽鹗',
-    'iceandfire/iaf_title_trolls.png': '食人妖',
-    'iceandfire/iaf_title_worm.png': '死亡蠕虫',
     'immersive/immersive_title_log.png': '物流',
     'immersive/immersive_title_mac.png': '机器',
     'immersive/immersive_title_oad.png': '攻防',
@@ -652,18 +622,6 @@ BANNERS = {
     'immersive/immersive_title_tol.png': '工具',
     'immersive/immersive_title_upg.png': '升级',
     'immersive/immersive_title_wir.png': '布线',
-    'mahou/mahou_bow.png': '武器投影之弓',
-    'mahou/mahou_caliburn.png': '石中剑',
-    'mahou/mahou_clarent.png': '克拉伦特',
-    'mahou/mahou_disorientation.png': '次元扭曲魔杖',
-    'mahou/mahou_emrys.png': '艾米雷斯',
-    'mahou/mahou_explosion.png': '爆炸魔杖',
-    'mahou/mahou_generation.png': '魔力生成',
-    'mahou/mahou_keys.png': '赤之黑键',
-    'mahou/mahou_morgan.png': '摩根',
-    'mahou/mahou_nobu.png': '诺布',
-    'mahou/mahou_replica.png': '暗夜之影',
-    'mahou/mahou_tsukai.png': '魔法使',
     'mek/mek_title_1.png': '一级矿物处理',
     'mek/mek_title_2.png': '二级矿物处理',
     'mek/mek_title_3.png': '三级矿物处理',
@@ -697,7 +655,7 @@ BANNERS = {
     'undergarden/undergarden_tools.png': '工具与护甲',
     'undergarden/undergarden_vegetation.png': '植被',
 
-    'xycraft/xycraft.png':                                  '晶工艺',}
+}
 
 
 def crop_box(im, rel):
@@ -1026,8 +984,15 @@ def chapter_titles():
     if split.is_dir():
         for p in sorted(split.rglob('*.snbt')):
             zh.update(parse_lang(str(p)))
-    delta = SRC / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn'
-    for p in sorted(delta.rglob('*.snbt')):
+    # 本仓库自己的译文。**必须用 paths.SRC（仓库 src/）**：这一行原先写的 SRC
+    # 被上面那个 questpics 目录盖掉了，于是指到 questpics/config/ftbquests/... 这种
+    # 不存在的路径，仓库里的章节标题一条都读不进来，下面那道「同一张图被标题不同的
+    # 两章共用」的闸永远拿到空标题、永不触发。本包的中文任务书全在这里（整合包
+    # 自带十种语言、没有 zh_cn），漏掉它等于这个函数整个失效。
+    ours = SRC / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn'
+    if not ours.is_dir():
+        sys.exit('❌ 没有 %s——章节标题取不到，横幅文案就失去了单一真源' % ours)
+    for p in sorted(ours.rglob('*.snbt')):
         zh.update(parse_lang(str(p)))
     out = {}
     for p in sorted((QUESTS / 'chapters').glob('*.snbt')):
@@ -1046,7 +1011,7 @@ def main(check_only=False):
     titles = chapter_titles()
     n = 0
     for rel, text in sorted(BANNERS.items()):
-        src = SRC / rel
+        src = PICS / rel
         if not src.exists():
             sys.exit('❌ 找不到原图 %s（本脚本要对着整合包实例跑）' % src)
         used = titles.get(rel, [])

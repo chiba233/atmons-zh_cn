@@ -36,6 +36,14 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 上游自己没译的键（在任何上游文件里都找不到）留在 `chapters/hanhua_additions.snbt`，
 它们不与任何文件撞键，放哪都一样。
 
+## 上游一条中文都没有的情形
+
+本包所在的整合包自带十种语言，**没有 zh_cn**。此时上面那套推理走到极限：我们的
+覆盖没有一条与上游撞键，于是全部归进 `hanhua_additions.snbt` 一份文件，键序问题
+天然不存在。走这条分支前必须**正面证明**看到的是一个真实的整合包（任务书 lang
+目录在、且至少有一种别的语言），否则「没取到包」会被静默当成「上游不带中文」，
+发出去的包会把上游中文整个丢掉——见 assert_no_upstream_zh()。
+
 ⚠️ 用原文件名出货的前提是**整份文件都在**：只带我们那几条会把上游同名文件整个盖掉。
 所以这里写出去的是「上游全文 + 我们的覆盖」，不是 delta。（2026-07 就踩过一次：
 只有 2 个键的 aether.snbt 盖掉了上游同名文件的 167 个键。）
@@ -127,6 +135,34 @@ def collect_delta(tree, mc):
     return srcs, delta, ver
 
 
+def assert_no_upstream_zh(uproot):
+    """确认「上游确实不带 zh_cn 任务书」，而不是包没取到 / 路径写错。
+
+    本包所在的整合包自带十种语言，**没有 zh_cn**（上一个整合包是带的）。
+    上游一条中文都没有时，我们的覆盖跟谁都不撞，按本文件顶部的规矩全部归到
+    ADDITIONS 那一份里即可，键序问题天然不存在。
+
+    但「上游没有 zh_cn」与「压根没取到上游」在代码里长得一模一样，后者静默放过
+    就会发出一个把上游中文整个丢掉的包。所以这里要求**正面证明**看到的是一个
+    真实的整合包：任务书 lang 目录必须在，且里面至少有一种别的语言。
+    """
+    lang_root = uproot / LANG.rsplit('/', 1)[0]
+    if not lang_root.is_dir():
+        raise SystemExit('❌ 上游连 %s 都没有：%s\n'
+                         '   多半是整合包没取到或路径写错，不是「上游不带中文」。'
+                         % (LANG.rsplit('/', 1)[0], uproot))
+    others = sorted(p.name for p in lang_root.iterdir()
+                    if p.name != 'zh_cn' and (p.is_dir() or p.suffix == '.snbt'))
+    if not others:
+        raise SystemExit('❌ 上游 %s 下一种语言都没有：%s\n'
+                         '   空目录不能当作「上游不带中文」的证据。'
+                         % (LANG.rsplit('/', 1)[0], uproot))
+    if (uproot / LANG).exists():
+        raise SystemExit('❌ 上游有 %s 但一个 .snbt 都读不到：%s' % (LANG, uproot))
+    print('   上游不带 zh_cn 任务书（另有 %d 种语言：%s），'
+          '本包的覆盖将整体归入 %s' % (len(others), '、'.join(others[:4]), ADDITIONS))
+
+
 def main():
     if len(sys.argv) < 3:
         raise SystemExit(__doc__.strip().splitlines()[-1])
@@ -134,15 +170,12 @@ def main():
     mc = sys.argv[3] if len(sys.argv) > 3 else None
 
     upstream_dir = uproot / LANG
-    if not upstream_dir.is_dir():
-        raise SystemExit('❌ 上游目录里没有 %s：%s' % (LANG, uproot))
-
     srcs, delta, ver = collect_delta(tree, mc)
 
     # 上游每个键归属哪个文件（上游自己跨文件不许重键，重了说明我们的假设塌了）
     up_files = sorted(upstream_dir.glob('*.snbt')) + sorted((upstream_dir / 'chapters').glob('*.snbt'))
     if not up_files:
-        raise SystemExit('❌ 上游 %s 下一个 .snbt 都没有' % LANG)
+        assert_no_upstream_zh(uproot)
     up_pairs, home = {}, {}
     for p in up_files:
         rel = p.relative_to(upstream_dir).as_posix()

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "refurbished_furniture_dynamic_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mrcrayfish.furniture.refurbished.client.gui.screen.TextInputScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Close",
+        "value": "关闭"
+      },
+      {
+        "key": "Accept",
+        "value": "接受"
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "wits_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.wits.commands.WITSCommand"
+    ],
+    "pairs": [
+      {
+        "key": "There's no structures at your location.",
+        "value": "您所在的位置没有结构。"
+      },
+      {
+        "key": "There's no structures at the location.",
+        "value": "该位置没有结构。"
+      }
+    ]
+  }
+]

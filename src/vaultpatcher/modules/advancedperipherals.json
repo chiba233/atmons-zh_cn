@@ -1,0 +1,34 @@
+[
+  {
+    "name": "advancedperipherals_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.srendi.advancedperipherals.common.commands.APCommands"
+    ],
+    "pairs": [
+      {
+        "key": "You need an item in your main hand.",
+        "value": "你需要在主手上持有一个物品。"
+      },
+      {
+        "key": "Fingerprint of the item: ",
+        "value": "物品指纹："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.srendi.advancedperipherals.common.items.WeakAutomataCore"
+    ],
+    "pairs": [
+      {
+        "key": "Consumed: %d/%d %s",
+        "value": "已消耗：%d/%d %s"
+      }
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+[
+  {
+    "name": "minecolonies_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicStateMachine"
+    ],
+    "pairs": [
+      {
+        "key": "Current state:",
+        "value": "当前状态："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.client.gui.WindowBannerPicker"
+    ],
+    "pairs": [
+      {
+        "key": "Flag",
+        "value": "旗帜"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.client.gui.WindowRequestDetail"
+    ],
+    "pairs": [
+      {
+        "key": "Resolver: ",
+        "value": "解析器："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.client.gui.map.WindowColonyMap"
+    ],
+    "pairs": [
+      {
+        "key": "Owner:",
+        "value": "所有者："
+      },
+      {
+        "key": "Coordinates: ",
+        "value": "坐标："
+      },
+      {
+        "key": "Citizens: ",
+        "value": "市民： "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.client.render.CitizenArmorLayer"
+    ],
+    "pairs": [
+      {
+        "key": "This armor is causing errors when rendering on citizens, check your latest.log and report to the respective armor mod.",
+        "value": "这件盔甲在 Citizens 上渲染时导致错误，请检查你的 latest.log 并向对应的盔甲模组报告。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.colony.requestsystem.resolvers.core.AbstractRequestResolver"
+    ],
+    "pairs": [
+      {
+        "key": "Request System",
+        "value": "请求系统"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.citizencommands.CommandCitizenInfo"
+    ],
+    "pairs": [
+      {
+        "key": "Stuck level: ",
+        "value": "卡住等级："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.citizencommands.CommandTrackType"
+    ],
+    "pairs": [
+      {
+        "key": "Removed tracking for player",
+        "value": "已取消对玩家的追踪"
+      },
+      {
+        "key": "Tracking enabled for pathjobs containing: ",
+        "value": "已为包含以下内容的路径任务启用追踪："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.colonycommands.CommandColonyChunks"
+    ],
+    "pairs": [
+      {
+        "key": "Loaded chunks:",
+        "value": "已加载区块:"
+      },
+      {
+        "key": "Ticket types: ",
+        "value": "旅行券类型："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.colonycommands.CommandColonyPrintStats"
+    ],
+    "pairs": [
+      {
+        "key": "Buildings:",
+        "value": "建筑："
+      },
+      {
+        "key": "Reasearches completed count:",
+        "value": "已完成研究数量："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.colonycommands.CommandListColonies"
+    ],
+    "pairs": [
+      {
+        "key": "Citizens:",
+        "value": "市民："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.colonycommands.CommandSetRank"
+    ],
+    "pairs": [
+      {
+        "key": "Rank does not exist",
+        "value": "等级不存在"
+      },
+      {
+        "key": "Set player: ",
+        "value": "设置玩家："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.commands.generalcommands.CommandUnloadForcedChunks"
+    ],
+    "pairs": [
+      {
+        "key": "Successfully removed forceload flag!",
+        "value": "已成功移除强制加载标记！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.entity.pathfinding.pathresults.PathResult"
+    ],
+    "pairs": [
+      {
+        "key": " Finished pathjob:",
+        "value": "路径任务已完成："
+      },
+      {
+        "key": " path target:",
+        "value": "路径目标:"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.client.gui.modules.building.GraveyardManagementWindow$1"
+    ],
+    "pairs": [
+      {
+        "key": "Grave of ",
+        "value": "墓碑："
+      },
+      {
+        "key": "Unknown Citizen",
+        "value": "无名市民"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.network.messages.server.colony.building.OpenCraftingGUIMessage$1"
+    ],
+    "pairs": [
+      {
+        "key": "Furnace Crafting GUI",
+        "value": "熔炉合成GUI"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.network.messages.server.colony.building.OpenCraftingGUIMessage$2"
+    ],
+    "pairs": [
+      {
+        "key": "Brewing Crafting GUI",
+        "value": "酿造合成GUI"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.minecolonies.core.network.messages.server.colony.building.OpenCraftingGUIMessage$3"
+    ],
+    "pairs": [
+      {
+        "key": "Crafting GUI",
+        "value": "合成界面"
+      }
+    ]
+  }
+]

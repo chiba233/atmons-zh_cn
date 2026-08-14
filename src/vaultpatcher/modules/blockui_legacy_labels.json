@@ -1,0 +1,28 @@
+[
+  {
+    "name": "blockui_legacy_labels_zh_cn",
+    "desc": "blockui-1.0.211-1.21.1-snapshot.jar 旧版遗留标签",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.ldtteam.blockui.BOScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Legacy Pane Placeholder Label",
+        "value": "旧版面板占位标签"
+      },
+      {
+        "key": "Deprecated Overlay Caption Text",
+        "value": "已弃用的覆盖层标题文字"
+      },
+      {
+        "key": "Unused Scroll Container Notice",
+        "value": "未使用的滚动容器提示"
+      }
+    ]
+  }
+]

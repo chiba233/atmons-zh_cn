@@ -1,0 +1,52 @@
+[
+  {
+    "name": "disenchanting_table_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "common.com.cursee.disenchanting_table.client.gui.screens.DisenchantingMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Insufficient Experience!",
+        "value": "经验不足！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "fabric.com.cursee.disenchanting_table.client.gui.screens.DisenchantingMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Insufficient Experience!",
+        "value": "经验不足！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "forge.com.cursee.disenchanting_table.client.gui.screens.DisenchantingMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Insufficient Experience!",
+        "value": "经验不足！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "neoforge.com.cursee.disenchanting_table.client.gui.screens.DisenchantingMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Insufficient Experience!",
+        "value": "经验不足！"
+      }
+    ]
+  }
+]

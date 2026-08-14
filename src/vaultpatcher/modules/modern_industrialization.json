@@ -1,0 +1,93 @@
+[
+  {
+    "name": "modern_industrialization_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "aztech.modern_industrialization.machines.recipe.condition.MachineProcessCondition"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown machine process condition codec ",
+        "value": "未知的机器处理条件编解码器 "
+      },
+      {
+        "key": "Unknown machine process condition codec ",
+        "value": "未知的机器处理条件编解码器 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "aztech.modern_industrialization.materials.MIMaterials"
+    ],
+    "pairs": [
+      {
+        "key": "Bronze Plated Bricks",
+        "value": "青铜镀板砖块"
+      },
+      {
+        "key": "Advanced Machine Casing",
+        "value": "高级机械外壳"
+      },
+      {
+        "key": "Frostproof Machine Casing",
+        "value": "防冻机器外壳"
+      },
+      {
+        "key": "Heatproof Machine Casing",
+        "value": "耐热机器外壳"
+      },
+      {
+        "key": "Highly Advanced Machine Casing",
+        "value": "超高级机械外壳"
+      },
+      {
+        "key": "Solid Titanium Machine Casing",
+        "value": "坚固钛机器外壳"
+      },
+      {
+        "key": "Turbo Machine Casing",
+        "value": "涡轮增压机器外壳"
+      },
+      {
+        "key": "Clean Stainless Steel Machine Casing",
+        "value": "洁净不锈钢机器外壳"
+      },
+      {
+        "key": "Quantum Machine Casing",
+        "value": "量子机器外壳"
+      },
+      {
+        "key": "Quantum Tank",
+        "value": "量子储存槽"
+      },
+      {
+        "key": "Quantum Barrel",
+        "value": "量子桶"
+      },
+      {
+        "key": "Blastproof Casing",
+        "value": "防爆外壳"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "aztech.modern_industrialization.pipes.PipeColor"
+    ],
+    "pairs": [
+      {
+        "key": "Light Gray",
+        "value": "淡灰色"
+      },
+      {
+        "key": "Light Blue",
+        "value": "淡蓝色"
+      }
+    ]
+  }
+]

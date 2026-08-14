@@ -1,0 +1,30 @@
+[
+  {
+    "name": "livingthings_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.tristankechlo.livingthings.commands.LivingThingsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "[Living Things] ",
+        "value": "[自然生物] "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.tristankechlo.livingthings.item.LexiconItem"
+    ],
+    "pairs": [
+      {
+        "key": "2nd Edition",
+        "value": "第二版"
+      }
+    ]
+  }
+]

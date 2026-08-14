@@ -1,0 +1,20 @@
+[
+  {
+    "name": "computercraft_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false,
+    "_说明": "CC 的终端只有 256 个自带字形、没有汉字，凡是会被程序 print 到终端的字符串一律不译。TurtlePlaceCommand 那两条是 turtle.place() 返回给 Lua 的失败原因，程序一 print 就是乱码，已移除。这里只留 /computercraft 命令的聊天栏输出——聊天走 Minecraft 字体，中文没问题。"
+  },
+  {
+    "target_class": [
+      "dan200.computercraft.shared.command.CommandComputerCraft"
+    ],
+    "pairs": [
+      {
+        "key": "Instance UUID",
+        "value": "实例UUID"
+      }
+    ]
+  }
+]

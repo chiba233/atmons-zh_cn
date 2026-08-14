@@ -1,0 +1,244 @@
+[
+  {
+    "name": "blockui_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false,
+    "_说明": "⚠️ blockui 的 Alignment 枚举把「top left / top horizontal / vertical horizontal」这类串当**行为标志**用：构造器里 tag.contains(\"horizontal\") 决定 horizontalCentered、contains(\"right\") 决定 rightAligned。译成中文之后 contains 全部落空，**整个 blockui 的对齐系统失效**——所有界面的文字一律贴左，MineColonies / 建筑棒全中招。这 9 条已移除，永远不许再译。"
+  },
+  {
+    "target_class": [
+      "com.ldtteam.blockui.BOScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Blockout GUI",
+        "value": "Blockout 界面"
+      },
+      {
+        "key": "Rendering BO screen",
+        "value": "正在渲染 BO 屏幕"
+      },
+      {
+        "key": "KeyPressed event for BO screen",
+        "value": "BO 屏幕的 KeyPressed 事件"
+      },
+      {
+        "key": "CharTyped event for BO screen",
+        "value": "BO 屏幕的 CharTyped 事件"
+      },
+      {
+        "key": "MousePressed event for BO screen",
+        "value": "BO 屏幕的 MousePressed 事件"
+      },
+      {
+        "key": "MouseScroll event for BO screen",
+        "value": "BO 屏幕的 MouseScroll 事件"
+      },
+      {
+        "key": "MouseDragged event for BO screen",
+        "value": "BO 屏幕的 MouseDragged 事件"
+      },
+      {
+        "key": "MouseReleased event for BO screen",
+        "value": "BO 屏幕的 MouseReleased 事件"
+      },
+      {
+        "key": "Ticking/Updating BO screen",
+        "value": "正在 Tick/更新 BO 屏幕"
+      },
+      {
+        "key": "Closing BO screen",
+        "value": "正在关闭BO界面"
+      },
+      {
+        "key": "XML: %s Scaling: %s (vanilla: %.2f our: %.2f) ",
+        "value": "XML：%s 缩放：%s（原版：%.2f 我们的：%.2f） "
+      },
+      {
+        "key": "Allow Player Schematics",
+        "value": "@允许玩家结构图"
+      },
+      {
+        "key": "Should player-made schematics be allowed?",
+        "value": "@是否应允许玩家自制的结构？"
+      },
+      {
+        "key": "Blueprint",
+        "value": "蓝图"
+      },
+      {
+        "key": "Blueprint related settings",
+        "value": "@蓝图相关设置"
+      },
+      {
+        "key": "Gameplay",
+        "value": "@游戏玩法"
+      },
+      {
+        "key": "All configuration items related to the core gameplay",
+        "value": "@所有与核心玩法相关的配置项"
+      },
+      {
+        "key": "Ignore Schematics from Jar",
+        "value": "@忽略来自 Jar 的蓝图"
+      },
+      {
+        "key": "Should the default schematics be ignored (from the jar)?",
+        "value": "@是否应忽略默认蓝图（来自 jar）？"
+      },
+      {
+        "key": "The iteration order on structure placement",
+        "value": "@放置结构时的迭代顺序"
+      },
+      {
+        "key": "Currently supports 'default', 'inwardcircle', 'hilbert', 'random' and 'inwardcircleheight1' to 'inwardcircleheight4'",
+        "value": "@当前支持 'default'、'inwardcircle'、'hilbert'、'random' 以及 'inwardcircleheight1' 到 'inwardcircleheight4'"
+      },
+      {
+        "key": "Light level for previews",
+        "value": "@预览的亮度等级"
+      },
+      {
+        "key": "-1 for same as current vanilla world, 0 to 15 (min to max) for static light level",
+        "value": "@-1 表示与当前原版世界相同，0 到 15（最小到最大）表示固定光照等级"
+      },
+      {
+        "key": "Max Blocks Checked",
+        "value": "@最多检查方块数"
+      },
+      {
+        "key": "Max amount of blocks checked by a possible worker.",
+        "value": "@可能的工作者可检查的方块最大数量。"
+      },
+      {
+        "key": "Max Cached Changes",
+        "value": "@最大缓存更改数"
+      },
+      {
+        "key": "Max amount of undos saved. A higher number requires more memory.",
+        "value": "@保存的最大撤销次数。数值越高，需要的内存越多。"
+      },
+      {
+        "key": "Max Cached Schematics",
+        "value": "@最大缓存结构数量"
+      },
+      {
+        "key": "Max amount of schematics to be cached on the server.",
+        "value": "@服务器上可缓存的结构最大数量。"
+      },
+      {
+        "key": "Max Operations per Tick",
+        "value": "@每个游戏刻最大操作数"
+      },
+      {
+        "key": "Max world operations per tick (max blocks to place, remove, or replace).",
+        "value": "@每刻最大世界操作数（最多可放置、移除或替换的方块数）。"
+      },
+      {
+        "key": "Render placeholders as target blocks",
+        "value": "@将占位符渲染为目标方块（不建议启用）"
+      },
+      {
+        "key": "If disabled show placeholders as normal blocks, if enabled render: any (light) -> nothing, fluid (blue) -> dimension default fluid, solid (brown) -> worldgen block, tag (transparent) -> content block. Fluid and solid only work in singleplayer/for LAN owner, else it's just best guess. Currently without auto-updating",
+        "value": "@禁用时将占位符显示为普通方块；启用时渲染为：任意（浅色）-> 无，流体（蓝色）-> 维度默认流体，固体（棕色）-> 世界生成方块，标签（透明）-> 内容方块。流体和固体仅在单人游戏中/对局域网房主生效，否则只会进行尽力猜测。当前不会自动更新"
+      },
+      {
+        "key": "Blueprint Preview Renderer",
+        "value": "@蓝图预览渲染器"
+      },
+      {
+        "key": "Affects all previews",
+        "value": "@影响所有预览"
+      },
+      {
+        "key": "Scan Tool Scrolling",
+        "value": "@扫描工具滚动"
+      },
+      {
+        "key": "Sneak+scroll on the hotbar switches scan tool slots",
+        "value": "@在快捷栏上潜行并滚动可切换扫描工具槽位"
+      },
+      {
+        "key": "Scan block limit",
+        "value": "@扫描方块限制"
+      },
+      {
+        "key": "How many block at most can be inside one scanned blueprint.",
+        "value": "@一个已扫描的蓝图内最多可以包含多少个方块。"
+      },
+      {
+        "key": "See previews from others",
+        "value": "@查看他人的预览"
+      },
+      {
+        "key": "Once enabled you will see previews from other players within sensible distance",
+        "value": "@启用后，你将看到合理距离内其他玩家的预览"
+      },
+      {
+        "key": "Share previews to others",
+        "value": "@向他人分享预览"
+      },
+      {
+        "key": "Enabling this will send most of your active previews to nearby players",
+        "value": "@启用此项后，你的大多数活动预览将发送给附近玩家"
+      },
+      {
+        "key": "Teleportation",
+        "value": "瞬身术"
+      },
+      {
+        "key": "Configuration related to scan tool teleportation",
+        "value": "@与扫描工具传送相关的配置"
+      },
+      {
+        "key": "Teleportation Permitted",
+        "value": "@允许传送"
+      },
+      {
+        "key": "If creative-mode players can use the scan tool to teleport to/from their builds.",
+        "value": "@创造模式玩家是否可以使用扫描工具在自己的建筑与当前位置之间传送。"
+      },
+      {
+        "key": "Build Direction",
+        "value": "@建筑物方向"
+      },
+      {
+        "key": "When teleporting to a build, land on this side of it.",
+        "value": "@传送到构筑时，会落在它的这一侧。"
+      },
+      {
+        "key": "Build Distance",
+        "value": "@建筑物距离"
+      },
+      {
+        "key": "When teleporting to a build, land this far away from it.",
+        "value": "@传送到构筑时，落点会与其保持这么远的距离。"
+      },
+      {
+        "key": "Safety Check",
+        "value": "@安全检查"
+      },
+      {
+        "key": "Allow teleporting a little distance away if the landing area is blocked; disable to teleport exactly to target.",
+        "value": "@如果着陆区域被阻挡，则允许传送到稍远一点的位置；禁用后将精确传送到目标位置。"
+      },
+      {
+        "key": "Transparency of non-transparent things",
+        "value": "@非透明物体的透明度"
+      },
+      {
+        "key": "From 0 (transparent) to 1 (opaque). ALPHA FEATURE, reported bugs may not receive fix. (Minus values also mean disabled)",
+        "value": "@从 0（透明）到 1（不透明）。Alpha 功能，已报告的漏洞可能不会被修复。（负值也表示禁用）"
+      },
+      {
+        "key": "Transparent rendering will in most situations look somewhat correctly. But you might face situations under which looking through transparent preview will make the rendered result weird, wrong or even may enable you to see through other things. Are you sure you want to change the transparency config?",
+        "value": "@透明渲染在大多数情况下看起来基本正确。但在某些情况下，透过透明预览观察可能会导致渲染结果变得奇怪、错误，甚至可能让你看穿其他东西。你确定要更改透明度配置吗？"
+      },
+      {
+        "key": "[Default: ",
+        "value": "@[默认："
+      }
+    ]
+  }
+]

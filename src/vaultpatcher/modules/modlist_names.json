@@ -1,0 +1,474 @@
+[
+  {
+    "name": "modlist_names_zh_cn",
+    "desc": "NeoForge 模组列表界面里的模组显示名",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.neoforged.neoforge.client.gui.ModListScreen"
+    ],
+    "pairs": [
+      {
+        "key": "AE2 Import Export Card",
+        "value": "AE2 输入输出卡"
+      },
+      {
+        "key": "AE2 JEI Integration",
+        "value": "AE2 JEI 集成"
+      },
+      {
+        "key": "Accelerated Decay",
+        "value": "加速腐化"
+      },
+      {
+        "key": "Actually Additions",
+        "value": "实用拓展"
+      },
+      {
+        "key": "Advanced AE",
+        "value": "进阶应用能源"
+      },
+      {
+        "key": "Advanced Peripherals",
+        "value": "进阶外设"
+      },
+      {
+        "key": "Akashic Tome",
+        "value": "阿卡西记录之书"
+      },
+      {
+        "key": "All The Arcanist Gear",
+        "value": "全能奥术装备"
+      },
+      {
+        "key": "Apothic Attributes",
+        "value": "神化属性"
+      },
+      {
+        "key": "Apothic Enchanting",
+        "value": "神化附魔"
+      },
+      {
+        "key": "Apothic Spawners",
+        "value": "神化刷怪笼"
+      },
+      {
+        "key": "Applied Energistics 2",
+        "value": "应用能源 2"
+      },
+      {
+        "key": "Applied Mekanistics",
+        "value": "应用能源：通用机械附属"
+      },
+      {
+        "key": "Aquaculture 2",
+        "value": "水产养殖 2"
+      },
+      {
+        "key": "Ars Additions",
+        "value": "新生魔艺：附加"
+      },
+      {
+        "key": "Ars Controle",
+        "value": "新生魔艺：操控"
+      },
+      {
+        "key": "Ars Creo",
+        "value": "新生魔艺：创造"
+      },
+      {
+        "key": "Ars Nouveau",
+        "value": "新生魔艺"
+      },
+      {
+        "key": "Ars Ocultas",
+        "value": "新生魔艺：隐秘"
+      },
+      {
+        "key": "Ars Polymorphia",
+        "value": "新生魔艺：变形"
+      },
+      {
+        "key": "Ars Unification",
+        "value": "新生魔艺：统合"
+      },
+      {
+        "key": "Ars Énergistique",
+        "value": "新生魔艺：能源"
+      },
+      {
+        "key": "Bad Wither No Cookie Reloaded",
+        "value": "凋零别叫了·重制版"
+      },
+      {
+        "key": "Baubley Heart Canisters",
+        "value": "饰品生命容器"
+      },
+      {
+        "key": "Better Compatibility Checker",
+        "value": "更好的兼容性检查"
+      },
+      {
+        "key": "Bibliobiomes Legacy",
+        "value": "书架生物群系·传承版"
+      },
+      {
+        "key": "Bibliocraft Legacy",
+        "value": "书架工艺·传承版"
+      },
+      {
+        "key": "Bibliowoods Legacy",
+        "value": "书架木材·传承版"
+      },
+      {
+        "key": "Blue Flame Burning",
+        "value": "蓝焰燃烧"
+      },
+      {
+        "key": "Brandon's Core",
+        "value": "布兰登核心"
+      },
+      {
+        "key": "Bridging Mod",
+        "value": "搭桥模组"
+      },
+      {
+        "key": "Cable Tiers",
+        "value": "线缆分级"
+      },
+      {
+        "key": "Charging Gadgets",
+        "value": "充能小工具"
+      },
+      {
+        "key": "Chisel Reborn",
+        "value": "凿子·重生"
+      },
+      {
+        "key": "Cloud Glass",
+        "value": "云雾玻璃"
+      },
+      {
+        "key": "CodeChicken Lib",
+        "value": "CodeChicken 库"
+      },
+      {
+        "key": "Colorful Hearts",
+        "value": "多彩生命值"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.neoforged.neoforge.client.gui.ModListScreen$InfoPanel"
+    ],
+    "pairs": [
+      {
+        "key": "AE2 Import Export Card",
+        "value": "AE2 输入输出卡"
+      },
+      {
+        "key": "AE2 JEI Integration",
+        "value": "AE2 JEI 集成"
+      },
+      {
+        "key": "Accelerated Decay",
+        "value": "加速腐化"
+      },
+      {
+        "key": "Actually Additions",
+        "value": "实用拓展"
+      },
+      {
+        "key": "Advanced AE",
+        "value": "进阶应用能源"
+      },
+      {
+        "key": "Advanced Peripherals",
+        "value": "进阶外设"
+      },
+      {
+        "key": "Akashic Tome",
+        "value": "阿卡西记录之书"
+      },
+      {
+        "key": "All The Arcanist Gear",
+        "value": "全能奥术装备"
+      },
+      {
+        "key": "Apothic Attributes",
+        "value": "神化属性"
+      },
+      {
+        "key": "Apothic Enchanting",
+        "value": "神化附魔"
+      },
+      {
+        "key": "Apothic Spawners",
+        "value": "神化刷怪笼"
+      },
+      {
+        "key": "Applied Energistics 2",
+        "value": "应用能源 2"
+      },
+      {
+        "key": "Applied Mekanistics",
+        "value": "应用能源：通用机械附属"
+      },
+      {
+        "key": "Aquaculture 2",
+        "value": "水产养殖 2"
+      },
+      {
+        "key": "Ars Additions",
+        "value": "新生魔艺：附加"
+      },
+      {
+        "key": "Ars Controle",
+        "value": "新生魔艺：操控"
+      },
+      {
+        "key": "Ars Creo",
+        "value": "新生魔艺：创造"
+      },
+      {
+        "key": "Ars Nouveau",
+        "value": "新生魔艺"
+      },
+      {
+        "key": "Ars Ocultas",
+        "value": "新生魔艺：隐秘"
+      },
+      {
+        "key": "Ars Polymorphia",
+        "value": "新生魔艺：变形"
+      },
+      {
+        "key": "Ars Unification",
+        "value": "新生魔艺：统合"
+      },
+      {
+        "key": "Ars Énergistique",
+        "value": "新生魔艺：能源"
+      },
+      {
+        "key": "Bad Wither No Cookie Reloaded",
+        "value": "凋零别叫了·重制版"
+      },
+      {
+        "key": "Baubley Heart Canisters",
+        "value": "饰品生命容器"
+      },
+      {
+        "key": "Better Compatibility Checker",
+        "value": "更好的兼容性检查"
+      },
+      {
+        "key": "Bibliobiomes Legacy",
+        "value": "书架生物群系·传承版"
+      },
+      {
+        "key": "Bibliocraft Legacy",
+        "value": "书架工艺·传承版"
+      },
+      {
+        "key": "Bibliowoods Legacy",
+        "value": "书架木材·传承版"
+      },
+      {
+        "key": "Blue Flame Burning",
+        "value": "蓝焰燃烧"
+      },
+      {
+        "key": "Brandon's Core",
+        "value": "布兰登核心"
+      },
+      {
+        "key": "Bridging Mod",
+        "value": "搭桥模组"
+      },
+      {
+        "key": "Cable Tiers",
+        "value": "线缆分级"
+      },
+      {
+        "key": "Charging Gadgets",
+        "value": "充能小工具"
+      },
+      {
+        "key": "Chisel Reborn",
+        "value": "凿子·重生"
+      },
+      {
+        "key": "Cloud Glass",
+        "value": "云雾玻璃"
+      },
+      {
+        "key": "CodeChicken Lib",
+        "value": "CodeChicken 库"
+      },
+      {
+        "key": "Colorful Hearts",
+        "value": "多彩生命值"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.neoforged.neoforge.client.gui.widget.ModListWidget$ModEntry"
+    ],
+    "pairs": [
+      {
+        "key": "AE2 Import Export Card",
+        "value": "AE2 输入输出卡"
+      },
+      {
+        "key": "AE2 JEI Integration",
+        "value": "AE2 JEI 集成"
+      },
+      {
+        "key": "Accelerated Decay",
+        "value": "加速腐化"
+      },
+      {
+        "key": "Actually Additions",
+        "value": "实用拓展"
+      },
+      {
+        "key": "Advanced AE",
+        "value": "进阶应用能源"
+      },
+      {
+        "key": "Advanced Peripherals",
+        "value": "进阶外设"
+      },
+      {
+        "key": "Akashic Tome",
+        "value": "阿卡西记录之书"
+      },
+      {
+        "key": "All The Arcanist Gear",
+        "value": "全能奥术装备"
+      },
+      {
+        "key": "Apothic Attributes",
+        "value": "神化属性"
+      },
+      {
+        "key": "Apothic Enchanting",
+        "value": "神化附魔"
+      },
+      {
+        "key": "Apothic Spawners",
+        "value": "神化刷怪笼"
+      },
+      {
+        "key": "Applied Energistics 2",
+        "value": "应用能源 2"
+      },
+      {
+        "key": "Applied Mekanistics",
+        "value": "应用能源：通用机械附属"
+      },
+      {
+        "key": "Aquaculture 2",
+        "value": "水产养殖 2"
+      },
+      {
+        "key": "Ars Additions",
+        "value": "新生魔艺：附加"
+      },
+      {
+        "key": "Ars Controle",
+        "value": "新生魔艺：操控"
+      },
+      {
+        "key": "Ars Creo",
+        "value": "新生魔艺：创造"
+      },
+      {
+        "key": "Ars Nouveau",
+        "value": "新生魔艺"
+      },
+      {
+        "key": "Ars Ocultas",
+        "value": "新生魔艺：隐秘"
+      },
+      {
+        "key": "Ars Polymorphia",
+        "value": "新生魔艺：变形"
+      },
+      {
+        "key": "Ars Unification",
+        "value": "新生魔艺：统合"
+      },
+      {
+        "key": "Ars Énergistique",
+        "value": "新生魔艺：能源"
+      },
+      {
+        "key": "Bad Wither No Cookie Reloaded",
+        "value": "凋零别叫了·重制版"
+      },
+      {
+        "key": "Baubley Heart Canisters",
+        "value": "饰品生命容器"
+      },
+      {
+        "key": "Better Compatibility Checker",
+        "value": "更好的兼容性检查"
+      },
+      {
+        "key": "Bibliobiomes Legacy",
+        "value": "书架生物群系·传承版"
+      },
+      {
+        "key": "Bibliocraft Legacy",
+        "value": "书架工艺·传承版"
+      },
+      {
+        "key": "Bibliowoods Legacy",
+        "value": "书架木材·传承版"
+      },
+      {
+        "key": "Blue Flame Burning",
+        "value": "蓝焰燃烧"
+      },
+      {
+        "key": "Brandon's Core",
+        "value": "布兰登核心"
+      },
+      {
+        "key": "Bridging Mod",
+        "value": "搭桥模组"
+      },
+      {
+        "key": "Cable Tiers",
+        "value": "线缆分级"
+      },
+      {
+        "key": "Charging Gadgets",
+        "value": "充能小工具"
+      },
+      {
+        "key": "Chisel Reborn",
+        "value": "凿子·重生"
+      },
+      {
+        "key": "Cloud Glass",
+        "value": "云雾玻璃"
+      },
+      {
+        "key": "CodeChicken Lib",
+        "value": "CodeChicken 库"
+      },
+      {
+        "key": "Colorful Hearts",
+        "value": "多彩生命值"
+      }
+    ]
+  }
+]

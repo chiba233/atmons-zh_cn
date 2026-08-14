@@ -1,0 +1,19 @@
+[
+  {
+    "name": "extradisks_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.melanx.extradisks.Registration"
+    ],
+    "pairs": [
+      {
+        "key": "Extra Disks",
+        "value": "额外磁盘"
+      }
+    ]
+  }
+]

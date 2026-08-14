@@ -1,0 +1,19 @@
+[
+  {
+    "name": "refurbished_furniture_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mrcrayfish.furniture.refurbished.computer.client.graphics.HomeControlGraphics$DeviceItem"
+    ],
+    "pairs": [
+      {
+        "key": "Toggle",
+        "value": "切换"
+      }
+    ]
+  }
+]

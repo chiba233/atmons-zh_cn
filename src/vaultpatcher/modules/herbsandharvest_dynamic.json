@@ -1,0 +1,43 @@
+[
+  {
+    "name": "herbsandharvest_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mamailes.herbsandharvest.book.HHGuideBookScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Table of Contents",
+        "value": "目录"
+      },
+      {
+        "key": "Empty chapters",
+        "value": "空章节"
+      },
+      {
+        "key": "Null bookData",
+        "value": "空的书本数据"
+      },
+      {
+        "key": "Page ",
+        "value": "第 "
+      },
+      {
+        "key": "Page",
+        "value": "页"
+      },
+      {
+        "key": "Table of",
+        "value": "目录"
+      },
+      {
+        "key": "Contents",
+        "value": "内容"
+      }
+    ]
+  }
+]

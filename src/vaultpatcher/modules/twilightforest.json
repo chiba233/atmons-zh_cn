@@ -1,0 +1,30 @@
+[
+  {
+    "name": "twilightforest_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "twilightforest.item.travellers_gear.modifiers.TravellersModifier"
+    ],
+    "pairs": [
+      {
+        "key": "EquipmentSlotGroup must only use armor slots",
+        "value": "装备槽组只能使用护甲槽"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "twilightforest.world.components.placements.AvoidLandmarkModifier"
+    ],
+    "pairs": [
+      {
+        "key": "Feature Decorator cannot have no occupancy",
+        "value": "特征装饰器不能没有占用率"
+      }
+    ]
+  }
+]

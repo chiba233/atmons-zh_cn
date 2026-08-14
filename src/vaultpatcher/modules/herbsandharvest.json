@@ -1,0 +1,39 @@
+[
+  {
+    "name": "herbsandharvest_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mamailes.herbsandharvest.init.MHHItems$1",
+      "com.mamailes.herbsandharvest.item.CheeseItem",
+      "com.mamailes.herbsandharvest.item.CheeseWheelBlockItem",
+      "com.mamailes.herbsandharvest.item.CookedFoodItem",
+      "com.mamailes.herbsandharvest.item.CreamBucketItem",
+      "com.mamailes.herbsandharvest.item.CropItem",
+      "com.mamailes.herbsandharvest.item.CropSeedItem",
+      "com.mamailes.herbsandharvest.item.CupBlockItem",
+      "com.mamailes.herbsandharvest.item.DessertItem",
+      "com.mamailes.herbsandharvest.item.MilkItem",
+      "com.mamailes.herbsandharvest.item.PlaceableHerbItem",
+      "com.mamailes.herbsandharvest.item.PotFoodBlockItem",
+      "com.mamailes.herbsandharvest.item.bowl.BowlFoodItem",
+      "com.mamailes.herbsandharvest.item.condiment.CondimentItem",
+      "com.mamailes.herbsandharvest.item.plate.DelftwareServedPlateBlockItem",
+      "com.mamailes.herbsandharvest.item.plate.HolidayServedPlateBlockItem",
+      "com.mamailes.herbsandharvest.item.plate.PlainServedPlateBlockItem"
+    ],
+    "pairs": [
+      {
+        "key": "Nutrition: ",
+        "value": "饥饿值："
+      },
+      {
+        "key": "Saturation: ",
+        "value": "饱和度："
+      }
+    ]
+  }
+]

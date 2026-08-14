@@ -1,0 +1,50 @@
+[
+  {
+    "name": "energymeter_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.almostreliable.energymeter.block.MonitorBlock"
+    ],
+    "pairs": [
+      {
+        "key": "controller not found",
+        "value": "未找到控制器"
+      },
+      {
+        "key": "single monitor formed",
+        "value": "单显示器已形成"
+      },
+      {
+        "key": "invalid multiblock",
+        "value": "无效的多方块结构"
+      },
+      {
+        "key": "multiblock formed",
+        "value": "多方块结构已成型"
+      },
+      {
+        "key": "multiblock destroyed",
+        "value": "多方块结构已损坏"
+      },
+      {
+        "key": "Work in progress!",
+        "value": "正在开发中！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.almostreliable.energymeter.client.screen.MeterScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Work in progress!",
+        "value": "正在开发中！"
+      }
+    ]
+  }
+]

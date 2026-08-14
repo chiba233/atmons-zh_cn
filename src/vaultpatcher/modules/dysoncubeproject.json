@@ -1,0 +1,31 @@
+[
+  {
+    "name": "dysoncubeproject_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.buuz135.dysoncubeproject.DysonCubeProject"
+    ],
+    "pairs": [
+      {
+        "key": "Set beams for sphere '",
+        "value": "设置球体 ' 的光束"
+      },
+      {
+        "key": "Set solar panels for sphere '",
+        "value": "为球体设置光伏板 '"
+      },
+      {
+        "key": "Beams for sphere '",
+        "value": "球体的光束 '"
+      },
+      {
+        "key": "Solar panels for sphere '",
+        "value": "球体的太阳能板 '"
+      }
+    ]
+  }
+]

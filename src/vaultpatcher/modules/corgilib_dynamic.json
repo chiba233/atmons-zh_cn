@@ -1,0 +1,31 @@
+[
+  {
+    "name": "corgilib_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "corgitaco.corgilib.client.screen.widget.EmergencyAnnouncementScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Don't Show Again",
+        "value": "不再显示"
+      },
+      {
+        "key": "Back",
+        "value": "返回"
+      },
+      {
+        "key": "Help Corgi Taco",
+        "value": "帮助柯吉塔可"
+      },
+      {
+        "key": "Announcement Info",
+        "value": "公告信息"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "transfer_labels_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.buuz135.transfer_labels.gui.filter.FluidFilterScreenAddon"
+    ],
+    "pairs": [
+      {
+        "key": "Selected Tag: ",
+        "value": "已选标签："
+      },
+      {
+        "key": " None",
+        "value": " 无"
+      },
+      {
+        "key": "Amount: ",
+        "value": "数量： "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.buuz135.transfer_labels.gui.filter.ItemFilterScreenAddon"
+    ],
+    "pairs": [
+      {
+        "key": "Selected Tag: ",
+        "value": "已选标签："
+      },
+      {
+        "key": " None",
+        "value": " 无"
+      },
+      {
+        "key": "Amount: ",
+        "value": "数量： "
+      }
+    ]
+  }
+]

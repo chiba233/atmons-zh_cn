@@ -1,0 +1,3658 @@
+[
+  {
+    "name": "minecolonies_styles_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.client.gui.WindowExtendedBuildTool"
+    ],
+    "pairs": [
+      {
+        "key": "Adapters",
+        "value": "接头"
+      },
+      {
+        "key": "Advanced",
+        "value": "进阶"
+      },
+      {
+        "key": "Agora",
+        "value": "集会广场"
+      },
+      {
+        "key": "Agriculture",
+        "value": "农业"
+      },
+      {
+        "key": "Alley",
+        "value": "巷道"
+      },
+      {
+        "key": "Alleys",
+        "value": "巷道"
+      },
+      {
+        "key": "Alternative",
+        "value": "备选"
+      },
+      {
+        "key": "Aquaducts",
+        "value": "引水渠"
+      },
+      {
+        "key": "Aqueduct",
+        "value": "引水渠"
+      },
+      {
+        "key": "Arches",
+        "value": "拱门"
+      },
+      {
+        "key": "Athenian",
+        "value": "雅典式"
+      },
+      {
+        "key": "Avenues",
+        "value": "大道"
+      },
+      {
+        "key": "Base",
+        "value": "基座"
+      },
+      {
+        "key": "Basic",
+        "value": "基础"
+      },
+      {
+        "key": "Beigestone",
+        "value": "米色石"
+      },
+      {
+        "key": "Big_walls",
+        "value": "大型城墙"
+      },
+      {
+        "key": "Big Walls",
+        "value": "大型城墙"
+      },
+      {
+        "key": "Birail",
+        "value": "双轨"
+      },
+      {
+        "key": "Blackstone",
+        "value": "黑石"
+      },
+      {
+        "key": "Boardwalk",
+        "value": "木栈道"
+      },
+      {
+        "key": "Brick",
+        "value": "砖砌"
+      },
+      {
+        "key": "Bridge",
+        "value": "桥梁"
+      },
+      {
+        "key": "Bridges",
+        "value": "桥梁"
+      },
+      {
+        "key": "Brownstone",
+        "value": "褐石"
+      },
+      {
+        "key": "Canal",
+        "value": "运河"
+      },
+      {
+        "key": "Canals",
+        "value": "运河"
+      },
+      {
+        "key": "Carpentry",
+        "value": "木工"
+      },
+      {
+        "key": "City",
+        "value": "城区"
+      },
+      {
+        "key": "Clay",
+        "value": "黏土"
+      },
+      {
+        "key": "Cliffclimb",
+        "value": "崖道"
+      },
+      {
+        "key": "Cobble",
+        "value": "圆石"
+      },
+      {
+        "key": "Connector_deco",
+        "value": "连接件装饰"
+      },
+      {
+        "key": "Connector Deco",
+        "value": "连接件装饰"
+      },
+      {
+        "key": "Connectors",
+        "value": "连接件"
+      },
+      {
+        "key": "Corner",
+        "value": "转角"
+      },
+      {
+        "key": "Corners",
+        "value": "转角"
+      },
+      {
+        "key": "Craftsmanship",
+        "value": "工艺"
+      },
+      {
+        "key": "Crossroads",
+        "value": "十字路口"
+      },
+      {
+        "key": "Deco",
+        "value": "装饰"
+      },
+      {
+        "key": "Decorations",
+        "value": "装饰"
+      },
+      {
+        "key": "Decorative",
+        "value": "装饰"
+      },
+      {
+        "key": "Deep",
+        "value": "深层"
+      },
+      {
+        "key": "Deepslate",
+        "value": "深板岩"
+      },
+      {
+        "key": "Default",
+        "value": "默认"
+      },
+      {
+        "key": "Education",
+        "value": "教育"
+      },
+      {
+        "key": "Facades",
+        "value": "立面"
+      },
+      {
+        "key": "Fancy",
+        "value": "华丽"
+      },
+      {
+        "key": "Farm",
+        "value": "农场"
+      },
+      {
+        "key": "Fences",
+        "value": "栅栏"
+      },
+      {
+        "key": "Fields",
+        "value": "田地"
+      },
+      {
+        "key": "Fortress",
+        "value": "要塞"
+      },
+      {
+        "key": "Fundamentals",
+        "value": "基础设施"
+      },
+      {
+        "key": "Garden",
+        "value": "花园"
+      },
+      {
+        "key": "Gardens",
+        "value": "花园"
+      },
+      {
+        "key": "Gate",
+        "value": "城门"
+      },
+      {
+        "key": "Gatehouses",
+        "value": "门楼"
+      },
+      {
+        "key": "Gates",
+        "value": "城门"
+      },
+      {
+        "key": "Grand_processional",
+        "value": "仪典大道"
+      },
+      {
+        "key": "Grand Processional",
+        "value": "仪典大道"
+      },
+      {
+        "key": "Halls",
+        "value": "厅堂"
+      },
+      {
+        "key": "Harbor",
+        "value": "港口"
+      },
+      {
+        "key": "Horticulture",
+        "value": "园艺"
+      },
+      {
+        "key": "Housing",
+        "value": "住宅"
+      },
+      {
+        "key": "Husbandry",
+        "value": "畜牧"
+      },
+      {
+        "key": "Infrastructure",
+        "value": "基建"
+      },
+      {
+        "key": "Inland",
+        "value": "内陆"
+      },
+      {
+        "key": "Intersection_deco",
+        "value": "路口装饰"
+      },
+      {
+        "key": "Intersection Deco",
+        "value": "路口装饰"
+      },
+      {
+        "key": "Intersections",
+        "value": "路口"
+      },
+      {
+        "key": "Jetty",
+        "value": "栈桥"
+      },
+      {
+        "key": "Keep",
+        "value": "主堡"
+      },
+      {
+        "key": "Lampposts",
+        "value": "路灯"
+      },
+      {
+        "key": "Lanterns",
+        "value": "灯笼"
+      },
+      {
+        "key": "Large_deco",
+        "value": "大型装饰"
+      },
+      {
+        "key": "Large Deco",
+        "value": "大型装饰"
+      },
+      {
+        "key": "Lights",
+        "value": "照明"
+      },
+      {
+        "key": "Luxury",
+        "value": "豪华"
+      },
+      {
+        "key": "Markets",
+        "value": "市集"
+      },
+      {
+        "key": "Masonry",
+        "value": "石工"
+      },
+      {
+        "key": "Megahall",
+        "value": "巨型厅堂"
+      },
+      {
+        "key": "Megahalls",
+        "value": "巨型厅堂"
+      },
+      {
+        "key": "Metallurgy",
+        "value": "冶金"
+      },
+      {
+        "key": "Military",
+        "value": "军事"
+      },
+      {
+        "key": "Mineshafts",
+        "value": "矿井"
+      },
+      {
+        "key": "Misc",
+        "value": "杂项"
+      },
+      {
+        "key": "Moat",
+        "value": "护城河"
+      },
+      {
+        "key": "Monorail",
+        "value": "单轨"
+      },
+      {
+        "key": "Mycanean",
+        "value": "迈锡尼式"
+      },
+      {
+        "key": "Mystic",
+        "value": "神秘"
+      },
+      {
+        "key": "Narrow",
+        "value": "窄式"
+      },
+      {
+        "key": "Nice",
+        "value": "精致"
+      },
+      {
+        "key": "Oak",
+        "value": "橡木"
+      },
+      {
+        "key": "Original",
+        "value": "原初"
+      },
+      {
+        "key": "Other",
+        "value": "其他"
+      },
+      {
+        "key": "Overground",
+        "value": "地上"
+      },
+      {
+        "key": "Pagodas",
+        "value": "塔楼"
+      },
+      {
+        "key": "Palisade",
+        "value": "木栅"
+      },
+      {
+        "key": "Parks",
+        "value": "公园"
+      },
+      {
+        "key": "Path",
+        "value": "小径"
+      },
+      {
+        "key": "Paths",
+        "value": "小径"
+      },
+      {
+        "key": "Piers",
+        "value": "码头"
+      },
+      {
+        "key": "Plain",
+        "value": "朴素"
+      },
+      {
+        "key": "Planks",
+        "value": "木板"
+      },
+      {
+        "key": "Planning",
+        "value": "规划"
+      },
+      {
+        "key": "Plantation",
+        "value": "种植园"
+      },
+      {
+        "key": "Platforms",
+        "value": "站台"
+      },
+      {
+        "key": "Player_spaces",
+        "value": "玩家空间"
+      },
+      {
+        "key": "Player Spaces",
+        "value": "玩家空间"
+      },
+      {
+        "key": "Playerhome",
+        "value": "玩家住宅"
+      },
+      {
+        "key": "Playerhouse",
+        "value": "玩家住宅"
+      },
+      {
+        "key": "Plaza",
+        "value": "广场"
+      },
+      {
+        "key": "Poor",
+        "value": "简陋"
+      },
+      {
+        "key": "Premium",
+        "value": "精品"
+      },
+      {
+        "key": "Production",
+        "value": "生产"
+      },
+      {
+        "key": "Quarry",
+        "value": "采石场"
+      },
+      {
+        "key": "Quarry_inserts",
+        "value": "采石场配件"
+      },
+      {
+        "key": "Quarry Inserts",
+        "value": "采石场配件"
+      },
+      {
+        "key": "Rail",
+        "value": "铁轨"
+      },
+      {
+        "key": "Rails",
+        "value": "铁轨"
+      },
+      {
+        "key": "Retaining_wall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Retaining Wall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Road",
+        "value": "道路"
+      },
+      {
+        "key": "Roads",
+        "value": "道路"
+      },
+      {
+        "key": "Rural",
+        "value": "乡村"
+      },
+      {
+        "key": "Seawall",
+        "value": "海堤"
+      },
+      {
+        "key": "Segment",
+        "value": "路段"
+      },
+      {
+        "key": "Sewage",
+        "value": "下水道"
+      },
+      {
+        "key": "Shallow",
+        "value": "浅层"
+      },
+      {
+        "key": "Ships",
+        "value": "船只"
+      },
+      {
+        "key": "Shoal",
+        "value": "浅滩"
+      },
+      {
+        "key": "Short",
+        "value": "短式"
+      },
+      {
+        "key": "Simple",
+        "value": "简易"
+      },
+      {
+        "key": "Small_deco",
+        "value": "小型装饰"
+      },
+      {
+        "key": "Small Deco",
+        "value": "小型装饰"
+      },
+      {
+        "key": "Spartan",
+        "value": "斯巴达式"
+      },
+      {
+        "key": "Stairs",
+        "value": "楼梯"
+      },
+      {
+        "key": "Statues",
+        "value": "雕像"
+      },
+      {
+        "key": "Stone",
+        "value": "石制"
+      },
+      {
+        "key": "Storage",
+        "value": "仓储"
+      },
+      {
+        "key": "Streets",
+        "value": "街道"
+      },
+      {
+        "key": "Structures",
+        "value": "建筑"
+      },
+      {
+        "key": "Sturdy",
+        "value": "坚固"
+      },
+      {
+        "key": "Subway",
+        "value": "地铁"
+      },
+      {
+        "key": "Supplies",
+        "value": "补给"
+      },
+      {
+        "key": "Tall",
+        "value": "高式"
+      },
+      {
+        "key": "Tower",
+        "value": "塔楼"
+      },
+      {
+        "key": "Tunnel",
+        "value": "隧道"
+      },
+      {
+        "key": "Tunnelexit",
+        "value": "隧道口"
+      },
+      {
+        "key": "Urban",
+        "value": "都市"
+      },
+      {
+        "key": "Utility",
+        "value": "实用"
+      },
+      {
+        "key": "Vegetation",
+        "value": "植被"
+      },
+      {
+        "key": "Villager",
+        "value": "村民"
+      },
+      {
+        "key": "Wall",
+        "value": "城墙"
+      },
+      {
+        "key": "Walls",
+        "value": "城墙"
+      },
+      {
+        "key": "Waterfront",
+        "value": "滨水"
+      },
+      {
+        "key": "Wide",
+        "value": "宽式"
+      },
+      {
+        "key": "Wood",
+        "value": "木制"
+      },
+      {
+        "key": "Ancient Athens",
+        "value": "古雅典"
+      },
+      {
+        "key": "Caledonia",
+        "value": "喀里多尼亚"
+      },
+      {
+        "key": "Cavern",
+        "value": "洞窟"
+      },
+      {
+        "key": "Colonial",
+        "value": "殖民地"
+      },
+      {
+        "key": "Dark Oak Treehouse",
+        "value": "深色橡木树屋"
+      },
+      {
+        "key": "Desert Oasis",
+        "value": "沙漠绿洲"
+      },
+      {
+        "key": "Incan",
+        "value": "印加"
+      },
+      {
+        "key": "Jungle Treehouse",
+        "value": "丛林树屋"
+      },
+      {
+        "key": "Lost Mesa City",
+        "value": "失落方山之城"
+      },
+      {
+        "key": "Medieval Birch",
+        "value": "中世纪白桦"
+      },
+      {
+        "key": "Medieval Dark Oak",
+        "value": "中世纪深色橡木"
+      },
+      {
+        "key": "Medieval Oak",
+        "value": "中世纪橡木"
+      },
+      {
+        "key": "Medieval Spruce",
+        "value": "中世纪云杉"
+      },
+      {
+        "key": "Minecolonies Original",
+        "value": "MineColonies 原初"
+      },
+      {
+        "key": "Nordic Spruce",
+        "value": "北欧云杉"
+      },
+      {
+        "key": "Pagoda",
+        "value": "塔阁"
+      },
+      {
+        "key": "Shire",
+        "value": "夏尔"
+      },
+      {
+        "key": "Space Wars",
+        "value": "星际战争"
+      },
+      {
+        "key": "Stalactite Caves",
+        "value": "钟乳石洞"
+      },
+      {
+        "key": "Urban Birch",
+        "value": "都市白桦"
+      },
+      {
+        "key": "Urban Savanna",
+        "value": "都市热带草原"
+      },
+      {
+        "key": "Warped Netherlands",
+        "value": "诡异下界"
+      },
+      {
+        "key": "In the heat of the Savanna, you'll find the perfect spot for a place to live. Making use of the native acacia trees, this style is semi-modern, more of a ranch style than an urban one.",
+        "value": "在热带草原的炎热之中，总能找到一处适合安家的好地方。这套风格取材于当地的金合欢木，半现代化，比起都市风更像是牧场风。"
+      },
+      {
+        "key": "In the Age of Aristotle and Plato, a great Mediterranean power dominates the Aegean Sea. Start your own Hellenistic Empire and rival the great Greek capital.",
+        "value": "在亚里士多德与柏拉图的时代，一个地中海强权主宰着爱琴海。建立属于你自己的希腊化帝国，与那座伟大的希腊都城分庭抗礼。"
+      },
+      {
+        "key": "[Beginner] This style is a perfect fit when you plan to settle closely to a birch forest and are looking for a modern look.",
+        "value": "【新手】若你打算在白桦林附近定居，又想要一副现代面貌，这套风格再合适不过。"
+      },
+      {
+        "key": "Welcome to Caledonia! A beautiful mixture of Colonial British and French architecture, nestled in the South Pacific. An urban style, suited for dense housing and grand buildings of all types.",
+        "value": "欢迎来到喀里多尼亚！这是英国殖民地建筑与法式建筑的美妙融合，坐落于南太平洋。属都市风格，适合密集的住宅与各类宏伟建筑。"
+      },
+      {
+        "key": "[Advanced] Delve into the depths of the earth with this interconnecting style! If you like Lego, love Tetris and are obsessed with organization this is the style for you.",
+        "value": "【进阶】用这套彼此咬合的风格深入地底！如果你喜欢乐高、热爱俄罗斯方块、又有整理强迫症，这套风格就是为你准备的。"
+      },
+      {
+        "key": "[Beginner] This is the default MineColonies Style. Set in the early colonial age it mixes elements of neo-classical architecture with an early industrial flavor",
+        "value": "【新手】这是 MineColonies 的默认风格。背景设定在殖民时代早期，糅合了新古典主义建筑元素与早期工业气息。"
+      },
+      {
+        "key": "If building in a spooky forest is an idea that makes you smile, this is the colony design for you! This interconnected treetop set blends in to the surrounding dark oak forest, yet keeps your citizens safe at the same time.",
+        "value": "要是「在阴森的林子里盖房」这个念头让你会心一笑，那这套殖民地设计就是为你准备的！这一整套树冠建筑彼此相连，既融入周围的深色橡木林，又能保住居民的安全。"
+      },
+      {
+        "key": "[Advanced] Every Monarch dreams of having the perfect capital city, where everyone works hard and everything is clean and organized. No pesky holes to fall into, no random heaps of dirt to detour around.",
+        "value": "【进阶】每位君主都梦想拥有一座完美的都城：人人勤勉，处处整洁有序。没有恼人的坑等着你掉进去，也没有莫名其妙的土堆逼你绕道。"
+      },
+      {
+        "key": "Conquer the Andes and grow your own Incan empire! Buildings should be placed on or into the mountain ranges of your growing empire.",
+        "value": "征服安第斯，壮大属于你的印加帝国！建筑应当依山而建，或直接嵌进你日渐扩张的疆域的山脉之中。"
+      },
+      {
+        "key": "Live like the Swiss Family Robinson, or your favorite SciFi movie franchise tree dwellers! This style builds around the native Jungle trees, though you will have to plant your own in many cases. Link the buildings with skyways over the undergrowth of the jungle canopy.",
+        "value": "像《海角乐园》里的一家人那样生活，或者像你最爱的那部科幻电影里的树居族那样！这套风格依托当地的丛林树木而建，不过多数时候你得自己种。用空中廊道把建筑连起来，横跨丛林树冠下的灌木层。"
+      },
+      {
+        "key": "Resurrect the Ruins of the Lost City and restore the Empire to its lost Glory!",
+        "value": "让失落之城的废墟重获新生，让帝国重现昔日荣光！"
+      },
+      {
+        "key": "[Intermediate] Hear ye! A new castle emerges! Find a Good spot near a river and a forest and build your own medieval town! Alt townhall is a castle and regular one's a manor, some buildings are better placed near water and mind the size of the university and library! Those usually go well placed together.",
+        "value": "【进阶】听好了！一座新的城堡拔地而起！在河流与森林旁找块好地方，建起你自己的中世纪城镇！备选的镇厅是城堡，常规的那座是庄园；有些建筑更适合临水而建，另外留意大学与图书馆的占地——这两座通常挨在一起最合适。"
+      },
+      {
+        "key": "The Norsemen are back and are looking for a new Leader. Create a flourishing Norsemen Empire and strike fear in the hearts of your Neighbors!",
+        "value": "北欧人回来了，而且正在物色新的首领。建起一个繁荣的北欧帝国，让邻邦闻风丧胆！"
+      },
+      {
+        "key": "[Beginner] This is the Classic MineColonies Style. It is simplistic in nature and serves a lot of the essential blueprints to raiders, miners, etc.",
+        "value": "【新手】这是 MineColonies 的经典风格。本身走简约路线，为掠夺者、矿工等提供了大量必备蓝图。"
+      },
+      {
+        "key": "Construct your Pagoda Empire and take over all the Cherry Blossom Biomes you can find!",
+        "value": "建起你的塔阁帝国，把能找到的樱花生物群系统统收入囊中！"
+      },
+      {
+        "key": "It's 1001 Nights. Pack in your Magic Carpet and build up your own Desert Empire!",
+        "value": "此刻正是一千零一夜。收好你的魔毯，建起属于你的沙漠帝国！"
+      },
+      {
+        "key": "Welcome to the Shire, where there's mutton to eat, beer to drink, and a nice shady tree to rest under. Pull up a chair and rest up, soon it will be time for Elevenses..",
+        "value": "欢迎来到夏尔——这里有羊肉可吃、有啤酒可喝，还有一棵好乘凉的树。搬把椅子歇歇脚，再过一会儿就该吃早茶了……"
+      },
+      {
+        "key": "[Advanced] It's Space Wars baby! Settle down your favorite desert planet and follow the motto: \"Go Big or Go Home!\" This style is not for the weak of heart, as it uses a lot of resources to build everything. Make sure it's a desert that you build this in.",
+        "value": "【进阶】星际战争，宝贝！在你最中意的沙漠行星上安顿下来，谨记那句箴言：「要么做大，要么滚蛋！」这套风格不适合心志不坚者——把这一切建起来要耗掉海量资源。另外务必确认你是在沙漠里建它。"
+      },
+      {
+        "key": "This is the perfect pack for all the cave dwellers. Build up your colony and let your builder take care of the Stalactites.",
+        "value": "这套包是所有洞穴居民的理想之选。把殖民地建起来，钟乳石交给你的建造师去处理。"
+      },
+      {
+        "key": "The perfect pack to build up a colony in the nether. Beware of Zombified Piglins!",
+        "value": "在下界建立殖民地的理想之选。当心僵尸猪灵！"
+      },
+      {
+        "key": "Antique",
+        "value": "古典"
+      },
+      {
+        "key": "Crimson Keep",
+        "value": "绯红城堡"
+      },
+      {
+        "key": "Farthest Frontier",
+        "value": "最远边疆"
+      },
+      {
+        "key": "Functional Fantasy",
+        "value": "实用奇幻"
+      },
+      {
+        "key": "High Magic",
+        "value": "高等魔法"
+      },
+      {
+        "key": "Hive",
+        "value": "蜂巢"
+      },
+      {
+        "key": "Tropical",
+        "value": "热带"
+      },
+      {
+        "key": "Aquatica",
+        "value": "深海"
+      },
+      {
+        "key": "Corrupted",
+        "value": "腐化"
+      },
+      {
+        "key": "FairyTale",
+        "value": "童话"
+      },
+      {
+        "key": "Frontier",
+        "value": "边疆"
+      },
+      {
+        "key": "Steampunk",
+        "value": "蒸汽朋克"
+      },
+      {
+        "key": "Underwater Base",
+        "value": "海底基地"
+      },
+      {
+        "key": "Byzantine_for_1.20",
+        "value": "拜占庭"
+      },
+      {
+        "key": "Nile",
+        "value": "尼罗河"
+      },
+      {
+        "key": "Rebel_Base",
+        "value": "义军基地"
+      },
+      {
+        "key": "Shogun",
+        "value": "幕府"
+      },
+      {
+        "key": "Sent out by the gods themselves to spread their cult, you venture out to create the most thriving Greek colony the world has ever seen! This style makes heavy use of birch and calcite blocks and is therefore best used in a forest or mountain.",
+        "value": "受诸神亲自派遣去传播他们的教派，你踏上征途，要建起世上最繁盛的希腊殖民地！这套风格大量使用白桦木与方解石，因此最适合建在森林或山地。"
+      },
+      {
+        "key": "A modular keep that is kinda expensive",
+        "value": "一座模块化的城堡，就是有点烧钱。"
+      },
+      {
+        "key": "[Advanced] Based on the strategy game, Farthest Frontier, protect and guide your people as you forge a town from untamed wilderness at the edge of the known world.",
+        "value": "【进阶】取材自策略游戏《最远边疆》。在已知世界的边缘，从蛮荒中开辟一座城镇，护佑并引领你的人民。"
+      },
+      {
+        "key": "Modern architecture and fantasy. Escape proof animal pens and a fire breathing dragon",
+        "value": "现代建筑与奇幻的结合。关得住牲畜的围栏，外加一条会喷火的龙。"
+      },
+      {
+        "key": "A mystical style powered by crystals! Watch as your colonists build crystals and power their buildings",
+        "value": "一套由水晶驱动的神秘风格！看着你的居民造出水晶，再用它们为建筑供能。"
+      },
+      {
+        "key": "Bee-lieve in yourself and build the sweetest home! A complex connected style ideal for hanging in open spaces.",
+        "value": "相「蜂」自己，筑起最甜蜜的家园！这是一套彼此咬合的复杂风格，最适合悬在开阔处。"
+      },
+      {
+        "key": "Get the Beach Towels and enjoy the Beach. Tropical is a stilt based style to be placed above shallow water.",
+        "value": "带上沙滩巾，好好享受海滩。热带风格以高脚桩为基础，建在浅水之上。"
+      },
+      {
+        "key": "Subnautica inspired underwater style! Cobbled DioCrete Hell Garunteed! REQUIRES a Deep Ocean to start.",
+        "value": "灵感来自《深海迷航》的水下风格！保证让你在圆石与混凝土里泡到地老天荒。**必须**从深海开局。"
+      },
+      {
+        "key": "A corrupted pogota",
+        "value": "一座腐化的塔阁。"
+      },
+      {
+        "key": "A town within a magical forest with a secret hidden within the past, present, and future.",
+        "value": "魔法森林中的小镇，秘密藏在过去、现在与未来之中。"
+      },
+      {
+        "key": "Frontier, your home on the range!",
+        "value": "边疆——你在旷野上的家！"
+      },
+      {
+        "key": "Steampunk, Big and Challenging! 'copper hell' - Sapph",
+        "value": "蒸汽朋克，又大又难！「铜之地狱」——Sapph"
+      },
+      {
+        "key": "Exploit the treasures hidden in the DEEPEST oceans. Prepare yourself to clean-up an ocean monument to succeed! Try to settle with in a 20 blocks (at least) deep ocean.",
+        "value": "去发掘**最深**海底埋藏的宝藏。想成功，就做好清空一座海底神殿的准备！尽量选一片至少 20 格深的海域安家。"
+      },
+      {
+        "key": "There is no Room in Rome for a Roman!  XXII",
+        "value": "罗马之中，已无罗马人的容身之地！　XXII"
+      },
+      {
+        "key": "So you want to live forever (1.14)",
+        "value": "这么说，你想永生（1.14）"
+      },
+      {
+        "key": "Rebel Scum Ep.21 (testing some buildings)",
+        "value": "义军渣滓 第 21 集（几栋建筑测试中）"
+      },
+      {
+        "key": "ICHIBAN!  (ni-san ban)",
+        "value": "一番！　（二番、三番）"
+      },
+      {
+        "key": "Local",
+        "value": "本地"
+      },
+      {
+        "key": "This is your local Structurepack. This is where all your scans go.",
+        "value": "这是你自己的本地结构包，你扫描保存的建筑都会存到这里。"
+      },
+      {
+        "key": "Ancient Athens",
+        "value": "@古雅典"
+      },
+      {
+        "key": "Antique",
+        "value": "@古典"
+      },
+      {
+        "key": "Aquatica",
+        "value": "@深海"
+      },
+      {
+        "key": "Byzantine_for_1.20",
+        "value": "@拜占庭"
+      },
+      {
+        "key": "Caledonia",
+        "value": "@喀里多尼亚"
+      },
+      {
+        "key": "Cavern",
+        "value": "@洞窟"
+      },
+      {
+        "key": "Colonial",
+        "value": "@殖民地"
+      },
+      {
+        "key": "Corrupted",
+        "value": "@腐化"
+      },
+      {
+        "key": "Crimson Keep",
+        "value": "@绯红城堡"
+      },
+      {
+        "key": "Dark Oak Treehouse",
+        "value": "@深色橡木树屋"
+      },
+      {
+        "key": "Desert Oasis",
+        "value": "@沙漠绿洲"
+      },
+      {
+        "key": "FairyTale",
+        "value": "@童话"
+      },
+      {
+        "key": "Farthest ",
+        "value": "@最远"
+      },
+      {
+        "key": "Fortress",
+        "value": "@要塞"
+      },
+      {
+        "key": "Frontier",
+        "value": "@边疆"
+      },
+      {
+        "key": "Functional Fantasy",
+        "value": "@实用奇幻"
+      },
+      {
+        "key": "High Magic",
+        "value": "@高等魔法"
+      },
+      {
+        "key": "Hive",
+        "value": "@蜂巢"
+      },
+      {
+        "key": "Incan",
+        "value": "@印加"
+      },
+      {
+        "key": "Jungle Treehouse",
+        "value": "@丛林树屋"
+      },
+      {
+        "key": "Lost Mesa City",
+        "value": "@失落方山之城"
+      },
+      {
+        "key": "Medieval Birch",
+        "value": "@中世纪白桦"
+      },
+      {
+        "key": "Medieval Dark Oak",
+        "value": "@中世纪深色橡木"
+      },
+      {
+        "key": "Medieval Oak",
+        "value": "@中世纪橡木"
+      },
+      {
+        "key": "Medieval Spruce",
+        "value": "@中世纪云杉"
+      },
+      {
+        "key": "Minecolonies Original",
+        "value": "@MineColonies 原初"
+      },
+      {
+        "key": "Nile",
+        "value": "@尼罗河"
+      },
+      {
+        "key": "Nordic Spruce",
+        "value": "@北欧云杉"
+      },
+      {
+        "key": "Pagoda",
+        "value": "@塔阁"
+      },
+      {
+        "key": "Rebel_Base",
+        "value": "@义军基地"
+      },
+      {
+        "key": "Shire",
+        "value": "@夏尔"
+      },
+      {
+        "key": "Shogun",
+        "value": "@幕府"
+      },
+      {
+        "key": "Space Wars",
+        "value": "@星际战争"
+      },
+      {
+        "key": "Stalactite Caves",
+        "value": "@钟乳石洞"
+      },
+      {
+        "key": "Steampunk",
+        "value": "@蒸汽朋克"
+      },
+      {
+        "key": "Tropical",
+        "value": "@热带"
+      },
+      {
+        "key": "Underwater Base",
+        "value": "@海底基地"
+      },
+      {
+        "key": "Urban Birch",
+        "value": "@都市白桦"
+      },
+      {
+        "key": "Urban Savanna",
+        "value": "@都市热带草原"
+      },
+      {
+        "key": "Warped Netherlands",
+        "value": "@诡异下界"
+      },
+      {
+        "key": "Agri",
+        "value": "农业"
+      },
+      {
+        "key": "Andesite",
+        "value": "安山岩"
+      },
+      {
+        "key": "Apartments",
+        "value": "公寓"
+      },
+      {
+        "key": "Avenue",
+        "value": "大道"
+      },
+      {
+        "key": "Avenue_early",
+        "value": "大道·早期"
+      },
+      {
+        "key": "Avenue_odd",
+        "value": "大道·奇数段"
+      },
+      {
+        "key": "Avenueodd",
+        "value": "大道·奇数段"
+      },
+      {
+        "key": "Avenueodd_early",
+        "value": "大道·奇数段·早期"
+      },
+      {
+        "key": "Azalea",
+        "value": "杜鹃"
+      },
+      {
+        "key": "Bamboo",
+        "value": "竹"
+      },
+      {
+        "key": "Barracks",
+        "value": "兵营"
+      },
+      {
+        "key": "Beds",
+        "value": "苗床"
+      },
+      {
+        "key": "Big",
+        "value": "大型"
+      },
+      {
+        "key": "Bonsai",
+        "value": "盆景"
+      },
+      {
+        "key": "Bottom",
+        "value": "底层"
+      },
+      {
+        "key": "Boulevard",
+        "value": "林荫大道"
+      },
+      {
+        "key": "Builder",
+        "value": "建筑工"
+      },
+      {
+        "key": "Building",
+        "value": "建筑"
+      },
+      {
+        "key": "Bush",
+        "value": "灌木"
+      },
+      {
+        "key": "Calcite",
+        "value": "方解石"
+      },
+      {
+        "key": "Carveout",
+        "value": "开凿"
+      },
+      {
+        "key": "Castle",
+        "value": "城堡"
+      },
+      {
+        "key": "Catwalk",
+        "value": "步道"
+      },
+      {
+        "key": "Ceiling",
+        "value": "天花板"
+      },
+      {
+        "key": "Central",
+        "value": "中心"
+      },
+      {
+        "key": "Charioteer",
+        "value": "战车"
+      },
+      {
+        "key": "Chunks",
+        "value": "区块"
+      },
+      {
+        "key": "Church",
+        "value": "教堂"
+      },
+      {
+        "key": "City planning",
+        "value": "城市规划"
+      },
+      {
+        "key": "City_flat",
+        "value": "城市·平地"
+      },
+      {
+        "key": "City_gate",
+        "value": "城门"
+      },
+      {
+        "key": "City_incline",
+        "value": "城市·坡地"
+      },
+      {
+        "key": "City_walltower",
+        "value": "城墙塔楼"
+      },
+      {
+        "key": "Concrete",
+        "value": "混凝土"
+      },
+      {
+        "key": "Conifer",
+        "value": "针叶树"
+      },
+      {
+        "key": "Connector",
+        "value": "连接段"
+      },
+      {
+        "key": "Cornersection",
+        "value": "转角段"
+      },
+      {
+        "key": "Corridors",
+        "value": "走廊"
+      },
+      {
+        "key": "Covered",
+        "value": "带顶"
+      },
+      {
+        "key": "Crossing",
+        "value": "交叉口"
+      },
+      {
+        "key": "Crystals",
+        "value": "水晶"
+      },
+      {
+        "key": "Dark",
+        "value": "深色"
+      },
+      {
+        "key": "Decorated",
+        "value": "带装饰"
+      },
+      {
+        "key": "Diag",
+        "value": "斜向"
+      },
+      {
+        "key": "Diorite",
+        "value": "闪长岩"
+      },
+      {
+        "key": "Districts",
+        "value": "街区"
+      },
+      {
+        "key": "Dummytower",
+        "value": "占位塔"
+      },
+      {
+        "key": "Early",
+        "value": "早期"
+      },
+      {
+        "key": "Edge",
+        "value": "边缘"
+      },
+      {
+        "key": "End",
+        "value": "末端"
+      },
+      {
+        "key": "Estate",
+        "value": "庄园"
+      },
+      {
+        "key": "Estates",
+        "value": "庄园"
+      },
+      {
+        "key": "Farms",
+        "value": "农场"
+      },
+      {
+        "key": "Field",
+        "value": "田地"
+      },
+      {
+        "key": "Field_structures",
+        "value": "田间建筑"
+      },
+      {
+        "key": "Field_tower",
+        "value": "田间塔楼"
+      },
+      {
+        "key": "Flat",
+        "value": "平地"
+      },
+      {
+        "key": "Flowerbeds",
+        "value": "花坛"
+      },
+      {
+        "key": "Fort",
+        "value": "堡垒"
+      },
+      {
+        "key": "Forum",
+        "value": "集会广场"
+      },
+      {
+        "key": "Fullhigh",
+        "value": "全高"
+      },
+      {
+        "key": "Functional",
+        "value": "实用"
+      },
+      {
+        "key": "Gatehouse",
+        "value": "门楼"
+      },
+      {
+        "key": "Glass",
+        "value": "玻璃"
+      },
+      {
+        "key": "Greens",
+        "value": "绿地"
+      },
+      {
+        "key": "Hangarbay",
+        "value": "机库"
+      },
+      {
+        "key": "Hospital",
+        "value": "医院"
+      },
+      {
+        "key": "House",
+        "value": "住宅"
+      },
+      {
+        "key": "Hut",
+        "value": "小屋"
+      },
+      {
+        "key": "Incline",
+        "value": "坡道"
+      },
+      {
+        "key": "Inclines",
+        "value": "坡道"
+      },
+      {
+        "key": "Insulae_corners",
+        "value": "公寓转角"
+      },
+      {
+        "key": "Insulae_ends",
+        "value": "公寓端段"
+      },
+      {
+        "key": "Insulae_middles",
+        "value": "公寓中段"
+      },
+      {
+        "key": "Jungle",
+        "value": "丛林"
+      },
+      {
+        "key": "Late",
+        "value": "后期"
+      },
+      {
+        "key": "Leisure",
+        "value": "休闲"
+      },
+      {
+        "key": "Light post",
+        "value": "灯柱"
+      },
+      {
+        "key": "Lighting",
+        "value": "照明"
+      },
+      {
+        "key": "Long",
+        "value": "长"
+      },
+      {
+        "key": "Low",
+        "value": "低矮"
+      },
+      {
+        "key": "Machiya",
+        "value": "町屋"
+      },
+      {
+        "key": "Main",
+        "value": "主体"
+      },
+      {
+        "key": "Main_odd",
+        "value": "主体·奇数段"
+      },
+      {
+        "key": "Mangrove",
+        "value": "红树"
+      },
+      {
+        "key": "Market",
+        "value": "市场"
+      },
+      {
+        "key": "Mid",
+        "value": "中段"
+      },
+      {
+        "key": "Modules",
+        "value": "模块"
+      },
+      {
+        "key": "Moss",
+        "value": "苔藓"
+      },
+      {
+        "key": "Orchard",
+        "value": "果园"
+      },
+      {
+        "key": "Palisades",
+        "value": "木栅栏"
+      },
+      {
+        "key": "Pier",
+        "value": "码头"
+      },
+      {
+        "key": "Planking",
+        "value": "木板"
+      },
+      {
+        "key": "Plantation fields",
+        "value": "种植园田地"
+      },
+      {
+        "key": "Plantation_Fields",
+        "value": "种植园田地"
+      },
+      {
+        "key": "Planters",
+        "value": "花箱"
+      },
+      {
+        "key": "Player",
+        "value": "玩家"
+      },
+      {
+        "key": "Players",
+        "value": "玩家"
+      },
+      {
+        "key": "Plaza_end",
+        "value": "广场端段"
+      },
+      {
+        "key": "Plaza_endodd",
+        "value": "广场端段·奇数"
+      },
+      {
+        "key": "Plaza_mid",
+        "value": "广场中段"
+      },
+      {
+        "key": "Plaza_midodd",
+        "value": "广场中段·奇数"
+      },
+      {
+        "key": "Plaza_single",
+        "value": "广场单段"
+      },
+      {
+        "key": "Plaza_singleodd",
+        "value": "广场单段·奇数"
+      },
+      {
+        "key": "Plaza_sublevel",
+        "value": "广场下层"
+      },
+      {
+        "key": "Plaza_sublevelodd",
+        "value": "广场下层·奇数"
+      },
+      {
+        "key": "Pond",
+        "value": "池塘"
+      },
+      {
+        "key": "Pools",
+        "value": "水池"
+      },
+      {
+        "key": "Profession",
+        "value": "职业"
+      },
+      {
+        "key": "Quarrycover",
+        "value": "采石场顶盖"
+      },
+      {
+        "key": "Recreation",
+        "value": "休闲"
+      },
+      {
+        "key": "Regular",
+        "value": "常规"
+      },
+      {
+        "key": "Resources",
+        "value": "资源"
+      },
+      {
+        "key": "Restaurant",
+        "value": "餐馆"
+      },
+      {
+        "key": "Retainingwall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Rock",
+        "value": "岩石"
+      },
+      {
+        "key": "Roof",
+        "value": "屋顶"
+      },
+      {
+        "key": "Rooms",
+        "value": "房间"
+      },
+      {
+        "key": "Sakura",
+        "value": "樱花"
+      },
+      {
+        "key": "Seawall_tall",
+        "value": "高海堤"
+      },
+      {
+        "key": "Sewer",
+        "value": "下水道"
+      },
+      {
+        "key": "Ship",
+        "value": "船只"
+      },
+      {
+        "key": "Side",
+        "value": "侧向"
+      },
+      {
+        "key": "Sideramp",
+        "value": "侧坡道"
+      },
+      {
+        "key": "Siegeworks",
+        "value": "攻城工事"
+      },
+      {
+        "key": "Singlefloor",
+        "value": "单层"
+      },
+      {
+        "key": "Slope",
+        "value": "斜坡"
+      },
+      {
+        "key": "Small",
+        "value": "小型"
+      },
+      {
+        "key": "Spruce",
+        "value": "云杉"
+      },
+      {
+        "key": "Square",
+        "value": "广场"
+      },
+      {
+        "key": "Stables",
+        "value": "马厩"
+      },
+      {
+        "key": "Stair",
+        "value": "楼梯"
+      },
+      {
+        "key": "Statue",
+        "value": "雕像"
+      },
+      {
+        "key": "Straight",
+        "value": "直段"
+      },
+      {
+        "key": "Structure",
+        "value": "建筑"
+      },
+      {
+        "key": "T_junction",
+        "value": "丁字路口"
+      },
+      {
+        "key": "Tavern",
+        "value": "酒馆"
+      },
+      {
+        "key": "Terrace",
+        "value": "露台"
+      },
+      {
+        "key": "Tomb",
+        "value": "陵墓"
+      },
+      {
+        "key": "Top",
+        "value": "顶层"
+      },
+      {
+        "key": "Tower_big",
+        "value": "大型塔楼"
+      },
+      {
+        "key": "Tower_small",
+        "value": "小型塔楼"
+      },
+      {
+        "key": "Town_hall",
+        "value": "市政厅"
+      },
+      {
+        "key": "Transport",
+        "value": "运输"
+      },
+      {
+        "key": "Traps",
+        "value": "陷阱"
+      },
+      {
+        "key": "Trees",
+        "value": "树木"
+      },
+      {
+        "key": "Trojan",
+        "value": "特洛伊式"
+      },
+      {
+        "key": "Tunnels",
+        "value": "隧道"
+      },
+      {
+        "key": "Twofloor",
+        "value": "双层"
+      },
+      {
+        "key": "Utility cells",
+        "value": "功能单元"
+      },
+      {
+        "key": "Venetian",
+        "value": "威尼斯式"
+      },
+      {
+        "key": "Wall_main",
+        "value": "主城墙"
+      },
+      {
+        "key": "Wall_small",
+        "value": "小城墙"
+      },
+      {
+        "key": "Warship",
+        "value": "战舰"
+      },
+      {
+        "key": "Waterway",
+        "value": "水道"
+      },
+      {
+        "key": "Wheels",
+        "value": "轮机"
+      },
+      {
+        "key": "Wonders",
+        "value": "奇观"
+      },
+      {
+        "key": "Wooden",
+        "value": "木质"
+      },
+      {
+        "key": "Allow Player Schematics",
+        "value": "@允许玩家结构图"
+      },
+      {
+        "key": "Should player-made schematics be allowed?",
+        "value": "@是否应允许玩家自制的结构？"
+      },
+      {
+        "key": "Blueprint",
+        "value": "蓝图"
+      },
+      {
+        "key": "Blueprint related settings",
+        "value": "@蓝图相关设置"
+      },
+      {
+        "key": "Gameplay",
+        "value": "@游戏玩法"
+      },
+      {
+        "key": "All configuration items related to the core gameplay",
+        "value": "@所有与核心玩法相关的配置项"
+      },
+      {
+        "key": "Ignore Schematics from Jar",
+        "value": "@忽略来自 Jar 的蓝图"
+      },
+      {
+        "key": "Should the default schematics be ignored (from the jar)?",
+        "value": "@是否应忽略默认蓝图（来自 jar）？"
+      },
+      {
+        "key": "The iteration order on structure placement",
+        "value": "@放置结构时的迭代顺序"
+      },
+      {
+        "key": "Currently supports 'default', 'inwardcircle', 'hilbert', 'random' and 'inwardcircleheight1' to 'inwardcircleheight4'",
+        "value": "@当前支持 'default'、'inwardcircle'、'hilbert'、'random' 以及 'inwardcircleheight1' 到 'inwardcircleheight4'"
+      },
+      {
+        "key": "Light level for previews",
+        "value": "@预览的亮度等级"
+      },
+      {
+        "key": "-1 for same as current vanilla world, 0 to 15 (min to max) for static light level",
+        "value": "@-1 表示与当前原版世界相同，0 到 15（最小到最大）表示固定光照等级"
+      },
+      {
+        "key": "Max Blocks Checked",
+        "value": "@最多检查方块数"
+      },
+      {
+        "key": "Max amount of blocks checked by a possible worker.",
+        "value": "@可能的工作者可检查的方块最大数量。"
+      },
+      {
+        "key": "Max Cached Changes",
+        "value": "@最大缓存更改数"
+      },
+      {
+        "key": "Max amount of undos saved. A higher number requires more memory.",
+        "value": "@保存的最大撤销次数。数值越高，需要的内存越多。"
+      },
+      {
+        "key": "Max Cached Schematics",
+        "value": "@最大缓存结构数量"
+      },
+      {
+        "key": "Max amount of schematics to be cached on the server.",
+        "value": "@服务器上可缓存的结构最大数量。"
+      },
+      {
+        "key": "Max Operations per Tick",
+        "value": "@每个游戏刻最大操作数"
+      },
+      {
+        "key": "Max world operations per tick (max blocks to place, remove, or replace).",
+        "value": "@每刻最大世界操作数（最多可放置、移除或替换的方块数）。"
+      },
+      {
+        "key": "Render placeholders as target blocks",
+        "value": "@将占位符渲染为目标方块（不建议启用）"
+      },
+      {
+        "key": "If disabled show placeholders as normal blocks, if enabled render: any (light) -> nothing, fluid (blue) -> dimension default fluid, solid (brown) -> worldgen block, tag (transparent) -> content block. Fluid and solid only work in singleplayer/for LAN owner, else it's just best guess. Currently without auto-updating",
+        "value": "@禁用时将占位符显示为普通方块；启用时渲染为：任意（浅色）-> 无，流体（蓝色）-> 维度默认流体，固体（棕色）-> 世界生成方块，标签（透明）-> 内容方块。流体和固体仅在单人游戏中/对局域网房主生效，否则只会进行尽力猜测。当前不会自动更新"
+      },
+      {
+        "key": "Blueprint Preview Renderer",
+        "value": "@蓝图预览渲染器"
+      },
+      {
+        "key": "Affects all previews",
+        "value": "@影响所有预览"
+      },
+      {
+        "key": "Scan Tool Scrolling",
+        "value": "@扫描工具滚动"
+      },
+      {
+        "key": "Sneak+scroll on the hotbar switches scan tool slots",
+        "value": "@在快捷栏上潜行并滚动可切换扫描工具槽位"
+      },
+      {
+        "key": "Scan block limit",
+        "value": "@扫描方块限制"
+      },
+      {
+        "key": "How many block at most can be inside one scanned blueprint.",
+        "value": "@一个已扫描的蓝图内最多可以包含多少个方块。"
+      },
+      {
+        "key": "See previews from others",
+        "value": "@查看他人的预览"
+      },
+      {
+        "key": "Once enabled you will see previews from other players within sensible distance",
+        "value": "@启用后，你将看到合理距离内其他玩家的预览"
+      },
+      {
+        "key": "Share previews to others",
+        "value": "@向他人分享预览"
+      },
+      {
+        "key": "Enabling this will send most of your active previews to nearby players",
+        "value": "@启用此项后，你的大多数活动预览将发送给附近玩家"
+      },
+      {
+        "key": "Teleportation",
+        "value": "瞬身术"
+      },
+      {
+        "key": "Configuration related to scan tool teleportation",
+        "value": "@与扫描工具传送相关的配置"
+      },
+      {
+        "key": "Teleportation Permitted",
+        "value": "@允许传送"
+      },
+      {
+        "key": "If creative-mode players can use the scan tool to teleport to/from their builds.",
+        "value": "@创造模式玩家是否可以使用扫描工具在自己的建筑与当前位置之间传送。"
+      },
+      {
+        "key": "Build Direction",
+        "value": "@建筑物方向"
+      },
+      {
+        "key": "When teleporting to a build, land on this side of it.",
+        "value": "@传送到构筑时，会落在它的这一侧。"
+      },
+      {
+        "key": "Build Distance",
+        "value": "@建筑物距离"
+      },
+      {
+        "key": "When teleporting to a build, land this far away from it.",
+        "value": "@传送到构筑时，落点会与其保持这么远的距离。"
+      },
+      {
+        "key": "Safety Check",
+        "value": "@安全检查"
+      },
+      {
+        "key": "Allow teleporting a little distance away if the landing area is blocked; disable to teleport exactly to target.",
+        "value": "@如果着陆区域被阻挡，则允许传送到稍远一点的位置；禁用后将精确传送到目标位置。"
+      },
+      {
+        "key": "Transparency of non-transparent things",
+        "value": "@非透明物体的透明度"
+      },
+      {
+        "key": "From 0 (transparent) to 1 (opaque). ALPHA FEATURE, reported bugs may not receive fix. (Minus values also mean disabled)",
+        "value": "@从 0（透明）到 1（不透明）。Alpha 功能，已报告的漏洞可能不会被修复。（负值也表示禁用）"
+      },
+      {
+        "key": "Transparent rendering will in most situations look somewhat correctly. But you might face situations under which looking through transparent preview will make the rendered result weird, wrong or even may enable you to see through other things. Are you sure you want to change the transparency config?",
+        "value": "@透明渲染在大多数情况下看起来基本正确。但在某些情况下，透过透明预览观察可能会导致渲染结果变得奇怪、错误，甚至可能让你看穿其他东西。你确定要更改透明度配置吗？"
+      },
+      {
+        "key": "[Default: ",
+        "value": "@[默认："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.client.gui.WindowSwitchPack"
+    ],
+    "pairs": [
+      {
+        "key": "Adapters",
+        "value": "接头"
+      },
+      {
+        "key": "Advanced",
+        "value": "进阶"
+      },
+      {
+        "key": "Agora",
+        "value": "集会广场"
+      },
+      {
+        "key": "Agriculture",
+        "value": "农业"
+      },
+      {
+        "key": "Alley",
+        "value": "巷道"
+      },
+      {
+        "key": "Alleys",
+        "value": "巷道"
+      },
+      {
+        "key": "Alternative",
+        "value": "备选"
+      },
+      {
+        "key": "Aquaducts",
+        "value": "引水渠"
+      },
+      {
+        "key": "Aqueduct",
+        "value": "引水渠"
+      },
+      {
+        "key": "Arches",
+        "value": "拱门"
+      },
+      {
+        "key": "Athenian",
+        "value": "雅典式"
+      },
+      {
+        "key": "Avenues",
+        "value": "大道"
+      },
+      {
+        "key": "Base",
+        "value": "基座"
+      },
+      {
+        "key": "Basic",
+        "value": "基础"
+      },
+      {
+        "key": "Beigestone",
+        "value": "米色石"
+      },
+      {
+        "key": "Big_walls",
+        "value": "大型城墙"
+      },
+      {
+        "key": "Big Walls",
+        "value": "大型城墙"
+      },
+      {
+        "key": "Birail",
+        "value": "双轨"
+      },
+      {
+        "key": "Blackstone",
+        "value": "黑石"
+      },
+      {
+        "key": "Boardwalk",
+        "value": "木栈道"
+      },
+      {
+        "key": "Brick",
+        "value": "砖砌"
+      },
+      {
+        "key": "Bridge",
+        "value": "桥梁"
+      },
+      {
+        "key": "Bridges",
+        "value": "桥梁"
+      },
+      {
+        "key": "Brownstone",
+        "value": "褐石"
+      },
+      {
+        "key": "Canal",
+        "value": "运河"
+      },
+      {
+        "key": "Canals",
+        "value": "运河"
+      },
+      {
+        "key": "Carpentry",
+        "value": "木工"
+      },
+      {
+        "key": "City",
+        "value": "城区"
+      },
+      {
+        "key": "Clay",
+        "value": "黏土"
+      },
+      {
+        "key": "Cliffclimb",
+        "value": "崖道"
+      },
+      {
+        "key": "Cobble",
+        "value": "圆石"
+      },
+      {
+        "key": "Connector_deco",
+        "value": "连接件装饰"
+      },
+      {
+        "key": "Connector Deco",
+        "value": "连接件装饰"
+      },
+      {
+        "key": "Connectors",
+        "value": "连接件"
+      },
+      {
+        "key": "Corner",
+        "value": "转角"
+      },
+      {
+        "key": "Corners",
+        "value": "转角"
+      },
+      {
+        "key": "Craftsmanship",
+        "value": "工艺"
+      },
+      {
+        "key": "Crossroads",
+        "value": "十字路口"
+      },
+      {
+        "key": "Deco",
+        "value": "装饰"
+      },
+      {
+        "key": "Decorations",
+        "value": "装饰"
+      },
+      {
+        "key": "Decorative",
+        "value": "装饰"
+      },
+      {
+        "key": "Deep",
+        "value": "深层"
+      },
+      {
+        "key": "Deepslate",
+        "value": "深板岩"
+      },
+      {
+        "key": "Default",
+        "value": "默认"
+      },
+      {
+        "key": "Education",
+        "value": "教育"
+      },
+      {
+        "key": "Facades",
+        "value": "立面"
+      },
+      {
+        "key": "Fancy",
+        "value": "华丽"
+      },
+      {
+        "key": "Farm",
+        "value": "农场"
+      },
+      {
+        "key": "Fences",
+        "value": "栅栏"
+      },
+      {
+        "key": "Fields",
+        "value": "田地"
+      },
+      {
+        "key": "Fortress",
+        "value": "要塞"
+      },
+      {
+        "key": "Fundamentals",
+        "value": "基础设施"
+      },
+      {
+        "key": "Gardens",
+        "value": "花园"
+      },
+      {
+        "key": "Gate",
+        "value": "城门"
+      },
+      {
+        "key": "Gatehouses",
+        "value": "门楼"
+      },
+      {
+        "key": "Gates",
+        "value": "城门"
+      },
+      {
+        "key": "Grand_processional",
+        "value": "仪典大道"
+      },
+      {
+        "key": "Grand Processional",
+        "value": "仪典大道"
+      },
+      {
+        "key": "Halls",
+        "value": "厅堂"
+      },
+      {
+        "key": "Harbor",
+        "value": "港口"
+      },
+      {
+        "key": "Horticulture",
+        "value": "园艺"
+      },
+      {
+        "key": "Housing",
+        "value": "住宅"
+      },
+      {
+        "key": "Husbandry",
+        "value": "畜牧"
+      },
+      {
+        "key": "Infrastructure",
+        "value": "基建"
+      },
+      {
+        "key": "Inland",
+        "value": "内陆"
+      },
+      {
+        "key": "Intersection_deco",
+        "value": "路口装饰"
+      },
+      {
+        "key": "Intersection Deco",
+        "value": "路口装饰"
+      },
+      {
+        "key": "Intersections",
+        "value": "路口"
+      },
+      {
+        "key": "Jetty",
+        "value": "栈桥"
+      },
+      {
+        "key": "Lampposts",
+        "value": "路灯"
+      },
+      {
+        "key": "Lanterns",
+        "value": "灯笼"
+      },
+      {
+        "key": "Large_deco",
+        "value": "大型装饰"
+      },
+      {
+        "key": "Large Deco",
+        "value": "大型装饰"
+      },
+      {
+        "key": "Lights",
+        "value": "照明"
+      },
+      {
+        "key": "Luxury",
+        "value": "豪华"
+      },
+      {
+        "key": "Markets",
+        "value": "市集"
+      },
+      {
+        "key": "Masonry",
+        "value": "石工"
+      },
+      {
+        "key": "Megahall",
+        "value": "巨型厅堂"
+      },
+      {
+        "key": "Megahalls",
+        "value": "巨型厅堂"
+      },
+      {
+        "key": "Metallurgy",
+        "value": "冶金"
+      },
+      {
+        "key": "Military",
+        "value": "军事"
+      },
+      {
+        "key": "Mineshafts",
+        "value": "矿井"
+      },
+      {
+        "key": "Misc",
+        "value": "杂项"
+      },
+      {
+        "key": "Moat",
+        "value": "护城河"
+      },
+      {
+        "key": "Monorail",
+        "value": "单轨"
+      },
+      {
+        "key": "Mycanean",
+        "value": "迈锡尼式"
+      },
+      {
+        "key": "Mystic",
+        "value": "神秘"
+      },
+      {
+        "key": "Narrow",
+        "value": "窄式"
+      },
+      {
+        "key": "Nice",
+        "value": "精致"
+      },
+      {
+        "key": "Oak",
+        "value": "橡木"
+      },
+      {
+        "key": "Original",
+        "value": "原初"
+      },
+      {
+        "key": "Other",
+        "value": "其他"
+      },
+      {
+        "key": "Overground",
+        "value": "地上"
+      },
+      {
+        "key": "Pagodas",
+        "value": "塔楼"
+      },
+      {
+        "key": "Palisade",
+        "value": "木栅"
+      },
+      {
+        "key": "Parks",
+        "value": "公园"
+      },
+      {
+        "key": "Path",
+        "value": "小径"
+      },
+      {
+        "key": "Paths",
+        "value": "小径"
+      },
+      {
+        "key": "Piers",
+        "value": "码头"
+      },
+      {
+        "key": "Plain",
+        "value": "朴素"
+      },
+      {
+        "key": "Planks",
+        "value": "木板"
+      },
+      {
+        "key": "Planning",
+        "value": "规划"
+      },
+      {
+        "key": "Plantation",
+        "value": "种植园"
+      },
+      {
+        "key": "Platforms",
+        "value": "站台"
+      },
+      {
+        "key": "Player_spaces",
+        "value": "玩家空间"
+      },
+      {
+        "key": "Player Spaces",
+        "value": "玩家空间"
+      },
+      {
+        "key": "Playerhome",
+        "value": "玩家住宅"
+      },
+      {
+        "key": "Playerhouse",
+        "value": "玩家住宅"
+      },
+      {
+        "key": "Plaza",
+        "value": "广场"
+      },
+      {
+        "key": "Poor",
+        "value": "简陋"
+      },
+      {
+        "key": "Premium",
+        "value": "精品"
+      },
+      {
+        "key": "Quarry",
+        "value": "采石场"
+      },
+      {
+        "key": "Quarry_inserts",
+        "value": "采石场配件"
+      },
+      {
+        "key": "Quarry Inserts",
+        "value": "采石场配件"
+      },
+      {
+        "key": "Rail",
+        "value": "铁轨"
+      },
+      {
+        "key": "Rails",
+        "value": "铁轨"
+      },
+      {
+        "key": "Retaining_wall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Retaining Wall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Road",
+        "value": "道路"
+      },
+      {
+        "key": "Roads",
+        "value": "道路"
+      },
+      {
+        "key": "Rural",
+        "value": "乡村"
+      },
+      {
+        "key": "Seawall",
+        "value": "海堤"
+      },
+      {
+        "key": "Segment",
+        "value": "路段"
+      },
+      {
+        "key": "Sewage",
+        "value": "下水道"
+      },
+      {
+        "key": "Shallow",
+        "value": "浅层"
+      },
+      {
+        "key": "Ships",
+        "value": "船只"
+      },
+      {
+        "key": "Shoal",
+        "value": "浅滩"
+      },
+      {
+        "key": "Short",
+        "value": "短式"
+      },
+      {
+        "key": "Simple",
+        "value": "简易"
+      },
+      {
+        "key": "Small_deco",
+        "value": "小型装饰"
+      },
+      {
+        "key": "Small Deco",
+        "value": "小型装饰"
+      },
+      {
+        "key": "Spartan",
+        "value": "斯巴达式"
+      },
+      {
+        "key": "Stairs",
+        "value": "楼梯"
+      },
+      {
+        "key": "Statues",
+        "value": "雕像"
+      },
+      {
+        "key": "Stone",
+        "value": "石制"
+      },
+      {
+        "key": "Storage",
+        "value": "仓储"
+      },
+      {
+        "key": "Streets",
+        "value": "街道"
+      },
+      {
+        "key": "Structures",
+        "value": "建筑"
+      },
+      {
+        "key": "Sturdy",
+        "value": "坚固"
+      },
+      {
+        "key": "Subway",
+        "value": "地铁"
+      },
+      {
+        "key": "Supplies",
+        "value": "补给"
+      },
+      {
+        "key": "Tall",
+        "value": "高式"
+      },
+      {
+        "key": "Tower",
+        "value": "塔楼"
+      },
+      {
+        "key": "Tunnel",
+        "value": "隧道"
+      },
+      {
+        "key": "Tunnelexit",
+        "value": "隧道口"
+      },
+      {
+        "key": "Urban",
+        "value": "都市"
+      },
+      {
+        "key": "Utility",
+        "value": "实用"
+      },
+      {
+        "key": "Vegetation",
+        "value": "植被"
+      },
+      {
+        "key": "Villager",
+        "value": "村民"
+      },
+      {
+        "key": "Wall",
+        "value": "城墙"
+      },
+      {
+        "key": "Walls",
+        "value": "城墙"
+      },
+      {
+        "key": "Waterfront",
+        "value": "滨水"
+      },
+      {
+        "key": "Wide",
+        "value": "宽式"
+      },
+      {
+        "key": "Wood",
+        "value": "木制"
+      },
+      {
+        "key": "Ancient Athens",
+        "value": "古雅典"
+      },
+      {
+        "key": "Caledonia",
+        "value": "喀里多尼亚"
+      },
+      {
+        "key": "Cavern",
+        "value": "洞窟"
+      },
+      {
+        "key": "Colonial",
+        "value": "殖民地"
+      },
+      {
+        "key": "Dark Oak Treehouse",
+        "value": "深色橡木树屋"
+      },
+      {
+        "key": "Desert Oasis",
+        "value": "沙漠绿洲"
+      },
+      {
+        "key": "Incan",
+        "value": "印加"
+      },
+      {
+        "key": "Jungle Treehouse",
+        "value": "丛林树屋"
+      },
+      {
+        "key": "Lost Mesa City",
+        "value": "失落方山之城"
+      },
+      {
+        "key": "Medieval Birch",
+        "value": "中世纪白桦"
+      },
+      {
+        "key": "Medieval Dark Oak",
+        "value": "中世纪深色橡木"
+      },
+      {
+        "key": "Medieval Oak",
+        "value": "中世纪橡木"
+      },
+      {
+        "key": "Medieval Spruce",
+        "value": "中世纪云杉"
+      },
+      {
+        "key": "Minecolonies Original",
+        "value": "MineColonies 原初"
+      },
+      {
+        "key": "Nordic Spruce",
+        "value": "北欧云杉"
+      },
+      {
+        "key": "Pagoda",
+        "value": "塔阁"
+      },
+      {
+        "key": "Shire",
+        "value": "夏尔"
+      },
+      {
+        "key": "Space Wars",
+        "value": "星际战争"
+      },
+      {
+        "key": "Stalactite Caves",
+        "value": "钟乳石洞"
+      },
+      {
+        "key": "Urban Birch",
+        "value": "都市白桦"
+      },
+      {
+        "key": "Urban Savanna",
+        "value": "都市热带草原"
+      },
+      {
+        "key": "Warped Netherlands",
+        "value": "诡异下界"
+      },
+      {
+        "key": "In the heat of the Savanna, you'll find the perfect spot for a place to live. Making use of the native acacia trees, this style is semi-modern, more of a ranch style than an urban one.",
+        "value": "在热带草原的炎热之中，总能找到一处适合安家的好地方。这套风格取材于当地的金合欢木，半现代化，比起都市风更像是牧场风。"
+      },
+      {
+        "key": "In the Age of Aristotle and Plato, a great Mediterranean power dominates the Aegean Sea. Start your own Hellenistic Empire and rival the great Greek capital.",
+        "value": "在亚里士多德与柏拉图的时代，一个地中海强权主宰着爱琴海。建立属于你自己的希腊化帝国，与那座伟大的希腊都城分庭抗礼。"
+      },
+      {
+        "key": "[Beginner] This style is a perfect fit when you plan to settle closely to a birch forest and are looking for a modern look.",
+        "value": "【新手】若你打算在白桦林附近定居，又想要一副现代面貌，这套风格再合适不过。"
+      },
+      {
+        "key": "Welcome to Caledonia! A beautiful mixture of Colonial British and French architecture, nestled in the South Pacific. An urban style, suited for dense housing and grand buildings of all types.",
+        "value": "欢迎来到喀里多尼亚！这是英国殖民地建筑与法式建筑的美妙融合，坐落于南太平洋。属都市风格，适合密集的住宅与各类宏伟建筑。"
+      },
+      {
+        "key": "[Advanced] Delve into the depths of the earth with this interconnecting style! If you like Lego, love Tetris and are obsessed with organization this is the style for you.",
+        "value": "【进阶】用这套彼此咬合的风格深入地底！如果你喜欢乐高、热爱俄罗斯方块、又有整理强迫症，这套风格就是为你准备的。"
+      },
+      {
+        "key": "[Beginner] This is the default MineColonies Style. Set in the early colonial age it mixes elements of neo-classical architecture with an early industrial flavor",
+        "value": "【新手】这是 MineColonies 的默认风格。背景设定在殖民时代早期，糅合了新古典主义建筑元素与早期工业气息。"
+      },
+      {
+        "key": "If building in a spooky forest is an idea that makes you smile, this is the colony design for you! This interconnected treetop set blends in to the surrounding dark oak forest, yet keeps your citizens safe at the same time.",
+        "value": "要是「在阴森的林子里盖房」这个念头让你会心一笑，那这套殖民地设计就是为你准备的！这一整套树冠建筑彼此相连，既融入周围的深色橡木林，又能保住居民的安全。"
+      },
+      {
+        "key": "[Advanced] Every Monarch dreams of having the perfect capital city, where everyone works hard and everything is clean and organized. No pesky holes to fall into, no random heaps of dirt to detour around.",
+        "value": "【进阶】每位君主都梦想拥有一座完美的都城：人人勤勉，处处整洁有序。没有恼人的坑等着你掉进去，也没有莫名其妙的土堆逼你绕道。"
+      },
+      {
+        "key": "Conquer the Andes and grow your own Incan empire! Buildings should be placed on or into the mountain ranges of your growing empire.",
+        "value": "征服安第斯，壮大属于你的印加帝国！建筑应当依山而建，或直接嵌进你日渐扩张的疆域的山脉之中。"
+      },
+      {
+        "key": "Live like the Swiss Family Robinson, or your favorite SciFi movie franchise tree dwellers! This style builds around the native Jungle trees, though you will have to plant your own in many cases. Link the buildings with skyways over the undergrowth of the jungle canopy.",
+        "value": "像《海角乐园》里的一家人那样生活，或者像你最爱的那部科幻电影里的树居族那样！这套风格依托当地的丛林树木而建，不过多数时候你得自己种。用空中廊道把建筑连起来，横跨丛林树冠下的灌木层。"
+      },
+      {
+        "key": "Resurrect the Ruins of the Lost City and restore the Empire to its lost Glory!",
+        "value": "让失落之城的废墟重获新生，让帝国重现昔日荣光！"
+      },
+      {
+        "key": "[Intermediate] Hear ye! A new castle emerges! Find a Good spot near a river and a forest and build your own medieval town! Alt townhall is a castle and regular one's a manor, some buildings are better placed near water and mind the size of the university and library! Those usually go well placed together.",
+        "value": "【进阶】听好了！一座新的城堡拔地而起！在河流与森林旁找块好地方，建起你自己的中世纪城镇！备选的镇厅是城堡，常规的那座是庄园；有些建筑更适合临水而建，另外留意大学与图书馆的占地——这两座通常挨在一起最合适。"
+      },
+      {
+        "key": "The Norsemen are back and are looking for a new Leader. Create a flourishing Norsemen Empire and strike fear in the hearts of your Neighbors!",
+        "value": "北欧人回来了，而且正在物色新的首领。建起一个繁荣的北欧帝国，让邻邦闻风丧胆！"
+      },
+      {
+        "key": "[Beginner] This is the Classic MineColonies Style. It is simplistic in nature and serves a lot of the essential blueprints to raiders, miners, etc.",
+        "value": "【新手】这是 MineColonies 的经典风格。本身走简约路线，为掠夺者、矿工等提供了大量必备蓝图。"
+      },
+      {
+        "key": "Construct your Pagoda Empire and take over all the Cherry Blossom Biomes you can find!",
+        "value": "建起你的塔阁帝国，把能找到的樱花生物群系统统收入囊中！"
+      },
+      {
+        "key": "It's 1001 Nights. Pack in your Magic Carpet and build up your own Desert Empire!",
+        "value": "此刻正是一千零一夜。收好你的魔毯，建起属于你的沙漠帝国！"
+      },
+      {
+        "key": "Welcome to the Shire, where there's mutton to eat, beer to drink, and a nice shady tree to rest under. Pull up a chair and rest up, soon it will be time for Elevenses..",
+        "value": "欢迎来到夏尔——这里有羊肉可吃、有啤酒可喝，还有一棵好乘凉的树。搬把椅子歇歇脚，再过一会儿就该吃早茶了……"
+      },
+      {
+        "key": "[Advanced] It's Space Wars baby! Settle down your favorite desert planet and follow the motto: \"Go Big or Go Home!\" This style is not for the weak of heart, as it uses a lot of resources to build everything. Make sure it's a desert that you build this in.",
+        "value": "【进阶】星际战争，宝贝！在你最中意的沙漠行星上安顿下来，谨记那句箴言：「要么做大，要么滚蛋！」这套风格不适合心志不坚者——把这一切建起来要耗掉海量资源。另外务必确认你是在沙漠里建它。"
+      },
+      {
+        "key": "This is the perfect pack for all the cave dwellers. Build up your colony and let your builder take care of the Stalactites.",
+        "value": "这套包是所有洞穴居民的理想之选。把殖民地建起来，钟乳石交给你的建造师去处理。"
+      },
+      {
+        "key": "The perfect pack to build up a colony in the nether. Beware of Zombified Piglins!",
+        "value": "在下界建立殖民地的理想之选。当心僵尸猪灵！"
+      },
+      {
+        "key": "Antique",
+        "value": "古典"
+      },
+      {
+        "key": "Crimson Keep",
+        "value": "绯红城堡"
+      },
+      {
+        "key": "Farthest Frontier",
+        "value": "最远边疆"
+      },
+      {
+        "key": "Functional Fantasy",
+        "value": "实用奇幻"
+      },
+      {
+        "key": "High Magic",
+        "value": "高等魔法"
+      },
+      {
+        "key": "Hive",
+        "value": "蜂巢"
+      },
+      {
+        "key": "Tropical",
+        "value": "热带"
+      },
+      {
+        "key": "Aquatica",
+        "value": "深海"
+      },
+      {
+        "key": "Corrupted",
+        "value": "腐化"
+      },
+      {
+        "key": "FairyTale",
+        "value": "童话"
+      },
+      {
+        "key": "Frontier",
+        "value": "边疆"
+      },
+      {
+        "key": "Steampunk",
+        "value": "蒸汽朋克"
+      },
+      {
+        "key": "Underwater Base",
+        "value": "海底基地"
+      },
+      {
+        "key": "Byzantine_for_1.20",
+        "value": "拜占庭"
+      },
+      {
+        "key": "Nile",
+        "value": "尼罗河"
+      },
+      {
+        "key": "Rebel_Base",
+        "value": "义军基地"
+      },
+      {
+        "key": "Shogun",
+        "value": "幕府"
+      },
+      {
+        "key": "Sent out by the gods themselves to spread their cult, you venture out to create the most thriving Greek colony the world has ever seen! This style makes heavy use of birch and calcite blocks and is therefore best used in a forest or mountain.",
+        "value": "受诸神亲自派遣去传播他们的教派，你踏上征途，要建起世上最繁盛的希腊殖民地！这套风格大量使用白桦木与方解石，因此最适合建在森林或山地。"
+      },
+      {
+        "key": "A modular keep that is kinda expensive",
+        "value": "一座模块化的城堡，就是有点烧钱。"
+      },
+      {
+        "key": "[Advanced] Based on the strategy game, Farthest Frontier, protect and guide your people as you forge a town from untamed wilderness at the edge of the known world.",
+        "value": "【进阶】取材自策略游戏《最远边疆》。在已知世界的边缘，从蛮荒中开辟一座城镇，护佑并引领你的人民。"
+      },
+      {
+        "key": "Modern architecture and fantasy. Escape proof animal pens and a fire breathing dragon",
+        "value": "现代建筑与奇幻的结合。关得住牲畜的围栏，外加一条会喷火的龙。"
+      },
+      {
+        "key": "A mystical style powered by crystals! Watch as your colonists build crystals and power their buildings",
+        "value": "一套由水晶驱动的神秘风格！看着你的居民造出水晶，再用它们为建筑供能。"
+      },
+      {
+        "key": "Bee-lieve in yourself and build the sweetest home! A complex connected style ideal for hanging in open spaces.",
+        "value": "相「蜂」自己，筑起最甜蜜的家园！这是一套彼此咬合的复杂风格，最适合悬在开阔处。"
+      },
+      {
+        "key": "Get the Beach Towels and enjoy the Beach. Tropical is a stilt based style to be placed above shallow water.",
+        "value": "带上沙滩巾，好好享受海滩。热带风格以高脚桩为基础，建在浅水之上。"
+      },
+      {
+        "key": "Subnautica inspired underwater style! Cobbled DioCrete Hell Garunteed! REQUIRES a Deep Ocean to start.",
+        "value": "灵感来自《深海迷航》的水下风格！保证让你在圆石与混凝土里泡到地老天荒。**必须**从深海开局。"
+      },
+      {
+        "key": "A corrupted pogota",
+        "value": "一座腐化的塔阁。"
+      },
+      {
+        "key": "A town within a magical forest with a secret hidden within the past, present, and future.",
+        "value": "魔法森林中的小镇，秘密藏在过去、现在与未来之中。"
+      },
+      {
+        "key": "Frontier, your home on the range!",
+        "value": "边疆——你在旷野上的家！"
+      },
+      {
+        "key": "Steampunk, Big and Challenging! 'copper hell' - Sapph",
+        "value": "蒸汽朋克，又大又难！「铜之地狱」——Sapph"
+      },
+      {
+        "key": "Exploit the treasures hidden in the DEEPEST oceans. Prepare yourself to clean-up an ocean monument to succeed! Try to settle with in a 20 blocks (at least) deep ocean.",
+        "value": "去发掘**最深**海底埋藏的宝藏。想成功，就做好清空一座海底神殿的准备！尽量选一片至少 20 格深的海域安家。"
+      },
+      {
+        "key": "There is no Room in Rome for a Roman!  XXII",
+        "value": "罗马之中，已无罗马人的容身之地！　XXII"
+      },
+      {
+        "key": "So you want to live forever (1.14)",
+        "value": "这么说，你想永生（1.14）"
+      },
+      {
+        "key": "Rebel Scum Ep.21 (testing some buildings)",
+        "value": "义军渣滓 第 21 集（几栋建筑测试中）"
+      },
+      {
+        "key": "ICHIBAN!  (ni-san ban)",
+        "value": "一番！　（二番、三番）"
+      },
+      {
+        "key": "Local",
+        "value": "本地"
+      },
+      {
+        "key": "This is your local Structurepack. This is where all your scans go.",
+        "value": "这是你自己的本地结构包，你扫描保存的建筑都会存到这里。"
+      },
+      {
+        "key": "Ancient Athens",
+        "value": "@古雅典"
+      },
+      {
+        "key": "Antique",
+        "value": "@古典"
+      },
+      {
+        "key": "Aquatica",
+        "value": "@深海"
+      },
+      {
+        "key": "Byzantine_for_1.20",
+        "value": "@拜占庭"
+      },
+      {
+        "key": "Caledonia",
+        "value": "@喀里多尼亚"
+      },
+      {
+        "key": "Cavern",
+        "value": "@洞窟"
+      },
+      {
+        "key": "Colonial",
+        "value": "@殖民地"
+      },
+      {
+        "key": "Corrupted",
+        "value": "@腐化"
+      },
+      {
+        "key": "Crimson Keep",
+        "value": "@绯红城堡"
+      },
+      {
+        "key": "Dark Oak Treehouse",
+        "value": "@深色橡木树屋"
+      },
+      {
+        "key": "Desert Oasis",
+        "value": "@沙漠绿洲"
+      },
+      {
+        "key": "FairyTale",
+        "value": "@童话"
+      },
+      {
+        "key": "Farthest ",
+        "value": "@最远"
+      },
+      {
+        "key": "Fortress",
+        "value": "@要塞"
+      },
+      {
+        "key": "Frontier",
+        "value": "@边疆"
+      },
+      {
+        "key": "Functional Fantasy",
+        "value": "@实用奇幻"
+      },
+      {
+        "key": "High Magic",
+        "value": "@高等魔法"
+      },
+      {
+        "key": "Hive",
+        "value": "@蜂巢"
+      },
+      {
+        "key": "Incan",
+        "value": "@印加"
+      },
+      {
+        "key": "Jungle Treehouse",
+        "value": "@丛林树屋"
+      },
+      {
+        "key": "Lost Mesa City",
+        "value": "@失落方山之城"
+      },
+      {
+        "key": "Medieval Birch",
+        "value": "@中世纪白桦"
+      },
+      {
+        "key": "Medieval Dark Oak",
+        "value": "@中世纪深色橡木"
+      },
+      {
+        "key": "Medieval Oak",
+        "value": "@中世纪橡木"
+      },
+      {
+        "key": "Medieval Spruce",
+        "value": "@中世纪云杉"
+      },
+      {
+        "key": "Minecolonies Original",
+        "value": "@MineColonies 原初"
+      },
+      {
+        "key": "Nile",
+        "value": "@尼罗河"
+      },
+      {
+        "key": "Nordic Spruce",
+        "value": "@北欧云杉"
+      },
+      {
+        "key": "Pagoda",
+        "value": "@塔阁"
+      },
+      {
+        "key": "Rebel_Base",
+        "value": "@义军基地"
+      },
+      {
+        "key": "Shire",
+        "value": "@夏尔"
+      },
+      {
+        "key": "Shogun",
+        "value": "@幕府"
+      },
+      {
+        "key": "Space Wars",
+        "value": "@星际战争"
+      },
+      {
+        "key": "Stalactite Caves",
+        "value": "@钟乳石洞"
+      },
+      {
+        "key": "Steampunk",
+        "value": "@蒸汽朋克"
+      },
+      {
+        "key": "Tropical",
+        "value": "@热带"
+      },
+      {
+        "key": "Underwater Base",
+        "value": "@海底基地"
+      },
+      {
+        "key": "Urban Birch",
+        "value": "@都市白桦"
+      },
+      {
+        "key": "Urban Savanna",
+        "value": "@都市热带草原"
+      },
+      {
+        "key": "Warped Netherlands",
+        "value": "@诡异下界"
+      },
+      {
+        "key": "Agri",
+        "value": "农业"
+      },
+      {
+        "key": "Andesite",
+        "value": "安山岩"
+      },
+      {
+        "key": "Apartments",
+        "value": "公寓"
+      },
+      {
+        "key": "Avenue",
+        "value": "大道"
+      },
+      {
+        "key": "Avenue_early",
+        "value": "大道·早期"
+      },
+      {
+        "key": "Avenue_odd",
+        "value": "大道·奇数段"
+      },
+      {
+        "key": "Avenueodd",
+        "value": "大道·奇数段"
+      },
+      {
+        "key": "Avenueodd_early",
+        "value": "大道·奇数段·早期"
+      },
+      {
+        "key": "Azalea",
+        "value": "杜鹃"
+      },
+      {
+        "key": "Bamboo",
+        "value": "竹"
+      },
+      {
+        "key": "Barracks",
+        "value": "兵营"
+      },
+      {
+        "key": "Beds",
+        "value": "苗床"
+      },
+      {
+        "key": "Big",
+        "value": "大型"
+      },
+      {
+        "key": "Bonsai",
+        "value": "盆景"
+      },
+      {
+        "key": "Bottom",
+        "value": "底层"
+      },
+      {
+        "key": "Boulevard",
+        "value": "林荫大道"
+      },
+      {
+        "key": "Builder",
+        "value": "建筑工"
+      },
+      {
+        "key": "Building",
+        "value": "建筑"
+      },
+      {
+        "key": "Bush",
+        "value": "灌木"
+      },
+      {
+        "key": "Calcite",
+        "value": "方解石"
+      },
+      {
+        "key": "Carveout",
+        "value": "开凿"
+      },
+      {
+        "key": "Castle",
+        "value": "城堡"
+      },
+      {
+        "key": "Catwalk",
+        "value": "步道"
+      },
+      {
+        "key": "Ceiling",
+        "value": "天花板"
+      },
+      {
+        "key": "Central",
+        "value": "中心"
+      },
+      {
+        "key": "Charioteer",
+        "value": "战车"
+      },
+      {
+        "key": "Chunks",
+        "value": "区块"
+      },
+      {
+        "key": "Church",
+        "value": "教堂"
+      },
+      {
+        "key": "City planning",
+        "value": "城市规划"
+      },
+      {
+        "key": "City_flat",
+        "value": "城市·平地"
+      },
+      {
+        "key": "City_gate",
+        "value": "城门"
+      },
+      {
+        "key": "City_incline",
+        "value": "城市·坡地"
+      },
+      {
+        "key": "City_walltower",
+        "value": "城墙塔楼"
+      },
+      {
+        "key": "Concrete",
+        "value": "混凝土"
+      },
+      {
+        "key": "Conifer",
+        "value": "针叶树"
+      },
+      {
+        "key": "Connector",
+        "value": "连接段"
+      },
+      {
+        "key": "Cornersection",
+        "value": "转角段"
+      },
+      {
+        "key": "Corridors",
+        "value": "走廊"
+      },
+      {
+        "key": "Covered",
+        "value": "带顶"
+      },
+      {
+        "key": "Crossing",
+        "value": "交叉口"
+      },
+      {
+        "key": "Crystals",
+        "value": "水晶"
+      },
+      {
+        "key": "Dark",
+        "value": "深色"
+      },
+      {
+        "key": "Decorated",
+        "value": "带装饰"
+      },
+      {
+        "key": "Diag",
+        "value": "斜向"
+      },
+      {
+        "key": "Diorite",
+        "value": "闪长岩"
+      },
+      {
+        "key": "Districts",
+        "value": "街区"
+      },
+      {
+        "key": "Dummytower",
+        "value": "占位塔"
+      },
+      {
+        "key": "Early",
+        "value": "早期"
+      },
+      {
+        "key": "Edge",
+        "value": "边缘"
+      },
+      {
+        "key": "End",
+        "value": "末端"
+      },
+      {
+        "key": "Estate",
+        "value": "庄园"
+      },
+      {
+        "key": "Estates",
+        "value": "庄园"
+      },
+      {
+        "key": "Farms",
+        "value": "农场"
+      },
+      {
+        "key": "Field",
+        "value": "田地"
+      },
+      {
+        "key": "Field_structures",
+        "value": "田间建筑"
+      },
+      {
+        "key": "Field_tower",
+        "value": "田间塔楼"
+      },
+      {
+        "key": "Flat",
+        "value": "平地"
+      },
+      {
+        "key": "Flowerbeds",
+        "value": "花坛"
+      },
+      {
+        "key": "Fort",
+        "value": "堡垒"
+      },
+      {
+        "key": "Forum",
+        "value": "集会广场"
+      },
+      {
+        "key": "Fullhigh",
+        "value": "全高"
+      },
+      {
+        "key": "Functional",
+        "value": "实用"
+      },
+      {
+        "key": "Gatehouse",
+        "value": "门楼"
+      },
+      {
+        "key": "Glass",
+        "value": "玻璃"
+      },
+      {
+        "key": "Greens",
+        "value": "绿地"
+      },
+      {
+        "key": "Hangarbay",
+        "value": "机库"
+      },
+      {
+        "key": "Hospital",
+        "value": "医院"
+      },
+      {
+        "key": "House",
+        "value": "住宅"
+      },
+      {
+        "key": "Hut",
+        "value": "小屋"
+      },
+      {
+        "key": "Incline",
+        "value": "坡道"
+      },
+      {
+        "key": "Inclines",
+        "value": "坡道"
+      },
+      {
+        "key": "Insulae_corners",
+        "value": "公寓转角"
+      },
+      {
+        "key": "Insulae_ends",
+        "value": "公寓端段"
+      },
+      {
+        "key": "Insulae_middles",
+        "value": "公寓中段"
+      },
+      {
+        "key": "Jungle",
+        "value": "丛林"
+      },
+      {
+        "key": "Late",
+        "value": "后期"
+      },
+      {
+        "key": "Leisure",
+        "value": "休闲"
+      },
+      {
+        "key": "Light post",
+        "value": "灯柱"
+      },
+      {
+        "key": "Lighting",
+        "value": "照明"
+      },
+      {
+        "key": "Long",
+        "value": "长"
+      },
+      {
+        "key": "Low",
+        "value": "低矮"
+      },
+      {
+        "key": "Machiya",
+        "value": "町屋"
+      },
+      {
+        "key": "Main",
+        "value": "主体"
+      },
+      {
+        "key": "Main_odd",
+        "value": "主体·奇数段"
+      },
+      {
+        "key": "Mangrove",
+        "value": "红树"
+      },
+      {
+        "key": "Market",
+        "value": "市场"
+      },
+      {
+        "key": "Mid",
+        "value": "中段"
+      },
+      {
+        "key": "Modules",
+        "value": "模块"
+      },
+      {
+        "key": "Moss",
+        "value": "苔藓"
+      },
+      {
+        "key": "Orchard",
+        "value": "果园"
+      },
+      {
+        "key": "Palisades",
+        "value": "木栅栏"
+      },
+      {
+        "key": "Pier",
+        "value": "码头"
+      },
+      {
+        "key": "Planking",
+        "value": "木板"
+      },
+      {
+        "key": "Plantation fields",
+        "value": "种植园田地"
+      },
+      {
+        "key": "Plantation_Fields",
+        "value": "种植园田地"
+      },
+      {
+        "key": "Planters",
+        "value": "花箱"
+      },
+      {
+        "key": "Player",
+        "value": "玩家"
+      },
+      {
+        "key": "Players",
+        "value": "玩家"
+      },
+      {
+        "key": "Plaza_end",
+        "value": "广场端段"
+      },
+      {
+        "key": "Plaza_endodd",
+        "value": "广场端段·奇数"
+      },
+      {
+        "key": "Plaza_mid",
+        "value": "广场中段"
+      },
+      {
+        "key": "Plaza_midodd",
+        "value": "广场中段·奇数"
+      },
+      {
+        "key": "Plaza_single",
+        "value": "广场单段"
+      },
+      {
+        "key": "Plaza_singleodd",
+        "value": "广场单段·奇数"
+      },
+      {
+        "key": "Plaza_sublevel",
+        "value": "广场下层"
+      },
+      {
+        "key": "Plaza_sublevelodd",
+        "value": "广场下层·奇数"
+      },
+      {
+        "key": "Pond",
+        "value": "池塘"
+      },
+      {
+        "key": "Pools",
+        "value": "水池"
+      },
+      {
+        "key": "Profession",
+        "value": "职业"
+      },
+      {
+        "key": "Quarrycover",
+        "value": "采石场顶盖"
+      },
+      {
+        "key": "Recreation",
+        "value": "休闲"
+      },
+      {
+        "key": "Regular",
+        "value": "常规"
+      },
+      {
+        "key": "Resources",
+        "value": "资源"
+      },
+      {
+        "key": "Restaurant",
+        "value": "餐馆"
+      },
+      {
+        "key": "Retainingwall",
+        "value": "挡土墙"
+      },
+      {
+        "key": "Rock",
+        "value": "岩石"
+      },
+      {
+        "key": "Roof",
+        "value": "屋顶"
+      },
+      {
+        "key": "Rooms",
+        "value": "房间"
+      },
+      {
+        "key": "Sakura",
+        "value": "樱花"
+      },
+      {
+        "key": "Seawall_tall",
+        "value": "高海堤"
+      },
+      {
+        "key": "Sewer",
+        "value": "下水道"
+      },
+      {
+        "key": "Ship",
+        "value": "船只"
+      },
+      {
+        "key": "Side",
+        "value": "侧向"
+      },
+      {
+        "key": "Sideramp",
+        "value": "侧坡道"
+      },
+      {
+        "key": "Siegeworks",
+        "value": "攻城工事"
+      },
+      {
+        "key": "Singlefloor",
+        "value": "单层"
+      },
+      {
+        "key": "Slope",
+        "value": "斜坡"
+      },
+      {
+        "key": "Small",
+        "value": "小型"
+      },
+      {
+        "key": "Spruce",
+        "value": "云杉"
+      },
+      {
+        "key": "Square",
+        "value": "广场"
+      },
+      {
+        "key": "Stables",
+        "value": "马厩"
+      },
+      {
+        "key": "Stair",
+        "value": "楼梯"
+      },
+      {
+        "key": "Statue",
+        "value": "雕像"
+      },
+      {
+        "key": "Straight",
+        "value": "直段"
+      },
+      {
+        "key": "Structure",
+        "value": "建筑"
+      },
+      {
+        "key": "T_junction",
+        "value": "丁字路口"
+      },
+      {
+        "key": "Tavern",
+        "value": "酒馆"
+      },
+      {
+        "key": "Terrace",
+        "value": "露台"
+      },
+      {
+        "key": "Tomb",
+        "value": "陵墓"
+      },
+      {
+        "key": "Top",
+        "value": "顶层"
+      },
+      {
+        "key": "Tower_big",
+        "value": "大型塔楼"
+      },
+      {
+        "key": "Tower_small",
+        "value": "小型塔楼"
+      },
+      {
+        "key": "Town_hall",
+        "value": "市政厅"
+      },
+      {
+        "key": "Transport",
+        "value": "运输"
+      },
+      {
+        "key": "Traps",
+        "value": "陷阱"
+      },
+      {
+        "key": "Trees",
+        "value": "树木"
+      },
+      {
+        "key": "Trojan",
+        "value": "特洛伊式"
+      },
+      {
+        "key": "Tunnels",
+        "value": "隧道"
+      },
+      {
+        "key": "Twofloor",
+        "value": "双层"
+      },
+      {
+        "key": "Utility cells",
+        "value": "功能单元"
+      },
+      {
+        "key": "Venetian",
+        "value": "威尼斯式"
+      },
+      {
+        "key": "Wall_main",
+        "value": "主城墙"
+      },
+      {
+        "key": "Wall_small",
+        "value": "小城墙"
+      },
+      {
+        "key": "Warship",
+        "value": "战舰"
+      },
+      {
+        "key": "Waterway",
+        "value": "水道"
+      },
+      {
+        "key": "Wheels",
+        "value": "轮机"
+      },
+      {
+        "key": "Wonders",
+        "value": "奇观"
+      },
+      {
+        "key": "Wooden",
+        "value": "木质"
+      }
+    ]
+  }
+]

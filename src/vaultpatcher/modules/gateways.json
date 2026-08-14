@@ -1,0 +1,34 @@
+[
+  {
+    "name": "gateways_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.gateways.command.GatewayCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Gateway",
+        "value": "未知网关"
+      },
+      {
+        "key": "Exception thrown - see log",
+        "value": "抛出了异常 - 请查看日志"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.gateways.gate.GateRules"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown: ",
+        "value": "未知："
+      }
+    ]
+  }
+]

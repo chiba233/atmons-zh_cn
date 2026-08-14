@@ -1,0 +1,1314 @@
+[
+  {
+    "name": "catnip_config_ui_zh_cn",
+    "desc": "Create 系（catnip）配置界面的条目名。这些字**没有翻译键**——catnip 把配置字段名 fluidFogSettings 按驼峰拆开、首字母大写现拼成 「Fluid Fog Settings」，全部 jar 里搜不到这个串。所以只能按最终字符串做 dynamic 替换，并且必须用 target_class 限定在配置界面里，否则「Sound」「Client」这类通用词会误伤别的界面。",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.createmod.catnip.config.ui.SubMenuConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Ambient Volume Cap",
+        "value": "环境音量上限"
+      },
+      {
+        "key": "Custom Background Overlay",
+        "value": "自定义覆盖层背景"
+      },
+      {
+        "key": "Custom Border Bot Overlay",
+        "value": "自定义覆盖层下边框"
+      },
+      {
+        "key": "Custom Border Top Overlay",
+        "value": "自定义覆盖层上边框"
+      },
+      {
+        "key": "Custom Colors Overlay",
+        "value": "自定义覆盖层配色"
+      },
+      {
+        "key": "Enable Ambient Sounds",
+        "value": "启用环境音效"
+      },
+      {
+        "key": "Enable Overstressed Tooltip",
+        "value": "启用过载提示"
+      },
+      {
+        "key": "Enable Tooltips",
+        "value": "启用提示"
+      },
+      {
+        "key": "Explain Render Errors",
+        "value": "解释渲染错误"
+      },
+      {
+        "key": "Fan Particle Density",
+        "value": "风扇粒子密度"
+      },
+      {
+        "key": "Filter Item Render Distance",
+        "value": "过滤器物品渲染距离"
+      },
+      {
+        "key": "Fluid Fog Settings",
+        "value": "流体雾效设置"
+      },
+      {
+        "key": "Goggle Overlay",
+        "value": "护目镜覆盖层"
+      },
+      {
+        "key": "Ignore Fabulous Warning",
+        "value": "忽略「绚丽」画质警告"
+      },
+      {
+        "key": "Ingame Menu Config Button Offset X",
+        "value": "游戏内菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Ingame Menu Config Button Row",
+        "value": "游戏内菜单配置按钮所在行"
+      },
+      {
+        "key": "Main Menu Config Button Offset X",
+        "value": "主菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Main Menu Config Button Row",
+        "value": "主菜单配置按钮所在行"
+      },
+      {
+        "key": "Mounted Zoom Multiplier",
+        "value": "骑乘时缩放倍率"
+      },
+      {
+        "key": "Overlay Offset X",
+        "value": "覆盖层横向偏移"
+      },
+      {
+        "key": "Overlay Offset Y",
+        "value": "覆盖层纵向偏移"
+      },
+      {
+        "key": "Recipe Viewer Integration",
+        "value": "配方查看器集成"
+      },
+      {
+        "key": "Rotate When Seated",
+        "value": "就座时随载具转向"
+      },
+      {
+        "key": "Show Extended Track Graph On F3",
+        "value": "F3 显示完整轨道图"
+      },
+      {
+        "key": "Show Track Graph On F3",
+        "value": "F3 显示轨道图"
+      },
+      {
+        "key": "Show Train Map Overlay",
+        "value": "显示列车地图覆盖层"
+      },
+      {
+        "key": "Sync Recipe Viewer Search",
+        "value": "同步配方查看器的搜索"
+      },
+      {
+        "key": "Train Map Color Theme",
+        "value": "列车地图配色方案"
+      },
+      {
+        "key": "Air In Backtank",
+        "value": "背罐储气量"
+      },
+      {
+        "key": "Allow Brewing In Mixer",
+        "value": "允许在搅拌器中酿造"
+      },
+      {
+        "key": "Allow Casting By Spout",
+        "value": "允许用注液口浇铸"
+      },
+      {
+        "key": "Allow Regular Crafting In Crafter",
+        "value": "允许机械合成器进行普通合成"
+      },
+      {
+        "key": "Allow Shaped Square In Press",
+        "value": "允许压床进行方形有序合成"
+      },
+      {
+        "key": "Allow Shapeless In Mixer",
+        "value": "允许在搅拌器中进行无序合成"
+      },
+      {
+        "key": "Allow Stonecutting On Saw",
+        "value": "允许用锯进行切石"
+      },
+      {
+        "key": "Amethyst Movement",
+        "value": "紫水晶可移动"
+      },
+      {
+        "key": "Bottomless Fluid Mode",
+        "value": "无限流体模式"
+      },
+      {
+        "key": "Brass Tunnel Timer",
+        "value": "黄铜隧道计时"
+      },
+      {
+        "key": "Bulk Cutting",
+        "value": "批量切割"
+      },
+      {
+        "key": "Bulk Pressing",
+        "value": "批量压制"
+      },
+      {
+        "key": "Chain Conveyor Capacity",
+        "value": "链式传送带容量"
+      },
+      {
+        "key": "Crank Hunger Multiplier",
+        "value": "手摇曲柄饥饿倍率"
+      },
+      {
+        "key": "Creative Print Includes Air",
+        "value": "创造打印包含空气"
+      },
+      {
+        "key": "Crushing Damage",
+        "value": "粉碎伤害"
+      },
+      {
+        "key": "Default Extraction Timer",
+        "value": "默认抽取计时"
+      },
+      {
+        "key": "Disable Stress",
+        "value": "禁用应力"
+      },
+      {
+        "key": "Display Link Range",
+        "value": "显示链接范围"
+      },
+      {
+        "key": "Display Log Stripping Recipes",
+        "value": "显示原木剥皮配方"
+      },
+      {
+        "key": "Ejector Scan Interval",
+        "value": "弹射器扫描间隔"
+      },
+      {
+        "key": "Enable Refined Radiance Recipe",
+        "value": "启用光辉精华配方"
+      },
+      {
+        "key": "Enable Shadow Steel Recipe",
+        "value": "启用暗影钢配方"
+      },
+      {
+        "key": "Encased Fan",
+        "value": "包覆式风扇"
+      },
+      {
+        "key": "Enchanted Backtank Capacity",
+        "value": "附魔背罐容量"
+      },
+      {
+        "key": "Factory Gauge Timer",
+        "value": "工厂仪表计时"
+      },
+      {
+        "key": "Fan Block Check Rate",
+        "value": "风扇方块检测频率"
+      },
+      {
+        "key": "Fan Processing Time",
+        "value": "风扇处理时间"
+      },
+      {
+        "key": "Fan Pull Distance",
+        "value": "风扇吸取距离"
+      },
+      {
+        "key": "Fan Push Distance",
+        "value": "风扇推送距离"
+      },
+      {
+        "key": "Fast Speed",
+        "value": "高速档"
+      },
+      {
+        "key": "Fill Infinite",
+        "value": "无限填充"
+      },
+      {
+        "key": "Fluid Fill Place Fluid Source Blocks",
+        "value": "流体填充放置源方块"
+      },
+      {
+        "key": "Fluid Tank Capacity",
+        "value": "流体储罐容量"
+      },
+      {
+        "key": "Fluid Tank Max Height",
+        "value": "流体储罐最大高度"
+      },
+      {
+        "key": "Powered Train Stats",
+        "value": "动力列车参数"
+      },
+      {
+        "key": "Train Stats",
+        "value": "列车参数"
+      },
+      {
+        "key": "Foundry Collect Items",
+        "value": "熔铸炉收集物品"
+      },
+      {
+        "key": "Foundry Cooling Modifier",
+        "value": "熔铸炉冷却系数"
+      },
+      {
+        "key": "Foundry Damage Entities",
+        "value": "熔铸炉伤害实体"
+      },
+      {
+        "key": "Foundry Fluid Capacity Per Block Volume",
+        "value": "熔铸炉每方块流体容量"
+      },
+      {
+        "key": "Foundry Max Circumference",
+        "value": "熔铸炉最大周长"
+      },
+      {
+        "key": "Foundry Max Height",
+        "value": "熔铸炉最大高度"
+      },
+      {
+        "key": "Foundry Max Volume",
+        "value": "熔铸炉最大容积"
+      },
+      {
+        "key": "Foundry Render Inventory",
+        "value": "熔铸炉渲染内容物"
+      },
+      {
+        "key": "Foundry Tank Tick Rate",
+        "value": "熔铸炉储罐刷新频率"
+      },
+      {
+        "key": "Always Show Terminal Selector",
+        "value": "始终显示终端选择器"
+      },
+      {
+        "key": "Annihilation Plane Max",
+        "value": "湮灭面板耗能上限"
+      },
+      {
+        "key": "Annihilation Plane Min",
+        "value": "湮灭面板耗能下限"
+      },
+      {
+        "key": "Auto Focus Search",
+        "value": "自动聚焦搜索框"
+      },
+      {
+        "key": "Charger Max",
+        "value": "充电器耗能上限"
+      },
+      {
+        "key": "Charger Min",
+        "value": "充电器耗能下限"
+      },
+      {
+        "key": "Clear External Search On Open",
+        "value": "打开时清空外部搜索"
+      },
+      {
+        "key": "Clear Grid On Close",
+        "value": "关闭时清空网格"
+      },
+      {
+        "key": "Disable Colored Cable Recipes In Recipe Viewer",
+        "value": "配方查看器隐藏染色线缆配方"
+      },
+      {
+        "key": "Enable Effects",
+        "value": "启用特效"
+      },
+      {
+        "key": "Enable Facade Recipes In Recipe Viewer",
+        "value": "配方查看器显示外覆板配方"
+      },
+      {
+        "key": "Enable Facades In Recipe Viewer",
+        "value": "配方查看器显示外覆板"
+      },
+      {
+        "key": "Export Bus Max",
+        "value": "输出总线耗能上限"
+      },
+      {
+        "key": "Export Bus Min",
+        "value": "输出总线耗能下限"
+      },
+      {
+        "key": "IOPort Max",
+        "value": "输入输出端口耗能上限"
+      },
+      {
+        "key": "IOPort Min",
+        "value": "输入输出端口耗能下限"
+      },
+      {
+        "key": "Import Bus Max",
+        "value": "输入总线耗能上限"
+      },
+      {
+        "key": "Import Bus Min",
+        "value": "输入总线耗能下限"
+      },
+      {
+        "key": "Inscriber Max",
+        "value": "压印器耗能上限"
+      },
+      {
+        "key": "Inscriber Min",
+        "value": "压印器耗能下限"
+      },
+      {
+        "key": "Interface Max",
+        "value": "接口耗能上限"
+      },
+      {
+        "key": "Interface Min",
+        "value": "接口耗能下限"
+      },
+      {
+        "key": "Magnet Card Range",
+        "value": "磁卡范围"
+      },
+      {
+        "key": "Max Cell Content Shown",
+        "value": "存储元件最多显示条目"
+      },
+      {
+        "key": "Notify For Finished Crafting Jobs",
+        "value": "合成任务完成时通知"
+      },
+      {
+        "key": "Pin Auto Crafted Items",
+        "value": "置顶自动合成的物品"
+      },
+      {
+        "key": "Power Unit",
+        "value": "能量单位"
+      },
+      {
+        "key": "Provide Network Inventory To Emi",
+        "value": "向 EMI 提供网络存储"
+      },
+      {
+        "key": "Remember Last Search",
+        "value": "记住上次搜索"
+      },
+      {
+        "key": "Screenshot Show Count",
+        "value": "截图显示数量"
+      },
+      {
+        "key": "Search Mod Name In Tooltips",
+        "value": "提示中搜索模组名"
+      },
+      {
+        "key": "Show Missing Only By Default",
+        "value": "默认只显示缺失项"
+      },
+      {
+        "key": "Use Compact Tree",
+        "value": "使用紧凑树状图"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.createmod.catnip.config.ui.ConfigScreenList"
+    ],
+    "pairs": [
+      {
+        "key": "Ambient Volume Cap",
+        "value": "环境音量上限"
+      },
+      {
+        "key": "Custom Background Overlay",
+        "value": "自定义覆盖层背景"
+      },
+      {
+        "key": "Custom Border Bot Overlay",
+        "value": "自定义覆盖层下边框"
+      },
+      {
+        "key": "Custom Border Top Overlay",
+        "value": "自定义覆盖层上边框"
+      },
+      {
+        "key": "Custom Colors Overlay",
+        "value": "自定义覆盖层配色"
+      },
+      {
+        "key": "Enable Ambient Sounds",
+        "value": "启用环境音效"
+      },
+      {
+        "key": "Enable Overstressed Tooltip",
+        "value": "启用过载提示"
+      },
+      {
+        "key": "Enable Tooltips",
+        "value": "启用提示"
+      },
+      {
+        "key": "Explain Render Errors",
+        "value": "解释渲染错误"
+      },
+      {
+        "key": "Fan Particle Density",
+        "value": "风扇粒子密度"
+      },
+      {
+        "key": "Filter Item Render Distance",
+        "value": "过滤器物品渲染距离"
+      },
+      {
+        "key": "Fluid Fog Settings",
+        "value": "流体雾效设置"
+      },
+      {
+        "key": "Goggle Overlay",
+        "value": "护目镜覆盖层"
+      },
+      {
+        "key": "Ignore Fabulous Warning",
+        "value": "忽略「绚丽」画质警告"
+      },
+      {
+        "key": "Ingame Menu Config Button Offset X",
+        "value": "游戏内菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Ingame Menu Config Button Row",
+        "value": "游戏内菜单配置按钮所在行"
+      },
+      {
+        "key": "Main Menu Config Button Offset X",
+        "value": "主菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Main Menu Config Button Row",
+        "value": "主菜单配置按钮所在行"
+      },
+      {
+        "key": "Mounted Zoom Multiplier",
+        "value": "骑乘时缩放倍率"
+      },
+      {
+        "key": "Overlay Offset X",
+        "value": "覆盖层横向偏移"
+      },
+      {
+        "key": "Overlay Offset Y",
+        "value": "覆盖层纵向偏移"
+      },
+      {
+        "key": "Recipe Viewer Integration",
+        "value": "配方查看器集成"
+      },
+      {
+        "key": "Rotate When Seated",
+        "value": "就座时随载具转向"
+      },
+      {
+        "key": "Show Extended Track Graph On F3",
+        "value": "F3 显示完整轨道图"
+      },
+      {
+        "key": "Show Track Graph On F3",
+        "value": "F3 显示轨道图"
+      },
+      {
+        "key": "Show Train Map Overlay",
+        "value": "显示列车地图覆盖层"
+      },
+      {
+        "key": "Sync Recipe Viewer Search",
+        "value": "同步配方查看器的搜索"
+      },
+      {
+        "key": "Train Map Color Theme",
+        "value": "列车地图配色方案"
+      },
+      {
+        "key": "Air In Backtank",
+        "value": "背罐储气量"
+      },
+      {
+        "key": "Allow Brewing In Mixer",
+        "value": "允许在搅拌器中酿造"
+      },
+      {
+        "key": "Allow Casting By Spout",
+        "value": "允许用注液口浇铸"
+      },
+      {
+        "key": "Allow Regular Crafting In Crafter",
+        "value": "允许机械合成器进行普通合成"
+      },
+      {
+        "key": "Allow Shaped Square In Press",
+        "value": "允许压床进行方形有序合成"
+      },
+      {
+        "key": "Allow Shapeless In Mixer",
+        "value": "允许在搅拌器中进行无序合成"
+      },
+      {
+        "key": "Allow Stonecutting On Saw",
+        "value": "允许用锯进行切石"
+      },
+      {
+        "key": "Amethyst Movement",
+        "value": "紫水晶可移动"
+      },
+      {
+        "key": "Bottomless Fluid Mode",
+        "value": "无限流体模式"
+      },
+      {
+        "key": "Brass Tunnel Timer",
+        "value": "黄铜隧道计时"
+      },
+      {
+        "key": "Bulk Cutting",
+        "value": "批量切割"
+      },
+      {
+        "key": "Bulk Pressing",
+        "value": "批量压制"
+      },
+      {
+        "key": "Chain Conveyor Capacity",
+        "value": "链式传送带容量"
+      },
+      {
+        "key": "Crank Hunger Multiplier",
+        "value": "手摇曲柄饥饿倍率"
+      },
+      {
+        "key": "Creative Print Includes Air",
+        "value": "创造打印包含空气"
+      },
+      {
+        "key": "Crushing Damage",
+        "value": "粉碎伤害"
+      },
+      {
+        "key": "Default Extraction Timer",
+        "value": "默认抽取计时"
+      },
+      {
+        "key": "Disable Stress",
+        "value": "禁用应力"
+      },
+      {
+        "key": "Display Link Range",
+        "value": "显示链接范围"
+      },
+      {
+        "key": "Display Log Stripping Recipes",
+        "value": "显示原木剥皮配方"
+      },
+      {
+        "key": "Ejector Scan Interval",
+        "value": "弹射器扫描间隔"
+      },
+      {
+        "key": "Enable Refined Radiance Recipe",
+        "value": "启用光辉精华配方"
+      },
+      {
+        "key": "Enable Shadow Steel Recipe",
+        "value": "启用暗影钢配方"
+      },
+      {
+        "key": "Encased Fan",
+        "value": "包覆式风扇"
+      },
+      {
+        "key": "Enchanted Backtank Capacity",
+        "value": "附魔背罐容量"
+      },
+      {
+        "key": "Factory Gauge Timer",
+        "value": "工厂仪表计时"
+      },
+      {
+        "key": "Fan Block Check Rate",
+        "value": "风扇方块检测频率"
+      },
+      {
+        "key": "Fan Processing Time",
+        "value": "风扇处理时间"
+      },
+      {
+        "key": "Fan Pull Distance",
+        "value": "风扇吸取距离"
+      },
+      {
+        "key": "Fan Push Distance",
+        "value": "风扇推送距离"
+      },
+      {
+        "key": "Fast Speed",
+        "value": "高速档"
+      },
+      {
+        "key": "Fill Infinite",
+        "value": "无限填充"
+      },
+      {
+        "key": "Fluid Fill Place Fluid Source Blocks",
+        "value": "流体填充放置源方块"
+      },
+      {
+        "key": "Fluid Tank Capacity",
+        "value": "流体储罐容量"
+      },
+      {
+        "key": "Fluid Tank Max Height",
+        "value": "流体储罐最大高度"
+      },
+      {
+        "key": "Powered Train Stats",
+        "value": "动力列车参数"
+      },
+      {
+        "key": "Train Stats",
+        "value": "列车参数"
+      },
+      {
+        "key": "Foundry Collect Items",
+        "value": "熔铸炉收集物品"
+      },
+      {
+        "key": "Foundry Cooling Modifier",
+        "value": "熔铸炉冷却系数"
+      },
+      {
+        "key": "Foundry Damage Entities",
+        "value": "熔铸炉伤害实体"
+      },
+      {
+        "key": "Foundry Fluid Capacity Per Block Volume",
+        "value": "熔铸炉每方块流体容量"
+      },
+      {
+        "key": "Foundry Max Circumference",
+        "value": "熔铸炉最大周长"
+      },
+      {
+        "key": "Foundry Max Height",
+        "value": "熔铸炉最大高度"
+      },
+      {
+        "key": "Foundry Max Volume",
+        "value": "熔铸炉最大容积"
+      },
+      {
+        "key": "Foundry Render Inventory",
+        "value": "熔铸炉渲染内容物"
+      },
+      {
+        "key": "Foundry Tank Tick Rate",
+        "value": "熔铸炉储罐刷新频率"
+      },
+      {
+        "key": "Always Show Terminal Selector",
+        "value": "始终显示终端选择器"
+      },
+      {
+        "key": "Annihilation Plane Max",
+        "value": "湮灭面板耗能上限"
+      },
+      {
+        "key": "Annihilation Plane Min",
+        "value": "湮灭面板耗能下限"
+      },
+      {
+        "key": "Auto Focus Search",
+        "value": "自动聚焦搜索框"
+      },
+      {
+        "key": "Charger Max",
+        "value": "充电器耗能上限"
+      },
+      {
+        "key": "Charger Min",
+        "value": "充电器耗能下限"
+      },
+      {
+        "key": "Clear External Search On Open",
+        "value": "打开时清空外部搜索"
+      },
+      {
+        "key": "Clear Grid On Close",
+        "value": "关闭时清空网格"
+      },
+      {
+        "key": "Disable Colored Cable Recipes In Recipe Viewer",
+        "value": "配方查看器隐藏染色线缆配方"
+      },
+      {
+        "key": "Enable Effects",
+        "value": "启用特效"
+      },
+      {
+        "key": "Enable Facade Recipes In Recipe Viewer",
+        "value": "配方查看器显示外覆板配方"
+      },
+      {
+        "key": "Enable Facades In Recipe Viewer",
+        "value": "配方查看器显示外覆板"
+      },
+      {
+        "key": "Export Bus Max",
+        "value": "输出总线耗能上限"
+      },
+      {
+        "key": "Export Bus Min",
+        "value": "输出总线耗能下限"
+      },
+      {
+        "key": "IOPort Max",
+        "value": "输入输出端口耗能上限"
+      },
+      {
+        "key": "IOPort Min",
+        "value": "输入输出端口耗能下限"
+      },
+      {
+        "key": "Import Bus Max",
+        "value": "输入总线耗能上限"
+      },
+      {
+        "key": "Import Bus Min",
+        "value": "输入总线耗能下限"
+      },
+      {
+        "key": "Inscriber Max",
+        "value": "压印器耗能上限"
+      },
+      {
+        "key": "Inscriber Min",
+        "value": "压印器耗能下限"
+      },
+      {
+        "key": "Interface Max",
+        "value": "接口耗能上限"
+      },
+      {
+        "key": "Interface Min",
+        "value": "接口耗能下限"
+      },
+      {
+        "key": "Magnet Card Range",
+        "value": "磁卡范围"
+      },
+      {
+        "key": "Max Cell Content Shown",
+        "value": "存储元件最多显示条目"
+      },
+      {
+        "key": "Notify For Finished Crafting Jobs",
+        "value": "合成任务完成时通知"
+      },
+      {
+        "key": "Pin Auto Crafted Items",
+        "value": "置顶自动合成的物品"
+      },
+      {
+        "key": "Power Unit",
+        "value": "能量单位"
+      },
+      {
+        "key": "Provide Network Inventory To Emi",
+        "value": "向 EMI 提供网络存储"
+      },
+      {
+        "key": "Remember Last Search",
+        "value": "记住上次搜索"
+      },
+      {
+        "key": "Screenshot Show Count",
+        "value": "截图显示数量"
+      },
+      {
+        "key": "Search Mod Name In Tooltips",
+        "value": "提示中搜索模组名"
+      },
+      {
+        "key": "Show Missing Only By Default",
+        "value": "默认只显示缺失项"
+      },
+      {
+        "key": "Use Compact Tree",
+        "value": "使用紧凑树状图"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.createmod.catnip.config.ui.BaseConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Ambient Volume Cap",
+        "value": "环境音量上限"
+      },
+      {
+        "key": "Custom Background Overlay",
+        "value": "自定义覆盖层背景"
+      },
+      {
+        "key": "Custom Border Bot Overlay",
+        "value": "自定义覆盖层下边框"
+      },
+      {
+        "key": "Custom Border Top Overlay",
+        "value": "自定义覆盖层上边框"
+      },
+      {
+        "key": "Custom Colors Overlay",
+        "value": "自定义覆盖层配色"
+      },
+      {
+        "key": "Enable Ambient Sounds",
+        "value": "启用环境音效"
+      },
+      {
+        "key": "Enable Overstressed Tooltip",
+        "value": "启用过载提示"
+      },
+      {
+        "key": "Enable Tooltips",
+        "value": "启用提示"
+      },
+      {
+        "key": "Explain Render Errors",
+        "value": "解释渲染错误"
+      },
+      {
+        "key": "Fan Particle Density",
+        "value": "风扇粒子密度"
+      },
+      {
+        "key": "Filter Item Render Distance",
+        "value": "过滤器物品渲染距离"
+      },
+      {
+        "key": "Fluid Fog Settings",
+        "value": "流体雾效设置"
+      },
+      {
+        "key": "Goggle Overlay",
+        "value": "护目镜覆盖层"
+      },
+      {
+        "key": "Ignore Fabulous Warning",
+        "value": "忽略「绚丽」画质警告"
+      },
+      {
+        "key": "Ingame Menu Config Button Offset X",
+        "value": "游戏内菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Ingame Menu Config Button Row",
+        "value": "游戏内菜单配置按钮所在行"
+      },
+      {
+        "key": "Main Menu Config Button Offset X",
+        "value": "主菜单配置按钮横向偏移"
+      },
+      {
+        "key": "Main Menu Config Button Row",
+        "value": "主菜单配置按钮所在行"
+      },
+      {
+        "key": "Mounted Zoom Multiplier",
+        "value": "骑乘时缩放倍率"
+      },
+      {
+        "key": "Overlay Offset X",
+        "value": "覆盖层横向偏移"
+      },
+      {
+        "key": "Overlay Offset Y",
+        "value": "覆盖层纵向偏移"
+      },
+      {
+        "key": "Recipe Viewer Integration",
+        "value": "配方查看器集成"
+      },
+      {
+        "key": "Rotate When Seated",
+        "value": "就座时随载具转向"
+      },
+      {
+        "key": "Show Extended Track Graph On F3",
+        "value": "F3 显示完整轨道图"
+      },
+      {
+        "key": "Show Track Graph On F3",
+        "value": "F3 显示轨道图"
+      },
+      {
+        "key": "Show Train Map Overlay",
+        "value": "显示列车地图覆盖层"
+      },
+      {
+        "key": "Sync Recipe Viewer Search",
+        "value": "同步配方查看器的搜索"
+      },
+      {
+        "key": "Train Map Color Theme",
+        "value": "列车地图配色方案"
+      },
+      {
+        "key": "Air In Backtank",
+        "value": "背罐储气量"
+      },
+      {
+        "key": "Allow Brewing In Mixer",
+        "value": "允许在搅拌器中酿造"
+      },
+      {
+        "key": "Allow Casting By Spout",
+        "value": "允许用注液口浇铸"
+      },
+      {
+        "key": "Allow Regular Crafting In Crafter",
+        "value": "允许机械合成器进行普通合成"
+      },
+      {
+        "key": "Allow Shaped Square In Press",
+        "value": "允许压床进行方形有序合成"
+      },
+      {
+        "key": "Allow Shapeless In Mixer",
+        "value": "允许在搅拌器中进行无序合成"
+      },
+      {
+        "key": "Allow Stonecutting On Saw",
+        "value": "允许用锯进行切石"
+      },
+      {
+        "key": "Amethyst Movement",
+        "value": "紫水晶可移动"
+      },
+      {
+        "key": "Bottomless Fluid Mode",
+        "value": "无限流体模式"
+      },
+      {
+        "key": "Brass Tunnel Timer",
+        "value": "黄铜隧道计时"
+      },
+      {
+        "key": "Bulk Cutting",
+        "value": "批量切割"
+      },
+      {
+        "key": "Bulk Pressing",
+        "value": "批量压制"
+      },
+      {
+        "key": "Chain Conveyor Capacity",
+        "value": "链式传送带容量"
+      },
+      {
+        "key": "Crank Hunger Multiplier",
+        "value": "手摇曲柄饥饿倍率"
+      },
+      {
+        "key": "Creative Print Includes Air",
+        "value": "创造打印包含空气"
+      },
+      {
+        "key": "Crushing Damage",
+        "value": "粉碎伤害"
+      },
+      {
+        "key": "Default Extraction Timer",
+        "value": "默认抽取计时"
+      },
+      {
+        "key": "Disable Stress",
+        "value": "禁用应力"
+      },
+      {
+        "key": "Display Link Range",
+        "value": "显示链接范围"
+      },
+      {
+        "key": "Display Log Stripping Recipes",
+        "value": "显示原木剥皮配方"
+      },
+      {
+        "key": "Ejector Scan Interval",
+        "value": "弹射器扫描间隔"
+      },
+      {
+        "key": "Enable Refined Radiance Recipe",
+        "value": "启用光辉精华配方"
+      },
+      {
+        "key": "Enable Shadow Steel Recipe",
+        "value": "启用暗影钢配方"
+      },
+      {
+        "key": "Encased Fan",
+        "value": "包覆式风扇"
+      },
+      {
+        "key": "Enchanted Backtank Capacity",
+        "value": "附魔背罐容量"
+      },
+      {
+        "key": "Factory Gauge Timer",
+        "value": "工厂仪表计时"
+      },
+      {
+        "key": "Fan Block Check Rate",
+        "value": "风扇方块检测频率"
+      },
+      {
+        "key": "Fan Processing Time",
+        "value": "风扇处理时间"
+      },
+      {
+        "key": "Fan Pull Distance",
+        "value": "风扇吸取距离"
+      },
+      {
+        "key": "Fan Push Distance",
+        "value": "风扇推送距离"
+      },
+      {
+        "key": "Fast Speed",
+        "value": "高速档"
+      },
+      {
+        "key": "Fill Infinite",
+        "value": "无限填充"
+      },
+      {
+        "key": "Fluid Fill Place Fluid Source Blocks",
+        "value": "流体填充放置源方块"
+      },
+      {
+        "key": "Fluid Tank Capacity",
+        "value": "流体储罐容量"
+      },
+      {
+        "key": "Fluid Tank Max Height",
+        "value": "流体储罐最大高度"
+      },
+      {
+        "key": "Powered Train Stats",
+        "value": "动力列车参数"
+      },
+      {
+        "key": "Train Stats",
+        "value": "列车参数"
+      },
+      {
+        "key": "Foundry Collect Items",
+        "value": "熔铸炉收集物品"
+      },
+      {
+        "key": "Foundry Cooling Modifier",
+        "value": "熔铸炉冷却系数"
+      },
+      {
+        "key": "Foundry Damage Entities",
+        "value": "熔铸炉伤害实体"
+      },
+      {
+        "key": "Foundry Fluid Capacity Per Block Volume",
+        "value": "熔铸炉每方块流体容量"
+      },
+      {
+        "key": "Foundry Max Circumference",
+        "value": "熔铸炉最大周长"
+      },
+      {
+        "key": "Foundry Max Height",
+        "value": "熔铸炉最大高度"
+      },
+      {
+        "key": "Foundry Max Volume",
+        "value": "熔铸炉最大容积"
+      },
+      {
+        "key": "Foundry Render Inventory",
+        "value": "熔铸炉渲染内容物"
+      },
+      {
+        "key": "Foundry Tank Tick Rate",
+        "value": "熔铸炉储罐刷新频率"
+      },
+      {
+        "key": "Always Show Terminal Selector",
+        "value": "始终显示终端选择器"
+      },
+      {
+        "key": "Annihilation Plane Max",
+        "value": "湮灭面板耗能上限"
+      },
+      {
+        "key": "Annihilation Plane Min",
+        "value": "湮灭面板耗能下限"
+      },
+      {
+        "key": "Auto Focus Search",
+        "value": "自动聚焦搜索框"
+      },
+      {
+        "key": "Charger Max",
+        "value": "充电器耗能上限"
+      },
+      {
+        "key": "Charger Min",
+        "value": "充电器耗能下限"
+      },
+      {
+        "key": "Clear External Search On Open",
+        "value": "打开时清空外部搜索"
+      },
+      {
+        "key": "Clear Grid On Close",
+        "value": "关闭时清空网格"
+      },
+      {
+        "key": "Disable Colored Cable Recipes In Recipe Viewer",
+        "value": "配方查看器隐藏染色线缆配方"
+      },
+      {
+        "key": "Enable Effects",
+        "value": "启用特效"
+      },
+      {
+        "key": "Enable Facade Recipes In Recipe Viewer",
+        "value": "配方查看器显示外覆板配方"
+      },
+      {
+        "key": "Enable Facades In Recipe Viewer",
+        "value": "配方查看器显示外覆板"
+      },
+      {
+        "key": "Export Bus Max",
+        "value": "输出总线耗能上限"
+      },
+      {
+        "key": "Export Bus Min",
+        "value": "输出总线耗能下限"
+      },
+      {
+        "key": "IOPort Max",
+        "value": "输入输出端口耗能上限"
+      },
+      {
+        "key": "IOPort Min",
+        "value": "输入输出端口耗能下限"
+      },
+      {
+        "key": "Import Bus Max",
+        "value": "输入总线耗能上限"
+      },
+      {
+        "key": "Import Bus Min",
+        "value": "输入总线耗能下限"
+      },
+      {
+        "key": "Inscriber Max",
+        "value": "压印器耗能上限"
+      },
+      {
+        "key": "Inscriber Min",
+        "value": "压印器耗能下限"
+      },
+      {
+        "key": "Interface Max",
+        "value": "接口耗能上限"
+      },
+      {
+        "key": "Interface Min",
+        "value": "接口耗能下限"
+      },
+      {
+        "key": "Magnet Card Range",
+        "value": "磁卡范围"
+      },
+      {
+        "key": "Max Cell Content Shown",
+        "value": "存储元件最多显示条目"
+      },
+      {
+        "key": "Notify For Finished Crafting Jobs",
+        "value": "合成任务完成时通知"
+      },
+      {
+        "key": "Pin Auto Crafted Items",
+        "value": "置顶自动合成的物品"
+      },
+      {
+        "key": "Power Unit",
+        "value": "能量单位"
+      },
+      {
+        "key": "Provide Network Inventory To Emi",
+        "value": "向 EMI 提供网络存储"
+      },
+      {
+        "key": "Remember Last Search",
+        "value": "记住上次搜索"
+      },
+      {
+        "key": "Screenshot Show Count",
+        "value": "截图显示数量"
+      },
+      {
+        "key": "Search Mod Name In Tooltips",
+        "value": "提示中搜索模组名"
+      },
+      {
+        "key": "Show Missing Only By Default",
+        "value": "默认只显示缺失项"
+      },
+      {
+        "key": "Use Compact Tree",
+        "value": "使用紧凑树状图"
+      }
+    ]
+  }
+]

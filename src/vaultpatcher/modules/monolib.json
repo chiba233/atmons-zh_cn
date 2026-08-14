@@ -1,0 +1,19 @@
+[
+  {
+    "name": "monolib_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "io.github.jason13official.monolib.impl.common.command.data.arg.FormatArgument"
+    ],
+    "pairs": [
+      {
+        "key": "Item must not be empty or air!",
+        "value": "物品不能为空或为空气！"
+      }
+    ]
+  }
+]

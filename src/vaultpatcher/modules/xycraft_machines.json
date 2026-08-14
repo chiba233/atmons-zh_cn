@@ -1,0 +1,110 @@
+[
+  {
+    "name": "xycraft_machines_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.blocks.isolator.IsolatorBlock"
+    ],
+    "pairs": [
+      {
+        "key": "ForgeCraft specific block. It will be replaced later",
+        "value": "ForgeCraft 专用方块。之后会被替换"
+      },
+      {
+        "key": " for more info...",
+        "value": " 了解更多信息……"
+      },
+      {
+        "key": "Place on something like Magma Blocks or Fluix Blocks to produce Xynergy. Currently, Xynergy is only used for the hover pylon in game which will need to be bound to this block or other nodes with a stick or `c:tools/wrench`.",
+        "value": "放置在岩浆块或福鲁伊克斯块之类的方块上以产出 Xy能。目前，游戏中的 Xy能 仅用于悬浮基柱，悬浮基柱需要使用木棍或 `c:tools/wrench` 绑定到此方块或其他异能节点。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.items.HoverPackItem"
+    ],
+    "pairs": [
+      {
+        "key": "Provides flight while in a powered Hover Pylon field",
+        "value": "在有供能的悬浮基柱力场内时提供飞行能力"
+      },
+      {
+        "key": "Model is Work in Progress",
+        "value": "模型仍在制作中"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.items.XynergyNodeEvent"
+    ],
+    "pairs": [
+      {
+        "key": "You can't bind this to itself",
+        "value": "你不能将其绑定到自身"
+      },
+      {
+        "key": "Too many connections on original node",
+        "value": "原节点连接数过多"
+      },
+      {
+        "key": "Too many connections on target node",
+        "value": "目标节点连接数过多"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.items.XynergyStorageItem"
+    ],
+    "pairs": [
+      {
+        "key": " Capacity: ",
+        "value": " 容量： "
+      },
+      {
+        "key": " Charge: ",
+        "value": " 充能： "
+      },
+      {
+        "key": " Absolute: %d / %d",
+        "value": " 绝对值：%d / %d"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.multiblock.tank.TankMultiBlock"
+    ],
+    "pairs": [
+      {
+        "key": "A valve is part of another tank. Balancing is not yet supported.",
+        "value": "该阀门属于另一个储罐。暂不支持平衡。"
+      },
+      {
+        "key": "Multiple fluids found. Nope.",
+        "value": "检测到多种流体。不行。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.machines.content.xynergy.XynergyCapabilityRegistry$1"
+    ],
+    "pairs": [
+      {
+        "key": "Other node is too far away",
+        "value": "另一节点距离太远"
+      },
+      {
+        "key": "Lightning rods must be connected along an axis or diagonal",
+        "value": "避雷针必须沿轴线或对角线连接"
+      }
+    ]
+  }
+]

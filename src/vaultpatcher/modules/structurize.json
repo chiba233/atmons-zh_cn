@@ -1,0 +1,72 @@
+[
+  {
+    "name": "structurize_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.client.gui.WindowScan"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid Number",
+        "value": "无效数字"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.client.gui.WindowShapeTool"
+    ],
+    "pairs": [
+      {
+        "key": "Select the main block",
+        "value": "选择主要方块"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.commands.UpdateSchematicPackCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to find pack: ",
+        "value": "未能找到包："
+      },
+      {
+        "key": "Error saving blueprint:  ",
+        "value": "保存蓝图时出错："
+      },
+      {
+        "key": "Updated blueprint: ",
+        "value": "已更新蓝图："
+      },
+      {
+        "key": "Error loading blueprint: ",
+        "value": "加载蓝图时出错："
+      },
+      {
+        "key": "Error loading folder: ",
+        "value": "加载文件夹时出错："
+      },
+      {
+        "key": "Finished updating schematics in pack: ",
+        "value": "已完成更新包中的结构："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.ldtteam.structurize.client.gui.WindowExtendedBuildTool$4"
+    ],
+    "pairs": [
+      {
+        "key": "Level: ",
+        "value": "等级："
+      }
+    ]
+  }
+]

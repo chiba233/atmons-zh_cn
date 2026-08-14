@@ -1,0 +1,34 @@
+[
+  {
+    "name": "xycraft_core_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.core.content.blocks.DyeableBlock"
+    ],
+    "pairs": [
+      {
+        "key": "Dyeable in world.",
+        "value": "可在世界中染色。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tv.soaryn.xycraft.core.content.items.ErroredItem"
+    ],
+    "pairs": [
+      {
+        "key": "The item is unavailable, did you remove a mod?",
+        "value": "该物品不可用，你是否移除了某个模组？"
+      },
+      {
+        "key": "������You put this item right back where you found it, or so help me!������",
+        "value": "§§§§§§把这东西给我原封不动放回你找到它的地方，不然有你好受的！§§§§§§"
+      }
+    ]
+  }
+]

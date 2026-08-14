@@ -1,0 +1,82 @@
+[
+  {
+    "name": "merrymaking_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.mamailes.merrymaking.block.deco.kwanzaa.KinaraBlock"
+    ],
+    "pairs": [
+      {
+        "key": "The Umoja Candle has been lit.",
+        "value": "乌莫贾蜡烛已被点亮。"
+      },
+      {
+        "key": "The Kujichagulia Candle has been lit.",
+        "value": "库吉查古利亚蜡烛已被点亮。"
+      },
+      {
+        "key": "The Ujima Candle has been lit.",
+        "value": "乌吉马蜡烛已被点亮。"
+      },
+      {
+        "key": "The Ujamaa Candle has been lit.",
+        "value": "乌贾马蜡烛已被点亮。"
+      },
+      {
+        "key": "The Nia Candle has been lit.",
+        "value": "尼亚蜡烛已被点亮。"
+      },
+      {
+        "key": "The Kuumba Candle has been lit.",
+        "value": "库姆巴蜡烛已被点亮。"
+      },
+      {
+        "key": "The Imani Candle has been lit.",
+        "value": "伊玛尼蜡烛已被点亮。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.mamailes.merrymaking.init.MMSmithingTemplateItem"
+    ],
+    "pairs": [
+      {
+        "key": "Diamond Upgrade",
+        "value": "钻石升级"
+      },
+      {
+        "key": "Iron Upgrade",
+        "value": "铁升级"
+      },
+      {
+        "key": "Applies to:",
+        "value": "可用于："
+      },
+      {
+        "key": "MerryMaking Iron Armors",
+        "value": "欢庆铁制盔甲"
+      },
+      {
+        "key": "Ingredients:",
+        "value": "材料："
+      },
+      {
+        "key": "Diamond Armor Equivalent",
+        "value": "钻石护甲等效物"
+      },
+      {
+        "key": "MerryMaking Leather Armors",
+        "value": "欢庆皮革盔甲"
+      },
+      {
+        "key": "Iron Armor Equivalent",
+        "value": "铁护甲等效物"
+      }
+    ]
+  }
+]

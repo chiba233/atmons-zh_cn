@@ -1,0 +1,19 @@
+[
+  {
+    "name": "evilcraft_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.cyclops.evilcraft.blockentity.tickaction.spiritfurnace.BoxCookTickAction"
+    ],
+    "pairs": [
+      {
+        "key": "Lekkere Stront",
+        "value": "Lekkere 愚锶"
+      }
+    ]
+  }
+]

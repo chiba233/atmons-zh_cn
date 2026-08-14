@@ -1,0 +1,322 @@
+[
+  {
+    "name": "enderdrives_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.commands.ModCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Hold an EnderDisk in your hand.",
+        "value": "将末影磁盘拿在手中。"
+      },
+      {
+        "key": "§cYou must be a server operator to clear general channels.",
+        "value": "§c你必须是服务器操作员才能清除公共频道。"
+      },
+      {
+        "key": "§cInvalid channel type. Use 'private', 'team', or 'global'.",
+        "value": "§c无效的频道类型。请使用“private”、“team”或“global”。"
+      },
+      {
+        "key": "Frequency mismatch. Use the same frequency you confirmed.",
+        "value": "频率不匹配。请使用你确认过的相同频率。"
+      },
+      {
+        "key": "Stress test complete on your private channel:",
+        "value": "你的私人频道上的压力测试已完成："
+      },
+      {
+        "key": "§cYou must be a server operator to dump global channels.",
+        "value": "§c你必须是服务器操作员才能导出全局频道。"
+      },
+      {
+        "key": "§cFailed to access 256k storage cell.",
+        "value": "§c无法访问 256k 存储元件。"
+      },
+      {
+        "key": "§a✔ If drive creation was successful, you can run clear on that frequency now.",
+        "value": "§a✔ 如果驱动器创建成功，你现在可以清除此频率上的内容。"
+      },
+      {
+        "key": "§7No tape drives are currently cached in RAM.",
+        "value": "§7当前 RAM 中没有缓存任何磁带驱动器。"
+      },
+      {
+        "key": "§bCached Tape Drives:",
+        "value": "§b已缓存的磁带机："
+      },
+      {
+        "key": "§cFailed to export. Tape might not exist or is corrupted.",
+        "value": "§c导出失败。磁带可能不存在或已损坏。"
+      },
+      {
+        "key": "§cFailed to import. File missing or invalid format.",
+        "value": "§c导入失败。文件缺失或格式无效。"
+      },
+      {
+        "key": "§7No saved tape drives found.",
+        "value": "§7未找到已保存的磁带机。"
+      },
+      {
+        "key": "§bOldest Tape Drives:",
+        "value": "§b最旧的磁带机:"
+      },
+      {
+        "key": "§7No saved tape drives to verify.",
+        "value": "§7没有可验证的已保存磁带驱动器。"
+      },
+      {
+        "key": "§b[EnderDrives Tape Stats]",
+        "value": "§b[EnderDrives 磁带统计]"
+      },
+      {
+        "key": "Frequency set to ",
+        "value": "频率已设为 "
+      },
+      {
+        "key": "§c⚠ This will permanently delete all items stored in frequency §e",
+        "value": "§c⚠ 这将永久删除频率 §e 中存储的所有物品"
+      },
+      {
+        "key": "§a✔ Cleared frequency §b",
+        "value": "§a✔ 已清除频率 §b"
+      },
+      {
+        "key": "EnderDB Stats:\n - DB Entries: ",
+        "value": "EnderDB 统计：\n - 数据库条目数："
+      },
+      {
+        "key": "§b[AutoBenchmark]\n§7Tested Size: §a",
+        "value": "§b[自动基准测试]\n§7测试大小：§a"
+      },
+      {
+        "key": "§c⚠ TPS dropped below ",
+        "value": "§c⚠ TPS 低于"
+      },
+      {
+        "key": "§a✅ Best stable entry count: §b",
+        "value": "§a✅ 最佳稳定条目数：§b"
+      },
+      {
+        "key": "Unique types: ",
+        "value": "唯一类型："
+      },
+      {
+        "key": "Duplicates: ",
+        "value": "重复项："
+      },
+      {
+        "key": "§cNo items found in frequency ",
+        "value": "§c在该频率中未找到物品"
+      },
+      {
+        "key": "§a✔ Dumped §e",
+        "value": "§a✔ 已转储 §e"
+      },
+      {
+        "key": "§a✔ Released tape ",
+        "value": "§a✔ 已弹出磁带"
+      },
+      {
+        "key": "§cInvalid UUID format: ",
+        "value": "§c无效的 UUID 格式："
+      },
+      {
+        "key": "§a✔ Exported tape ",
+        "value": "§a✔ 已导出磁带"
+      },
+      {
+        "key": "§a✔ Imported tape ",
+        "value": "§a✔ 已导入磁带"
+      },
+      {
+        "key": "§cFailed to delete tape ",
+        "value": "§c删除胶带失败"
+      },
+      {
+        "key": "§a✔ Deleted tape ",
+        "value": "§a✔ 磁带已删除"
+      },
+      {
+        "key": "§cInvalid UUID: ",
+        "value": "§c无效的 UUID:"
+      },
+      {
+        "key": "§cNo .bin file exists for tape ",
+        "value": "§c磁带不存在对应的 .bin 文件："
+      },
+      {
+        "key": "§cError while scanning tape file: ",
+        "value": "§c扫描磁带文件时出错："
+      },
+      {
+        "key": "§b[Diagnosis for ",
+        "value": "§b[诊断对象："
+      },
+      {
+        "key": " §7Total entries: §a",
+        "value": "§7总条目数：§a"
+      },
+      {
+        "key": " §7Malformed: §c",
+        "value": " §7格式错误：§c"
+      },
+      {
+        "key": " §7Size: §e",
+        "value": " §7大小：§e"
+      },
+      {
+        "key": "§e⚠ Suggest exporting backup with /enderdrives tape export ",
+        "value": "§e⚠ 建议先使用 /enderdrives tape export 导出备份："
+      },
+      {
+        "key": "§cError verifying tape ",
+        "value": "§c验证磁带时出错"
+      },
+      {
+        "key": "§b✔ Finished verifying ",
+        "value": "§b✔ 验证完成"
+      },
+      {
+        "key": " §7Cached Drives: §a",
+        "value": "§7已缓存的驱动器：§a"
+      },
+      {
+        "key": " §7Total Types Cached: §e",
+        "value": "§7已缓存的类型总数：§e"
+      },
+      {
+        "key": " §7RAM Usage (Est.): §d",
+        "value": "§7RAM 使用量（估计）：§d"
+      },
+      {
+        "key": " §7Stored .bin Files: §b",
+        "value": " §7已存储的 .bin 文件：§b"
+      },
+      {
+        "key": " §7Disk Usage: §6",
+        "value": "§7磁盘使用量：§6"
+      },
+      {
+        "key": "§cFailed to read tape ",
+        "value": "§c读取磁带失败"
+      },
+      {
+        "key": "§a✔ Removed §b",
+        "value": "§a✔ 已移除 §b"
+      },
+      {
+        "key": "§a✔ Tape ",
+        "value": "§a✔ 磁带"
+      },
+      {
+        "key": "§e✔ Tape ",
+        "value": "§e✔ 磁带"
+      },
+      {
+        "key": "§b[Info for Tape ",
+        "value": "§b[磁带信息"
+      },
+      {
+        "key": " §7In RAM: ",
+        "value": "§7在 RAM 中："
+      },
+      {
+        "key": " §7Pinned: ",
+        "value": " §7已固定："
+      },
+      {
+        "key": " §7Types: §e",
+        "value": " §7类型：§e"
+      },
+      {
+        "key": " §7Bytes: §d",
+        "value": " §7字节：§d"
+      },
+      {
+        "key": " §7Last Accessed: ",
+        "value": "§7上次访问："
+      },
+      {
+        "key": "§cFrequency must be between §e",
+        "value": "§c频率必须介于 §e 之间"
+      },
+      {
+        "key": "§7(Not in RAM)",
+        "value": "§7（不在 RAM 中）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.integration.EnderDrivesJeiPlugin"
+    ],
+    "pairs": [
+      {
+        "key": "This drive only accepts items that are armor, tools, weapons, single stack items, or have non standard NBT.  Save the type space on your larger drives for what really matters.",
+        "value": "此驱动器仅接受盔甲、工具、武器、单堆叠物品，或具有非标准 NBT 的物品。把你更大驱动器中的类型空间留给真正重要的东西吧。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.inventory.EnderDiskInventory"
+    ],
+    "pairs": [
+      {
+        "key": "EnderDisk @ Freq ",
+        "value": "末影磁盘 @ 频率"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.inventory.TapeDiskInventory"
+    ],
+    "pairs": [
+      {
+        "key": "Tape Disk ",
+        "value": "磁带盘 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.items.EnderDiskItem"
+    ],
+    "pairs": [
+      {
+        "key": "§cThis item is disabled on the server.",
+        "value": "§c此物品已在服务器上被禁用。"
+      },
+      {
+        "key": "§cThis EnderDisk is disabled on the server.",
+        "value": "§c此末影磁盘在服务器上已被禁用。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.sts15.enderdrives.items.TapeDiskItem"
+    ],
+    "pairs": [
+      {
+        "key": "§cThis item is disabled on the server.",
+        "value": "§c此物品已在服务器上被禁用。"
+      },
+      {
+        "key": "Ideal for tools, armor, and NBT-heavy items.",
+        "value": "非常适合存放工具、盔甲以及 NBT 数据较多的物品。"
+      },
+      {
+        "key": "Tape ID: ",
+        "value": "磁带 ID:"
+      }
+    ]
+  }
+]

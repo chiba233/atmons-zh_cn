@@ -1,0 +1,35 @@
+[
+  {
+    "name": "industrialization_overdrive_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.wp.industrialization_overdrive.item.Terminal"
+    ],
+    "pairs": [
+      {
+        "key": "Unable to get shape matcher for this multiblock.",
+        "value": "无法为此多结构获取形状匹配器。"
+      },
+      {
+        "key": "Required items:",
+        "value": "所需物品："
+      },
+      {
+        "key": "Block at %s is not part of the multiblock",
+        "value": "%s 处的方块不属于该多方块结构"
+      },
+      {
+        "key": "Block at %s is not part of the multiblock and cannot be replaced.",
+        "value": "%s 处的方块不属于该多方块结构，无法替换。"
+      },
+      {
+        "key": "Multiblock must be formed to copy it.",
+        "value": "多方块结构必须先成型才能复制。"
+      }
+    ]
+  }
+]

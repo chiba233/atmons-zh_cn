@@ -1,0 +1,52 @@
+[
+  {
+    "name": "tombstone_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "ovh.corail.tombstone.gui.ScreenConfig"
+    ],
+    "pairs": [
+      {
+        "key": "Save",
+        "value": "保存"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ovh.corail.tombstone.gui.ScreenReadableScroll"
+    ],
+    "pairs": [
+      {
+        "key": "Readable Scroll",
+        "value": "可读卷轴"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ovh.corail.tombstone.item.ItemMagicScroll"
+    ],
+    "pairs": [
+      {
+        "key": "[effect added by %s]",
+        "value": "效果由 %s 添加"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ovh.corail.tombstone.registry.ModTabs"
+    ],
+    "pairs": [
+      {
+        "key": "Corail Tombstone",
+        "value": "Corail 的墓碑"
+      }
+    ]
+  }
+]

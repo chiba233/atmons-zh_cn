@@ -1,0 +1,19 @@
+[
+  {
+    "name": "refinedstorage_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.refinedmods.refinedstorage.neoforge.debug.DebugStickItem"
+    ],
+    "pairs": [
+      {
+        "key": "Gave a storage disk with ",
+        "value": "给予了一个存储磁盘，其中包含 "
+      }
+    ]
+  }
+]

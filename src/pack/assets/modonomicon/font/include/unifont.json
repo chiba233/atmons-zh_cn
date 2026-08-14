@@ -1,0 +1,10 @@
+{
+    "__why": "modonomicon 自带的 assets/modonomicon/font/include/unifont.json 里 providers 是空数组，而 modonomicon:default 引用了它。结果是那套字体只有拉丁与西里尔位图，一个 CJK 字形都没有——用它渲染的书页里，我们的中文会画成方框。占位的 __why 只是注释，Minecraft 会忽略未知字段。",
+    "__evidence": "occultism 的 data/occultism/modonomicon/books/dictionary_of_spirits/book.json 明写 \"font\": \"modonomicon:default\"，也就是魔灵全典整本书都走这套字体。同一个包里的 supplementaries/font/antiquable.json 就是直接 reference minecraft:include/unifont——那是正确写法的现成证据，这里照它写。",
+    "providers": [
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        }
+    ]
+}

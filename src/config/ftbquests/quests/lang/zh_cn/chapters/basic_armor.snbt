@@ -109,6 +109,7 @@
 	quest.3416DB9F58D8AA2C.quest_desc: ["&3海王锭&r是通过钓鱼获得的海王恩惠奖励！\\n它还能提供水下活动的增益效果。"]
 	quest.3416DB9F58D8AA2C.quest_subtitle: "28"
 	quest.3416DB9F58D8AA2C.title: "&3海王盔甲"
+	quest.34D14B807A2DAC0F.quest_desc: ["你认为&5&l通用机械&r能独占所有乐趣吗？\\n\\n这套&5量子盔甲&r的默认属性与&c下界合金盔甲&r相似，但就像&aMeka套装&r一样，它可以使用能量作为护盾。\\n它还可以安装升级模块，让你变得更强大！例如飞行、夜视，甚至还有充能能力。\\n\\n但最棒的部分是它可以连接到你的存储系统！然后，无论你在哪里，都可以自动从中取出能量和任何物品。"]
 	quest.34D14B807A2DAC0F.quest_subtitle: "你能提供的尽可能多的能量"
 	quest.34D14B807A2DAC0F.title: "&5量子盔甲&r (&l&bAE2&r)"
 	quest.351159C55159C316.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_spire.png width:100 height:150 align:center}"]

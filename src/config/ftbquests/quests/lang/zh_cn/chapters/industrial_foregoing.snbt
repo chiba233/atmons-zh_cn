@@ -69,6 +69,29 @@
 	quest.4C366515E3CCB0B2.quest_desc: ["管子里流出来的肉，嗯，美味。"]
 	quest.4DB5DD6E20619B4D.quest_desc: ["用来强化机器。共有4个插件等级，另有8个专门用于提升范围的插件。"]
 	quest.4F3EF1574F31A7E2.quest_desc: ["生物静滞室可以将工作区域内的生物固定在原地。被静滞的生物还会持续受到机器治疗。还想回血更快？那就装几个插件吧！"]
+	quest.538186D01429F05F.quest_desc: [
+		"这个任务会介绍如何用AE2自动化&c自动炼药机&r。首先，先按下图搭出一套结构："
+		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
+		"（图中的创造能量元件只是代指你的主网络）"
+		"{@pagebreak}"
+		"接着，我们需要用&9输出总线&r或&9ME接口&r，向&c自动炼药机&r提供&1水&r和&6烈焰粉&r。&6烈焰粉&r会作为燃料使用。此时先不要提供玻璃瓶，否则你的网络里很快就会堆满水瓶。"
+		"{@pagebreak}"
+		"下一步需要一个"
+		"&5高级样板供应器&r。它的使用方式可以参考AE2扩展与高级AE章节。然后我们要编码一个样板。这里以酿造&4治疗药水&r为例，这种药水可用于模块化蜜蜂的Royal Treats。样板内容可以设置为：3个玻璃瓶、1个地狱疣、1个闪烁的西瓜片，产出3瓶&4治疗药水&r。这里会用到&5高级样板供应器&r的两项特殊能力。第一项是向指定侧面发送物品，我们会借此把玻璃瓶送入机器顶部。请用&5高级样板编码器&r按下图进行编码："
+		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
+		"{@pagebreak}"
+		"接下来，我们需要在&5高级样板供应器&r上启用过滤输入。这样它就只会接收与当前活跃合成任务匹配的物品，也就不会过早把药水收回去。你还可以继续安装Processing Addons来协助处理，尤其是在同一个供应器承担大批量合成任务时。\\n\\n最后，还需要把自动炼药机的各个面配置成下图这样："
+		"{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/output.png width:125 height:100 align:center}"
+		"如果你使用的是&9ME接口&r方案，则侧面配置如下："
+		"{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}"
+		"{@pagebreak}"
+		"\\n\\n如果你看完还是没弄明白，或者更想直接看视频，那就点这里看我上传的ChosenArchitect视频："
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"VIDEO LINK HERE\",\"underlined\":true} "
+	]
 	quest.538186D01429F05F.quest_subtitle: "使用AE2"
 	quest.538186D01429F05F.title: "自动化自动炼药机"
 	quest.540B857F043C24D5.quest_desc: ["生物质炉会使用&9水&r和多种不同材料来生产&5生物燃油&r（所有可用输入请查看JEI）。提供的材料种类越多，生物质炉生产&5生物燃油&r的效率就越高。\\n\\n而生物燃油发电机则会消耗由&5生物质炉&r产出的&5生物燃油&r来发电。"]

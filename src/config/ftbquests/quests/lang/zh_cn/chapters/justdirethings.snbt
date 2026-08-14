@@ -633,6 +633,13 @@
 		"- X射线透视"
 		"- 瞬间破坏"
 	]
+	quest.6ADE6F9E004055F7.quest_desc: [
+		"时间水晶是可怖之物添加的新材料。它们生长在时间水晶母岩上，而时间水晶母岩可通过对紫水晶母岩或时间水晶块进行凝胶蔓延获得。\\n\\n不过，时间水晶母岩必须从&9主世界&r、&6下界&r和&a末地&r收集时间，才能生长出时间水晶簇。你不能破坏时间水晶母岩，也不能对其使用精准采集。你必须使用替换器、纸箱或剪切粘贴小帮手来移动它们。\\n\\n过一段时间后，时间水晶母岩会&2耗尽能量&r，因此必须再次前往&9主世界&r、&6下界&r和&a末地&r。"
+		"{@pagebreak}"
+		"\\n\\n如果上一页里&2颜&9色&6编&0码&r还不足以帮助你分辨不同阶段，我还额外放了一张图片，方便你判断每个时间水晶母岩分别处于哪个阶段。"
+		""
+		"{image:atm:textures/questpics/justdirethings/budding_time_crystal_reference.png width:250 height:125 align:center}"
+		]
 	quest.6ADE6F9E004055F7.quest_subtitle: "光怪陆离，时空交错"
 	quest.6ADE6F9E004055F7.title: "时间水晶"
 	quest.6D9CFCD81A23BB3B.quest_desc: [

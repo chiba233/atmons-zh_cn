@@ -243,6 +243,41 @@ def _file_absent(rule):
         yield '%s 不应存在 —— %s' % (p, rule['why'])
 
 
+@checker('filename_in_upstream_chapters')
+def _filename_in_upstream_chapters(rule):
+    """译文文件名必须对得上上游某个章节文件。
+
+    本包的中文任务书按上游章节名整份出货。文件名对不上上游任何一个章节，
+    那份译文就永远落不到玩家手里——而且不报错，是静默失效。
+
+    上游目录从出货树推：两条流水线的布局一致（build/v/<版本> 配 build/packsrc/<版本>），
+    也允许用 ATM_PACK_ROOT 覆盖。**推不出来就红**：这道闸的判据全在上游那边，
+    取不到就等于判不了，判不了不许放行。
+    """
+    g, up = need(rule, 'glob', 'upstream')
+    msg = rule.get('message', '{path} 在上游章节里找不到')
+    root = os.environ.get('ATM_PACK_ROOT') or ''
+    base = Path(root) if root else TREE.parent.parent / 'packsrc' / TREE.name
+    d = base / up
+    if not d.is_dir():
+        yield ('取不到上游章节目录 %s —— 这道闸的判据全在上游，判不了就不许放行'
+               '（可用 ATM_PACK_ROOT 指定整合包目录）' % d)
+        return
+    names = {p.name.replace('.snbt_merged', '.snbt')
+             for p in list(d.glob('*.snbt*')) + list((d / 'chapters').glob('*.snbt*'))}
+    if not names:
+        yield '上游 %s 下一个章节文件都没有——判不了' % d
+        return
+    hit = (sorted(p for p in ROOT.glob(g) if p.is_file())
+           if rule.get('scope') == 'repo' else files(g))
+    if not hit:
+        yield 'glob %r 一个文件都没命中（规则失效了，比不加还危险）' % g
+        return
+    for p in hit:
+        if p.name not in names:
+            yield msg.format(path=rel(p))
+
+
 @checker('filename_prefix')
 def _filename_prefix(rule):
     g, pre = need(rule, 'glob', 'prefix')

@@ -37,17 +37,14 @@ COMMON="build/common"
 BANNERS=$(find "$COMMON/resourcepacks/ATMons汉化包/assets/atm/textures/questpics" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 BUTTONS=$(find "$COMMON/config/fancymenu/assets" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 # 导览书全是 gen_books.py 现产的（仓库里一份副本都没有），漏了就是一整套英文导览书。
-# 下限取 1200，与 verify_dist.py 的 book_files 同一个数——同一件事不该有两个标尺。
-# 曾经写 1300，是照上一个整合包的量定的；本包 CI 实测 1294，模组少一批、书本来就少，
-# 不是生成失败。**这个数不许为了让 CI 变绿而下调**：真掉下去先查是不是删错了东西
-# （verify_dist.py 里记着那次事故的经过）。
+# 下限 1300：原先写 1500，是「把与上游逐字节相同的页也照搬进来」那会儿的量。
+# 现在两类页不再输出——套完映射与原文一字不差的（游戏按文件回落到 en_us，
+# 发了也是同样的英文），以及模组自己就带中文的——所以基数本来就该低一截。
 BOOKS=$(find "$COMMON/resourcepacks/ATMons汉化包/assets" \
   -path '*patchouli_books*' -o -path '*ae2guide*' -o -path '*oracle-index*' 2>/dev/null | grep -c . || true)
 MISSING=""
-[ "${BOOKS:-0}" -ge 1200 ] || MISSING="$MISSING 导览书(${BOOKS}/1200)"
-# 横幅下限跟着 BANNERS 表走。本包该表 162 条（上一个整合包 200 条，差的是
-# 冰火传说/魔法使等本包没有的模组），CI 实测出图 162 张。取 150 留出上游增删的余地。
-[ "${BANNERS:-0}" -ge 150 ] || MISSING="$MISSING 横幅(${BANNERS}/150)"
+[ "${BOOKS:-0}" -ge 1300 ] || MISSING="$MISSING 导览书(${BOOKS}/1300)"
+[ "${BANNERS:-0}" -ge 200 ] || MISSING="$MISSING 横幅(${BANNERS}/200)"
 [ "${BUTTONS:-0}" -ge 14 ]  || MISSING="$MISSING 按钮(${BUTTONS}/14)"
 for f in \
   "$COMMON/resourcepacks/ATMons汉化包/assets/hanhua_trophies/lang/zh_cn.json" \

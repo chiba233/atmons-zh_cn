@@ -119,14 +119,17 @@ def main(argv, check_only=False):
             # 全包没有任何 jar 提供这个命名空间下的任何一个文件，才算模组不在。
             ns = rel.split('/')[1] if rel.startswith('assets/') else ''
             prefix = 'assets/%s/' % ns
-            if ns and not any(k.startswith(prefix) for k in jars.index):
-                print('  ℹ️ 跳过 %s：本整合包不带 %s（全包没有一个 jar 提供 %s）'
-                      % (rel, ns, prefix))
-                skipped += 1
-                continue
-            sys.exit('❌ 在 mods 里找不到 %s\n'
-                     '   但 %s 这个命名空间是在的——多半是上游把图改名或挪位了，'
-                     '本表里量好的坐标随之作废，要重新量过。' % (rel, ns))
+            present = bool(ns) and any(k.startswith(prefix) for k in jars.index)
+            if present:
+                sys.exit('❌ 在 mods 里找不到 %s\n'
+                         '   但 %s 这个命名空间是在的——多半是上游把图改名或挪位了，'
+                         '本表里量好的坐标随之作废，要重新量过。' % (rel, ns))
+            # 命名空间也不在。不许就此跳过——登记过才行，见 compliance/absent.py
+            sys.path.insert(0, str(Path(__file__).resolve().parent / 'compliance'))
+            from absent import allow_skip
+            allow_skip(ns, 'gen_mod_textures.py', mods_dir(argv), present)
+            skipped += 1
+            continue
         got = hashlib.sha1(raw).hexdigest()
         if got != spec['sha1']:
             sys.exit('❌ %s 的源图变了（记的是 %s，实际 %s）——'

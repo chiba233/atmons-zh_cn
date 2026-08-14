@@ -1,0 +1,19 @@
+{
+  "_说明": "本整合包**确实不带**的模组。只有登记在这里的，相关的闸才允许跳过；没登记的一律红。要加一条必须写明谁批的、什么理由、哪天——跳过一道闸这件事要在版本库里留疤，见 scripts/compliance/absent.py。",
+  "absent": [
+    {
+      "namespace": "minecolonies",
+      "gates": ["check_minecolonies_paths.py", "gen_mod_textures.py"],
+      "why": "All the Mons 1.2.0 的 396 个 jar 里没有一个提供 assets/minecolonies/。建筑棒蓝图路径闸与 gui/guide/background.png 的贴图重绘随之无从谈起。",
+      "approved_by": "chiba233",
+      "date": "2026-08-14"
+    },
+    {
+      "namespace": "oracle_index/books/mffs",
+      "gates": ["check_oracle_index_paths.py"],
+      "why": "MFFS 不在 All the Mons 1.2.0 里，没有任何 jar 提供 assets/oracle_index/books/mffs/sinytra-wiki.json。src/pack 下那本书的译文保留（永远不会被读，也不碍事），但这一版核不了它的目录约定。",
+      "approved_by": "chiba233",
+      "date": "2026-08-14"
+    }
+  ]
+}

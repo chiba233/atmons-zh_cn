@@ -141,13 +141,11 @@ def main():
                         break
             except Exception:                                  # noqa: BLE001
                 continue
-        if not ns_present:
-            print('ℹ️ 跳过建筑棒蓝图路径检查：本整合包不带 MineColonies'
-                  '（%d 个 jar 里没有一个提供 assets/minecolonies/）。\n'
-                  '   %s 这个模块随之在本包无目标类，留着不出问题；'
-                  '哪天整合包加回 MineColonies，这道闸会自己恢复。'
-                  % (len(list(mods.glob('*.jar'))), MODULE.relative_to(ROOT)))
-            return 0
+        # 不许闸自己判「模组不在就跳过」——登记过才行，见 absent.py
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from absent import allow_skip
+        allow_skip('minecolonies', 'check_minecolonies_paths.py', mods, ns_present)
+        return 0
         print('❌ 在 %s 里一条蓝图路径都没找到，但 assets/minecolonies/ 是在的——'
               '要么 jar 没备齐，要么结构包换了布局；这时候「通过」是假的。' % mods)
         return 1

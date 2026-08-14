@@ -74,6 +74,10 @@ def schema_of(mods, book):
                             '判不了就不许放行' % (jar.name, prefix, want))
             except Exception:
                 continue
+        # 全包没有这本书的任何文件。不许就此跳过——登记过才行
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from absent import allow_skip
+        allow_skip('oracle_index/books/%s' % book, 'check_oracle_index_paths.py', mods, False)
         return None, None
     if len({json.dumps(m, sort_keys=True) for _, m in found}) > 1:
         die('%s 被多个 jar 提供且内容不一致：%s' % (want, [n for n, _ in found]))

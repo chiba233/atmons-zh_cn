@@ -84,6 +84,39 @@ def bad_in(s):
     return out
 
 
+def bad_frags(s):
+    """跟 bad_in 同一套判定，但返回 (码, 片段) —— 片段是 `&` 起 9 个字符。
+
+    豁免必须**逐处**判：只知道「这一条里有个非法 &t」是不够的，同一条里可能既有
+    上游 URL 里那个合法存在的 `&t=427`，又有我们译文中新写坏的一处。只按码字母比，
+    前者会把后者一起赦免（连坐）。
+    """
+    out, i = [], 0
+    while i < len(s):
+        if s.startswith('\\\\&', i):
+            i += 3
+            continue
+        if s[i] == '\\':
+            i += 2
+            continue
+        if s[i] == '&':
+            r = s[i + 1:]
+            if not r:
+                out.append(('(行尾)', s[i:i + 9]))
+            elif HEX.match(r):
+                i += 8
+                continue
+            elif r[0] in CODES:
+                i += 2
+                continue
+            else:
+                out.append((r[0], s[i:i + 9]))
+            i += 1
+            continue
+        i += 1
+    return out
+
+
 def entries(path):
     """{键: [该键名下的原始行…]}。多行 [ ] 块里的行都算在同一个键上。"""
     out, cur = {}, None
@@ -151,9 +184,11 @@ def main(argv):
         got = [c for ln in lines for c in bad_in(ln)]
         if not got:
             continue
-        # 英文同一条也这么写 = 上游本来就这样，不是翻译弄坏的
-        en_bad = [c for ln in en.get(key, ('', []))[1] for c in bad_in(ln)]
-        if set(got) <= set(en_bad):
+        # 英文同一条也这么写 = 上游本来就这样，不是翻译弄坏的。**逐处判**，
+        # 与下面那个循环同一套判据——两个循环判得不一样就是这份文件开头警告过的坑。
+        en_txt = ' '.join(en.get(key, ('', []))[1])
+        got = [c for ln in lines for c, frag in bad_frags(ln) if frag not in en_txt]
+        if not got:
             continue
         bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
 
@@ -170,10 +205,14 @@ def main(argv):
         got = [c for ln in lines for c in bad_in(ln)]
         if not got:
             continue
-        en_bad = [c for ln in en.get(key, ('', []))[1] for c in bad_in(ln)]
-        if set(got) <= set(en_bad):
+        # 豁免**逐处**判：这一处的片段（`&` 起 9 个字符）必须在英文原文里逐字节出现过。
+        # 只按码字母比会连坐——上游 URL 里那个 `&t=427` 会把同一条里我们新写坏的
+        # 任何一处 &t 一起赦免。
+        en_txt = ' '.join(en.get(key, ('', []))[1])
+        left = [c for ln in lines for c, frag in bad_frags(ln) if frag not in en_txt]
+        if not left:
             continue
-        bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
+        bad.append((src, key, left, ' '.join(x.strip() for x in lines)[:150]))
 
     if not bad:
         print('✅ 任务书格式码：%d 个键逐条查过，没有会被 FTB 顶成红字报错的 &'

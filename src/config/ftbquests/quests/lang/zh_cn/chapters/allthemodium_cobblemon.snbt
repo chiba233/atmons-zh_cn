@@ -1,5 +1,5 @@
 {
-	quest.013065F73A676E7D.quest_desc: ["&3Ancient Vibranium Lid&r的做法和&6Ancient Allthemodium Lid&r一样。\\n\\n往&3Vibranium Lid&r上丢点&6玉石&r，砰！&3Ancient Vibranium Lid&r 就有了。"]
+	quest.013065F73A676E7D.quest_desc: ["&3古代振金球盖&r的做法和&6古代ATM球盖&r一样。\\n\\n往&3振金球盖&r上丢点&6玉石&r，砰！&3古代振金球盖&r 就有了。"]
 	quest.013065F73A676E7D.title: "&3古代振金球盖"
 	quest.015EC0ACDA0BB5F8.quest_desc: ["&6Half Apricorn&r的颜色决定我们能得到哪种&bLid&r。而且还顺带出染料！\\n\\n把&bBall Lid&r烧一下能得到 Blank Ball Lid，它可以染成别的&bLid&r。\\n\\n还有一种是 Apricorn Lid。做法有好几种，但都要用球果树上的球果原木。\\n\\n可以用带激光的&8装配线&r，或者用&c粉碎工厂&r把普通球果原木变成 Apricorn Lid。也可以拿&6动力锯&r去锯 Stamped Apricorn Log。"]
 	quest.015EC0ACDA0BB5F8.title: "&bBall Lids"
@@ -19,8 +19,8 @@
 		"{@pagebreak}"
 		"&5原子锻造器&r！一台又酷又扁的机器。\\n\\n这次要 8 块 Machine Casing。\\n\\n&5原子锻造器&r不像普通机器那样取电，它要的是激光打进去！\\n\\n用&2末影激光器&r。给&2末影激光器&r通上电，再用目标标识器先潜行右键&5原子锻造器&r、再点&2末影激光器&r。\\n\\n（如果）成了，把&6Apricorn Halves&r丢进去就能出&6Bits&r。"
 	]
-	quest.0A7CF61C8500FE26.quest_desc: ["做&c&lAncient Origin Ball&r只有一条路，就是走&6&l机械动力&r的加工线！\\n\\n先把一个&5古代难得素球&r放进冲压机压扁。\\n\\n然后用机械手把&cOrigin Lid&r装上去。接着依次是一根&5难得素&f-&6ATM&r合金锭、一颗下界之星，再一根&5难得素&f-&6ATM&r合金锭。\\n\\n最后装上一个 Blank Ball Lid，&c&lAncient Origin Ball&r 就完成了。\\n\\n&c&lOrigin Ball&r是&5&l大师球&r的远古版本，换上了利落的&c红色&r！后面合成各种&e&l皮卡之星&r都要用它。"]
-	quest.0A7CF61C8500FE26.title: "&c&lAncient Origin Ball"
+	quest.0A7CF61C8500FE26.quest_desc: ["做&c&l起源球&r只有一条路，就是走&6&l机械动力&r的加工线！\\n\\n先把一个&5古代难得素球&r放进冲压机压扁。\\n\\n然后用机械手把&cOrigin Lid&r装上去。接着依次是一根&5难得素&f-&6ATM&r合金锭、一颗下界之星，再一根&5难得素&f-&6ATM&r合金锭。\\n\\n最后装上一个 Blank Ball Lid，&c&l起源球&r 就完成了。\\n\\n&c&lOrigin Ball&r是&5&l大师球&r的远古版本，换上了利落的&c红色&r！后面合成各种&e&l皮卡之星&r都要用它。"]
+	quest.0A7CF61C8500FE26.title: "&c&l起源球"
 	quest.0CE62B46FD2C48FE.quest_desc: [
 		"跟前面每一步一样，做&7Mechanism&r也有好几条路。\\n\\n可以用&6机械手&r依次往一个&7Ball Base&r上砸：先砸一个粒，再砸一根&8传动杆&r，最后砸上另一个&7Ball Base&r，一个完整的&7Mechanism&r就成了。"
 		"{@pagebreak}"
@@ -43,13 +43,13 @@
 	quest.17FFBED5CC92ACF0.title: "&7Stamped Nuggets"
 	quest.19B6649B049A402A.quest_desc: ["&6ATM&r、&3振金&r和&5难得素&r，&6ATM&r 三大金属。\\n\\n希望你在做这些任务之前，已经把它们自己那一章走完了……\\n\\n要做&c精灵球&r，这些锭得备上不少。是的，很贵。\\n\\n做&7Mechanism&r时，还要先把其中几根锭压成板材，才能……"]
 	quest.19B6649B049A402A.title: "&6&lATM&r 三大金属"
-	quest.1D76272C64F9CBD5.quest_desc: ["&5Ancient Unobtainium Lid&r是&3Vibranium Lid&r的升级版。\\n\\n你需要往一个&3Ancient Vibranium Lid&r上加一块&5难得素块&r和&5难得素球果碎块&r。\\n\\n用&5原子锻造器&f或&7压力室&r把这些材料合起来。也可以用注液器把一整块&5难得素&r淋到&3Lid&r上，再用机械手把&5难得素球果碎块&r装进去。"]
+	quest.1D76272C64F9CBD5.quest_desc: ["&5古代难得素球盖&r是&3振金球盖&r的升级版。\\n\\n你需要往一个&3古代振金球盖&r上加一块&5难得素块&r和&5难得素球果碎块&r。\\n\\n用&5原子锻造器&f或&7压力室&r把这些材料合起来。也可以用注液器把一整块&5难得素&r淋到&3Lid&r上，再用机械手把&5难得素球果碎块&r装进去。"]
 	quest.1D76272C64F9CBD5.title: "&5古代振金球盖"
 	quest.1F81408C55EFC5DB.quest_desc: ["好吧，严格说你不是非压印不可。\\n\\n有些就照普通板材放着也行。"]
 	quest.1F81408C55EFC5DB.title: "&6&lATM&r 金属板"
 	quest.2CE9AB9D08F1BF37.quest_desc: ["&7Ball Base&r！对了，我该早点告诉你&7锌&r做的是&7Iron Ball Base&r，抱歉。\\n\\n每个&7Mechanism&r要 2 个&7Ball Base&r。\\n\\n另外还要配上&6机械手&r和别的材料才能做出&7Mechanism&r。"]
 	quest.2CE9AB9D08F1BF37.title: "&7Ball Bases"
-	quest.2E058260BFA30B26.quest_desc: ["用&c装配器&f、&7压力室&f或&6&l机械动力&r都能做出&3古代振金球&r。\\n\\n用&7压力室&r或&c装配器&r的话，把&3Ancient Vibranium Mechanism&r、&3Ancient Vibranium Lid&r、Apricorn Lid 和&7铁杆&r一股脑丢进去就行。\\n\\n走&6&l机械动力&r产线的话，先放&3Mechanism&r，再依次装上&3Vibranium Lid&r、Apricorn Lid，最后放&7铁杆&r，&3古代振金球&r 就完成了！"]
+	quest.2E058260BFA30B26.quest_desc: ["用&c装配器&f、&7压力室&f或&6&l机械动力&r都能做出&3古代振金球&r。\\n\\n用&7压力室&r或&c装配器&r的话，把&3古代振金球芯&r、&3古代振金球盖&r、Apricorn Lid 和&7铁杆&r一股脑丢进去就行。\\n\\n走&6&l机械动力&r产线的话，先放&3Mechanism&r，再依次装上&3振金球盖&r、Apricorn Lid，最后放&7铁杆&r，&3古代振金球&r 就完成了！"]
 	quest.2E058260BFA30B26.title: "&3古代振金球"
 	quest.369913246ECA136C.quest_desc: [
 		"板材有没有压过印，决定了你能用哪台机器。\\n\\n压过印的话，用&6动力冲压机&r就能做出&7Ball Base&r。\\n\\n没压过的话，试试下面这些！"
@@ -119,7 +119,7 @@
 	quest.655FA86A410CE27B.quest_desc: ["拿前面任务里做出的&9Blue Lid&r，就能做&9Great Ball Lid&r。\\n\\n用机械手往那个&9Blue Lid&r上装 2 份&cRed Apricorn Bits&r，&9Great Ball Lid&r 就成了。\\n\\n它当然可以拿来做&9超级球&r，不过为什么不做个更厉害的&c球&r呢！\\n\\n我说的是&b烈火超级球&r，不是什么 Greater Ball……"]
 	quest.668E99B93D0BC405.quest_desc: ["&bLid&r有了，&7Mechanism&r也有了，终于可以做&c精灵球&r了！\\n\\n还差的只有一个 Blank Lid 和一根&7铁杆&r。\\n\\n用&6机械手&r、&7压力室&r或者&8装配线&r都能把它们凑到一起。行了，到这儿你该会用了吧！"]
 	quest.668E99B93D0BC405.title: "把我们的&c精灵球&r收尾"
-	quest.68DFC9543F10B906.quest_desc: ["用&5原子锻造器&r、&7压力室&r或&6&l机械动力&r产线都能做出&6古代ATM球&r。\\n\\n需要&6Ancient Allthemodium Mechanism&r、一根&7铁杆&r、一个 Apricorn Lid，还有一个&6Ancient Allthemodium Lid&r。\\n\\n&7压力室&r和&c装配器&r是无序合成，直接混在一起；&6&l机械动力&r产线则不同。\\n\\n先放&6Ancient Allthemodium Mechanism&r，然后依次装上&6Ancient Allthemodium Lid&r、Apricorn Lid，最后装&7铁杆&r。"]
+	quest.68DFC9543F10B906.quest_desc: ["用&5原子锻造器&r、&7压力室&r或&6&l机械动力&r产线都能做出&6古代ATM球&r。\\n\\n需要&6古代ATM球芯&r、一根&7铁杆&r、一个 Apricorn Lid，还有一个&6古代ATM球盖&r。\\n\\n&7压力室&r和&c装配器&r是无序合成，直接混在一起；&6&l机械动力&r产线则不同。\\n\\n先放&6古代ATM球芯&r，然后依次装上&6古代ATM球盖&r、Apricorn Lid，最后装&7铁杆&r。"]
 	quest.68DFC9543F10B906.title: "&6古代ATM球"
 	quest.6A6CD8024A4E9075.quest_desc: ["在&b&l彼岸&r你会看到&6球果树&r，只不过这里结的是另一种&6球果&r！\\n\\n&6ATM&f和&3振金&f&6球果&r！\\n\\n这些&6树&r和普通&6球果树&r一样：闪亮的&6球果&r可以从&6树&r上摘下来，树也能砍了取木头，再种回去长出更多&6球果树&r。\\n\\n收齐&6ATM&f和&3振金&f&6球果&r之后，跟 Poké Mart Trader 交易就能换到最后一种，&5难得素&r的。"]
 	quest.6A6CD8024A4E9075.title: "&6&lATM&r 金属&6球果"
@@ -139,7 +139,7 @@
 		"{@pagebreak}"
 		"&7压力室&r和&8装配线&r一样，都出自&8&l气动工艺&r。\\n\\n&7压力室&r是多方块机器，主体由压力室墙壁或压力室玻璃搭成；气阀负责接入压力，接口负责与容器之间收发物品。\\n如果朝外那一面是蓝色，那就是输入；橙色则是输出！"
 	]
-	quest.7988678881B034C2.quest_desc: ["&5Ancient Unobtainium Lid&r的做法虽然不同，&5球&r本身却没什么两样。\\n\\n&c装配器&f、&7压力室&f，或者&6&l机械动力&r！\\n\\n&5Ancient Mechanism&r，加上各种 Lid，再加一根&7铁杆&r。"]
+	quest.7988678881B034C2.quest_desc: ["&5古代难得素球盖&r的做法虽然不同，&5球&r本身却没什么两样。\\n\\n&c装配器&f、&7压力室&f，或者&6&l机械动力&r！\\n\\n&5Ancient Mechanism&r，加上各种 Lid，再加一根&7铁杆&r。"]
 	quest.7988678881B034C2.title: "&5古代难得素球"
 	quest.7BFF76B27D398E62.quest_desc: ["用一堆很奇怪的材料，我们就能合成出&8Rubber Stamp&r！\\n\\n有意思的是，合成它不需要&6&l机械动力&r，用它才需要。\\n\\n不过我很好奇，我们到底往东西上盖的是个什么符号……"]
 	quest.7DE2BE7BE664635D.quest_desc: ["每种&7Mechanism&r做出的&c精灵球&r档次不同。\\n\\n&6铜&r做的是默认&c精灵球&r，以及&a猎友球&r和&d治愈球&r。\\n\\n&7铁&r做&9超级球&r，还有&3捕网球&r、&b潜水球&r之类。\\n\\n&e黄铜&r做&e高级球&r、&d友友球&r和&6豪华球&r，还有一些别的。\\n\\n&5Sturdy Ball Mechanism&r做的是&c梦境球&r和&9究极球&r！"]

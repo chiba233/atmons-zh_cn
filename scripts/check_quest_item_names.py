@@ -10,7 +10,7 @@
 import json, os, re, sys, zipfile
 from collections import defaultdict
 
-INST = "/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10"
+INST = "/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons"
 MCROOT = "/Users/yumeka/Documents/minecraft/.minecraft"
 REPO = "/Users/yumeka/Documents/projects/atmons-zh-cn"
 PACK = os.path.join(REPO, "src/pack")
@@ -104,7 +104,7 @@ def build_item_names():
                     jar_zh.update(loadb(z.read(n)))
                 elif n.endswith('/lang/en_us.json'):
                     jar_en.update(loadb(z.read(n)))
-    with zipfile.ZipFile(os.path.join(INST, 'All the Mods 10.jar')) as z:
+    with zipfile.ZipFile(os.path.join(INST, 'All the Mons.jar')) as z:
         jar_en.update(loadb(z.read('assets/minecraft/lang/en_us.json')))
     idx = json.load(open(os.path.join(MCROOT, 'assets/indexes/17.json')))['objects']
     h = idx['minecraft/lang/zh_cn.json']['hash']

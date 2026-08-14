@@ -494,8 +494,10 @@ patch_options() {
   # 全新实例还没启动过，options.txt 尚不存在（Minecraft 退出时才写）。
   # 建一份含默认包列表 + 汉化包（放最后）的：Minecraft 启动时会把其余选项
   # 按默认值补齐再回写，部分 options.txt 是合法的。
-  # （不要指望 config/defaultoptions —— All the Mons 并没有装 DefaultOptions 模组，
-  #   那个目录是历史遗留；本包 R12 起已不再往里写东西。）
+  # （不要指望 DefaultOptions 模组代劳：All the Mons 1.2.0 **确实装着**它
+  #   （mods/defaultoptions-neoforge-1.21.1-21.1.8.jar），但它的资源包默认值在
+  #   config/defaultoptions-common.toml 的 defaultResourcePacks，实测是空数组 []，
+  #   也就是整合包没有声明任何默认资源包。所以顺序还得我们自己写。）
   if [ ! -f "$OPT" ]; then
     # ⚠️ 只有**从没启动过**的实例才允许新建 options.txt。
     # 一个玩过的实例必然有 logs/ 或 saves/；这时 options.txt 却不见了，只有两种可能：

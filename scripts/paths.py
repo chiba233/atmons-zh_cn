@@ -44,6 +44,13 @@ SNAPSHOTS = BUILD / 'snapshots'
 PACK_NAME = 'ATMons汉化包'
 PACK = COMMON / 'resourcepacks' / PACK_NAME
 
+# 目标整合包在它自己 manifest.json 里的名字。用来判「ATM_PACK_ROOT 指的是不是
+# 本包对应的那个整合包」——两个整合包的目录结构一模一样，只查 kubejs/ 在不在
+# 是判不出来的，指错了会拿另一个包的字节生成一整套汉化且全程不报错。
+# CI 那侧不靠这个：它用 fetch_pack.py 按 PROJECT 现取，身份由构造保证，
+# 而且只解 overrides/、树里没有 manifest.json。
+MODPACK_NAME = 'All the Mons'
+
 
 def snapshot(name):
     SNAPSHOTS.mkdir(parents=True, exist_ok=True)

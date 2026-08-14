@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# All the Mods 10 简体中文汉化补丁 · 绿油油版
+# All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """版权审计：仓库里有没有上游的东西，出货包里又带了谁的东西。

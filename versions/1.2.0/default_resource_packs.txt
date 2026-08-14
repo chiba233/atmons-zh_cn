@@ -15,8 +15,14 @@
 # 与 `Maxi's-JM+CM_Pixel-U11.zip`，两个文件也确实在 resourcepacks/ 下）。
 # 一个空列表配两个生效的包，说明这次拿到的不是那一行的最终值。
 #
-# 排除过的可能：config/defaultoptions/options.txt 只有 44 字节、没有 resourcePacks
-# 行，所以不是 Default Options 在旁路管理这一项。
+# 关于 DefaultOptions 模组：本包**装着**它（mods/defaultoptions-neoforge-1.21.1-21.1.8.jar，
+# 上一个整合包没装）。它的资源包默认值不在 config/defaultoptions/options.txt（那份只有
+# 44 字节、确实没有 resourcePacks 行），而在 config/defaultoptions-common.toml 的
+# defaultResourcePacks —— 实测是空数组 []，即整合包没有声明任何默认资源包。
+#
+# 所以 options.txt 读到 [] 有可能本来就是对的。要坐实这一点，得解释清楚上面那两个
+# zip 是被谁启用的：本包装着 globalpacks，实例里也有 global_packs/ 目录，嫌疑最大，
+# 但**尚未查证**。在查清之前不把 [] 当成实测值填进来。
 #
 # 取值办法：起一次全新实例，**停在主菜单**，从游戏内的「选项 → 资源包」里确认列表，
 # 再正常退出，然后读 options.txt 的 resourcePacks: 那一行，按顺序逐项抄到下面。

@@ -27,10 +27,31 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-: "${ATM_PACK_ROOT:=/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10}"
+: "${ATM_PACK_ROOT:=/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons}"
 export ATM_PACK_ROOT
 [ -d "$ATM_PACK_ROOT/kubejs" ] || {
   echo "❌ ATM_PACK_ROOT 不像整合包目录（缺 kubejs/）: $ATM_PACK_ROOT"; exit 1; }
+# 上面那条只判「像不像整合包」，判不出**是哪个**——两个整合包的目录结构一模一样。
+# 指错了会拿另一个包的字节生成一整套汉化，而且全程不报错。装好的实例里有
+# manifest.json，拿它对 paths.py 的 MODPACK_NAME；CI 现取的树只解 overrides/、
+# 没有这个文件，那一侧的身份由 fetch_pack.py 的 PROJECT 保证。
+python3 - "$ATM_PACK_ROOT" <<'PY' || exit 1
+import json, sys, pathlib
+sys.path.insert(0, 'scripts')
+from paths import MODPACK_NAME
+f = pathlib.Path(sys.argv[1]) / 'manifest.json'
+if not f.is_file():
+    sys.exit(0)                      # 现取的 overrides 树，没有 manifest，交给 PROJECT 把关
+try:
+    got = (json.loads(f.read_text(encoding='utf-8')).get('name') or '').strip()
+except Exception as e:               # noqa: BLE001
+    sys.exit('❌ %s 读不出来（%s）——不能当作「身份没问题」放过' % (f, type(e).__name__))
+if got != MODPACK_NAME:
+    sys.exit('❌ ATM_PACK_ROOT 指的是「%s」，本仓库对应的是「%s」：%s\n'
+             '   照这样跑会拿另一个整合包的字节生成一整套汉化，而且不会报错。'
+             % (got, MODPACK_NAME, sys.argv[1]))
+print('整合包身份：%s ✅' % got)
+PY
 
 for f in pixel-10.ttf pixel-12.ttf bold.otf thin.otf serif.otf; do
   [ -f "assets-src/fonts/$f" ] || {

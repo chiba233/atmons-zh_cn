@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# All the Mods 10 简体中文汉化补丁 · 绿油油版
+# All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """底本残留核验：出货包里还有多少东西和 BBSMC 的底本一样。

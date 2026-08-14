@@ -22,7 +22,7 @@
 """
 import json, pathlib, zipfile, glob, re
 CJK=re.compile('[一-鿿]')
-M='/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10/mods'
+M='/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons/mods'
 en2zh={}
 for f in glob.glob(M+'/*.jar'):
     try: z=zipfile.ZipFile(f)

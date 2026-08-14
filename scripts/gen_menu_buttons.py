@@ -51,7 +51,7 @@ ASSETS = COMMON / 'config' / 'fancymenu' / 'assets'
 # 成品不入 git（见 .gitignore），本地/CI 跑之前从整合包拷一份干净的过来。
 PACK = Path(os.environ.get(
     'ATM_PACK_ROOT',
-    '/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10'))
+    '/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons'))
 
 
 

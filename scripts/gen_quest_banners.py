@@ -107,7 +107,7 @@ OUT = PACK / 'assets' / 'atm' / 'textures' / 'questpics'
 # 官方包解压出来的 overrides 目录，这样 Linux 上也能复现出同样的图。
 INST = Path(os.environ.get(
     'ATM_PACK_ROOT',
-    '/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10'))
+    '/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mons'))
 SRC = INST / 'kubejs' / 'assets' / 'atm' / 'textures' / 'questpics'
 QUESTS = INST / 'config' / 'ftbquests' / 'quests'
 

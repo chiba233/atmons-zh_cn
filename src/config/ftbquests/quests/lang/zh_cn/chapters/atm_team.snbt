@@ -12,7 +12,7 @@
 		"{image:atm:textures/questpics/series/atmteam_airship.png width:125 height:100 align:center}"
 	]
 	quest.1C0FA8A4EFD02DFF.title: "&5巧克力飞艇工厂"
-	quest.1CE940627F4BC431.quest_desc: ["&4&oATM 团队系列&r要你把&6&lATM 团队&r的成员一个个打赢！\\n\\n找到这些&6团队成员&r有 3 条路子：有的守在自己的定制道馆里，有的四处游荡、要用特定物品召唤，剩下的在&4精英道馆&r。\\n\\n把所有&6团队成员&r都打赢，才能拿到合成&e&lShiny Pika Star&r所需的材料——而那才算正式通关&l&cAll&7The&fMons&r。"]
+	quest.1CE940627F4BC431.quest_desc: ["&4&oATM 团队系列&r要你把&6&lATM 团队&r的成员一个个打赢！\\n\\n找到这些&6团队成员&r有 3 条路子：有的守在自己的定制道馆里，有的四处游荡、要用特定物品召唤，剩下的在&4精英道馆&r。\\n\\n把所有&6团队成员&r都打赢，才能拿到合成&e&l闪光皮卡之星&r所需的材料——而那才算正式通关&l&cAll&7The&fMons&r。"]
 	quest.1CE940627F4BC431.title: "&4&oATM 团队系列"
 	quest.1D236A72F7EC11AE.quest_desc: ["这台&7微波炉&r你买不了，但你可以在对战里打赢他！\\n\\n&7&lToshiba&r几乎只做任务书，不过这活不是他一个人干的。\\n\\n有一大批&6团队成员&r、内容创作者，乃至只是在 Github 上提交改动的普通玩家，一起把任务书做了出来！\\n\\n打赢他能拿到一枚&7微波炉&r造型的&7徽章&r。不知道能不能插电？"]
 	quest.1D236A72F7EC11AE.title: "&7&lToshiba 微波炉"
@@ -37,10 +37,10 @@
 	quest.4C15052DCF8371A3.quest_desc: ["坐电梯或者走楼梯到 1 层，收容区。这一层管着整座&4道馆&r的电力和数据。\\n\\n比如那台反应堆，&4&lSatherov&r就在那儿！他人虽然不在 Discord 了，但一直在我们心里……以及作为这个整合包里的一位&4训练家&r。\\n\\n打赢他能拿到&4小猫徽章&r！是不是很可爱。"]
 	quest.5081E5E0BA982973.quest_desc: ["最后一层，团队休息区。团队成员在这里吃饭、睡觉、消遣。电视、台球，待遇不错！\\n\\n还有办公区。一路走到尽头，就是模拟实验室。\\n\\n进舱之后「使用」它（在里面跳一下），你会被送进一座迷宫。走一段、跳一段、游一段、爬一段之后，你会到达 Notch 神殿。\\n\\n&2&lMinecraft&r的创造者本人，&lNotch&r。还需要多说吗？\\n\\n他的徽章就是他的脸！那把胡子确实很带感。"]
 	quest.54530BFB46624C51.quest_desc: ["&5巧克力飞艇工厂&r的船长本人，&5&lToblerone&r。\\n\\n&5&lToblerone&r为&6&lATM 整合包&r做了大量工作，包括在任务书里给&7&lToshiba&r擦屁股。\\n\\n当然他做的远不止任务书，别担心！\\n\\n&5&lToblerone&r的&5徽章&r是一块闪闪发亮的&5巧克力&r，掰成三角块正合适。"]
-	quest.56A11740B93819D4.quest_desc: ["打赢&6&lATM 团队&r每一位成员拿到的徽章，都收在&6ATM Badge Box&r里。\\n\\n用法很简单：右键开关；打开状态下潜行右键就能操作它。"]
+	quest.56A11740B93819D4.quest_desc: ["打赢&6&lATM 团队&r每一位成员拿到的徽章，都收在&6ATM徽章盒&r里。\\n\\n用法很简单：右键开关；打开状态下潜行右键就能操作它。"]
 	quest.580A66080AB6B117.quest_desc: ["3 层，太阳厅。&4精英道馆&r里最大的房间。\\n\\n这里有许多藏书室和自习室，但最重要的是那间实验室——&9&lVortex&r就在里面。\\n\\n他是 Discord 里一切捣乱分子的克星，也是&c&lGravitas&r的作者！如果你恨不得&2&lMinecraft&r一点都不许简单，那你会爱上&c&lGravitas&r。\\n\\n他的&9徽章&r是一个&9漩涡&r……这还用问。"]
-	quest.5A7E0848E16A5453.quest_desc: ["&d&lJoey&r现在在&d火箭队火山&r底下。\\n\\n他正在硫磺池边上躺着。\\n\\n&d&lJoey&r没有自己的频道，但他为我们的整合包出了大力！\\n\\n嘿，那也是内容，也是他做出来的，所以我们把他算作内容创作者。\\n\\n他的&d徽章&r是&dThe Helpful Badge&r，配得上他帮的那些忙。"]
-	quest.670756F02FD8179F.quest_desc: ["有些&6ATM 团队成员&r没有自己的家。\\n\\n我说的是在&l&cAll&7The&fMons&r里，现实中我们过得都挺好。\\n\\n要找他们，得在&b&l彼岸&r四处转，或者用&4Trainer Spawner&r！把&4Trainer Spawner&r放下，给它一块&5难得素块&r，再通上&4红石信号&r开启就行！\\n\\n如果某位&4训练家&r的特征物品正好是&5难得素块&r，他就有可能出现。刷错人了？杀掉就会换一个！\\n\\n&6四处游荡的团队成员&r有：Bored、Drack_ion、Helix Ranmara、Mitchell52、Mutant Gumdrop、ShinyPorygon 和 Ultra Megaa。"]
+	quest.5A7E0848E16A5453.quest_desc: ["&d&lJoey&r现在在&d火箭队火山&r底下。\\n\\n他正在硫磺池边上躺着。\\n\\n&d&lJoey&r没有自己的频道，但他为我们的整合包出了大力！\\n\\n嘿，那也是内容，也是他做出来的，所以我们把他算作内容创作者。\\n\\n他的&d徽章&r是&d热心徽章&r，配得上他帮的那些忙。"]
+	quest.670756F02FD8179F.quest_desc: ["有些&6ATM 团队成员&r没有自己的家。\\n\\n我说的是在&l&cAll&7The&fMons&r里，现实中我们过得都挺好。\\n\\n要找他们，得在&b&l彼岸&r四处转，或者用&4训练家刷怪笼&r！把&4训练家刷怪笼&r放下，给它一块&5难得素块&r，再通上&4红石信号&r开启就行！\\n\\n如果某位&4训练家&r的特征物品正好是&5难得素块&r，他就有可能出现。刷错人了？杀掉就会换一个！\\n\\n&6四处游荡的团队成员&r有：Bored、Drack_ion、Helix Ranmara、Mitchell52、Mutant Gumdrop、ShinyPorygon 和 Ultra Megaa。"]
 	quest.670756F02FD8179F.title: "打赢&6四处游荡的 ATM 团队成员"
 	quest.671208DA73DF3987.quest_desc: [
 		"相信我，&4精英道馆&r你一看就认得出来。又大又漂亮，里面更好看！\\n\\n别被&4道馆&r的高度吓到，里面有电梯。"
@@ -50,9 +50,9 @@
 	quest.68518CCD2EF8B22F.quest_desc: ["其余的&6团队成员&r在&b&l彼岸&r出现。\\n\\n去&c&l下界&r放一块&6传送垫&r。确保两只手都空着，然后潜行右键&6传送垫&r。\\n\\n这样就能到&b&l彼岸&r。"]
 	quest.68518CCD2EF8B22F.title: "&b&l彼岸"
 	quest.6B409AE2D10E174B.quest_desc: ["从一位艺术家到另一位，只是路子不同。\\n\\n大厅里还能找到&e&lRosary&r。\\n\\n&c&lAll&7The&fMons&r里各座定制道馆的设计，大多出自&e&lRosary&r之手。\\n\\n从&3蜜蜂屋&r到&5巧克力飞艇&r再到&4精英道馆&r。他和一群帮忙搭建、让这些建筑真正能用的人，都值得你说声谢谢！\\n\\n那就用抢走他&8徽章&r的方式谢他吧！"]
-	quest.6C57E0C60AA72B9E.quest_desc: ["打赢&lNotch&r之后，我们会得到一份&dAncient D&3N&dA &3Sample&r。\\n\\n多半是&4精英道馆&r里那些实验的产物。\\n\\n把&dAncient D&3N&dA &3Sample&r和一颗&eUnbound Pika Star&r一起放进化石分析仪，就能造出&d超梦&r。\\n\\n记得备齐：化石分析仪，顶上放数据显示器，旁边放复原培养皿，还要有足够的生物燃料把复原培养皿灌满。\\n\\n克隆完成后，对着培养皿用一个&c精灵球&r，就能把&d超梦&r收进来。"]
+	quest.6C57E0C60AA72B9E.quest_desc: ["打赢&lNotch&r之后，我们会得到一份&d远古D&3N&dA&3样本&r。\\n\\n多半是&4精英道馆&r里那些实验的产物。\\n\\n把&d远古D&3N&dA&3样本&r和一颗&e未束缚皮卡之星&r一起放进化石分析仪，就能造出&d超梦&r。\\n\\n记得备齐：化石分析仪，顶上放数据显示器，旁边放复原培养皿，还要有足够的生物燃料把复原培养皿灌满。\\n\\n克隆完成后，对着培养皿用一个&c精灵球&r，就能把&d超梦&r收进来。"]
 	quest.6C57E0C60AA72B9E.title: "收服&d超梦"
-	quest.6DBF2F6AE30CAA75.quest_desc: ["要收纳徽章就得有徽章盒，而要拿到徽章盒，得先打完&4&oBrilliant Diamond and Shining Pearl 系列&r。\\n\\n开启方式和其他&4&o系列&r一样：把&4Trainer Card&r交给&4Trainer Associate&r。\\n\\n最后（第三次）打赢&5Champion Cynthia&r之后，你会拿到&6ATM Badge Box&r。"]
+	quest.6DBF2F6AE30CAA75.quest_desc: ["要收纳徽章就得有徽章盒，而要拿到徽章盒，得先打完&4&oBrilliant Diamond and Shining Pearl 系列&r。\\n\\n开启方式和其他&4&o系列&r一样：把&4Trainer Card&r交给&4Trainer Associate&r。\\n\\n最后（第三次）打赢&5Champion Cynthia&r之后，你会拿到&6ATM徽章盒&r。"]
 	quest.6DBF2F6AE30CAA75.title: "打赢&4&oBrilliant Diamond and Shining Pearl"
 	quest.6F976023ECB5CA63.quest_desc: ["2 层是康养中心。漂亮的花园、安静的书房，还有一处露台。\\n\\n露台旁边是宝可梦对战场，养精蓄锐的&0&lUncandango&r就在那儿！\\n\\n&0&lUncandango&r负责让整合包不至于只能在 NASA 的电脑上跑起来。主线整合包的开发他也管了很多！\\n\\n打赢他会给你一枚非常&0宝可梦味的徽章&r。"]
 	quest.71AB7656B8B0C84B.quest_desc: ["再往上是 4 层，冠军俱乐部。各种娱乐都有，酒吧和卡拉 OK 台一应俱全。\\n\\n还有露台，&6&lWhatTheDrunk&r就在那儿。希望他别喝太高，这儿可是相当高的地方。\\n\\n&6&lWhatTheDrunk&r是&6&lAllTheMods&r的负责人，没有他就没有这一切！\\n\\n&6&lWhatTheDrunk&r的&6徽章&r是一种用大麦和啤酒花酿的发酵饮料……我们能直接叫它&6啤酒&r吗？这游戏名义上可是 E10+ 分级……"]

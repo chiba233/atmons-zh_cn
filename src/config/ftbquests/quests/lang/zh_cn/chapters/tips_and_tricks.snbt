@@ -29,7 +29,7 @@
 	quest.3DA07EE81C9E13BF.quest_desc: ["Ball Synchronizer 可以给&c宝可梦&r换&c球&r。\\n\\n让&c宝可梦&r携带你想换的那个&c球&r，再对它使用 Ball Synchronizer 就换好了。它原来待的那个&c球&r会被销毁……\\n\\n除非你用的是那些收服之后还有加成的&c球&r，否则我看不出这东西有多大用！"]
 	quest.3DA07EE81C9E13BF.title: "Ball Synchronizer"
 	quest.3FEFD0340A60DD5F.quest_subtitle: "把所有窍门都走一遍！"
-	quest.40708C304424C3FE.quest_desc: ["&4训练家&r多到烦人？用 Trainer Repel Rod 把他们赶走！\\n\\n具体屏蔽多大范围的刷新我也说不准……它没告诉我。\\n\\n好在它不会让&4Trainer Spawner&r失效。"]
+	quest.40708C304424C3FE.quest_desc: ["&4训练家&r多到烦人？用 Trainer Repel Rod 把他们赶走！\\n\\n具体屏蔽多大范围的刷新我也说不准……它没告诉我。\\n\\n好在它不会让&4训练家刷怪笼&r失效。"]
 	quest.40708C304424C3FE.title: "Trainer Repel Rod"
 	quest.47043AF7D1FABC43.quest_desc: [
 		"把附魔从物品上提取到书上有很多办法，这条任务就讲其中的几种。\\n\\n&c超级工厂管理器&r：我能想到的最省的祛魔办法，完全不消耗&a经验&r。把附魔物品和一摞书丢在一块&5黑曜石&r上，然后让一个下落的&8铁砧&r砸在物品和书上面。\\n\\n&6龙之进化祛魔台&r：这个可以从附魔物品里挑一条指定的附魔转到书上。要消耗&a经验&r。"

@@ -16,7 +16,8 @@
 都能通过存在性检查。所以这里查的是**量**：每一项都对着实测值设了下限，
 少于下限就说明这一环生成失败了。
 
-阈值取实测值的八成左右，留出上游增删的正常波动，但拦得住「整块没了」。
+下限不写死在这里，而是从 versions/<整合包版本>/generated_baseline.txt 里的
+实测值现算（× 0.95 向上取整）。基线取不到就红，不许跳过。
 
 用法:
     python3 scripts/verify_dist.py dist/atmons-zh_cn-client-r12-mons1.2.0.zip
@@ -25,6 +26,7 @@
 import hashlib
 import io
 import json
+import math
 import re
 import sys
 import zipfile
@@ -34,33 +36,60 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # scripts/ 下�
 
 import toolchain
 
-# 客户端包的下限（实测值见注释）
-# 下限一律取实测值的九成上下：留出上游增删的正常波动，但拦得住「整块没了」。
-# 2026-07-27 清掉底本带来的死重后重新校准（那 236 个 lang 对应的模组
-# 在 7.0/7.1/7.2 三版 jar 里都不存在，永远加载不到）：
-#   lang 598 → 362 个文件、21.2 万 → 17.7 万键；导览书 1709 → 1683 个
-CLIENT_MIN = {
-    'lang_files':   330,    # 实测 362 个 lang/*.json
-    'lang_keys': 160000,    # 实测 17.7 万条
-    'banners':      190,    # 实测 200 张
-    'buttons':       14,    # 14 张主菜单按钮
-    'vp_modules':   140,    # 152 个 VaultPatcher 模块
-    'quest_delta':   30,    # 34 个任务书 delta
-    'gui_files':     20,    # 24 个 RFTools .gui
-    # 导览书文件数。CI 实测 1269 个 = 生成的 987 个 + src/ 里静态带的 325 个
-    # （两者有小幅重叠）。**别拿本机实例的数字当基准**：本机那份是玩过的实例，
-    # 装了官方包以外的 mod，书比官方包多，两边不可比。
-    # 下限取 1200：够低，容得下上游增删的正常波动；够高，整块没了一定拦得住。
-    # 它确实拦住过一次：2026-07-27 我把 97 个书本文件当「上游死重」剔了，
-    # 数字掉到 1172，这道闸红了——那批里有 27 篇 Ars Nouveau 图鉴页和
-    # 12 篇 Just Dire Things 页，是实打实的译文。所以这个数**不许为了让 CI
-    # 变绿而下调**：它掉下去，先查是不是删错了东西。
-    'book_files':  1200,
+# 每一项的下限都从**该整合包版本的实测基线**算出来，不写死在这里。
+#
+# 为什么不再写死：这张表原先是上一个整合包量出来的（lang 362 个文件、
+# 17.7 万键、横幅 200 张、导览书 1269 个）。换包之后模组集合变了，
+# 同一套映射能落地的量本来就不同，拿旧包的数字卡新包，红的是「模组换了」
+# 而不是「汉化少了」——那种红没有信息量，只会逼人去调数字，闸就废了。
+#
+# 基线放在 versions/<整合包版本>/generated_baseline.txt，与包版本绑定：
+# 包版本一旦定下，jar 集合就是冻结的，CI 每次重建量到的是同一组数。
+# 所以这里的余量不是留给上游漂移的，是留给我们自己 src/ 的小幅增删——
+# 加译文只会让数字变大；改掉一两个错键会让它掉一点点，那不该红。
+#
+# 余量定 5%。拿历史上唯一一次真拦住过的事故校过：2026-07-27 有 97 个
+# 书本文件被当成「上游死重」剔掉（其中 27 篇 Ars Nouveau 图鉴页、
+# 12 篇 Just Dire Things 页是实打实的译文），当时 1269 掉到 1172。
+# 按 5% 余量，下限是 1205，照样红。**这个余量不许为了让 CI 变绿而放大**：
+# 数字掉下去，先查是不是删错了东西。
+#
+# 取整一律向上。向下取整在小数量级上会白送一格：主菜单按钮实测 14 张，
+# 14 × 0.95 向下取整是 13，少生成一张也能过——那正是这道闸要拦的事。
+MARGIN = 0.95
+
+BASELINE_KEYS = {
+    'client': ('lang_files', 'lang_keys', 'banners', 'buttons',
+               'vp_modules', 'quest_delta', 'gui_files', 'book_files'),
+    'server': ('vp_modules', 'quest_delta'),
 }
-SERVER_MIN = {
-    'vp_modules':    10,
-    'quest_delta':   30,
-}
+
+
+def thresholds(pack_version, side):
+    """读该整合包版本的实测基线，算出这一侧每一项的下限。
+
+    取不到基线就退出，**不许跳过**：取不到时放行，等于这道闸在最需要它的
+    时候（版本目录没建、文件名认不出来）自动消失，而且不留痕迹。
+    """
+    if not pack_version:
+        sys.exit('❌ 从包名里认不出整合包版本（应形如 -mons1.2.0.zip）——'
+                 '取不到基线就判不了，不许放行')
+    p = (Path(__file__).resolve().parent.parent.parent
+         / 'versions' / pack_version / 'generated_baseline.txt')
+    if not p.is_file():
+        sys.exit('❌ 缺 %s —— 取不到该版本的实测基线，判不了就不许放行' % p)
+    meas = {}
+    for line in p.read_text(encoding='utf-8').splitlines():
+        m = re.match(r'\s*([a-z_]+)\s*=\s*(\d+)', line)
+        if m:
+            meas[m.group(1)] = int(m.group(2))
+    out = {}
+    for k in BASELINE_KEYS[side]:
+        v = meas.get('%s_%s' % (side, k))
+        if v is None:
+            sys.exit('❌ %s 里没有 %s_%s 这一项' % (p, side, k))
+        out[k] = math.ceil(v * MARGIN)
+    return out
 
 
 def inner_pack(z):
@@ -75,6 +104,8 @@ def check(path):
     z = zipfile.ZipFile(path)
     names = z.namelist()
     is_client = any('/resourcepacks/' in n for n in names)
+    m = re.search(r'-mons([0-9.]+)\.zip$', str(path))
+    ver = m.group(1) if m else None
     bad = []
     got = {}
 
@@ -108,13 +139,12 @@ def check(path):
         except Exception:
             desc = ''
             bad.append('pack.mcmeta 读不出来')
-        mc = re.search(r'-mons([0-9.]+)\.zip$', str(path))
-        if mc and mc.group(1) not in desc:
-            bad.append('pack.mcmeta 描述 %r 与文件名里的 atm%s 对不上' % (desc, mc.group(1)))
+        if ver and ver not in desc:
+            bad.append('pack.mcmeta 描述 %r 与文件名里的 atm%s 对不上' % (desc, ver))
         if '@@' in desc:
             bad.append('pack.mcmeta 里的占位符没被替换: %r' % desc)
-        if mc and ('汉化包-%s.zip' % mc.group(1)) not in pname:
-            bad.append('资源包文件名 %r 与 atm%s 对不上' % (pname, mc.group(1)))
+        if ver and ('汉化包-%s.zip' % ver) not in pname:
+            bad.append('资源包文件名 %r 与 atm%s 对不上' % (pname, ver))
 
     # 说明文档必须在包里，而且必须叫这个名字。大部分人是从别处拿到 zip 的，
     # 不会去 GitHub 看 README——文件名就是唯一能提醒他们的地方。改名要是哪天
@@ -140,10 +170,11 @@ def check(path):
         if m:
             bad.append('%s 里还有未替换的占位符 %s' % (n, m.group(0)))
 
-    for k, lo in (CLIENT_MIN if is_client else SERVER_MIN).items():
+    for k, lo in thresholds(ver, 'client' if is_client else 'server').items():
         v = got.get(k, 0)
         if v < lo:
-            bad.append('%s 只有 %d，低于下限 %d —— 这一环多半没生成' % (k, v, lo))
+            bad.append('%s 只有 %d，低于下限 %d（实测基线 × %.2f）—— 这一环多半没生成'
+                       % (k, v, lo, MARGIN))
     return bad, got, is_client
 
 
@@ -203,6 +234,10 @@ def main(paths):
             print('❌ %s [%s]' % (p, tag))
             for b in bad:
                 print('     ', b)
+            # 失败时也要把实测值全打出来：基线记错了的话，这行就是真值，
+            # 照着它改 versions/<版本>/generated_baseline.txt，别去动余量。
+            print('      实测：%s'
+                  % '  '.join('%s=%s' % (k, v) for k, v in sorted(got.items())))
         else:
             print('✅ %s [%s]  %s' % (p, tag,
                   '  '.join('%s=%s' % (k, v) for k, v in sorted(got.items()))))

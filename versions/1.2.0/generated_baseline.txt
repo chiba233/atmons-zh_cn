@@ -32,3 +32,27 @@ banners = 162
 #
 # 14 张，与上一个整合包相同，没有变化。
 buttons = 14
+#
+#
+# ══ 打包之后的实测量 ═══════════════════════════════════════════════════
+#
+# 上面三项是「生成器产出了多少」，下面这组是「zip 里最后有多少」，
+# 由 verify_dist.py 用（下限 = 实测 × 0.95，向下取整，它自己算，不写死）。
+#
+# 数字来源分两种，注在每一项后面：
+#   [CI]  = CI 的 Build 实测打印，最硬
+#   [源]  = 从 src/ 数出来的，构建时原样拷贝，未经打包后复核
+# verify_dist.py 在失败时会把实测的 got 全部打出来，所以任何一项记错了，
+# 下一次 CI 会当场把真值报出来——那时改这里的基线，不许改余量。
+#
+client_lang_files  =    262   # [CI] assets/*/lang/zh_cn.json
+client_lang_keys   = 103920   # [CI] 上面那些文件里的键总数
+client_banners     =    162   # [CI] 与生成器侧 banners=162 互相印证
+client_buttons     =     14   # [CI] 与上面的 buttons=14 同一批
+client_vp_modules  =    156   # [CI] 同一次运行打印「VaultPatcher 模块：156 个」
+client_quest_delta =     82   # [CI] 服务端包实测 82，客户端出的是同一棵 config/ftbquests
+client_gui_files   =     24   # [源] src 下 24 个 .gui
+client_book_files  =   1097   # [CI] patchouli_books / ae2guide / oracle-index 的文件数
+#
+server_vp_modules  =     10   # [CI]
+server_quest_delta =     82   # [CI]

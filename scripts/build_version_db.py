@@ -81,8 +81,15 @@ def build_index(mods_dir):
             by_simple[last].append(n)
             # 内部类要同时按最内层名建索引：声明写的是 `….item.Builder`，
             # 而它在新版里是 `….item.ItemDescription$Builder`，只按整段名查会漏。
+            #
+            # 但**匿名**内部类的最内层名是序号（`Foo$1`），没有识别意义：全整合包
+            # 400 个 jar 里所有 `*$1` 会挤进同一个键，实测 6900 个。目标类恰好不在
+            # 本整合包里时（换包后很常见），回退搜索就要把这 6900 个逐个解常量池，
+            # 单条模块就能把这一步拖到跑不完。只按真标识符建索引。
             if '$' in last:
-                by_simple[last.rsplit('$', 1)[-1]].append(n)
+                inner = last.rsplit('$', 1)[-1]
+                if not inner.isdigit():
+                    by_simple[inner].append(n)
     return by_path, by_simple
 
 
@@ -114,8 +121,9 @@ def resolve(declared, keys, by_path, by_simple, cache):
         jar, pool = pool_of(by_path, p, cache)
         return declared, jar, pool, 'declared'
     tail = declared.split('.')[-1]
+    inner = tail.rsplit('$', 1)[-1]
     cands = list(dict.fromkeys(by_simple.get(tail, []) +
-                               by_simple.get(tail.rsplit('$', 1)[-1], [])))
+                               ([] if inner.isdigit() else by_simple.get(inner, []))))
     best = None
     for cand in cands:
         jar, pool = pool_of(by_path, cand, cache)

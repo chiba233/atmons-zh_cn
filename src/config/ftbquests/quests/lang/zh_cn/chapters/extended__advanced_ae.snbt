@@ -1,4 +1,8 @@
 {
+	image.14611C7EDC565928.title: "量子战靴"
+	image.213587A68F23329A.title: "量子胫甲"
+	image.24976A5A8AE1E196.title: "量子头盔"
+	image.629962419B9E7AC8.title: "量子胸甲"
 	quest.03164C4C7813CE2B.quest_desc: [
 		"量子计算机是一种强大的合成CPU。只要拥有可用的存储空间，它就能运行无限数量的合成任务，并在这些任务间共享并行处理线程。"
 		""

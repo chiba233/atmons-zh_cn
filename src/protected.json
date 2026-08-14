@@ -2171,6 +2171,7 @@
     "src/pack/assets/rftoolspower/gui/pearl_injector.gui",
     "src/pack/assets/rftoolspower/lang/zh_cn.json",
     "src/pack/assets/rftoolsstorage/lang/zh_cn.json",
+    "src/pack/assets/rftoolsutility/font/ubuntu.json",
     "src/pack/assets/rftoolsutility/gui/counter.gui",
     "src/pack/assets/rftoolsutility/gui/crafter.gui",
     "src/pack/assets/rftoolsutility/gui/environmental.gui",

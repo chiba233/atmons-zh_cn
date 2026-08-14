@@ -1,0 +1,16 @@
+{
+    "__why": "rftoolsutility 自带的 assets/rftoolsutility/font/ubuntu.json 只有一个 ttf provider（ubuntu.ttf），那套字形里一个汉字都没有。RFTools 的屏幕（Screen）模块默认就用这套字体渲染文字（ScreenConfiguration 里 fontName 的默认值就是 rftoolsutility:ubuntu），所以屏幕上凡是走我们译文的地方都会画成方框。这里在原有 provider 后面补一条兜底引用，让缺字时回落到原版的 unifont。占位的 __ 字段只是注释，Minecraft 会忽略未知字段。",
+    "__order": "顺序是**靠前的优先**，不是靠后的。判据在原版 assets/minecraft/font/default.json：它把好看的 include/default 放在前、include/unifont 放在最后当兜底，游戏里拉丁字母显示的正是前者。所以 ubuntu.ttf 必须留在第一条——拉丁字形一个像素都不变，unifont 只在 ubuntu.ttf 没有该字形时才顶上。",
+    "__unifont": "minecraft:include/unifont 在客户端 jar 里是一份空 providers（1.21.1 官方 jar 已核对），真正的 unihex 定义由资源索引下发（minecraft/font/include/unifont.json → 指向 font/unifont_jp.zip，覆盖 CJK 统一表意文字等区段），运行时取到的是后者。同一写法在 modonomicon 那处已经用过。",
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "rftoolsutility:ubuntu.ttf",
+            "size": 24
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        }
+    ]
+}

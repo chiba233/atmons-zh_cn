@@ -92,6 +92,10 @@
 	quest.39F9C825B03DA317.title: "&8空气接口"
 	quest.3AAB71E9BDFD4C1E.quest_desc: ["没有压力！好吧，实际上你需要很多压力来使用&4&l气动工艺&r。\\n\\n这正是它所关注的内容……"]
 	quest.3AAB71E9BDFD4C1E.title: "&4&l气动工艺"
+	quest.3BE5CD0C7CC4BCC6.quest_desc: [
+		"灵魂熔岩是&6&lATM&r的一部分。它在&b&l异界&r的地下极为罕见，但在猪巫妖村庄里很常见！\\n\\n我们需要取一桶&9灵魂熔岩&r，浇在恶魂蜜蜂蛋上，做出&9灵魂熔岩蜜蜂蛋&r。\\n\\n"
+		"{image:atm:textures/questpics/soul_lava_process.png width:100 height:100 align:center}"
+	]
 	quest.3BE5CD0C7CC4BCC6.title: "&9灵魂熔岩蜜蜂&r刷怪蛋"
 	quest.3C7C9EE57AD00A76.quest_desc: ["你可以制作这些？！？？？我以前总是靠刷怪获取它们。\\n\\n你可以更改它们是否锁定目标或直线飞行。当锁定目标时，你可以更改设置为&c速度&r、&6伤害&r和&a转向速度&r。"]
 	quest.3C7C9EE57AD00A76.title: "&c微型导弹"

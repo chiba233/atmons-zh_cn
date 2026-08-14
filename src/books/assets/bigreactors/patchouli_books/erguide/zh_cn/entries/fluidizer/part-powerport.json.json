@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/part-powerport.json",
+ "sha1": "77364edd7f0202a7d0cda3a52ef4da8f31518013",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Power Port",
+   "能量端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Power Port allows you to provide the energy needed to power the Fluidizer.$(br2)Any Forge Energy-compatible cable or generator can be connected to the Power Port.",
+   "能量端口可以为流化器提供运行所需的能量。$(br2)任何兼容 Forge 能量的线缆或发电机都可以连接到能量端口。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Power Port",
+   "能量端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Power Port",
+   "能量端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() at least one is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()至少需要一个$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

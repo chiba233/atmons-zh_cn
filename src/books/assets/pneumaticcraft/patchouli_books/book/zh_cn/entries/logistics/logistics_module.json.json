@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/logistics/logistics_module.json",
+ "sha1": "b060030dcfa1b93854728a3f26d67cc104f588c3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logistics Module",
+   "物流管道模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "See $(l:tubes/logistics_module)the Logistics Module entry/$ in the $(thing)Pressure Tubes/$ section of the manual for full details.",
+   "完整详情请参阅手册中 $(thing)压力管道/$ 章节的 $(l:tubes/logistics_module)物流管道模块词条/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Logistics Module",
+   "合成物流管道模块"
+  ]
+ ]
+}

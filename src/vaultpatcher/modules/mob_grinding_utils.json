@@ -1,0 +1,128 @@
+[
+  {
+    "name": "mob_grinding_utils_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.blocks.BlockDragonMuffler"
+    ],
+    "pairs": [
+      {
+        "key": "Now hiding Dragon boss bars.",
+        "value": "现在隐藏末影龙 Boss 血条。"
+      },
+      {
+        "key": "Now showing Dragon boss bars.",
+        "value": "现在显示末影龙 Boss 血条。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.blocks.BlockTank"
+    ],
+    "pairs": [
+      {
+        "key": "Empty: 0/",
+        "value": "空: 0/"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.blocks.BlockWitherMuffler"
+    ],
+    "pairs": [
+      {
+        "key": "Now hiding Wither boss bars.",
+        "value": "现在隐藏凋灵 Boss 血条。"
+      },
+      {
+        "key": "Now showing Wither boss bars.",
+        "value": "现在显示凋灵 Boss 血条。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.inventory.client.GuiAbsorptionHopper"
+    ],
+    "pairs": [
+      {
+        "key": "Down",
+        "value": "下"
+      },
+      {
+        "key": "North",
+        "value": "北"
+      },
+      {
+        "key": "South",
+        "value": "南"
+      },
+      {
+        "key": "West",
+        "value": "西"
+      },
+      {
+        "key": "East",
+        "value": "东"
+      },
+      {
+        "key": "Show Area",
+        "value": "显示范围"
+      },
+      {
+        "key": "Hide Area",
+        "value": "隐藏范围"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.inventory.client.GuiMGUSpawner"
+    ],
+    "pairs": [
+      {
+        "key": "Show Area",
+        "value": "显示范围"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.inventory.client.GuiXPSolidifier"
+    ],
+    "pairs": [
+      {
+        "key": "Push",
+        "value": "推出"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.itemblocks.BlockItemTank"
+    ],
+    "pairs": [
+      {
+        "key": "Holds %dMb (%d Buckets)",
+        "value": "可容纳 %dMb (%d 桶)"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mob_grinding_utils.items.ItemImaginaryInvisibleNotReallyThereSword"
+    ],
+    "pairs": [
+      {
+        "key": "Nothing to see here - Move along.",
+        "value": "这里没什么可看的——继续前进吧。"
+      }
+    ]
+  }
+]

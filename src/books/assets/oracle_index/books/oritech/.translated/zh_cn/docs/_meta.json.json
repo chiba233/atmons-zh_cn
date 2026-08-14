@@ -1,0 +1,43 @@
+{
+ "src": "assets/oracle_index/books/oritech/docs/_meta.json",
+ "sha1": "c2448f5f6150e8992a7e8c7444a98dfd1531a737",
+ "t": [
+  [
+   [
+    "addons.mdx"
+   ],
+   "Addons",
+   "附加组件"
+  ],
+  [
+   [
+    "getting_started",
+    "name"
+   ],
+   "📕 Getting Started",
+   "📕 入门指南"
+  ],
+  [
+   [
+    "multiblocks.mdx"
+   ],
+   "Multiblocks",
+   "多方块结构"
+  ],
+  [
+   [
+    "particle_accelerator.mdx"
+   ],
+   "Particle Accelerator",
+   "粒子加速器"
+  ],
+  [
+   [
+    "reactor",
+    "name"
+   ],
+   "☢ Nuclear Reactors",
+   "☢ 核反应堆"
+  ]
+ ]
+}

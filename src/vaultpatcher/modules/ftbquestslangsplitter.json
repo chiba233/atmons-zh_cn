@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ftbquestslangsplitter_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.uncandango.ftbquestslangsplitter.command.LangSplitterCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Lang en_us is supposed to be the main language...",
+        "value": "语言 en_us 应当作为主要语言……"
+      },
+      {
+        "key": "Can't scan lang folder ",
+        "value": "无法扫描 lang 文件夹 "
+      }
+    ]
+  }
+]

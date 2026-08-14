@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/sewer.json",
+ "sha1": "f860e96a035514b193603a5394633c64b207e40c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sewer",
+   "排污器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to collect $(l:agr_hus/sewage)Sewage$() from animals and experience to turn it into essence.",
+   "一种用于收集动物与经验值产生的$(l:agr_hus/sewage)污水$()，并将其转化为精华的机器。"
+  ]
+ ]
+}

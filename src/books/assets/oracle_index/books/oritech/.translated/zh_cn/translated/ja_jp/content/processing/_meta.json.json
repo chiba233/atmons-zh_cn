@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/processing/_meta.json",
+ "sha1": "d0be02df064b0f69e17e3839dafee29f8da9e2c9",
+ "t": [
+  [
+   [
+    "atomic_forge.mdx"
+   ],
+   "アトミックフォージ",
+   "原子熔炉"
+  ],
+  [
+   [
+    "fragment_forge.mdx"
+   ],
+   "フラグメントフォージ",
+   "&3粉碎工厂"
+  ],
+  [
+   [
+    "multiblocks.mdx"
+   ],
+   "マルチブロックシステム",
+   "多方块系统"
+  ]
+ ]
+}

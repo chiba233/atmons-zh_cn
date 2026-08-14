@@ -1,0 +1,24 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/links/github.json",
+ "sha1": "9a85ea090c8fa2150f3c8063cc813ed307f7b823",
+ "t": [
+  [
+   [
+    "pages",
+    0,
+    "link_text"
+   ],
+   "Github Link",
+   "GitHub链接"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "In Github you can see current issues, and mod pack updates.",
+   "在 Github 上，你可以查看当前问题以及整合包更新。"
+  ]
+ ]
+}

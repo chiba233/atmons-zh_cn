@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/sugarbag.json",
+ "sha1": "656eb9e9016dfd9f5f1ae88cb9d2baee2bf6bbc4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sugarbag Bee",
+   "袋装糖蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This little warm and moist bee can bee found in tropical areas. It produces a special type of super delicious comb.$(br)It can find it's way into cocoa beans even when grown outside of their natural climate.",
+   "这种小巧、温暖又湿润的蜜蜂可以在热带地区找到。它会产出一种特别超级美味的蜜脾。$(br)即使可可豆生长在不属于其自然气候的地方，它也能找到它们。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Sugarbag Bee",
+   "袋装糖蜜蜂"
+  ]
+ ]
+}

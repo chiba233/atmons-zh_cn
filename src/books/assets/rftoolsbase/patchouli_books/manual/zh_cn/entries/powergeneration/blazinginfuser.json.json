@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powergeneration/blazinginfuser.json",
+ "sha1": "84030d28a56db2db81ac3fa702ddf9b8f7b9965c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Blazing Infuser",
+   "烈焰注能器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Blazing Infuser improves Blazing Rods made by the $(l:rftoolsbase:powergeneration/blazingagitator)Blazing Agitator$(/l). It consumes catalyst items to increase rod power, duration, or both.",
+   "烈焰注能器可提升$(l:rftoolsbase:powergeneration/blazingagitator)烈焰激活器$(/l)产出的充能烈焰棒性能。它消耗催化剂物品，以增强烈焰棒的功率、持续时间，或二者兼得。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "After infusion, a rod can no longer help improve other rods in the Agitator. First make a good booster set, then infuse rods intended for fuel.",
+   "注魔完成后，该棒材将无法再协助提升搅拌器中其他棒材的性能。请先配制一套优质增效组合，再对计划用作燃料的棒材进行注魔。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Catalysts for a full stack: redstone gives power, quartz gives duration, glowstone favors duration, dimensional shards improve both, and ghast tears or nether stars give large boosts.",
+   "一整叠催化剂的配比为：红石增强功率，石英增强持续时间，荧光石偏向增强持续时间，维度碎片可同时提升二者，幽灵泪或下界之星则带来大幅加成。"
+  ]
+ ]
+}

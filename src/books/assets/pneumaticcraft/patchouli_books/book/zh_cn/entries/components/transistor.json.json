@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/transistor.json",
+ "sha1": "844199dccb14d6b93871ab7bace4fcbf30c1e3d1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Transistor",
+   "晶体管"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ]
+ ]
+}

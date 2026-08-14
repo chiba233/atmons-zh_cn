@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ftb_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbranks.FTBRanksCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Ranks reloaded from disk!",
+        "value": "已从磁盘重新加载权限组！"
+      },
+      {
+        "key": "README file refreshed!",
+        "value": "README 文件已刷新！"
+      },
+      {
+        "key": "Ranks:",
+        "value": "权限组："
+      },
+      {
+        "key": "Rank ID: ",
+        "value": "权限组 ID："
+      },
+      {
+        "key": ", Rank Name: ",
+        "value": "，权限组名称："
+      },
+      {
+        "key": ", Power: ",
+        "value": "，权重："
+      },
+      {
+        "key": "(none: players must be added)",
+        "value": "（无：必须手动添加玩家）"
+      },
+      {
+        "key": "Permission nodes:",
+        "value": "权限节点："
+      },
+      {
+        "key": "Condition: ",
+        "value": "条件："
+      },
+      {
+        "key": "Unknown rank: ",
+        "value": "未知权限组："
+      },
+      {
+        "key": "Players must be explicitly added to this rank\nwith '/ftbranks add <player> ",
+        "value": "必须使用“/ftbranks add <player> ”\n将玩家显式添加到此权限组"
+      },
+      {
+        "key": "Rank condition: ",
+        "value": "权限组条件："
+      },
+      {
+        "key": "Rank '",
+        "value": "权限组“"
+      },
+      {
+        "key": "Could not create rank '",
+        "value": "无法创建权限组“"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbranks.PlayerNameFormatting"
+    ],
+    "pairs": [
+      {
+        "key": "Error parsing ",
+        "value": "解析错误 "
+      }
+    ]
+  }
+]

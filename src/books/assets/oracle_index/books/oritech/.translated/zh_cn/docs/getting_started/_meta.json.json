@@ -1,0 +1,55 @@
+{
+ "src": "assets/oracle_index/books/oritech/docs/getting_started/_meta.json",
+ "sha1": "14c7fcf51a31b79590a4bc985abd1c3c7fdcb886",
+ "t": [
+  [
+   [
+    "alloys.mdx"
+   ],
+   "Making Steel And Other Alloys",
+   "炼钢及其他合金冶炼"
+  ],
+  [
+   [
+    "assembling_components.mdx"
+   ],
+   "Assembling Components",
+   "组件装配"
+  ],
+  [
+   [
+    "first_generator.mdx"
+   ],
+   "Basic Power Generation",
+   "基础发电"
+  ],
+  [
+   [
+    "fragmenting.mdx"
+   ],
+   "Fragmenting Ores",
+   "矿石粉碎"
+  ],
+  [
+   [
+    "gather_resources.mdx"
+   ],
+   "Gather Resources",
+   "收集资源"
+  ],
+  [
+   [
+    "have_fun.mdx"
+   ],
+   "Where To Go Next",
+   "下一步前往何处"
+  ],
+  [
+   [
+    "lasers.mdx"
+   ],
+   "Lasers And Fluxite",
+   "镭射器与通量水晶"
+  ]
+ ]
+}

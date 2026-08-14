@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_cond.json",
+ "sha1": "9236009a1f4791f87b58b3892f55c8fcbd9d9214",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Widgets that evaluate conditions.",
+   "用于判断条件的元件。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Condition Widgets",
+   "条件组件"
+  ]
+ ]
+}

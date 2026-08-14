@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_count.json",
+ "sha1": "f54fafb83f8b98f9b43ca80260ce89343d572405",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Counting Filter",
+   "计数过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Count Filter can designate a specified number of items, and plays a different role based on the card's mode.$(br2)Stack sizes of items can go from 1 to 4096. Left click will increase the stack size, while right click will decrease it. Holding shift or control will modify this amount by 10 or 64 respectively.",
+   "计数过滤器可设置给定数量的物品，在不同模式的物流卡中效用不同。$(br2)具体数量可为 1 到 4096 间任意整数。左击增加，右击减少。按住 Shift 或 Ctrl 会分别以 10 或 64 的倍数进行调整。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "If a counting filter is used in a stocker mode card, it will try to keep the specified amount of resources in stock. For example, keeping 64 cobblestone in a chest is done by using a Counting Filter with 64 cobblestone.$(br2)If a counting filter is used in an Inserter card, it will limit how many items are allowed to be sent to that inventory by extractor cards.",
+   "若计数过滤器处于存储卡中，其会尝试在对应存储空间内保有给定数量的资源。例如，放入设为 64 个圆石的计数过滤器，即可在箱子内保有 64 个圆石。$(br2)若计数过滤器处于输入卡中，其会限制提取卡向其输入物品的数量。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "If a counting filter is used in a extractor mode card, it will leave the designated number of items behind. For example, if you set an extract card with a filter of 8 cobblestone, it will pull out all but the last 8 cobblestone from a chest.$(br2)Counting filters do not have an Allow vs Deny button - as Deny mode would not make any sense for a counting filter. All counting filters are 'Allow mode'.  JEI Interaction works the same as it does in a $(l:laserio:filter_basic)Basic Filter$(/l).",
+   "若计数过滤器处于提取卡中，其会在存储空间中余下给定数量的物品。例如，放入设为 8 个圆石的过滤器，即可将对应箱子内所有物品取出，并保留 8 个圆石。$(br2)计数过滤器没有白名单与黑名单按钮；黑名单对计数过滤器来讲没有意义，所有计数过滤器都是“白名单模式”。JEI 相关操作与$(l:laserio:filter_basic)基础过滤器$(/l)一致。"
+  ]
+ ]
+}

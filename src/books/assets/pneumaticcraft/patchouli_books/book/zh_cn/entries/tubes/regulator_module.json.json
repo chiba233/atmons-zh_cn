@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tubes/regulator_module.json",
+ "sha1": "02e1536092d3886d5378fe76437f5e69cd3ceb9b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Regulator Module",
+   "调节器管道模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Regulator Tube Module is an $(l:tubes/tube_modules#inline)inline/$ module used to limit the $(l:base_concepts/pressure)pressure/$ allowed through the tube. By default, the module will regulate the pressure to 4.9 bar (for both basic and advanced tubes) with no redstone signal, reducing toward 0 as the signal rises toward 15. This means a lever right beside a regulator closes it, preventing any air flow through it.",
+   "调节器管道模块是一种$(l:tubes/tube_modules#inline)内联/$模块，用于限制允许通过管道的$(l:base_concepts/pressure)压力/$。默认情况下，在没有红石信号时，该模块会将压力调节至 4.9 bar（基础管道和高级管道均如此），并会随着信号强度升向 15 而逐渐降低至 0。这意味着，如果在调节器旁边直接放置一个拉杆，它就会关闭，从而阻止任何空气流经它。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When the narrow side of the regulator reaches this pressure, no more air will be allowed through the tube. This principal can be used as a $(thing)transformer/$: on the input (wide) side is high-pressure air, but the Regulator Tube limits the pressure on the output to the threshold pressure.$(p)This allows a lower tier tube network to be safely supplied by a higher-tier network.",
+   "当调节管较窄一侧达到这个压力时，空气就不再能通过管道。这个原理可以用作 $(thing)变压器/$：输入（较宽）的一侧是高压空气，而调节管会将输出压力限制在阈值压力。$(p)这样就能让低等级的管道网络安全地由更高等级的网络供气。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Interestingly, the $(thing)Regulator Module/$ allows unrestricted flow of air in the opposite direction (from the narrow side to the wide side) regardless of the redstone signal; this means a regulator with a full redstone signal can be used as a one-way valve.$(p)Note that the $(thing)Regulator/$ does $(italic)not/$ actively reduce pressure on its narrow side; it only prevents air flow if the pressure would rise above the threshold.",
+   "有趣的是，$(thing)调节器模块/$无论红石信号如何，都会允许空气沿相反方向（从窄侧流向宽侧）不受限制地流动；这意味着，一个接收到完整红石信号的校准器可以用作单向阀。$(p)请注意，$(thing)校准器/$$(italic)不会/$主动降低其窄侧的压力；如果压力将会上升到超过阈值，它只会阻止空气流动。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Applying a $(l:tubes/module_expansion_card)Module Expansion Card/$ to the Regulator Module unlocks a GUI providing far more control over the threshold level. You can set a precise threshold in the GUI, or (with the $(bold)Advanced Config/$ checkbox) configure interpolated threshold levels based on the redstone signal. This works exactly like the $(l:tubes/safety_module)Safety Module/$.",
+   "将 $(l:tubes/module_expansion_card)模块拓展卡/$ 安装到调节器模块上后，会解锁一个 GUI，让你能对阈值进行更精细的控制。你可以在 GUI 中设置精确阈值，或者勾选 $(bold)高级配置/$，根据红石信号来配置插值阈值。这与 $(l:tubes/safety_module)安全模块/$ 的工作方式完全相同。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Crafting a Regulator Module",
+   "合成调节器模块"
+  ]
+ ]
+}

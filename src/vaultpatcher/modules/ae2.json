@@ -1,0 +1,293 @@
+[
+  {
+    "name": "ae2_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.neuvillette.ae2ct.api.ToolTipText"
+    ],
+    "pairs": [
+      {
+        "key": "Show Crafting Tree",
+        "value": "显示合成树"
+      },
+      {
+        "key": "Output: %s",
+        "value": "输出：%s"
+      },
+      {
+        "key": "need: %s",
+        "value": "需要：%s"
+      },
+      {
+        "key": "use: %s",
+        "value": "使用：%s"
+      },
+      {
+        "key": "use compact mode",
+        "value": "使用紧凑模式"
+      },
+      {
+        "key": "ScreenShot show count",
+        "value": "截图显示计数"
+      },
+      {
+        "key": "Show missing only",
+        "value": "仅显示缺失项"
+      },
+      {
+        "key": "Show missing only by default",
+        "value": "默认仅显示缺失项"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.api.stacks.AEFluidKey"
+    ],
+    "pairs": [
+      {
+        "key": "Fluid must not be minecraft:empty",
+        "value": "Fluid 不能为 minecraft:empty"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.api.stacks.AEItemKey"
+    ],
+    "pairs": [
+      {
+        "key": "Item must not be minecraft:air",
+        "value": "物品不能为 minecraft:air"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.client.gui.me.networktool.NetworkStatusScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Export Grid",
+        "value": "导出网格"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.core.network.clientbound.ExportedGridContent"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to write exported grid data to ",
+        "value": "无法将导出的网格数据写入到"
+      },
+      {
+        "key": "Saved grid data for grid #",
+        "value": "已保存网格 # 的数据"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.debug.DebugCardItem"
+    ],
+    "pairs": [
+      {
+        "key": "Connected Sides: ",
+        "value": "已连接的面："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.debug.MeteoritePlacerItem"
+    ],
+    "pairs": [
+      {
+        "key": "Un-suitable Location.",
+        "value": "位置不合适。"
+      },
+      {
+        "key": "Spawned at y=",
+        "value": "生成于 y="
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.server.subcommands.GridsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to export grids: ",
+        "value": "导出终端失败："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "appeng.recipes.entropy.PropertyValueMatcher$1"
+    ],
+    "pairs": [
+      {
+        "key": "Property values need to be strings, list of strings, or objects with min/max properties",
+        "value": "属性值必须是字符串、字符串列表，或带有 min/max 属性的对象"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "gripe._90.megacells.definition.MEGATranslations"
+    ],
+    "pairs": [
+      {
+        "key": "Provides 4 co-processing threads per block.",
+        "value": "每个方块提供 4 个协处理线程。"
+      },
+      {
+        "key": "A lot.",
+        "value": "很多。"
+      },
+      {
+        "key": "MEGA: Classic Cell Colours",
+        "value": "MEGA：经典元件配色"
+      },
+      {
+        "key": "Old red-purple colours for both AE2 and MEGA cell tiers.",
+        "value": "AE2与MEGA元件等级均采用旧版红紫色配色。"
+      },
+      {
+        "key": "Bulk Compression Cutoff",
+        "value": "大宗压缩截断"
+      },
+      {
+        "key": "Contains trace units!",
+        "value": "包含痕量单位！"
+      },
+      {
+        "key": "Filter chemical unsupported!",
+        "value": "不支持化学品过滤器！"
+      },
+      {
+        "key": "Mismatched filter! (%s)",
+        "value": "过滤器不匹配！(%s)"
+      },
+      {
+        "key": "MEGA Cells",
+        "value": "MEGA存储单元"
+      },
+      {
+        "key": "%s not installed.",
+        "value": "未安装 %s。"
+      },
+      {
+        "key": "Not yet available.",
+        "value": "尚未可用。"
+      },
+      {
+        "key": "Partitioned for: %s",
+        "value": "已分区用于：%s"
+      },
+      {
+        "key": "Supports processing patterns only.",
+        "value": "仅支持处理样板。"
+      },
+      {
+        "key": "Not Partitioned",
+        "value": "未分区"
+      },
+      {
+        "key": "Trace Units: %s (%s)",
+        "value": "痕量单位：%s (%s)"
+      },
+      {
+        "key": "Cell:",
+        "value": "元件："
+      },
+      {
+        "key": "Config:",
+        "value": "配置："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "gripe._90.megacells.integration.Addons"
+    ],
+    "pairs": [
+      {
+        "key": "Applied Mekanistics",
+        "value": "应用能源：通用机械附属"
+      },
+      {
+        "key": "Applied Botanics",
+        "value": "应用能源：植物魔法附属"
+      },
+      {
+        "key": "Ars Énergistique",
+        "value": "新生魔艺能源"
+      },
+      {
+        "key": "Applied Flux",
+        "value": "应用通量"
+      },
+      {
+        "key": "Applied Soul",
+        "value": "应用之魂"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "lu.kolja.expandedae.definition.ExpText"
+    ],
+    "pairs": [
+      {
+        "key": "Modify Patterns",
+        "value": "修改样板"
+      },
+      {
+        "key": "Left click to multiply, right click to divide \nMultipliers: Shift 2x, Ctrl 8x",
+        "value": "左键点击可乘以，右击可除以\n倍率：Shift 2x, Ctrl 8x"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "lu.kolja.expandedae.enums.ADDONS"
+    ],
+    "pairs": [
+      {
+        "key": "Mod not installed!",
+        "value": "模组未安装！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "lu.kolja.expandedae.item.misc.ExpPatternProviderUpgradeItem"
+    ],
+    "pairs": [
+      {
+        "key": "a Pattern Provider to an Expanded Pattern Provider",
+        "value": "ME样板供应器 → 拓充样板供应器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "lu.kolja.expandedae.item.misc.ExtPatternProviderUpgradeItem"
+    ],
+    "pairs": [
+      {
+        "key": "an Extended Pattern Provider\n to an Expanded Pattern Provider",
+        "value": "ME扩展样板供应器 → 拓充样板供应器"
+      }
+    ]
+  }
+]

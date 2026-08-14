@@ -1,0 +1,20 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/categories/mechanics.json",
+ "sha1": "4ee605f8cbb0b57a67cac0ce34e88c2639643dae",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The following sections identify the basic mechanics of cards. If a mechanic is unique to a card type, it will be identified in the first page of the entry.",
+   "本章节主要介绍物流卡的基础机制。若某一机制专属于某种类型的物流卡，则对应条目的首页会标明这一点。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Card Mechanics",
+   "物流卡机制"
+  ]
+ ]
+}

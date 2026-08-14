@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/items/combs.json",
+ "sha1": "7e46f904893c8e906113ec106535e9d3e2248678",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Combs",
+   "蜂蜡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bees living in advanced beehives will produce resource combs which can be put into a centrifuge to extract resources.$(br)Combs can also be compressed into comb blocks for easier storage.",
+   "居住在高级蜂箱中的蜜蜂会产出资源蜜脾，这些蜜脾可以放入离心机中提取资源。$(br)蜜脾还可以压缩成蜜脾块，便于储存。"
+  ]
+ ]
+}

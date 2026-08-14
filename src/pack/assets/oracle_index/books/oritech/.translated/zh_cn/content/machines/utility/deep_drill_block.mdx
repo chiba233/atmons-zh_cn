@@ -1,0 +1,35 @@
+---
+title: 基岩层钻机
+id: oritech:deep_drill_block
+type: block
+custom:
+    RF Capacity: "20,000"
+    RF per step: "1,024"
+    Steps per ore: "20"
+    Cores required: "26"
+---
+基岩层钻机是一台大型机器，用于开采基岩层之下的资源。
+
+<center>
+<ModAsset location="oritech:area/bedrock_extraction" width={800} />
+</center>
+
+它仅在直接放置于[资源节点](@oritech:resource_node_redstone)上方时方可运行。
+
+---
+
+**基岩资源精炼**
+
+该提取器扫描其下方3×3区域，并从深度3格内最先发现的可见矿石节点中开采。
+右键单击时，机器将高亮显示其下方的目标资源节点。
+
+由于其高能耗需求，它无法通过标准电缆供电，必须由[末影激光器](@oritech:laser_arm_block)供能。
+
+资源节点是无限的材料来源，提取器永远不会将其耗尽。
+
+**运行详情**
+
+
+运行期间，提取器每次成功循环都会从其正下方3×3区域内随机选取一个方块进行采集。
+该区域并非所有方块都必须是资源节点，但为获得最佳产出，您应尽量将提取器部署在资源节点数量最多的地点上方。
+

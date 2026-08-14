@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/label.json",
+ "sha1": "a7b6f6d1068b5665ee84f63ada5b65b5a1539b1a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Label Widget",
+   "标签"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This widget is purely focused on $(l:programming/flow_control)program flow/$. The label defines a point in the program that $(l:programming/jump)Jump/$ and $(l:programming/conditions)Condition/$ widgets can jump to. You must attach a $(l:programming/text)Text/$ widget to this widget to name it. Any jumps/conditions using a $(thing)Text/$ widget of that name will then jump to this label.",
+   "这个组件完全专注于$(l:programming/flow_control)程序流程/$。标签会在程序中定义一个位置，$(l:programming/jump)跳转/$和$(l:programming/conditions)条件/$组件都可以跳转到这里。你必须将一个$(l:programming/text)文本/$组件附加到这个组件上来为其命名。之后，任何使用该名称的$(thing)文本/$组件的跳转/条件都会跳转到这个标签。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A $(thing)Label/$ widget can be used to create a $(italic)branch/$ in the program flow (when using $(l:programming/conditions)Conditions/$), or just to organize sections of your program for clarity by putting them next to each other. A useful tip is to check $(bold)Show Flow/$ checkbox at the bottom left of the $(l:programming/programmer)Programmer/$ GUI;  it will show lines linking $(thing)Jump/Condition/Label/$ widgets of the same name.",
+   "$(thing)标签/$组件可用于在程序流程中创建一个$(italic)分支/$（使用$(l:programming/conditions)条件/$时），也可以将它们彼此相邻放置，以更清晰地整理程序的各个部分。一个实用的小技巧是勾选$(l:programming/programmer)编程器/$ GUI 左下角的 $(bold)显示流程/$ 复选框；这样会显示将同名的 $(thing)跳转/条件/标签/$ 组件连接起来的线条。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(italic)Label Widget/$",
+   "$(italic)标签部件/$"
+  ]
+ ]
+}

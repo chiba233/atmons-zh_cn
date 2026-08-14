@@ -1,0 +1,22 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/dimensions/otherdim.json",
+ "sha1": "855d66526066a54be2e338fb489e6c1369dd6400",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Other",
+   "异界"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Other is a very hostile dimension. To teleport to the dimension use the $(l:dimensions/teleport_pad)Teleport Pad$(/c) in the Nether. Little is known of this place, but it seems to be where Piglins come from, huge underground cities exist in any biomes with tree cover on the surface, as well as dungeons and ancient pyramids full of monsters and loot",
+   "异界是一个敌意非常强的维度。要传送到这个维度，需要在下界使用 $(l:dimensions/teleport_pad)传送垫$(/c)。关于这个地方所知甚少，但它似乎是猪灵的故乡；在任何地表有树木覆盖的生物群系中，都存在巨大的地下城市，此外还有遍布怪物与战利品的地牢和远古金字塔"
+  ]
+ ]
+}

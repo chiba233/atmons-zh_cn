@@ -1,0 +1,85 @@
+[
+  {
+    "name": "keybind_categories_zh",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "auroras.util.AHelpers"
+    ],
+    "pairs": [
+      {
+        "key": "Auroras",
+        "value": "极光"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ovh.corail.tombstone.registry.ClientModEvents"
+    ],
+    "pairs": [
+      {
+        "key": "Corail Tombstone",
+        "value": "Corail 的墓碑"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.AllKeys"
+    ],
+    "pairs": [
+      {
+        "key": "Create",
+        "value": "机械动力"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.client.keybinding.KeyBindings"
+    ],
+    "pairs": [
+      {
+        "key": "Draconic Evolution",
+        "value": "龙之进化"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.blakebr0.ironjetpacks.client.handler.KeybindHandler"
+    ],
+    "pairs": [
+      {
+        "key": "Iron Jetpacks",
+        "value": "铁喷气背包"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "rainbows.util.RHelpers"
+    ],
+    "pairs": [
+      {
+        "key": "Rainbows",
+        "value": "彩虹"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "it.hurts.sskirillss.relics.init.RelicsHotkeys"
+    ],
+    "pairs": [
+      {
+        "key": "Relics",
+        "value": "遗物"
+      }
+    ]
+  }
+]

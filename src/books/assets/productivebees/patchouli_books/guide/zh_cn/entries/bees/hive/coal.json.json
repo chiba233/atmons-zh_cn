@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/coal.json",
+ "sha1": "4de0313b7c5d6e7eb28c449adf20d7e7743536cf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coal Bee",
+   "煤炭蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from a $(l:bees/hive/redstone)Blazing Bee$(/l) and a $(l:bees/solitary/leafcutter)Leafcutter Bee$(/l).",
+   "由一只$(l:bees/hive/redstone)烈焰蜜蜂$(/l)和一只$(l:bees/solitary/leafcutter)切叶蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Coal Bee",
+   "煤炭蜜蜂"
+  ]
+ ]
+}

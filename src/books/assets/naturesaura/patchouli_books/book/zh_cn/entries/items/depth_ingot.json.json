@@ -1,0 +1,31 @@
+{
+ "src": "assets/naturesaura/patchouli_books/book/en_us/entries/items/depth_ingot.json",
+ "sha1": "d26bcd4429ebf832b2cade4a3d597404c2ce8803",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ingot of the Depths",
+   "深渊锭"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Years after their original inception, magical botanists have finally found a new material able to harness the powers of $(aura) through new means: the mystical and elusive $(item)Netherite$(). With it, one can create a most powerful material: $(item)Ingots of the Depths$(). These ingots, as expected, can also be turned into $(l:items/depth_armor)armor$() and $(l:items/depth_tools)tools$().",
+   "在最初的构想问世多年之后，魔法植物学家终于找到了一种能以全新方式驾驭$(aura-zh-cn)之力的材料——神秘而难觅的$(item)下界合金$()。用它可以炼出一种极其强大的材料：$(item)深渊锭$()。不出所料，这种锭同样能做成$(l:items/depth_armor)盔甲$()与$(l:items/depth_tools)工具$()。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Creating the $(item)Ingot of the Depths$()",
+   "制作$(item)深渊锭$()"
+  ]
+ ]
+}

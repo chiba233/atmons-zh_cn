@@ -1,0 +1,67 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_beamer.json",
+ "sha1": "df38e777067d3b18f983965d70d3c959ca819685",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Matter Beamer",
+   "物质投影仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Matter Beamer sends material items to a $(l:rftoolsbase:machines/spawner)Spawner$(/l). It has one input slot, uses FE while active, and beams items only when the linked spawner can use them.",
+   "物质投影仪可将物品材料传送至$(l:rftoolsbase:machines/spawner)生物生成器$(/l)。它拥有一个输入槽位，运行时消耗FE，且仅当链接的生物生成器能够使用这些物品时才进行投射。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Matter Beamer",
+   "物质投影仪"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Use a wrench on the Matter Beamer, then use the wrench on the target Spawner. Wrenching the selected beamer again clears the destination.",
+   "使用扳手右键点击物质投影仪，再用同一把扳手右键点击目标生物生成器。再次对已选定的投影仪使用扳手，即可清除其目的地设定。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Linking",
+   "连接"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Give the beamer a redstone signal and insert materials needed by the spawner recipe. $(5)Infusing$() sends more items per pulse and reduces FE cost.",
+   "向物质投影仪输入红石信号，并插入生成器配方所需的材料。$(5)注魔$()可提升每次脉冲输出的物品数量，并降低FE消耗。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Operation",
+   "操作"
+  ]
+ ]
+}

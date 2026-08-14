@@ -1,0 +1,19 @@
+[
+  {
+    "name": "appmek_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.ramidzkh.mekae2.ae2.MekanismKey"
+    ],
+    "pairs": [
+      {
+        "key": "Tried to load an invalid chemical key from NBT: %s",
+        "value": "尝试从 NBT 中加载无效的化学键：%s"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/upgrades.json",
+ "sha1": "4a6e88414beafd41e687e2101f93c254645236c4",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Upgrades can be installed in a Modular Router to enhance or modify its functionality.",
+   "升级可以安装在物品路由器中，以增强或修改其功能。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Upgrades",
+   "升级"
+  ]
+ ]
+}

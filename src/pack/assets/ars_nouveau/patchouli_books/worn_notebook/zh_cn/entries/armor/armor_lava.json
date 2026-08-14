@@ -1,0 +1,43 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_elemancy:lava_hat",
+  "name": "ars_elemancy.armor_set.lava",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ars_elemancy.page.armor_set.lava"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_hat_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_hat_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_robes_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_robes_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_leggings_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_leggings_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_boots_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:lava_boots_2"
+    }
+  ]
+}

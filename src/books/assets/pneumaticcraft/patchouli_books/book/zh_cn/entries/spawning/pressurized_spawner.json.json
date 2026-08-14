@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/spawning/pressurized_spawner.json",
+ "sha1": "7e7f7e71db16c9dc7b346b710936a678caf4ae37",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pressurized Spawner",
+   "气动刷怪笼"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A $(item)Pressurized Spawner/$ is a powerful device which uses $(l:base_concepts/pressure)pressure/$ to spawn mobs. It doesn't care about light levels or player proximity, and can be enabled/disabled via redstone.$(p)To use a Pressurized Spawner, you will need a $(l:spawning/spawner_core)Spawner Core/$ containing some captured mob essence, and at least 10 bar of pressure.",
+   "$(item)气动刷怪笼/$是一种强大的装置，它使用$(l:base_concepts/pressure)压力/$来生成生物。它不受光照等级或玩家距离的影响，并且可以通过红石启用/禁用。$(p)要使用气动刷怪笼，你需要一个装有已捕获生物精华的$(l:spawning/spawner_core)刷怪笼核心/$，以及至少 10 bar 的压力。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When a Core contains multiple mob essences, a random mob will be picked. E.g. if your Core is 50% zombie, 25% creeper, and 25% empty, then on each spawn attempt, you have a 50% chance of a zombie, 25% for a creeper, and 25% for nothing at all.$(p)Air is still used if nothing spawns, so partially empty Cores are not very efficient (but then again, a Core with a 50% chance of a rare mob is better than no Core at all...)",
+   "当地核包含多种生物精华时，会随机选取一种生物。比如，如果你的地核有 50% 是僵尸、25% 是苦力怕、还有 25% 为空，那么每次尝试生成时，你都有 50% 的几率生成僵尸，25% 的几率生成苦力怕，以及 25% 的几率什么都不会生成。$(p)即使什么都没有生成，空气仍然会被消耗，所以部分为空的地核效率并不高（不过话说回来，一个有 50% 几率生成稀有生物的地核，总比完全没有地核要好……）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Pressurized Spawner.",
+   "合成气动刷怪笼。"
+  ]
+ ]
+}

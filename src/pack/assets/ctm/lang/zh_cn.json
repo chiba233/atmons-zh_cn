@@ -1,0 +1,9 @@
+{
+ "ctm.configuration.title": "连接材质配置",
+ "ctm.configuration.section.ctm.toml.title": "连接材质配置",
+ "ctm.configuration.section.ctm.toml": "连接材质配置",
+ "configuration.ctm.disable": "禁用连接材质",
+ "configuration.ctm.disable.tooltip": "完全禁用连接材质",
+ "configuration.ctm.connect_inside": "连接 CTM 内角",
+ "configuration.ctm.connect_inside.tooltip": "选择 CTM 方块上的内角是否断开 - https://imgur.com/eUywLZ4"
+}

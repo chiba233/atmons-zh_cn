@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/capacitor.json",
+ "sha1": "04bb0f8575ac9a66743e61ef2f7892c34d408b38",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Capacitor",
+   "电容"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ]
+ ]
+}

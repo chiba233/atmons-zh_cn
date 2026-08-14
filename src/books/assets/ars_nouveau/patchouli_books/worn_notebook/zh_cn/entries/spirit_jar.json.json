@@ -1,0 +1,49 @@
+{
+ "src": "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/spirit_jar.json",
+ "sha1": "e6018094cc0b0c8d2f0f02302a00d8c97643dd21",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Spirit Jars",
+   "魔灵罐"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Occultism Spirits can work inside $(l:machines/mob_jar)Containment Jars$(/l). They maintain their original behaviour and $(thing)do not decay$() making them perfect from automations! $(br2)Spirit Jar will automatically pickup any item in 7x7 centered around it that matches spirit's filter (for crushing spirits, it will automatically pickup any ore that it can process).",
+   "神秘学的魔灵能在$(l:machines/mob_jar)收容罐$(/l)中工作。它们的行为一如往常，同时$(thing)不会灵髓衰退$()，非常适合自动化！$(br2)魔灵罐会自动捡起以自身为中心7x7范围内符合过滤标准的任意物品（例如，碎矿者魔灵会自行捡起它能处理的所有矿石）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Items can also be pushed into the containment jar using a hopper or starbuncles (any pipe should also work!). Players can also right-click any item directly on the jar. $(br2)Spirits in Jars exhibit their default behaviour, this means that a $(thing)Crusher Spirit$() will automatically process and fling the output in one of directions",
+   "也可用漏斗和星宝石兽将物品送入收容罐（管道也应该没问题！）。玩家还可直接用物品直接右击收容罐。$(br2)罐中魔灵的行为不会改变，也即$(thing)碎矿者魔灵$()会自动处理并向某一方向弹出产物。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Janitor Spirits inside jars have a special property. They automatically try to pickup items nearby and push to inventory next to it. This makes automation super easy!",
+   "罐中的清洁工魔灵有一独特的性质。它们会尝试捡起周围的物品，并放入与收容罐相邻的容器。自动化也因此变得非常简单了！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Janitor Spirits",
+   "清洁工魔灵"
+  ]
+ ]
+}

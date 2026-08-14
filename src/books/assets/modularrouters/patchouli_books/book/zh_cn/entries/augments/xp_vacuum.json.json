@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/xp_vacuum.json",
+ "sha1": "c5cd1a514ac8a9348e692fa0e73c3da17bd8ada2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "XP Vacuum Augment",
+   "经验吸收拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can only be added to a $(l:modules/vacuum)Vacuum Module/$.$(p)When this augment is added, the Vacuum Module will absorb experience orbs instead of items. The orbs will be converted into $(item)Bottles o' Enchanting/$ at the rate of 7XP per bottle (which is the average amount of XP gained by breaking a Bottle o' Enchanting).",
+   "这个增强件只能添加到$(l:modules/vacuum)虚空模块/$。$(p)添加该增强件后，虚空模块吸收的将不再是物品，而是经验球。经验球会按每瓶 7XP 的比例转换成$(item)附魔之瓶/$（这正是打碎一瓶附魔之瓶平均获得的经验值）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Depending on what other mods are installed, it might also be possible to convert orbs into XP fluids. This requires that either a fluid-containing tank is in the router's buffer, or adjacent to the router. In the latter case, ensure that the $(bold)Eject/$ button is enabled in the Vacuum Module's GUI.",
+   "根据安装的其他模组不同，也可能可以将经验球转换为经验流体。这要求路由器缓冲区中有一个含流体的储罐物品，或者该储罐与路由器相邻。若是后一种情况，请确保虚空模块 GUI 中的$(bold)弹出/$按钮已启用。"
+  ]
+ ]
+}

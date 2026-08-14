@@ -1,0 +1,121 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/elevators.json",
+ "sha1": "8cad5f2db48b3994c52a1ffbbf6ad401c91212f7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Elevators",
+   "电梯"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Elevator/$ is a machine that can be used to vertically transport any entities, whether it be an item, mob, animal or player.$(p)You need to place an $(item)Elevator Base/$ at the bottom. You can stack multiple bases on top of each other.$(p)On top of this, place $(item)Elevator Frames/$, which act as a support for the elevator.",
+   "$(thing)升降机/$是一种可用于垂直运输任何实体的机器，无论是物品、生物、动物还是玩家。$(p)你需要在底部放置一个 $(item)电梯基座/$。你可以将多个基座向上堆叠放置。$(p)在其上方放置 $(item)电梯框架/$，它们可作为升降机的支撑结构。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Both the number of $(item)Elevator Bases/$ and the number of $(item)Elevator Frames/$ determine how high the $(thing)Elevator/$ can extend. The maximum height of an $(thing)Elevator/$ is the lower of:$(li)1 x the number of vertically-stacked $(item)Elevator Frames/$, or$(li)$(ttcolor)$(t:You can change this multiplier in mod config - see 'I:elevatorBaseBlocksPerBase')6 x/$ the number of vertically-stacked $(item)Elevator Bases/$",
+   "$(thing)升降机/$可延伸的高度由 $(item)电梯基座/$ 的数量和 $(item)电梯框架/$ 的数量共同决定。$(thing)升降机/$的最大高度取以下两者中的较小值：$(li)垂直堆叠的 $(item)电梯框架/$ 数量的 1 倍，或$(li)$(ttcolor)$(t:You can change this multiplier in mod config - see 'I:elevatorBaseBlocksPerBase')垂直堆叠的 $(item)电梯基座/$ 数量的 6 倍/$"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The $(thing)Elevator/$ can operate in one of two modes:$(li)$(bold)Redstone/$: a $(#f00)redstone signal/$ applied to any $(item)Elevator Base/$ controls the elevator's height, proportional to the signal strength (no signal = 0% extension, full signal = 100% extension).$(li)$(bold)Elevator Caller/$: The $(l:machines/elevators#caller)Elevator Caller/$ can provide some more sophisticated control over the elevator.",
+   "$(thing)电梯/$可以以以下两种模式之一运行：$(li)$(bold)红石/$：对任意一个$(item)电梯基座/$施加$(#f00)红石信号/$，即可控制电梯的高度，且与信号强度成正比（无信号 = 0% 延伸，满信号 = 100% 延伸）。$(li)$(bold)电梯呼叫器/$：$(l:machines/elevators#caller)电梯呼叫器/$可以为电梯提供更复杂的控制。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "You can create bigger $(thing)Elevators/$ by placing more $(item)Elevator Bases/$ next to each other horizontally. When the top $(item)Elevator Base/$ of every connected $(thing)Elevator/$ is at the same height, the $(thing)Elevators/$ will share the floors (defined by $(l:machines/elevators#caller)Elevator Callers/$), redstone input, and therefore act as a single multiblock.",
+   "你可以将更多$(item)电梯基座/$水平并排放置，以建造更大的$(thing)电梯/$。当每个相连$(thing)电梯/$顶部的$(item)电梯基座/$处于同一高度时，这些$(thing)电梯/$将共享楼层（由$(l:machines/elevators#caller)电梯呼叫器/$定义）和红石输入，因此会作为一个多方块结构运作。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Multiblock Elevators",
+   "多方块电梯"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(item)Elevator Base/$ can accept up to four $(l:base_concepts/upgrades#charging)Charging Upgrades/$, which allow it to reclaim used air when the elevator descends (normally descent costs no air but does not regenerate air either).$(p)This comes at a cost of slower descent; with 4 upgrades installed, air is reclaimed at 60% of the cost to rise that distance, but descent will be 40% slower.",
+   "$(item)电梯基座/$最多可接受四个$(l:base_concepts/upgrades#charging)充气升级/$，使其能够在电梯下降时回收已消耗的空气（通常下降不消耗空气，但也不会恢复空气）。$(p)代价是下降速度会变慢；安装 4 个升级后，回收的空气量相当于上升相同距离所消耗空气的 60%，但下降速度会降低 40%。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Saving Air",
+   "回收空气"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(item)Elevator Callers/$ placed next to $(item)Elevator Frames/$ are used to control the height of the $(thing)Elevator/$. When you place down an $(item)Elevator Frame/$, it'll calculate how many $(thing)floors/$ there are, defined by other $(item)Elevator Callers/$.$(p)$(thing)Floors/$ can be named in the $(item)Elevator Base/$ GUI; floor names will be displayed as buttons on each $(item)Elevator Caller/$. They can be clicked to call the $(thing)Elevator/$ to that floor.",
+   "放置在 $(item)电梯框架/$ 旁边的 $(item)电梯呼叫器/$ 用于控制 $(thing)电梯/$ 的高度。放下一个 $(item)电梯框架/$ 时，它会根据其他 $(item)电梯呼叫器/$ 来计算共有多少个 $(thing)楼层/$。$(p)$(thing)楼层/$ 可以在 $(item)电梯基座/$ 的 GUI 中命名；楼层名称会显示为每个 $(item)电梯呼叫器/$ 上的按钮。点击这些按钮即可将 $(thing)电梯/$ 呼叫到对应楼层。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Elevator Caller",
+   "电梯呼叫器"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "In addition, an $(item)Elevator Caller/$ will emit a $(#f00)redstone signal/$ when the $(thing)Elevator/$ is at its floor, and providing a Caller with a $(#f00)redstone pulse/$ will call the $(thing)Elevator/$ to its floor.$(p)Finally, the $(item)Elevator Caller/$ can be camouflaged to look like other blocks with the $(l:tools/camo_applicator)Camouflage Applicator/$ tool.",
+   "此外，当$(thing)升降机/$位于其所在楼层时，$(item)电梯呼叫器/$会发出$(#f00)红石信号/$；而向呼叫器提供一个$(#f00)红石脉冲/$，则会将$(thing)升降机/$呼叫到该楼层。$(p)最后，可以使用$(l:tools/camo_applicator)伪装涂覆器/$工具将$(item)电梯呼叫器/$伪装成其他方块的外观。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Elevator Caller (cont.)",
+   "电梯呼叫器 (续)"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "$(italic)A 3x3 Elevator with two visible Elevator Callers/$",
+   "$(italic)一个 3x3 的升降机，带有两个可见的电梯呼叫器/$"
+  ]
+ ]
+}

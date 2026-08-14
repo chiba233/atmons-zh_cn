@@ -1,0 +1,94 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/energy.json",
+ "sha1": "76fea890eac809f02310cde355540edb10d146ea",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Energy Upgrade",
+   "能量升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade gives the Router an internal energy buffer. Each upgrade increases the buffer size by 50,000 FE and the transfer rate by 1,000 FE per $(italic)router tick/$ (these figures are adjustable in mod config).$(p)There are several scenarios where an Energy Upgrade is useful, detailed in the following pages.",
+   "该升级为路由器提供内置能量缓冲区。每安装一个升级，缓冲区容量增加50,000 FE，能量传输速率提升1,000 FE/$(italic)路由器运行周期/$（这些数值可在模组配置文件中调整）。$(p)能量升级在多种场景下均有实用价值，详情请参见后续页面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The $(l:modules/energy_output)Energy Output/$ and $(l:modules/energy_distributor)Energy Distributor/$ modules are both capable of actively pushing energy from the router's buffer to adjacent or nearby blocks.$(p)With these modules, you can effectively build an energy cell with limited wireless energy transfer capabilities.",
+   "$(l:modules/energy_output)能量输出/$与$(l:modules/energy_distributor)能量分配器/$模块均可主动将路由器缓冲区中的能量推送至相邻或附近的方块中。$(p)借助这些模块，你可有效构建一个具备有限无线能量传输能力的能量单元。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "1. Routing Energy",
+   "路由能量"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "By default, router modules do not cost any energy to run, with the exception of the $(l:modules/activator)Activator Module/$ in attack mode. $(p)However, energy usage is configurable and it's possible that energy costs may apply to other modules in the pack you're playing; all modules list energy usage numbers in their tooltip where it applies.",
+   "默认情况下，除$(l:modules/activator)执行模块/$处于攻击模式外，其余路由器模块运行均不消耗能量。$(p)不过，能量消耗行为可配置，且你当前使用的整合包中，其他模块也可能设定有能量消耗；所有涉及能量消耗的模块，其提示信息中均会明确列出相关数值。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "2. Powering Modules",
+   "2. 为模块供能"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Any energy-holding item in the router's buffer can optionally have energy transferred from the router's internal buffer to the item, or vice versa.$(p)When an energy-holding item is in the item buffer, the router GUI will show a switchable button between the buffer and the energy bar to set the energy transfer direction.",
+   "放在路由器缓冲区中的任何储能物品，都可以选择将能量从路由器内部缓冲区传入该物品，或反向传出。$(p)当物品缓冲区中存在储能物品时，路由器 GUI 会在缓冲区与能量条之间显示一个可切换按钮，用于设置能量传输方向。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "3. Charging Items",
+   "3. 物品充能"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "It is important to note that stated transfer rates on tooltips are in FE per $(italic)router tick/$, which is not the same as FE/t. A Router's tick rate depends on its $(l:upgrades/speed)Speed Upgrades/$; with no Speed Upgrades, a router tick is every 20 server ticks. Therefore, the overall transfer rate may be lower than you might expect.",
+   "需特别注意：提示信息中标注的传输速率单位为FE/$(italic)路由器运行周期/$，而非FE/t。路由器的运行频率取决于其$(l:upgrades/speed)速度升级/$数量；未安装任何速度升级时，路由器每20个服务端刻运行一次。因此，整体传输速率可能低于你的预期。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Transfer Rates",
+   "传输速率"
+  ]
+ ]
+}

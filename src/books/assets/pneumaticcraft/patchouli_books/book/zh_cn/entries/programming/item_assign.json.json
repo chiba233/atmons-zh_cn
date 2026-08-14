@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/item_assign.json",
+ "sha1": "abb3ae6f34c9559b32701189805744f93f169cf2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Item Assignment Widget",
+   "物品赋值小部件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Item Assignment/$ widget is an advanced widget that allows you to store an item in a $(l:programming/variables)variable/$. Variables may be either coordinates or items; here we are talking about the latter.$(p)See the $(l:programming/coordinate_operator)Coordinate Operator/$ widget for information about coordinate variables and a general explanation about variables.",
+   "$(thing)物品赋值/$组件是一种高级组件，可让你将一个物品存储到$(l:programming/variables)变量/$中。变量既可以是坐标，也可以是物品；这里讨论的是后者。$(p)有关坐标变量的信息以及关于变量的一般说明，请参阅$(l:programming/coordinate_operator)坐标运算符/$组件。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To store an item in a given $(thing)variable/$, place an $(l:programming/item_filter)Item Filter/$ widget on the $(italic)right-hand/$ side of the $(thing)Item Assignment/$ widget with the desired item. This item will be assigned to the variable, which you specify by $(thing)right-clicking/$ the $(thing)Item Assignment/$ widget. Only the actual item will be transferred from the filter; filter settings are not.$(p)If you omit the $(thing)Item Filter/$ widget, the drone's held item will be assigned to the variable instead.",
+   "要将物品存入指定的$(thing)变量/$中，请在$(thing)物品赋值/$组件的$(italic)右侧/$放置一个带有所需物品的$(l:programming/item_filter)物品过滤器/$组件。该物品会被赋值给该变量，而你可以通过$(thing)右击/$$(thing)物品赋值/$组件来指定这个变量。只有物品本身会从过滤器中传递过来；过滤器设置不会。$(p)如果你省略$(thing)物品过滤器/$组件，则会改为将无人机手持的物品赋值给该变量。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(italic)Item Assignment Widget/$",
+   "$(italic)物品赋值小部件/$"
+  ]
+ ]
+}

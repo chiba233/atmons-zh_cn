@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/craftingcard.json",
+ "sha1": "8a5a366e4ebf6d934d63cb5e2c5ccb749d70a298",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crafting Card",
+   "合成卡片"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Crafting Card is an item that can hold a recipe. It can be used for regular 3x3 recipes but also for more complex shapes. Various machines can use this card.$(br2)Note that stored recipes don't actually have to be valid. This card can also serve as a general way to represent 'inputs' and an 'output'",
+   "合成卡片是一种可以保存配方的物品。它可用于普通的 3x3 配方，也可用于更复杂的形状。多种机器都能使用这张卡。$(br2)注意，存储的配方实际上不一定非得有效。这张卡也可以作为表示“输入”和“输出”的通用方式。"
+  ]
+ ]
+}

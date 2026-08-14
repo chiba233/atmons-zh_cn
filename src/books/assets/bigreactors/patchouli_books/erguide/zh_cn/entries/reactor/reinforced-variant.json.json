@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/reinforced-variant.json",
+ "sha1": "77da01d033cc3c89974c2a213b482b867ba31bbf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Reinforced variant lets you build Reactors as big as you need or want, to generate and store extreme amounts of energy.$(br2)The maximum size can be configured by players, mod pack creators or server admins in the config file of Extreme Reactors (up to 256 blocks).",
+   "加固变种允许你按需建造尽可能大的反应堆，以生成和储存海量能量。$(br2)最大尺寸可以由玩家、整合包作者或服务器管理员在 Extreme Reactors 的配置文件中设置（最高可达 256 方块）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Reinforced Reactors pay they superior structural integrity by being a bit more expensive to craft and not as efficient as the other variants but nothing that their superior generation capacity can't overcome.",
+   "加固反应堆凭借更高的结构强度作为代价，合成成本会略高一些，效率也不如其他变种，但这点劣势完全可以被它更强的发电能力弥补。"
+  ]
+ ]
+}

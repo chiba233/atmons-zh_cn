@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_drill.json",
+ "sha1": "6727559151d22e1390f1a9a9861890e2fda0c0e7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Drill",
+   "无限钻头"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Drill is a tool that allows you to mine big areas, the bigger the tier the bigger the area.",
+   "无限钻头是一种可以让你一次开采大片区域的工具，等级越高，开采范围越大。"
+  ]
+ ]
+}

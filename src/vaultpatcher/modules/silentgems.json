@@ -1,0 +1,27 @@
+[
+  {
+    "name": "silentgems_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gems.item.TeleporterLinker"
+    ],
+    "pairs": [
+      {
+        "key": "Teleporters linked!",
+        "value": "传送装置已链接！"
+      },
+      {
+        "key": "Teleporter position stored!",
+        "value": "传送器坐标已保存！"
+      },
+      {
+        "key": "Could not link teleporter at ",
+        "value": "无法链接位于的传送器"
+      }
+    ]
+  }
+]

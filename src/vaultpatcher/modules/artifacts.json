@@ -1,0 +1,19 @@
+[
+  {
+    "name": "artifacts_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "artifacts.component.ability.EnchantmentLevelModifiers$Entry"
+    ],
+    "pairs": [
+      {
+        "key": "Unsupported enchantment: %s",
+        "value": "不支持的附魔：%s"
+      }
+    ]
+  }
+]

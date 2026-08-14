@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_turbine.json",
+ "sha1": "27f8a6fb9b97729d88f6fd7c2dc5288529b7df2a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Steam Turbine",
+   "蒸汽涡轮"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Perhaps you have come to the point where you have plenty of Steam but nothing to do with it? Well we can help. We offer to you the mighty Steam Turbine, a device capable of turning Steam into Electrical Power.$(br2)It's built in a 2x3x2 pattern, the same as the Crusher. Additionally it requires that a Turbine Rotor is installed to operate. A Rotor should last for several days of constant use (real-time). You can then repair the rotor by combining two rotors using the vanilla repair mechanic.",
+   "或许您已拥有大量蒸汽，却苦于无处可用？别担心，我们为您隆重推出强大的蒸汽涡轮——一种可将蒸汽转化为电力的装置。$(br2)其建造模式为2×3×2，与粉碎机相同。此外，它还需安装涡轮机转子方可运行。一枚转子可持续使用数天（现实时间）。您可通过原版修复机制，将两枚转子合成以修复损坏的转子。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Steam Turbine",
+   "蒸汽涡轮"
+  ]
+ ]
+}

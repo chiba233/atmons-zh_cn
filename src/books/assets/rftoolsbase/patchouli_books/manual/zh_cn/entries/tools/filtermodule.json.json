@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/filtermodule.json",
+ "sha1": "f220fc681eefceba6b261107049b765e14ed148a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Filter Module",
+   "存储过滤模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Filter Module is a very versatile item that can be used to whitelist or blacklist items for the machine. Various machines support this module (Builder, Modular Storage, Crafter, ...)$(br2)Blocks, items, and tags are supported. You can blacklist or whilelist and also require mathing on NBT and damage",
+   "过滤模块是一种非常多功能的物品，可用于为机器设置物品白名单或黑名单。多种机器支持该模块（建筑机、模块化存储、自动合成机，等等）。$(br2)支持方块、物品和标签。你可以设置黑名单或白名单，也可以要求匹配 NBT 和耐久值。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(5)Sneak right click$() on an inventory (like a chest) to add all items/block in that inventory to the filter.$(br)$(5)Sneak right click$() on a block in the world to add that block to the filter.$(br2)In the GUI of the filter module you can also add tags or convert a block/item to the corresponding tags",
+   "$(5)潜行右键$()点击一个容器（如箱子），可将该容器中的所有物品/方块加入过滤器。$(br)$(5)潜行右键$()点击世界中的一个方块，可将该方块加入过滤器。$(br2)在过滤模块的 GUI 中，你还可以添加标签，或将方块/物品转换为对应的标签。"
+  ]
+ ]
+}

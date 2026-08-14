@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/enchantment_sorter.json",
+ "sha1": "1f804296f2a3b5dc6ba6903b528da12e6c2d2f05",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Enchantment Sorter",
+   "附魔与非附魔物品分拣机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine will sort items that are enchanted from the ones that aren't.",
+   "这台机器会将附魔物品与未附魔物品分拣开来。"
+  ]
+ ]
+}

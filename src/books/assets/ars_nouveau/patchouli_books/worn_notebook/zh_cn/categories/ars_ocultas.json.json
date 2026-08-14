@@ -1,0 +1,13 @@
+{
+ "src": "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/categories/ars_ocultas.json",
+ "sha1": "1a6fa25de3c745c019b1bfc14b4343b5b0863cf7",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Occultism integration for Ars Nouveau. Adds compatibility and interoperability between $(thing)Occultism$() and $(thing)Ars Nouveau$() and many QoL changes.",
+   "新生魔艺的神秘学兼容附属。增加了$(thing)神秘学$()和$(thing)新生魔艺$()之间的兼容和互用内容，也进行了许多改善游玩体验的改动。"
+  ]
+ ]
+}

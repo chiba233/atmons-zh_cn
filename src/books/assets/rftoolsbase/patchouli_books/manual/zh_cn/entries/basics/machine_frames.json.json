@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/machine_frames.json",
+ "sha1": "e107182a234e45aef17bcce120e879a4d1f92743",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Machine Frames",
+   "机械框架"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Every machine or device needs some sort of housing, a $(thing)frame$(), if you will. These do nothing on their own, but are a ubiquitous crafting ingredient.",
+   "每台机器或设备都需要某种外壳，也就是一个$(thing)框架$()。它们本身没有任何作用，但却是非常常见的合成材料。"
+  ]
+ ]
+}

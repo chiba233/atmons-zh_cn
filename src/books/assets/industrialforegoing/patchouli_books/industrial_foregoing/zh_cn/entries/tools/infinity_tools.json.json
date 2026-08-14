@@ -1,0 +1,40 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_tools.json",
+ "sha1": "013a7e53e8e71d4609065367857764f7f65085fe",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Tools",
+   "无限工具"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Tools follow a simple principle, the more power they have the better they are. Increasing the tier might give the tool special perks.  Having $(l:biofuel)biofuel$() in them will make them more efficient by consuming the fuel instead of power when used. $(br2)You can $(6)Sneak+Right Click$() to open the tool GUI.",
+   "无限工具遵循一个简单原则：能量越多，效果越强。提升等级还可能赋予工具特殊能力。工具内含有 $(l:biofuel)生物燃料$() 时，使用时会消耗燃料而非能量，从而提升效率。$(br2)你可以通过 $(6)潜行右击$() 打开工具 GUI。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You can disable the $(6)charging$() of the tool by disabling charging in the tool GUI. $(br2)There are 7 tiers: $(li)Poor$(li)Common$(li)Uncommon$(li)Rare$(li)Epic$(li)Legendary$(li)Artifact $(br2) All tools will teleport the drops to the player.",
+   "你可以在工具 GUI 中禁用充能功能，从而关闭工具的 $(6)充电$()。$(br2)共分为 7 个等级：$(li)差$(li)普通$(li)罕见$(li)稀有$(li)史诗$(li)传说$(li)神器 $(br2) 所有工具都会将掉落物传送给玩家。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You can get special $(6)Shiny$() version of the tool by becoming a patreon. It will give you visual rewards! ",
+   "成为 Patreon 支持者后，你可以获得该工具的特殊 $(6)闪亮$() 版本。它会带来视觉奖励！"
+  ]
+ ]
+}

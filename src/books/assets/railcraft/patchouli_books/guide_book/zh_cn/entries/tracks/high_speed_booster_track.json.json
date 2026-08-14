@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/high_speed_booster_track.json",
+ "sha1": "ac7491b51c6054f29a6eb6080ac164ae74dd2bd0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "H.S. Booster Track",
+   "高速推进轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "These rails will boost the cart to high speed when powered or slow them to and maintain normal minecart speed if they are not.$(br2)You need either these or H.S. Transition Tracks to reach the maximum speed allowed by High Speed Tracks.",
+   "此类铁轨在充能时可将矿车加速至高速，未充能时则使其减速并维持普通矿车速度。$(br2)您需使用此类轨道或高速过渡轨道，才能达到高速轨道所允许的最高速度。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/categories/tools.json",
+ "sha1": "b71f0d06e09ca193cbcae7a8a55495655becdec7",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Railcraft adds a number of different tools to the game, learn about them here.",
+   "铁路模组为游戏添加了多种不同的工具，你可在此了解它们。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tools",
+   "工具"
+  ]
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-mekanismfluidport.json",
+ "sha1": "c118770e217bbb57d8b6c5fa4356b6eaac0b81c9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mekanism Fluid Port",
+   "Mekanism 流体端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Mekanism Fluid Port allows you to extract vapor from an $(l:bigreactors:reactor/active)actively cooled$(/l) Reactor as a Mekanism Gas.$(br2)This Port automatically converts the vapor into a gas if a Mekanism Rotary recipe exists for the fluid stored inside the Reactor. The conversion rate as defined by the Rotary recipe is respected.",
+   "Mekanism 流体端口允许你将$(l:bigreactors:reactor/active)主动冷却$(/l)反应堆中的蒸汽以通用机械气体的形式提取出来。$(br2)如果反应堆中储存的流体存在对应的 Mekanism Rotary 配方，该端口会自动将蒸汽转换为气体。转换速率会遵循 Rotary 配方中定义的数值。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Mekanism Fluid Port",
+   "Mekanism 流体端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Reinforced (Passive)",
+   "强化（被动）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()强化$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

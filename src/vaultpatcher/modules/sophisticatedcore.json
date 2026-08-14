@@ -1,0 +1,30 @@
+[
+  {
+    "name": "sophisticatedcore_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.p3pp3rf1y.sophisticatedcore.client.gui.controls.LargeResultSelector"
+    ],
+    "pairs": [
+      {
+        "key": "Filter outputs by name",
+        "value": "按名称筛选输出"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.p3pp3rf1y.sophisticatedcore.client.gui.controls.LargeResultSelector$ResultSearchBox"
+    ],
+    "pairs": [
+      {
+        "key": "Search",
+        "value": "搜索"
+      }
+    ]
+  }
+]

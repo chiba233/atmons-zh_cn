@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsutility.json",
+ "sha1": "5c627b390360b6553aeafb7069fb8760873417a0",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "RFTools Utility is a mod containing various useful blocks and tools",
+   "RF工具：实用设备是一个包含各种实用方块和工具的模组"
+  ],
+  [
+   [
+    "name"
+   ],
+   "RFTools Utility",
+   "RF工具丨实用设备"
+  ]
+ ]
+}

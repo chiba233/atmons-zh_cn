@@ -1,0 +1,101 @@
+[
+  {
+    "name": "rftoolspower_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolspower.modules.dimensionalcell.client.GuiDimensionalCell"
+    ],
+    "pairs": [
+      {
+        "key": "None",
+        "value": "无"
+      },
+      {
+        "key": "Stats",
+        "value": "统计信息"
+      },
+      {
+        "key": "Set all sides to 'none'",
+        "value": "已将所有面设为“none”"
+      },
+      {
+        "key": "Set all sides to",
+        "value": "已将所有面设为"
+      },
+      {
+        "key": "accept energy",
+        "value": "接收能量"
+      },
+      {
+        "key": "send energy",
+        "value": "发送能量"
+      },
+      {
+        "key": "Power statistics. Press to clear:",
+        "value": "能量统计。按下以清除："
+      },
+      {
+        "key": "Link a powercard to card",
+        "value": "将能量卡链接到卡片"
+      },
+      {
+        "key": "on the left",
+        "value": "在左侧"
+      },
+      {
+        "key": "Inserted: ",
+        "value": "已插入："
+      },
+      {
+        "key": "Extracted: ",
+        "value": "已提取："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolspower.modules.endergenic.data.EnderMonitorMode"
+    ],
+    "pairs": [
+      {
+        "key": "Lost Pearl",
+        "value": "丢失末影珍珠"
+      },
+      {
+        "key": "Pearl Fired",
+        "value": "发射末影珍珠"
+      },
+      {
+        "key": "Pearl Arrived",
+        "value": "接收末影珍珠"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolspower.modules.monitor.client.GuiPowerMonitor"
+    ],
+    "pairs": [
+      {
+        "key": "Min:",
+        "value": "最小："
+      },
+      {
+        "key": "Max:",
+        "value": "最大："
+      },
+      {
+        "key": "Minimum level",
+        "value": "最低等级"
+      },
+      {
+        "key": "Maximum level",
+        "value": "等级上限"
+      }
+    ]
+  }
+]

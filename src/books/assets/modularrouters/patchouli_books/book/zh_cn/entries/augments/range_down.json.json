@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/range_down.json",
+ "sha1": "bd22d76f93df42869ad61621937f9809eba91a55",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Range Down Augment",
+   "范围降级拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can be added to any module which has a range (Sender $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Puller $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Extruder $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Fluid Mk2/$, $(l:modules/vacuum)Vacuum/$).$(p)It can be stacked; each augment will reduce the range of the module by one block.$(p)This is probably only useful in conjunction with the $(l:modules/vacuum)Vacuum Module/$, to control the range it scans for items.",
+   "这个增强件可以添加到任何具有范围的模块中（发送模块 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$，抽取模块 Mk1 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$，造桥模块 $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$，$(l:modules/fluid_2)流体 Mk2/$，$(l:modules/vacuum)虚空模块/$）。$(p)它可以叠加；每个增强件会使模块范围减少 1 格。$(p)它大概只会在配合$(l:modules/vacuum)虚空模块/$时比较有用，用来控制其扫描物品的范围。"
+  ]
+ ]
+}

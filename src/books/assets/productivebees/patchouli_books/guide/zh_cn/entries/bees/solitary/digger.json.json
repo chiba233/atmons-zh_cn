@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/digger.json",
+ "sha1": "0a2b27266c7d774c31b4bc2514a6aa7df9e46bdc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Digger Bee",
+   "挖掘者蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Anthophora urbana]",
+   "[安托福拉·乌尔巴纳]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Digger Bee",
+   "挖掘者蜜蜂"
+  ]
+ ]
+}

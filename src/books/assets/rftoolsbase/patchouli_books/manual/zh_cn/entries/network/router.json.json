@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/network/router.json",
+ "sha1": "d94c4909c7eb79b404ca4fe7fe8095270bc60a45",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Router",
+   "路由器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Router connects multiple XNet controller networks. Attach it to a routing cable network, then publish or consume channels from the linked controllers.",
+   "路由器用于连接多个XNet控制器网络。将其接入路由网络线缆后，即可从已连接控制器中发布或订阅频道。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Use routing cables and routing connectors for the router network. Normal colored cables stay local to one controller network.",
+   "请使用路由网络线缆与路由连接器搭建路由器网络。普通彩色线缆仅限单个控制器网络内部使用。"
+  ]
+ ]
+}

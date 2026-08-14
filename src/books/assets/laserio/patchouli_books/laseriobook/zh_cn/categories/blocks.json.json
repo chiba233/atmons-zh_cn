@@ -1,0 +1,20 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/categories/blocks.json",
+ "sha1": "57450afdc10948e61929a3f5388c295d107d6b02",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "These are the blocks!",
+   "这就是所有的方块了！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Blocks",
+   "方块"
+  ]
+ ]
+}

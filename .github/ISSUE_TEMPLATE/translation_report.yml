@@ -1,0 +1,61 @@
+name: 📖 漏译或错译 / Missing or wrong translation
+description: 还有英文没翻译，或译文不对、不通顺 / Untranslated English text, or an incorrect translation
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！Thanks!
+        一张截图 + 具体位置就能修得很快。One screenshot plus where you saw it makes fixes fast.
+  - type: textarea
+    id: where
+    attributes:
+      label: 在哪里看到的？ / Where did you see it?
+      description: 哪个 mod、哪个物品或界面？ / Which mod, item, or GUI?
+      placeholder: 例如：RFTools 建造机 GUI 右上角按钮 tooltip；或 JEI 里搜索「Supply Cache」
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: 原文与建议译文 / Original text and suggested translation
+      description: 贴出还是英文的原文；有建议译文更好。 / Paste the English text; a suggested translation helps.
+      placeholder: |
+        原文：Whitelist items
+        建议：白名单物品
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图 / Screenshot
+      description: 直接拖拽图片到此处。 / Drag and drop the image here.
+    validations:
+      required: false
+  - type: input
+    id: pack-version
+    attributes:
+      label: 汉化补丁版本 / Patch version
+      placeholder: 例如 v7.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: 游戏环境 / Environment
+      description: 部分文本（如蜜蜂基因）单机与服务器表现不同，这条信息很关键。 / Some text renders differently in single-player vs. servers.
+      options:
+        - 单机 / Single-player
+        - 服务器 / Multiplayer server
+        - 都会出现 / Both
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认 / Before submitting
+      options:
+        - label: 我搜过现有 issue，没有重复。 / I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: 我确认资源包「ATM10汉化包-7.2」已在游戏内启用。 / The resource pack is enabled in-game.
+          required: true

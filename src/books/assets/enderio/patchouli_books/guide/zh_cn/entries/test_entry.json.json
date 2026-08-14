@@ -1,0 +1,22 @@
+{
+ "src": "assets/enderio/patchouli_books/guide/en_us/entries/test_entry.json",
+ "sha1": "78b0bd731074e06aae5ab0842a1335ca505ad46d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Test Entry",
+   "测试条目"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a test entry, but it should show up!",
+   "这是一个测试条目，但它应该会显示出来！"
+  ]
+ ]
+}

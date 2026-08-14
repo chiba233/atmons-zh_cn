@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/blue_banded.json",
+ "sha1": "ea1efa7904664084083ea6d4000cd55684999444",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Blue Banded Bee",
+   "蓝色条纹蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Amegilla cingulata]",
+   "[环带无刺蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Blue Banded Bee",
+   "蓝色条纹蜜蜂"
+  ]
+ ]
+}

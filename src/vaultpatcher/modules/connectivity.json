@@ -1,0 +1,74 @@
+[
+  {
+    "name": "connectivity_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.connectivity.command.IMCOPCommand"
+    ],
+    "pairs": [
+      {
+        "key": "You need to be OP for this command.",
+        "value": "你需要是 OP 才能使用此命令。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.connectivity.networkstats.NetworkStatGatherer"
+    ],
+    "pairs": [
+      {
+        "key": "next --->",
+        "value": "下一页 --->"
+      },
+      {
+        "key": "Player not found",
+        "value": "未找到玩家"
+      },
+      {
+        "key": "Invalid name",
+        "value": "无效名称"
+      },
+      {
+        "key": "Network players summary of last ",
+        "value": "最近的网络玩家摘要 "
+      },
+      {
+        "key": "total sent: ",
+        "value": "总发送量："
+      },
+      {
+        "key": "Network packet summary of last ",
+        "value": "最近的网络数据包摘要 "
+      },
+      {
+        "key": "Total kb:",
+        "value": "总计 kb："
+      },
+      {
+        "key": "Network packet summary for ",
+        "value": "网络数据包摘要："
+      },
+      {
+        "key": "Network outgoing packet summary of last ",
+        "value": "最近的网络传出数据包摘要 "
+      },
+      {
+        "key": "Printing biggest packets fitting ",
+        "value": "正在打印符合以下条件的最大数据包 "
+      },
+      {
+        "key": "Printed: ",
+        "value": "已打印："
+      },
+      {
+        "key": "Print triggered by command",
+        "value": "由命令触发的打印"
+      }
+    ]
+  }
+]

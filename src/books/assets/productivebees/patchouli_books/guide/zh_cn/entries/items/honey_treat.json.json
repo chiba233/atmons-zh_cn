@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/items/honey_treat.json",
+ "sha1": "1e97583df865559686978a2212ad6e12bb9a37b7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Honey Treat",
+   "蜜蜂小食"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Honey treats can be fed to angry bees to calm them down. Feeding them to baby bees will make them grow up faster.$(br2)Honey treats can also bee combined with genes to transfer genetics from one bee to another. Read more on the $(l:genetics/transferring)genetics page$(/l)",
+   "蜜蜂小食可以喂给愤怒的蜜蜂，让它们冷静下来。喂给幼蜂则能让它们更快长大。$(br2)蜜蜂小食还可以与基因结合，用于在蜜蜂之间转移遗传特性。更多内容请阅读$(l:genetics/transferring)基因工程页面$(/l)"
+  ]
+ ]
+}

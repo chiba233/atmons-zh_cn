@@ -1,0 +1,20 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/categories/dimensions.json",
+ "sha1": "1485309f3468e9f7c30a1f320b9d04ad4af41ec1",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This will show you information about the different dimensions",
+   "这将为你展示有关不同维度的信息"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Dimensions",
+   "维度"
+  ]
+ ]
+}

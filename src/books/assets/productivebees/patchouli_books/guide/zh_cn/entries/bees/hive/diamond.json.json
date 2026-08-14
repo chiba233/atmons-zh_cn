@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/diamond.json",
+ "sha1": "645f174523223ce2b12286f976a652fc4344e72c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Diamond Bee",
+   "钻石蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from an $(l:bees/wild/ender)Ender Bee$(/l) and a $(l:bees/hive/lapis)Lapis Bee$(/l).",
+   "由一只$(l:bees/wild/ender)末影蜜蜂$(/l)和一只$(l:bees/hive/lapis)青金石蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Diamond Bee",
+   "钻石蜜蜂"
+  ]
+ ]
+}

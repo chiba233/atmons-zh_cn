@@ -1,0 +1,40 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/moderators.json",
+ "sha1": "721f96f9ecf601319bc733d9eafcf103c2d9573f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Moderators",
+   "调节棒"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A radiation moderator is a block or fluid that can be placed inside the Reactor to absorb part of the radiation emitted by the fuel and $(l:bigreactors/innerworking)move heat$(/l) away from the $(l:bigreactors/part-fuelrod)Fuel Rods$(/l).$(br2)A particular moderator could convert radiation to heat more or less efficiently than another one, or could absorb more radiation than others, or it could conduct heat way better than its companions.",
+   "辐射慢化剂是一种可以放置在反应堆内部的方块或流体，用来吸收燃料释放出的部分辐射，并将$(l:bigreactors/innerworking)热量带走$(/l)，使其远离$(l:bigreactors/part-fuelrod)燃料棒$(/l)。$(br2)某种慢化剂将辐射转化为热量的效率可能高于或低于另一种，也可能比其他慢化剂吸收更多辐射，或者拥有远胜同伴的导热能力。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Or it could be dirty cheap but extremely inefficient all around. Like air, for example: it works, but barely.$(br2)Usually, a rare block/fluid or one particularly expensive to craft has better stats than a common or cheap one.$(br2)Extreme Reactors register, by default, a score of vanilla and modded blocks/fluids as moderators.$(br)Other mods or mod packs can add their own moderators or modify/remove the default ones.",
+   "或者它也可能非常便宜，但整体效率极低。比如空气：它能用，但也只是勉强能用。$(br2)通常来说，稀有的方块/流体，或是合成成本特别高的方块/流体，其属性会优于常见或廉价的那些。$(br2)Extreme Reactors 默认会将一批原版和模组方块/流体注册为慢化剂。$(br)其他模组或整合包也可以添加自己的慢化剂，或修改/移除默认慢化剂。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Only valid moderators can be placed inside the Reactors. Invalid moderators will prevent the Reactor multiblock from forming.$(br2)Blocks and fluids (check the bucket) that can be used as moderators are marked with a special tooltip that you can see if you want to spoil yourself, and you have enabled the $(italic)Advanced Tooltips$() feature of Minecraft (F3 + H).",
+   "只有有效的慢化剂才能放置在反应堆内部。无效的慢化剂会阻止反应堆多方块结构成型。$(br2)可作为慢化剂使用的方块和流体（查看它们的桶）会带有一个特殊提示文本；如果你想提前剧透一下，并且已经启用了 Minecraft 的$(italic)显示高级提示框$()功能（F3 + H），就能看到它。"
+  ]
+ ]
+}

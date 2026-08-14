@@ -1,0 +1,23 @@
+[
+  {
+    "name": "framedblocks_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "xfacthd.framedblocks.client.util.KeyMappings"
+    ],
+    "pairs": [
+      {
+        "key": "Culling updated for '",
+        "value": "已更新 ' 的剔除"
+      },
+      {
+        "key": "Model cache cleared",
+        "value": "模型缓存已清除"
+      }
+    ]
+  }
+]

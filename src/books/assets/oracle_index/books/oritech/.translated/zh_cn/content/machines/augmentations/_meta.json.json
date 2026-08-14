@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/augmentations/_meta.json",
+ "sha1": "1fa6456f66149a28c5203f0ea55992eb501ce7f0",
+ "t": [
+  [
+   [
+    "advanced_augment_station.mdx"
+   ],
+   "Quantum Research Station",
+   "量子研究站"
+  ],
+  [
+   [
+    "arcane_augment_station.mdx"
+   ],
+   "Arcane Research Station",
+   "奥术研究站"
+  ],
+  [
+   [
+    "augment_application_block.mdx"
+   ],
+   "Cybernetic Augmentation Center",
+   "赛博改造中心"
+  ],
+  [
+   [
+    "simple_augment_station.mdx"
+   ],
+   "Basic Research Station",
+   "基础研究站"
+  ]
+ ]
+}

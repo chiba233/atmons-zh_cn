@@ -1,0 +1,20 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/agriculture_husbandry.json",
+ "sha1": "bb30bc51566fd6f8307809d7baae49342fe2a8a3",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Moo it and plant it",
+   "让它哞哞叫，再把它种下去"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Agriculture and Husbrandry",
+   "农业与畜牧业"
+  ]
+ ]
+}

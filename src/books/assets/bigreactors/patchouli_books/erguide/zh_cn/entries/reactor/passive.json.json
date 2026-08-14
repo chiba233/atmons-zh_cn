@@ -1,0 +1,22 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/passive.json",
+ "sha1": "77851cab111aeb5267b9ab81061c8ad294b601c2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Passive Cooling",
+   "被动冷却"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A passively cooled Reactor is a Reactor that $(l:bigreactors:reactor/innerworking)generates energy$(/l) directly and that does not use an external medium to dissipate it's internal heat.$(br2)The $(l:bigreactors:intro/first)first Reactor$(/l) described in the early pages of this book is a Reactor operating in Passive Cooling mode.",
+   "被动冷却反应堆是一种$(l:bigreactors:reactor/innerworking)直接产生能量$(/l)的反应堆，它不依赖外部介质来散发内部热量。$(br2)本书前几页中介绍的$(l:bigreactors:intro/first)第一种反应堆$(/l)，就是以被动冷却模式运行的反应堆。"
+  ]
+ ]
+}

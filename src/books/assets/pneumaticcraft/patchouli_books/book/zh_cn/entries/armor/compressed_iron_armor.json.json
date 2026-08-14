@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/armor/compressed_iron_armor.json",
+ "sha1": "0ae38381cb391825d5ba798013f564381d4a3c23",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Compressed Iron Armor",
+   "压缩铁盔甲"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Compressed Iron Armor/$ is an early-game armor set which is slightly better than the equivalent $(item)Iron Armor/$ pieces; slightly higher toughness and durability, and partial knockback resistance. It can be repaired in an $(item)Anvil/$ with $(item)Compressed Iron Ingots/$.",
+   "$(item)压缩铁盔甲/$是一套前期可用的护甲，其属性比对应的$(item)铁护甲/$部件略好一些：拥有略高的韧性和耐久度，以及部分击退抗性。它可以在$(item)铁砧/$中使用$(item)压缩铁锭/$进行修复。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/breeding_chamber.json",
+ "sha1": "e18bc7f6593048e934f66a07d2d6343defa7c51e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Breeding Chamber",
+   "繁殖箱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "In this machine you can breed bees in a safe environment. Supply the machine with the two parent bees, their respective breeding items as well as power and empty cages for the offspring. You can speed up the process with speed upgrades.",
+   "在这台机器中，你可以在安全的环境下繁殖蜜蜂。向机器提供两只亲代蜜蜂、它们各自所需的繁殖物品、电力以及用于装幼蜂的空蜂笼。你还可以使用升级：速度来加快流程。"
+  ]
+ ]
+}

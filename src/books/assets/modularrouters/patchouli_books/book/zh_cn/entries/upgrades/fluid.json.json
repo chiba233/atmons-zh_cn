@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/fluid.json",
+ "sha1": "f555c9d1d3c3968788327dfa88521e3b158a9766",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Transfer Upgrade",
+   "流体传输升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade only affects the $(l:modules/fluid)Fluid Module Mk1/$ and $(l:modules/fluid_2)Fluid Module Mk2/$.$(p)It increases the overall fluid transfer rate of the $(l:router/modular_router)Router/$ (in each direction; in & out of the router) from the base rate of 50mB/tick by 10mB/tick, up to a maximum of 400mB/tick. Therefore the maximum number of Fluid Transfer Upgrades in a router is 35.",
+   "这个升级只影响$(l:modules/fluid)流体模块 Mk1/$和$(l:modules/fluid_2)流体模块 Mk2/$。$(p)它会将$(l:router/modular_router)路由器/$的整体流体传输速率（双向；流入和流出路由器）从基础的 50mB/tick 提高到每次增加 10mB/tick，最高可达 400mB/tick。因此，一台路由器中最多可安装 35 个流体传输升级。"
+  ]
+ ]
+}

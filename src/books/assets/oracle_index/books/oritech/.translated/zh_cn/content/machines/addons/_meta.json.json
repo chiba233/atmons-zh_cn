@@ -1,0 +1,139 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/addons/_meta.json",
+ "sha1": "f54eba353c19c93d1191525d5bff417eee63a1ae",
+ "t": [
+  [
+   [
+    "capacitor_addon_extender.mdx"
+   ],
+   "Power Bank Addon Extender",
+   "储能扩展坞"
+  ],
+  [
+   [
+    "crop_filter_addon.mdx"
+   ],
+   "Crop Filter Addon",
+   "作物过滤器插件"
+  ],
+  [
+   [
+    "machine_acceptor_addon.mdx"
+   ],
+   "Acceptor Addon",
+   "机器适配器插件"
+  ],
+  [
+   [
+    "machine_burst_addon.mdx"
+   ],
+   "Burst Addon",
+   "脉冲超频插件"
+  ],
+  [
+   [
+    "machine_capacitor_addon.mdx"
+   ],
+   "Capacitor Addon",
+   "机器容量插件"
+  ],
+  [
+   [
+    "machine_combi_addon.mdx"
+   ],
+   "Heart of the Machine",
+   "机器之心"
+  ],
+  [
+   [
+    "machine_efficiency_addon.mdx"
+   ],
+   "Efficiency Addon",
+   "效率升级插件"
+  ],
+  [
+   [
+    "machine_extender.mdx"
+   ],
+   "Machine Addon Extender",
+   "机器扩展坞"
+  ],
+  [
+   [
+    "machine_fluid_addon.mdx"
+   ],
+   "Fluid Addon",
+   "流体处理插件"
+  ],
+  [
+   [
+    "machine_hunter_addon.mdx"
+   ],
+   "Hunter Addon",
+   "生物校位插件"
+  ],
+  [
+   [
+    "machine_inventory_proxy_addon.mdx"
+   ],
+   "Inventory Proxy Addon",
+   "物品栏代理插件"
+  ],
+  [
+   [
+    "machine_processing_addon.mdx"
+   ],
+   "Auxiliary Processing Chamber Addon",
+   "辅助加工室插件"
+  ],
+  [
+   [
+    "machine_redstone_addon.mdx"
+   ],
+   "Control Unit Addon",
+   "控制单元插件"
+  ],
+  [
+   [
+    "machine_silk_touch_addon.mdx"
+   ],
+   "Silk Touch Addon",
+   "精准采集插件"
+  ],
+  [
+   [
+    "machine_speed_addon.mdx"
+   ],
+   "Speed Addon",
+   "速度升级插件"
+  ],
+  [
+   [
+    "machine_ultimate_addon.mdx"
+   ],
+   "Synergy Matrix Addon",
+   "协同矩阵插件"
+  ],
+  [
+   [
+    "machine_yield_addon.mdx"
+   ],
+   "Yield Addon",
+   "产量升级插件"
+  ],
+  [
+   [
+    "quarry_addon.mdx"
+   ],
+   "Quarry Addon",
+   "矿场插件"
+  ],
+  [
+   [
+    "steam_boiler_addon.mdx"
+   ],
+   "Steam Boiler Addon",
+   "蒸汽锅炉插件"
+  ]
+ ]
+}

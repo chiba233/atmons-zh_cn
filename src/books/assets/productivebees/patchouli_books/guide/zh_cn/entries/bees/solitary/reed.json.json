@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/reed.json",
+ "sha1": "921bf774316d352559e837e3987c92e8884e2900",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reed Bee",
+   "芦苇蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Exoneura robusta]",
+   "[粗壮外巢蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Reed Bee",
+   "芦苇蜜蜂"
+  ]
+ ]
+}

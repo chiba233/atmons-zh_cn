@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_coordinate.json",
+ "sha1": "2c19fae9642b18ec932de4c9e93a7e542055b043",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Condition: Coordinate Widget",
+   "条件：坐标部件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Condition: Coordinate/$ widget compares two $(l:programming/coordinate)Coordinates/$. Different tests can be done on these coordinates, and more specifically on every axis (X/Y/Z) of the coordinate. You can check if just one axis of both coordinates matches, or two, or all three.",
+   "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：坐标/$组件会比较两个$(l:programming/coordinate)坐标/$。你可以对这些坐标进行不同的测试，更具体地说，还可以分别对坐标的每个轴（X/Y/Z）进行测试。你可以检查两组坐标中是否只有一个轴相同，或两个轴相同，或三个轴全部相同。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The axis or axes being compared are defined by the checkboxes in the widget's GUI. Similarly, the condition to use ('=', '>=') is defined by the radio buttons in the GUI.$(p)Your coordinate comparison is also displayed textually in the GUI (e.g. $(thing)x1 <= x2 and z1 <= z2/$).",
+   "要比较的坐标轴由该组件 GUI 中的复选框定义。同样，要使用的条件（“=”、\">=\"）也由 GUI 中的单选按钮定义。$(p)你的坐标比较结果也会在 GUI 中以文字形式显示出来（例如：$(thing)x1 <= x2 and z1 <= z2/$）。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(italic)Condition: Coordinate Widget/$",
+   "$(italic)条件：坐标控件/$"
+  ]
+ ]
+}

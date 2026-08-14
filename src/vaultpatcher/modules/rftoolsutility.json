@@ -1,0 +1,691 @@
+[
+  {
+    "name": "rftoolsutility_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.crafter.client.GuiCrafter"
+    ],
+    "pairs": [
+      {
+        "key": "Double click to edit this recipe",
+        "value": "双击以编辑此配方"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.logic.tools.AreaType"
+    ],
+    "pairs": [
+      {
+        "key": "Area 1",
+        "value": "范围 1"
+      },
+      {
+        "key": "Area 3",
+        "value": "范围 3"
+      },
+      {
+        "key": "Area 5",
+        "value": "范围 5"
+      },
+      {
+        "key": "Area 3x3",
+        "value": "范围 3x3"
+      },
+      {
+        "key": "Area 5x5",
+        "value": "范围 5x5"
+      },
+      {
+        "key": "Area 7x7",
+        "value": "范围 7x7"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.client.GuiScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Font:",
+        "value": "字体："
+      },
+      {
+        "key": "Default",
+        "value": "默认"
+      },
+      {
+        "key": "Open the gui for this",
+        "value": "打开这个的 GUI"
+      },
+      {
+        "key": "Toggle full brightness",
+        "value": "切换全亮"
+      },
+      {
+        "key": "Vanilla",
+        "value": "原版"
+      },
+      {
+        "key": "Set truetype font mode",
+        "value": "设置 TrueType 字体模式"
+      },
+      {
+        "key": "for the screen",
+        "value": "用于屏幕"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.client.GuiScreenController"
+    ],
+    "pairs": [
+      {
+        "key": "Scan",
+        "value": "扫描"
+      },
+      {
+        "key": "Detach",
+        "value": "分离"
+      },
+      {
+        "key": "Find all nearby screens",
+        "value": "查找附近的所有屏幕"
+      },
+      {
+        "key": "and connect to them",
+        "value": "并连接到它们"
+      },
+      {
+        "key": "Detach from all screens",
+        "value": "与所有屏幕断开连接"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.client.GuiTabletScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Title",
+        "value": "标题"
+      },
+      {
+        "key": "Invalid tile entity!",
+        "value": "无效的 TileEntity！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.ScreenLinkItem"
+    ],
+    "pairs": [
+      {
+        "key": "Screen link is cleared",
+        "value": "屏幕链接已清除"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.CounterModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Counter module is cleared",
+        "value": "计数器模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Color for the label",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Color for the counter",
+        "value": "计数器的颜色"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.EnergyModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Energy module is cleared",
+        "value": "能量模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Color for the label",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Color for the RF text",
+        "value": "RF 文本的颜色"
+      },
+      {
+        "key": "Color for the negative",
+        "value": "负色的颜色"
+      },
+      {
+        "key": "RF/tick ratio",
+        "value": "RF/tick比率"
+      },
+      {
+        "key": "Toggle visibility of the",
+        "value": "切换以下内容的可见性"
+      },
+      {
+        "key": "energy bar",
+        "value": "能量条"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.FluidModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Fluid module is cleared",
+        "value": "流体模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Color for the label",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Color for the mb text",
+        "value": "mb 文本颜色"
+      },
+      {
+        "key": "Color for the negative",
+        "value": "负色的颜色"
+      },
+      {
+        "key": "mb/tick ratio",
+        "value": "mB/刻比值"
+      },
+      {
+        "key": "Toggle visibility of the",
+        "value": "切换以下内容的可见性"
+      },
+      {
+        "key": "fluid bar",
+        "value": "流体条"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.InventoryModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Inventory module is cleared",
+        "value": "库存模块已清除"
+      },
+      {
+        "key": "Slot index to show",
+        "value": "要显示的槽位索引"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.MachineInformationModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Machine Information module is cleared",
+        "value": "机器信息模块已清除"
+      },
+      {
+        "key": "Color for the label",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Color for the text",
+        "value": "文本颜色"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.modules.RedstoneModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Redstone module is cleared",
+        "value": "红石模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Color for the label",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Positive text",
+        "value": "正面文本"
+      },
+      {
+        "key": "Color for the positive text",
+        "value": "正向文本的颜色"
+      },
+      {
+        "key": "Negative text",
+        "value": "负面文本"
+      },
+      {
+        "key": "Color for the negative text",
+        "value": "负面文本的颜色"
+      },
+      {
+        "key": "Whether to show the exact level",
+        "value": "是否显示确切等级"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.modulesclient.helper.ScreenModuleGuiBuilder"
+    ],
+    "pairs": [
+      {
+        "key": "None",
+        "value": "无"
+      },
+      {
+        "key": "Full format: 3123555",
+        "value": "完整格式：3123555"
+      },
+      {
+        "key": "Compact format: 3.1M",
+        "value": "紧凑格式：3.1M"
+      },
+      {
+        "key": "Comma format: 3,123,555",
+        "value": "逗号格式：3,123,555"
+      },
+      {
+        "key": "No text is shown",
+        "value": "不显示文本"
+      },
+      {
+        "key": "Show the amount of ",
+        "value": "显示……的数量"
+      },
+      {
+        "key": "Show the average ",
+        "value": "显示平均值 "
+      },
+      {
+        "key": "gain or loss",
+        "value": "增益或损失"
+      },
+      {
+        "key": "as a percentage",
+        "value": "以百分比表示"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.TeleportationTools"
+    ],
+    "pairs": [
+      {
+        "key": "Something went wrong with the destination!",
+        "value": "目标出现问题了！"
+      },
+      {
+        "key": "The matter receiver has no power!",
+        "value": "物质接收器没有电力！"
+      },
+      {
+        "key": "The matter receiver has run out of power!",
+        "value": "物质接收器已经耗尽能量！"
+      },
+      {
+        "key": "The matter receiver is getting very low on power!",
+        "value": "物质接收器的电力快要耗尽了！"
+      },
+      {
+        "key": "The matter receiver is getting low on power!",
+        "value": "物质接收器的电量快耗尽了！"
+      },
+      {
+        "key": "Teleportation in the same dimension is not allowed!",
+        "value": "不允许在同一维度内传送！"
+      },
+      {
+        "key": "Teleportation to that dimension is not allowed!",
+        "value": "不允许传送到该维度！"
+      },
+      {
+        "key": "Teleportation from this dimension is not allowed!",
+        "value": "不允许从这个维度传送！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.blocks.SimpleDialerBlock"
+    ],
+    "pairs": [
+      {
+        "key": "Once mode enabled",
+        "value": "启用单次模式"
+      },
+      {
+        "key": "Enabled 'dial once' mode",
+        "value": "已启用“单次拨号”模式"
+      },
+      {
+        "key": "Disabled 'dial once' mode",
+        "value": "已禁用“拨号一次”模式"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiDialingDevice"
+    ],
+    "pairs": [
+      {
+        "key": "Dial",
+        "value": "拨号"
+      },
+      {
+        "key": "Dial once",
+        "value": "拨号一次"
+      },
+      {
+        "key": "Interrupt",
+        "value": "中断"
+      },
+      {
+        "key": "Check",
+        "value": "检查"
+      },
+      {
+        "key": "Receiver is too far to hilight!",
+        "value": "接收器距离太远，无法高亮显示！"
+      },
+      {
+        "key": "The receiver is now highlighted",
+        "value": "接收器现已高亮显示"
+      },
+      {
+        "key": "Dialing device power low!",
+        "value": "拨号设备能量不足！"
+      },
+      {
+        "key": "Matter receiver power low!",
+        "value": "物质接收器能量不足！"
+      },
+      {
+        "key": "Destination dimension power low!",
+        "value": "目标维度能量不足！"
+      },
+      {
+        "key": "No access to transmitter!",
+        "value": "无法访问发送器！"
+      },
+      {
+        "key": "No access to receiver!",
+        "value": "无法访问接收器！"
+      },
+      {
+        "key": "Invalid destination!",
+        "value": "无效目标！"
+      },
+      {
+        "key": "Invalid source!",
+        "value": "无效来源！"
+      },
+      {
+        "key": "Receiver blocked!",
+        "value": "接收器被阻挡！"
+      },
+      {
+        "key": "Transmitter blocked!",
+        "value": "发射器被阻挡！"
+      },
+      {
+        "key": "Invalid transmitter!!",
+        "value": "无效的发送器！！"
+      },
+      {
+        "key": "Interrupted!",
+        "value": "已中断！"
+      },
+      {
+        "key": "Dial ok!",
+        "value": "拨号成功！"
+      },
+      {
+        "key": "Start a connection between",
+        "value": "开始在……之间建立连接"
+      },
+      {
+        "key": "the selected transmitter",
+        "value": "所选发送器"
+      },
+      {
+        "key": "and the selected receiver",
+        "value": "以及所选接收器"
+      },
+      {
+        "key": "Dial a connection for a",
+        "value": "为一个拨号连接"
+      },
+      {
+        "key": "single teleport",
+        "value": "单次传送"
+      },
+      {
+        "key": "Interrupt a connection",
+        "value": "中断连接"
+      },
+      {
+        "key": "for the selected transmitter",
+        "value": "用于所选传输器"
+      },
+      {
+        "key": "Check the status of",
+        "value": "检查其状态"
+      },
+      {
+        "key": "the selected receiver",
+        "value": "所选接收器"
+      },
+      {
+        "key": "(needs an adjacent analyzer!)",
+        "value": "（需要一个相邻的分析器！）"
+      },
+      {
+        "key": "The name of the",
+        "value": "……的名称"
+      },
+      {
+        "key": "destination receiver:",
+        "value": "目标接收器："
+      },
+      {
+        "key": "destination dimension:",
+        "value": "目标维度："
+      },
+      {
+        "key": "and the selected receiver.",
+        "value": "以及所选接收器。"
+      },
+      {
+        "key": "Distance: ",
+        "value": "距离："
+      },
+      {
+        "key": "single teleport.",
+        "value": "单次传送。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterReceiver"
+    ],
+    "pairs": [
+      {
+        "key": "Access:",
+        "value": "访问："
+      },
+      {
+        "key": "Use this name to",
+        "value": "使用此名称来"
+      },
+      {
+        "key": "identify this receiver",
+        "value": "识别这个接收器"
+      },
+      {
+        "key": "in the dialer",
+        "value": "在拨号器中"
+      },
+      {
+        "key": "Everyone can dial to this receiver",
+        "value": "所有人都可以拨号到这个接收器"
+      },
+      {
+        "key": "Only people in the access list below",
+        "value": "只有下方访问列表中的人"
+      },
+      {
+        "key": "can dial to this receiver",
+        "value": "可拨号至此接收器"
+      },
+      {
+        "key": "Add a player to the access list",
+        "value": "将一名玩家添加到访问列表"
+      },
+      {
+        "key": "Remove the selected player",
+        "value": "删除所选玩家"
+      },
+      {
+        "key": "from the access list",
+        "value": "从访问列表中"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterTransmitter"
+    ],
+    "pairs": [
+      {
+        "key": "Access:",
+        "value": "访问："
+      },
+      {
+        "key": "Use this name to",
+        "value": "使用此名称来"
+      },
+      {
+        "key": "identify this transmitter",
+        "value": "识别这个讯号发送器"
+      },
+      {
+        "key": "in the dialer",
+        "value": "在拨号器中"
+      },
+      {
+        "key": "Everyone can access this transmitter",
+        "value": "所有人都可以访问这个讯号发送器"
+      },
+      {
+        "key": "and change the dialing destination",
+        "value": "并更改传送目的地"
+      },
+      {
+        "key": "Only people in the access list below",
+        "value": "只有下方访问列表中的人"
+      },
+      {
+        "key": "can access this transmitter",
+        "value": "可以访问此讯号发送器"
+      },
+      {
+        "key": "Hide the teleportation beam",
+        "value": "隐藏传送光束"
+      },
+      {
+        "key": "Add a player to the access list",
+        "value": "将一名玩家添加到访问列表"
+      },
+      {
+        "key": "Remove the selected player",
+        "value": "删除所选玩家"
+      },
+      {
+        "key": "from the access list",
+        "value": "从访问列表中"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.items.porter.ChargedPorterItem"
+    ],
+    "pairs": [
+      {
+        "key": "Charged porter is cleared.",
+        "value": "充能传送器已清除。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.logic.items.RedstoneInformationItem$1"
+    ],
+    "pairs": [
+      {
+        "key": "Redstone Module",
+        "value": "红石模块"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.items.ScreenLinkItem$1"
+    ],
+    "pairs": [
+      {
+        "key": "Remote Screen",
+        "value": "远程屏幕"
+      }
+    ]
+  }
+]

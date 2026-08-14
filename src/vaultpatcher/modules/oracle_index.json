@@ -1,0 +1,124 @@
+[
+  {
+    "name": "oracle_index_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "rearth.oracle.ui.OracleScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Name",
+        "value": "未知名称"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "rearth.oracle.ui.SearchScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Sorry, Oracle Index Search is not available on your platform.",
+        "value": "抱歉，Oracle Index Search 在你的平台上不可用。"
+      },
+      {
+        "key": "If you want this search feature, you can use the xplat jar available on the mods github.",
+        "value": "如果你想使用此搜索功能，可以使用该模组 GitHub 上提供的 xplat jar。"
+      },
+      {
+        "key": "This is not the default file due to jar size limitations.",
+        "value": "由于 jar 大小限制，这不是默认文件。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "rearth.oracle.util.ContentProperties"
+    ],
+    "pairs": [
+      {
+        "key": "Max Stack",
+        "value": "最大堆叠"
+      },
+      {
+        "key": "Durability",
+        "value": "耐久度"
+      },
+      {
+        "key": "Hardness",
+        "value": "硬度"
+      },
+      {
+        "key": "Resistance",
+        "value": "爆炸抗性"
+      },
+      {
+        "key": "Light Level",
+        "value": "亮度等级"
+      },
+      {
+        "key": "Fuel Value",
+        "value": "燃烧值"
+      },
+      {
+        "key": "Tool Required",
+        "value": "需要工具"
+      },
+      {
+        "key": "Effective Tool",
+        "value": "适用工具"
+      },
+      {
+        "key": "Pickaxe",
+        "value": "镐"
+      },
+      {
+        "key": "Axe",
+        "value": "斧"
+      },
+      {
+        "key": "Shovel",
+        "value": "锹"
+      },
+      {
+        "key": "Hoe",
+        "value": "锄"
+      },
+      {
+        "key": "Yes",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "rearth.oracle.util.MarkdownParser"
+    ],
+    "pairs": [
+      {
+        "key": "Details",
+        "value": "详细信息"
+      },
+      {
+        "key": "Invalid crafting recipe data: expected 9 inputs",
+        "value": "合成配方数据无效：需提供 9 个输入项"
+      },
+      {
+        "key": "Image not found: ",
+        "value": "未找到图像："
+      },
+      {
+        "key": "Error reading image: ",
+        "value": "读取图像时出错："
+      },
+      {
+        "key": "<invalid link>",
+        "value": "<非法链接>"
+      }
+    ]
+  }
+]

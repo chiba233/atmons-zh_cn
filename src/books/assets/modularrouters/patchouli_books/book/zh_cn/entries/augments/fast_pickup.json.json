@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/fast_pickup.json",
+ "sha1": "cdd4128817c0168dac6f6f7e352add52112848f5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fast Pickup Augment",
+   "快速拾取拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can only be added to the $(l:modules/vacuum)Vacuum Module/$. It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means (e.g. sheep shearing) - and pick up items as soon as it sees them.$(p)A max of one Fast Pickup Augment can be added.",
+   "此拓展仅可安装至$(l:modules/vacuum)虚空模块/$。安装后，虚空模块将忽略拾取掉落物品时的常规延迟——玩家掉落的物品延迟为40刻，其他方式（如剪羊毛）掉落的物品延迟为10刻——从而在视野内一发现物品便立即拾取。$(p)最多只能安装一个快速拾取拓展。"
+  ]
+ ]
+}

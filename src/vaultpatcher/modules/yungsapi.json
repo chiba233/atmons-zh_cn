@@ -1,0 +1,38 @@
+[
+  {
+    "name": "yungsapi_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yungnickyoung.minecraft.yungsapi.world.structure.terrainadaptation.adaptations.EnhancedTerrainAdaptationType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown enhanced terrain adaptation type: ",
+        "value": "未知的增强地形适配类型："
+      },
+      {
+        "key": "No ID found for enhanced terrain adaptation type ",
+        "value": "未找到增强地形适配类型的 ID："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.yungnickyoung.minecraft.yungsapi.world.structure.terrainadaptation.aquiferoverride.AquiferOverrideType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Aquifer Override type: ",
+        "value": "未知的含水层覆写类型："
+      },
+      {
+        "key": "No ID found for Aquifer Override type ",
+        "value": "未找到含水层覆写类型的 ID："
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/meat.json",
+ "sha1": "8bcae2f396e37411efc9a0c433ce42a24e59f729",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Meat (Bucket)",
+   "肉汤 (桶)"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A fluid produced by the $(l:agr_hus/mob_slaughter_factory)Mob Slaughter Factory$().",
+   "由 $(l:agr_hus/mob_slaughter_factory)屠宰场$() 产出的流体。"
+  ]
+ ]
+}

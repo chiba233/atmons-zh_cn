@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/iron.json",
+ "sha1": "c4fcfcdd6391d329af2a13731adfb4029cb7e0e0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Iron Bee",
+   "铁蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from a $(l:bees/wild/crystalline)Crystalline Bee$(/l) and an $(l:bees/solitary/ashy_mining)Ashy Mining Bee$(/l).",
+   "由一只$(l:bees/wild/crystalline)石英蜜蜂$(/l)和一只$(l:bees/solitary/ashy_mining)灰烬开采蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Iron Bee",
+   "铁蜜蜂"
+  ]
+ ]
+}

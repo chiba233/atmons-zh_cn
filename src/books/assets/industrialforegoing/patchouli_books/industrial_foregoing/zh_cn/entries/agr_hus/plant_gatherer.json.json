@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/plant_gatherer.json",
+ "sha1": "c61f75d10c03de22df7aeb7c8baaed813db50caa",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Plant Gatherer",
+   "植物收割机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to $(6)chop$() trees and $(6)harvest$() crops. Each operation creates a little bit of $(l:agr_hus/sludge)Sludge$(). $(br2)If the Plant Gatherer begins to harvest a tree within the working area, it will continue to harvest any log or leaves connected to the base log block.",
+   "一种用于$(6)砍伐$()树木与$(6)采掘$()作物的机器。每次操作均会产生少量$(l:agr_hus/sludge)污泥$()。$(br2)若植物收割机开始收割工作区域内某棵树，它将持续收割与主干方块相连的所有原木与树叶。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Plant Gatherer will break crops when harvesting, even when the plant may be harvested by right click. But if its being provided with small amounts of ether it will replant automatically.",
+   "植物收割机在收割作物时会直接破坏植株，即使该植物本可通过右击收获。但若为其提供少量以太气体，则作物将自动重新种植。"
+  ]
+ ]
+}

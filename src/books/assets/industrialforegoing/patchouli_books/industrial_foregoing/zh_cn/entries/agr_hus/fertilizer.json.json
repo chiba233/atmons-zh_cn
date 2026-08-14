@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/fertilizer.json",
+ "sha1": "c6d22c6ba3819597cc91ef932936758dc04606ed",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fertilizer",
+   "肥料"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A material produced by the $(l:agr_hus/sewage_composter)Sewage Composter$() and can be used like bonemeal.",
+   "由 $(l:agr_hus/sewage_composter)污水堆肥机$() 产出的材料，可像骨粉一样使用。"
+  ]
+ ]
+}

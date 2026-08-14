@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/wither_builder.json",
+ "sha1": "03bcdda073716010486a523145966e29586583bd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Wither Builder",
+   "凋灵生成器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to spawn withers. When provided with power,  $(6)3 Wither Skulls$() and $(6)4 soulsand$(), it will completely build the wither spawning structure in the working area.",
+   "一种用于生成凋灵的机器。当提供能量、$(6)3个凋灵骷髅头$()与$(6)4个灵魂沙$()后，它将在工作区域内完整构建出凋灵生成结构。"
+  ]
+ ]
+}

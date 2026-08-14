@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/fluid_placer.json",
+ "sha1": "571c58fb9c06906b557c8f0968e1b5e0de737344",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Placer",
+   "流体放置器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "It places fluids.$(br2)It will place the fluid from the internal container and use $(6)1000$()RF.",
+   "它可以放置流体。$(br2)它会放置内部容器中的流体，并消耗 $(6)1000$()RF。"
+  ]
+ ]
+}

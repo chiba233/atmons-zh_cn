@@ -1,0 +1,19 @@
+[
+  {
+    "name": "securitycraft_dynamic_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.geforcemods.securitycraft.screen.SetPasscodeScreen"
+    ],
+    "pairs": [
+      {
+        "key": "CODE:",
+        "value": "代码："
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/innerworking.json",
+ "sha1": "d1b9f0ed31ddc24c339c40ea7b4ba7d3157b6756",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Inner workings",
+   "内部结构"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "How does a Reactor $(l:bigreactors/passive)generate energy$(/l) or $(l:bigreactors/active)vaporize coolants$(/l)?$(br2)With heat.$(br2)Irradiated $(l:bigreactors/reactants)fuel$(/l) heats up, $(l:bigreactors/moderators)moderators$(/l) absorb part of the radiation and move heat away from the $(l:bigreactors/part-fuelrod)Fuel Rods$(/l) and toward the $(l:bigreactors/part-casing)Casing$(/l).$(br2)The Casing Heat is what, in the end, generates energy or vaporizes $(l:bigreactors/coolantsystem)coolants$(/l).",
+   "反应堆是如何$(l:bigreactors/passive)产生能量$(/l)或$(l:bigreactors/active)汽化冷却液$(/l)的呢？$(br2)靠的是热量。$(br2)被辐照的$(l:bigreactors/reactants)燃料$(/l)会升温，$(l:bigreactors/moderators)慢化剂$(/l)会吸收部分辐射，并将热量从$(l:bigreactors/part-fuelrod)燃料棒$(/l)带走，传递到$(l:bigreactors/part-casing)机壳$(/l)。$(br2)机壳热量最终会用来产生能量或汽化$(l:bigreactors/coolantsystem)冷却液$(/l)。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Moving heat away from the $(l:bigreactors/part-fuelrod)Fuel Rods$(/l) is a very important aspect of your Reactor design, and $(l:bigreactors/moderators)moderators$(/l) play a key role in it. It is also important to mention that radiation travels in every direction perpendicular to the $(l:bigreactors/part-fuelrod)Fuel Rods$(/l) pile axis.$(br2)$(italic)Please note that, while being close enough to let you create the best Reactors possible, this is an oversimplification of what's really going on inside your Reactor.$()",
+   "将热量从$(l:bigreactors/part-fuelrod)燃料棒$(/l)中带走，是反应堆设计中非常重要的一环，而$(l:bigreactors/moderators)慢化剂$(/l)在其中扮演着关键角色。还需要提到的是，辐射会沿着与$(l:bigreactors/part-fuelrod)燃料棒$(/l)柱轴线垂直的所有方向传播。$(br2)$(italic)请注意，虽然这个说法已经足够接近真实情况，能让你建造出尽可能优秀的反应堆，但它仍然只是对反应堆内部实际过程的一种简化说明。$()"
+  ]
+ ]
+}

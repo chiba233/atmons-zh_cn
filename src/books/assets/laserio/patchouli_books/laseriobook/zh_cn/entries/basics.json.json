@@ -1,0 +1,94 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/basics.json",
+ "sha1": "2104687c74258f3ae9dee54d21006705656458cc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Basics",
+   "基础机制"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Right clicking a Card in your hand will open up it's UI. You can also right click a card inside a $(l:laserio:laser_node)Node$(/l) UI.$(br2)Insert Mode:$(br)1. $(l:laserio:modes)Mode$(/l)$(br)2. $(l:laserio:sneaky)Sneaky$(/l)$(br)3. Filter$(br)4. $(l:laserio:overclocker_card)Card Overclocker$(/l)$(br)5. $(l:laserio:priority)Priority$(/l)$(br)6. $(l:laserio:channel)Channel$(/l)$(br)7. $(l:laserio:redstonemode)Redstone Mode$(/l)$(br)8. $(l:laserio:redstonechannel)Redstone Channel$(/l)",
+   "手持物流卡右击会打开其界面。你也可以在$(l:laserio:laser_node)节点$(/l)内右击物流卡来打开其界面。$(br2)输入模式：$(br)1. $(l:laserio:modes)模式$(/l)$(br)2. $(l:laserio:sneaky)按面连接$(/l)$(br)3. 过滤器$(br)4. $(l:laserio:overclocker_card)卡超频元件$(/l)$(br)5. $(l:laserio:priority)优先级$(/l)$(br)6. $(l:laserio:channel)频道$(/l)$(br)7. $(l:laserio:redstonemode)红石模式$(/l)$(br)8. $(l:laserio:redstonechannel)红石频道$(/l)"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "An item card set to Insert Mode",
+   "设置为输入模式的物品卡。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Insert UI",
+   "输入模式界面"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Extract Mode:$(br2)1. $(l:laserio:modes)Mode$(/l)$(br)2. $(l:laserio:sneaky)Sneaky$(/l)$(br)3. $(l:laserio:roundrobin)Round Robin$(/l)$(br)4. $(l:laserio:exact)Exact$(/l)$(br)5. Filter$(br)6. $(l:laserio:overclocker_card)Card Overclocker$(/l)$(br)7. $(l:laserio:extractamount)Extract Amount$(/l)$(br)8. $(l:laserio:tickspeed)Tick Speed$(/l)$(br)9. $(l:laserio:channel)Channel$(/l)",
+   "提取模式：$(br2)1. $(l:laserio:modes)模式$(/l)$(br)2. $(l:laserio:sneaky)按面连接$(/l)$(br)3. $(l:laserio:roundrobin)轮询调度$(/l)$(br)4. $(l:laserio:exact)精确$(/l)$(br)5. 过滤器$(br)6. $(l:laserio:overclocker_card)卡超频元件$(/l)$(br)7. $(l:laserio:extractamount)传输数量$(/l)$(br)8. $(l:laserio:tickspeed)传输速度$(/l)$(br)9. $(l:laserio:channel)频道$(/l)"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "An item card set to Extract Mode.",
+   "设置为提取模式的物品卡。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Extract UI",
+   "提取模式界面"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Stock Mode:$(br2)1. $(l:laserio:modes)Mode$(/l)$(br)2. $(l:laserio:sneaky)Sneaky$(/l)$(br)3. $(l:laserio:regulate)Regulate$(/l)$(br)4. $(l:laserio:exact)Exact$(/l)$(br)5. Filter$(br)6. $(l:laserio:overclocker_card)Card Overclocker$(/l)$(br)7. $(l:laserio:extractamount)Extract Amount$(/l)$(br)8. $(l:laserio:tickspeed)Tick Speed$(/l)$(br)9. $(l:laserio:channel)Channel$(/l)",
+   "存储模式：$(br2)1. $(l:laserio:modes)模式$(/l)$(br)2. $(l:laserio:sneaky)按面连接$(/l)$(br)3. $(l:laserio:regulate)Regulate$(/l)$(br)4. $(l:laserio:exact)精确$(/l)$(br)5. 过滤器$(br)6. $(l:laserio:overclocker_card)卡超频元件$(/l)$(br)7. $(l:laserio:extractamount)传输数量$(/l)$(br)8. $(l:laserio:tickspeed)传输速度$(/l)$(br)9. $(l:laserio:channel)频道$(/l)"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "An item card set to Stock Mode.",
+   "设置为存储模式的物品卡。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Stock UI",
+   "存储模式界面"
+  ]
+ ]
+}

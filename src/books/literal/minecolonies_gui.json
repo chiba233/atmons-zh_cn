@@ -1,0 +1,4 @@
+{
+  "_说明": "blockui 的按钮标签只有同时给了 textalign 与 textbox 才会居中——textbox 是文字子框，不给就默认很小并贴在左上角，textalign 便无处可居中。上游 dialogconfirmtransparency.xml 里居中的按钮正是这么写的（textalign=\"MIDDLE\" textbox=\"64 17\"，与 size 相同），照抄。只补有文字、且上游没写 textbox 的按钮；textbox 取该按钮自己的 size。",
+  "files": {}
+}

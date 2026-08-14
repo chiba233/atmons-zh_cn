@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/control_track.json",
+ "sha1": "f5f00440a1316b55fad13252f0e5937828c791ec",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Control Track",
+   "控制轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "These rails act like weak boosters that only boost carts in one direction. Any carts travelling in the opposite direction will be gradually slowed. Powering them will reverse the direction of the rail. They are cheap to make and will propagate power for up to sixteen blocks in either direction. Default direction can be change with the Crowbar.",
+   "此类铁轨作用类似弱效助推器，仅单向助推矿车；反向行驶的矿车则会被逐渐减速。对其充能可反转轨道助推方向。其制作成本低廉，且可在双向各传播红石信号长达十六格。默认方向可通过撬棍调整。"
+  ]
+ ]
+}

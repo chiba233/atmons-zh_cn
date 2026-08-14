@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/bees_wild.json",
+ "sha1": "5a46eb7193983180dd255092f3773ccd5ef46ab8",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Wild bees, like solitary bees, live in nests found around the world but unlike solitary bees they will gladly move into a hive as well. Wild bees live primarily in the nether and the end.",
+   "野生蜜蜂和独居蜜蜂一样，生活在世界各处生成的巢穴中，但与独居蜜蜂不同的是，它们也很乐意搬进蜂巢里。野生蜜蜂主要生活在下界和末地。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Wild Bees",
+   "野生蜜蜂"
+  ]
+ ]
+}

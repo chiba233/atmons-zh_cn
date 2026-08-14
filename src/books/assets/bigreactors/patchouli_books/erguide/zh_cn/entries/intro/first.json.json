@@ -1,0 +1,139 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/intro/first.json",
+ "sha1": "a85b46f5d51b59db294b4cee7bddd7327914deae",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Your First Reactor",
+   "属于你的第一台反应堆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Reactor is a multiblock machine whose primary job is to produce energy—and a lot of it.$(br2)A multiblock machine is composed of many different blocks that you will place in the world next to each other.$(br2)To craft and power the Reactor, you need Yellorium ingots, so go mine some Yellorite Ore and smelt it right away!",
+   "反应堆是一种多方块机器，它的主要任务是产生能量——而且是大量的能量。$(br2)多方块机器由许多不同的方块组成，你需要将它们彼此相邻地放置在世界中。$(br2)要合成并驱动反应堆，你需要黄铀锭，所以赶快去挖一些黄铀矿石并立刻把它冶炼出来吧！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "To build your first Reactor, you need to craft the following Basic Reactor blocks:$(br2)$(li)22x Casing$(li)1x Controller$(li)1x Control Rod$(li)1x Fuel Rod$(li)1x Solid Access Port$(li)1x Active Forge Energy Power Tap$(br2)The Glass block is optional and can be replaced by another Casing block.",
+   "要建造你的第一座反应堆，你需要先合成以下基础反应堆方块：$(br2)$(li)22x 机壳$(li)1x 控制器$(li)1x 控制棒$(li)1x 燃料棒$(li)1x 固体访问端口$(li)1x 主动 Forge能量接口$(br2)玻璃方块是可选的，也可以用另一个机壳方块替代。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title1"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title2"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title1"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title2"
+   ],
+   "Control Rod",
+   "控制杆"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title1"
+   ],
+   "Fuel Rod",
+   "燃料棒"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title2"
+   ],
+   "Access Port",
+   "接入端口"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Once you have crafted all the required blocks, you are ready to build your first Reactor.$(br2)Place the blocks in your world using the following diagram, placing the Fuel Rod in the center with a Casing below.",
+   "当你合成好所有必需方块后，就可以开始建造你的第一座反应堆了。$(br2)按照下图将这些方块放置到世界中，把燃料棒放在中央，并在其下方放置一个机壳。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Forge Power Tap",
+   "Forge能量抽取端口"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "If all goes well, when you place the last block, the Reactor will form, and you can then open the Controller interface by right-clicking on the Controller block.$(br2)If nothing happens, right-click on any block you placed: you will receive an error message that should explain what the problem is. Once you have fixed it, you should have a formed Reactor or another error message waiting for you.",
+   "如果一切顺利，当你放下最后一个方块时，反应堆就会成型；随后你可以右键点击控制器方块来打开控制器界面。$(br2)如果什么都没发生，就右键点击你放置的任意一个方块：你会收到一条错误信息，说明问题所在。修正问题后，你应当会得到一座已成型的反应堆，或者另一条等待你的错误信息。"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "Now that your Reactor is ready, it's time to put some fuel in it.$(br2)Pick up more Yellorium ingots and right-click on the Solid Access Port. Set the Port to Inlet mode and place your ingots in the input slot.$(br2)The ingots will be quickly consumed by the Reactor and turned into fuel.$(br2)Open the Controller interface and turn your Reactor on!",
+   "现在你的反应堆已经准备就绪，是时候往里面加入燃料了。$(br2)拿起更多黄铀锭并右键点击固体访问端口。将端口设为入口模式，然后把锭放入输入槽。$(br2)这些锭会被反应堆迅速消耗并转化为燃料。$(br2)打开控制器界面，启动你的反应堆吧！"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "As the Reactor heats up, energy is slowly produced, and the internal energy buffer is filled.$(br2)To use the energy stored inside the Reactor, you need to connect some sort of energy pipe or a machine to the Active Forge Power Tap.$(br)The Power Tap will send out energy to the connected block (if it can accept it).",
+   "随着反应堆升温，能量会缓慢地产生，并填充其内部能量缓冲。$(br2)想要使用储存在反应堆内的能量，你需要将某种能量管道或机器连接到主动 Forge 能量接口上。$(br)能量接口会向连接的方块输出能量（如果它能够接收的话）。"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "Congratulations, you have built your first Reactor!$(br2)Use it to generate all the energy you need for your early game needs, and then move on to build other Reactors and Turbines after you have read the remainder of this handbook.",
+   "恭喜你，你已经建好了第一座反应堆！$(br2)用它来满足你游戏前期所需的全部能量，然后在阅读完本手册剩余内容后，再继续建造其他反应堆和涡轮机吧。"
+  ]
+ ]
+}

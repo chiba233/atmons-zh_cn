@@ -1,0 +1,22 @@
+window {
+    size(168,48)
+
+    bind('delay','delay')
+    bind('pauses','pauses')
+
+    panel('','vertical') {
+        bgthickness(2)
+        panel('','horizontal') {
+            label('','延迟：')
+            integerfield('delay') {
+                channel('delay')
+                tooltips('设置延迟（单位：刻）','（20 游戏刻为 1 秒）')
+            }
+        }
+        togglebutton('pauses','红石激活时暂停') {
+            channel('pauses')
+            desired(-1,16)
+            check(true)
+        }
+    }
+}

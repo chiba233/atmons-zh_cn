@@ -1,0 +1,182 @@
+[
+  {
+    "name": "actuallyadditions_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.config.values.ConfigStringListValues"
+    ],
+    "pairs": [
+      {
+        "key": "Crusher Recipe Exceptions",
+        "value": "粉碎机配方例外"
+      },
+      {
+        "key": "Crusher Output Blacklist",
+        "value": "粉碎机输出黑名单"
+      },
+      {
+        "key": "Mining Lens Blacklist",
+        "value": "采矿透镜黑名单"
+      },
+      {
+        "key": "Mining lens Extra Whitelist",
+        "value": "采矿透镜额外白名单"
+      },
+      {
+        "key": "Mashed Food Crafting Exceptions",
+        "value": "糊状食物合成例外"
+      },
+      {
+        "key": "AIOT Extra Whitelist",
+        "value": "AIOT额外白名单"
+      },
+      {
+        "key": "Item Repairer Extra Whitelist",
+        "value": "物品修理机额外白名单"
+      },
+      {
+        "key": "Spawner Changer Blacklist",
+        "value": "刷怪笼更改器黑名单"
+      },
+      {
+        "key": "Repair Blacklist",
+        "value": "修理黑名单"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.inventory.gui.GuiMiner"
+    ],
+    "pairs": [
+      {
+        "key": "Mode",
+        "value": "模式"
+      },
+      {
+        "key": "Reset",
+        "value": "重置"
+      },
+      {
+        "key": "Only Mining Ores",
+        "value": "仅挖掘矿石"
+      },
+      {
+        "key": "Mining Everything",
+        "value": "挖掘全部"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.inventory.gui.ItemTagScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Valid Tag",
+        "value": "有效标签"
+      },
+      {
+        "key": "Invalid Tag",
+        "value": "无效标签"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.inventory.gui.SackGui"
+    ],
+    "pairs": [
+      {
+        "key": "Turn this on to make items that get picked up automatically go into the sack.",
+        "value": "开启后，自动拾取的物品将会进入袋子。"
+      },
+      {
+        "key": "Note that this WON'T work when you are holding the sack in your hand.",
+        "value": "请注意，当你手里拿着这个麻袋时，这将不起作用。"
+      },
+      {
+        "key": "Auto-Insert ",
+        "value": "自动插入 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.inventory.gui.VoidSackGui"
+    ],
+    "pairs": [
+      {
+        "key": "Turn this on to make items that get picked up automatically go into the bag.",
+        "value": "打开此选项后，自动拾取的物品将进入袋中。"
+      },
+      {
+        "key": "Note that this WON'T work when you are holding the bag in your hand.",
+        "value": "请注意，当你手里拿着这个袋子时，这将不起作用。"
+      },
+      {
+        "key": "Auto-Insert ",
+        "value": "自动插入 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.items.ItemBooklet"
+    ],
+    "pairs": [
+      {
+        "key": "Patchouli is not installed! Please install Patchouli to view the booklet.",
+        "value": "未安装帕秋莉！请安装帕秋莉以查看指导手册。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.items.ItemDrillUpgrade"
+    ],
+    "pairs": [
+      {
+        "key": "Set the slot to place from to ",
+        "value": "将用于放置的槽位设置为"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.items.ItemTag"
+    ],
+    "pairs": [
+      {
+        "key": "Tag: ",
+        "value": "标签："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.jei.fermenting.FermentingCategory"
+    ],
+    "pairs": [
+      {
+        "key": "Fermenting Recipe",
+        "value": "发酵配方"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.jei.pressing.PressingCategory"
+    ],
+    "pairs": [
+      {
+        "key": "Pressing Recipe",
+        "value": "压制配方"
+      }
+    ]
+  }
+]

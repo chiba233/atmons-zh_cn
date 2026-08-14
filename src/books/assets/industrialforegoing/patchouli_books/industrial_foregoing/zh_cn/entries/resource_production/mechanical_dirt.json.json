@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/mechanical_dirt.json",
+ "sha1": "bd34745e95e48ff20898047bb7415224e1779bc1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mechanical Dirt",
+   "机械诅咒之土"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Imbued with unknown technology, this block will spawn $(6)mobs$() at a fast rate when certain conditions are met.$(br2)Firstly, it requires $(6)1000$()RF and $(6)20mb$() of $(6)Liquid Meat$() per operation, secondly, normal mob spawn conditions have to be met (this means the light level has to be $(6)7$() or lower and the block has to be loaded)$(br2)",
+   "蕴含未知科技的方块，当满足特定条件时，将以极快速度生成$(6)生物$()。$(br2)首先，每次运作需消耗$(6)1000$()RF与$(6)20mb$()的$(6)肉汤$()；其次，须满足常规生物生成条件（即光照等级需为$(6)7$()或更低，且该方块必须处于已加载状态）$(br2)。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When one block is supplied with $(6)Power$() or $(6)Liquid Meat$(), it will automatically be equally divided by any connected blocks.",
+   "当其中一个方块获得 $(6)能量$() 或 $(6)肉汤$() 供应时，它会自动将其平均分配给所有相连的方块。"
+  ]
+ ]
+}

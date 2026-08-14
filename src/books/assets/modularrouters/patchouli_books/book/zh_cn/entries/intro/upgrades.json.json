@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/upgrades.json",
+ "sha1": "85cf4b17203886e2e587d09196040b9105f82bbc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Upgrades",
+   "升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Upgrades/$ improve a $(l:intro/modular_router)Modular Router's/$ functionality in various ways.  There are 8 different upgrade types, and 5 upgrade slots in an Modular Router.$(p)You can put multiple upgrades in an upgrade slot, although there is a limit on how many upgrades of a particular type can be inserted; see the individual upgrade pages or upgrade item tooltips for more information on this.",
+   "$(thing)升级/$可以从多个方面增强$(l:intro/modular_router)物品路由器/$的功能。升级共有 8 种类型，而一台物品路由器有 5 个升级槽。$(p)你可以在一个升级槽中放入多个升级，不过每种升级可插入的数量有限制；详情请参阅各升级页面或升级物品提示。"
+  ]
+ ]
+}

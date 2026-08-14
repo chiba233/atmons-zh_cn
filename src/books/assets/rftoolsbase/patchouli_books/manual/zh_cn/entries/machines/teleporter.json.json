@@ -1,0 +1,85 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/teleporter.json",
+ "sha1": "d5156deb03773af7ff91e58dbded2363b798fabd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Charged Porter",
+   "充能传送器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Charged Porters are portable teleportation tools that use $(l:rftoolsbase:machines/matter_receiver)Matter Receivers$(/l) as destinations. They must be charged with FE before use.",
+   "充能搬运器是便携式传送工具，以$(l:rftoolsbase:machines/matter_receiver)物质接收器$(/l)作为目的地。使用前必须先以FE为其充能。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Porters",
+   "搬运工模式（测试）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Right-click a porter on a Matter Receiver to store that destination. The basic porter stores one target; the advanced porter can store multiple targets and cycle between them.",
+   "对搬运器右键点击物质接收器，即可储存该目的地。基础搬运器仅能储存一个目标；高级搬运器则可储存多个目标并循环切换。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Targets",
+   "声望目标"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Use the charged porter to start teleporting. The receiver must still exist and be usable. The advanced porter is better for players who travel between several bases.",
+   "使用已充能的搬运器即可启动传送。接收器必须依然存在且可用。对于需在多个基地间往返的玩家，高级搬运器更为适用。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Use",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The Teleport Probe helps inspect receiver information and porter targets, which is useful when debugging a larger teleporter network.",
+   "传送探测器有助于检查接收器信息与传送者目标，对调试大型传送网络极为有用。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Teleport Probe",
+   "传送探针"
+  ]
+ ]
+}

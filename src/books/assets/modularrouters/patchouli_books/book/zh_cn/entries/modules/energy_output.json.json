@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/energy_output.json",
+ "sha1": "fc246256c1be05aa88134caa05b1fbaaafd8fc77",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Energy Output Module",
+   "能量输出模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module attempts to output FE (Forge Energy) from the Router to an adjacent energy-receiving block, in its configured direction. The module can extract energy from either the router's internal energy buffer (if any $(l:upgrades/energy)Energy Upgrades/$ are installed) or from an energy-containing item in the router's item buffer. The internal energy buffer is used by preference.",
+   "这个模块会尝试将 FE（Forge Energy）从路由器输出到其设定方向上的相邻受能方块。模块既可以从路由器内部能量缓冲区提取能量（如果安装了$(l:upgrades/energy)能量升级/$），也可以从路由器物品缓冲区中的储能物品提取能量。优先使用内部能量缓冲区。"
+  ]
+ ]
+}

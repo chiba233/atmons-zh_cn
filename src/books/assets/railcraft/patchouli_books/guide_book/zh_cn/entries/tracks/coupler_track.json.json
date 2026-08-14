@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/coupler_track.json",
+ "sha1": "eb1ec8842761de19c33aabc49e872773a4243e1e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coupler Track",
+   "耦合轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "These track are designed to be used to create or breakdown trains of carts. They must be powered by redstone to function. Right clicking on a coupler track will change it to decoupler mode and vice versa.",
+   "此类轨道专为编组或解编列车而设计，必须由红石充能才能运作。右键点击耦合轨道可切换其至解耦模式，反之亦然。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Coupler Tracks can be chained to linkup an entire Train when combined with a Train Detector.$(br)Coupler tracks have an additional mode called Auto-Coupling which can be configured with a crowbar. This sets a cart to couple with the next cart it collides with.",
+   "耦合轨道可串联使用，配合列车探测器即可完整连接整列列车。$(br)耦合轨道另有一种“自动耦合”模式，可通过撬棍配置。启用后，矿车将自动与前方碰撞到的第一辆矿车连接。"
+  ]
+ ]
+}

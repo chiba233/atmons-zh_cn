@@ -1,0 +1,19 @@
+[
+  {
+    "name": "kubejs_fluid_bucket_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.latvian.mods.kubejs.fluid.FluidBuilder"
+    ],
+    "pairs": [
+      {
+        "key": " Bucket",
+        "value": "桶"
+      }
+    ]
+  }
+]

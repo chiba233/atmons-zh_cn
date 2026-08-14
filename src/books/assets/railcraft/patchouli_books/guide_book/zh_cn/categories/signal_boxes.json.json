@@ -1,0 +1,20 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/categories/signal_boxes.json",
+ "sha1": "85a557369a14547c4d975f05f79c37c0c45dda38",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Boxes are part of Signalling module. They can be used to operate signals.",
+   "盒子属于信号模块，可用于操控信号。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Signal Boxes",
+   "信号盒"
+  ]
+ ]
+}

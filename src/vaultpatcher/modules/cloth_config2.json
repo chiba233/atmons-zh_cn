@@ -1,0 +1,54 @@
+[
+  {
+    "name": "cloth_config2_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.shedaniel.clothconfig2.gui.entries.DropdownBoxEntry$DefaultSelectionTopCellElement"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid Value!",
+        "value": "无效的值！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.tokens.Token$ID"
+    ],
+    "pairs": [
+      {
+        "key": "<block end>",
+        "value": "<方块结束>"
+      },
+      {
+        "key": "<block mapping start>",
+        "value": "<方块映射开始>"
+      },
+      {
+        "key": "<block sequence start>",
+        "value": "<方块序列开始>"
+      },
+      {
+        "key": "<document end>",
+        "value": "<文档结束>"
+      },
+      {
+        "key": "<document start>",
+        "value": "<文档开始>"
+      },
+      {
+        "key": "<stream end>",
+        "value": "<流结束>"
+      },
+      {
+        "key": "<stream start>",
+        "value": "<流开始>"
+      }
+    ]
+  }
+]

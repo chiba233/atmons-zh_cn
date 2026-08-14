@@ -1,0 +1,41 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/_meta.json",
+ "sha1": "355397d497c61ceee625e6d64cae9ebb018acb60",
+ "t": [
+  [
+   [
+    "chainsaw.mdx"
+   ],
+   "Tronçonneuse",
+   "链锯"
+  ],
+  [
+   [
+    "exo_armor.mdx"
+   ],
+   "Armure Exo",
+   "外骨骼盔甲"
+  ],
+  [
+   [
+    "hand_drill.mdx"
+   ],
+   "Foreuse Manuelle",
+   "手动钻机"
+  ],
+  [
+   [
+    "prometheum_tools.mdx"
+   ],
+   "Outils en Prometheum",
+   "钷工具"
+  ],
+  [
+   [
+    "target_designator.mdx"
+   ],
+   "Sélecteur de Cible",
+   "目标选择器"
+  ]
+ ]
+}

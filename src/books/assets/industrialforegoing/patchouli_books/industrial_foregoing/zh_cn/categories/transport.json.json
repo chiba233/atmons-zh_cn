@@ -1,0 +1,20 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/transport.json",
+ "sha1": "05efd56481b77c1bafdea85fba787cd42e3343c3",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Moving stuff around!",
+   "移动东西！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Transport",
+   "运输"
+  ]
+ ]
+}

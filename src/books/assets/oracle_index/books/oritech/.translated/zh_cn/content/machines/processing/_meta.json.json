@@ -1,0 +1,76 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/processing/_meta.json",
+ "sha1": "22d32ed7b4a4bb76fc6b64adf3cf8815828aec5b",
+ "t": [
+  [
+   [
+    "assembler_block.mdx"
+   ],
+   "Assembler",
+   "装配器"
+  ],
+  [
+   [
+    "atomic_forge_block.mdx"
+   ],
+   "Atomic Forge",
+   "原子锻造器"
+  ],
+  [
+   [
+    "centrifuge_block.mdx"
+   ],
+   "Centrifuge",
+   "离心机"
+  ],
+  [
+   [
+    "cooler_block.mdx"
+   ],
+   "Industrial Chiller",
+   "工业冷却器"
+  ],
+  [
+   [
+    "foundry_block.mdx"
+   ],
+   "Foundry",
+   "铸造台"
+  ],
+  [
+   [
+    "fragment_forge_block.mdx"
+   ],
+   "Fragment Forge",
+   "粉碎工厂"
+  ],
+  [
+   [
+    "powered_furnace_block.mdx"
+   ],
+   "Powered Furnace",
+   "红石炉"
+  ],
+  [
+   [
+    "pulverizer_block.mdx"
+   ],
+   "Pulverizer",
+   "粉碎机"
+  ],
+  [
+   [
+    "refinery_block.mdx"
+   ],
+   "Refinery",
+   "精炼厂"
+  ],
+  [
+   [
+    "refinery_module_block.mdx"
+   ],
+   "Refinery Chamber Module",
+   "精炼厂罐室模块"
+  ]
+ ]
+}

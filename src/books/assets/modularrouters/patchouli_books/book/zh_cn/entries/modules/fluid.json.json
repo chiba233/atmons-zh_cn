@@ -1,0 +1,58 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/fluid.json",
+ "sha1": "7166de16727500d5c3a95beaebcd72513ea0c1ae",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Module Mk1",
+   "流体模块 Mk1"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "While Routers can't handle fluids directly (they don't have an internal tank), they can manipulate fluids if there is a (single) fluid container item in the buffer. This includes buckets and any fluid containers added by other mods.",
+   "虽然路由器不能直接处理流体（因为它没有内部储罐），但如果缓冲区中有一个（且仅一个）流体容器物品，它就可以操控流体。这包括桶，以及其他模组添加的各种流体容器。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Fluid Module's GUI allows the transfer direction to be set:$(li)$(bold)Transfer To Router/$ means the router will try to pull fluids from an adjacent block (either a fluid in the world or a fluid-holding block) into a fluid-holding item in the buffer.$(li)$(bold)Transfer From Router/$ means the router will try to push fluids from a fluid-holding item in the buffer to the world; either pouring fluid out, or putting fluid into an adjacent tank.",
+   "流体模块的 GUI 允许设置传输方向：$(li)$(bold)传输到路由器/$表示路由器会尝试将相邻方块中的流体（可以是世界中的流体，也可以是可储存流体的方块）抽入缓冲区中的储液物品里。$(li)$(bold)从路由器传输/$表示路由器会尝试将缓冲区中储液物品里的流体推送到世界中；也就是把流体倒出来，或注入相邻储罐。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The GUI also allows the maximum transfer rate to be set. Note this is the maximum that will be $(italic)attempted/$, and is still limited by the Router's overall transfer rate, which is 1 bucket per second, and the transfer rate of the external fluid or fluid container.$(p)The Fluid Module's filter slots will only accept fluid-containing items, and will filter by the contained fluid, not by the container item.",
+   "GUI 还允许设置最大传输速率。注意，这只是会被$(italic)尝试/$达到的最大值，实际仍受路由器整体传输速率限制——即每秒 1 桶——以及外部流体或流体容器本身传输速率的限制。$(p)流体模块的过滤器槽位只接受储液物品，并且过滤的是其中所含的流体，而不是容器物品本身。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Adding $(l:upgrades/speed)Speed Upgrades/$ will not transfer fluids any faster, only more often. A Router with 9 speed upgrades will still only transfer 1 bucket per second, just more often and in smaller quantities. To increase the overall transfer rate, add $(l:upgrades/fluid)Fluid Transfer Upgrades/$.$(p)Be very careful tinkering with Fluid Module settings if the router holds any dangerous fluids, such as a lava bucket. The router will not hesitate to pour lava over you if you get it wrong...",
+   "添加$(l:upgrades/speed)速度升级/$并不会让流体传得更快，只会让传输发生得更频繁。一台装有 9 个速度升级的路由器每秒仍然只能传输 1 桶流体，只不过传得更频繁、每次量更少。要提高整体传输速率，请添加$(l:upgrades/fluid)流体传输升级/$。$(p)如果路由器中装有危险流体（例如一桶岩浆），调整流体模块设置时一定要非常小心。要是你设置错了，路由器可不会犹豫把岩浆直接倒到你头上……"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Note that you can also connect fluid pipes from other mods to a router, $(bold)if/$ the buffer has a fluid container in it, and pump fluids in and out of the router; fluids will be directed to/from the container item.$(p)You $(italic)don't/$ need a Fluid Module installed to do this; Fluid Modules are only required if you want to actively push or pull fluids.",
+   "还要注意的是，如果缓冲区中有流体容器，你也可以将其他模组的流体管道连接到路由器上，$(bold)以便/$向路由器中泵入或抽出流体；这些流体都会被导向或来自那个容器物品。$(p)要做到这一点，你$(italic)不/$需要安装流体模块；只有在你想主动推送或拉取流体时，才需要流体模块。"
+  ]
+ ]
+}

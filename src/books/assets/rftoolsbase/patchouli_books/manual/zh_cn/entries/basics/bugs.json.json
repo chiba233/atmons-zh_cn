@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/bugs.json",
+ "sha1": "6bf8b9c1c9c25066114d406bc7071b91f827d21d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Found a Bug?",
+   "发现 Bug？"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "If  you've found a bug in one of my mods, please report it on one of these links! (Unless you found it in a modpack - in that case you'll want to report it to the pack makers first, so they can determine if it's a mistake on their end.)",
+   "如果你在我的某个模组中发现了 bug，请通过以下任一链接进行反馈！（除非你是在整合包里发现的——那种情况下你应该先反馈给整合包作者，好让他们判断是不是他们那边出了问题。）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)$(l:https://github.com/McJtyMods/DeepResonance/issues)Deep Resonance$() $(li)$(l:https://github.com/McJtyMods/RFToolsBase/issues)RFTools Base$() $(li)$(l:https://github.com/McJtyMods/RFToolsBuilder/issues)RFTools Builder$() $(li)$(l:https://github.com/McJtyMods/RFToolsControl/issues)RFTools Control$() $(li)$(l:https://github.com/McJtyMods/RFToolsDimensions/issues)RFTools Dimensions$() $(li)$(l:https://github.com/McJtyMods/RFToolsPower/issues)RFTools Power$() $(li)$(l:https://github.com/McJtyMods/RFToolsStorage/issues)RFTools Storage$() $(li)$(l:https://github.com/McJtyMods/RFToolsUtility/issues)RFTools Utility$() $(li)$(l:https://github.com/McJtyMods/XNet/issues)XNet$()",
+   "$(li)$(l:https://github.com/McJtyMods/DeepResonance/issues)深度共振$() $(li)$(l:https://github.com/McJtyMods/RFToolsBase/issues)RF工具：基础$() $(li)$(l:https://github.com/McJtyMods/RFToolsBuilder/issues)RF工具：建造机$() $(li)$(l:https://github.com/McJtyMods/RFToolsControl/issues)RF工具：控制$() $(li)$(l:https://github.com/McJtyMods/RFToolsDimensions/issues)RF工具：维度$() $(li)$(l:https://github.com/McJtyMods/RFToolsPower/issues)RF工具：能量$() $(li)$(l:https://github.com/McJtyMods/RFToolsStorage/issues)RF工具：存储$() $(li)$(l:https://github.com/McJtyMods/RFToolsUtility/issues)RF工具：实用设备$() $(li)$(l:https://github.com/McJtyMods/XNet/issues)XNet手册$()"
+  ]
+ ]
+}

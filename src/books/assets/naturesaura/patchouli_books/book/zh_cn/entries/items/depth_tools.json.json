@@ -1,0 +1,67 @@
+{
+ "src": "assets/naturesaura/patchouli_books/book/en_us/entries/items/depth_tools.json",
+ "sha1": "446885146f3dbcf199f8e8c609e95298d1c7a564",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Soulstrider's Tools",
+   "灵魂行者工具"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Soulstrider's tools$() are extraordinarily powerful as tools go, being forged out of a combination of materials from the Skies, the Earth, and the Depths. While also functioning as regular tools, they each have an additional $(thing)special ability$() that sets them apart from their $(item)netherite$() counterparts.$(br)Additionally, these tools can be $(thing)repaired$() in the same way as $(l:items/sky_tools)Skyseeker's tools$().",
+   "$(item)灵魂行者工具$()在同类工具里强得出奇——它由来自天空、大地与深渊的材料熔铸而成。它们既是称手的普通工具，又各自带有一项$(thing)特殊能力$()，与$(item)下界合金$()的同类拉开差距。$(br)此外，这些工具的$(thing)修复$()方式与$(l:items/sky_tools)寻天者工具$()相同。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The $(item)Soulstrider's Pickaxe$(), when enabled by $(thing)sneak-interacting$() with it, will mine a whole $(thing)vein of ores$() all in one, allowing mining much more efficiently.",
+   "$(item)灵魂行者之镐$()在$(thing)潜行交互$()启用后，可以一次挖穿$(thing)整条矿脉$()，采矿效率大幅提升。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The $(item)Soulstrider's Handaxe$(), when enabled by $(thing)sneak-interacting$() with it, is very efficient at chopping $(thing)any type of tree$(), even extraordinarily large ones, doing so in one fell swoop.",
+   "$(item)灵魂行者之斧$()在$(thing)潜行交互$()启用后，砍$(thing)任何种类的树$()都极为高效，哪怕是异常巨大的树，也能一击放倒。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The $(item)Soulstrider's Shovel$(), when interacting with a barren block like $(item)Dirt$(), turns it into a luscious grass block, additionally doing so for a $(thing)large area$() around it in the process.",
+   "$(item)灵魂行者之锹$()对着$(item)泥土$()这类贫瘠方块使用时，会把它变成茂盛的草方块，而且会把周围$(thing)一大片$()一起变过来。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(item)Soulstrider's Hoe$() helps those botanists who don't enjoy waiting for a tree to fully fall on its own, allowing them to break $(item)Leaves$() in a very large area with only a single swing.",
+   "$(item)灵魂行者之锄$()是为那些不愿等树自己倒下的植物学家准备的：一挥就能打掉$(thing)很大范围$()内的$(item)树叶$()。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "The sheer size of the $(item)Soulstrider's Blade$() comes to play when attacking a larger group of monsters: Upon attacking one of them, several in a rather large area are struck, as if it was enchanted with a more powerful version of $(item)Sweeping Edge$(). Of course, these two abilities are not mutually exclusive, either.",
+   "$(item)灵魂行者之剑$()的巨大体量在面对成群怪物时才显出威力：攻击其中一只时，$(thing)相当大范围$()内的数只都会一并受击，就像附了更强版本的$(item)横扫之刃$()。当然，这两种效果并不冲突。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/stuff/sawmill.json",
+ "sha1": "08affd9f5a4b6a87f7b1240b28df3c2903c1fccd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sawmill",
+   "锯木机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Cuts wood...",
+   "砍木头……"
+  ]
+ ]
+}

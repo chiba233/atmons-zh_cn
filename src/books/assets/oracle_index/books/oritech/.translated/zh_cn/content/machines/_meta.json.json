@@ -1,0 +1,55 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/_meta.json",
+ "sha1": "16b8072a4d64b6eb1b9035316d592cb88feb53c1",
+ "t": [
+  [
+   [
+    "addons"
+   ],
+   "Addons",
+   "附加组件"
+  ],
+  [
+   [
+    "augmentations"
+   ],
+   "Augmentations",
+   "植入体"
+  ],
+  [
+   [
+    "gantries"
+   ],
+   "Gantries",
+   "龙门架"
+  ],
+  [
+   [
+    "machine_core_2.mdx"
+   ],
+   "Machine Cores",
+   "机器核心"
+  ],
+  [
+   [
+    "powergen"
+   ],
+   "Power Generation",
+   "发电"
+  ],
+  [
+   [
+    "processing"
+   ],
+   "Processing",
+   "处理"
+  ],
+  [
+   [
+    "utility"
+   ],
+   "Utility",
+   "实用工具"
+  ]
+ ]
+}

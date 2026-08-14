@@ -1,0 +1,43 @@
+[
+  {
+    "name": "allthetweaks_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.thevortex.allthetweaks.DRP$EnumState"
+    ],
+    "pairs": [
+      {
+        "key": "Starting Minecraft",
+        "value": "正在启动 Minecraft"
+      },
+      {
+        "key": "Main Menu",
+        "value": "主菜单"
+      },
+      {
+        "key": "Dimension: Overworld",
+        "value": "维度：主世界"
+      },
+      {
+        "key": "Dimension: The Nether",
+        "value": "维度：下界"
+      },
+      {
+        "key": "Dimension: The End",
+        "value": "维度：末地"
+      },
+      {
+        "key": "Dimension: Mining",
+        "value": "维度：挖矿维度"
+      },
+      {
+        "key": "Dimension: The Other",
+        "value": "维度：异界"
+      }
+    ]
+  }
+]

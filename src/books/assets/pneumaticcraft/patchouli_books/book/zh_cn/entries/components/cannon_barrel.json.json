@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/cannon_barrel.json",
+ "sha1": "8c53752235033bef36cc92cd01769894c88fa723",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cannon Barrel",
+   "炮管"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Cannon Barrel",
+   "合成炮管"
+  ]
+ ]
+}

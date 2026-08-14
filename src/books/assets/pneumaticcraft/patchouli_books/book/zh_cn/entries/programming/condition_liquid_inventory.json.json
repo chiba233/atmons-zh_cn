@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_liquid_inventory.json",
+ "sha1": "c2deef900c2dcabb13ee25a3effa3e719c354ab5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Condition: Fluid Widget",
+   "条件：流体组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Condition: Fluid/$ widget allows you to (remotely) check tank(s) or fluid block(s) in the connected $(l:programming/area)Area/$ widget for a certain amount of fluid. It will only count the fluid allowed by a connected $(l:programming/liquid_filter)Fluid Filter/$ widget (omit the filter to allow every fluid).",
+   "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：流体/$组件可让你（远程）检查已连接的$(l:programming/area)区域/$组件中的储罐或流体方块内是否含有一定数量的流体。它只会统计已连接的$(l:programming/liquid_filter)流体过滤器/$组件所允许的流体（省略过滤器则允许任何流体）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Condition: Fluid Widget/$",
+   "$(italic)条件：流体控件/$"
+  ]
+ ]
+}

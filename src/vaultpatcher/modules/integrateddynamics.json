@@ -1,0 +1,30 @@
+[
+  {
+    "name": "integrateddynamics_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.cyclops.integrateddynamicscompat.modcompat.rei.mechanicalsqueezer.ReiMechanicalSqueezerCategory"
+    ],
+    "pairs": [
+      {
+        "key": "Chance: ",
+        "value": "概率："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.cyclops.integrateddynamicscompat.modcompat.rei.squeezer.ReiSqueezerCategory"
+    ],
+    "pairs": [
+      {
+        "key": "Chance: ",
+        "value": "概率："
+      }
+    ]
+  }
+]

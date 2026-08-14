@@ -1,0 +1,41 @@
+[
+  {
+    "name": "cucumber_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.blakebr0.cucumber.client.screen.widget.EnergyBarWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Energy Bar",
+        "value": "能量条"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.blakebr0.cucumber.client.screen.widget.FuelWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Fuel",
+        "value": "燃料"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.blakebr0.cucumber.client.screen.widget.ProgressArrowWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Progress Arrow",
+        "value": "进度箭头"
+      }
+    ]
+  }
+]

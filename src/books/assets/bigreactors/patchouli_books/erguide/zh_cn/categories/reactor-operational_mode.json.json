@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-operational_mode.json",
+ "sha1": "cf22191794bf15d6e64ecbe1b903b2aa68a9f420",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Reactor can be built to work in two different modes: Passive Cooling or Active Cooling.$(br2)The operational mode determines what the Reactor generates while in operation.",
+   "反应堆可以构建为两种不同的工作模式：被动冷却或激活冷却。$(br2)运行模式决定了反应堆在运转时会产出什么。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Operational mode",
+   "运行模式"
+  ]
+ ]
+}

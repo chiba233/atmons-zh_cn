@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/reinforced-variant.json",
+ "sha1": "f7d02f19ca7252e11561033d1fc09356e57cb8a6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Reinforced variant let you build Turbines as big as you need or want, to generate extreme amounts of energy.$(br2)The maximum size, up to 256 blocks, can be set by players, mod packs makers or server admins in the config file of Extreme Reactors.$(br2)Basic Turbines can use up to 2000 mB/t of vapor to spin their Rotor.",
+   "加固变种允许你按需建造尽可能大的涡轮机，以产生海量能量。$(br2)最大尺寸最高可达 256 方块，玩家、整合包作者或服务器管理员都可以在 Extreme Reactors 的配置文件中进行设置。$(br2)基础涡轮机最多可使用 2000 mB/t 的蒸汽来带动转子旋转。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Reinforced Turbines offer superior structural integrity but come at a higher crafting cost and are not as efficient as other variants. However, their superior generation capacity more than compensates for these drawbacks.",
+   "加固涡轮机拥有更高的结构强度，但合成成本也更高，效率也不如其他变种。不过，它们更强的发电能力足以弥补这些缺点。"
+  ]
+ ]
+}

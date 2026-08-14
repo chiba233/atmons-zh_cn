@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder_shape_cards.json",
+ "sha1": "b692e7f0846c37a0fb79c2e8fbb35a9bf5b1c49f",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Shape Cards are items that represent a certain shape. They can be used by the Builder and the Shield Projector",
+   "塑形卡片是用于表示特定形状的物品。它们可由建筑机和护盾投射仪使用"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Shape Cards",
+   "塑形卡片"
+  ]
+ ]
+}

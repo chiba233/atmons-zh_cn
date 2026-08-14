@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/quarry.json",
+ "sha1": "0025fc532c98e7c0c4358c7f131657620673e55a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Quarry Bee",
+   "采石场蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Nibble on nearby stone, sand or gravel and collects stone chips in its hive. Stone chips can be crafted into its counterpart block.",
+   "会啃食附近的石头、沙子或沙砾，并在自己的蜂巢中收集碎石片。碎石片可以合成为对应的方块。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Quarry Bee",
+   "采石场蜜蜂"
+  ]
+ ]
+}

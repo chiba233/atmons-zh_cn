@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/reactants.json",
+ "sha1": "a522404cdc1a8dbf706b9875c9df4d762d3f304f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reactants",
+   "反应物"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A reactant is a chemical substance that you can use inside your Reactor to sustain a nuclear reaction.$(br2)There are two types of reactants:$(li)$(bold)Fuel:$() literally, the fuel that sustains the nuclear chain reaction inside the $(l:bigreactors:reactor/part-fuelrod)Fuel Rods$(/l)$(li)$(bold)Waste:$() the byproduct of the reaction once the fuel is consumed.",
+   "反应物是一种你可以在反应堆内部使用、以维持核反应进行的化学物质。$(br2)反应物分为两类：$(li)$(bold)燃料：$()顾名思义，就是在$(l:bigreactors:reactor/part-fuelrod)燃料棒$(/l)内部维持核链式反应的燃料$(li)$(bold)废料：$()燃料被消耗后产生的反应副产物。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Extreme Reactors register, by default, four reactants: the fuels named Yellorium and Blutonium and their associated wastes, Cyanite and Magentite.$(br2)Every reactant has a list of items that can be used to produce that reactant by, for example, inserting then in a $(l:bigreactors:reactor/part-solidaccessport)Solid Access Port$(/l).$(br2)Yellorium, for example, can be obtained from $(l:bigreactors:intro/ores)Yellorium Ingots$(/l). Cyanite, when ejected from the Reactor, turn into Cyanite Ingots.",
+   "默认情况下，Extreme Reactors 会注册四种反应物：名为黄铀和蓝钚的两种燃料，以及它们对应的废料青氰和玫磁。$(br2)每种反应物都对应一组可用于生成该反应物的物品，例如可以将它们插入$(l:bigreactors:reactor/part-solidaccessport)固体访问端口$(/l)。$(br2)以黄铀为例，它可以由$(l:bigreactors:intro/ores)黄铀锭$(/l)获得。青氰在从反应堆中弹出后，则会变成青氰锭。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Some reactants can be produced in the $(l:bigreactors:reprocessor/reprocessing)Reprocessor$(/l) by converting wastes into new fuel sources.$(br2)Each type of Fuel has it's own properties and behave differently inside the Reactor$(br2)Other mods or mod packs can add their own reactants, fuel types and reactants source or modify/remove the default ones.",
+   "有些反应物可以在$(l:bigreactors:reprocessor/reprocessing)再处理器$(/l)中生产，通过将废料转换为新的燃料来源来获得。$(br2)每种燃料都有各自的属性，并且在反应堆中的表现也各不相同。$(br2)其他模组或整合包也可以添加它们自己的反应物、燃料类型和反应物来源，或修改/移除默认内容。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Items that can be used to produce a reactant of the fuel type are marked with a special tooltip that you can see if you want to spoiler yourself and you have enabled the $(italic)Advanced Tooltips$() feature of Minecraft (F3 + H).",
+   "可用于生成燃料类反应物的物品会带有一个特殊提示框。如果你不介意提前知道信息，并且已经启用了 Minecraft 的$(italic)显示高级提示框$()功能（F3 + H），就可以看到它。"
+  ]
+ ]
+}

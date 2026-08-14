@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/puller_1.json",
+ "sha1": "d78e9f3713f4ea1b4070511b06e722e07bf32c79",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Puller Module Mk1",
+   "抽取模块 Mk1"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to pull the first eligible item from the adjacent inventory in its $(l:intro/modules#direction)configured direction/$ into the router's buffer. If the buffer is full or contains something that stacks with nothing in the inventory, nothing will be pulled.",
+   "这个模块会尝试从其$(l:intro/modules#direction)设定方向/$上的相邻容器中，将第一个符合条件的物品拉入路由器缓冲区。如果缓冲区已满，或者其中装着一种无法与目标容器中任何物品堆叠的东西，那就不会拉取任何物品。"
+  ]
+ ]
+}

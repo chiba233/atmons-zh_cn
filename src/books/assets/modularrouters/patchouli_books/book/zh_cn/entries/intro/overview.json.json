@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/overview.json",
+ "sha1": "a7497358c919572e27cc619fc451543a111b4808",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Overview",
+   "概览"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Welcome to Modular Routers!$(p)This is a highly flexible mod for moving items around the world in various ways.  With a single block - the $(thing)Modular Router/$ - and one or more plug-in $(thing)modules/$, you can pull items from any inventory, send them to other inventories near & far, place items as blocks, break blocks, drop items into the world, sort items, and much more.",
+   "欢迎使用物品路由器！$(p)这是一款高度灵活的模组，可采用多种方式在世界中搬运物品。仅需一个方块——$(thing)物品路由器/$，再搭配一个或多个插件式$(thing)模块/$，你便可从任意容器中抽取物品，向远近不一的其他容器发送物品，将物品放置为方块，破坏方块，将物品丢入世界，分拣物品，以及实现更多功能。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Think of it like a super-configurable Hopper on steroids.../$",
+   "$(italic)可以把它想象成一个可配置程度极高、强化过的超级漏斗……/$"
+  ]
+ ]
+}

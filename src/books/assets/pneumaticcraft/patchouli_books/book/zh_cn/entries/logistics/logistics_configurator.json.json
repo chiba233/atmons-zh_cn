@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/logistics/logistics_configurator.json",
+ "sha1": "1b69a9974575cfb129738cb483c97b9c2ee1133a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logistics Configurator",
+   "物流配置器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Logistics Configurator's/$ primary purpose is to help out with configuring a $(l:logistics/overview)Logistics System/$.$(p)By $(thing)right-clicking/$ it on any $(l:logistics/frames)Logistic Frame/$ it can configure various filters.$(p)$(thing)Sneak right-clicking/$ removes the frame from the inventory it's attached to.",
+   "$(item)物流配置器/$的主要用途是帮助配置$(l:logistics/overview)物流系统/$。$(p)在任意$(l:logistics/frames)物流框架/$上对它$(thing)右击/$，即可配置各种过滤器。$(p)$(thing)潜行右击/$可将该框架从其所附着的容器中移除。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The $(item)Logistics Configurator/$ can also be used to remove (by $(thing)Sneak right-clicking/$) other attachable gadgets, such as the $(l:semiblocks/transfer_gadget)Transfer Gadget/$ and the $(l:semiblocks/crop_support)Crop Support/$.",
+   "$(item)物流配置器/$也可以用于移除其他可附加的小装置（方法是$(thing)潜行右击/$），例如$(l:semiblocks/transfer_gadget)传输装置/$和$(l:semiblocks/crop_support)作物架/$。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Logistics Configurator",
+   "合成物流配置器"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "getting_started": {
+    "name": "📕 起步",
+    "icon": null
+  },
+  "multiblocks.mdx": {
+    "name": "多方块结构",
+    "icon": null
+  },
+  "addons.mdx": {
+    "name": "插件",
+    "icon": null
+  },
+  "particle_accelerator.mdx": {
+    "name": "粒子加速器",
+    "icon": null
+  },
+  "reactor": {
+    "name": "☢ 核反应堆",
+    "icon": null
+  }
+}

@@ -1,0 +1,46 @@
+window {
+    size(190,110)
+    panel('','vertical') {
+        bgthickness(2)
+        energybar('energybar') {
+            desired(-1,12)
+            bgthickness(1)
+            horizontal(true)
+        }
+        label('','最近5秒平均值：') {
+            horizalign('ALIGN_LEFT')
+        }
+        panel('','horizontal') {
+            label('','获得：') {
+                desired(70,-1)
+            }
+            textfield('lastrft') {
+                desired(90,14)
+            }
+        }
+        panel('','horizontal') {
+            label('','丢失：') {
+                desired(70,-1)
+            }
+            textfield('lastlost') {
+                desired(90,14)
+            }
+        }
+        panel('','horizontal') {
+            label('','发射：') {
+                desired(70,-1)
+            }
+            textfield('lastlaunched') {
+                desired(90,14)
+            }
+        }
+        panel('','horizontal') {
+            label('','几率：') {
+                desired(70,-1)
+            }
+            textfield('lastopp') {
+                desired(90,14)
+            }
+        }
+    }
+}

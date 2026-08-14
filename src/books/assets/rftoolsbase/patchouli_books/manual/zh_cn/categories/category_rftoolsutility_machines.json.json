@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsutility_machines.json",
+ "sha1": "b46f415d51198e9d2a1a70c4bac86ee5e8229100",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "All the machines in this mod",
+   "这个模组中的所有机器"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Machines",
+   "机器"
+  ]
+ ]
+}

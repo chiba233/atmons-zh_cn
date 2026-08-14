@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/basics/latex_processing_unit.json",
+ "sha1": "26141cc24976377853aa85664982971bde1d0eb3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Latex Processing Unit",
+   "胶乳加工机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Latex Processing Unit will use $(6)750$()mb of $(l:basics/latex)Latex$() and $(6)500$()mb of Water to produce 1 $(l:basics/plastic) Dry Rubber$()",
+   "胶乳加工机将消耗$(6)750$()毫巴$(l:basics/latex)乳胶$()和$(6)500$()毫巴$(l:basics/plastic)水$()，以生产1个干橡胶"
+  ]
+ ]
+}

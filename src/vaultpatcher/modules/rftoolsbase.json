@@ -1,0 +1,653 @@
+[
+  {
+    "name": "rftoolsbase_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.builder.client.GuiShapeCard"
+    ],
+    "pairs": [
+      {
+        "key": "Solid",
+        "value": "实心"
+      },
+      {
+        "key": "Hollow",
+        "value": "空心"
+      },
+      {
+        "key": "Shapecard",
+        "value": "塑形卡片"
+      },
+      {
+        "key": "Dim:",
+        "value": "维度："
+      },
+      {
+        "key": "Offset:",
+        "value": "偏移量："
+      },
+      {
+        "key": "Void:",
+        "value": "虚空："
+      },
+      {
+        "key": "Void stone",
+        "value": "虚空石"
+      },
+      {
+        "key": "Void cobble",
+        "value": "虚无圆石"
+      },
+      {
+        "key": "Void dirt",
+        "value": "虚无泥土"
+      },
+      {
+        "key": "Void gravel",
+        "value": "虚无沙砾"
+      },
+      {
+        "key": "Void sand",
+        "value": "虚空沙"
+      },
+      {
+        "key": "Void netherrack",
+        "value": "虚空地狱岩"
+      },
+      {
+        "key": "Void end stone",
+        "value": "虚无末地石"
+      },
+      {
+        "key": "Enable tag matching",
+        "value": "启用标签匹配"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.builder.items.ShapeCardType"
+    ],
+    "pairs": [
+      {
+        "key": "(final cost depends on infusion level)",
+        "value": "（最终成本取决于灌注等级）"
+      },
+      {
+        "key": "(final cost depends on infusion level and block hardness)",
+        "value": "（最终成本取决于灌注等级和方块硬度）"
+      },
+      {
+        "key": "This item can be configured as a shape. You",
+        "value": "此物品可配置为形状。你"
+      },
+      {
+        "key": "can then use it in the shield projector to make",
+        "value": "然后可在护盾投影仪中使用它来制作"
+      },
+      {
+        "key": "a shield of that shape or in the builder to",
+        "value": "该形状的护盾或在建造器中"
+      },
+      {
+        "key": "actually build the shape",
+        "value": "实际构建形状"
+      },
+      {
+        "key": "This item will cause the builder to void",
+        "value": "此物品将导致建筑机器人清空物品"
+      },
+      {
+        "key": "all blocks in the configured space.",
+        "value": "配置区域内的所有方块。"
+      },
+      {
+        "key": "This item will cause the builder to quarry",
+        "value": "该物品将使建造者执行采石作业"
+      },
+      {
+        "key": "all blocks in the configured space and replace",
+        "value": "配置区域内的所有方块并替换为"
+      },
+      {
+        "key": "them with ",
+        "value": "它们与 "
+      },
+      {
+        "key": "Blocks are harvested with silk touch",
+        "value": "方块将以精准采集效果开采"
+      },
+      {
+        "key": "Blocks are harvested with fortune",
+        "value": "方块将以时运效果开采"
+      },
+      {
+        "key": "all blocks in the configured space",
+        "value": "配置区域内的所有方块"
+      },
+      {
+        "key": "This item will cause the builder to collect",
+        "value": "该物品会使建造者收集"
+      },
+      {
+        "key": "all liquids in the configured space.",
+        "value": "配置区域内的所有液体。"
+      },
+      {
+        "key": "The liquid will be replaced with ",
+        "value": "液体将被替换为"
+      },
+      {
+        "key": "The liquid will be removed from the world",
+        "value": "液体将从世界中移除"
+      },
+      {
+        "key": "This item will cause the builder to place",
+        "value": "此物品将使建造者放置"
+      },
+      {
+        "key": "liquids from an tank on top/bottom into the world.",
+        "value": "来自上方或下方容器中的流体到世界中。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.mover.items.VehicleControlModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Vehicle control module is cleared",
+        "value": "载具控制模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Label color",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Button text",
+        "value": "按钮文本"
+      },
+      {
+        "key": "Button color",
+        "value": "按钮颜色"
+      },
+      {
+        "key": "Name of the mover",
+        "value": "传运器的名称"
+      },
+      {
+        "key": "Name of the vehicle",
+        "value": "载具名称"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.mover.items.VehicleStatusModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Vehicle control module is cleared",
+        "value": "载具控制模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Label color",
+        "value": "标签颜色"
+      },
+      {
+        "key": "Name of the vehicle",
+        "value": "载具名称"
+      },
+      {
+        "key": "Mover color",
+        "value": "移动器颜色"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiComposer"
+    ],
+    "pairs": [
+      {
+        "key": "Composer",
+        "value": "构建器"
+      },
+      {
+        "key": "Open the shape card editor",
+        "value": "打开塑形卡片编辑器"
+      },
+      {
+        "key": "Drag left mouse button to rotate",
+        "value": "按住鼠标左键拖动以旋转"
+      },
+      {
+        "key": "Shift drag left mouse to pan",
+        "value": "按住Shift键并拖动鼠标左键以平移"
+      },
+      {
+        "key": "Use mouse wheel to zoom in/out",
+        "value": "使用鼠标滚轮放大/缩小"
+      },
+      {
+        "key": "Use middle click to reset rotation",
+        "value": "使用鼠标中键重置旋转值"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiProjector"
+    ],
+    "pairs": [
+      {
+        "key": "Projector",
+        "value": "投影仪"
+      },
+      {
+        "key": "Angle",
+        "value": "角度"
+      },
+      {
+        "key": "Offset",
+        "value": "偏移量"
+      },
+      {
+        "key": "Scale",
+        "value": "缩放"
+      },
+      {
+        "key": "Automatic client-side rotation",
+        "value": "自动客户端旋转"
+      },
+      {
+        "key": "Enable visual scanlines when the scan refreshes",
+        "value": "扫描刷新时启用视觉扫描线"
+      },
+      {
+        "key": "Enable sound during visual scan",
+        "value": "视觉扫描期间启用声音"
+      },
+      {
+        "key": "Enable grayscale mode",
+        "value": "启用灰度模式"
+      },
+      {
+        "key": "Render baked block models in the world",
+        "value": "在世界中渲染烘焙后的方块模型"
+      },
+      {
+        "key": "instead of solid projected cubes",
+        "value": "而非实体投射方块"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Scanner",
+        "value": "模式扫描机"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.shield.client.GuiShield"
+    ],
+    "pairs": [
+      {
+        "key": "Down",
+        "value": "下"
+      },
+      {
+        "key": "Looting:",
+        "value": "抢夺:"
+      },
+      {
+        "key": "Color for the shield",
+        "value": "盾牌的颜色"
+      },
+      {
+        "key": "If pressed, light is blocked",
+        "value": "按下时，光线会被阻挡"
+      },
+      {
+        "key": "by the shield",
+        "value": "被盾牌格挡"
+      },
+      {
+        "key": "Optional player name",
+        "value": "可选的玩家名称"
+      },
+      {
+        "key": "Add selected filter",
+        "value": "添加所选筛选器"
+      },
+      {
+        "key": "Delete selected filter",
+        "value": "删除所选筛选器"
+      },
+      {
+        "key": "Move filter up",
+        "value": "向上移动筛选器"
+      },
+      {
+        "key": "Move filter down",
+        "value": "向下移动筛选器"
+      },
+      {
+        "key": "Insert dimensional shards",
+        "value": "插入次元裂片"
+      },
+      {
+        "key": "for looting bonus",
+        "value": "用于掠夺加成"
+      },
+      {
+        "key": "Shield is completely invisible",
+        "value": "盾牌完全不可见"
+      },
+      {
+        "key": "Default shield texture",
+        "value": "默认盾牌纹理"
+      },
+      {
+        "key": "Transparent shield texture",
+        "value": "透明盾牌材质"
+      },
+      {
+        "key": "Solid shield texture",
+        "value": "实心护盾纹理"
+      },
+      {
+        "key": "Use the texture from the supplied block",
+        "value": "使用所提供方块的材质"
+      },
+      {
+        "key": "Entity that matches this filter",
+        "value": "符合此过滤器的实体"
+      },
+      {
+        "key": "can pass through",
+        "value": "可通过"
+      },
+      {
+        "key": "cannot pass",
+        "value": "不可通过"
+      },
+      {
+        "key": "can pass but gets damage",
+        "value": "可以通过，但会受到伤害"
+      },
+      {
+        "key": "cannot pass and gets damage",
+        "value": "无法通过并会受到伤害"
+      },
+      {
+        "key": "Passive",
+        "value": "被动"
+      },
+      {
+        "key": "Hostile",
+        "value": "敌对"
+      },
+      {
+        "key": "Item",
+        "value": "物品"
+      },
+      {
+        "key": "Player",
+        "value": "玩家"
+      },
+      {
+        "key": "Matches everything",
+        "value": "匹配所有内容"
+      },
+      {
+        "key": "Matches passive mobs",
+        "value": "匹配友善生物"
+      },
+      {
+        "key": "Matches hostile mobs",
+        "value": "匹配敌对生物"
+      },
+      {
+        "key": "Matches items",
+        "value": "匹配物品"
+      },
+      {
+        "key": "Matches players",
+        "value": "匹配玩家"
+      },
+      {
+        "key": "(optionally named)",
+        "value": "(可选命名)"
+      },
+      {
+        "key": "Generic damage type",
+        "value": "通用伤害类型"
+      },
+      {
+        "key": "Damage as done by a player",
+        "value": "由玩家造成的伤害"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.shapes.Shape"
+    ],
+    "pairs": [
+      {
+        "key": "Bottom Dome",
+        "value": "底部穹顶"
+      },
+      {
+        "key": "Box",
+        "value": "方块体"
+      },
+      {
+        "key": "Capped Cylinder",
+        "value": "封顶圆柱体"
+      },
+      {
+        "key": "Composition",
+        "value": "组合体"
+      },
+      {
+        "key": "Cone",
+        "value": "圆锥体"
+      },
+      {
+        "key": "Cylinder",
+        "value": "圆柱体"
+      },
+      {
+        "key": "Heart",
+        "value": "心形"
+      },
+      {
+        "key": "Prism",
+        "value": "棱柱体"
+      },
+      {
+        "key": "Scan",
+        "value": "扫描"
+      },
+      {
+        "key": "Sphere",
+        "value": "球体"
+      },
+      {
+        "key": "Top Dome",
+        "value": "顶部穹顶"
+      },
+      {
+        "key": "Torus",
+        "value": "圆环体"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.shapes.ShapeGuiTools"
+    ],
+    "pairs": [
+      {
+        "key": "Enable axis rendering",
+        "value": "启用轴渲染"
+      },
+      {
+        "key": "in the preview",
+        "value": "在预览中"
+      },
+      {
+        "key": "Enable preview of the",
+        "value": "启用预览"
+      },
+      {
+        "key": "outer bounds",
+        "value": "外部边界"
+      },
+      {
+        "key": "Show a visual scanline",
+        "value": "显示可视扫描线"
+      },
+      {
+        "key": "wherever the preview",
+        "value": "无论预览在哪里"
+      },
+      {
+        "key": "is updated",
+        "value": "已更新"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.modules.crafting.client.GuiCraftingCard"
+    ],
+    "pairs": [
+      {
+        "key": "Regular 3x3 crafting recipe",
+        "value": "常规 3×3 合成配方"
+      },
+      {
+        "key": "or more complicated recipes",
+        "value": "或更复杂的配方"
+      },
+      {
+        "key": "Update",
+        "value": "更新"
+      },
+      {
+        "key": "Update the item in the output",
+        "value": "更新输出中的物品"
+      },
+      {
+        "key": "slot to the recipe in the",
+        "value": "配方中的槽位"
+      },
+      {
+        "key": "3x3 grid",
+        "value": "3x3 网格"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.modules.filter.client.GuiFilterModule"
+    ],
+    "pairs": [
+      {
+        "key": "Black",
+        "value": "黑色"
+      },
+      {
+        "key": "White",
+        "value": "白色"
+      },
+      {
+        "key": "Remove",
+        "value": "移除"
+      },
+      {
+        "key": "Expand",
+        "value": "展开"
+      },
+      {
+        "key": "Add tags",
+        "value": "添加标签"
+      },
+      {
+        "key": "Remove current selection",
+        "value": "移除当前选择"
+      },
+      {
+        "key": "Expand item to tags",
+        "value": "将物品展开为标签"
+      },
+      {
+        "key": "Black or whitelist mode",
+        "value": "黑名单或白名单模式"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.api.control.parameters.Parameter$1"
+    ],
+    "pairs": [
+      {
+        "key": "Parameter value is missing",
+        "value": "缺少参数值"
+      },
+      {
+        "key": "Missing parameter type",
+        "value": "缺少参数类型"
+      },
+      {
+        "key": "Unknown parameter function: ",
+        "value": "未知参数函数："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.modules.crafting.items.CraftingCardItem$1"
+    ],
+    "pairs": [
+      {
+        "key": "Crafting Card",
+        "value": "合成卡"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.modules.filter.items.FilterModuleItem$1"
+    ],
+    "pairs": [
+      {
+        "key": "Filter Module",
+        "value": "存储过滤模块"
+      }
+    ]
+  }
+]

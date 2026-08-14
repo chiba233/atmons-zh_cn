@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolspower_powergeneration.json",
+ "sha1": "342cea925ab6fd2433eeae87b82e40e964adcd0b",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Machines that can generate power.",
+   "能够产生能量的机器。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Power Generation",
+   "发电"
+  ]
+ ]
+}

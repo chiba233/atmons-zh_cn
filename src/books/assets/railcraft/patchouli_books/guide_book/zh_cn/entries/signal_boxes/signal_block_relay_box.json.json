@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/signal_boxes/signal_block_relay_box.json",
+ "sha1": "baae7b0647476cb4de4cddf3c3d982c4b40996fd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Block Relay Box",
+   "信号中继器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Signal Block Relay Box can be paired with up to two other Block Signals or Relays. It can used as either an end cap to a Signal Block or an extender. When being used as an extender it is possible to use it to wrap Signal Blocks around corners and have it function as a single Signal Block.",
+   "信号中继器最多可与另外两个信号机或中继器配对。它既可用作信号机的末端封口，也可作为延伸组件。当用作延伸组件时，您可借助它使信号机绕过拐角，并使其功能等同于单个信号机。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Additionally, the Relay can be configured to emit Redstone and acts as a Controller. It can also be placed adjacent to Signal Controller Boxes and Signal Capacitor Boxes in the same manner as a Signal Receiver Box.",
+   "此外，该中继器还可配置为输出红石信号，并充当控制器。它亦可像信号接收器一样，紧邻信号控制器与信号电容器放置。"
+  ]
+ ]
+}

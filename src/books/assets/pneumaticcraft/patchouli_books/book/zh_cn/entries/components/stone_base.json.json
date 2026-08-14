@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/stone_base.json",
+ "sha1": "301d3a765dd17bc18b130837d1c8e774636f416e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Stone Base",
+   "石头基座"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Stone Base",
+   "合成石头基座"
+  ]
+ ]
+}

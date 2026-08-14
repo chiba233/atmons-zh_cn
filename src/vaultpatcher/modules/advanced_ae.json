@@ -1,0 +1,39 @@
+[
+  {
+    "name": "advanced_ae_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.pedroksl.advanced_ae.xmod.Addons"
+    ],
+    "pairs": [
+      {
+        "key": "Extended AE",
+        "value": "AE2扩展"
+      },
+      {
+        "key": "Applied Mekanistics",
+        "value": "应用能源：通用机械附属"
+      },
+      {
+        "key": "Applied Flux",
+        "value": "应用通量"
+      },
+      {
+        "key": "Inventory Tweaks",
+        "value": "物品栏调整"
+      },
+      {
+        "key": "Dark Mode Everywhere",
+        "value": "夜间模式无处不在"
+      },
+      {
+        "key": "Apothic Enchanting",
+        "value": "神化附魔"
+      }
+    ]
+  }
+]

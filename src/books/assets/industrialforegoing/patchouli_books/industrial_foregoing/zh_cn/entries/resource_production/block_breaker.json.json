@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/block_breaker.json",
+ "sha1": "c7b584633bcfe6eb8e3d8983fc589d6911009b81",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Block Breaker",
+   "方块破坏器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Breaks any block in front of it and places it in the internal inventory, at the cost of $(6)1000$()RF per operation.",
+   "破坏其前方任意方块，并将其存入内部容器，每次操作消耗$(6)1000$()RF。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/redstone_receiver.json",
+ "sha1": "a6f9e647f71c1bf8df3f819094a0f113d1b595f4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Receiver",
+   "红石信号接收器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This block will receive a redstone signal from a linked redstone transmitter. To link this receiver with a transmitter right-select the transmitter (or another linked receiver) with this block. Enabling 'analog mode' causes the power level of transmitted signals to be preserved at the receiving end",
+   "这个方块会从已链接的红石发射器接收红石信号。要将此接收器与发射器链接，请用该方块对发射器（或另一个已链接的接收器）进行右键选择。启用“模拟模式”后，传输信号的功率等级会在接收端得到保留。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Use a $(l:rftoolsbase:logic/redstone_transmitter)Redstone Transmitter$(/l) or a Button Module in a $(l:rftoolsbase:machines/screen)Screen$(/l) to send redstone signals",
+   "使用一个$(l:rftoolsbase:logic/redstone_transmitter)红石信号发信器$(/l)或一个按钮模块，将其放入$(l:rftoolsbase:machines/screen)屏幕$(/l)中以发送红石信号"
+  ]
+ ]
+}

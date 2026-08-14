@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/logistics/logistics_core.json",
+ "sha1": "da5c362a2e658f84c5abb1f71130bfbd70853572",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logistics Core",
+   "物流核心"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a base crafting component for all $(l:logistics/overview)Logistics/$-related items and devices.",
+   "这是所有与 $(l:logistics/overview)物流/$ 相关的物品和设备的基础合成组件。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Logistics Core",
+   "合成物流核心"
+  ]
+ ]
+}

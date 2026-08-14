@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-solidaccessport.json",
+ "sha1": "6bbf65cadd6ab16385e82dc93e1137d8a5ce0d65",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Solid Access Port",
+   "固体访问端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Solid Access Port converts solid materials (usually ingots) into fuel reactants that will fill your $(l:bigreactors:reactor/part-fuelrod)Fuel Rods$(/l) and power your Reactor.$(br2)In the graphical interface you can set the Port mode: in $(bold)inlet mode$() the Port will accept fuel source materials, in $(bold)outlet mode$() it will output waste.",
+   "固体访问端口会将固体材料（通常是锭）转换为燃料反应物，用来填充你的$(l:bigreactors:reactor/part-fuelrod)燃料棒$(/l)并为反应堆供能。$(br2)你可以在图形界面中设置端口模式：在$(bold)入口模式$()下，端口会接收燃料源材料；在$(bold)出口模式$()下，它会输出废料。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Solid Access Port",
+   "固体访问端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A $(l:bigreactors:misc/wrench)wrench$(/l) can be used to change the Port mode.$(br2)The graphical interface can also be used to insert and extract materials manually.$(br2)The Solid Access Port is a quick solution to add fuel to your Reactor but, like every quick solution ever, it is not perfect and a small material loss is unavoidable.",
+   "你可以使用$(l:bigreactors:misc/wrench)扳手$(/l)切换端口模式。$(br2)图形界面也可用于手动插入和提取材料。$(br2)固体访问端口是向反应堆添加燃料的快捷方案，但就像所有快捷方案一样，它并不完美，少量材料损耗是无法避免的。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() no, but you will need a couple anyway$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes$(br)$(l)Wrench:$() a $(l:bigreactors:misc/wrench)wrench$(/l) can be used to toggle the Port mode.",
+   "$(l)必需：$()否，但无论如何你都需要几个$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是$(br)$(l)扳手：$()可以使用$(l:bigreactors:misc/wrench)扳手$(/l)切换端口模式。"
+  ]
+ ]
+}

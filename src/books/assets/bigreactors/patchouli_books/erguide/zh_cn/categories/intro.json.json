@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/intro.json",
+ "sha1": "a821d77d2a9bdf1b9aa8c9cb074bbc1a0fe1e777",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This section contains all you need to know to build your first Reactor and start producing energy.",
+   "本节包含建造你的第一座反应堆并开始生产能量所需了解的一切。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "The Beginning",
+   "革命的开端"
+  ]
+ ]
+}

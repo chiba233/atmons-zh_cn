@@ -1,0 +1,22 @@
+window {
+    size(200,30)
+
+    bind('counter','counter')
+    bind('current','current')
+
+    panel('','vertical') {
+        bgthickness(2)
+        panel('','horizontal') {
+            label('','计数器：')
+            integerfield('counter') {
+                channel('counter')
+                tooltips('将计数器设置为脉冲数')
+            }
+            label('','当前：')
+            integerfield('current') {
+                channel('current')
+                tooltips('设置当前值','（当计数达到设定值时触发）')
+            }
+        }
+    }
+}

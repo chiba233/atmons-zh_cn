@@ -1,0 +1,85 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-redstoneport.json",
+ "sha1": "0ea6136af36ebca97e7e213db8fe05a13b93736f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Port",
+   "红石端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Redstone Port allows you to automate your Turbine using Redstone.$(br2)Open the Port graphical interface to configure it. You can then choose between three input settings (that listen for a Redstone signal) and four output ones (that emit a Redstone signal).",
+   "红石端口允许你使用红石来自动化你的涡轮机。$(br2)打开端口的图形界面即可进行配置。之后，你可以在三种输入设置（侦听红石信号）和四种输出设置（发出红石信号）之间进行选择。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Redstone Port",
+   "红石端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(bold)Input settings$()$(br2)Perform one of the following actions when a Redstone signal is received$(br2)$(li)$(o)On / Off :$() turn the Turbine on or off depending on the signal received$(li)$(o)Induction Coils :$() engage or disengage the induction coils$(li)$(o)Flow Rate :$() change the maximum flow rate of vapor inside the Turbine.",
+   "$(bold)输入设置$()$(br2)当接收到红石信号时，执行以下操作之一$(br2)$(li)$(o)开 / 关：$()根据接收到的信号开启或关闭涡轮机$(li)$(o)感应线圈：$()接合或脱开感应线圈$(li)$(o)流量：$()改变涡轮机内部蒸汽的最大流量。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(bold)Output settings$()$(br2)Emit a Redstone signal when one of the following conditions are meet$(br2)$(li)$(o)Rotor Speed :$() the speed of the Turbine rotor is above, below or in between a given value$(li)$(o)Coolant amount :$() the amount of coolant in the Turbine is above, below or in between a given value$(li)$(o)Vapor amount :$() the amount of vapor in the Turbine is above, below or in between a given value",
+   "$(bold)输出设置$()$(br2)当满足以下条件之一时发出红石信号$(br2)$(li)$(o)转子速度：$()涡轮机转子的转速高于、低于或处于给定数值区间内$(li)$(o)冷却液数量：$()涡轮机中的冷却液量高于、低于或处于给定数值区间内$(li)$(o)蒸汽数量：$()涡轮机中的蒸汽量高于、低于或处于给定数值区间内"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)$(o)Energy Stored :$() the amount of energy stored in the internal energy buffer is above, below or in between a given value.$(br2)You will usually need two or more Redstone Port to fully automate a Turbine.$(br2)For more complex automations, check the $(l:bigreactors:turbine/part-computerport)Computer Port$(/l).",
+   "$(li)$(o)能源储量：$()内部能量缓冲区中储存的能量高于、低于或处于给定数值区间内。$(br2)要想完全自动化一台涡轮机，你通常需要两个或更多红石端口。$(br2)如果你想实现更复杂的自动化，请查看$(l:bigreactors:turbine/part-computerport)计算机端口$(/l)。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

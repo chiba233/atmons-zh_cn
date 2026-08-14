@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/fluid_sieving_machine.json",
+ "sha1": "af8c7483a08cdef27546eacbf9f22d612736259a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Sieving Machine",
+   "流体筛分机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Using fermented ore meat and sand this machine will turn that meat into dust from the ore that it was first created.",
+   "使用发酵矿物肉汤和沙子，这台机器会将该肉汤转化为最初对应矿石的粉。"
+  ]
+ ]
+}

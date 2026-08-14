@@ -1,0 +1,76 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/building/_meta.json",
+ "sha1": "3801e1e0c74e8edfab3c516b5934835caf5f84ba",
+ "t": [
+  [
+   [
+    "ceiling_light.mdx"
+   ],
+   "Ceiling Light",
+   "吸顶灯"
+  ],
+  [
+   [
+    "hangar_door.mdx"
+   ],
+   "Hangar Door",
+   "机库门"
+  ],
+  [
+   [
+    "industrial_glass_block.mdx"
+   ],
+   "Industrial Glass",
+   "工业玻璃"
+  ],
+  [
+   [
+    "industrial_paints.mdx"
+   ],
+   "Industrial Paints",
+   "工业涂料"
+  ],
+  [
+   [
+    "machine_plating_block.mdx"
+   ],
+   "Machine Plating Blocks",
+   "机器护板方块"
+  ],
+  [
+   [
+    "metal_beam_block.mdx"
+   ],
+   "Metal Beam",
+   "金属梁"
+  ],
+  [
+   [
+    "metal_girder_block.mdx"
+   ],
+   "Metal Girder",
+   "金属梁"
+  ],
+  [
+   [
+    "tech_button.mdx"
+   ],
+   "Industrial Button",
+   "工业按钮"
+  ],
+  [
+   [
+    "tech_door.mdx"
+   ],
+   "Industrial Door",
+   "工业门"
+  ],
+  [
+   [
+    "tech_lever.mdx"
+   ],
+   "Industrial Lever",
+   "工业拉杆"
+  ]
+ ]
+}

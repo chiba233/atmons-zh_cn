@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/priority.json",
+ "sha1": "a2b48e1dbc7bd98fea09d5cef6e278a9ee2fba5a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Priority",
+   "优先级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Priority is only available on Inserter Mode.$(br2)Priority allows you to control the order upon which inserter cards are operated. By default, Inserter cards operate on a 'nearest first' mode, which means that extractors attempt to insert into the nearest inventory first.",
+   "优先级仅在输入模式可用。$(br2)优先级可以控制各卡运行的顺序。默认情况下，输入卡遵循“最近优先”原则，也即提出的物品等会优先输入距离最近的存储空间。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "By changing an Inserter Card's priority setting, you can adjust which inventory should be inserted into first. The highest priority inserter will be the first on the list, for example: Priority 10 is higher than 0, which is higher than -10. $(br2)If multiple inventories have the same priority they will be 'Nearest First'.",
+   "修改输入卡的优先级设置，就能调整哪个存储空间优先被输入。优先级最高的输入卡第一个输出物品，例如：优先级 10 比优先级 0 高，优先级 0 又比优先级 -10 高。$(br2)同优先级的存储空间遵循“最近优先”原则。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Left click on this value to increase it by 1. Right click to decrease it. Holding shift will multiply the change amount by 10, while holding control will multiply the change amount by 64.$(br2)These can be combined, meaning holding shift+ctrl will multiply by 640.$(br2)For example, shift right click will decrement by 10.",
+   "左击优先级增加 1，右击减少 1。按住 Shift 点击会以 10 的倍数调整优先级，按住 Ctrl 则以 64 的倍数进行调整。$(br2)当然也可以同时按住 Shift 和 Ctrl，以 640 的倍数进行调整。$(br2)例如，按住 Shift 右击会将优先级减少 10。"
+  ]
+ ]
+}

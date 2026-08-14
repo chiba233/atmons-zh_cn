@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/builder/space_chambers.json",
+ "sha1": "b4c0498a08d7fb6692cc5ce90afacd1ab574b92a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Space Chambers",
+   "空间方块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A space chamber marks a volume that the Builder or Vehicle Builder can copy or move. Use chamber blocks and one controller to define the chamber.",
+   "空间方块标记出建筑机或载具建造机可复制或移动的体积范围。请使用空间方块与一个控制器共同定义该空间。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Sneak-right-click the controller with a Space Card to store its channel. Right-click the card in air to inspect chamber contents.",
+   "潜行右键点击控制器并手持空间卡，可保存其频道信息；在空中右键点击该空间卡，则可检视其所定义空间的内容。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Support Blocks are temporary helper blocks used by scans and builds. They are intentionally lightweight and can be cleared when no longer needed.",
+   "支撑块是在扫描与构建过程中使用的临时辅助方块。它们本身轻量化设计，无需时可随时清除。"
+  ]
+ ]
+}

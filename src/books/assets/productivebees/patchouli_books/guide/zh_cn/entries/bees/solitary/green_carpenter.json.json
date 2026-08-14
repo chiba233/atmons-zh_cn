@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/green_carpenter.json",
+ "sha1": "c9a4a94793126d8ccc1741d5169f9c8a85fad862",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Green Carpenter Bee",
+   "绿色木匠蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Xylocopa aerata]",
+   "[绿木蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Green Carpenter Bee",
+   "绿色木匠蜜蜂"
+  ]
+ ]
+}

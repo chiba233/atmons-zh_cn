@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/draconic.json",
+ "sha1": "0f32c4e6b0c3bf7b8cb083e909d325c6f67e2dc6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Draconic Bee",
+   "末影龙蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Rarely found living in obsidian pillars on the main island in the end. Draconic Bees pollinate by flying around in the end collecting nectar from the air. The will also nibble on dragon eggs if they get the chance.",
+   "极少会在末地主岛的黑曜石柱中发现。末影龙蜜蜂通过在末地中飞行、从空气中收集花蜜来授粉。如果有机会，它们还会啃食龙蛋。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Draconic Bee",
+   "末影龙蜜蜂"
+  ]
+ ]
+}

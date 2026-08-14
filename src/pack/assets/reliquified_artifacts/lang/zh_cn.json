@@ -1,0 +1,5 @@
+{
+  "relics.description.bunny_hoppers.synergy.cloud_jump": "踏云续跃",
+  "relics.description.bunny_hoppers.synergy.cloud_jump.description": "云朵瓶每执行 1 次额外跳跃，兔子跳便会重新就绪。",
+  "relics.description.cloud_in_a_bottle.synergy.cloud_burst.description": "每次额外跳跃有 %1$s%% 的几率自动触发整蛊坐垫的能力。"
+}

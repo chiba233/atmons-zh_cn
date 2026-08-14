@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/stuff/pollen_sifter.json",
+ "sha1": "e7609a9fab6aec6f5e0ab1b3cd409810ee9e4f34",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "pollen_sifter",
+   "花粉筛"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Extracts pollen from leaves.",
+   "从树叶中提取花粉。"
+  ]
+ ]
+}

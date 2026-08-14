@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/incubator.json",
+ "sha1": "3a765b6dbe2a72c24013df5518c42e84f89edf22",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Incubator",
+   "孵化器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Tired of waiting for those tiny fragile babees to grow up? Use the incubator to speed up the process. Simply put the BaBee in a cage, and insert it in into the incubator together with a bunch of honey treats.",
+   "等那些脆弱的幼年蜂长大是不是等烦了？使用孵化器来加快这个过程吧。只需把幼年蜂装进蜂笼中，再连同一堆蜜蜂小食一起放入孵化器即可。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Another use for the Incubator is to infuse an egg with a specific bee type $(l:genetics/collecting#crystalline)gene$(/l) to get a spawn egg of that bee type. The bee type gene you obtain through the genetics setup.$(br)Only the type gene will be used when making a spawn egg. Any additional genes on the honey treat will be lost",
+   "孵化器的另一个用途，是将特定蜜蜂类型的$(l:genetics/collecting#crystalline)基因$(/l)灌注进一个蛋中，从而获得对应蜜蜂类型的刷怪蛋。蜜蜂类型基因可以通过基因工程流程获得。$(br)制作刷怪蛋时只会使用类型基因，蜜蜂小食上的其他额外基因都会丢失"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_redstone.json",
+ "sha1": "ec45d1d9797a92effda44bb746d3c283db6b99ec",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Cards",
+   "红石卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Redstone cards are used to transmit redstone signals across the entire LaserIO network. $(br2)Redstone cards have a dedicated 'redstone channel', separate from the channels that other cards use. ",
+   "红石卡用于在整个 LaserIO 网络中传输红石信号。$(br2)红石卡有专属的“红石频道”设置，与其他物流卡的频道相互独立。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Redstone cards have 2 modes:$(br2)$(bold)Input$()$(br)Input mode will accept a redstone signal from something like redstone dust, a lever, or a button, and transmit it across the network on the redstone channel configured on the card.$(br2)$(bold)Output$()$(br)Output will emit a redstone signal to blocks like redstone dust, lamp, or repeaters.",
+   "红石卡有两个模式：$(br2)$(bold)输入$()$(br)处于输入模式时，红石卡会接受红石粉、拉杆、按钮等外界红石信号，并在卡内设置的红石频道上传输该信号。$(br2)$(bold)输出$()$(br)处于输出模式时，红石卡会向红石粉、红石灯、红石中继器等外界方块传出信号。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Output mode has a toggle for Weak vs Strong. In weak mode, only directly adjacent blocks like redstone will get the signal, similar to how redstone dust works.$(br2)In strong mode the redstone signal can transmit through an adjacent block and affect the block on the other side, like how levers work.",
+   "输出模式可调整信号的强弱。弱信号模式下，仅节点毗邻的方块会被充能，和红石粉类似。$(br2)强信号模式下，与节点毗邻的方块能进一步给它的毗邻方块充能，和拉杆类似。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "All cards have a redstone mode toggle, which defaults to ignored, meaning the cards will always operate.$(br2)If set to low, the cards will only function when there is NOT a redstone signal on the redstone channel (the channel button is to the right of the redstone toggle).$(br2)On redstone high mode, the cards will only operate when there IS a redstone signal on the redstone channel.",
+   "所有物流卡都有一个“红石模式”设置，默认为“忽略”，也即该卡会一直运行。$(br2)若设为“低”，则该卡仅会在其红石频道内$(l)无$()信号时工作。（红石频道按钮在红石控制按钮右侧。）$(br2)若设为“高”，则该卡仅会在其红石频道内有信号时工作。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Redstone Card",
+   "红石卡"
+  ]
+ ]
+}

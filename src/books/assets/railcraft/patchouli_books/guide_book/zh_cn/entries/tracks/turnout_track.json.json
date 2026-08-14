@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/turnout_track.json",
+ "sha1": "55d9a7fc1ebf52e6d2902d8a8c3b38f1f2dfeb4f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Turnout Track",
+   "分岔轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Switch Rails allow you move minecarts from one rail line to another. They differ from vanilla Minecraft switches in that they allow you to either go straight or to turn, instead of either turning left or right.",
+   "转辙铁轨可使矿车从一条轨道线转移至另一条。与原版Minecraft转辙器不同，它支持直行或转向两种选择，而非仅限左转或右转。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "However, they cannot be operated directly by redstone. To do that you need a Switch Motor. The Switch Motor must be placed opposite the turnout. Alternatively, if you only want a manual switch, you can use a Switch Lever.$(br2)Minecarts approaching from the Diverging Line will temporally spring the switch regardless of its current setting, allowing them to traverse the switch without the need to manually realign it.",
+   "然而，它无法直接由红石控制。如需实现红石控制，您需配备红石变道器。红石变道器必须安装在岔道口对面。或者，若您仅需手动切换，可使用转辙致动器拉杆。$(br2)从分岔线路驶来的矿车，无论当前转辙器处于何种设定，均会临时触发转辙动作，从而无需人工重新校准即可顺利通过。"
+  ]
+ ]
+}

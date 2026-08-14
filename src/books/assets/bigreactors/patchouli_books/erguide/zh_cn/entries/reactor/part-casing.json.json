@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-casing.json",
+ "sha1": "b70cbdfbcab3d88094c56d6ac705f17e2bb8cb04",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Casing blocks are the building blocks of the Reactor.$(br2)They are required to build its frame and are also used to craft the other parts. Casing blocks can also be used to fill the faces of the Reactor if you don't like glass too much.$(br2)You will craft a ton of them.",
+   "机壳方块是构成反应堆的基础方块。$(br2)它们是建造其框架的必需部分，也用于合成其他部件。如果你不太喜欢玻璃，也可以用机壳方块填充反应堆的各个面。$(br2)你会合成出一大堆它们。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() they are required to build the frame$(br)$(l)Valid positions:$() any$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()它们是构建框架的必需部分$(br)$(l)有效位置：$()任意位置$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

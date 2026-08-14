@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-controlrod.json",
+ "sha1": "c147645f91aad7720b7fa2b528540fb911775a0f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Control Rod",
+   "控制杆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Control Rods can be inserted into their respective $(l:bigreactors/part-fuelrod)Fuel Rods$(/l) pile and are made of a material that can absorb neutron radiation, which would otherwise hit the reactants stored in the $(l:bigreactors/part-fuelrod)Fuel Rods$(/l), thereby slowing down or stopping the consumption of fuel and the generation of heat and waste.",
+   "控制棒可以插入其对应的$(l:bigreactors/part-fuelrod)燃料棒$(/l)柱中，并由一种能够吸收中子辐射的材料制成。否则，这些辐射会击中储存在$(l:bigreactors/part-fuelrod)燃料棒$(/l)中的反应物，从而减缓或阻止燃料消耗、热量产生以及废料生成。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Control Rod",
+   "控制杆"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Right-click on a Control Rod to open its graphical user interface.$(br2)In the interface, you can assign a name to the Control Rod that can later be used to reference this specific Control Rod while using the $(l:bigreactors/part-computerport)Computer Port$(/l) to manage the Reactor.$(br2)The insertion percentage specifies how much the Control Rod is inserted into its $(l:bigreactors/part-fuelrod)Fuel Rod$(/l) pile. You can change the value for only this Control Rod or for all of them.",
+   "右键点击控制棒即可打开它的图形界面。$(br2)在该界面中，你可以为控制棒指定一个名称，之后在使用$(l:bigreactors/part-computerport)计算机端口$(/l)管理反应堆时，就能通过这个名称来引用这根特定的控制棒。$(br2)插入百分比表示控制棒插入其$(l:bigreactors/part-fuelrod)燃料棒$(/l)柱的深度。你可以只修改这一根控制棒的数值，也可以同时修改全部控制棒。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() all on a single face, following a Fuel Rod$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()是$(br)$(l)有效位置：$()全部位于同一面，并接在燃料棒之后$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "gui.functionalstorage.fluid_drawer_hint": "流体抽屉",
+  "gui.functionalstorage.fluid_drawer_hint.empty": "%s：将容器中的流体倒入抽屉",
+  "gui.functionalstorage.fluid_drawer_hint.fill": "%s：用抽屉中的流体填充容器",
+  "gui.functionalstorage.priority": "优先级",
+  "gui.functionalstorage.armory_search": "搜索"
+}

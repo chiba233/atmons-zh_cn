@@ -1,0 +1,30 @@
+{
+ "src": "assets/oracle_index/books/oracle-index/docs/_meta.json",
+ "sha1": "834163fb68996e311e2e1db0af092d32216879cf",
+ "t": [
+  [
+   [
+    "developer",
+    "name"
+   ],
+   "⌨ Mod Dev Guide",
+   "⌨ 模组开发指南"
+  ],
+  [
+   [
+    "search.mdx",
+    "name"
+   ],
+   "🔍 Smart Search",
+   "🔍 智能搜索"
+  ],
+  [
+   [
+    "user_guide.mdx",
+    "name"
+   ],
+   "📗 User Guide",
+   "📗 用户指南"
+  ]
+ ]
+}

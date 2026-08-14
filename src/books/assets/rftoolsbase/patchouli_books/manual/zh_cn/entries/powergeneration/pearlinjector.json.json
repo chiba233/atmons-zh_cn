@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powergeneration/pearlinjector.json",
+ "sha1": "ae8da3e860988f8b6598d0bc6a48af52b5b0eecd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pearl Injector",
+   "末影珍珠填充器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Pearl Injector inserts ender pearls into an $(l:rftoolsbase:powergeneration/endergenic)Endergenic Generator$(/l). Place it facing the generator or directly below it.",
+   "末影珍珠填充器可将末影珍珠注入$(l:rftoolsbase:powergeneration/endergenic)末影能发电机$(/l)。请将其朝向发电机放置，或直接置于发电机正下方。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "On a redstone pulse it converts one ender pearl into an endergenic pearl and injects it. If the target generator is already holding a pearl, the new pearl is lost.",
+   "在红石脉冲触发下，它将一枚末影珍珠转化为末影能珍珠并注入发电机。若目标发电机已持有珍珠，则新珍珠将被丢弃。"
+  ]
+ ]
+}

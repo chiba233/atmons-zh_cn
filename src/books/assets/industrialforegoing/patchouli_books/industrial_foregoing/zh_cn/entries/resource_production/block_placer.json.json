@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/block_placer.json",
+ "sha1": "27c0951814303593ec30854ac92ef5dd8e30cd44",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Block Placer",
+   "方块放置器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "It places blocks.$(br2)It will place the blocks from the internal container and use $(6)1000$()RF.",
+   "它可以放置方块。$(br2)它会放置内部容器中的方块，并消耗 $(6)1000$()RF。"
+  ]
+ ]
+}

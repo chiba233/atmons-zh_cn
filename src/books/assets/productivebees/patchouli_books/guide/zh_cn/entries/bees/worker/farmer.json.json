@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/farmer.json",
+ "sha1": "8825e873f392ba72dddd20b3c016fea20693113a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Farmer Bee",
+   "农夫蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Will harvest nearby crops and leave the produce on the ground. It operates in a 4 block radius around it's home hive which can be increased with range upgrades. If you have a mod that adds right click harvest, the bee will do exactly that.",
+   "会收获附近的作物，并把产物留在地上。它会以自己的蜂巢为中心，在 4 格半径内工作，这个范围可以通过升级：范围提升。如果你安装了支持右键收获的模组，这种蜜蜂也会这样做。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Farmer Bee",
+   "农夫蜜蜂"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/genetics/collecting.json",
+ "sha1": "ccc8046f264a9d05c32e14935cd566a213567956",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Collecting Genes",
+   "收集基因"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The bottler together with a piston can be used to bottle up bees. Place a bee in the middle and pull the lever. Make sure the bottler has empty bottles inside. Throw the bottled bee in a centrifuge to separate the useful stuff from the junk.",
+   "装瓶机配合活塞可以用来把蜜蜂装进瓶子里。将蜜蜂放在中间，然后拉下拉杆。确保装瓶机内有空瓶。把装瓶后的蜜蜂丢进离心机中，就能把有用的东西和废料分离开。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Bee Bottler",
+   "蜜蜂装瓶机"
+  ]
+ ]
+}

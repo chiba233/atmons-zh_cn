@@ -1,0 +1,19 @@
+[
+  {
+    "name": "immersiveengineering_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "blusunrize.lib.manual.gui.ManualScreen"
+    ],
+    "pairs": [
+      {
+        "key": "It looks like you meant:",
+        "value": "看起来你想表达的是："
+      }
+    ]
+  }
+]

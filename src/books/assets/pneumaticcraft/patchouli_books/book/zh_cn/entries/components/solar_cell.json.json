@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/solar_cell.json",
+ "sha1": "348d87e2c07a2cfb62772f2a460438499aff7527",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Solar Cell",
+   "太阳能元件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Solar Cell/$ is used to craft and repair $(l:compressors/solar_compressor)Solar Compressors/$.",
+   "$(item)太阳能元件/$可用于合成和修理 $(l:compressors/solar_compressor)太阳能压缩机/$。"
+  ]
+ ]
+}

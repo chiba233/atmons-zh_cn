@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📦 整合包本体问题 / Modpack issues
+    url: https://github.com/AllTheMods/ATM-10/issues
+    about: 与汉化无关的整合包 bug（崩溃、配方、性能等）请报给 All the Mods 官方。Non-localization modpack bugs go upstream.

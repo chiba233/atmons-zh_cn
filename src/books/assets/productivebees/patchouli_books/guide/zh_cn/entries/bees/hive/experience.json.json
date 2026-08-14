@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/experience.json",
+ "sha1": "fc6bc2ea59b451a6fe1eed431dd1d7c43c008d6a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Experience Bee",
+   "经验蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from an $(l:bees/hive/emerald)Emerald Bee$(/l) and a $(l:bees/hive/lapis)Lapis Bee$(/l).",
+   "由一只$(l:bees/hive/emerald)绿宝石蜜蜂$(/l)和一只$(l:bees/hive/lapis)青金石蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Experience Bee",
+   "经验蜜蜂"
+  ]
+ ]
+}

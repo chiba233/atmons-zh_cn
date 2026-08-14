@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/fluidizer.json",
+ "sha1": "eaa726766fdf4771583095ebd4ae142714bb4eaf",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Fluidizer is a multiblock machine that lets you convert solid fuels into fluids and mix existing fuels to create new ones.",
+   "流化器是一种多方块机器，可让你将固体燃料转化为流体，并混合现有燃料来创造新的燃料。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "The Fluidizer",
+   "流化器"
+  ]
+ ]
+}

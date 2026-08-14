@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/withered.json",
+ "sha1": "321723eb234d9e4392c0e1953b87837d234654ee",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Withered Bee",
+   "凋零蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Obtained by feeding a wither rose to a $(l:bees/hive/skeletal)Skeletal Bee$(/l).",
+   "给一只$(l:bees/hive/skeletal)骷髅蜜蜂$(/l)喂食凋灵玫瑰后获得。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Withered Bee",
+   "凋零蜜蜂"
+  ]
+ ]
+}

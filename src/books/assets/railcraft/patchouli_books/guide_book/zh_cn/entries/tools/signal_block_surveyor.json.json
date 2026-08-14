@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/signal_block_surveyor.json",
+ "sha1": "2769f53bae8e1b4d59e40b04121ad0663e78bd12",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Block Surveyor",
+   "信号区间勘测仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This surveying tool is used to pair two Block Signals to create a Signal Block. To begin surveying, right click a Block Signal. To complete the Signal Block, move to the signal at the other end and right-click on it too. If the Signal Block is valid, a message will appear on the screen telling you the pairing was successful. If the pairing failed a message should also appear to tell you why it failed.",
+   "此勘测工具用于将两个信号机配对，从而创建信号机。开始勘测时，请右键点击一个信号机；完成信号机构建时，请移至另一端的信号机并同样右键点击。若信号机构建有效，屏幕将显示配对成功的提示信息；若失败，也将显示相应失败原因。"
+  ]
+ ]
+}

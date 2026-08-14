@@ -1,0 +1,61 @@
+[
+  {
+    "name": "abundance_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbchunks.FTBChunksCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Not on a dedicted server!",
+        "value": "不在专用服务器上！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbchunks.client.gui.AddWaypointOverlay"
+    ],
+    "pairs": [
+      {
+        "key": "⇧ + Enter",
+        "value": "⇧ + 回车"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbchunks.client.gui.SliceCreationGUI"
+    ],
+    "pairs": [
+      {
+        "key": "Add Slice",
+        "value": "添加切片"
+      },
+      {
+        "key": "Remove Slice",
+        "value": "移除切片"
+      },
+      {
+        "key": "Next Slice",
+        "value": "下一切片"
+      },
+      {
+        "key": "Previous Slice",
+        "value": "上一切片"
+      },
+      {
+        "key": "Export",
+        "value": "导出"
+      },
+      {
+        "key": "Saved File",
+        "value": "已保存文件"
+      }
+    ]
+  }
+]

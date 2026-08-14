@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/filters.json",
+ "sha1": "0d7c1ff028ec79e0de10a3034377b67e16e6b410",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Smart Filters are a collection of items which can be placed in any module's filter slots instead of a regular item, and provide more sophisticated item matching functionality.",
+   "智能过滤器是一组物品，可放置在任意模块的过滤器插槽中，以替代普通物品，从而提供更高级的物品匹配功能。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Smart Filters",
+   "智能过滤器"
+  ]
+ ]
+}

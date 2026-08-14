@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/track_type/strap_iron.json",
+ "sha1": "d9c66929554e11f8ac2092e93b32d30b6cc43bb8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Strap Iron",
+   "镀铁"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The strap iron, or wooden track type, is featured with their extremely slow speed limit-only 30% that of the iron track type. This type of tracks are made with wooden rails and wooden railbeds.",
+   "带状铁轨（或称木制轨道）以极低的速度限制为特点——仅为铁制轨道限速的30%。此类轨道由木制铁轨与木制轨枕构成。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Strap iron tracks require way less iron and a little bit more wood and creosote than iron tracks. In general, you'd better build this type of track when you are short of iron. Other recommended uses include scenic tours and precision timing applications",
+   "带状铁轨所需的铁远少于铁制轨道，但木材与杂酚油用量略多。总体而言，当您缺铁时，更推荐建造此类轨道。其他推荐用途包括观光游览与精密计时应用。"
+  ]
+ ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "dimstorage_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "edivad.dimstorage.items.DimTablet"
+    ],
+    "pairs": [
+      {
+        "key": "Linked to chest",
+        "value": "已连接到箱子"
+      },
+      {
+        "key": "Access Denied!",
+        "value": "访问被拒绝！"
+      },
+      {
+        "key": "Enabled autocollect",
+        "value": "已启用自动收集"
+      },
+      {
+        "key": "Disabled autocollect",
+        "value": "已禁用自动收集"
+      },
+      {
+        "key": "Dimensional Tablet not connected to any DimChest",
+        "value": "维度板未连接到任何维度箱子"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "edivad.dimstorage.tools.DimCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Item added to the list",
+        "value": "已将物品添加到列表"
+      },
+      {
+        "key": "You must select a valid item",
+        "value": "你必须选择一个有效物品"
+      },
+      {
+        "key": "Item removed from the list",
+        "value": "物品已从列表中移除"
+      },
+      {
+        "key": "Removed all items from the list",
+        "value": "已从列表中删除所有物品"
+      },
+      {
+        "key": "These are the items that the DimTablet will move:",
+        "value": "以下为 DimTablet 将要移动的物品："
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/cubee.json",
+ "sha1": "7625623440063d3c58c8bac40c21af8865da0139",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "CuBee",
+   "丘比特蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The pheromones secreted from this bee gets animals in the mood.",
+   "这种蜜蜂分泌的信息素会让动物进入繁殖状态。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "CuBee",
+   "丘比特蜜蜂"
+  ]
+ ]
+}

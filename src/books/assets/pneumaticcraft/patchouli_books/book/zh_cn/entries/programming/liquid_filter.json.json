@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/liquid_filter.json",
+ "sha1": "2adbb681dde3d5f33ad8c4e112ee7c39e34b0aa0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Filter Widget",
+   "流体过滤组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Fluid Filter/$ is a widget solely used as $(thing)parameter/$ for other widgets. You can use it to specify a certain fluid by $(thing)right-clicking/$ the widget and searching/selecting fluids in the resulting search GUI.",
+   "$(thing)流体过滤器/$是一种仅作为其他控件的$(thing)参数/$使用的控件。你可以通过$(thing)右击/$该控件，在随后出现的搜索界面中搜索并选择流体，以此指定某种特定的流体。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Fluid Filter Widget/$",
+   "$(italic)流体过滤器控件/$"
+  ]
+ ]
+}

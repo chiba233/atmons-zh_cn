@@ -1,0 +1,668 @@
+{
+ "_说明": "正文写死在 JSON 里的书：只存「原文→译文」，构建时套到 jar 里那一份上。见 scripts/gen_literal_books.py。",
+ "mod": "herbsandharvest（妈妈的香草与丰收 · 自耕农手册）",
+ "files": {
+  "assets/herbsandharvest/books/chapters/basket.json": {
+   "sha1": "2f9e8f70ae36fc3ac0da4f4c12849225c53d7bc0",
+   "t": [
+    [
+     "The crop basket can hold up to 8 stacks of any Crop items such as fruits or vegetables.\\n\\nEach item displayed represents one stack.",
+     "农产品篮最多可存放 8 组任意农产品，比如水果或蔬菜。\\n\\n篮子上显示的每个物品代表一组。"
+    ],
+    [
+     "\\nTo remove an item, right-click with an empty hand. Items will add back to player inventory, starting with the most recent.",
+     "\\n空手右键即可取出物品，按放入的先后倒序取回到背包里。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/blocks.json": {
+   "sha1": "74f0a2e34b8de86b96988c932083f6673c0d4ecc",
+   "t": [
+    [
+     "The Pantry Update adds several blocks to the game. Select a topic below to learn more:",
+     "食品储藏室更新加入了若干新方块。选择下面的条目了解详情："
+    ],
+    [
+     "Right-click on a block of Sand with a shovel to create a salt basin.\\n\\nUse a bucket of water on it, or allow rainfall to fill it.\\n\\nThen, let it dry up.",
+     "用锹右键沙子即可做出一个盐盆。\\n\\n往里倒一桶水，或者等雨水把它灌满。\\n\\n然后等它晒干。"
+    ],
+    [
+     "When the Basin has dried, Salt will appear.\\n\\nYou can automate collection with a hopper underneath the basin.",
+     "盐盆晒干后就会出现盐。\\n\\n在盆下方放一个漏斗，就能自动收集。"
+    ],
+    [
+     "Pantry Jars are storage jars that will hold up to a single stack of any item.",
+     "储藏罐是储物用的罐子，可以存放一组任意物品。"
+    ],
+    [
+     "Pantry Jars will only hold items, not blocks.",
+     "储藏罐只能装物品，装不了方块。"
+    ],
+    [
+     "These small storage jars will hold a single stack of seasonings.\\n\\nThe label will change automatically based on the ingredient inside the jar.\\n\\nSpice Jars hold their contents when broken and picked up.",
+     "这种小罐子可以存放一组调味料。\\n\\n标签会根据罐内的材料自动变化。\\n\\n香料罐被打破捡起时，里面的东西不会丢。"
+    ],
+    [
+     "Plates will hold and display a single item.\\n\\nDinner Plates are also used to retrieve servings from Pan Meals or the Charcuterie Board.",
+     "餐盘可以盛放并展示一个物品。\\n\\n餐盘也用来从烤盘餐或熟食拼盘上取一份出来。"
+    ],
+    [
+     "There are 3 styles of dinner plates:\\n",
+     "餐盘有 3 种样式：\\n"
+    ],
+    [
+     "The Cheese shelf is an interactive block, and has a GUI similar to a Furnace. Click on a topic below to learn more.",
+     "奶酪熟成架是可交互方块，界面与熔炉类似。点击下面的条目了解详情。"
+    ],
+    [
+     "Click on the shelf to open the GUI, and add a raw wheel of cheese to the input slot. If you close the GUI, you will see the wheel appear on the shelf. The shelf holds two wheels at once.",
+     "点击熟成架打开界面，把生奶酪轮放进输入槽。关掉界面后，就能看到奶酪轮出现在架子上。一个架子同时可放两轮。"
+    ],
+    [
+     "\\nAfter some time, the wheel will change to an Aged wheel. Open the block interface once more, to retrieve the aged wheel.",
+     "\\n过一段时间，奶酪轮会变成陈年奶酪轮。再打开一次界面，就能把它取出来。"
+    ],
+    [
+     "The Aging process for cheese can be automated with Redstone. ",
+     "奶酪的熟成过程可以用红石自动化。 "
+    ],
+    [
+     "\\nThe Cheese Shelf allows Hoppers to insert raw wheels into the shelf, and Hopper output to extract aged wheels from it.",
+     "\\n奶酪熟成架允许漏斗把生奶酪轮送进去，也允许漏斗从中取走陈年奶酪轮。"
+    ],
+    [
+     "The Butter Churn creates Butter using Cream. To create butter, place down the Churn Block. Use a Bucket of Cream on the Churn.",
+     "黄油搅拌器用奶油做黄油。放下搅拌器方块，再对它使用一桶奶油即可。"
+    ],
+    [
+     "The Churn will animate and play sounds. When it's finished, it will drop a stick of Butter. This process can be automated with a Dispenser.",
+     "搅拌器会开始动作并发出声音，完成后掉出一条黄油。这个过程可以用发射器自动化。"
+    ],
+    [
+     "There are two types of dessert stands for displaying desserts. Click on a link below to learn more.",
+     "用来摆放甜点的架子有两种。点击下面的链接了解详情。"
+    ],
+    [
+     "A Cake Stand has a large, single tiered base and will hold a single Cake, Pie, or Cheesecake, or up to 8 small pastries or desserts.",
+     "蛋糕架只有一层、底盘较大，可以放一个蛋糕、派或芝士蛋糕，也可以放最多 8 个小点心或甜品。"
+    ],
+    [
+     "A Cake, Pie, or Cheesecake placed on a Cake Stand will yield its normal amount of servings.\\n\\nNote: Savory Pies can also be placed on a Cake Stand.",
+     "放在蛋糕架上的蛋糕、派或芝士蛋糕，可切的份数与平时相同。\\n\\n注意：咸味派也可以放在蛋糕架上。"
+    ],
+    [
+     "A Pastry Stand is a little smaller and has two tiers.\\n\\nIt will hold up to 8 of any one kind of small pastries or desserts.",
+     "点心架略小一些，有两层。\\n\\n可以放最多 8 个同一种类的小点心或甜品。"
+    ],
+    [
+     "\\n\\nMuffins, Cupcakes, Cookies, or Rolls can all be placed on a Pastry Stand.",
+     "\\n\\n松饼、纸杯蛋糕、曲奇和小面包都可以放在点心架上。"
+    ],
+    [
+     "A Soup Pot is a placeable food block. Click on the links below to learn more.",
+     "汤锅是一种可放置的食物方块。点击下面的链接了解详情。"
+    ],
+    [
+     "An empty Soup Pot is needed for Soup. The crafting recipe for it is shown here:",
+     "煮汤需要一口空汤锅，合成配方如下："
+    ],
+    [
+     "\\n\\nThe Empty Soup Pot can be placed and picked back up with an empty hand.",
+     "\\n\\n空汤锅可以放下，也可以空手捡回。"
+    ],
+    [
+     "Soups are created by combining an empty pot with ingredients. This results in a pot of soup which is a placeable block.\\n\\nTo heat the Soup Pot, place a heat source underneath it such as a Campfire, or fire.",
+     "把空锅与食材合成就得到一锅汤，它本身是可放置的方块。\\n\\n要加热汤锅，在它下面放一个热源，比如营火或火。"
+    ],
+    [
+     "When the Soup Pot is heated, use a bowl on it to retrieve soup.",
+     "汤锅加热后，对它使用碗就能盛出汤。"
+    ],
+    [
+     "\\nExample of a Soup Bowl:",
+     "\\n汤碗示例："
+    ],
+    [
+     "\\nNote: ONLY heated pots will allow a bowl to be used on them to get soup. Each pot will yield 8 bowls of soup.",
+     "\\n注意：**只有**加热过的锅才能用碗盛汤。每锅可盛 8 碗。"
+    ],
+    [
+     "Soup recipes will be discovered when a player obtains their main ingredient, or meat.\\n\\nList of Soups and their discovery ingredient, which is in parentheses: ",
+     "玩家拿到某道汤的主料或肉类时，就会解锁该汤的配方。\\n\\n下面是各种汤及其解锁材料（括号内）： "
+    ],
+    [
+     "Soups and their discovery ingredient, continued: ",
+     "汤与其解锁材料（续）： "
+    ],
+    [
+     "Baked Pan Meals are also placeable food blocks. Click on the links below to learn more.",
+     "烤盘餐同样是可放置的食物方块。点击下面的链接了解详情。"
+    ],
+    [
+     "An empty Baking Pan is needed for a Baked Pan Meal. The crafting recipe for it is shown here:",
+     "做烤盘餐需要一个空烤盘，合成配方如下："
+    ],
+    [
+     "\\n\\nThe Empty Baking Pan can be placed and picked back up with an empty hand.",
+     "\\n\\n空烤盘可以放下，也可以空手捡回。"
+    ],
+    [
+     "Baked Pan meals are made by combining a Pan with recipe ingredients, and then 'baking' it in a furnace or a smoker.",
+     "把烤盘与配方食材合成，再放进熔炉或烟熏炉里「烤」，就做成了烤盘餐。"
+    ],
+    [
+     "The Baked Pan Meal is a placeable block. To 'serve' a Pan Meal, use a plate on it. Each pan yields 8 servings.\\n\\nPan Meal Recipes are discovered when a player obtains their main ingredient or meat.",
+     "烤盘餐是可放置的方块。用餐盘对着它使用即可「分餐」，每盘可分 8 份。\\n\\n玩家拿到主料或肉类时会解锁对应的烤盘餐配方。"
+    ],
+    [
+     "Pan Recipes and Discovery Ingredients:",
+     "烤盘餐配方与解锁材料："
+    ],
+    [
+     "Pan Recipes and Discovery Ingredients, continued:",
+     "烤盘餐配方与解锁材料（续）："
+    ],
+    [
+     "Using a Dinner Plate on a Baked Pan Meal will create a \\\"Served Plate\\\" of that particular meal.\\n\\nThe Served Plate of food is a placeable block which can can be \\\"eaten\\\" at a later time, by right-clicking on it.",
+     "用餐盘对着烤盘餐使用，就会得到那道菜的「摆盘餐」。\\n\\n摆盘餐是可放置的方块，之后右键就能「吃」掉。"
+    ],
+    [
+     "Or, you can eat the food while holding the plate, and it will leave the empty plate behind, when finished.",
+     "你也可以直接拿着盘子吃，吃完会留下一个空盘。"
+    ],
+    [
+     "There are several drinks in Herbs and Harvest. To make drinks, you need glassware.\\n\\nClick on the links below to learn more:",
+     "香草与丰收里有好几种饮品。要调饮品，得先有玻璃器皿。\\n\\n点击下面的链接了解详情："
+    ],
+    [
+     "Drink Pitchers are crafted with glass, and are reusable.\\n\\nCrafting a Glass Pitcher and combining it with different drink recipes will create a placeable Drink Pitcher.",
+     "饮品壶用玻璃合成，可以反复使用。\\n\\n先合成玻璃壶，再与不同的饮品配方组合，就得到可放置的饮品壶。"
+    ],
+    [
+     "Use a Pitcher on a glass cup to 'pour' a drink. Each pitcher can pour up to 4 drinks, and will leave behind an empty Glass Pitcher in the inventory.",
+     "用壶对着玻璃杯使用即可「倒」出一杯。每壶最多倒 4 杯，倒完会在背包里留下空玻璃壶。"
+    ],
+    [
+     "Cups are also crafted with glass, and are reusable, as well.\\n\\nWhen placed, the Glass Cup can be picked back up with an empty hand.\\nIf it contains a drink, it will keep the drink in inventory.",
+     "杯子同样用玻璃合成，也可以反复使用。\\n\\n放下的玻璃杯可以空手捡回。\\n如果杯里有饮品，收进背包后饮品也还在。"
+    ],
+    [
+     "Picking up a full cup will give an item that can be drank, and will leave behind the empty cup in the inventory, once used.",
+     "捡起装满的杯子会得到一个可饮用的物品，喝完后背包里留下空杯。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/cheese.json": {
+   "sha1": "3363110a336e2f11f1ec01161662b148aeae4d42",
+   "t": [
+    [
+     "The Homesteader's Guide to Cheese Making\\n\\n",
+     "自耕农奶酪制作指南\\n\\n"
+    ],
+    [
+     "Cheese comes in two types: Soft Cheese, and Hard Cheese. A Soft Cheese Wheel is ready for use immediately.",
+     "奶酪分两类：软质奶酪和硬质奶酪。软质奶酪轮做好就能直接用。"
+    ],
+    [
+     "A raw wheel of hard cheese must be \\\"aged\\\" on a Cheese Shelf before using.",
+     "硬质奶酪的生奶酪轮必须先在奶酪熟成架上「熟成」才能用。"
+    ],
+    [
+     "For Cheese Making, you need the following:\\n-Milk Buckets (An assortment, for different cheeses)\\n-A Cauldron with a heat source below it\\n-Rennet\\n-Salt\\n-A Cheese Aging Shelf",
+     "做奶酪需要备齐这些：\\n-各种奶桶（不同奶酪用的奶不一样）\\n-一口下方有热源的炼药锅\\n-凝乳酶\\n-盐\\n-一个奶酪熟成架"
+    ],
+    [
+     "Once you have your supplies ready, you will need to decide on what cheese to make.\\n\\nThere are 8 total types of cheeses, and each uses a unique mixture of milks to create.\\n\\nMilk mixtures for Cheese recipes are as follows:",
+     "材料备齐后，先想好要做哪种奶酪。\\n\\n奶酪共有 8 种，每种所用的奶的配比都不一样。\\n\\n各奶酪配方的用奶如下："
+    ],
+    [
+     "Hard Cheeses:\\n\\n- Cheddar: Cow Milk\\n- Gouda: Sheep Milk\\n- Parmesan: Cow Milk, Goat Milk\\n- Swiss: Sheep Milk, Goat Milk",
+     "硬质奶酪：\\n\\n- 切达干酪：牛奶\\n- 高达奶酪：绵羊奶\\n- 帕尔马干酪：牛奶 + 山羊奶\\n- 瑞士奶酪：绵羊奶 + 山羊奶"
+    ],
+    [
+     "\\n\\nSoft Cheeses:\\n\\n- Caravane: Camel Milk\\n- Chevre: Goat Milk\\n- Feta: Camel Milk, Goat Milk\\n- Ricotta: Camel Milk, Sheep Milk",
+     "\\n\\n软质奶酪：\\n\\n- 卡拉瓦娜奶酪：骆驼奶\\n- 山羊奶酪：山羊奶\\n- 羊乳酪：骆驼奶 + 山羊奶\\n- 里科塔奶酪：骆驼奶 + 绵羊奶"
+    ],
+    [
+     "Once you have decided on a recipe, and you have your other supplies, it's time to start creating the Cheese.",
+     "选好配方、备齐其他材料，就可以开始做奶酪了。"
+    ],
+    [
+     "Make sure your Caluldron is heated below, and add your Milk to the Cauldron. For a mix of Milk types, add one, then quickly add the other.",
+     "确认炼药锅下方已经加热，然后把奶倒进锅里。需要混合两种奶时，倒完一种要马上倒另一种。"
+    ],
+    [
+     "Next, QUICKLY add your Rennet. This is important, because if Rennet is not added fast enough, the Milk will change into Cream.",
+     "接着**迅速**加入凝乳酶。这一步很关键：凝乳酶加得不够快，奶就会变成奶油。"
+    ],
+    [
+     "When Rennet is added, you will see the mixture in the cauldron immediately change.",
+     "凝乳酶下锅后，锅里的混合物会立刻发生变化。"
+    ],
+    [
+     "The mixture will begin to move, and after some time, will change once more, into Curds and Whey.",
+     "混合物会开始翻动，过一会儿再次变化，成为凝乳与乳清。"
+    ],
+    [
+     "This looks like a yellow liquid with white bits that rise to the surface, as seen here in the photo. Bubbles will also be visible.",
+     "那是一锅泛黄的液体，白色的絮状物浮在表面，就像图里这样，还会看到气泡。"
+    ],
+    [
+     "When your Cauldron is full of Curds and Whey, the next thing to do is to use Salt on the Cauldron.",
+     "锅里装满凝乳与乳清后，下一步是对锅使用盐。"
+    ],
+    [
+     "The Salt will combine with the Whey, and will solidify the cheese into a Cheese Wheel.\\n\\nYour Cauldron should be empty after receiving the Cheese Wheel.",
+     "盐会与乳清结合，把奶酪凝固成一整轮。\\n\\n取走奶酪轮之后，锅应该就空了。"
+    ],
+    [
+     "The next part depends on what type of Cheese you have made.\\n\\nIf your Cheese recipe was a Soft Cheese, then there is nothing else to do; it's ready to go. ",
+     "接下来怎么做，取决于你做的是哪一类奶酪。\\n\\n如果是软质奶酪，那就到此为止，可以直接用了。 "
+    ],
+    [
+     "Place it down, and click on it to receive a wedge of Cheese.",
+     "把它放下，点击即可取下一块奶酪。"
+    ],
+    [
+     "If you have crafted a Hard Cheese recipe, the Wheel you receive will be a \\\"Raw\\\" Wheel of that Cheese type, which will need to be aged.",
+     "如果做的是硬质奶酪，拿到的会是该种奶酪的「生」奶酪轮，还需要熟成。"
+    ],
+    [
+     "Add the Raw Wheel to a Cheese Shelf so that it can age. You will be able to see it change on the shelf, when it is aged.",
+     "把生奶酪轮放上奶酪熟成架让它熟成。熟成完毕时，架子上的样子会发生变化。"
+    ],
+    [
+     "A finished Wheel of Cheese is a placeable block.\\n\\nPlace it down, and click on it to recieve an edible Wedge of Cheese, which can be eaten or used in food recipes.",
+     "做好的奶酪轮是可放置的方块。\\n\\n放下后点击就能取下一块奶酪，可以直接吃，也可以用于食物配方。"
+    ],
+    [
+     "Each wheel will yield 4 Wedges of Cheese.\\n\\nSpecial note: a cheese wheel CANNOT be picked up once it has been placed.",
+     "每轮可切 4 块。\\n\\n特别提醒：奶酪轮一旦放下就**捡不回来**了。"
+    ],
+    [
+     "Adding Rennet or Salt to the Cauldron can be automated with a Dispenser.\\n\\nNote: Adding the Milk mixtures to the Cauldron cannot be automated.",
+     "往锅里加凝乳酶或盐可以用发射器自动化。\\n\\n注意：往锅里加奶做不到自动化。"
+    ],
+    [
+     "If Milk has cooked into Cream, extraction of the Cream Bucket can also be automated.",
+     "如果奶已经熬成了奶油，取奶油桶这一步同样可以自动化。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/crops.json": {
+   "sha1": "9ab1dce7e3ebedc9c8ee2f0bf8943f1fc19c1ed5",
+   "t": [
+    [
+     "Herbs and Harvest adds 32 new crops to the game.\\n\\nSelect a topic below to learn more:",
+     "香草与丰收为游戏加入了 32 种新作物。\\n\\n选择下面的条目了解详情："
+    ],
+    [
+     "Herbs and Harvest Crops behave the same as Vanilla crops.\\n\\nThe Crops are all plantable on farmland, and they must be broken to obtain produce and seeds.",
+     "香草与丰收的作物与原版作物表现一致。\\n\\n它们都种在耕地上，破坏后才能得到产物和种子。"
+    ],
+    [
+     "\\n\\nCrops can be found in village farms, and seeds can be found in chests throughout the Overworld.\\n\\nSeeds can also be created by crafting from produce. In a Crafting Table, one crop will yield one seed.",
+     "\\n\\n村庄的农田里能找到这些作物，主世界各处的箱子里能找到种子。\\n\\n种子也能用产物合成：在工作台里，一份作物出一颗种子。"
+    ],
+    [
+     "There are several tall crops available:\\n\\nCorn, Eggplant, Peas, and Tomatoes.",
+     "有几种作物是两格高的：\\n\\n玉米、茄子、豌豆和番茄。"
+    ],
+    [
+     "\\n\\nBreaking either the top or bottom of these will break the entire crop, dropping its produce and seeds, if it is mature.\\n\\nOnly one seed is required to plant a tall crop, and they must be replanted.",
+     "\\n\\n破坏上半部分或下半部分都会整株破坏；若已成熟，会掉落产物和种子。\\n\\n种一株高作物只需一颗种子，收完要重新种。"
+    ],
+    [
+     "Grape vines grow similarly to cave vines and produce harvestable fruit.\\n\\nThey are planted by placing underneath a block, and over time, will grow downward and produce fruit.",
+     "葡萄藤的生长方式与洞穴藤类似，会结出可采摘的果实。\\n\\n把它种在方块下方，它会随时间向下生长并结果。"
+    ],
+    [
+     "Like Cave Vines, they can be bonemealed.\\n\\nGrapes can be found growing on trellises in villages, or in Overworld chests.",
+     "和洞穴藤一样，可以用骨粉催熟。\\n\\n村庄的藤架上长着葡萄，主世界的箱子里也能找到。"
+    ],
+    [
+     "Following is a complete, alphabetized list of all Herbs & Harvest Crops.\\nClick on the links below to view each section:",
+     "下面是香草与丰收全部作物的完整列表（按字母顺序）。\\n点击下面的链接查看各部分："
+    ],
+    [
+     "\\n\\nGrowing Vine Crops:\\n",
+     "\\n\\n藤蔓类作物的种植：\\n"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/foods.json": {
+   "sha1": "8dcc30368ae8722067417119ce6236df992843f4",
+   "t": [
+    [
+     "The Pantry Update adds several new foods to the game. Select a topic below to learn more:",
+     "食品储藏室更新加入了若干新食物。选择下面的条目了解详情："
+    ],
+    [
+     "Herbs and Harvest adds a few meats to the game.\\n\\nAll are craftable from already-existing items, and each can be smelted into a \\\"Cooked\\\" variant.\\n\\nMeats can used in recipes, or eaten as-is.",
+     "香草与丰收加入了几种肉。\\n\\n它们都能用现有物品合成，也都能烧制出「熟」的版本。\\n\\n肉可以用于配方，也可以直接吃。"
+    ],
+    [
+     "There are several dairy products available. Click the links below to learn more.",
+     "乳制品有好几种。点击下面的链接了解详情。"
+    ],
+    [
+     "Herbs and Harvest adds three new kinds of Milk to the game.\\n\\nMilk is used for recipes, cheese making, or can also be heated in a cauldron to make Cream.",
+     "香草与丰收加入了三种新的奶。\\n\\n奶可以用于配方、制作奶酪，也可以在炼药锅里加热熬成奶油。"
+    ],
+    [
+     "The types of Milk are:\\n",
+     "奶的种类：\\n"
+    ],
+    [
+     "How to Obtain Milk:\\n\\nJust as you would a Cow, use an empty bucket on a Goat for Goat Milk, and on a Sheep for Sheep Milk. ",
+     "怎么挤奶：\\n\\n和挤牛奶一样，对山羊用空桶得到山羊奶，对绵羊用空桶得到绵羊奶。 "
+    ],
+    [
+     "For Camel Milk, shift-click the bucket on a Camel.\\n\\nNote: This may open the Camel's inventory or mount you on the Camel, but you will still get the Milk.",
+     "要取骆驼奶，对骆驼潜行右键空桶。\\n\\n注意：这可能会打开骆驼的物品栏或让你骑上去，但奶照样能取到。"
+    ],
+    [
+     "Cream is made in a heated Cauldron.",
+     "奶油要在加热的炼药锅里熬。"
+    ],
+    [
+     "\\n",
+     "\\n"
+    ],
+    [
+     "\\n\\nAdd any kind of milk, and it will eventually change into cream.\\n\\nUse a bucket to remove the cream from the Cauldron.",
+     "\\n\\n倒进任意一种奶，它最终都会变成奶油。\\n\\n用桶把奶油从锅里舀出来。"
+    ],
+    [
+     "Cream is made from cooking Milk in a heated Cauldron.\\n\\nUse a Bucket on a Cauldron full of Cream to obtain it.",
+     "奶油由奶在加热的炼药锅里熬成。\\n\\n对装满奶油的锅使用桶即可取得。"
+    ],
+    [
+     "\\n\\nButter is created by using a bucket of Cream on a Butter Churn.\\n\\nButter will appear when the Churn has finished churning.",
+     "\\n\\n对黄油搅拌器使用一桶奶油即可做出黄油。\\n\\n搅拌完成后黄油就会出现。"
+    ],
+    [
+     "There are eight types of cheese. Four are hard cheeses, and four are soft cheeses.\\n\\nThe Cheesemaking guide in this book provides instructions for making each type of cheese.",
+     "奶酪共八种，四种硬质、四种软质。\\n\\n本书的奶酪制作指南里写了每一种的做法。"
+    ],
+    [
+     "The soft cheeses are:",
+     "软质奶酪有："
+    ],
+    [
+     "\\n\\nThe hard cheeses are:",
+     "\\n\\n硬质奶酪有："
+    ],
+    [
+     "There are a few Breakfast food items Herbs and Harvest.\\n\\nThis list will show the Breakfast foods and their recipe discovery items:",
+     "香草与丰收里有几样早餐食物。\\n\\n下表列出早餐食物及其配方的解锁材料："
+    ],
+    [
+     "Herbs and Harvest adds several Breads for you to enjoy. Click the links below to learn more:",
+     "香草与丰收加入了多种面包。点击下面的链接了解详情："
+    ],
+    [
+     "The many grains in Herbs and Harvest grants a nice selection of different breads and sandwiches.\\n\\nThe Breads available are:",
+     "香草与丰收里谷物种类繁多，也就带来了各式各样的面包和三明治。\\n\\n可做的面包有："
+    ],
+    [
+     "Each type of Bread loaf can be crafted into 8 Slices of that kind of bread.",
+     "每一条面包都能合成为 8 片同种面包片。"
+    ],
+    [
+     "\\n\\nMinecraft Bread can also be crafted into slices:",
+     "\\n\\n原版面包同样可以合成为面包片："
+    ],
+    [
+     " Sandwich recipes call for specific breads, and the bread type is also the recipe discovery item.\\n\\nA complete list of the sandwiches and bread type follows:",
+     " 三明治配方各自指定了用哪种面包，而那种面包同时也是配方的解锁材料。\\n\\n下面是三明治与对应面包的完整列表："
+    ],
+    [
+     "There are four types of Salad in Herbs and Harvest, and each recipe is discovered by obtaining Lettuce.\\n\\nSalads, once eaten, will leave behind an empty bowl.",
+     "香草与丰收里有四种沙拉，配方都由拿到生菜解锁。\\n\\n沙拉吃完会留下一个空碗。"
+    ],
+    [
+     "Some other foods, along with their discovery items are:",
+     "其他一些食物及其解锁材料："
+    ],
+    [
+     "Other foods, with their discovery items, continued:",
+     "其他食物及其解锁材料（续）："
+    ],
+    [
+     "Condiments and other ingredients require either a Bowl or a Spice jar to craft, depending on the recipe.\\n\\nCondiments and their recipe discovery items are listed here:",
+     "调味料与其他配料需要用碗或香料罐来合成，具体看配方。\\n\\n下面列出调味料及其配方的解锁材料："
+    ],
+    [
+     "Condiments and other ingredients, continued: ",
+     "调味料与其他配料（续）： "
+    ],
+    [
+     "Herbs and Harvest has desserts aplenty. Click the links below to learn more:",
+     "香草与丰收的甜点多得很。点击下面的链接了解详情："
+    ],
+    [
+     "The many Desserts available include Cakes, Cheesecakes, Pies, Cookies, Cupcakes, Muffins, Cinnamon Rolls, Sweet Rolls, and Plum Pudding.",
+     "可做的甜点包括蛋糕、芝士蛋糕、派、曲奇、纸杯蛋糕、松饼、肉桂卷、甜面包卷和李子布丁。"
+    ],
+    [
+     "Cakes, Cheesecakes, Pies, and Plum Pudding are all placeable blocks, and clicking on them with an open hand will give you a \\\"slice\\\" of that dessert.\\n\\nAll but the Plum Pudding will yield 8 Slices; the Plum Pudding is much smaller, so it yields 4 slices.",
+     "蛋糕、芝士蛋糕、派和李子布丁都是可放置的方块，空手点击就能切下一「块」。\\n\\n除李子布丁外都可切 8 块；李子布丁小得多，只能切 4 块。"
+    ],
+    [
+     "The smaller desserts and pastries are single-use, edible items.\\n\\nAs previously mentioned, only the smaller, single-use desserts and pastries can be placed onto the Pastry Stand.",
+     "小份的甜点和点心是一次性的可食用物品。\\n\\n前面说过，只有这类小份的一次性甜点和点心才能放上点心架。"
+    ],
+    [
+     "Dessert recipe discovery items are listed on the dessert's page.",
+     "各甜点配方的解锁材料写在该甜点自己的页面上。"
+    ],
+    [
+     "Cake recipes are all discovered by looting Wheat.\\n\\nThe Plum Pudding recipe is discovered by obtaining a Plum.\\n\\nCakes and Cupcakes are shown here:",
+     "蛋糕类配方都由获得小麦解锁。\\n\\n李子布丁的配方由获得李子解锁。\\n\\n蛋糕与纸杯蛋糕如下："
+    ],
+    [
+     "Cheesecake recipes are all discovered by obtaining Cream Cheese.",
+     "芝士蛋糕类配方都由获得奶油奶酪解锁。"
+    ],
+    [
+     "\\nCheesecakes:\\n",
+     "\\n芝士蛋糕：\\n"
+    ],
+    [
+     "Pies require Wheat to discover the recipe.",
+     "派类配方需要小麦来解锁。"
+    ],
+    [
+     "\\nPies:\\n",
+     "\\n派：\\n"
+    ],
+    [
+     "Cookies also require Wheat to discover the recipe. ",
+     "曲奇类配方同样需要小麦来解锁。 "
+    ],
+    [
+     "Cookies: ",
+     "曲奇： "
+    ],
+    [
+     "Muffin and Roll recipes are disocvered by obtaining Wheat.",
+     "松饼与面包卷的配方由获得小麦解锁。"
+    ],
+    [
+     "\\nMuffins: ",
+     "\\n松饼： "
+    ],
+    [
+     "\\n\\nRolls: ",
+     "\\n\\n面包卷： "
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/grapes.json": {
+   "sha1": "b868e539b076b29b4c9cc908f6418a490fa565b0",
+   "t": [
+    [
+     "Grape Vines grow and produce harvestable fruit similarly to Cave Vines.\\n\\nThey are planted by placing underneath a block, and over time, will grow downward and produce fruit.",
+     "葡萄藤的生长与结果方式和洞穴藤类似。\\n\\n把它种在方块下方，它会随时间向下生长并结果。"
+    ],
+    [
+     "Like Cave Vines, they can be bonemealed.\\n\\nGrapes can be found growing on a trellis in villages, or in overworld chests.",
+     "和洞穴藤一样，可以用骨粉催熟。\\n\\n村庄的藤架上长着葡萄，主世界的箱子里也能找到。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/herbs.json": {
+   "sha1": "69ca755d901832c4ffec9cbfda6ab8f078d0ae59",
+   "t": [
+    [
+     "Herbs and Harvest adds several herbs and spices. Select a topic below to learn more:",
+     "香草与丰收加入了若干香草与香料。选择下面的条目了解详情："
+    ],
+    [
+     "Like crops, Herbs require farmland and water to grow.\\n\\nOnce harvested, herbs can be placed on grass or dirt for decoration.\\n\\nHerbs can also be potted in a Flower Pot.",
+     "和作物一样，香草需要耕地和水才能生长。\\n\\n收获后的香草可以放在草方块或泥土上作装饰。\\n\\n也可以栽进花盆里。"
+    ],
+    [
+     "\\nIn the Pantry Update, Fresh herbs can be chopped or ground, then stored in Spice Jars for use in recipes.",
+     "\\n在食品储藏室更新中，新鲜香草可以切碎或研磨，装进香料罐备用。"
+    ],
+    [
+     "Like herbs, Peppercorn, Ginger, and Turmeric all require farmland to grow.\\n\\nPeppercorn and the Cinnamon Tree Sapling can also be potted.",
+     "和香草一样，胡椒、姜和姜黄也都要种在耕地上。\\n\\n胡椒与肉桂树苗还可以栽进花盆。"
+    ],
+    [
+     "\\n\\nList of Spices:\\n",
+     "\\n\\n香料一览：\\n"
+    ],
+    [
+     "Thistle is a flower that can be found growing in nearly any Overworld biome.\\n\\nThistle is used to create Rennet, which is used to make cheese.",
+     "蓟是一种花，几乎在主世界的任何生物群系里都能找到。\\n\\n蓟用来制作凝乳酶，而凝乳酶是做奶酪的必需品。"
+    ],
+    [
+     "Thistle is two blocks tall, with purple/pink blooms.\\n\\nIt can be bonemealed and farmed the same way as tall flowers.",
+     "蓟有两格高，开紫粉色的花。\\n\\n可以用骨粉催熟，种法与高花相同。"
+    ],
+    [
+     "Cinnamon Trees are two blocks tall. Their bark grows continuously and can be stripped to produce Cinnamon.\\n\\nCinnamon saplings grow in Tropical biomes, or can be found in Overworld chests.",
+     "肉桂树有两格高，树皮会不断生长，剥下来就能得到肉桂。\\n\\n肉桂树苗生长在热带生物群系，也能在主世界的箱子里找到。"
+    ],
+    [
+     "To get Cinnamon, strip the bark by right-clicking the tree with an axe.\\n\\nIf the bark has matured, it will yield some Cinnamon.",
+     "用斧右键树干即可剥皮取肉桂。\\n\\n只要树皮已经长成，就会掉落一些肉桂。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/intro.json": {
+   "sha1": "abd5c04282ff64ea5724c5b1129482d91bbdce57",
+   "t": [
+    [
+     "Mama's Herbs and Harvest is a farming mod which is also the base for the recipes in Mama's Minis such as MerryMaking and Happy Hallows. There are 32 growable crops, along with: grapes, 8 fruit-bearing trees, and 14 herbs.",
+     "「妈妈的香草与丰收」是一个农业模组，同时也是「妈妈的小品」系列（如 MerryMaking、Happy Hallows）配方的基础。它加入了 32 种可种植作物，外加葡萄、8 种果树和 14 种香草。"
+    ],
+    [
+     "The 'Pantry Update', which adds new blocks, items, and food, was released in early February of 2026.",
+     "加入了新方块、新物品与新食物的「食品储藏室更新」于 2026 年 2 月初发布。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/items.json": {
+   "sha1": "9dbc4407aa8a05d605c861ff151ea043cab3be13",
+   "t": [
+    [
+     "The Pantry Update adds several new items to the game. Select a topic below to learn more:",
+     "食品储藏室更新加入了若干新物品。选择下面的条目了解详情："
+    ],
+    [
+     "Rennet is crafted from Thistle, and is used in Cheese Making.",
+     "凝乳酶由蓟制成，用于制作奶酪。"
+    ],
+    [
+     "\\nAdd it to a cauldron IMMEDIATELY after milk has been added.\\n\\nWaiting too long to add Rennet will cause the Milk to turn into Cream.",
+     "\\n奶下锅后要**立刻**把它加进去。\\n\\n凝乳酶加得太晚，奶就会变成奶油。"
+    ],
+    [
+     "Salt is created when a full Salt Basin dries up.",
+     "盐盆装满后晒干，就会产出盐。"
+    ],
+    [
+     "\\nSalt is used in cheese-making, to finalize the process, and is also used in many of the food recipes in Herbs and Harvest.",
+     "\\n盐用于奶酪制作的收尾一步，香草与丰收里的许多食物配方也要用到它。"
+    ],
+    [
+     "All of the fresh herbs in Herbs and Harvest can be crafted into a \\\"Chopped\\\" herb item. Peppercorn can be crafted into a ground spice.",
+     "香草与丰收里所有的新鲜香草都可以合成为「碎」香草，胡椒可以合成为研磨香料。"
+    ],
+    [
+     "\\nOnions and Garlic can be made into \\\"Minced\\\" variants, and Cinnamon and Ginger can be crafted into \\\"Ground\\\" versions.\\n\\nThese herbs and spices, along with Salt and Sugar, can be stored in the little Spice Jars.",
+     "\\n洋葱和大蒜可以做成「末」，肉桂和姜可以做成「粉」。\\n\\n这些香草香料，连同盐和糖，都能装进小香料罐里。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/outro.json": {
+   "sha1": "0c37120f4c18e827c004acbaa0ce9744fb2e10f5",
+   "t": [
+    [
+     "Now you're ready to begin farming and filling your home with delicious and interactive dishes.\\n\\nFor questions, or immediate help, please join the discord:\\n\\nhttps://discord.gg/2QWyQ8fkUr",
+     "现在你可以动手务农，用一道道能摆能吃的菜把家填满了。\\n\\n有疑问或需要即时帮助，欢迎加入 Discord：\\n\\nhttps://discord.gg/2QWyQ8fkUr"
+    ],
+    [
+     "\\n\\nI hope you enjoy this addition to my catalog of mods.\\n\\nMuch love,\\n~ Mama Michelle",
+     "\\n\\n希望你喜欢我的模组家族里的这一位。\\n\\n爱你们的，\\n~ Mama Michelle"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/title.json": {
+   "sha1": "d7c0d53ec7de66208512184256ee58a49a110c16",
+   "t": [
+    [
+     "Your guide to Mama's Herbs and Harvest",
+     "妈妈的香草与丰收 · 指南"
+    ],
+    [
+     "This guide will show you...",
+     "本指南将带你了解……"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/chapters/trees.json": {
+   "sha1": "72dbb75d6677feca7ac1f6fafbfd44516df570bc",
+   "t": [
+    [
+     "Herbs and Harvest adds 8 Fruit Trees to the game.\\n\\nSelect a topic below to learn more:",
+     "香草与丰收为游戏加入了 8 种果树。\\n\\n选择下面的条目了解详情："
+    ],
+    [
+     "Fruit Trees are round shaped, with dark green leaves.\\n\\nThey grow naturally in almost every Overworld biome.",
+     "果树树冠呈圆形，叶片深绿。\\n\\n它们几乎在主世界的每个生物群系里都会自然生长。"
+    ],
+    [
+     "The leaves of Fruit Trees continuously grow fruit, and can be bonemealed for quicker production.\\n\\nFruit Tree Saplings can be found in Overworld chests, and can also be potted.",
+     "果树的叶子会不断结果，用骨粉可以加快结果。\\n\\n果树树苗能在主世界的箱子里找到，也可以栽进花盆。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/cover.json": {
+   "sha1": "3710a28f04df6af14b47c6d72b344985765c68af",
+   "t": [
+    [
+     "Your guide to Hearth, Harvest, and Home\\n\\nThis book has everything you need to know about growing food, crafting essentials, and turning harvests into hearty meals.",
+     "炉火、收获与家的指南\\n\\n关于种植作物、制作日用品，以及把收成变成一桌热饭，这本书里都写着。"
+    ],
+    [
+     "Use the Table of Contents to navigate between chapters. Some chapters have sub-sections, and clicking a chapter title will return you to the chapter's main page.",
+     "用目录在各章之间跳转。部分章节还有小节，点击章节标题即可回到该章首页。"
+    ]
+   ]
+  },
+  "assets/herbsandharvest/books/toc.json": {
+   "sha1": "f35fb3e06c254e0bcd8aaf75ccc2e589d605f639",
+   "t": [
+    [
+     "Select a chapter to begin.",
+     "选择一个章节开始阅读。"
+    ]
+   ]
+  }
+ }
+}

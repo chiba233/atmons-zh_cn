@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/part-fluidinjector.json",
+ "sha1": "d5189463544dfac048d8cd93788e3ae2394ef32c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Fluid Injector allows you to insert existing fluid fuels into the Fluidizer to mix them and create a new fuel.",
+   "流体注入器可以让你将已有的流体燃料注入流化器，对其进行混合并制造出新的燃料。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() see $(l:bigreactors:fluidizer/operational_mode)operational mode$(/l)$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()见$(l:bigreactors:fluidizer/operational_mode)运行模式$(/l)$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

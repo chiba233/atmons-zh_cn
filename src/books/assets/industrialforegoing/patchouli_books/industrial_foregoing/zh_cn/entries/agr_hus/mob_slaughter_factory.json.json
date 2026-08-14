@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_slaughter_factory.json",
+ "sha1": "de914605084afccd1a31a89d42c091d54256865d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mob Slaughter Factory",
+   "屠宰场"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used used to process mobs and animals into $(l:agr_hus/meat)Liquid Meat$() and $(l:agr_hus/pink_slime)Pink Slime$(). The mobs killed by this machine will not produce drops or experience. $(br2)Passive mobs produce more pink slime than non passive ones",
+   "一台用于将生物和动物处理成 $(l:agr_hus/meat)肉汤$() 和 $(l:agr_hus/pink_slime)粉色史莱姆球$() 的机器。被这台机器杀死的生物不会掉落物品或经验。$(br2)被动生物产出的粉色史莱姆球比非被动生物更多"
+  ]
+ ]
+}

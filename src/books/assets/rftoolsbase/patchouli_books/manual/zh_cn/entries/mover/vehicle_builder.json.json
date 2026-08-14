@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/mover/vehicle_builder.json",
+ "sha1": "3f96fa5126bbcf520d665ab004419d52591a14af",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vehicle Builder",
+   "载具建造机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Vehicle Builder creates vehicles from space chambers.$(br2)Build a correctly formed chamber first, then use the Vehicle Builder to turn that chamber into a vehicle.",
+   "载具构建器可从空间舱室中创建载具。$(br2)请先构建一个形态正确的舱室，再使用载具构建器将该舱室转化为载具。"
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "create_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.content.schematics.client.ToolSelectionScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Tool Selection",
+        "value": "工具选择"
+      }
+    ]
+  }
+]

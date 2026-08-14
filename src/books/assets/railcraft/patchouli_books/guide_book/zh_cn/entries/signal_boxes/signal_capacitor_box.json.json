@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/signal_boxes/signal_capacitor_box.json",
+ "sha1": "b25feed1b708dc1814618cf311bef07584e4c4c3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Capacitor Box",
+   "信号电容器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This box can be placed next to a Signal Receiver Box or Signal Block Relay Box and will then emit a Redstone pulse for a predefined length of time whenever the adjacent box emits Redstone. It is conceptually similar to a RedPower State Cell.",
+   "此方块可放置于信号接收器或信号中继器旁，每当相邻方块输出红石信号时，它便会按预设时长发射一次红石脉冲。其原理与RedPower状态单元类似。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Right clicking on the box will open its GUI. In this GUI, you can see the current amount of time it will emit redstone, which is adjustable. Additionally, there is a button that will toggle between 'Rising Edge' and 'Falling Edge'.",
+   "右键点击该方块可打开其GUI界面。在此界面中，您可查看并调整当前红石脉冲的持续时间。此外，界面中还有一个按钮，用于在“上升沿”与“下降沿”模式间切换。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Rising Edge will emit a redstone pulse for the length of time specified once an adjacent box emits a redstone signal. Falling edge will hold the redstone pulse until the specified time after an adjacent box stops emitting a redstone signal (creating a delay).",
+   "上升沿模式将在相邻方块输出红石信号时，立即按指定时长发射一次红石脉冲；下降沿模式则会在相邻方块停止输出红石信号后，延迟指定时长再发射红石脉冲（形成延迟效果）。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/active.json",
+ "sha1": "46ad8b7408f709293e44eac2287f1d8127df2d2b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Active Cooling",
+   "主动散热"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "An actively cooled Reactor is a Reactor that uses an external coolant to dissipate its internal heat.$(br2)The coolant will be vaporized in the process, and the resulting vapor can be extracted from the Reactor to drive the rotors of one or more Turbines.",
+   "主动冷却反应堆是一种使用外部冷却液来散去内部热量的反应堆。$(br2)在此过程中，冷却液会被汽化，而产生的蒸汽可以从反应堆中提取出来，用于驱动一个或多个涡轮机的转子。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To build an actively cooled Reactor, you need to include at least two Fluid Ports in the multiblock: one configured to insert a coolant into the Reactor and one to extract the generated vapor from the Reactor.$(br2)The extracted vapor can then be piped into your Turbines to generate energy.",
+   "要建造一座主动冷却反应堆，你至少需要在多方块结构中加入两个流体端口：一个配置为向反应堆输入冷却液，另一个配置为从反应堆中提取生成的蒸汽。$(br2)随后，你就可以将提取出的蒸汽输送到涡轮机中发电。"
+  ]
+ ]
+}

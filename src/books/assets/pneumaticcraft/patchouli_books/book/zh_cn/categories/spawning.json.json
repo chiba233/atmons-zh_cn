@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/spawning.json",
+ "sha1": "ef4331e0a4b3517757e98b26498013d6ece9d101",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Some machines and gadgets for controlled spawning of mobs.",
+   "一些可用于受控生成生物的机器和小装置。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Mob Spawning",
+   "怪物生成"
+  ]
+ ]
+}

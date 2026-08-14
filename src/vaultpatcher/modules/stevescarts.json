@@ -1,0 +1,31 @@
+[
+  {
+    "name": "stevescarts_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "vswe.stevescarts.items.ItemCarts"
+    ],
+    "pairs": [
+      {
+        "key": "The cart failed to be placed into the world, this is due to an issue with one or more modules. Please post your log on the issue tracker here: ",
+        "value": "矿车未能放置到世界中，这是由于一个或多个模块存在问题。请将您的日志提交至问题追踪器："
+      },
+      {
+        "key": "Modular Cart",
+        "value": "模块化矿车"
+      },
+      {
+        "key": "Installed Modules:",
+        "value": "已安装模块："
+      },
+      {
+        "key": "No modules loaded",
+        "value": "未加载任何模块"
+      }
+    ]
+  }
+]

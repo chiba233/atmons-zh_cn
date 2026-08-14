@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/builder/builder_target.json",
+ "sha1": "cb2123e04c361afed35e6d96b860f1294630b0ac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Targeting",
+   "目标"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "There are several ways to control the target area that the Builder will affect.",
+   "控制建筑机影响目标区域的方式有多种。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You can directly enter the size and offset in the Shape Card.$(br2)The offset is always relative to the Builder. An offset of 0,0,0 places the area with the Builder in the center.",
+   "你可直接在塑形卡片中输入尺寸与偏移量。$(br2)该偏移量始终相对于构建器。偏移量为0,0,0时，构建区域将以构建器为中心。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You can also sneak-right-click a Builder to start area selection, or set the size in the Shape Card and use the anchor buttons in the GUI to control the offset.",
+   "您也可潜行右键点击建筑机以启动区域选择，或在塑形卡片中设定尺寸后，利用GUI中的锚点按钮控制偏移量。"
+  ]
+ ]
+}

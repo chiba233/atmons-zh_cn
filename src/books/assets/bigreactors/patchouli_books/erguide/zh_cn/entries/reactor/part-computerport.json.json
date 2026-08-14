@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-computerport.json",
+ "sha1": "a88b9ce835e811c520d016b68487c7938f8c4659",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Computer Port",
+   "电脑端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Computer Port allows you to connect your Reactor to a computer for complex automation tasks.$(br2)A standard set of methods is exposed to the connected computer, and you can use them to query the status of the Reactor and control its behavior.",
+   "计算机端口可以让你将反应堆连接到计算机上，以执行复杂的自动化任务。$(br2)连接的计算机会获得一组标准方法，你可以用它们来查询反应堆状态并控制其行为。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Computer Port",
+   "电脑端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To use the Computer Port, you need an external mod that adds programmable computers to the game.$(br2)Currently, the only such mod supported (and available) is CC.",
+   "要使用计算机端口，你需要安装一个能为游戏添加可编程计算机的外部模组。$(br2)目前唯一受支持（且可用）的这类模组是 CC。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()强化$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

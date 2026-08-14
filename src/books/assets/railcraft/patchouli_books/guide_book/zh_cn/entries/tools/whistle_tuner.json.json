@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/whistle_tuner.json",
+ "sha1": "62b86337c64edc1c2d7e08e432b145712b360155",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Whistle Tuner",
+   "鸣笛调谐器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Looking for the perfect whistle pitch for your Locomotive? This tool will let you do that. Just break the Locomotive with it.",
+   "正在寻找适合您机车的完美汽笛音调？这款工具能帮您实现！只需用它破坏机车即可。"
+  ]
+ ]
+}

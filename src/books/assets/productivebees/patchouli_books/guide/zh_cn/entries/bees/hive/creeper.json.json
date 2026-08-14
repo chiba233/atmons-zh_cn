@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/creeper.json",
+ "sha1": "a1bfd825c72803c17ba0a4f8075004f33540159c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "CreeBee",
+   "蜜蜂苦力怕"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Obtained by feeding a block of TNT to a vanilla bee.",
+   "给一只原版蜜蜂喂食一整块 TNT 后获得。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "CreeBee",
+   "蜜蜂苦力怕"
+  ]
+ ]
+}

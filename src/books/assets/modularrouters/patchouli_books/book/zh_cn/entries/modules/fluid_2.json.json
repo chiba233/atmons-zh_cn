@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/fluid_2.json",
+ "sha1": "4fc0464a8e0f61cf04ca93d9065d88f247697d8d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Module Mk2",
+   "流体模块 Mk2"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Like the $(l:modules/fluid_1)Fluid Module Mk1/$, this module can transfer fluids into or out of the router, if it has a fluid-containing item in the buffer. However, this module can also target more distant locations, up to 12 blocks away (up to 24 with $(l:augments/range_up)Range Up Augments/$).",
+   "和$(l:modules/fluid_1)流体模块 Mk1/$一样，如果路由器缓冲区中有储液物品，这个模块就可以在路由器与外界之间传输流体。不过，这个模块还能够以更远处的位置为目标，最远可达 12 格（配合$(l:augments/range_up)范围升级拓展/$时可达 24 格）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(thing)Sneak-right-click/$ any block with the module to set its target.$(p)Note that the target block does not necessarily need to be a fluid tank; if you break the block after setting the module target, the module will be able to empty a bucket of fluid into the world at that location.",
+   "$(thing)用该模块对任意方块执行潜行右击/$，即可将其设为模块的标靶。$(p)请注意，目标方块不一定非得是流体储罐；如果你在设定模块标靶后破坏该方块，模块仍然能够在该位置将一桶流体倒入世界中。"
+  ]
+ ]
+}

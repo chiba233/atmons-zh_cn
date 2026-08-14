@@ -1,0 +1,166 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/armor/overview.json",
+ "sha1": "f50aebde3aa8b2bd1db88917345728a14b815adf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pneumatic Armor Overview",
+   "气动装甲概览"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "What if you mix $(pncr) with the HUD from $(thing)Iron Man/$? You get $(thing)Pneumatic Armor/$!$(p)Although this armor was inspired by Tony Stark's toy, it doesn't mean it's invincible in any way: by default, the armor has only slightly better protection and durability than the equivalent $(thing)Iron Armor/$ piece. ",
+   "如果把 $(pncr) 与 $(thing)钢铁侠/$ 的 HUD 混合在一起，会得到什么？答案是 $(thing)气动护甲/$！$(p)虽然这套护甲的灵感来自托尼·斯塔克的玩具，但这并不意味着它在任何方面都是无敌的：默认情况下，这套护甲的防护能力和耐久度都只比对应的 $(thing)铁护甲/$ 部件略好一点。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Compressed Iron Man",
+   "压缩铁侠"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "However, this armor is highly upgradable. To use upgrades (and to pressurize the armor), put the armor in a $(l:machines/charging_station)Charging Station/$.$(p)Upgrades common to all pieces are described in the following pages. Piece-specific upgrades are described separately in the pages for each armor piece.",
+   "不过，这套护甲具有很高的升级潜力。要使用升级（以及为护甲加压），请将护甲放入 $(l:machines/charging_station)充气站/$ 中。$(p)所有护甲部件通用的升级会在后续页面中说明。各部件专属的升级则会分别在对应护甲部件的页面中介绍。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "When you equip an armor piece, it will $(thing)boot up/$ within a few seconds. You can press $(thing)$(k:pneumaticcraft.armor.options)/$ to open a GUI, which allows you to configure installed upgrades and adjust the armor HUD. With more upgrades installed, more options will appear in the GUI.$(p)Note that all upgrades can be toggled on/off via the GUI checkboxes, and you can even bind a key to each checkbox to quickly toggle features when outside the GUI.",
+   "当你装备上一件护甲时，它会在几秒内$(thing)启动/$。你可以按下 $(thing)$(k:pneumaticcraft.armor.options)/$ 打开一个 GUI，在那里你可以配置已安装的升级卡，并调整盔甲 HUD。安装的升级卡越多，GUI 中出现的选项也就越多。$(p)请注意，所有升级卡都可以通过 GUI 中的复选框开启/关闭，你甚至还可以为每个复选框绑定一个按键，以便在离开 GUI 时快速切换各项功能。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "There are a few ways to keep your valuable armor in good condition:$(li)It can be repaired in an $(thing)Anvil/$ with Compressed Iron Ingots$(li)Add $(thing)Item Life Upgrades/$ to each piece to have it repair itself$(li)Apply the $(thing)Mending/$ enchantment to each piece",
+   "有几种方法可以让你珍贵的护甲保持良好状态：$(li)可以在$(thing)铁砧/$中使用压缩铁锭进行修复$(li)给每一件护甲添加$(thing)物品寿命升级/$，使其自行修复$(li)给每一件护甲附上$(thing)经验修补/$附魔"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Repairing",
+   "修复"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Every armor piece is dynamically re-colorable from the default grey texture; each piece has a $(thing)primary/$ and $(thing)secondary/$ color which can be adjusted independently, and the Helmet $(thing)eyepiece/$ can also have its own color.$(p)To adjust colors, just use the $(bold)Colors.../$ screen from the main armor GUI screen. No special upgrades are needed for this; it's builtin functionality!",
+   "每件护甲都可以从默认的灰色纹理动态重新着色；每个部件都有可独立调整的 $(thing)主/$ 色和 $(thing)副/$ 色，而头盔的 $(thing)目镜/$ 也可以拥有自己的颜色。$(p)要调整颜色，只需在主护甲 GUI 界面中打开 $(bold)颜色……/$ 界面即可。为此不需要任何特殊升级；这是内置功能！"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Coloring",
+   "着色"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "$(l:base_concepts/upgrades#speed)Speed Upgrades/$ reduce the startup time of each armor piece. In addition, they reduce the $(l:armor/pneumatic_helmet)Helmet/$ lock-on time for $(l:base_concepts/upgrades#entity_tracker)Entity Tracker/$ and $(l:base_concepts/upgrades#block_tracker)Block Tracker/$, and increase the $(l:armor/pneumatic_leggings)Leggings/$ run speed, but at an $(l:base_concepts/pressure)air cost/$.",
+   "$(l:base_concepts/upgrades#speed)速度升级/$可缩短每件护甲的启动时间。此外，它们还能缩短$(l:armor/pneumatic_helmet)头盔/$上的$(l:base_concepts/upgrades#entity_tracker)实体追踪器/$和$(l:base_concepts/upgrades#block_tracker)方块追踪器/$的锁定时间，并提高$(l:armor/pneumatic_leggings)护腿/$的奔跑速度，但代价是会$(l:base_concepts/pressure)消耗空气/$。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "$(l:base_concepts/upgrades#volume)Volume Upgrades/$ increase the $(l:base_concepts/pressure)air storage capacity/$ of each armor piece, making them take longer to charge, but slower to lose pressure when in use. Volume Upgrades are limited to 25, and there are diminishing returns as you add more and more upgrades.",
+   "$(l:base_concepts/upgrades#volume)容量升级/$会提高每件护甲的$(l:base_concepts/pressure)储气容量/$，使它们充气所需时间更长，但在使用时压力流失得更慢。容量升级最多可安装 25 个，而且随着你安装的升级越来越多，收益会逐渐递减。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "$(l:base_concepts/upgrades#armor)Armor Upgrades/$ increase the protection and toughness of each armor piece. With 2 upgrades installed, each piece is as good as the corresponding $(thing)Diamond Armor/$ piece.  With the maximum 4 upgrades, the protection is thus superior to $(thing)Diamond Armor/$.",
+   "$(l:base_concepts/upgrades#armor)护甲升级/$会提高每件护甲的防护值和韧性。安装 2 个升级后，每一件护甲都能达到对应的 $(thing)钻石护甲/$部件水平。安装满 4 个升级后，其防护性能将优于 $(thing)钻石护甲/$。"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "$(l:base_concepts/upgrades#item_life)Item Life Upgrades/$ slowly repair the armor piece, at a cost of $(l:base_concepts/pressure)air/$. Up to 5 upgrades can be installed in each piece, providing incrementally faster (but less air-efficient) repair.",
+   "$(l:base_concepts/upgrades#item_life)物品寿命升级/$会缓慢修复这件护甲，但需要消耗$(l:base_concepts/pressure)空气/$。每件护甲最多可安装 5 个升级，修复速度会逐步提升（但空气利用效率也会更低）。"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "A $(l:base_concepts/upgrades#gilded)Gilded Upgrade/$ can be installed in any armor piece, and fools $(thing)Piglins/$ into believing that you're actually wearing $(thing)Gold Armor/$. Silly Piglins.",
+   "$(l:base_concepts/upgrades#gilded)镶金升级/$可以安装在任意一件护甲上，并让 $(thing)猪灵/$ 误以为你穿着的其实是 $(thing)金盔甲/$。愚蠢的猪灵。"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "The $(l:base_concepts/upgrades#radiation_shielding)Radiation Shielding Upgrade/$ provides protection against the harmful effects of Mekanism radiation, same as Mekanism's own $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)Radiation Shielding Unit/$. Note that you must have a Shielding Upgrade in every armor piece to receive full protection.",
+   "$(l:base_concepts/upgrades#radiation_shielding)辐射防护升级/$可提供对抗通用机械辐射有害影响的保护，效果与通用机械自带的 $(l:https://wiki.aidancbrady.com/wiki/Radiation_Shielding_Unit)辐射屏蔽单元/$ 相同。请注意，你必须在每件护甲上都安装一个防护升级，才能获得完整防护。"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "title"
+   ],
+   "Mekanism Radiation",
+   "Mekanism辐射"
+  ],
+  [
+   [
+    "pages",
+    12,
+    "text"
+   ],
+   "$(l:base_concepts/upgrades#thaumcraft)Thaumcraft Upgrades/$ provide the armor piece with the equivalent vis discount of the corresponding $(thing)Thaumaturge's armor/$.  In addition, a Thaumcraft Upgrade installed in the $(l:armor/helmet)Helmet/$ acts as a $(item)Goggles of Revealing/$, showing $(thing)aura nodes/$ and displaying $(thing)aspect/$ amounts in containers.",
+   "$(l:base_concepts/upgrades#thaumcraft)神秘时代升级/$可使对应的护甲部件获得与相应$(thing)神秘使套装/$等同的 vis 折扣。此外，安装在$(l:armor/helmet)头盔/$中的神秘时代升级还会像$(item)揭示护目镜/$一样发挥作用，显示$(thing)灵气节点/$，并显示容器中的$(thing)要素/$数量。"
+  ],
+  [
+   [
+    "pages",
+    12,
+    "title"
+   ],
+   "Thaumcraft",
+   "神秘时代"
+  ]
+ ]
+}

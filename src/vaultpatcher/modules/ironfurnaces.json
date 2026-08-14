@@ -1,0 +1,93 @@
+[
+  {
+    "name": "ironfurnaces_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "ironfurnaces.blocks.furnaces.BlockIronFurnaceBase"
+    ],
+    "pairs": [
+      {
+        "key": "Settings copied",
+        "value": "设置已复制"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ironfurnaces.gui.furnaces.BlockIronFurnaceScreenBase"
+    ],
+    "pairs": [
+      {
+        "key": "Auto Split",
+        "value": "自动分割"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "ironfurnaces.items.ItemFurnaceCopy"
+    ],
+    "pairs": [
+      {
+        "key": "Right-click to copy settings",
+        "value": "右键单击以复制设置"
+      },
+      {
+        "key": "Sneak & right-click to apply settings",
+        "value": "潜行并右击以应用设置"
+      },
+      {
+        "key": "Settings applied",
+        "value": "设置已应用"
+      },
+      {
+        "key": "Down: ",
+        "value": "下："
+      },
+      {
+        "key": "Up: ",
+        "value": "上："
+      },
+      {
+        "key": "North: ",
+        "value": "北："
+      },
+      {
+        "key": "South: ",
+        "value": "南："
+      },
+      {
+        "key": "West: ",
+        "value": "西："
+      },
+      {
+        "key": "East: ",
+        "value": "东："
+      },
+      {
+        "key": "Auto Input: ",
+        "value": "自动输入："
+      },
+      {
+        "key": "Auto Output: ",
+        "value": "自动输出："
+      },
+      {
+        "key": "Redstone Mode: ",
+        "value": "红石模式："
+      },
+      {
+        "key": "Redstone Value: ",
+        "value": "红石强度："
+      },
+      {
+        "key": "Direction: ",
+        "value": "方向："
+      }
+    ]
+  }
+]

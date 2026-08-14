@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/coordinate_operator.json",
+ "sha1": "fe3040ffff57a6edce8feb18acbbe8bd5871aa58",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coordinate Operator Widget",
+   "坐标运算组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Coordinate Operator/$ widget is used to define and/or manipulate $(l:programming/variables)variables/$, to allow for some advanced drone functionality. This widget needs one or more connected $(l:programming/coordinate)Coordinate/$ widgets to define the values to be used, and carries out a given arithmetic operation (defined in the widget's GUI) on those connected pieces.",
+   "$(thing)坐标运算符/$组件用于定义和/或操作$(l:programming/variables)变量/$，以实现一些更高级的无人机功能。这个组件需要连接一个或多个$(l:programming/coordinate)坐标/$组件来定义要使用的数值，并会对这些已连接的部分执行指定的算术运算（在该组件的 GUI 中定义）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The available operations are:$(li)$(bold)Add/Subtract/$: Adds up the widgets on the right, and subtracts the widgets on the left.$(li)$(bold)Multiply/Divide/$: multiplies the widgets on the right, and divides the result by the widgets on the left.$(li)$(bold)Min/Max/$: takes the maximum X/Y/Z from the widgets on the right, then takes the minimum of the widgets on the left and the maximum that was determined earlier.",
+   "可用的操作有：$(li)$(bold)加/减/$：将右侧的部件相加，并减去左侧的部件。$(li)$(bold)乘/除/$：将右侧的部件相乘，并用左侧的部件对结果进行相除。$(li)$(bold)最小/最大/$：取右侧部件中 X/Y/Z 的最大值，然后在左侧的部件与先前确定的最大值之间取最小值。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The end result is stored in a $(l:programming/variables)variable/$, defined by the name entered in the Coordinate Operator GUI. Using this $(thing)variable/$, you can retrieve the coordinate later:$(li)In the $(l:programming/area)Area/$ widget you can, instead of using a GPS coordinate, use a $(thing)variable/$ name$(li)You can use the $(l:programming/condition_coordinate)Condition: Coordinate/$ to carry out tests on the $(thing)variable/$.",
+   "最终结果会存储在一个 $(l:programming/variables)变量/$ 中，其名称由你在坐标运算器 GUI 中输入的名称定义。使用这个 $(thing)变量/$，你之后就可以取回该坐标：$(li)在 $(l:programming/area)区域/$ 小部件中，你可以不使用 GPS 坐标，改为使用 $(thing)变量/$ 名称$(li)你可以使用 $(l:programming/condition_coordinate)条件：坐标/$ 来对该 $(thing)变量/$ 进行检测。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(italic)Coordinate Operator Widget/$",
+   "$(italic)坐标运算组件/$"
+  ]
+ ]
+}

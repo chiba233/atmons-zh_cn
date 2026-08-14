@@ -1,0 +1,40 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/transport/conveyor.json",
+ "sha1": "c50871e2bd5a8dff8eb89d5daa1fea0bf1bf7745",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Conveyors",
+   "传送带"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Conveyors can be used to transport items, entities and fluids. They can interact with the world using $(l:conveyor_upgrades)upgrades$(). Items and entities can go up and down on the conveyors but fluids can only go horizontal. $(br2)Conveyors can be colored by right-clicking them with a dye.",
+   "传送带可用于运输物品、实体与流体。通过安装$(l:conveyor_upgrades)升级卡$()，传送带可与世界交互。物品与实体可在传送带上垂直移动，而流体仅能水平流动。$(br2)传送带可通过右击染料进行染色。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Using glowstone can make the conveyors move items and entities very fast.",
+   "使用荧石可使传送带以极快速度运送物品与实体。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Using plastic will prevent items from being picked up when they are on top of a conveyor.",
+   "使用塑料片可防止物品在传送带上时被自动拾取。"
+  ]
+ ]
+}

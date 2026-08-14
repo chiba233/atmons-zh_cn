@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/hives.json",
+ "sha1": "51cac1a4e894fee40b0fee016966d2308bedf4a6",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Info about hive",
+   "有关蜂箱的信息"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Advanced Beehives",
+   "高级蜂箱"
+  ]
+ ]
+}

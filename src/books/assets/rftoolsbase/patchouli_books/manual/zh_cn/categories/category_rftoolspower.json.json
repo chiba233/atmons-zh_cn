@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolspower.json",
+ "sha1": "e44b07e1a9f77e8bddee87cf9546263247eace0a",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "$(thing)RFTools Power$() is a mod about power generation and power storage.",
+   "$(thing)RF工具：能量$()是一个关于发电和能量存储的模组。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "RFTools Power",
+   "RF工具：能量"
+  ]
+ ]
+}

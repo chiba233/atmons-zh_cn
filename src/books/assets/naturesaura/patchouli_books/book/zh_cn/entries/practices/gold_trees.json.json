@@ -1,0 +1,15 @@
+{
+ "src": "assets/naturesaura/patchouli_books/book/zh_cn/entries/practices/gold_trees.json",
+ "sha1": "a042c04656d20a31c4905064bc4d221a4a2ebb18",
+ "t": [
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Creating the $(item)Brilliant Fiber$()",
+   "制作$(item)闪耀纤维$()"
+  ]
+ ]
+}

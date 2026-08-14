@@ -1,0 +1,19 @@
+[
+  {
+    "name": "observable_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "observable.client.ClientSettingsGui"
+    ],
+    "pairs": [
+      {
+        "key": "null cannot be cast to non-null type net.minecraft.client.gui.components.AbstractWidget",
+        "value": "null 无法转换为非 null 类型 net.minecraft.client.gui.components.AbstractWidget"
+      }
+    ]
+  }
+]

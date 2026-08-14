@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/glowing.json",
+ "sha1": "9aeef853f031652a50f010190c85acd571c0cad6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glowing Bee",
+   "发光蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Found living in glowing nests in the nether. Glowing Bees prefer pollinating glowing blocks like glowstone or lamps.",
+   "栖息在下界的发光蜂巢中。发光蜜蜂更喜欢为荧石或灯这类发光方块授粉。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Glowing Bee",
+   "发光蜜蜂"
+  ]
+ ]
+}

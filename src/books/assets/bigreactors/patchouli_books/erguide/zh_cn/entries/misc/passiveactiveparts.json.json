@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/misc/passiveactiveparts.json",
+ "sha1": "4aa0b3e474d8046b2779ebd7ad46f2e172fec800",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Passive and Active Parts",
+   "被动与主动部件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Some Reactor or Turbine parts that interact with external blocks are available in a $(bold)passive$() or $(bold)active$() form, or both.$(br2)A $(bold)passive$() part does nothing by itself. It does not try to send out energy, fluids, or items, nor does it try to acquire them. The block connected to the part needs to take the initiative and start the transfer.",
+   "某些会与外部方块交互的反应堆或涡轮机部件，有 $(bold)被动$()、$(bold)主动$() 两种形式，或者两者都有。$(br2)$(bold)被动$()部件本身不会主动做任何事。它既不会尝试输出能量、流体或物品，也不会尝试获取它们。与该部件相连的方块需要主动发起传输。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "An $(bold)active$() part is always looking for an opportunity to extract items and fluids or to send out power, items, and fluids to the connected block, but it does not allow the connected block to insert or extract anything from the part.$(br2)By mixing active and passive parts, you can fine-tune your resource distribution and acquisition network.",
+   "$(bold)主动$()部件会始终寻找机会，从连接的方块中提取物品和流体，或向连接的方块输出能量、物品和流体；但它不允许连接的方块通过该部件插入或提取任何东西。$(br2)通过搭配使用主动与被动部件，你可以精细调整自己的资源分配与获取网络。"
+  ]
+ ]
+}

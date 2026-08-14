@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/water_tank.json",
+ "sha1": "39c5c5203c7f3de458f4add4d547fcb4a9e58a1d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Water Tank",
+   "水储罐"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Water Tank is a source of water for your railway. It is a passive system that collects water from the environment to keep the tank filled. The tank itself can hold 400 buckets of water and can be used to refill your Steam Locomotives (or other water consuming devices). The rate at which the tank refills is determined by biome, weather, and if the tank is outdoors (it can see the sky). It is generally recommended that you don't try running your railway through the desert.$(br2)To construct a water tank, build a 3x3x3 hollow structure out of Water Tank Siding similar to how you would build a Coke Oven.",
+   "水槽是铁路的水源，它是一种被动式系统，可从环境中收集水分以保持水槽始终充满。水槽本身可储存400桶水，可用于为蒸汽机车（或其他耗水设备）补水。水槽的自动补水速率取决于所处生物群系、天气状况以及水槽是否位于室外（即能否看到天空）。通常建议您不要让铁路穿越沙漠。$(br2)要建造水槽，请使用蓄水器壁板搭建一个3×3×3的空心结构，其建造方式与焦炉类似。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Water Tank",
+   "水储罐"
+  ]
+ ]
+}

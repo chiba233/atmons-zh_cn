@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/spawning/spawner_extractor.json",
+ "sha1": "e3f2bdcc73907fbd149b3f8a336ec2edc43d1351",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Spawner Extractor",
+   "刷怪笼抽取器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A $(item)Spawner Extractor/$ is one of the two ways to obtain a $(l:spawning/spawner_core)Spawner Core/$, which you'll need if you want to use a $(l:spawning/pressurized_spawner)Pressurized Spawner/$.$(p)To use the Spawner Extractor, place it on top of a vanilla $(item)Spawner/$, which you'll need to find in the world somewhere.",
+   "$(item)刷怪笼抽取器/$是获取$(l:spawning/spawner_core)刷怪笼核心/$的两种方式之一；如果你想使用$(l:spawning/pressurized_spawner)气动刷怪笼/$，就需要它。$(p)要使用刷怪笼抽取器，请将其放置在一个原版$(item)刷怪笼/$上方，你需要在世界中的某处找到它。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Then, provide the Spawner Extractor with $(thing)-0.5 bar/$ of vacuum or lower, and prepare for a fight. It turns out that Spawners $(italic)really/$ don't like being extracted, and spawn mobs at a greatly increased rate to defend themselves. Some useful tips:$(li)The base extraction time is about 60 seconds.$(li)However, any nearby defending mobs will slow the extraction down, and too many will stall extraction.",
+   "然后，为刷怪笼抽取器提供 $(thing)-0.5 bar/$ 或更低的真空，并准备战斗。事实证明，刷怪笼 $(italic)真的/$ 很不喜欢被抽取，会以大幅提高的速率生成生物来保卫自己。一些有用的提示：$(li)基础抽取时间约为 60 秒。$(li)不过，附近任何前来防守的生物都会减慢抽取速度，而如果数量过多，抽取就会停滞。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)There must be at least one player nearby or extraction will stall.$(li)If the $(thing)Spawner/$ isn't able to spawn defenders (e.g. bad light levels, ground missing...), the process will also slow down and eventually stall.$(p)Once extraction is complete, a $(thing)Spawner Core/$ is ejected, and the Spawner becomes an $(item)Empty Spawner/$. This block can (and should) be picked up, since it's used to craft a $(l:spawning/pressurized_spawner)Pressurized Spawner/$.",
+   "$(li)附近必须至少有一名玩家，否则提取将会停滞。$(li)如果$(thing)生物生成器/$无法生成守卫者（例如光照等级不合适、地面缺失等），该过程也会变慢，并最终停滞。$(p)提取完成后，会弹出一个$(thing)刷怪笼核心/$，而该 Spawner 会变成$(item)空刷怪笼/$。这个方块可以（也应该）被拾取，因为它可用于合成$(l:spawning/pressurized_spawner)气动刷怪笼/$。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a Spawner Extractor.",
+   "合成刷怪笼抽取器。"
+  ]
+ ]
+}

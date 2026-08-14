@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_launcher.json",
+ "sha1": "1daffbf461ac982d2f1ceec79939803f8f0e0a73",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Launcher",
+   "无限发射器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Launcher is a tool that allows you to capture or release entities from a Mob Imprisonment Tool at a range. When selecting the mode in the GUI and firing the launcher you will be able to release or capture mobs using the MIT in your inventory.",
+   "无限发射器是一种工具，允许你在一定距离外，利用生物捕捉工具捕获或释放实体。在GUI中选定模式并发射后，你即可通过库存中的MIT来释放或捕获生物。"
+  ]
+ ]
+}

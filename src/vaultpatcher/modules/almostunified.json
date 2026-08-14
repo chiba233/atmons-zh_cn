@@ -1,0 +1,31 @@
+[
+  {
+    "name": "almostunified_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.almostreliable.unified.core.AlmostUnifiedCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Almost Unified Commands",
+        "value": "Almost Unified 命令"
+      },
+      {
+        "key": "strip <radius> - strips everything in the specified radius except for Bedrock and ores",
+        "value": "strip <radius> - 清除指定半径内除基岩和矿石外的一切"
+      },
+      {
+        "key": "This command can only be used in-game!",
+        "value": "此命令只能在游戏内使用！"
+      },
+      {
+        "key": "Please provide a valid radius!",
+        "value": "请提供一个有效的半径！"
+      }
+    ]
+  }
+]

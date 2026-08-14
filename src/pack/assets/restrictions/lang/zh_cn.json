@@ -1,0 +1,14 @@
+{
+  "block.restrictions.pusher": "推离方块",
+  "block.restrictions.attractor": "吸引方块",
+  "block.restrictions.oneway": "单向推动方块",
+  "itemGroup.restrictions": "限制",
+  "block.restrictions.oneway_wall": "单向通行墙",
+  "item.restrictions.glassboots": "玻璃靴子",
+  "message.restrictions.shiftmessage": "<按下 Shift>",
+  "message.restrictions.glassboots.header": "如果你穿上这双靴子，吸引方块、推离方块和单向推动方块将对你不起作用",
+  "message.restrictions.attractor.header": "这个方块会从与其接收到的红石信号强度相等的距离内吸引实体、物品、生物、玩家……",
+  "message.restrictions.pusher.header": "这个方块会根据接收到的红石信号强度，从相应距离外推动实体、物品、生物、玩家等",
+  "message.restrictions.oneway.header": "这会强制实体、物品、生物、玩家等朝特定方向移动",
+  "message.restrictions.oneway_wall.header": "该方块只允许实体、物品、生物、玩家等向特定方向移动"
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/simulated_hydroponic_bed.json",
+ "sha1": "1a3721a61648ef81b5b2ac0168b61f1461b5c5fb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Simulated Hydroponic Bed",
+   "模拟水培床"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine when powered it will generate crop drops based on the Hydroponic Simulation Processor data",
+   "这台机器在通电后，会根据水培模拟处理器的数据生成作物掉落物。"
+  ]
+ ]
+}

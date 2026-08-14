@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/filters/mod.json",
+ "sha1": "1a22909b2e6ffa86c6f81905df0c755f4c18a812",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mod Filter",
+   "按mod分拣过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This filter allows for matching of items by the mod they belong to. Up to 6 mods can be added per installed filter.$(li)$(thing)Right-click/$ the filter to open its GUI (or $(thing)middle-click/$ / press $(bold)$(4)[$(k:modularrouters.configure)]/$ on a filter which is installed in a module).",
+   "这个过滤器允许根据物品所属的模组进行匹配。每个已安装的过滤器最多可添加 6 个模组。$(li)$(thing)右键单击/$过滤器可打开其 GUI（或者对已安装在模块中的过滤器使用$(thing)中键单击/$ / 按下 $(bold)$(4)[$(k:modularrouters.configure)]/$）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)Drop any item into the item slot in the top-left corner of the GUI. The item's mod name will be displayed to the right. Click the $(bold)$(2)+/$ button to add it to the mod list below.$(li)Click the red $(bold)$(4)X/$ button beside an entry to remove that mod from the list.$(p)Vanilla items can be added too, and their \"mod\" will be shown as $(italic)Minecraft/$.",
+   "$(li)将任意物品放入GUI界面左上角的物品槽中，右侧将显示该物品所属模组的名称。点击$(bold)$(2)+/$按钮即可将其添加至下方的模组列表中。$(li)点击列表中某一项旁的红色$(bold)$(4)X/$按钮，即可从列表中移除该模组。$(p)原版物品也可添加，其“模组”名称将显示为$(italic)Minecraft/$。"
+  ]
+ ]
+}

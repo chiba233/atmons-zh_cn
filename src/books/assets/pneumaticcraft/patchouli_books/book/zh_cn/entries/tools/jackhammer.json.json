@@ -1,0 +1,112 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/jackhammer.json",
+ "sha1": "29507214543102210d7014b15f0f36a99909bd4f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pneumatic Jackhammer",
+   "气动凿岩锤"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Pneumatic Jackhammer/$ is a highly versatile mining tool, which can break all types of block equally effectively, using $(l:base_concepts/pressure)pressure/$ to do so. Its mining speed and air capacity can be upgraded in a $(l:machines/charging_station)Charging Station/$ with $(l:base_concepts/upgrades#speed)Speed Upgrades/$ and $(l:base_concepts/upgrades#volume)Volume Upgrades/$, respectively.",
+   "$(item)气动凿岩锤/$是一种用途极其广泛的采矿工具，能够借助$(l:base_concepts/pressure)气压/$高效地破坏所有类型的方块。它的挖掘速度和储气容量分别可以在$(l:machines/charging_station)充气站/$中使用$(l:base_concepts/upgrades#speed)速度升级/$和$(l:base_concepts/upgrades#volume)容量升级/$进行提升。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A newly-crafted Jackhammer comes without a $(thing)Drill Bit/$, so isn't very useful. You will need to insert one; right-click the Jackhammer to open its configuration GUI, and place a bit in the top-right slot.$(p)There are four types of Drill Bit, in ascending power and cost:$(li)Iron/$$(li)Compressed Iron/$$(li)Diamond/$$(li)Netherite/$",
+   "新制作出的手提钻默认不带有$(thing)钻孔头/$，因此几乎派不上用场。你需要先装入一个；右键点击手提钻以打开其配置 GUI，然后将钻孔头放入右上角的槽位。$(p)钻孔头共有四种类型，按性能和成本从低到高依次为：$(li)铁/$$(li)压缩铁/$$(li)钻石/$$(li)下界合金/$"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Drill Bits",
+   "钻孔头"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The Jackhammer supports several dig modes, including some $(thing)veinminer/$ functionality, making it very easy to dig out large areas quickly. The dig modes supported depend on the $(thing)Drill Bit/$ you're using; better bits support more dig modes (in addition to improved dig speed).$(p)To set a dig mode, open the Jackhammer GUI (right-click) and use the button in the lower right (see opposite).",
+   "手提钻支持多种挖掘模式，其中还包括一些$(thing)矿脉挖掘/$功能，让你能够非常轻松地快速挖出大范围区域。支持哪些挖掘模式取决于你使用的$(thing)钻孔头/$；更好的钻孔头支持更多挖掘模式（此外还会提升挖掘速度）。$(p)要设置挖掘模式，请打开手提钻的 GUI（右键），然后使用右下角的按钮（见对页）。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Dig Modes",
+   "挖掘模式"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(italic)Jackhammer GUI with a Netherite Drill Bit installed and 3x3 dig mode selected/$",
+   "$(italic)已安装下界合金钻头并选中 3x3 挖掘模式的风镐界面/$"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The Jackhammer cannot be enchanted normally in an $(thing)Enchanting Table/$, but it is possible to insert a $(thing)Silk Touch/$ or $(thing)Fortune/$ enchanted book, via the GUI. A book placed in the book slot (top center) will bestow its enchantment on the Jackhammer.",
+   "手提钻无法像平常那样在 $(thing)附魔台/$ 中附魔，但你可以通过 GUI 插入一本带有 $(thing)精准采集/$ 或 $(thing)时运/$ 的附魔书。将书放入书槽（顶部中央）后，其附魔就会赋予手提钻。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Enchanting",
+   "附魔"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "This has the advantage of being easily swappable between a Silk Touch and a Fortune book, as you need.$(p)If you're finding it difficult to obtain the books you need (vanilla book enchanting being so very random), bear in mind that the $(l:manufacturing/pressure_chamber)Pressure Chamber/$ is able to strip enchantments from tools and place them on books.",
+   "这样做的好处是，你可以根据需要，轻松在精准采集附魔书和时运附魔书之间切换。$(p)如果你发现很难获得自己需要的附魔书（毕竟原版附魔书附魔实在太随机了），请记住，$(l:manufacturing/pressure_chamber)压力室/$可以从工具上剥离附魔并将其转移到书上。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Enchanting (cont.)",
+   "附魔 (续)"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Crafting a Jackhammer",
+   "合成手提钻"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell_card.json",
+ "sha1": "74cc95af4a3ff7bdae50332d9174d34faf7ec1af",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Powercell Card",
+   "能量单元卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This card links $(l:rftoolsbase:powerstorage/dimensionalcell)Dimensional Cells$(/l) together. A new card starts unlinked. Insert it into a Dimensional Cell to create or copy a link.",
+   "此卡片用于链接$(l:rftoolsbase:powerstorage/dimensionalcell)维度能量单元$(/l)。新卡片默认未链接，将其插入维度能量单元即可创建或复制链接。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Use the linked card on other Dimensional Cells to join them to the same remote storage network.",
+   "在其他维度细胞上使用已链接的卡片，即可将其加入同一远程存储网络。"
+  ]
+ ]
+}

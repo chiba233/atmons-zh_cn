@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/one_way_track.json",
+ "sha1": "fdb3cccf5923732397a3783608c7c0db44f13ea5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "One-Way Track",
+   "单向轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "While unpowered, the behavior of this rail is identical to that of normal rails. However, when they receive power they will reverse the momentum of any cart travelling in the opposite direction of the arrow on the rail. Some of the momentum is lost of course.",
+   "未充能时，此类轨道行为与普通轨道完全一致。但一旦接收红石信号，它将反转任何逆着轨道箭头方向行驶的矿车动量。当然，部分动量在此过程中会有所损耗。"
+  ]
+ ]
+}

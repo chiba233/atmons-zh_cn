@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/mimic.json",
+ "sha1": "0ff6b179c80bc7df5187794aa58736fbb31a619f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mimic Augment",
+   "模仿拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can only be added to the $(l:modules/extruder_2)Extruder Module Mk2/$.$(p)When present, any fake blocks extruded by the module take on the properties of the faked block, e.g. $(item)Obsidian/$ is hard to break, $(item)Glowstone/$ emits light, and $(item)Redstone Blocks/$ emit a redstone signal.",
+   "此拓展仅可安装至$(l:modules/extruder_2)造桥模块 Mk2/$。$(p)安装后，模块所生成的伪装方块将继承对应真实方块的属性：例如$(item)黑曜石/$极难破坏，$(item)荧石/$会发出光源，而$(item)红石装饰方块/$则会输出红石信号。"
+  ]
+ ]
+}

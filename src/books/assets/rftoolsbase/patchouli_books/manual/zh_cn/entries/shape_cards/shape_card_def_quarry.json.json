@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shape_cards/shape_card_def_quarry.json",
+ "sha1": "73ad227679f2127dd10acc1c272d2f250270c3ce",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Quarry Card",
+   "采石场卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Quarry Card makes the Builder mine all blocks in the selected area. Normal quarry cards replace mined blocks with the configured filler block.",
+   "采掘卡片使建筑机挖掘所选区域内的全部方块。普通采掘卡片会将已挖掘方块替换为设定的填充方块。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Clear variants leave air instead of filler. Silk Touch variants preserve blocks, while Fortune variants improve drops where possible.",
+   "清除变体会以空气替代而非填充物；精准采集变体会保留原方块；幸运变体则在可能情况下提升掉落物品质。"
+  ]
+ ]
+}

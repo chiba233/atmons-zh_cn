@@ -1,0 +1,19 @@
+[
+  {
+    "name": "cristellib_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.cristelknight.cristellib.api.BuiltInAPI"
+    ],
+    "pairs": [
+      {
+        "key": "Cristel Lib Config Pack",
+        "value": "Cristel Lib 配置包"
+      }
+    ]
+  }
+]

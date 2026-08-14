@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/placer.json",
+ "sha1": "745105c84c4c30e76050f0b9b08bb0434bbdc957",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Placer Module",
+   "放置模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's $(l:intro/modules#direction)configured direction/$.$(li)If the item isn't a block or the destination block space is obstructed, nothing will be done.$(li)Normal Minecraft placement rules are followed; e.g. sugar cane can only be placed next to water on sand/dirt.",
+   "该模块尝试将路由器缓存中的物品作为方块放置于模块$(l:intro/modules#direction)已配置方向/$上紧邻路由器处。$(li)若该物品无法作为方块放置，或目标位置已被占据，则不会执行任何操作。$(li)遵循原版Minecraft的放置规则；例如甘蔗只能放置在沙土/泥土旁的水源边。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)Fluid blocks will be replaced, as will replaceable blocks such as tall grass.$(li)The Placer module can plant seeds on farmland, and cocoa beans on an adjacent jungle log.",
+   "$(li)流体方块及高草等可替换方块将被覆盖。$(li)放置器模块可在耕地上播种种子，并在相邻的丛林原木上种植可可豆。"
+  ]
+ ]
+}

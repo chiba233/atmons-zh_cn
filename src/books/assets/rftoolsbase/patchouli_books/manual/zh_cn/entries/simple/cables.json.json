@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/cables.json",
+ "sha1": "543cb8d15494fe003bd3261aff6a5e6b0dd617d8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cables",
+   "网络线缆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Colored cables form local networks. Red, green, blue, and yellow cables do not connect to each other, even when placed next to each other.",
+   "彩色线缆构成局域网络。红、绿、蓝、黄四种颜色的线缆彼此互不连通，即使相邻放置亦然。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Routing cables are different: they are used by Routers and Wireless Routers to link multiple controller networks together.",
+   "路由线缆用途不同：它专供路由器与无线路由器使用，用于连接多个控制器网络。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/information_screen.json",
+ "sha1": "a6996a296337e21a988f848b08360def978984e8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Information Screen",
+   "信息屏幕"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Information Screen is a small screen that can be put adjacent to a machine in order to show some information. By default this screen will show energy information but some machines (like the PowerCells from RFTools Power) have additional viewing options",
+   "信息屏幕是一种小型屏幕，可以放在机器旁边以显示一些信息。默认情况下，这个屏幕会显示能量信息，但有些机器（例如 RFTools Power 中的能量单元）还提供额外的显示选项。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Using a wrench on the Information Screen will toggle display mode (if supported by the attached machine)",
+   "对信息屏幕使用扳手会切换显示模式（如果所连接的机器支持的话）。"
+  ]
+ ]
+}

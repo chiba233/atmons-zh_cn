@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/blast_furnace.json",
+ "sha1": "952b7775f50dc57eeada59179b2795ec79ee965e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Blast Furnace",
+   "高炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Blast Furnace is a 3x3x4 brick structure, hollow in the middle, for converting Iron Ingots into Steel Ingots.$(br2)The Oven is built out of 34 special bricks made from Nether Brick, Soul Sand, and Magma Cream. If broken down, it takes 36 Nether Bricks, 36 Soul Sand, and 9 Magma Creams to build one Blast Furnace. Blast Furnaces cannot be built adjacent to each other – there must be at least one tile in between Furnaces.",
+   "高炉是一种3×3×4尺寸的砖砌结构，中间为空心，用于将铁锭冶炼成钢锭。$(br2)该烤炉由34块特殊砖块构成，原料为下界砖、灵魂沙与岩浆膏。若将其拆除，重建一座高炉需消耗36块下界砖、36份灵魂沙与9份岩浆膏。高炉之间不可相邻建造——两座高炉间至少需间隔一格空间。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Blast Furnace",
+   "高炉"
+  ]
+ ]
+}

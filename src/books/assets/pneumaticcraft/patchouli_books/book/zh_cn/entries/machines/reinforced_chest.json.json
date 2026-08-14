@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/reinforced_chest.json",
+ "sha1": "c9c8fa63eb060258c105f4ad4ab47988ce263614",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reinforced Chest",
+   "强化箱子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Reinforced Chest/$ is a 36-slot chest which has obsidian-level blast resistance, and keeps its inventory when broken.",
+   "$(item)强化箱子/$是一个拥有 36 个槽位的箱子，具备黑曜石级的抗爆能力，并且在被破坏后会保留其中的容器内容物。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Reinforced Chest",
+   "合成强化箱子"
+  ]
+ ]
+}

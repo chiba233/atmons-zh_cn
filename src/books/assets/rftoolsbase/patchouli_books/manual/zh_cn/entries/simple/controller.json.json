@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/controller.json",
+ "sha1": "cab8e86450ab00db8b21630f45df22eebad24cd8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Controller is the heart of an XNet network. It edits channels and decides how items, fluids, energy, or redstone move through connected blocks.",
+   "控制器是XNet网络的核心。它负责编辑频道，并决定物品、流体、能量或红石信号如何经由已连接方块进行传输。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Add a channel, choose its type, then add connectors to that channel. Every connector can have its own side, priority, filters, and transfer settings.",
+   "添加一个通道，选择其类型，再向该通道添加连接器。每个连接器均可独立设置侧面、优先级、过滤器及传输参数。"
+  ]
+ ]
+}

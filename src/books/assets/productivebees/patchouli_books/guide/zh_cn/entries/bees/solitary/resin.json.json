@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/resin.json",
+ "sha1": "18ee4074f845d18e7d4a8b99ef04887e9dbbdf75",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Resin Bee",
+   "树脂蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Megachile mystaceana]",
+   "[梅加奇勒·密斯塔西亚娜]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Resin Bee",
+   "树脂蜜蜂"
+  ]
+ ]
+}

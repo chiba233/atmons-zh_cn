@@ -1,0 +1,6 @@
+{
+ "gui.lionfishapi.optifine.message": "OptiFine 与不同模组之间存在严重兼容性问题！",
+ "gui.lionfishapi.optifine.xenonsuggestions": "改用优化模组 Xenon",
+ "gui.lionfishapi.optifine.oculussuggestions": "改用光影模组 Oculus",
+ "gui.lionfishapi.optifine.title": "停止使用 Optifine"
+}

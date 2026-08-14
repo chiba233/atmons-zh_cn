@@ -1,0 +1,31 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_basic.json",
+ "sha1": "f9e468ba38ccced0c4683b835467f5420c1ef5c1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Basic Filter",
+   "基础过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The basic filter can be used to limit what items are allowed in an inventory.$(br2)These slots are 'ghost slots', which means they do not REALLY hold items, just an image of an item.",
+   "基础过滤器用于限制存储空间内允许存在何种物品。$(br2)过滤器内的槽是“幽灵槽”，它们不实际存放物品，只存放物品的信息。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "If JEI is installed, you may drag items from JEI into these 'ghost slots'. Simply left click and drag out of JEI into the filter UI.",
+   "若装有 JEI，你可以直接从 JEI 物品列表内将对应物品拖至“幽灵槽”内。左击后拖出即可。"
+  ]
+ ]
+}

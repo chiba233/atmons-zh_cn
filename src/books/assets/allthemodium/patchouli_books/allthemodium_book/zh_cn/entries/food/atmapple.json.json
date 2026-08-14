@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/food/atmapple.json",
+ "sha1": "a8161bc08b5d516d97c69d091188ec914a4698a2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Allthemodium Apple",
+   "ATM苹果"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Allthemodium Apple",
+   "ATM苹果"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Allthemodium Apple gives 20 hunger and 80 saturation. The apple has the following effects:$(li)Fast to Eat$(li)Can Always Eat$(li)Absorption X for 30 Sec$(li)Regeneration X for 30 Sec",
+   "Allthemodium苹果可提供 20 点饥饿度和 80 点饱和度。该苹果具有以下效果：$(li)食用速度快$(li)始终可以食用$(li)30 秒伤害吸收 X$(li)30 秒再生 X"
+  ]
+ ]
+}

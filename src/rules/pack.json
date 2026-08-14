@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pack-mcmeta-parses",
+    "kind": "json_parses",
+    "glob": "resourcepacks/ATM10汉化包/pack.mcmeta",
+    "why": "pack.mcmeta 坏了整个资源包不加载，游戏不会报错，玩家看到的就是全英文。"
+  },
+  {
+    "id": "pack-lang-parses",
+    "kind": "json_parses",
+    "glob": "resourcepacks/ATM10汉化包/**/lang/*.json",
+    "why": "单个 lang 文件解析失败只会让那个命名空间静默回英文，日志里翻不出来。"
+  },
+  {
+    "id": "client-scripts-no-duplicate-decl",
+    "kind": "js_no_duplicate_decl",
+    "glob": "kubejs/client_scripts/*.js",
+    "why": "2026-08-01 实机事故：occultism_flame_tooltip.js 与 pb_hanhua_tooltip.js 都写了 const $Component / const $ItemTooltipEvent。KubeJS 的 client_scripts 共用同一个全局作用域，第二个加载时抛 redeclaration of const，**整批客户端脚本一起加载失败**——玩家看到的是一个红框，蜂名 tooltip 之类没毛病的东西也一起没了。加脚本的人不会知道别的文件里声明过什么，只能靠闸。"
+  },
+  {
+    "id": "js-no-const-inside-block",
+    "kind": "js_no_const_inside_block",
+    "glob": "kubejs/**/*.js",
+    "why": "2026-08-01 实机事故：更新检查脚本在 try 块里写 const，KubeJS 的 Rhino 抛 TypeError: redeclaration of var——它把块里的 const 提成了函数作用域的 var，执行到声明那句时撞上自己。**运行时才抛**，加载阶段照样 0 errors，躺在事件回调里就表现成「进游戏什么都没发生」，与「功能没被触发」无法区分，同一个坑连踩两次（第一次误判成 $ 前缀，去掉 $ 照样抛）。只拦「最内层花括号不是函数/箭头开的」这一种：拿全套 ATM10 kubejs 验过，上游几十处缩进 const 全在回调体顶层，写进普通块的只有本包一处。"
+  },
+  {
+    "id": "occultism-tooltip-no-newline",
+    "kind": "lang_value_forbidden",
+    "glob": "resourcepacks/ATM10汉化包/assets/occultism/lang/zh_cn.json",
+    "key_regex": "^item\\.occultism\\..*\\.(auto_tooltip|tooltip|tooltip_empty|tooltip_filled)$",
+    "value_regex": "\n",
+    "message": "{key} 的值里还留着换行符——物品 tooltip 不会换行，玩家看到的是一个「LF」方框",
+    "why": "issue #8：神灯和彩虹/虚空粉笔的描述里各冒出一颗方框。Occultism 的 TooltipHandler 和 MagicLampItem 都是把整条 Component.translatable 塞进 tooltip 列表，vanilla 渲染 tooltip 走 getVisualOrderText，不断行，于是 U+000A 被当普通字符去查字形，unifont 给控制字符画的正是写着 LF 的方框。上游 en_us 自己就带这些换行（英文也是方框），升版重导上游译文时会原样带回来。"
+  },
+  {
+    "id": "modularrouters-tooltip-no-newline",
+    "kind": "lang_value_forbidden",
+    "glob": "resourcepacks/ATM10汉化包/assets/modularrouters/lang/zh_cn.json",
+    "key_regex": "^modularrouters\\.itemText\\.",
+    "value_regex": "\n",
+    "message": "{key} 的值里还留着换行符——物品 tooltip 不会换行，玩家看到的是一个「LF」方框",
+    "why": "issue #11 A10：模块化路由器按 I 键看到的物品说明里，每个换行都变成一颗写着 LF 的方框。成因与 occultism-tooltip-no-newline 完全相同——vanilla 渲染 tooltip 走 getVisualOrderText，不断行，U+000A 被当普通字符去查字形。上游 en_us 自己就带这些换行（英文同样是方框），升版重导上游译文时会原样带回来，所以要设闸。只管 itemText.*：guiText.* 是模组自己画的 GUI 弹窗，那边的换行是生效的，一并禁掉会把排版毁了。"
+  },
+  {
+    "id": "relics-relic-is-yiwu",
+    "kind": "lang_value_forbidden",
+    "glob": "resourcepacks/ATM10汉化包/assets/relics/lang/zh_cn.json",
+    "key_regex": "^relics\\.description\\.",
+    "value_regex": "收藏品|持眼人",
+    "message": "{key} 的值里把 relic 译成了「收藏品」或把 bearer 译成了「持眼人」——本表 118 个键都用「遗物」「遗物持有者」",
+    "why": "经验分散器那条能力说明写的是「当持眼人的任意收藏品获得经验时，所有已装备的收藏品还会额外获得…」，原文是 When any of the bearer's relics gains experience, all equipped relics…。同一条 tooltip 的下两行又写「遗物」，玩家在一个框里读到三个名字。这两个词在全表 547 个键里各只出现过一次，是机翻残渣：单看这一句是通顺的，只有把它跟本表其余 118 个「遗物」放在一起才看得出错。范围限定 relics.description.* 是因为能力说明会随模组升版重导，正是这种残渣的入口。"
+  },
+  {
+    "id": "gui-choice-must-stay-english",
+    "kind": "gui_choice_ascii",
+    "glob": "resourcepacks/ATM10汉化包/**/*.gui",
+    "why": "RFTools 系的 .gui 里 choice(...) 的第一个参数是协议值不是显示文本，翻了会崩。",
+    "message": "choice('{value}') 是协议值，必须保持英文（翻译会崩溃）"
+  },
+  {
+    "id": "format-placeholder-safety",
+    "kind": "format_safety",
+    "snapshot": "build/snapshots/upstream_format_en_us.json",
+    "why": "四条红线，都是踩过的：①译文的占位符集合必须 ⊆ 英文原文的，多出来 = 运行时参数不足 → TranslatableFormatException（「少」是译者的合法选择，禁止擅自补回来：精致存储 %s%s木桶 的第二个参数其实只是个空格，补上去反而变成「限类Pink Ipe 木桶 I」）；②同序号的转换符不许从 %s 降级成 %d/%f；③结尾裸 % 会被 MC 的 FORMAT_PATTERN 匹配到字符串结尾并抛异常；④§ 后面跟非法字符会让那个字被渲染器静默吞掉。",
+    "allow": {
+      "death.attack.freeze.item": "上游把 %3$s 打成了 %3$（缺转换符），模组实际传 3 个参数，我们的译文才是对的",
+      "item.occultism.book_of_calling_djinni.tooltip.deposit": "上游把 %s 打成了 % s（多一个空格），英文版根本不替换"
+    }
+  },
+  {
+    "id": "productivebees-name-single-source",
+    "kind": "pb_single_source",
+    "lang": "resourcepacks/ATM10汉化包/assets/productivebees/lang/zh_cn.json",
+    "script": "kubejs/client_scripts/pb_hanhua_tooltip.js",
+    "why": "蜂名的唯一真源是资源包 zh_cn，脚本里的 PB_ID2ZH 由 gen_pb_hanhua.py 生成。两边漂移就会出现「JEI 里叫这个、tooltip 里叫那个」。脚本是生成物不入 git，干净 clone 里不存在时跳过即可。"
+  },
+  {
+    "id": "gui-xml-parses",
+    "kind": "xml_parses",
+    "glob": "resourcepacks/ATM10汉化包/assets/*/gui/**/*.xml",
+    "why": "界面 XML 坏了不会在构建时报错，要等玩家打开那个界面才崩（2026-07-28 市政厅事故）。"
+  },
+  {
+    "id": "compressed-tier-family",
+    "kind": "tiered_family",
+    "glob": "resourcepacks/ATM10汉化包/assets/allthecompressed/lang/zh_cn.json",
+    "key_regex": "^block\\.allthecompressed\\.(?P<stem>.+)_(?P<tier>[1-9])x$",
+    "value_template": "块{tier}x",
+    "why": "AllTheCompressed 的 1791 个方块名是 199 族各九档，词干和档位后缀都能从键名推出来，本来就不该靠人记。没有规则约束的那阵子，同一族里混过「1x远古原木」「远古原木 6x」「三重压缩远古原木」几种写法（2026-07-27 那棵树按这条规则查出 837 处），还出现过同族两档词干不同、JEI 里分不清哪个是哪个。"
+  }
+]

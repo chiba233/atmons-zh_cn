@@ -1,0 +1,40 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/coils.json",
+ "sha1": "49414e8dcc488b34b565f21f7034a9116d5adf57",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Inductor Coils",
+   "电感线圈"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "An Inductor Coil is a block, usually metallic, that can be placed around the Rotor shaft and that, while engaged, will extract energy from it while slowing it down.$(br2)A particular coil may be more efficient at extracting energy from the spinning Rotor than another one, or may extract energy more rapidly then others.",
+   "感应线圈是一种方块，通常为金属材质，可以放置在转子轴周围，并且在线圈接合时从转子轴中提取能量，同时减缓其转速。$(br2)某些线圈在从旋转中的转子提取能量时可能比其他线圈更高效，或者提取速度更快。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Usually, a rare block or one that is particularly expensive to craft has better stats than a common or cheap one.$(br2)Extreme Reactors register, by default, a score of vanilla and modded blocks as Inductor Coils.$(br2)Other mods or mod packs can add their own Inductor Coils or modify/remove the default ones.",
+   "通常来说，稀有方块或合成成本特别高的方块，其属性会比常见或廉价的方块更好。$(br2)默认情况下，Extreme Reactors 会将一批原版和模组方块注册为感应线圈。$(br2)其他模组或整合包也可以添加它们自己的感应线圈，或修改/移除默认内容。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Only valid coils can be placed inside the Turbine, around its Rotor shaft. Invalid blocks will prevent the Turbine multiblock from forming.$(br2)Blocks that can be used as Inductor Coils are marked with a special tooltip that you can see if you want to spoil yourself, provided you have enabled the $(italic)Advanced Tooltips$() feature of Minecraft (F3 + H).",
+   "只有有效的线圈才能放置在涡轮机内部、围绕其转子轴。无效方块会导致涡轮机多方块结构无法成型。$(br2)可作为感应线圈使用的方块会带有一个特殊提示框；如果你不介意提前知道信息，并且已经启用了 Minecraft 的$(italic)显示高级提示框$()功能（F3 + H），就能看到它。"
+  ]
+ ]
+}

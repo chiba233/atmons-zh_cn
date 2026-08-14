@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shape_cards/shape_card_def.json",
+ "sha1": "569713529d6007c7e33743d13982d44a5a1ab557",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Default Shape Card",
+   "默认样式卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Default Shape Card stores a shape, size, offset, and solid or hollow mode. Use it in the Builder to place blocks or in the Shield Projector to define a shaped shield.",
+   "默认塑形卡片用于存储形状、尺寸、偏移量及实心/空心模式。你可在构建器中使用它放置方块，或在护盾投射器中定义塑形护盾。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Right-click the card to edit shapes such as box, sphere, cylinder, cone, torus, prism, scan, or composition. Sneak-use can help select positions in the world.",
+   "右键卡片可编辑盒状、球状、圆柱状、圆锥状、环状、棱柱状、扫描或复合等形状。潜行使用可辅助在世界中精确定位。"
+  ]
+ ]
+}

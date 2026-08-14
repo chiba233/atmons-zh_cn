@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_trident.json",
+ "sha1": "c6c059459bd9a4379466a06c69a264efceb3f7bc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Trident",
+   "无限三叉戟"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Trident is a tool that allows you to release the true power of a Trident. Increasing the tier will give you access to different levels of $(6)Loyalty$(), $(6)Riptide$() and $(6)Channeling$(). $(br2)Channeling and hit damage will be applied in aoe.",
+   "无限三叉戟是一种能让你释放三叉戟真正力量的工具。提升等级可让你获得不同等级的 $(6)忠诚$()、$(6)激流$() 和 $(6)引雷$()。$(br2)引雷效果和命中伤害都会以范围形式生效。"
+  ]
+ ]
+}

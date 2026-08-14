@@ -1,0 +1,23 @@
+[
+  {
+    "name": "cataclysm_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.github.L_Ender.cataclysm.world.structures.terrainadaptation.EnhancedTerrainAdaptationType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown enhanced terrain adaptation type: ",
+        "value": "未知的增强地形适配类型："
+      },
+      {
+        "key": "No ID found for enhanced terrain adaptation type ",
+        "value": "未找到增强地形适配类型的 ID："
+      }
+    ]
+  }
+]

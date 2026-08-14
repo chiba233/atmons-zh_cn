@@ -1,0 +1,58 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/player.json",
+ "sha1": "27132d7ba346d2b5dfbf78b06cce817d87e5bafe",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Player Module",
+   "玩家模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to transfer items between the router and a player's own inventory. The player can be anywhere in any dimension, making this a rather powerful module.$(p)The module can transfer items either from or to the player; you can set this in the module's GUI.",
+   "该模块尝试在路由器与玩家自身物品栏之间传输物品。玩家可处于任意维度的任意位置，使其成为一款功能极为强大的模块。$(p)模块既可向玩家物品栏发送物品，也可从中提取物品；你可在模块GUI界面中设置此行为。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(p)The module can operate on either the player's main 36-slot inventory, their 4-slot armor inventory, their offhand slot, or their Ender inventory (as shown by vanilla $(item)Ender Chests/$). This can also be set in the module's GUI.$(p)Extracted/inserted items can, of course, be filtered by the module.",
+   "$(p)该模块可以对玩家的主物品栏（36 格）、4 格盔甲栏、副手槽，或末影容器（即原版$(item)末影箱/$所显示的内容）进行操作。这些选项也可以在模块 GUI 中设置。$(p)当然，提取/插入的物品同样可以由模块过滤。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "A good use-case for this module would be to extract ores/cobblestone/dirt etc. from the player's inventory, and send it on to the player's main storage system in their base. With a little design, it should be possible to build a system to auto-swap your armor sets (maybe even in the field, with some wireless redstone from another mod...)",
+   "该模块的典型应用场景是：从玩家物品栏中提取矿石、圆石、泥土等物品，并自动传送至基地主存储系统中。稍加设计，甚至可构建一套自动切换护甲套装的系统（或许还能在野外实时完成，借助其他模组提供的无线红石信号……）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The Player Module is keyed to a specific player; the item tooltip shows the owner. This is set to the player who initially crafted the module, but can be overridden by holding the module and sneak-right-clicking it. You might also need to do this if you obtained the module by other means (creative, JEI cheat mode...).",
+   "玩家模块会绑定到某个特定玩家；物品提示中会显示其所有者。默认会设为最初合成该模块的玩家，但也可以通过手持模块并对其潜行右键单击来覆盖。若你是通过其他方式获得该模块（创造模式、JEI 作弊模式等），也可能需要这样做。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Using a Security Upgrade in conjunction with this module is probably wise on servers where you don't trust the players; you don't want a hostile player stealing this module...",
+   "在你不信任其他玩家的服务器上，建议将此模块与安全升级配合使用——否则你可不想让敌对玩家轻易窃走这个模块……"
+  ]
+ ]
+}

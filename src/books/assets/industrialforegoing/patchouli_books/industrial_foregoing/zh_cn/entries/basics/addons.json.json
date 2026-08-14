@@ -1,0 +1,85 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/basics/addons.json",
+ "sha1": "d613c7670b55ec5eec9b87ece0450eb2a553dbd8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Addons",
+   "附件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Increase the range of machines that have a working area, not all machines accept range addons. Each tier increases the range by 1.",
+   "提升具有工作区域之机器的作用范围；但并非所有机器均支持范围升级卡。每级升级使范围增加1格。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Range",
+   "范围"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Increase how much the progress bar advances every tick. $(br2)Tier 1 -> +1$(br)Tier 2 -> +2",
+   "提升进度条每刻所推进的数值。$(br2)等级一 → +1$(br)等级二 → +2"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Speed",
+   "速度"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Decreases the amount of ticks need to complete an operation. $(br2)Tier 1 -> -10%$(br)Tier 2 -> -20%",
+   "减少完成一次操作所需的刻数。$(br2)等级一 → -10%$(br)等级二 → -20%"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Efficiency",
+   "效率"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Increased the amount of operations done when a machine finishes processing. $(br2)Tier 1 -> +1 Operation $(br)Tier 2 -> +2 Operations",
+   "增加机器完成处理时执行的操作次数。$(br2)1 级 -> +1 次操作 $(br)2 级 -> +2 次操作"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Processing",
+   "处理"
+  ]
+ ]
+}

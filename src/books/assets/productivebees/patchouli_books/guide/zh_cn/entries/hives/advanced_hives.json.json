@@ -1,0 +1,49 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/hives/advanced_hives.json",
+ "sha1": "221760caacf2e60472d9a92e419d65a922772a44",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Advanced Hives",
+   "高级蜂箱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Productive bees expand on the vanilla hive with an Advanced Hive. Unlike the vanilla hive, the advanced hive does not require a campfire nearby to be harvestable it can be broken and moved with the bees still inside without the use of silk touch.",
+   "资源蜜蜂在原版蜂巢的基础上扩展出了高级蜂箱。与原版蜂巢不同，高级蜂箱不需要附近有营火才能安全采集；即使没有精准采集，你也可以在蜜蜂仍留在里面时直接将其破坏并搬走。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "There are many variants of advanced beehives available depending on other woods are available in your pack.",
+   "根据你的整合包中可用的其他木材种类，还有许多不同变种的高级蜂箱可供使用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Advanced Hives features a GUI from where you can see which bees are currently inside the hive as well as take out any produced resources. Advanced Hives can be further upgraded using an $(l:hives/expansion_boxes)expansion box$(/l). Attaching an $(l:hives/expansion_boxes)expansion box$(/l) will increase the bee capacity from 3 to 5 and allow $(l:items/upgrades)upgrades$(/l) to be installed.",
+   "高级蜂箱带有一个 GUI，你可以在其中查看当前在蜂箱内的蜜蜂，并取出已产出的资源。高级蜂箱还可以通过$(l:hives/expansion_boxes)扩容盒$(/l)进一步升级。连接一个$(l:hives/expansion_boxes)扩容盒$(/l)后，蜜蜂容量会从 3 提升到 5，并允许安装$(l:items/upgrades)升级$(/l)。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "If you're tired of waiting for the bees to finish their job and get out of the hive, you can whack the hive or nest with a stick to force it out, losing all production progress. This only works if it's safe for the bees to exit.",
+   "如果你不想再等蜜蜂干完活从蜂箱里出来，可以用木棍敲打蜂箱或蜂巢，强制把它们赶出来，但会损失所有当前的生产进度。只有在蜜蜂能够安全离开时，这种方法才有效。"
+  ]
+ ]
+}

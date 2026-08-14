@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/armor.json",
+ "sha1": "b4d5964628fa7af36ab102b9e444fadcc796effb",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A full suit of highly-upgradable armor with a wide range of powerful abilities.",
+   "一整套可高度升级，并拥有各种强大能力的强化盔甲。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Pneumatic Armor",
+   "气动装甲"
+  ]
+ ]
+}

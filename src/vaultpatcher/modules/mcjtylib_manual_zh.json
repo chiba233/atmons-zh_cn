@@ -1,0 +1,19 @@
+[
+  {
+    "name": "mcjtylib_manual_zh",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.lib.gui.GuiSideWindow"
+    ],
+    "pairs": [
+      {
+        "key": "Open manual",
+        "value": "打开手册"
+      }
+    ]
+  }
+]

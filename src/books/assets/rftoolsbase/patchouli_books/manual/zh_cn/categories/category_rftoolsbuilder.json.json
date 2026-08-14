@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder.json",
+ "sha1": "9f07a75e59c756fabee9b9366d303c006e44ead0",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "RFTools Builder is a mod about large-scale area manipulation",
+   "RF工具：建造机是一个关于大范围区域操作的模组"
+  ],
+  [
+   [
+    "name"
+   ],
+   "RFTools Builder",
+   "RF工具丨建筑机"
+  ]
+ ]
+}

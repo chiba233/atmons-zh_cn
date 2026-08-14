@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/bees_worker.json",
+ "sha1": "28a41f2cfff0cee510d3db58fcd0d71305c50224",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Besides the bees producing resources there are a few bees with special tasks.",
+   "除了会产出资源的蜜蜂外，还有少数蜜蜂承担着特殊任务。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Professional Bees",
+   "专业蜜蜂"
+  ]
+ ]
+}

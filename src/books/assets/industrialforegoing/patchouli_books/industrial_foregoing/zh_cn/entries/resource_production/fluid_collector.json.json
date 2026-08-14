@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/fluid_collector.json",
+ "sha1": "654885b6c8486035010a36a08cb7064643453d8a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Collector",
+   "流体收集器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "It drains a fluid source block in front of it.$(br2)It will place the fluid from the internal container and use $(6)1000$()RF.",
+   "它会抽取前方的一个流体源方块。$(br2)它会放置内部容器中的流体，并消耗 $(6)1000$()RF。"
+  ]
+ ]
+}

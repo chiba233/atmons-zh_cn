@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/renewables/vegetable_oil.json",
+ "sha1": "eb1dc85064e4cec63d1818b63e45b8f11d740587",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vegetable Oil",
+   "植物油"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Vegetable Oil/$ can be produced in a $(l:manufacturing/thermopneumatic_processing_plant)Thermopneumatic Processing Plant/$ from various $(thing)seeds/$ and $(thing)crops/$. Seeds tend to be a better source of oil than grown crops. Vegetable Oil is required in the production of $(l:renewables/biodiesel)Biodiesel/$.",
+   "$(thing)植物油/$可以在$(l:manufacturing/thermopneumatic_processing_plant)热气动加工机/$中由各种$(thing)种子/$和$(thing)作物/$生产。种子通常比成熟作物更适合作为油料来源。植物油是生产$(l:renewables/biodiesel)生物柴油/$所必需的。"
+  ]
+ ]
+}

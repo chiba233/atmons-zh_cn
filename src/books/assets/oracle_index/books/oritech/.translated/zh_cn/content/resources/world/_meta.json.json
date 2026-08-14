@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/resources/world/_meta.json",
+ "sha1": "5fcd9b0ff459cc57e702661f5b139385edcc750c",
+ "t": [
+  [
+   [
+    "deepslate_platinum_ore.mdx"
+   ],
+   "Ores & Ore Boulders",
+   "矿石与矿石巨石"
+  ],
+  [
+   [
+    "deepslate_uranium_ore.mdx"
+   ],
+   "Uranium Veins",
+   "铀矿脉"
+  ],
+  [
+   [
+    "resource_node_redstone.mdx"
+   ],
+   "Resource Nodes",
+   "资源节点"
+  ],
+  [
+   [
+    "still_oil_bucket.mdx"
+   ],
+   "Crude Oil",
+   "原油"
+  ]
+ ]
+}

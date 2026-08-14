@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/sweat.json",
+ "sha1": "5de2ad2e4a6efb336486073726f7da9327dddeb0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sweat Bee",
+   "汗蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Halictus rubicundus]",
+   "[红腹隧蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Sweat Bee",
+   "汗蜜蜂"
+  ]
+ ]
+}

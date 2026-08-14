@@ -1,0 +1,20 @@
+{
+  "badwithernocookiereloaded.general.tooltip": "你能禁止全局声音和事件声音",
+  "badwithernocookiereloaded.xtra.tooltip": "你可以禁止其他本地化声音",
+  "badwithernocookiereloaded.localized settings.silenceus": "示例：entity.sheep.step - 使用 /listen 来收听其他声音",
+  "bwncr.configuration.general": "通用",
+  "bwncr.config.silenceUs": "静默吾等",
+  "bwncr.config.silenceWither": "静默凋灵",
+  "bwncr.config.debugMode": "调试模式",
+  "bwncr.config.silenceTrader": "静默商人",
+  "bwncr.config.silenceLightning": "静默闪电",
+  "bwncr.config.silenceDragon": "静默龙",
+  "text.autoconfig.bwncr.title": "坏凋灵不给曲奇 - 重制版",
+  "text.autoconfig.bwncr.option.general": "通用",
+  "text.autoconfig.bwncr.option.general.silenceWither": "静默凋灵",
+  "text.autoconfig.bwncr.option.general.silenceTrader": "静默商人",
+  "text.autoconfig.bwncr.option.general.silenceDragon": "静默龙",
+  "text.autoconfig.bwncr.option.general.silenceLightning": "静默闪电",
+  "text.autoconfig.bwncr.option.general.silenceUs": "静默吾等",
+  "text.autoconfig.bwncr.option.general.debugMode": "调试模式"
+}

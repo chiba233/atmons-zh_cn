@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_light.json",
+ "sha1": "bb0115cddbd930c778061d06e2d3bd781b88aedf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Condition: Light Widget",
+   "条件：轻型部件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Condition: Light/$ widget allows you to (remotely) check if the light level of the block(s) in the connected $(l:programming/area)Area/$ widget matches the configured light threshold.",
+   "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：光照/$组件可让你（远程）检查已连接的$(l:programming/area)区域/$组件中的方块光照等级是否符合已配置的光照阈值。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Condition: Light Widget/$",
+   "$(italic)条件：光照控件/$"
+  ]
+ ]
+}

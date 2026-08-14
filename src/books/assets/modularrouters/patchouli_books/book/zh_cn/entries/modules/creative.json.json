@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/creative.json",
+ "sha1": "68f949fe05414ca50bc8a2b4fb08619b69edd760",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Creative Module",
+   "创造模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Creative Module is a special uncraftable module which simply inserts items, from out of nowhere, into the router's buffer.$(p)It uses the module's filter as an item list, and on each tick moves to the next item in the filter in round-robin fashion. It doesn't care about any other filter settings (whitelist/blacklist, match NBT...).",
+   "创造模块是一种特殊的、无法合成的模块，它会凭空将物品插入路由器缓冲区。$(p)它把模块的过滤器当作物品列表，并在每次 tick 时按轮转顺序切换到过滤器中的下一个物品。它不会理会其他任何过滤设置（白名单/黑名单、匹配 NBT……）。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-parts.json",
+ "sha1": "96a348bedffaeef7377bff00798fec909c825d18",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A Reactor is built using the following parts.$(br2)Some parts are mandatory, while others are optional. Some are available to all Reactor variants, and some are not. The part page will illustrate which parts are available for the desired Reactor.",
+   "反应堆由以下部件构成。$(br2)有些部件是必需的，而有些则是可选的。有些适用于所有反应堆变体，也有些并非如此。部件页面会说明目标反应堆可使用哪些部件。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Reactor parts",
+   "反应堆部件"
+  ]
+ ]
+}

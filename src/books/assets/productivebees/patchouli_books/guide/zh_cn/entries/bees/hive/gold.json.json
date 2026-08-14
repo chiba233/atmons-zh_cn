@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/gold.json",
+ "sha1": "6dd50536d74b5f63382e23c05ea2759223833fdc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Gold Bee",
+   "金蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from a $(l:bees/wild/crystalline)Crystalline Bee$(/l) and an $(l:bees/solitary/mason)Mason Bee$(/l).",
+   "由一只$(l:bees/wild/crystalline)石英蜜蜂$(/l)和一只$(l:bees/solitary/mason)石匠蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Gold Bee",
+   "金蜜蜂"
+  ]
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_boiler.json",
+ "sha1": "e09d42d55d7bfbb4c597ac19fc07d5d606f7b979",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Steam Boiler",
+   "蒸汽锅炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "At the heart of many industrial centers you will find a tentacled monster of a machine called a Steam Boiler. These machines can produce enough Steam to meet the energy needs of any complex. They may appear daunting at first, but our experts are here to help you install your own!$(br2)Now when building a Steam Boiler, the first layer put down must be the Firebox. We presently offer two types of Fireboxes. Solid Fueled, which burns normal furnace fuels such as Charcoal or Coal Coke, and Liquid Fueled, which uses liquid fuels such as Creosote Oil, Bio-Fuel, and good old fashioned Fuel.",
+   "许多工业中心的核心都有一台名为“蒸汽锅炉”的巨型机器，它形似章鱼，触手林立。这些机器能够产出足以为任何复杂设施供能的蒸汽。初次接触时，你或许会觉得它令人望而生畏，但别担心，我们的专家将全程协助你完成安装！$(br2)现在，开始建造蒸汽锅炉时，首先铺设的是燃烧室。目前我们提供两种类型的燃烧室：一种是固体燃料型，可燃烧普通熔炉燃料，例如木炭或焦煤；另一种是液体燃料型，则使用杂酚油、生物燃油以及传统的燃油等液态燃料。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "There are three base sizes of Steam Boiler: the small 1×1 Boiler, the workhorse 2×2 Boiler, and the excessive 3×3 Boiler.$(br2)Once you've laid down the Firebox, you must build a Boiler Tank above it. Boiler Tanks come in two varieties: Low Pressure and High Pressure. The difference being that High Pressure Boiler Tanks produce twice the steam, but the Low Pressure Boiler Tanks are generally more efficient.",
+   "蒸汽锅炉共有三种基础尺寸：小型1×1锅炉、主力型2×2锅炉，以及超大型3×3锅炉。$(br2)铺设完燃烧室后，您必须在其正上方建造一个锅炉罐体。锅炉罐体分为两种类型：低压型与高压型。二者的区别在于：高压型锅炉罐体产生的蒸汽量是低压型的两倍，但低压型锅炉罐体通常效率更高。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The larger the Steam Boiler, the more efficient it is in terms of fuel usage. You will be generally better off building a single large Boiler instead of several small ones. The caveat being that its better to build Low Pressure Boilers rather than High Pressure if you want maximum fuel efficiency for short runs (where the boiler doesn't reach maximum temperature). If you're running your boilers round the clock, you get exact same amount of steam per unit of fuel.$(br2)The size of the tank you can build depends on the size of the Firebox. A 1×1 Firebox can only handle a single cubic meter tank. The 2×2 can handle 8 or 12 cubic meters of Boiler Tank. And finally, the massive 3×3 can handle 18, 27, or 36 cubic meters of Boiler Tank.",
+   "蒸汽锅炉体积越大，燃料利用率就越高。通常来说，建造一台大型锅炉比建造多台小型锅炉更为划算。但需要注意的是：若要在短时间运行（锅炉温度尚未达到最高值）时实现最高的燃料效率，则应优先选择低压锅炉，而非高压锅炉；而若锅炉是全天候持续运行，则单位燃料所产生的蒸汽量完全相同。$(br2)可建造的锅炉储罐容积取决于燃烧室的尺寸：1×1 的燃烧室仅能支持 1 立方米容积的储罐；2×2 的燃烧室可支持 8 或 12 立方米容积的蒸汽锅炉；而庞大的 3×3 燃烧室则可支持 18、27 或 36 立方米容积的蒸汽锅炉。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Once you've built your Steam Boiler, you will need to provide it water and fuel. A word of warning, you must supply a constant steady stream of water to the Firebox (not the Tanks) or you run the risk of a massive Boiler explosion. Introducing water to a hot and dry Boiler is exceptionally dangerous. That said, Boilers are pretty safe so long as the water supply is constant.",
+   "建成蒸汽锅炉后，您需为其提供水源与燃料。特别提醒：您必须持续稳定地向燃烧室（而非罐体）供水，否则将面临锅炉剧烈爆炸的风险。向高温且干燥的锅炉内注入水极其危险。不过，只要供水持续稳定，锅炉整体运行十分安全。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "When first heating up a boiler, they are very inefficient and will use up to 8x more fuel than when at max heat. It is generally recommended that you leave your boiler running all the time rather than shutting it down when not in use. Especially the larger Boilers since the heat up time is dependent on size.",
+   "锅炉初次加热时效率极低，其燃料消耗量最高可达满热状态下的8倍。因此，一般建议让锅炉持续运行，而非闲置时关闭。尤其是大型锅炉，因其升温时间与体积直接相关。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "name"
+   ],
+   "Steam boiler",
+   "蒸汽锅炉"
+  ]
+ ]
+}

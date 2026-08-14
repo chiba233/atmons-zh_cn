@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsstorage.json",
+ "sha1": "56d43ed0dc387c149ebe4eab8c6a74e1ad633cd2",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "RFTools Storage is all about storing items and accessing them in an easy way",
+   "RF工具丨存储 的核心就是存放物品，并让你能够轻松地访问它们"
+  ],
+  [
+   [
+    "name"
+   ],
+   "RFTools Storage",
+   "RF工具：存储"
+  ]
+ ]
+}

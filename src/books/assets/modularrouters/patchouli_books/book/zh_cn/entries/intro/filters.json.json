@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/filters.json",
+ "sha1": "46afa24421b9b62c901ed5a622e36eb2b2380f50",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Smart Filters",
+   "智能过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Smart Filters/$ can be inserted into a $(l:intro/modules)module's/$ filter slots in place of regular items.  Instead of just trying to match against the item directly, filters have special matching functionality.$(p)For example, the $(l:filters/bulk_item)Bulk Item Filter/$ can efficiently match against up to 54 different items, and its items can be configured from an existing inventory.",
+   "$(thing)智能过滤器/$可以插入到$(l:intro/modules)模块/$的过滤器槽位中，用来替代普通物品。它们不会仅仅直接与物品本身进行匹配，而是具备特殊的匹配功能。$(p)例如，$(l:filters/bulk_item)批量物品过滤器/$就可以高效匹配多达 54 种不同物品，并且其中的物品可以直接从已有容器中进行配置。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Bulk Item Filter installed in a Puller Mk2 Module/$",
+   "$(italic)安装在抽取模块 Mk12型中的批量物品过滤器/$"
+  ]
+ ]
+}

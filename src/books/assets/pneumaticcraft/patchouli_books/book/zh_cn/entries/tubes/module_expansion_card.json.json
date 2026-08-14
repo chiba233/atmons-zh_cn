@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tubes/module_expansion_card.json",
+ "sha1": "0e87a679d4b847bbd43d9550f14c79d2a259d5b4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Module Expansion Card",
+   "模块拓展卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Module Expansion Card/$ is a pluggable circuit board which you can attach to $(l:tubes/tube_modules)Tube Modules/$ to enhance their functionality in various ways. $(thing)Right-click/$ the card on a Tube Module to apply it.$(p)See the pages for individual tube modules for more information on how the module is enhanced.",
+   "$(item)模块拓展卡/$是一种可插拔电路板，你可以将其安装到$(l:tubes/tube_modules)管道模块/$上，以通过多种方式增强其功能。$(thing)右击/$管道模块上的这张卡即可应用。$(p)有关模块如何得到增强的更多信息，请参阅各个管道模块对应的页面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Module Expansion Card",
+   "合成模块拓展卡"
+  ]
+ ]
+}

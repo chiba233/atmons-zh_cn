@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/track_type/abandoned.json",
+ "sha1": "71043be2e97a101fa09e7241e4fc6ba7902628c9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Abandoned",
+   "被弃者"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The abandoned track type is featured with their ability to stay suspended, make carts derail, and grow grass. This type of tracks are made with normal rails and single wooden ties.$(br2)Abandoned tracks require less wood and creosote than iron tracks. In general, you'd better build this type of track when you are short on creosote or time. They may be useful if you desire to build a lot of tracks in a short time.",
+   "废弃轨道具备悬浮特性、可致矿车脱轨及生长草方块等特点。此类轨道由普通铁轨与单根木质枕木构成。$(br2)废弃轨道所需的木材与杂酚油均少于铁制轨道。总体而言，当您缺乏杂酚油或时间紧迫时，更推荐建造此类轨道。若您需在短时间内铺设大量轨道，它或许正是理想之选。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "However, carts can derail if they are too fast on abandoned tracks. When the speed of carts on abandoned tracks exceed 0.35 block per tick (7m/s, 87.5% of the speed limit of normal rails), the train starts to have a chance of derailing. Each tick after exceeding that speed limit, a cart has .2% chance to derail. The chance increases to 4% in one second, and to almost 1/3 in 10 seconds. For a train, when a cart in the train derails, the whole train derails.",
+   "然而，若矿车在废弃轨道上行驶过快，便可能发生脱轨。当废弃轨道上矿车速度超过每刻0.35格（即7米/秒，为普通铁轨限速的87.5%）时，列车即有脱轨风险。此后每过一游戏刻，矿车均有0.2%概率脱轨。一秒内累计脱轨概率达4%，十秒内则接近三分之一。对整列列车而言，一旦其中一辆矿车脱轨，整列列车都将随之脱轨。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "When you need to build across a canyon, they might become helpful. Mobs and players cannot walk on suspended abandoned tracks.$(br2)An abandoned track will grow grass when it is next to a block of tall grass.",
+   "当您需要跨越峡谷铺设轨道时，它们或许会派上用场。生物与玩家均无法在悬浮的废弃轨道上行走。$(br2)当废弃轨道毗邻高草方块时，其表面将自然生长草方块。"
+  ]
+ ]
+}

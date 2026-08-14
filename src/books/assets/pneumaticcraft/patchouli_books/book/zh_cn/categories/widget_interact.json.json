@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_interact.json",
+ "sha1": "cb08164f8a35c980fcce8ac5d8d2323dacd7ceef",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Widgets that interact with the world in some way.",
+   "以某种方式与世界交互的小部件。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "World Interaction Widgets",
+   "世界交互组件"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/heat_sink.json",
+ "sha1": "032892e7756d715475aa2a9b0315c98024b0669c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Heat Sink",
+   "散热片"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Heat Sink/$ is a block used to get rid of $(l:base_concepts/heat)Heat/$.$(p)Be careful, a $(item)Heat Sink/$ hotter than 60°C or colder than -60°C will hurt you when touched!$(p)$(item)Heat Sinks/$ only dissipate heat from the block they're directly connected to. To connect up many $(item)Heat Sinks/$, use $(l:machines/heat_pipe)Heat Pipes/$ to provide more surfaces.",
+   "$(item)散热片/$是一种用于散发$(l:base_concepts/heat)热量/$的方块。$(p)注意，如果$(item)散热片/$温度高于 60°C 或低于 -60°C，接触时会对你造成伤害！$(p)$(item)散热片/$只能散发与其直接连接的方块中的热量。要连接多个$(item)散热片/$，请使用$(l:machines/heat_pipe)热管/$来提供更多表面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)An $(l:compressors/advanced_liquid_compressor)Advanced Liquid Compressor/$ $(italic)with multiple Heat Sinks/$",
+   "$(italic)一台$(l:compressors/advanced_liquid_compressor)高级液体压缩机/$$(italic)，带有多个散热片/$"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You can increase the effectiveness of a $(item)Heat Sink/$ by placing it in range of an $(l:tubes/air_grate_module#active_cooling)Air Grate Module/$. The module's range is displayed when you attach it to a $(l:tubes/pressure_tubes)Pressure Tube/$. The cooling effectiveness can be stacked by using multiple Air Grate Modules.",
+   "你可以将 $(item)散热片/$ 放置在 $(l:tubes/air_grate_module#active_cooling)Air Grate Module/$ 的作用范围内，以提高其效果。将该模块安装到 $(l:tubes/pressure_tubes)压力管道/$ 上时，会显示模块的作用范围。使用多个 Air Grate Module 还可以叠加冷却效果。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Active Cooling",
+   "主动散热"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a Heat Sink",
+   "合成散热片"
+  ]
+ ]
+}

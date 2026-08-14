@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/goggles.json",
+ "sha1": "396a7a062d01b62f78788551d1dd4a2a0600b0ed",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Trackman's Goggles",
+   "铁路工护目镜"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Sometimes, the world you see isn't really all that is actually there. To help with this issue we bring you the latest developments in Augmented Reality, the Trackman's Goggles! These handy eyepieces let you see things about the world normally hidden, such as the Ender Fields that Anchor our world in place or the signals that link a Controller and Receiver together. It also possible to track player movement over that last 30 minutes, even other players.",
+   "有时，您所见的世界并非其全部真实面貌。为解决这一问题，我们为您带来增强现实技术的最新成果——铁路工护目镜！这款便捷的眼镜能让您看见世界中通常隐藏的事物，例如锚定我们世界的末影领域，或连接控制器与接收器的信号。您甚至可追踪过去30分钟内玩家（包括其他玩家）的移动轨迹。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Glasses must be attuned to the precise aura you wish to see and can only display one aura at a time. To change the current aura, you need to put the glasses in your hand and right-click or keep them on and press the letter $(k:railcraft.change_aura).",
+   "该眼镜必须精确调谐至您希望观察的特定能量场，且每次仅能显示一种能量场。要切换当前能量场，请将眼镜持于手中并右键点击，或保持佩戴状态并按下字母$(k:railcraft.change_aura)。"
+  ]
+ ]
+}

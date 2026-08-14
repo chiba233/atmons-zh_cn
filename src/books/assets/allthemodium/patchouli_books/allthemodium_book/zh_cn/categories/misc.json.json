@@ -1,0 +1,20 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/categories/misc.json",
+ "sha1": "b0e0983e7cf3ceffa5a8127fae0348b6d93b5622",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Miscellaneous items that don't have enough info for one specific category",
+   "没有足够信息单独归类的杂项物品"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Miscellaneous",
+   "杂项"
+  ]
+ ]
+}

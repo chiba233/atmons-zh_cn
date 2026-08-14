@@ -1,0 +1,13 @@
+{
+    "interaction": "交互",
+    "camouflage_module.mdx": "伪装模块",
+    "dome_module.mdx": "穹顶模块",
+    "fusion_module.mdx": "力场融合模块",
+    "glow_module.mdx": "发光模块",
+    "inverter_module.mdx": "反转模块",
+    "rotation_module.mdx": "旋转模块",
+    "shock_module.mdx": "电击模块",
+    "silence_module.mdx": "静音模块",
+    "sponge_module.mdx": "海绵模块",
+    "translation_module.mdx": "位移模块"
+}

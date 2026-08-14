@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/categories/stuff.json",
+ "sha1": "9187f835431aa5e7830f7503d55a985c51862f38",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "I'm not gonna list all 159 trees the mod has, you can look in JEI for that. Here's just a description of the machines and functional items the mod offer.$(br2)Use JEI to look up which trees breed together and any other recipe for this mod.",
+   "我不会一一列出该模组包含的全部159种树木，你可以通过JEI查看。以下仅介绍该模组提供的机器与功能性物品的简要说明。$(br2)请使用JEI查询哪些树木可以相互杂交，以及本模组的其他所有配方。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Stuff in the mod",
+   "模组内容"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/mover/mover_controller.json",
+ "sha1": "ba14aab3ba0cf1e387fc93549f89ffda696a563d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mover Controller",
+   "传运器控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Mover Controller connects Movers together. Place it adjacent to one Mover, then use it to find other connected Movers.",
+   "传运器控制器用于连接多个传运器。将其放置于一台传运器旁，再使用它查找其他已连接的传运器。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Two Movers are connected when they are within 128 blocks of each other in one of the cardinal directions.",
+   "当两个传运器在正交方向（上下左右）距离彼此128格以内时，即视为已连接。"
+  ]
+ ]
+}

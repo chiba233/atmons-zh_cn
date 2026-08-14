@@ -1,0 +1,20 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/categories/ore.json",
+ "sha1": "c20e564ebad74dbfca04640809af2d93af9d60c2",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This will show you where to find the Allthemodium specific ores.$(br2)Allthemodium, Vibranium, and Unobtainium are very rare ores, and can be hard to find.",
+   "这里会告诉你在哪里可以找到 Allthemodium 特有的矿石。$(br2)Allthemodium、振金和难得素都是非常稀有的矿石，可能很难找到。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Ores",
+   "矿石"
+  ]
+ ]
+}

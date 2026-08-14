@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shape_cards/shape_card_def_void.json",
+ "sha1": "81491074942c9fd6a390227d12eea18d06c0bba5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Void Card",
+   "虚空卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Void Card makes the Builder remove blocks in the selected area without producing drops. Use it for clearing space quickly.",
+   "虚空卡使建筑机在所选区域内移除方块且不产生任何掉落物。适用于快速清理空间。"
+  ]
+ ]
+}

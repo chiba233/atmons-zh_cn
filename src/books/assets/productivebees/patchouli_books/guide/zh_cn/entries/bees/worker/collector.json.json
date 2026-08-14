@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/collector.json",
+ "sha1": "ab9fd068799f3fe5d31717185e7c71be2b8f717e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Collector Bee",
+   "收集者蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Collects items on the ground and puts them in its hive.$(br)Combine with the farmer bee for an automated farm.",
+   "会收集地上的物品并放入自己的蜂巢中。$(br)与农夫蜜蜂搭配即可实现农场自动化。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Collector Bee",
+   "收集者蜜蜂"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/zombie.json",
+ "sha1": "43ccf96bafcbdb7ad83cd35ccdaf998ca294642b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "ZomBee",
+   "僵尸蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Will move in to an advanced hive if the hive is left empty in the dark.",
+   "如果将高级蜂箱空着放在黑暗中，它就会搬进去。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "ZomBee",
+   "僵尸蜜蜂"
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "aether_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.aetherteam.aether.entity.passive.Aerwhale"
+    ],
+    "pairs": [
+      {
+        "key": "Serenity is the queen of W(h)ales!!",
+        "value": "Serenity 是 W(h)ales 的女王！！"
+      }
+    ]
+  }
+]

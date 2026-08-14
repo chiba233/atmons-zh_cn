@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/energizer-parts.json",
+ "sha1": "7ff017c15ef9a2f21473d26de411a419942e61eb",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "An Energizer is constructed using the following parts.",
+   "物品充能站由以下部件构成。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Energizer parts",
+   "充能器部件"
+  ]
+ ]
+}

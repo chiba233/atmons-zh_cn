@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powermonitor/powerlevel.json",
+ "sha1": "42951720c5dc1d8902a799eea171707519195c61",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Power Level",
+   "能量等级检测仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This logic block can be placed with its input side facing an $(thing)energy block$(). It will show a digit representing the amount of power in that block, and it will also emit a redstone signal with that strength, ranging from 0 to 9.",
+   "这个逻辑方块可以放置，使其输入面朝向一个$(thing)能源方块$()。它会显示该方块中能量数量对应的数字，同时还会发出相同强度的红石信号，范围为 0 到 9。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Power Level",
+   "能量等级检测仪"
+  ]
+ ]
+}

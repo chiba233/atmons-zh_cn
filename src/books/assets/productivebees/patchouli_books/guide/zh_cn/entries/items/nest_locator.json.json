@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/items/nest_locator.json",
+ "sha1": "bc78244615eb5fd211bf7376b0a346c975591fe6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Nest Locator",
+   "蜂巢定位器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Can hone in on the faint buzzing of nearby nests. Shift right click the locator on a nest or a block of the type of nest you want to find. If you want to find a sand nest you can either right click a sand nest or a sand block. Right clicking again will locate any nearby nests of that type.",
+   "能够锁定附近蜂巢发出的微弱嗡嗡声。对着一个蜂巢或你想寻找的那种蜂巢对应的方块潜行右键定位器即可。例如你想找沙子蜂巢，可以右键沙子蜂巢，也可以右键沙子方块。再次右键后，它就会定位附近同类型的蜂巢。"
+  ]
+ ]
+}

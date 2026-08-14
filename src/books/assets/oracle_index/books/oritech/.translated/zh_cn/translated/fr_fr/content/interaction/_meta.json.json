@@ -1,0 +1,76 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/_meta.json",
+ "sha1": "7c67ea9a8b3b9528c7687411c76fa46bfbf5c131",
+ "t": [
+  [
+   [
+    "block_destroyer.mdx"
+   ],
+   "Destructeur de Blocs",
+   "方块破坏器"
+  ],
+  [
+   [
+    "block_placer.mdx"
+   ],
+   "Placeur de Blocs",
+   "方块放置器"
+  ],
+  [
+   [
+    "deepdrill.mdx"
+   ],
+   "Extracteur de bedrock",
+   "基岩层钻机"
+  ],
+  [
+   [
+    "enderic_laser.mdx"
+   ],
+   "Laser Enderique",
+   "末影激光器"
+  ],
+  [
+   [
+    "fertilizer.mdx"
+   ],
+   "Fertiliseur",
+   "流体肥料"
+  ],
+  [
+   [
+    "machine_frames.mdx"
+   ],
+   "Machine Frames",
+   "机器框架"
+  ],
+  [
+   [
+    "particle_accelerator.mdx"
+   ],
+   "Particle Accelerator",
+   "粒子加速器"
+  ],
+  [
+   [
+    "pump.mdx"
+   ],
+   "Pompe",
+   "南瓜"
+  ],
+  [
+   [
+    "redstone.mdx"
+   ],
+   "Redstone",
+   "红石"
+  ],
+  [
+   [
+    "tree_cutter.mdx"
+   ],
+   "Coupe-arbres",
+   "伐木机"
+  ]
+ ]
+}

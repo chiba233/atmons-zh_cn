@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/modules.json",
+ "sha1": "4c6732609a0b7d57e8fb04fabb3af55de076f678",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Modules are placed into a Modular Router and define the router's functionality.",
+   "模块被安装至物品路由器中，并定义该路由器的功能。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Modules",
+   "模块"
+  ]
+ ]
+}

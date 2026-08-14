@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_tag.json",
+ "sha1": "79deb1a529a3614ea8706fdf34f2533692723a00",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tag Filter",
+   "标签过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The tag filter allows a player to filter by tags on resources.$(br2)Tags are a way for Minecraft to group similar resources. For example, on the right we can see that an Iron Ingot has the 'forge:ingots' tag. So too does gold, copper, tin, etc.$(br2)The tag filter would allow you to sort on all ingots with a single entry!",
+   "标签过滤器用于按照资源的标签进行过滤。$(br2)标签是 Minecraft 为相似资源分组的一种方式。例如，在右侧可见铁锭有标签“forge:ingots”。金锭、铜锭、锌锭等也都有这个标签。$(br2)此标签过滤器能将所有的锭直接过滤至同一存储空间！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Tag UI",
+   "标签过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Tag UI",
+   "标签过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "First, start by placing an item in the slot on the top right. A list of tags on this item will appear in $(#0000ff)blue$(). Click on the tag you want added, and press the + button. Holding shift and pressing the + button will add all tags to the list.$(br2)To remove a tag from the list, select it and press the - button. $(br2)Alternatively you can shift-click to automatically add/remove the tag.",
+   "首先，在右上角的槽位中放入一个物品。该物品的所有标签会显示为$(#0000ff)蓝色$()。点击想要过滤的标签，按下“+”按钮即可。按住 Shift 再按“+”按钮能把所有标签全部加入过滤列表。$(br2)选中某标签并按“-”按钮，可移除该过滤标签。$(br2)也可以按住 Shift 点击来加入或移出。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The X button will clear the entire list.$(br2)The list is treated as an 'or' list - meaning an item that matches any one of the tags on the list will be filtered.$(br2)Tag Filters do not support NBT comparisons, as that would not make any sense.",
+   "“X”按钮会清空整个列表。$(br2)该列表是“或”列表，也即只要有一个标签符合，该物品就能通过过滤。$(br2)标签过滤器不支持匹配 NBT，因为没有必要。"
+  ]
+ ]
+}

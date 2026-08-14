@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/display_shelf.json",
+ "sha1": "c1180371867e6cd228b54c33f38322ff4b2376e6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Display Shelf",
+   "展示台"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Display Shelf/$ functions exactly like its bigger brother the $(l:machines/display_table)Display Table/$, but is half-height. In addition, it will not render its legs if the block beneath it does not have a solid top face.",
+   "$(item)展示台/$的功能与它的大哥 $(l:machines/display_table)展示桌/$ 完全相同，但只有半格高。此外，如果其下方的方块顶部表面不坚实，它将不会渲染桌腿。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Display Shelf",
+   "合成展示台"
+  ]
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/gantries/_meta.json",
+ "sha1": "2bbd3b9a36a188a7b3057805512d0340fd8a26aa",
+ "t": [
+  [
+   [
+    "destroyer_block.mdx"
+   ],
+   "Destroyer Block",
+   "方块破坏器"
+  ],
+  [
+   [
+    "fertilizer_block.mdx"
+   ],
+   "Fertilizer Block",
+   "肥料块"
+  ],
+  [
+   [
+    "machine_frame_block.mdx"
+   ],
+   "Machine Frame",
+   "机器框架"
+  ],
+  [
+   [
+    "placer_block.mdx"
+   ],
+   "Placer Block",
+   "放置方块"
+  ]
+ ]
+}

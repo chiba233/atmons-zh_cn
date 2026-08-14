@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-cell.json",
+ "sha1": "ebb1cd0705a7c2ec1bfaa1cdf354eff08291975f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Energy Cell",
+   "能量单元"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Energy Cells are the storage components of the Energizer and must be used to completely fill the interior volume of the machine.",
+   "能量单元是充能器的储能组件，必须用它们将机器内部空间完全填满。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Energy Cell",
+   "能量单元"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Energy Cell",
+   "能量单元"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() inside the Energizer$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()是$(br)$(l)有效位置：$()充能器内部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

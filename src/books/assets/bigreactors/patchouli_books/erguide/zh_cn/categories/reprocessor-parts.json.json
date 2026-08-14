@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/reprocessor-parts.json",
+ "sha1": "484571c7e5568d1a7c320c3b0a02ce1f8e2d5b83",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A Reprocessor is built using the following parts.$(br2)All parts are mandatory, with the exception of Glass, which can be used in place of a Casing block in the four vertical faces of the machine.",
+   "再处理器由以下部件构成。$(br2)除玻璃外，所有部件都是必需的；玻璃可以在机器四个垂直面上替代外壳方块使用。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Reprocessor parts",
+   "再处理器部件"
+  ]
+ ]
+}

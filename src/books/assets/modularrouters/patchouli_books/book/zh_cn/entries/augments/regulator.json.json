@@ -1,0 +1,49 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/regulator.json",
+ "sha1": "5ed51c410dae835818f906271d236917d981d780",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Regulator Augment",
+   "调节拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer.$(p)When a module has a Regulator Augment, you will see an extra numeric textfield in its GUI where you can configure a limit. This limit is interpreted differently depending on the particular module:",
+   "这个增强件可以精确控制向容器或从容器中，以及向路由器缓冲区或从缓冲区中发送/抽取的物品数量。$(p)当模块装有调节拓展时，你会在其 GUI 中看到一个额外的数字输入框，用于设置限制值。这个限制值会因模块不同而有不同解释："
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)For the Sender $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ Modules and $(l:modules/player)Player Module/$ (in insert mode), the modules will only send an item to the inventory if there are fewer than the configured number of that item already in the inventory.$(li)For the Puller $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ and $(l:modules/player)Player Module/$ (in extract mode), the modules will only pull an item from the inventory if there are more than the configured number of that item in the inventory.",
+   "$(li)对于发送模块 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$ 以及$(l:modules/player)玩家模块/$（插入模式），只有当目标容器中该物品的数量少于设定值时，模块才会将该物品送入容器。$(li)对于抽取模块 Mk1 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$ 以及$(l:modules/player)玩家模块/$（提取模式），只有当目标容器中该物品的数量多于设定值时，模块才会从容器中抽取该物品。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)For the $(l:modules/dropper)Dropper/$, $(l:modules/flinger)Flinger/$, $(l:modules/placer)Placer/$ & $(l:modules/void)Void/$ Modules, the modules will only run if there are more than the configured number of that item in the router's buffer.$(li)For the $(l:modules/breaker)Breaker/$ & $(l:modules/vacuum)Vacuum/$ Modules, the modules will only run if there are fewer than the configured number of that item in the router's buffer.",
+   "$(li)对于$(l:modules/dropper)投掷器/$、$(l:modules/flinger)抛掷术/$、$(l:modules/placer)放置器/$和$(l:modules/void)销毁模块/$，只有当路由器缓冲区中该物品的数量多于设定值时，模块才会运行。$(li)对于$(l:modules/breaker)破坏器/$和$(l:modules/vacuum)虚空模块/$，只有当路由器缓冲区中该物品的数量少于设定值时，模块才会运行。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)For the Fluid $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$ modules, the limit can be a percentage of the target tank's capacity or an absolute amount in mB (selectable in the GUI) rather than a number of items. When pulling fluid, the module will only run if there is $(italic)more/$ fluid in the target than the configured amount; when pushing fluid, it will only run if there is $(italic)less/$ fluid than the configured amount.",
+   "$(li)对于流体 $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$ 模块，这个限制值可以是目标储罐容量的百分比，也可以是以 mB 为单位的绝对数值（可在 GUI 中选择），而不是物品数量。拉取流体时，只有当目标中流体量$(italic)多于/$设定值时模块才会运行；推送流体时，只有当目标中流体量$(italic)少于/$设定值时模块才会运行。"
+  ]
+ ]
+}

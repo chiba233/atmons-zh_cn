@@ -1,0 +1,20 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/categories/tracks.json",
+ "sha1": "d6016f4c2174d01f92849288b263f924a6cfc239",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Railcraft greatly expands the types of tracks for Minecraft. It also turns the track creation process into a more immersive experience. The user crafts railbeds from ties and combines those railbeds with rails to create tracks of many different types.",
+   "铁路模组大幅拓展了《我的世界》中的轨道类型，同时也让轨道建造过程变得更加沉浸式。玩家需先用枕木制作道砟，再将道砟与铁轨组合，从而制成多种不同类型的轨道。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tracks",
+   "轨道"
+  ]
+ ]
+}

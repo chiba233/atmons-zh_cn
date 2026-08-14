@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/signal_tuner.json",
+ "sha1": "998cdfac64cf7fbdacd8714290504aa7dfafa928",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Tuner",
+   "信号调谐器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This electronic frequency scanner is used to pair a Controller with a Receiver. To initiate pairing, simply right-click on a Controller. Once you have done that, move to the Receiver you wish to pair the Controller to and right-click on it as well. If the pairing was successful you will receive a message to that effect on the screen. It can also be used to clear an existing pairing by right-clicking on either the controller or the receiver.",
+   "此电子频率扫描仪用于将控制器与接收器配对。启动配对时，只需右键点击控制器；完成后，请移至您希望配对的接收器并同样右键点击。若配对成功，屏幕将显示相应提示信息。您也可通过右键点击控制器或接收器，清除现有配对关系。"
+  ]
+ ]
+}

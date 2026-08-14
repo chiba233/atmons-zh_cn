@@ -1,0 +1,25 @@
+---
+title: 能量
+icon: oritech:energy_pipe
+---
+
+奥瑞科技使用**RF**为其所有机器供能，采用Reborn Energy API实现。这意味着奥瑞科技与所有使用Tech Reborn能源系统的模组兼容，目前几乎涵盖Fabric平台上所有使用能源的模组。
+
+仅存在一种线缆，最大可传输10k RF/t。
+
+发电机向外输出能量，而其他所有机器均可从任意方向接收能量（但不会反向输出）。电缆本身在每处机器连接点最多可暂存{gold}10k RF{}，当能量无法及时传输时即启用此缓冲机制。
+
+您可使用能量存储方块。它们有两种尺寸规格，且可通过模块进行扩展。这些方块通过🟢绿色端口接收能量，仅能通过唯一的🔴红色端口输出能量。
+
+红石信号将禁用全部能量输出。
+
+<center>
+<ModAsset location="oritech:small_storage_block" width={256} />
+</center>
+
+能量亦可通过[末影激光器](../interaction/enderic_laser)实现无线传输。
+
+<center>
+<ModAsset location="oritech:area/enderic_laser_energy" width={512} />
+</center>
+

@@ -1,0 +1,20 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/categories/filters.json",
+ "sha1": "ecd91ae9795f63278985a3d112096d08f8fbd84d",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Filters allow you to control what is, or is not, allowed to be moved around by cards.",
+   "过滤器能让你控制什么可经由物流卡传输，或什么不可传输。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Filters",
+   "过滤器"
+  ]
+ ]
+}

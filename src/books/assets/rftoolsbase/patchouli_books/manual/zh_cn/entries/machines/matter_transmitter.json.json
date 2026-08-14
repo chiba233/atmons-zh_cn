@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_transmitter.json",
+ "sha1": "0376ab6ef3a037d80f9609a5a4c61111c34d2be3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Matter Transmitter",
+   "物质传输器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Matter Transmitter is a device that can teleport players to any other $(l:rftoolsbase:machines/matter_receiver)Matter Receiver$(/l). Use the $(l:rftoolsbase:machines/dialing_device)Dialing Device$(/l) to dial a matter transmitter to a receiver.$(br2)$(5)Infusing$() this machine causes reduced power consumption and increased teleportation speed",
+   "物质传输器是一种可将玩家传送至任意其他$(l:rftoolsbase:machines/matter_receiver)物质接收器$(/l)的装置。请使用$(l:rftoolsbase:machines/dialing_device)坐标记录仪$(/l)将物质传输器拨号至接收器。$(br2)$(5)注魔$()该机器可降低能耗并提升传送速度。"
+  ]
+ ]
+}

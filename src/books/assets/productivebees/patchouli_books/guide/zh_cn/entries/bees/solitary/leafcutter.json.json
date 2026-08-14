@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/leafcutter.json",
+ "sha1": "03efd86cd013d361c95617b89500290ccb8c138e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Leafcutter Bee",
+   "切叶蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Megachile brevis]",
+   "[短叶切蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Leafcutter Bee",
+   "切叶蜜蜂"
+  ]
+ ]
+}

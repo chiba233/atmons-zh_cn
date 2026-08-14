@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/basics/latex.json",
+ "sha1": "8819c484e1016bd0390c1c29074cfa6640279091",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Latex (Fluid)",
+   "乳胶(流体)"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This fluid is used in a $(l:basics/latex_processing_unit)Latex Procressing Unit$() to make Tiny Dry Rubber",
+   "这种流体可在 $(l:basics/latex_processing_unit)胶乳加工机$() 中用于制作小块干橡胶。"
+  ]
+ ]
+}

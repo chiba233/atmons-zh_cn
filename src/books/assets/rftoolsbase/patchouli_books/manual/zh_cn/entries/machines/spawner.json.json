@@ -1,0 +1,85 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/spawner.json",
+ "sha1": "6b62fc45b4137df59eab31fa12b54d99703ed751",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Spawner",
+   "生物生成器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Spawner creates mobs from a filled syringe, FE, and materials supplied by linked $(l:rftoolsbase:machines/matter_beamer)Matter Beamers$(/l). The selected mob determines which materials are accepted.",
+   "生物生成器利用装满药剂的注射器、FE及已链接$(l:rftoolsbase:machines/matter_beamer)物质投影仪$(/l)提供的材料生成生物。所选生物类型决定了可接受的材料种类。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Spawner",
+   "生物生成器"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Use a syringe on the same mob type until it is fully injected, then place it in the spawner. The tooltip shows the stored mob and injection level.",
+   "持续对同种生物使用注射器直至完全注入，随后将其放入生物生成器中。物品提示信息将显示已储存的生物类型及注入等级。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Syringes",
+   "注射器"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The GUI shows three matter buffers. Matter Beamers must send the required materials for the mob in the syringe; unrelated materials are ignored.",
+   "GUI界面显示三个物质缓冲区。物质投影仪必须向注射器中指定的生物发送所需材料；无关材料将被忽略。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Materials",
+   "材料"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Supply enough FE and keep the beamers stocked. $(5)Infusing$() the spawner improves efficiency, while infusing beamers improves how fast and cheaply they deliver items.",
+   "确保供应充足FE并维持投影仪库存充足。$(5)注魔$()生物生成器可提升效率；注魔投影仪则可加快投送速度并降低投送成本。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Efficiency",
+   "效率"
+  ]
+ ]
+}

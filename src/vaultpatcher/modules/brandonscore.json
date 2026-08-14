@@ -1,0 +1,102 @@
+[
+  {
+    "name": "brandonscore_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.brandon3055.brandonscore.client.gui.ContributorConfigGui"
+    ],
+    "pairs": [
+      {
+        "key": "Contributor Configuration",
+        "value": "贡献者配置"
+      },
+      {
+        "key": "When using creative style flight",
+        "value": "使用创造模式风格飞行时"
+      },
+      {
+        "key": "What happens when you are not flying",
+        "value": "当你不在飞行时会发生什么"
+      },
+      {
+        "key": " Wing Behavior ",
+        "value": " 羽翼行为 "
+      },
+      {
+        "key": "Enable rainbow RGB mode.",
+        "value": "启用彩虹 RGB 模式。"
+      },
+      {
+        "key": "Use the colour picker to configure,",
+        "value": "使用取色器进行配置，"
+      },
+      {
+        "key": "Rotate",
+        "value": "旋转"
+      },
+      {
+        "key": "Shield Colour: ",
+        "value": "盾牌颜色："
+      },
+      {
+        "key": "Wings Shader B: ",
+        "value": "翅膀着色器 B："
+      },
+      {
+        "key": "Wings Shader A: ",
+        "value": "翅膀着色器 A："
+      },
+      {
+        "key": "Wings Colour B: ",
+        "value": "鞘翅颜色 B："
+      },
+      {
+        "key": "Wings Colour A: ",
+        "value": "鞘翅颜色 A："
+      },
+      {
+        "key": "Wings: ",
+        "value": "翅膀："
+      },
+      {
+        "key": "Elytra: ",
+        "value": "鞘翅："
+      },
+      {
+        "key": "Creative: ",
+        "value": "创造："
+      },
+      {
+        "key": "Grounded: ",
+        "value": "接地："
+      },
+      {
+        "key": "Back Badge: ",
+        "value": "背面徽章："
+      },
+      {
+        "key": "Front Badge: ",
+        "value": "正面徽章："
+      },
+      {
+        "key": "Welcome Message: ",
+        "value": "欢迎消息："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.brandonscore.handlers.contributor.ContributorFetcher"
+    ],
+    "pairs": [
+      {
+        "key": "You must be playing in online mode to link your account.",
+        "value": "你必须在在线模式下游玩才能关联你的账户。"
+      }
+    ]
+  }
+]

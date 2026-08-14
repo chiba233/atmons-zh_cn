@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/drone_condition_pressure.json",
+ "sha1": "c7773f6c7187a7d387aba304aae0687f66433141",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Drone Condition: Pressure Widget",
+   "无人机条件：压力"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Drone Condition: Pressure/$ widget allows you to check the $(l:base_concepts/pressure)pressure/$ of this $(l:tools/drone)Drone/$.",
+   "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)无人机条件：压力/$组件可让你检查这台$(l:tools/drone)无人机/$的$(l:base_concepts/pressure)压力/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Drone Condition: Pressure Widget/$",
+   "$(italic)无人机条件：压力控件/$"
+  ]
+ ]
+}

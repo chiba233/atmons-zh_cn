@@ -1,0 +1,131 @@
+[
+  {
+    "name": "crashutilities_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.MemoryChecker"
+    ],
+    "pairs": [
+      {
+        "key": "Running Heapdump. Massive Lagspike incoming!",
+        "value": "正在执行堆转储。即将出现严重卡顿！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.ItemClearCommand"
+    ],
+    "pairs": [
+      {
+        "key": "ItemClears are not enabled in the config",
+        "value": "配置中未启用物品清除功能"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.LoadedChunksCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Exception getting player",
+        "value": "获取玩家时发生异常"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.MemoryCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Memory Checker not enabled in Config",
+        "value": "配置中未启用内存检查器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.InventoryCommands.InventoryOpenCommand"
+    ],
+    "pairs": [
+      {
+        "key": "You need to be a player to use this command, consider using \"cu inventory read\" instead",
+        "value": "您必须是玩家才能使用此命令，建议改用\"cu inventory read\""
+      },
+      {
+        "key": "Cannot find Player",
+        "value": "无法找到玩家"
+      },
+      {
+        "key": "Cannot load playerData",
+        "value": "无法加载玩家档案"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.InventoryCommands.InventoryOpenEnderChestCommand"
+    ],
+    "pairs": [
+      {
+        "key": "You need to be a player to use this command, consider using \"cu inventory read\" instead",
+        "value": "您必须是玩家才能使用此命令，建议改用\"cu inventory read\""
+      },
+      {
+        "key": "Cannot find Player",
+        "value": "无法找到玩家"
+      },
+      {
+        "key": "Cannot load playerData",
+        "value": "无法加载玩家档案"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.PlayerCommands.ActivityCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Number of Players active in the last:",
+        "value": "最近活跃的玩家数量："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.CrashUtilCommands.PlayerCommands.TeleportCommand"
+    ],
+    "pairs": [
+      {
+        "key": "player to teleport not specified",
+        "value": "未指定要传送的玩家"
+      },
+      {
+        "key": "Unable to load target players data",
+        "value": "无法加载目标玩家的数据"
+      },
+      {
+        "key": "Unable to read source player data",
+        "value": "无法读取源玩家的数据"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.Screens.DataListGUI"
+    ],
+    "pairs": [
+      {
+        "key": "Filter",
+        "value": "过滤器"
+      }
+    ]
+  }
+]

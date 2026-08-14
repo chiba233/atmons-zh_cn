@@ -1,0 +1,270 @@
+[
+  {
+    "name": "rftools_gui_labels_zh",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.lib.gui.GuiParser"
+    ],
+    "pairs": [
+      {
+        "key": "Error parsing!",
+        "value": "解析错误！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "sonar.fluxnetworks.client.gui.basic.GuiFluxCore"
+    ],
+    "pairs": [
+      {
+        "key": "Flux Networks",
+        "value": "通量网络"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "sonar.fluxnetworks.client.gui.GuiFluxAdminHome"
+    ],
+    "pairs": [
+      {
+        "key": "Cleanup Client Cache",
+        "value": "清理客户端缓存"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.screen.client.GuiScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Bright",
+        "value": "明亮"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiAdvancedPorter"
+    ],
+    "pairs": [
+      {
+        "key": "Clear",
+        "value": "清除"
+      },
+      {
+        "key": "Set",
+        "value": "设置"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterTransmitter"
+    ],
+    "pairs": [
+      {
+        "key": "Add",
+        "value": "添加"
+      },
+      {
+        "key": "Del",
+        "value": "删除"
+      },
+      {
+        "key": "Hide",
+        "value": "隐藏"
+      },
+      {
+        "key": "Private",
+        "value": "私有"
+      },
+      {
+        "key": "Public",
+        "value": "公开"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiTeleportProbe"
+    ],
+    "pairs": [
+      {
+        "key": "Teleport Probe",
+        "value": "传送探测器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiDialingDevice"
+    ],
+    "pairs": [
+      {
+        "key": "Yes",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterReceiver"
+    ],
+    "pairs": [
+      {
+        "key": "Add",
+        "value": "添加"
+      },
+      {
+        "key": "Del",
+        "value": "删除"
+      },
+      {
+        "key": "Private",
+        "value": "私有"
+      },
+      {
+        "key": "Public",
+        "value": "公开"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.environmental.client.GuiEnvironmentalController"
+    ],
+    "pairs": [
+      {
+        "key": "All",
+        "value": "全部"
+      },
+      {
+        "key": "Pass",
+        "value": "通过"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.craftinggrid.GuiCraftingGrid"
+    ],
+    "pairs": [
+      {
+        "key": "Positioned",
+        "value": "已定位"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.client.GuiStorageScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Shift + click: ",
+        "value": "Shift+点击："
+      },
+      {
+        "key": "Yes",
+        "value": "是"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.modularstorage.client.GuiModularStorage"
+    ],
+    "pairs": [
+      {
+        "key": "Should not happen!",
+        "value": "不应发生！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.shield.client.GuiShield"
+    ],
+    "pairs": [
+      {
+        "key": "Add",
+        "value": "添加"
+      },
+      {
+        "key": "All",
+        "value": "全部"
+      },
+      {
+        "key": "Del",
+        "value": "删除"
+      },
+      {
+        "key": "Ins",
+        "value": "插入"
+      },
+      {
+        "key": "Pass",
+        "value": "通过"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.mover.client.GuiMoverController"
+    ],
+    "pairs": [
+      {
+        "key": "This is not a gui for the mover controller!",
+        "value": "这不是移动控制器的界面！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiComposer"
+    ],
+    "pairs": [
+      {
+        "key": "Flip",
+        "value": "翻转"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiProjector"
+    ],
+    "pairs": [
+      {
+        "key": "Auto",
+        "value": "自动"
+      },
+      {
+        "key": "Gray",
+        "value": "灰阶"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolspower.modules.dimensionalcell.client.GuiDimensionalCell"
+    ],
+    "pairs": [
+      {
+        "key": "Link:",
+        "value": "链接："
+      },
+      {
+        "key": "Out",
+        "value": "输出"
+      }
+    ]
+  }
+]

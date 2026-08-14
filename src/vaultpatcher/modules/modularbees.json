@@ -1,0 +1,19 @@
+[
+  {
+    "name": "modularbees_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.glodblock.github.modularbees.dynamic.DyResourcePack"
+    ],
+    "pairs": [
+      {
+        "key": "Modular Bees assets",
+        "value": "模块化蜜蜂资源"
+      }
+    ]
+  }
+]

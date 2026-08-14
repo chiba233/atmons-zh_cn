@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolspower_monitor.json",
+ "sha1": "b597e7144ef258b38f80995145c0b9ddeae87247",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Solutions for monitoring power",
+   "监控能量的解决方案"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Power Monitoring",
+   "能量监控"
+  ]
+ ]
+}

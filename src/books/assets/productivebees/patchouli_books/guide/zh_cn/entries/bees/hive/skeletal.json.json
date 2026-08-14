@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/skeletal.json",
+ "sha1": "a10ddab4a820fd90c00254d8727aa6801e9af93c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Skeletal Bee",
+   "骷髅蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Will move in to an advanced hive if the hive is left empty in the dark.",
+   "如果将高级蜂箱空着放在黑暗中，它就会搬进去。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Skeletal Bee",
+   "骷髅蜜蜂"
+  ]
+ ]
+}

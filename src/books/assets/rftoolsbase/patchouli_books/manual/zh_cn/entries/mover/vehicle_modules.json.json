@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/mover/vehicle_modules.json",
+ "sha1": "4640f5a8caff0cdc5385a941d0f067191bf3b937",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vehicle Modules",
+   "载具模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Vehicle modules are screen modules for interacting with a Mover Controller. Use a module on a Mover Controller to bind it.",
+   "载具模块是专为与传运器控制器交互而设的屏幕模块。将模块右键点击传运器控制器，即可完成绑定。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The control module can send a vehicle to a selected Mover. The status module displays vehicle information on an RFTools screen.",
+   "控制模块可向选定的传运器发送载具；状态模块则可在RF工具箱屏幕上显示载具信息。"
+  ]
+ ]
+}

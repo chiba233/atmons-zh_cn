@@ -1,0 +1,39 @@
+[
+  {
+    "name": "bigreactors_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "it.zerono.mods.extremereactors.gamecontent.command.ExtremeReactorsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Reactant not found",
+        "value": "反应物未找到"
+      },
+      {
+        "key": "Exception raised while setting colour field",
+        "value": "设置颜色字段时引发异常"
+      },
+      {
+        "key": "Fuel Reactant not found",
+        "value": "未找到燃料反应物"
+      },
+      {
+        "key": "Moderator not found",
+        "value": "未找到慢化剂"
+      },
+      {
+        "key": "Reactant or reaction not found",
+        "value": "未找到反应物或反应"
+      },
+      {
+        "key": "Coil not found",
+        "value": "线圈未找到"
+      }
+    ]
+  }
+]

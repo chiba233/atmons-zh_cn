@@ -1,0 +1,96 @@
+[
+  {
+    "name": "arsomega_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.forms.MethodTrail"
+    ],
+    "pairs": [
+      {
+        "key": "Echoing Trail",
+        "value": "回响轨迹"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.effects.EffectChaining$1"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.forms.MethodArc$2"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.forms.MethodHoming$1"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.forms.MethodMissile$1"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.propagators.PropagateArc$3"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.propagators.PropagateHoming$1"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.not_enough_glyphs.common.glyphs.propagators.PropagateMissile$1"
+    ],
+    "pairs": [
+      {
+        "key": "Not Enough Glyphs",
+        "value": "符文不足"
+      }
+    ]
+  }
+]

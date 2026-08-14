@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_rancher.json",
+ "sha1": "f2bfc97c0b4babd9e146ed88675012bf975b589b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Animal Rancher",
+   "动物资源收获机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to $(6)shear$() sheep and $(6)milk$() cows.",
+   "一台用于$(6)剪收$()绵羊和给奶牛$(6)挤奶$()的机器。"
+  ]
+ ]
+}

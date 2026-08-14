@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/camouflage.json",
+ "sha1": "4c4e7b4b7d2f69c803adaa37b7de550de7477b34",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Camouflage Upgrade",
+   "伪装升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade allows you to disguise the router as another block. $(thing)Sneak+Right-click/$ the module against a block to record that block on the camouflage upgrade. When inserted into a router, that router will take on the appearance of the recorded block.$(p)Note: holding a $(thing)Modular Router/$ will highlight any nearby camouflaged Routers.",
+   "该升级允许你将路由器伪装成其他方块。$(thing)潜行+右键/$点击模块与某一方块接触，即可将该方块记录至伪装升级中。当该升级被插入路由器后，该路由器将呈现所记录方块的外观。$(p)注意：手持$(thing)物品路由器/$时，将高亮显示附近所有已伪装的路由器。"
+  ]
+ ]
+}

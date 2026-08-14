@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/redstone_information.json",
+ "sha1": "75e11c677e5957cb9dd63be2068244bdcaf8119e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Information",
+   "红石信号"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This item can store several redstone channels ($(5)right click$() on a $(l:rftoolsbase:logic/redstone_transmitter)Redstone Transmitter$(/l) or $(l:rftoolsbase:logic/redstone_receiver)Redstone Receiver$(/l) to add the channel). You can then put it in a $(l:rftoolsbase:tools/tablet)Tablet$(/l) which allows you to examine and change redstone signals from anywhere",
+   "此物品可储存多个红石通道（$(5)右键$()点击$(l:rftoolsbase:logic/redstone_transmitter)红石信号发信器$(/l)或$(l:rftoolsbase:logic/redstone_receiver)红石信号接收器$(/l)即可添加通道）。随后可将其放入$(l:rftoolsbase:tools/tablet)平板电脑$(/l)中，从而随时随地查看并修改红石信号。"
+  ]
+ ]
+}

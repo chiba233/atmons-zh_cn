@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/reprocessor.json",
+ "sha1": "647b46e559c4df5dec89803f80a60baa9283b5b2",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Reprocessor is a multiblock machine that lets you reuse spent fuel by converting waste produced in the Reactor into new fuel sources or other resources.",
+   "再处理器是一种多方块机器，可让你重复利用乏燃料，将反应堆中产生的废料转化为新的燃料来源或其他资源。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "The Reprocessor",
+   "再处理器"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/neon_cuckoo.json",
+ "sha1": "10e9b73b7513cfe393ef6f86f430004f41e40308",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Neon Cuckoo Bee",
+   "霓虹杜鹃蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Thyreus nitidulus]",
+   "[蒂雷乌斯·尼蒂杜卢斯]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Neon Cuckoo Bee",
+   "霓虹杜鹃蜂"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/matter_receiver.json",
+ "sha1": "e4cc78c222844b112f4e353227c6bf38bff705d7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Matter Receiver",
+   "物质接收器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Matter Receiver is where a player can teleport too from a $(l:rftoolsbase:machines/matter_transmitter)Matter Transmitter$(/l). Use the $(l:rftoolsbase:machines/dialing_device)Dialing Device$(/l) to dial a matter transmitter to this receiver.$(br2)$(5)Infusing$() this machine causes reduced power consumption",
+   "物质接收器是玩家可通过$(l:rftoolsbase:machines/matter_transmitter)物质传输器$(/l)传送抵达的位置。请使用$(l:rftoolsbase:machines/dialing_device)坐标记录仪$(/l)将物质传输器拨号至该接收器。$(br2)$(5)注魔$()该机器可降低能耗。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Note that it is very important that the Matter Receiver has enough power. If not the player risks bad effects when teleporting",
+   "注意，物质接收器拥有足够能量非常重要。否则玩家在传送时可能会遭受不良效果。"
+  ]
+ ]
+}

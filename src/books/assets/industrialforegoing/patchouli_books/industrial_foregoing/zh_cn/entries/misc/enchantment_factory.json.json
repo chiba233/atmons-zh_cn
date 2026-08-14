@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/enchantment_factory.json",
+ "sha1": "e3cb7797716bb4a9298bcf79a722d282c44e142a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Enchantment Factory",
+   "自动附魔机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine when provided with large amounts of $(l:agr_hus/essence)Essence$() and an item it will enchant the item with a level $(6)30$().",
+   "当该机器获得大量$(l:agr_hus/essence)精华$()及一件待附魔物品后，可为其附上等级$(6)30$()的魔咒。"
+  ]
+ ]
+}

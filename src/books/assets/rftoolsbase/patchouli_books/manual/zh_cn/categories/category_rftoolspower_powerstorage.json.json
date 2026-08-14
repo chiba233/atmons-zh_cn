@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolspower_powerstorage.json",
+ "sha1": "40dfea2e3f860ad7afe3ee0b94d8bf8a168933be",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Solutions for storing power, both locally and interdimensionally.",
+   "用于存储能量的解决方案，包括本地存储和跨维度存储。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Power Storage",
+   "能量存储"
+  ]
+ ]
+}

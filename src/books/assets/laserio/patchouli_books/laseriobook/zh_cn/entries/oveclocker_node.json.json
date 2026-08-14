@@ -1,0 +1,76 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/oveclocker_node.json",
+ "sha1": "65f2ae4ed38b2db3c6be205325b916e1cb478502",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Node Overclocker",
+   "节点超频元件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Node Overclockers are a more complex component.$(br2)Each $(l:laserio:laser_node)Node$(/l) can only operate on 1 card per side per tick. $(br2)If there are 3 extractor cards in the side of a node, only the first one will operate during a game tick, and the second will only operate if the first fails to do anything.",
+   "节点超频元件是较为复杂的元件。$(br2)每个$(l:laserio:laser_node)节点$(/l)每面同一刻仅能运行 1 张物流卡。$(br2)若节点某面有 3 张提取模式物流卡，同一游戏刻内只有第一张物流卡会运行，而第二张仅会在第一张卡什么都不做的情况下运行。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "There are zero Node Overclockers installed",
+   "未装有节点超频元件"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "No Node Overclockers",
+   "无节点超频元件"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Each Node Overclocker installed on the side of a Node allows that side to operate on more cards per tick. A total of 8 Node Overclockers can be installed, allowing all 9 nodes to be operated on. $(br2)Inserter cards do $(l)$(#ff0000)NOT$() need overclockers to function, $(l)ONLY$() Extractor and Stocker cards need them.",
+   "每个节点超频元件允许节点某面同一刻多运行 1 张物流卡。节点一面最多能装 8 个节点超频元件，使得 9 张物流卡能同时运行。$(br2)输入卡$(l)$(#ff0000)不$()需要超频器就能运行，$(l)只有$()提取卡和存储卡需要超频器。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "There are two Node Overclockers installed",
+   "装有两个节点超频元件"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "2 Node Overclockers",
+   "2个节点超频元件"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Node Overclocker",
+   "节点超频元件"
+  ]
+ ]
+}

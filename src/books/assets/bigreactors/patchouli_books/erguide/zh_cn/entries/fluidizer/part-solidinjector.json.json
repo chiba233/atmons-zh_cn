@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/part-solidinjector.json",
+ "sha1": "829270e16d40e0328bbde24935fa185628bbfbe8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Solid Injector",
+   "固体注入器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Solid Injector allows you to insert existing solid fuel sources (like ingots) into the Fluidizer to convert them to fluid or mix them to create a new fuel.",
+   "固体注入器可以让你将已有的固体燃料来源（如锭）注入流化器，将其转换为流体，或将它们混合以制造出新的燃料。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Solid Injector",
+   "固体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Solid Injector",
+   "固体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() see $(l:bigreactors:fluidizer/operational_mode)operational mode$(/l)$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()见$(l:bigreactors:fluidizer/operational_mode)运行模式$(/l)$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

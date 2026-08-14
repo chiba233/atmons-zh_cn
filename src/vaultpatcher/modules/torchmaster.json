@@ -1,0 +1,23 @@
+[
+  {
+    "name": "torchmaster_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.xalcon.torchmaster.commands.CommandTorchmaster$SubCommands$3"
+    ],
+    "pairs": [
+      {
+        "key": "Attempting village siege",
+        "value": "正在尝试村庄围攻"
+      },
+      {
+        "key": "Exception during siege setup",
+        "value": "攻城设置期间发生异常"
+      }
+    ]
+  }
+]

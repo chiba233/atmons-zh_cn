@@ -1,0 +1,16 @@
+{
+ "gui.crafting_on_a_stick.prefix": "便携式",
+ "gui.crafting_on_a_stick.suffix": "",
+ "item.crafting_on_a_stick.chipped_anvil": "开裂的便携式铁砧",
+ "item.crafting_on_a_stick.damaged_anvil": "损坏的便携式铁砧",
+ "curios.identifier.crafting_on_a_stick": "便携式工具",
+ "crafting_on_a_stick.key.open_curios": "打开便携式工具",
+ "gui.crafting_on_a_stick.selection_wheel.no_tool": "你没有任何工具",
+ "item.crafting_on_a_stick.crafting_table": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.loom": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.grindstone": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.cartography_table": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.stonecutter": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.smithing_table": "%1$s%2$s%3$s",
+ "item.crafting_on_a_stick.anvil": "%1$s%2$s%3$s"
+}

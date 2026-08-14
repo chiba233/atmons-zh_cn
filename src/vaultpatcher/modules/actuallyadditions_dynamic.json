@@ -1,0 +1,63 @@
+[
+  {
+    "name": "actuallyadditions_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.ellpeck.actuallyadditions.mod.inventory.gui.GuiFireworkBox"
+    ],
+    "pairs": [
+      {
+        "key": "Value Play",
+        "value": "数值播放"
+      },
+      {
+        "key": "Average Charge Amount",
+        "value": "平均充能量"
+      },
+      {
+        "key": "Average Flight Time",
+        "value": "平均飞行时间"
+      },
+      {
+        "key": "Effect Chance",
+        "value": "效果触发几率"
+      },
+      {
+        "key": "Flicker/Trail Ratio",
+        "value": "闪烁/拖尾比率"
+      },
+      {
+        "key": "Color Amount",
+        "value": "颜色数量"
+      },
+      {
+        "key": "Small Ball",
+        "value": "小球体"
+      },
+      {
+        "key": "Large Ball",
+        "value": "大球体"
+      },
+      {
+        "key": "Star Shape",
+        "value": "星形"
+      },
+      {
+        "key": "Creeper Shape",
+        "value": "苦力怕形状"
+      },
+      {
+        "key": "Burst",
+        "value": "爆发"
+      },
+      {
+        "key": "Area of Effect",
+        "value": "作用范围"
+      }
+    ]
+  }
+]

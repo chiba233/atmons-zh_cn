@@ -1,0 +1,34 @@
+[
+  {
+    "name": "resourcefullib_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.teamresourceful.resourcefullib.client.highlights.state.StateVariant"
+    ],
+    "pairs": [
+      {
+        "key": "State variants can not be encoded back to a string.",
+        "value": "状态变体无法重新编码回字符串。"
+      },
+      {
+        "key": "No states found for ",
+        "value": "未找到状态："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.teamresourceful.resourcefullib.common.codecs.predicates.properties.PropertyMatcher"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown PropertyMatcher type",
+        "value": "未知的 PropertyMatcher 类型"
+      }
+    ]
+  }
+]

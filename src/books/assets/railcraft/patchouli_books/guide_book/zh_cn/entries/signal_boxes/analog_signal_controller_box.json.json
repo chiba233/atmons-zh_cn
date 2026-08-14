@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/signal_boxes/analog_signal_controller_box.json",
+ "sha1": "1b414122da23fa75d9e491a1d5833c371125e886",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Analog Signal Controller Box",
+   "模拟信号控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Analog signal controller box, like it's previous version controller box emits signal, but it doesn't simply emit one signal form when powered or one form when unpowered. It emits a signal type based on received power strength. You can set in the GUI to for example emit GREEN when redstone power is 5 and emit RED when redstone power is 0 and set it OFF when redstone power is 15.",
+   "模拟信号控制器与其前代版本控制盒类似，均可输出红石信号，但并非仅在通电/断电时分别输出单一固定信号。它会依据接收的红石信号强度，输出对应类型的信号。您可在GUI界面中设置：例如当红石信号强度为5时输出绿色信号，强度为0时输出红色信号，强度为15时则关闭输出。"
+  ]
+ ]
+}

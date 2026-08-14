@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/range_up.json",
+ "sha1": "a35f0a58ad43169a5296941eb1adbda680855d45",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Range Up Augment",
+   "范围升级拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can be added to any module which has a range (Sender $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$, Puller $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$, Extruder $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$, $(l:modules/fluid_2)Fluid Mk2/$, $(l:modules/vacuum)Vacuum/$).$(p)It can be stacked; each augment will increase the range of the module by one block.",
+   "这个增强件可以添加到任何具有范围的模块中（发送模块 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$，抽取模块 Mk1 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$，造桥模块 $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$，$(l:modules/fluid_2)流体 Mk2/$，$(l:modules/vacuum)虚空模块/$）。$(p)它可以叠加；每个增强件都会使模块范围增加 1 格。"
+  ]
+ ]
+}

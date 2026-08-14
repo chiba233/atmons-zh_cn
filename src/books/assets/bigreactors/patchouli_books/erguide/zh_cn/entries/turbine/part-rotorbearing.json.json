@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-rotorbearing.json",
+ "sha1": "29ffd2b791843c832eebbc0eb9d910a229640a3d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Rotor Bearing",
+   "转子轴承"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Rotor Bearing is the base of your Turbine $(l:bigreactors:turbine/rotor)Rotor$(/l) assembly.$(br2)It must be placed in one of the Turbine faces, usually in the center, and followed by some $(l:bigreactors:turbine/part-rotorshaft)Rotor Shaft$(/l) blocks.",
+   "转子轴承是你的涡轮机$(l:bigreactors:turbine/rotor)转子$(/l)组件的底座。$(br2)它必须放置在涡轮机的某个面上，通常位于中央位置，后面还必须接上一些$(l:bigreactors:turbine/part-rotorshaft)转子轴$(/l)方块。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Rotor Bearing",
+   "转子轴承"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()需要且只能有一个$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

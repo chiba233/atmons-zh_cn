@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_hammer.json",
+ "sha1": "8f4616f3b932db44c1df4689a70d58c7bd8834af",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Hammer",
+   "无限之锤"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Hammer is a tool that allows you to damage enemies in an area. Increasing the tier will give you access to different levels of $(6)Beheading$(), allowing you to get mob heads easily.",
+   "无限战锤是一种可以对一片区域内敌人造成伤害的工具。提升等级可让你获得不同等级的 $(6)斩首$()，从而更容易获得生物头颅。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When right clicked into the ground it will make a $(6)shatter$() effect into the ground in a cone shape in front of the user.",
+   "右键点击地面时，会在玩家前方以圆锥形对地面产生$(6)粉碎$()效果。"
+  ]
+ ]
+}

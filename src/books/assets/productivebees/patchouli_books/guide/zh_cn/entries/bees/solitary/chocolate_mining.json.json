@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/chocolate_mining.json",
+ "sha1": "5cbec94ffe8bef5b30859204f326a3988a3c80c0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Chocolate Mining Bee",
+   "巧克力开采蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Andrena scotica]",
+   "[苏格兰矿蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Chocolate Mining Bee",
+   "巧克力开采蜜蜂"
+  ]
+ ]
+}

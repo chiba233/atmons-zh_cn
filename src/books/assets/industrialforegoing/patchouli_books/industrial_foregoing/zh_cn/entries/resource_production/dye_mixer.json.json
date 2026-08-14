@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/dye_mixer.json",
+ "sha1": "0db6e3bca415165a44a73013a219d58552f5c16b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dye Mixer",
+   "颜料调色器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine mixes primal dye colours to create the colours of the rainbow.$(br2)For example: If the requested $(6)dye$() is white, it will need 1 of $(4)Red$(0), $(2)Green$(0) and $(1)Blue$(0).$(br)It will consume $(6)30$()RF/t",
+   "该机器混合原始染料，以合成彩虹七色。$(br2)例如：若需合成$(6)白色$()染料，则需各1份$(4)红色$(0)、$(2)绿色$(0)与$(1)蓝色$(0)染料。$(br)每次运行消耗$(6)30$()RF/t。"
+  ]
+ ]
+}

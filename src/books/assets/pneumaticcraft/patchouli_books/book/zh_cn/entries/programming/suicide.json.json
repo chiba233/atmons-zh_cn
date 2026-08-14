@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/suicide.json",
+ "sha1": "fc1a8910af688715baf1dc7fd84ee4daefe4842b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Suicide Widget",
+   "自毁"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(l:tools/drone)Drone/$ will immediately turn into its item form, dropping as an item entity on the ground. Program execution is, of course, instantly terminated.",
+   "$(l:tools/drone)雄蜂/$会立即变回其物品形态，并作为物品实体掉落在地面上。当然，程序执行也会立刻终止。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)That's all, folks/$",
+   "$(italic)各位，就这些了/$"
+  ]
+ ]
+}

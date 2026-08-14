@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/intro/er.json",
+ "sha1": "aa4cdb9e5d0949492e7817333767b2f9fe8b530b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Extreme Reactors",
+   "极限反应堆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Welcome to the $(bold)Extreme Reactors$() mod for Minecraft, a powerful addition to your gameplay experience that enables you to harness the immense power of nuclear energy through advanced reactor and turbine systems. This mod introduces complex energy generation mechanics that allow you to create efficient, high-capacity power solutions tailored to your needs.",
+   "欢迎来到 Minecraft 的 $(bold)Extreme Reactors$() 模组。它将强力扩展你的游玩体验，让你能够通过先进的反应堆与涡轮机系统，驾驭核能的巨大力量。这个模组引入了复杂的发电机制，让你可以根据自身需求打造高效、高容量的供能方案。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(bold)Overview$()$(br)In $(bold)Extreme Reactors$(), you will have the ability to build and manage both Reactors and Turbines, using a variety of components and configurations to optimize energy production. The mod simulates energy mechanics and fluid dynamics, creating a sophisticated environment for energy management.",
+   "$(bold)概述$()$(br)在 $(bold)Extreme Reactors$() 中，你将能够建造并管理反应堆和涡轮机，通过多种组件与配置来优化能量生产。该模组模拟了能量机制和流体动力学，为能量管理营造出一个复杂而精细的环境。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(bold)Key Components$()$(li)$(o)$(bold)Reactors:$() These are the core of your energy generation setup. You can choose between actively and passively cooled reactors, each with distinct operational characteristics and energy outputs. Learn how to manage fuel types, control rod insertion, and waste management to maintain optimal reactor performance.$(li)$(o)$(bold)Turbines:$() Complementing your Reactors, Turbines convert vapor into energy through intricate rotor assemblies. With multiple designs, from basic to reinforced variants, you can scale your turbine systems to meet high energy demands while managing fluid input and output effectively.",
+   "$(bold)关键组件$()$(li)$(o)$(bold)反应堆：$() 这是你的能源生产系统的核心。你可以选择主动冷却或被动冷却反应堆，它们各自具有不同的运行特性和能量产出。了解如何管理燃料类型、控制棒插入程度以及废料处理，以维持反应堆的最佳性能。$(li)$(o)$(bold)涡轮机：$() 作为反应堆的补充，涡轮机会通过精密的转子组件将蒸汽转化为能量。从基础型到强化型的多种设计，让你可以扩展涡轮机系统以满足高额能源需求，同时有效管理流体的输入与输出。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(bold)Automation and Control$()$(br)Automation is essential for maximizing efficiency in your energy systems. Utilize Redstone signals to control reactor operations and turbine functionalities, allowing for seamless integration with other Minecraft machinery. The mod offers various ports and interfaces for fluid, energy, and waste management, enabling you to automate your entire setup.",
+   "$(bold)自动化与控制$()$(br)自动化对于最大化能源系统效率至关重要。你可以利用红石信号来控制反应堆运作和涡轮机功能，从而与其他 Minecraft 机械实现无缝集成。模组提供了多种用于流体、能量和废料管理的端口与接口，让你能够将整套系统自动化。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(bold)Building and Configuration$()$(br)Constructing your Reactors and Turbines requires specific components, such as casing blocks, rotor shafts, induction coils, and various ports. This manual will guide you through the assembly process, providing detailed instructions on how to configure each element for optimal performance.",
+   "$(bold)建造与配置$()$(br)建造你的反应堆和涡轮机需要特定组件，例如机壳方块、转子轴、感应线圈以及各种端口。本手册将引导你完成组装流程，并详细说明如何配置每个部件以获得最佳性能。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(bold)Getting Started$()$(br)As you embark on your journey with $(bold)Extreme Reactors$(), you will discover the intricate balance of energy generation and management. Whether you are a seasoned player or new to the world of modded Minecraft, this manual will provide you with the knowledge and tools needed to master the art of nuclear energy production.",
+   "$(bold)入门指南$()$(br)当你踏上 $(bold)Extreme Reactors$() 的旅程时，你将逐步发现发电与能量管理之间微妙而精巧的平衡。无论你是经验丰富的老玩家，还是刚接触模组化 Minecraft 的新人，这本手册都会为你提供掌握核能生产艺术所需的知识与工具。"
+  ]
+ ]
+}

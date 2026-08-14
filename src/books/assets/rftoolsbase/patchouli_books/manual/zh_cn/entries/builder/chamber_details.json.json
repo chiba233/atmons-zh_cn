@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/builder/chamber_details.json",
+ "sha1": "a8f88d7b4e816d10f83af0794a8fcbedaea40adc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Chamber Details",
+   "处理仓详情"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Chamber Details screen shows what is inside a selected space chamber.$(br2)Right click with a Space Card to open an overview of all blocks and entities that are currently in that chamber.",
+   "舱室详情屏幕可显示所选空间舱室内部的内容。$(br2)手持空间卡片对其右键，即可打开当前舱室内所有方块与实体的概览界面。"
+  ]
+ ]
+}

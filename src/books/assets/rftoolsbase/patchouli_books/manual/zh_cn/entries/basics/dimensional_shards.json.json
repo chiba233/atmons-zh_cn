@@ -1,0 +1,49 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/dimensional_shards.json",
+ "sha1": "7b9836f7a0156acbdacc0406bbe66d12e6a8543e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dimensional Shards",
+   "次元裂片"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Dimensional Shard Ore$() can be found underground in small clusters in various dimensions. It is affected by $(thing)Fortune$(), and drops $(item)Dimensional Shards$() when broken. $(br2)These are used in several more complicated recipes, and can also be used to $(l:rftoolsbase:machines/infusing)infuse machines$().",
+   "$(item)维度碎片矿石$()可以在多种维度的地下以小矿脉形式找到。它受$(thing)时运$()影响，破坏后会掉落$(item)次元裂片$()。$(br2)这些材料用于多种较复杂的配方，也可用于$(l:rftoolsbase:machines/infusing)为机器注能$()。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Some Dimensional Shard Ore underground in the Overworld.",
+   "主世界地下会生成一些维度碎片矿石。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(item)Dimensional Shards$() can also be used for the creation of a variety of $(item)Decorative Blocks$().",
+   "$(item)次元裂片$()还可用于制作多种$(item)装饰性方块$()。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "If you had RFTools Dimensions, you could make some pretty cool decorative blocks, but you can't, oh well :(",
+   "如果你有 RFTools Dimensions，就能制作一些相当酷的装饰方块，但你没有，唉 :("
+  ]
+ ]
+}

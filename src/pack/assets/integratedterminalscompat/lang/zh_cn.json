@@ -1,0 +1,21 @@
+{
+ "_comment": "Gui",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync": "JEI搜索同步",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.jeisync.info": "将搜索框与JEI同步。",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync": "EMI搜索同步",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.emisync.info": "将搜索框与EMI同步。",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync": "REI搜索同步",
+ "gui.integratedterminalscompat.terminal_storage.craftinggrid.reisync.info": "将搜索框与REI同步。",
+ "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable": "可自动合成物品",
+ "gui.integratedterminalscompat.terminal_storage.jei.transfer.craftable_partial": "部分可自动合成物品",
+ "gui.integratedterminalscompat.terminal_storage.jei.transfer.missing": "缺失物品",
+ "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info": "Ctrl+点击以切换自动合成",
+ "gui.integratedterminalscompat.terminal_storage.jei.transfer.craft.info_cmd": "Cmd+点击以切换自动合成",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.error.title": "合成任务错误",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.started_only": "自动合成开始",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.failed_only": "自动合成失败",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.title.mixed": "自动合成部分失败",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.started_only": "已开始自动合成%s",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.failed_only": "%s自动合成失败",
+ "gui.integratedterminalscompat.terminal_storage.crafting_job.summary.mixed": "已开始自动合成%s，但%s失败"
+}

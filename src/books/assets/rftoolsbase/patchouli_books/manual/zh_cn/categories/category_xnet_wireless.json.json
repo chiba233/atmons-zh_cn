@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_xnet_wireless.json",
+ "sha1": "2e85ae231c9e9cc0fc50217cba397f30ee9e7e05",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Connecting multiple networks wirelessly",
+   "无线连接多个网络"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Wireless Networks",
+   "无线网络"
+  ]
+ ]
+}

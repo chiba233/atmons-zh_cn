@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_feeder.json",
+ "sha1": "f22e17e42ef2e33f2674b5a7981f2cd628d1333a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Animal Feeder",
+   "动物饲育机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to $(6)feed$() animals so they can produce babies when the machine is supplied with the animal feeding item.",
+   "一种用于$(6)填饱$()动物的机器，当机器内供应对应动物饲料时，动物将繁殖幼崽。"
+  ]
+ ]
+}

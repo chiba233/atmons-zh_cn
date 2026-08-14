@@ -1,0 +1,22 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/armour/allthemodium.json",
+ "sha1": "521f908312bdb3d204ecb00b2726ab3ba045ec53",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Allthemodium Armour",
+   "ATM合金护甲"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Allthemodium armour has several benefits other than just the armour, toughness and knockback resistance:$(li)Water Breathing$(li)No Crash Damage when Flying with Elytra$(li)Immune to Fire Damage$(li)No Fall Damage$(li)When you upgrade the armour from Netherite, it keeps the enchants",
+   "Allthemodium护甲除了提供护甲值、韧性和击退抗性外，还有以下多种优势：$(li)水下呼吸$(li)使用鞘翅飞行时免疫碰撞伤害$(li)免疫火焰伤害$(li)免疫摔落伤害$(li)从下界合金升级护甲时，会保留附魔"
+  ]
+ ]
+}

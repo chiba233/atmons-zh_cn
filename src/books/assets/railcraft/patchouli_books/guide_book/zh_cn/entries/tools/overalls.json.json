@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/overalls.json",
+ "sha1": "b6434cdb96630e7b25fd96fddb561f8027e907f4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Overalls",
+   "工程师背带裤"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "What railroad Engineer would be complete without his Overalls? Everything we say!$(br2)While generally not the greatest outfit for the protection, they do at least provide some stuff from becoming like those squashed pennies they are always telling you not to put on the tracks. We don't really know how they work, but hey, we'll just say they increase your nimbleness and train awareness.",
+   "哪位铁路工程师能缺少他的工程师背带裤呢？我们说：谁都少不了！$(br2)虽然它通常并非最理想的防护装备，但至少能防止您被压成那些常被警告不得放在轨道上的扁平硬币。我们并不完全清楚其原理，但姑且认为它能提升您的敏捷度与列车感知能力吧。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Not only does it reduce locomotive damages, it also prevents electric damages at the cost of its durability.",
+   "它不仅能降低机车损伤，还能以自身耐久度为代价防止电击损伤。"
+  ]
+ ]
+}

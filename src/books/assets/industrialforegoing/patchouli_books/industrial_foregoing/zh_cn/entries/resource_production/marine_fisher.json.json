@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/marine_fisher.json",
+ "sha1": "f7bbd14970b5e10a6ef98d85576cde0b6e2c0c61",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Marine Fisher",
+   "钓鱼机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A cats best friend <3$(br2)When placed above a $(6)water pool$() of at least $(6)3x3$() and $(6)1$() block deep, it will start $(6)fishing$() and put the fish (and perhaps something else?) in the internal inventory, at the cost of $(6)5000$()RF per operation.",
+   "猫咪最好的朋友 <3$(br2)当放置在一个至少为 $(6)3x3$()、深 $(6)1$() 格的 $(6)水池$() 上方时，它会开始$(6)钓鱼$()，并将钓到的鱼（也许还有别的东西？）放入内部容器中，每次操作消耗 $(6)5000$()RF。"
+  ]
+ ]
+}

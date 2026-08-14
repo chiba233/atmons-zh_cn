@@ -1,0 +1,10 @@
+{
+  "warning.32bit": "你正在 64 位系统上使用 32 位 Java，请安装 64 位 Java。",
+  "warning.toomuch": "为此整合包分配的内存（%s MB）超过了推荐值，最大值为：%s MB。针对你的系统的推荐内存为：%s MB。\n",
+  "warning.toolow": "为此整合包分配的内存（%s MB）低于推荐值，最低要求为：%s MB。针对你的系统的推荐内存为：%s MB。\n",
+  "warning.overrecommended": "为你的系统分配的内存（%s MB）超过了推荐值，推荐值为：%s MB。\n",
+  "warning.underrecommended": "为你的系统分配的内存（%s MB）低于推荐值，推荐值为：%s MB。\n",
+  "warning.recommendedbelowmin": "针对你的系统的推荐 %s 低于此整合包所需的最低内存 %s MB。你可能会遇到诸如频繁卡顿之类的问题。\n",
+  "button.howto": "打开指南",
+  "button.stopremind": "停止显示"
+}

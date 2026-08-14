@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/crowbar.json",
+ "sha1": "c08f8ff2cdec6bd315aff2941b931f086c1ef072",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crowbar",
+   "撬棍"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Crowbar is a multi-purpose tool any rail engineer should carry. It makes removal of modern rails a breeze and even works on Detector Blocks and Loaders. Additionally, right-clicking on a rail will allow you to adjust the rail. Most of the time that means reversing the rail's direction, but some rails will open a GUIde. Right-clicking a Detector Block, Cart Dispenser, or Advanced Loader will turn the block to face the side clicked on.",
+   "撬棍是每位铁路工程师都应随身携带的多功能工具。它能让现代轨道的拆除变得轻而易举，甚至对探测器与装载器也有效。此外，右键点击轨道可对其进行调整——多数情况下意味着反转轨道方向，但部分轨道会打开操作指南界面。右键点击探测器、矿车分配器或高级装载器，则会使该方块转向您所点击的侧面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Crowbar can also interact with carts in number of ways. Of interest is the ability to give carts a small boost just by whacking them with the Crowbar (right click). On Locomotives, this actually flips the facing of the locomotive. Additionally, the Crowbar can be used to link carts together with shift right-click, see Cart Linking for more information.",
+   "撬棍还可与矿车进行多种互动。其中一项有趣的功能是：仅需用撬棍轻击矿车（右键），即可为其提供微小助推力。对机车使用时，此举实际会反转机车朝向。此外，您还可通过潜行右键使用撬棍将矿车连接起来，请参阅“矿车连接”获取更多信息。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Diamond Crowbars are intended to be spawned in end city chests.$(br2)The Seasons Crowbar cannot link carts together; instead, it can break doors. It can only be obtained in Workshops.",
+   "钻石撬棍本应生成于末地城宝箱中。$(br2)节日撬棍无法连接矿车，但可破坏门。它仅能在工坊中获得。"
+  ]
+ ]
+}

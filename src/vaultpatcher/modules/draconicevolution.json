@@ -1,0 +1,131 @@
+[
+  {
+    "name": "draconicevolution_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.client.gui.EnergyCoreGui"
+    ],
+    "pairs": [
+      {
+        "key": "[Not Available]",
+        "value": "[不可用]"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.client.gui.ReactorGui"
+    ],
+    "pairs": [
+      {
+        "key": "Estimated Time Until Detonation\n\n",
+        "value": "预计距引爆剩余时间\n\n"
+      },
+      {
+        "key": "Calculating..",
+        "value": "计算中.."
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.client.gui.modular.itemconfig.PropertyContainer"
+    ],
+    "pairs": [
+      {
+        "key": "Group",
+        "value": "分组"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.command.CommandKaboom"
+    ],
+    "pairs": [
+      {
+        "key": "Explosion already in progress",
+        "value": "爆炸已在进行中"
+      },
+      {
+        "key": "Calculating: ",
+        "value": "计算中："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.command.CommandRespawnGuardian"
+    ],
+    "pairs": [
+      {
+        "key": "Chaos crystal not detected! Please run this command within 60 blocks of an islands chaos crystal.",
+        "value": "未检测到混沌水晶！请在距离岛屿混沌水晶 60 格范围内运行此命令。"
+      },
+      {
+        "key": "Found invalid chaos crystal at this location",
+        "value": "在此位置发现了无效的混沌水晶"
+      },
+      {
+        "key": "There should already be a guardian in this area",
+        "value": "这个区域内应该已经有一只守卫者了"
+      },
+      {
+        "key": "Reset Successful. Go to center of island to trigger spawning sequence.",
+        "value": "重置成功。前往岛屿中心以触发生成序列。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.items.InfoTablet"
+    ],
+    "pairs": [
+      {
+        "key": "Project Intelligence is required to view DE documentation. ",
+        "value": "查看 DE 文档需要安装 Project Intelligence。"
+      },
+      {
+        "key": "[Click here to view curse page]",
+        "value": "[点击此处查看 curse 页面]"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.items.equipment.IModularArmor"
+    ],
+    "pairs": [
+      {
+        "key": "Speed limit on this server is +",
+        "value": "本服务器的速度上限为 +"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.items.tools.BoundDislocator"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Player",
+        "value": "未知玩家"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.brandon3055.draconicevolution.api.config.ConfigProperty$PropertyCodec$DecoderState"
+    ],
+    "pairs": [
+      {
+        "key": "ConfigProperty is invalid. Read: ",
+        "value": "ConfigProperty 无效。读取到："
+      }
+    ]
+  }
+]

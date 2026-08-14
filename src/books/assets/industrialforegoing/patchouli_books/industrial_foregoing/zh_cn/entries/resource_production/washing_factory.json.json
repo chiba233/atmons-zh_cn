@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/washing_factory.json",
+ "sha1": "830291c94499d72ad757784d14f4c0cb85f2c854",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Washing Factory",
+   "洗矿厂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Using liquid meat and an ore this machine will turn that meat into raw ore meat of that ore.",
+   "使用肉汤和一种矿石，这台机器会将该肉汤转化为对应矿石的生矿物肉汤。"
+  ]
+ ]
+}

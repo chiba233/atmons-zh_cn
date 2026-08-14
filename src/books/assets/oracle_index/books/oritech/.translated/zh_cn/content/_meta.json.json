@@ -1,0 +1,90 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/_meta.json",
+ "sha1": "df8c5aae294d2987a7cd861fb27ac881fd71b814",
+ "t": [
+  [
+   [
+    "arcane"
+   ],
+   "Arcane",
+   "奥术"
+  ],
+  [
+   [
+    "building"
+   ],
+   "Building Blocks",
+   "建筑方块"
+  ],
+  [
+   [
+    "collect_ids.sh"
+   ],
+   "Collect Ids",
+   "收集ID"
+  ],
+  [
+   [
+    "components"
+   ],
+   "Components",
+   "成分"
+  ],
+  [
+   [
+    "create_dirs.sh"
+   ],
+   "Create Dirs",
+   "创建目录"
+  ],
+  [
+   [
+    "equipment"
+   ],
+   "Equipment",
+   "装备"
+  ],
+  [
+   [
+    "generate_meta.sh"
+   ],
+   "Generate Meta",
+   "生成元数据"
+  ],
+  [
+   [
+    "logistics"
+   ],
+   "Logistics",
+   "物流"
+  ],
+  [
+   [
+    "machines"
+   ],
+   "Machines",
+   "机器"
+  ],
+  [
+   [
+    "nuclear"
+   ],
+   "Nuclear",
+   "核能"
+  ],
+  [
+   [
+    "particle"
+   ],
+   "Particle Accelerator",
+   "粒子加速器"
+  ],
+  [
+   [
+    "resources"
+   ],
+   "Resources",
+   "资源"
+  ]
+ ]
+}

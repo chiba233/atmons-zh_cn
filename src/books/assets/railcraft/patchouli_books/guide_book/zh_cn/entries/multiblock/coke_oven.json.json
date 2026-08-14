@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/coke_oven.json",
+ "sha1": "3287354d45a22152154e7a4b64dddc8e22eb7799",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coke Oven",
+   "焦炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Coke Oven is a 3x3x3 brick structure, hollow in the middle, for converting Coal into Coal Coke or Wood into Charcoal and producing Creosote Oil as a byproduct.$(br2)The Oven is built out of 26 special bricks made from Brick and Sand. If broken down, it takes 104 Clay and 130 Sand to build one Coke Oven. They cannot be built adjacent to each other, there must be at least one tile in between ovens.",
+   "焦炉是一种3×3×3尺寸的砖砌结构，中间为空心，用于将煤炭炼制成焦煤，或将原木烧制成木炭，同时副产杂酚油。$(br2)该烤炉由26块特殊砖块构成，原料为红砖与沙子。若将其拆除，重建一座焦炉需消耗104份粘土与130份沙子。焦炉之间不可相邻建造，两座焦炉间至少需间隔一格空间。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Coke Oven",
+   "焦炉"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The Coal Oven can hold 64,000 units of Creosote Oil. which can be extracted and kept in either Buckets or Glass Bottles. Each Bucket or Bottle can hold 1,000 units of Creosote Oil. The filled Buckets will not stack. The filled Bottles will.$(br2)Converting Coal into Coke is a slow process. You will probably want to build several Ovens if you plan to make a lot rails.",
+   "焦煤炉可储存64,000单位杂酚油，这些油可通过桶或玻璃瓶提取并储存。每个桶或玻璃瓶最多可容纳1,000单位杂酚油。装满的桶无法堆叠，而装满的玻璃瓶可以。$(br2)将煤炭炼制成焦煤的过程较为缓慢。若您计划铺设大量轨道，建议建造多座焦炉。"
+  ]
+ ]
+}

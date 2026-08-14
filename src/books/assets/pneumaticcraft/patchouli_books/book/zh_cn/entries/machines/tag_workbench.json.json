@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/tag_workbench.json",
+ "sha1": "aad7e5ad589da70a0bb26ba549ccc3183227cb9a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tag Workbench",
+   "标签工作台"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Tag Workbench/$ is used to produce $(item)Tag Filters/$, which are used to filter items by their $(l:https://minecraft.gamepedia.com/Tag)item tags/$. E.g. treat all logs as the same item when filtering. Tag Filters can be placed in $(l:logistics/frames)Logistic Frame/$ filters, as well as $(l:programming/item_filter)Item Filter/$ programming widgets as used by Drones, and will match any item that has an item tag from the Tag Filter's list.",
+   "$(item)标签工作台/$用于制作$(item)标签过滤器/$，可按物品的$(l:https://minecraft.gamepedia.com/Tag)物品标签/$进行过滤。例如，在过滤时可将所有原木视为同一种物品。标签过滤器可放入$(l:logistics/frames)物流框架/$的过滤器中，也可用于无人机所使用的$(l:programming/item_filter)物品过滤器/$编程组件；它会匹配任何拥有标签过滤器列表中某个物品标签的物品。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Right-click the workbench to open its GUI.$(li)Insert any item in the leftmost slot; if it has any item tags, they will be displayed in the left-hand list, just below the item.$(li)Select one or more tags by double-clicking them (or clicking the '>' button), and they will be added to the right-hand list.$(li)Add some paper to the middle slot.",
+   "右键点击工作台以打开其 GUI。$(li)将任意物品放入最左侧的槽位；如果它带有任何物品标签，它们就会显示在左侧列表中，位于该物品正下方。$(li)双击一个或多个标签（或点击“>”按钮）来选中它们，随后它们会被添加到右侧列表中。$(li)在中间的槽位中放入一些纸。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)Click the Book & Quill button to write the selected tags. A piece of paper will be used, and a $(item)Tag Filter/$ will be produced in the right-hand slot.$(p)The paper slot will also accept a previously-written Tag Filter; this can be useful if you want to edit the tags on an existing Tag Filter.",
+   "$(li)点击“书与笔”按钮以写入所选标签。会消耗一张纸，并在右侧槽位中生成一个 $(item)标签过滤器/$。$(p)纸张槽位也可以接受一个先前写好的标签过滤器；如果你想编辑现有标签过滤器上的标签，这会很有用。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a Tag Workbench",
+   "合成标签工作台"
+  ]
+ ]
+}

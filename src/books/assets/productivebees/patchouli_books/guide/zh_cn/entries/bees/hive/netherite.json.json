@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/netherite.json",
+ "sha1": "f9b95712b5600e8ef035344f7b3be0c767ce06d7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ancient Bee",
+   "远古蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Converted from a $(l:bees/hive/diamond)Diamond Bee$(/l) be feeding it a block of netherite.",
+   "给一只$(l:bees/hive/diamond)钻石蜜蜂$(/l)喂食一整块下界合金块即可转化而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Ancient Bee",
+   "远古蜜蜂"
+  ]
+ ]
+}

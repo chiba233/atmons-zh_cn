@@ -1,0 +1,76 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/collector_drone.json",
+ "sha1": "c584cac18d7b61940e1265b2216182c4833a5c81",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Collector Drone",
+   "采集无人机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A $(item)Collector Drone/$ is a specialized non-programmable type of $(l:tools/drone)Drone/$ which should be deployed against, or next to, any inventory block (chest etc.). It will collect nearby items and put them in that inventory.",
+   "$(item)采集无人机/$是一种专门的、不可编程的$(l:tools/drone)雄蜂/$，应部署在任意容器方块（如箱子等）上或其旁边。它会收集附近的物品并将其放入该容器中。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "As with all types of Drone, these drones require $(l:base_concepts/pressure)pressure/$ to operate, and will automatically seek out $(l:tools/drone#charging)a Charging Station with a Dispenser Upgrade/$ if low on air.",
+   "与所有类型的雄蜂一样，这些雄蜂需要 $(l:base_concepts/pressure)压力/$ 才能运作，并且在气压不足时会自动寻找 $(l:tools/drone#charging)装有发射器升级的充气站/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Automatic Charging",
+   "自动充气"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The $(thing)Collector Drone/$ has some basic item filtering functionality. If deployed $(italic)against/$ an inventory block, it will filter on any items already in that inventory. If deployed on the ground $(italic)next to/$ an inventory (or on an empty inventory block), it $(italic)won't/$ filter items.$(p)If you want to change the drone's filter, you will need to wrench it and redeploy it.",
+   "$(thing)采集无人机/$具备一些基础的物品筛选功能。如果将其$(italic)紧贴着/$一个容器方块部署，它会根据该容器中已有的物品进行筛选。如果将其部署在地面上，并放在容器$(italic)旁边/$（或部署在一个空的容器方块上），它$(italic)不会/$筛选物品。$(p)如果你想更改无人机的筛选条件，就需要用扳手拆下它并重新部署。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Item Filtering",
+   "物品过滤"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The $(thing)Collector Drone/$ has a default range of a 17x17x17 cube, centered on the block it was placed at. This range can be increased by adding up to 16 $(l:base_concepts/upgrades#range)Range Upgrades/$.",
+   "$(thing)采集无人机/$的默认范围是一个以其放置位置方块为中心的 17x17x17 立方体。添加最多 16 个 $(l:base_concepts/upgrades#range)范围升级/$ 可扩大该范围。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Crafting a Collector Drone",
+   "合成采集无人机"
+  ]
+ ]
+}

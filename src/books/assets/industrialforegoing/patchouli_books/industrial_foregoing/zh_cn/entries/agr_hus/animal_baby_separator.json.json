@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/animal_baby_separator.json",
+ "sha1": "1be9559e990133dfdcabd3b91687f5cb4a3e81f0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Animal Baby Separator",
+   "动物幼仔分管机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to separate $(6)baby$() animals from adult animals. Baby animals will be teleported to the back of the machine. You can change what type of mobs get moved in the GUI.",
+   "一台用于将$(6)宝宝$()动物与成年动物分开的机器。幼年动物会被传送到机器后方。你可以在 GUI 中更改会被移动的生物类型。"
+  ]
+ ]
+}

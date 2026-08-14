@@ -1,0 +1,39 @@
+---
+id: oritech:item_pipe
+type: block
+related_items: ["oritech:framed_item_pipe", "oritech:item_pipe_duct_block", "oritech:transparent_item_pipe"]
+title: 物品管道
+custom:
+    Transfer amount: "8 items per pulse"
+    Transfer interval: "5 ticks"
+---
+
+奥瑞科技包含物品管道与物品过滤器方块，用于物品物流系统。物品管道可相互连接，并与邻近容器相连。
+
+与其他管道不同，物品管道自身不具物品栏。这意味着漏斗等其他方块无法自主向管道网络插入物品。相反，物品管道可被设置为从邻近物品栏中抽取物品。
+
+
+## 变体
+*   **标准**: 基础管道
+*   **镶边**: 整块版本
+*   **透明**: 显示内部移动的物品。仅当整条管道路径均由透明管道构成时才生效。
+*   **漏斗管道**: 替代性美学风格。导管式变体不直接连接机器，仅可连接其他管道。
+
+要切换提取模式，请右键单击与待提取方块相连的管道段。
+仅当管道连接至支持提取的方块时，提取功能才被启用。每条管道连接均可独立切换。
+使用管道扳手可禁用特定方向的连接。
+
+抽取的物品将基于世界距离，置入网络中下游**最近**的可用容器。
+
+<Callout variant="warning">
+    管道总是从容器里第一个非空槽位抽取。
+    若某个物品无法放入管网内的任何容器，它就会卡住该管道，使其不再从那个容器抽取。
+
+    你可以右键给管道装一台马达，让抽取端升级为从所有槽位抽取。出于性能考虑，这不是默认行为。
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/item_pipes" width={512} />
+</center>
+
+默认传输速率为每 5 刻 8 个物品。

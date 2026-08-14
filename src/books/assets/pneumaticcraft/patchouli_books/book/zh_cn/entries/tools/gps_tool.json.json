@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/gps_tool.json",
+ "sha1": "f0d9876f30411ecf2b0673bd8b8e762ec518e0f8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "GPS Tool",
+   "定位工具"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)GPS Tool/$ is an item that when $(thing)right-clicked/$ on a block, saves the block's coordinate. This data is used in several places in $(pncr); see overleaf.$(p)$(thing)Right-clicking/$ the $(item)GPS Tool/$ in the air opens a GUI allowing coordinates to be adjusted directly.$(p)Sneaking and scrolling the mouse wheel allows quick adjustment of the coordinate along the player's facing axis.",
+   "$(item)定位工具/$是一种物品，对方块$(thing)右击/$时，会保存该方块的坐标。这些数据会在 $(pncr) 的多个地方用到；请见下页。$(p)$(thing)在空中对着$(item)定位工具/$/$右击，会打开一个 GUI，可直接调整坐标。$(p)潜行并滚动鼠标滚轮，可以沿玩家面朝的轴快速调整坐标。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(l:programming/variables#global)Global Variables/$ are an advanced $(l:base_concepts/drone)Drone/$ feature, accessed via the $(l:programming/coordinate_operator)Coordinate Operator/$.$(p)$(thing)Right-clicking/$ a $(item)GPS Tool/$ in the air allows a variable name to be entered.$(p)Now, that $(thing)Global Variable/$ will track the value of the $(item)GPS Tool's/$ selected coordinate. This can be used to make $(thing)Drone programs/$ that use dynamic areas.",
+   "$(l:programming/variables#global)全局变量/$是$(l:base_concepts/drone)无人机/$的一项高级功能，可通过$(l:programming/coordinate_operator)坐标运算符/$访问。$(p)$(thing)在空中/$右击$(item)定位工具/$即可输入一个变量名。$(p)此后，该$(thing)全局变量/$将会跟踪$(item)定位工具/$当前所选坐标的值。这可用于制作使用动态区域的$(thing)无人机程序/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Linking Global Variables",
+   "连接全局变量"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Machines and tools that make use of the $(item)GPS Tool/$.",
+   "会用到 $(item)定位工具/$ 的机器和工具。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a GPS Tool",
+   "合成定位工具"
+  ]
+ ]
+}

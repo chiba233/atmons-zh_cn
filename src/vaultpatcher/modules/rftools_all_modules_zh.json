@@ -1,0 +1,375 @@
+[
+  {
+    "name": "rftools_all_modules_zh",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.builder.items.ShapeCardType"
+    ],
+    "pairs": [
+      {
+        "key": "    Silktouch quarry",
+        "value": "    精准采集采石"
+      },
+      {
+        "key": "    Fortune quarry",
+        "value": "    时运采石"
+      },
+      {
+        "key": "    Normal quarry",
+        "value": "    普通采石"
+      },
+      {
+        "key": "    Place liquids",
+        "value": "    放置液体"
+      },
+      {
+        "key": "    Pump",
+        "value": "    抽取液体"
+      },
+      {
+        "key": "\u0001Max area: \u0001x\u0001x\u0001",
+        "value": "\u0001最大范围：\u0001x\u0001x\u0001"
+      },
+      {
+        "key": "The liquid will be replaced with \u0001.",
+        "value": "液体将被替换为\u0001。"
+      },
+      {
+        "key": "them with \u0001.",
+        "value": "替换为\u0001。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbase.modules.filter.client.GuiFilterModule"
+    ],
+    "pairs": [
+      {
+        "key": "\u0001Click to add to filter",
+        "value": "\u0001点击加入过滤器"
+      },
+      {
+        "key": "\u0001Shift-Click to add tags to filter",
+        "value": "\u0001Shift+点击加入标签过滤"
+      },
+      {
+        "key": "Whitelist items",
+        "value": "白名单物品"
+      },
+      {
+        "key": "Blacklist items",
+        "value": "黑名单物品"
+      },
+      {
+        "key": "Don't match on mod",
+        "value": "不按模组匹配"
+      },
+      {
+        "key": "Only mod must match",
+        "value": "仅需模组匹配"
+      },
+      {
+        "key": "Components must match",
+        "value": "组件必须匹配"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.builder.items.ShapeCardItem"
+    ],
+    "pairs": [
+      {
+        "key": "\u0001You can only do this on a builder!",
+        "value": "\u0001只能在建造机上执行此操作！"
+      },
+      {
+        "key": "\u0001There is no Builder selected!",
+        "value": "\u0001未选择建造机！"
+      },
+      {
+        "key": "\u0001The Builder is in another dimension!",
+        "value": "\u0001建造机位于其他维度！"
+      },
+      {
+        "key": "\u0001This card is not linked to scan data!",
+        "value": "\u0001此卡片未关联扫描数据！"
+      },
+      {
+        "key": "\u0001Now select the first corner",
+        "value": "\u0001现在选择第一个角"
+      },
+      {
+        "key": "\u0001Now select the second corner",
+        "value": "\u0001现在选择第二个角"
+      },
+      {
+        "key": "\u0001Cleared area selection mode!",
+        "value": "\u0001已清除区域选择模式！"
+      },
+      {
+        "key": "\u0001New settings copied to the shape card!",
+        "value": "\u0001新设置已复制到塑形卡片！"
+      },
+      {
+        "key": "\u0001This does not appear to be a valid shapecard file!",
+        "value": "\u0001这似乎不是有效的塑形卡片文件！"
+      },
+      {
+        "key": "\u0001To load a file into this card you need a linked 'scan' type card!",
+        "value": "\u0001要载入文件需要一张已关联的“扫描”类型卡片！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.client.GuiStorageScanner"
+    ],
+    "pairs": [
+      {
+        "key": "\u0001All routable inventories",
+        "value": "\u0001所有可路由的容器"
+      },
+      {
+        "key": "Export to current container",
+        "value": "导出到当前容器"
+      },
+      {
+        "key": "Export to first routable container",
+        "value": "导出到首个可路由容器"
+      },
+      {
+        "key": "Not routable",
+        "value": "不可路由"
+      },
+      {
+        "key": "Routable",
+        "value": "可路由"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.modularstorage.client.GuiModularStorage"
+    ],
+    "pairs": [
+      {
+        "key": "Show groups",
+        "value": "显示分组"
+      },
+      {
+        "key": "Don't show groups",
+        "value": "不显示分组"
+      },
+      {
+        "key": "Items are shown in a list view",
+        "value": "以列表视图显示物品"
+      },
+      {
+        "key": "Items are shown in columns",
+        "value": "以分栏显示物品"
+      },
+      {
+        "key": "Items are shown with icons",
+        "value": "以图标显示物品"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.tools.SortingMode"
+    ],
+    "pairs": [
+      {
+        "key": "Sort by name",
+        "value": "按名称排序"
+      },
+      {
+        "key": "Sort by mod",
+        "value": "按模组排序"
+      },
+      {
+        "key": "Sort by most common tag",
+        "value": "按最常见标签排序"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.mover.client.GuiMoverController"
+    ],
+    "pairs": [
+      {
+        "key": "Please select a node!",
+        "value": "请选择一个节点！"
+      },
+      {
+        "key": "Please select a vehicle!",
+        "value": "请选择一辆载具！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.builder.client.GuiChamberDetails"
+    ],
+    "pairs": [
+      {
+        "key": "NOT MOVABLE!",
+        "value": "不可移动！"
+      },
+      {
+        "key": "Move Cost \u0001 RF",
+        "value": "移动消耗 \u0001 RF"
+      },
+      {
+        "key": "Total cost blocks: \u0001 RF",
+        "value": "方块总消耗：\u0001 RF"
+      },
+      {
+        "key": "Total cost entities: \u0001 RF",
+        "value": "实体总消耗：\u0001 RF"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.shield.client.GuiShield"
+    ],
+    "pairs": [
+      {
+        "key": "Redstone mode:\nIgnored",
+        "value": "红石模式：\n忽略"
+      },
+      {
+        "key": "Redstone mode:\nOff to activate",
+        "value": "红石模式：\n无信号时激活"
+      },
+      {
+        "key": "Redstone mode:\nOn to activate",
+        "value": "红石模式：\n有信号时激活"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiDialingDevice"
+    ],
+    "pairs": [
+      {
+        "key": "Favorited receiver",
+        "value": "已收藏的接收器"
+      },
+      {
+        "key": "Unfavorited receiver",
+        "value": "已取消收藏的接收器"
+      },
+      {
+        "key": "Not favorited",
+        "value": "未收藏"
+      },
+      {
+        "key": "Favorited",
+        "value": "已收藏"
+      },
+      {
+        "key": "Distance: \u0001",
+        "value": "距离：\u0001"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterReceiver"
+    ],
+    "pairs": [
+      {
+        "key": "Name:",
+        "value": "名称："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiMatterTransmitter"
+    ],
+    "pairs": [
+      {
+        "key": "Name:",
+        "value": "名称："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.teleporter.client.GuiAdvancedPorter"
+    ],
+    "pairs": [
+      {
+        "key": "No target set",
+        "value": "未设置目标"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsutility.modules.logic.client.GuiRedstoneInformation"
+    ],
+    "pairs": [
+      {
+        "key": "Redstone on",
+        "value": "红石开启"
+      },
+      {
+        "key": "Redstone off",
+        "value": "红石关闭"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.lib.client.GuiTools"
+    ],
+    "pairs": [
+      {
+        "key": "\u0001Position is not loaded!",
+        "value": "\u0001该位置未加载！"
+      },
+      {
+        "key": "\u0001Tile entity is missing!",
+        "value": "\u0001方块实体缺失！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsbuilder.modules.scanner.client.GuiScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Dim: \u0001",
+        "value": "维度：\u0001"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolspower.modules.dimensionalcell.client.GuiDimensionalCell"
+    ],
+    "pairs": [
+      {
+        "key": "Extracted: \u0001",
+        "value": "已提取：\u0001"
+      },
+      {
+        "key": "Inserted: \u0001",
+        "value": "已注入：\u0001"
+      }
+    ]
+  }
+]

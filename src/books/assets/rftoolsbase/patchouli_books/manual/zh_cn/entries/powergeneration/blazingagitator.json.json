@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powergeneration/blazingagitator.json",
+ "sha1": "e2c9efe4eb67b50078acc3d927413caf79a8361c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Blazing Agitator",
+   "烈焰激活器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Blazing Agitator prepares blaze rods for the $(l:rftoolsbase:powergeneration/blazinggenerator)Blazing Generator$(/l). It uses a little FE to turn normal rods into Blazing Rods.",
+   "烈焰激活器用于为$(l:rftoolsbase:powergeneration/blazinggenerator)烈焰发电机$(/l)准备烈焰棒。它消耗少量FE，将普通烈焰棒加工为充能烈焰棒。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Nearby rods in the input grid improve each other. Better rods finish faster and gain better power quality, so it pays to keep a few strong rods in the grid.",
+   "输入网格中邻近的棒材可相互提升性能。品质更优的棒材完成速度更快、能量质量更佳，因此建议在网格中常备若干强力棒材。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The nine lock buttons keep finished rods from moving to output. Use them to keep high-quality rods in place as boosters for future rods.",
+   "九个锁定按钮可防止已完成的棒材移至输出端。请使用它们固定高品质棒材，作为后续棒材的增效助推器。"
+  ]
+ ]
+}

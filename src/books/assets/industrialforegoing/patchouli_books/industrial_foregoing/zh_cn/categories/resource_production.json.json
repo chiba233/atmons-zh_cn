@@ -1,0 +1,20 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/categories/resource_production.json",
+ "sha1": "21035ba0ae7d69f81875f6300bf0101a761ff71e",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Getting things done",
+   "开始动手"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Resource Production",
+   "资源生产"
+  ]
+ ]
+}

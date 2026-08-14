@@ -1,0 +1,49 @@
+---
+title: 精炼厂
+id: oritech:refinery_block
+type: block
+custom:
+    RF Capacity: "50,000"
+    RF/t: "64"
+    Fluid capacity (main): "64 buckets"
+    Fluid capacity (modules): "4 buckets each"
+    Cores required: "9"
+
+---
+精炼厂用于处理物品与流体混合物。它拥有一个物品输入口、一个流体输入口，以及多种输出选项。
+
+<Callout variant="info">
+    啊，清晨的分馏气息，多么甜美！把粗[原油](@oritech:still_oil_bucket)变成有用的工业产品，
+    还有什么比这更能诠释「进步」二字呢？
+    环境问题？那是留给后代去解决的麻烦！
+</Callout>
+
+<center>
+<ModAsset location="oritech:area/refinery" width={1000} />
+</center>
+
+---
+
+**分馏**
+
+
+精炼厂拥有**1个物品输入口**和**1个流体输入口**，并具备**1个物品输出口**
+与**3个流体输出口**。
+
+默认情况下，仅第一个流体输出槽位处于激活状态。
+若要启用第二与第三流体输出槽位，您必须在
+主方块顶部安装[精炼厂罐室模块](@oritech:refinery_module_block)。
+第二与第三槽位的流体必须直接从这些模块中抽取。
+
+**产量机制**
+
+若配方所需的流体输出数量超过可用插槽（或模块）数量，
+内部逻辑将重新分配未使用的容量：
+- 若无可选模块，首个流体输出将翻倍。
+- 若仅有一个模块可用（启用2个流体输出口），第二个流体
+产出量翻倍（如适用）。
+
+<Callout variant="info">
+    精炼厂没有插件槽位，无法直接升级或提速。不过可以看看[污染精炼厂](@oritech:tainted_refinery_block)，
+    那是个可能更快、也更能干的变体。
+</Callout>

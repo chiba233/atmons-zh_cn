@@ -1,0 +1,42 @@
+[
+  {
+    "name": "iris_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.Iris"
+    ],
+    "pairs": [
+      {
+        "key": "No cheating; wireframe only in singleplayer!",
+        "value": "禁止作弊；线框模式仅限单人游戏！"
+      },
+      {
+        "key": "Copy Info",
+        "value": "复制信息"
+      },
+      {
+        "key": "Failed to compile shaders",
+        "value": "着色器编译失败"
+      },
+      {
+        "key": "enabled, logging will be more verbose!",
+        "value": "已启用，日志将更加详细！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.UpdateChecker"
+    ],
+    "pairs": [
+      {
+        "key": "the Iris Installer",
+        "value": "Iris 安装器"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-casing.json",
+ "sha1": "26e048f010d5e48e24ab423d1be8e9324ede39f8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Housing",
+   "机壳"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Housing blocks are the building blocks of the Turbine.$(br2)They are required to construct its frame, support the $(l:bigreactors/rotor)Rotor$(/l), and are also used to craft the other parts. Housing blocks can fill the faces of the Turbine if you prefer not to use glass.$(br2)You will craft a lot of them.",
+   "机壳方块是涡轮机的基础构件。$(br2)它们既是搭建框架所必需的，也用于支撑$(l:bigreactors/rotor)转子$(/l)，同时还用于合成其他部件。如果你不想使用玻璃，也可以用机壳方块填充涡轮机的各个面。$(br2)你会合成很多这类方块。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Housing",
+   "机壳"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() they are required to build the frame and the $(l:bigreactors:turbine/rotor)Rotor$(/l)$(br)$(l)Valid positions:$() any$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()它们是构建框架和$(l:bigreactors:turbine/rotor)转子$(/l)所必需的$(br)$(l)有效位置：$()任意位置$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

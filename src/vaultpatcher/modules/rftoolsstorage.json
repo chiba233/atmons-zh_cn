@@ -1,0 +1,246 @@
+[
+  {
+    "name": "rftoolsstorage_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.craftinggrid.GuiCraftingGrid"
+    ],
+    "pairs": [
+      {
+        "key": "Store",
+        "value": "存储"
+      },
+      {
+        "key": "Craft one",
+        "value": "合成一个"
+      },
+      {
+        "key": "Craft four",
+        "value": "合成四个"
+      },
+      {
+        "key": "Craft eight",
+        "value": "合成八个"
+      },
+      {
+        "key": "Craft a stack",
+        "value": "合成整个堆叠"
+      },
+      {
+        "key": "Store the current recipe",
+        "value": "保存当前配方"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.modularstorage.client.GuiModularStorage"
+    ],
+    "pairs": [
+      {
+        "key": "Lock the storage to access the items!",
+        "value": "锁定存储以访问物品！"
+      },
+      {
+        "key": "Unlock to access these slots",
+        "value": "解锁以访问这些槽位"
+      },
+      {
+        "key": "Lock/unlock the module slots",
+        "value": "锁定/解锁模块槽位"
+      },
+      {
+        "key": "Cycle to the next storage module",
+        "value": "切换到下一个存储模块"
+      },
+      {
+        "key": "Name based filter for items",
+        "value": "基于名称的物品筛选器"
+      },
+      {
+        "key": "Control how items are shown",
+        "value": "控制物品的显示方式"
+      },
+      {
+        "key": "in the view",
+        "value": "在视图中"
+      },
+      {
+        "key": "Control how items are sorted",
+        "value": "控制物品的排序方式"
+      },
+      {
+        "key": "If enabled it will show groups",
+        "value": "如果启用，将显示分组"
+      },
+      {
+        "key": "based on sorting criterium",
+        "value": "基于排序条件"
+      },
+      {
+        "key": "Amount of stacks / maximum amount",
+        "value": "堆叠数量 / 最大数量"
+      },
+      {
+        "key": "Compact equal stacks",
+        "value": "合并相同的物品堆叠"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.client.GuiStorageScanner"
+    ],
+    "pairs": [
+      {
+        "key": "Remote",
+        "value": "远程"
+      },
+      {
+        "key": "Invalid tile entity!",
+        "value": "无效的 TileEntity！"
+      },
+      {
+        "key": "The inventory is now highlighted",
+        "value": "该容器现已高亮显示"
+      },
+      {
+        "key": "Craftable",
+        "value": "可合成"
+      },
+      {
+        "key": "Click: ",
+        "value": "点击："
+      },
+      {
+        "key": "full stack",
+        "value": "整叠"
+      },
+      {
+        "key": "single item",
+        "value": "仅允许提供一个物品"
+      },
+      {
+        "key": "All routable",
+        "value": "全部可路由"
+      },
+      {
+        "key": "Toggle wide storage list",
+        "value": "切换宽型存储列表"
+      },
+      {
+        "key": "Move inventory up",
+        "value": "向上移动物品栏"
+      },
+      {
+        "key": "Move inventory to the top",
+        "value": "将容器移到顶部"
+      },
+      {
+        "key": "Move inventory down",
+        "value": "下移容器"
+      },
+      {
+        "key": "Move inventory to the bottom",
+        "value": "将容器移到底部"
+      },
+      {
+        "key": "Remove inventory from list",
+        "value": "从列表中移除容器"
+      },
+      {
+        "key": "Filter the list of items",
+        "value": "筛选物品列表"
+      },
+      {
+        "key": "The radius that the scanner",
+        "value": "扫描仪将使用的半径"
+      },
+      {
+        "key": "will use to find storages",
+        "value": "用于查找存储容器"
+      },
+      {
+        "key": "All routable inventories",
+        "value": "所有可路由容器"
+      },
+      {
+        "key": "Block at: ",
+        "value": "方块位置："
+      },
+      {
+        "key": "Name: ",
+        "value": "名称："
+      },
+      {
+        "key": "(doubleclick to highlight)",
+        "value": "（双击以高亮）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.items.DumpModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Storage module is cleared",
+        "value": "存储模块已清除"
+      },
+      {
+        "key": "Label text",
+        "value": "标签文本"
+      },
+      {
+        "key": "Label color",
+        "value": "标签颜色"
+      },
+      {
+        "key": "If enabled use common tags",
+        "value": "如果启用，则使用通用标签"
+      },
+      {
+        "key": "to match items",
+        "value": "以匹配物品"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.items.StorageControlModuleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Storage module is cleared",
+        "value": "存储模块已清除"
+      },
+      {
+        "key": "If enabled only count items",
+        "value": "如果启用，则只统计物品"
+      },
+      {
+        "key": "in 'starred' inventories",
+        "value": "在“已标星”容器中"
+      },
+      {
+        "key": "(mark inventories in storage scanner)",
+        "value": "（在存储扫描器中标记容器）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.rftoolsstorage.modules.scanner.items.StorageControlModuleItem$1"
+    ],
+    "pairs": [
+      {
+        "key": "Remote Storage Scanner",
+        "value": "远程存储扫描仪"
+      }
+    ]
+  }
+]

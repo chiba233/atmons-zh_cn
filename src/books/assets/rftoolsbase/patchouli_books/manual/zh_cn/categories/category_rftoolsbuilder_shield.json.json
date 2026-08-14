@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder_shield.json",
+ "sha1": "ce7dc75e4139a22b4c0da640a75197dfbdf155ae",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Shield Projector can protect areas as well as kill mobs",
+   "护盾投射仪既能保护区域，也能击杀生物"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Shield Projector",
+   "护盾投射仪"
+  ]
+ ]
+}

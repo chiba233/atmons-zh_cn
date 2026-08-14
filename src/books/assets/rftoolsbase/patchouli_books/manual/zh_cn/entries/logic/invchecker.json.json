@@ -1,0 +1,49 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/invchecker.json",
+ "sha1": "95bb69f21b706a76af4a82573a88e013d71b3ca7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Inventory Checker",
+   "物品检查器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Inventory Checker$() emits a $(thing)redstone signal$() if the inventory behind it has more than a certain number of items in a specified slot. Both the slot and the item can be defined in the GUI, alongside an optional $(thing)Item Tag$(), and whether to ignore or match the damage of the specified item. These can also be left blank to match any item that goes in the slot.",
+   "$(item)物品检查器$()会在其后方的容器中，指定槽位内的物品数量超过某个值时发出$(thing)红石信号$()。你可以在 GUI 中定义槽位和物品，并可选填$(thing)物品标签$()，以及指定是忽略还是匹配该物品的耐久值。这些条件也都可以留空，以匹配放入该槽位的任意物品。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The GUI selects the slot, stack, optional item tag, damage mode, and threshold. Leave item or tag matching empty when any valid item in that slot should count.",
+   "GUI界面可选择插槽、物品堆叠、可选物品标签、伤害模式及阈值。当该插槽中任意有效物品均应被计入时，请留空物品或标签匹配项。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "heading"
+   ],
+   "Digit",
+   "数字"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Remember, slot counts start at zero!",
+   "记住，槽位计数从零开始！"
+  ]
+ ]
+}

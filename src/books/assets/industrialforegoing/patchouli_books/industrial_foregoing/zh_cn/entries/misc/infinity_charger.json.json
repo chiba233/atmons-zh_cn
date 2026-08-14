@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/infinity_charger.json",
+ "sha1": "a385221d8230966480c59193c3e7bb160d8574a7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Charger",
+   "无限电池"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Charges items that can hold power. It charges $(6)Infinity$() items very fast.",
+   "为可充能物品充能。对$(6)无限$()类物品的充能速度极快。"
+  ]
+ ]
+}

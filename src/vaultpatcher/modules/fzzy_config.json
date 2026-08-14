@@ -1,0 +1,19 @@
+[
+  {
+    "name": "fzzy_config_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.fzzyhmstrs.fzzy_config.util.FcText"
+    ],
+    "pairs": [
+      {
+        "key": "null cannot be cast to non-null type java.lang.String",
+        "value": "null 无法转换为非 null 类型 java.lang.String"
+      }
+    ]
+  }
+]

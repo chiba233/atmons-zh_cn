@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-casing.json",
+ "sha1": "74a88d9d6c36b213c67893f1f93a69a6bf7a084a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Casing blocks are the building blocks of the Energizer.$(br2)They are required to build its frame and faces, and are also used to craft the other parts.",
+   "机壳方块是构成充能器的基础方块。$(br2)它们既是建造其框架和各个面的必需部分，也用于合成其他部件。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Casing",
+   "外壳"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() they are required to build the frame and the faces$(br)$(l)Valid positions:$() any$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()它们是构建框架和各个面的必需部分$(br)$(l)有效位置：$()任意位置$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

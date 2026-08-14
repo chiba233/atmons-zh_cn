@@ -1,0 +1,14 @@
+{
+  "setup.mdx": {
+    "name": "游戏内模组视图设置",
+    "icon": null
+  },
+  "gradle_task.mdx": {
+    "name": "（可选）自动Gradle Wiki同步",
+    "icon": null
+  },
+  "content_unlocks.mdx": {
+    "name": "内容进阶系统",
+    "icon": null
+  }
+}

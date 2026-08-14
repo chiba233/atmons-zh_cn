@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tubes/tube_modules.json",
+ "sha1": "b38f045503e5c697c59e74bed44bbc6e097504b7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tube Modules",
+   "管道模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Tube modules/$ are components which can be attached to $(l:tubes/pressure_tubes)Pressure Tubes/$, either onto the side of the tube, or $(thing)inline/$ with the tube.$(p)Attached modules can be removed by $(thing)sneak+right-clicking/$ with a $(l:tools/pneumatic_wrench)Pneumatic Wrench/$.",
+   "$(thing)管道模块/$是可以安装在$(l:tubes/pressure_tubes)压力管道/$上的组件，既可以装在管道侧面，也可以与管道$(thing)内联/$安装。$(p)已安装的模块可以用$(l:tools/pneumatic_wrench)气动扳手/$$(thing)潜行右击/$来拆除。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(thing)Inline modules/$ are a little special, in that:$(li)A Pressure Tube may have only one inline module.$(li)A Pressure Tube with an inline module may not have any other modules.$(li)A Pressure Tube with an inline module may only be connected to on two sides: the two ends of the inline module.$(li)Inline modules may $(italic)only/$ be placed on the open end of a Pressure Tube.",
+   "$(thing)内联模块/$有一点特殊，具体来说：$(li)一根压力管道只能安装一个内联模块。$(li)安装了内联模块的压力管道不能再安装其他模块。$(li)安装了内联模块的压力管道只能从两个面进行连接：也就是内联模块两端的两个面。$(li)内联模块$(italic)只能/$放置在压力管道的开放端。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Inline Modules",
+   "内联模块"
+  ]
+ ]
+}

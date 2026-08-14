@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/speed.json",
+ "sha1": "9e15599cff5d0ab7b556196d60df8f07f8446782",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Speed Upgrade",
+   "速度升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "By default, a $(l:router/modular_router)router/$ ticks every 20 server ticks, or once per second. On each tick, every installed module is executed in order, left to right.$(p)If you need a router to run faster than this, add $(thing)Speed Upgrades/$; each Speed Upgrade reduces the tick interval by 2 server ticks, down to a minimum of every 2 server ticks (or 10 times per second).",
+   "默认情况下，$(l:router/modular_router)路由器/$每20个服务端刻运行一次，即每秒运行一次。每次运行周期中，所有已安装模块将按从左至右顺序依次执行。$(p)若需路由器运行得更快，可添加$(thing)速度升级/$；每个速度升级可将运行周期缩短2个服务端刻，最低可降至每2个服务端刻运行一次（即每秒10次）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The base tick rate, tick increase per upgrade, and hard minimum tick rate are all configurable in the module's config (config/modularrouters-common.toml).$(p)For performance reasons, $(l:upgrades/stack)Stack Upgrades/$ should be preferred over Speed Upgrades where possible; use Speed Upgrades judiciously and only where absolutely required for maximum item transfer rate.$(p)Be Kind To Your Server (tm).",
+   "基础运行周期、每次升级带来的周期缩减量，以及硬性最低运行周期，均可在模块配置文件（config/modularrouters-common.toml）中调整。$(p)出于性能考量，$(l:upgrades/stack)堆叠升级/$应优先于速度升级使用；请审慎使用速度升级，仅在绝对需要最大化物品传输速率时才启用。$(p)善待你的服务器（tm）。"
+  ]
+ ]
+}

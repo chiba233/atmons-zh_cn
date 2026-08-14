@@ -1,0 +1,30 @@
+---
+title: 离心机
+id: oritech:centrifuge_block
+type: block
+custom:
+    RF Capacity: "10,000"
+    RF/t: "64"
+    Fluid capacity: "8 buckets (fluid addon)"
+    Cores required: "1"
+    Addon slots: "1"
+---
+离心机通过高速旋转分离并转化物品。
+可用于从[粉碎工厂](@oritech:fragment_forge_block)获取的矿石块中提取矿粉、将煤粉纺成碳纤维丝束，或加工多种液体。
+
+这使得离心机成为Oritech中核心的进阶机器之一，因其处于矿石精炼、组件制造以及后续石油与塑料产线的交汇节点。
+
+<Callout variant="info">
+    处理流体前，离心机必须先装上
+    [流体插件](@oritech:machine_fluid_addon)，否则无法接收液体。
+</Callout>
+
+---
+
+**流体分离**
+
+流体可直接泵入和泵出**离心机本体**，
+而非插件。插件仅用于启用流体处理兼容性。
+常见用途包括将原油精炼为不同燃料类型，或把小麦加工为塑料片材。
+
+若流体配方未启动，通常是因为插件已安装，但机器状态尚未刷新。请在安装插件后重新打开机器界面，以确保其正确初始化。

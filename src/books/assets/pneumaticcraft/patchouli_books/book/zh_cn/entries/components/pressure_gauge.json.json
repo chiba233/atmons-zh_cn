@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/pressure_gauge.json",
+ "sha1": "dc76aec1ac20249eeabc92fe8842354726828446",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pressure Gauge",
+   "压力表"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Pressure Gauge",
+   "合成压力表"
+  ]
+ ]
+}

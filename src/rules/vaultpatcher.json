@@ -1,0 +1,142 @@
+[
+  {
+    "id": "vp-shape",
+    "kind": "vp_shape",
+    "why": "模块文件是手写的，结构错了 VaultPatcher 只会静默不加载，玩家看到英文而日志一个字都没有。"
+  },
+  {
+    "id": "vp-enum-protocol-values",
+    "kind": "vp_pair_key_in",
+    "only_risky_blocks": true,
+    "why": "McJtyLib 的 NamedCodec 按名字反查枚举，翻译之后反查失败直接抛异常。历史事故：choice('忽略红石') → IllegalStateException: Unknown element name。只查「有风险」的块——定向到具体 GUI/Screen 类的同名显示标签（形状卡的 Solid）是安全的。",
+    "message": "禁止翻译枚举协议值 {key}（{where}，会导致游戏崩溃）",
+    "values": [
+      "Ignored",
+      "Off",
+      "On",
+      "Copy",
+      "Move",
+      "Swap",
+      "Back",
+      "Collect",
+      "Loop1",
+      "Loop2",
+      "Loop3",
+      "Loop4",
+      "Once1",
+      "Once2",
+      "Pulse",
+      "Cycle",
+      "Amount+",
+      "Amount-",
+      "Mod",
+      "Name",
+      "Shield",
+      "Solid",
+      "Invisible"
+    ]
+  },
+  {
+    "id": "vp-identifier-not-translated",
+    "kind": "vp_pair_regex",
+    "key_regex": "^[a-z0-9][a-z0-9._/-]*$",
+    "value_has_cjk": true,
+    "why": "2026-07-27 实机崩溃：把 compactmachines 的 open_upgrade_screen 当按键分类替换成了「压缩空间」，但那个串是拿去 modRL(\"open_upgrade_screen\") 构造 ResourceLocation 的，而 ResourceLocation 只接受 [a-z0-9/._-]，注册按键时直接 ResourceLocationException，游戏进不去。原文长得像标识符（全小写+下划线/点/斜杠、没有空格）就极可能是注册名/翻译键/路径，不是给人看的界面文字。",
+    "message": "原文 {key} 是标识符形态，却被替换成中文 {value}。这类串常被拿去构造 ResourceLocation / 翻译键，替换会让游戏启动崩溃。"
+  },
+  {
+    "id": "vp-keybind-registration-names",
+    "kind": "vp_keybind_names",
+    "data_glob": "versions/db/*/keybinds.json",
+    "why": "options.txt 里存的是 key_<注册名>。注册名被替换掉一个字，玩家存的绑定就对不上，那个键位静默回默认值，玩家只会觉得「汉化把我的键位清了」。注册名常常是运行期拼出来的（\"artifacts.key.%s.%s\".formatted(…)），所以不能只比最终名字，还要比构成它的字符串原子——VaultPatcher 改的正是常量池里那些原子。",
+    "message": "原文 {key} 是按键注册名（或其组成片段），替换会让玩家的键位绑定静默失效。"
+  },
+  {
+    "id": "vp-server-modules-no-global-block",
+    "kind": "vp_server_global",
+    "list": "scripts/server_modules.txt",
+    "why": "服务端模块里的全局替换会污染服务端 NBT / 注册名。唯一豁免：key 带前导空格的纯显示文本（如 \"    Void mode\"），那种形态不可能是注册名。"
+  },
+  {
+    "id": "vp-legacy-bee-module-banned",
+    "kind": "file_absent",
+    "path": "vaultpatcher/modules/productivebees_gene_zh.json",
+    "why": "遗留的蜂名全局替换模块，已由 kubejs 显示层取代。全局替换蜂名会污染服务端数据，禁止复活。"
+  },
+  {
+    "id": "vp-blockui-alignment-tags",
+    "kind": "vp_forbidden_keys",
+    "keys": [
+      "top left",
+      "top horizontal",
+      "top right",
+      "vertical left",
+      "vertical horizontal",
+      "vertical right",
+      "bottom left",
+      "bottom horizontal",
+      "bottom right"
+    ],
+    "why": "blockui 的 Alignment 枚举拿这些串当**行为标志**：构造器里 tag.contains(\"horizontal\") 决定 horizontalCentered、contains(\"right\") 决定 rightAligned。译成中文后 contains 全部落空，整个 blockui 的对齐系统失效——MineColonies / 建筑棒所有界面的文字一律贴左，连上游自己写的 textalign=\"MIDDLE\" 都不生效。2026-07-28 查了一整轮才定位到。"
+  },
+  {
+    "id": "vp-class-patch-off",
+    "kind": "json_assert",
+    "file": "config/vaultpatcher_asm/config.json",
+    "path": [
+      "class_patch"
+    ],
+    "equals": false,
+    "why": "class_patch 会让 VaultPatcher 遍历 <实例>/vaultpatcher/patch/ 并用里面任何 .class 替换同名类——等于把一个数据目录变成代码执行入口。本包一个类都不需要改，开着只会给「别的工具/手滑拷进来的 class 被静默加载」留门，而照着旧版模组编的 class 会直接 ClassFormatError 闪退（2026-07-28 实机踩过）。做字节码实验时可以临时打开，但绝不许随包发出去。"
+  },
+  {
+    "id": "vp-config-ui-no-single-word",
+    "kind": "vp_no_single_word_keys",
+    "why": "配置界面的单词标签（On/Off/Client/Sound/Mode/Level/Name…）极可能同时是配置项的**枚举值**，译了可能被反查或写回配置文件——RFTools 那类「一汉化就崩」就是这么来的。多词短语没有这个风险。宁可少译，不冒险。 【2026-07-28 对抗审计抓到】这条闸原先只查生成模块，手写那份的 18 个单词键一路绿灯放行——闸只盯一个文件就是假闸。",
+    "modules": [
+      "config_ui_generated.json",
+      "catnip_config_ui.json"
+    ]
+  },
+  {
+    "id": "vp-no-stray-class-patch",
+    "kind": "no_files",
+    "glob": "vaultpatcher/patch/**/*.class",
+    "why": "出货包里不许残留字节码补丁。对齐问题的根因是我们自己译坏了 blockui 的行为标志串，改一个类都不需要。旧的 class 留在目录里就是活雷：只要哪天 class_patch 被打开（做实验时误开过一次），它就会立刻重新生效，而且是照着旧版模组编的，直接 ClassFormatError 闪退。2026-07-28 对抗审计在正式版产物里抓到过一个。"
+  },
+  {
+    "id": "vp-src-only-modules",
+    "kind": "no_files",
+    "glob": "vaultpatcher/modules/blockui_legacy_labels.json",
+    "why": "这些模块留在 src/ 备查但不随包发行。出货树里出现它们，说明摊树时的排除逻辑失效了。"
+  },
+  {
+    "id": "vp-never-ship-config-ui",
+    "kind": "no_files",
+    "glob": "vaultpatcher/modules/*config_ui*.json",
+    "why": "「模组配置界面汉化」那两个模块（config_ui_generated / catnip_config_ui，合计 3495 对）因性能原因停发：它们是 dynamic 模块，而 dynamic 表是全局开销——表越大，游戏里每次画文字都跟着变慢，r14 的全场景掉帧就是这么来的。出货树里出现它们说明 gen_vaultpatcher 的 PERF_HOLD 排除失效，或者是脏 build/ 的残留。「漏回出货树」正是 r14 那次事故的形状，所以这里按文件名通配拦死（已核出货的 155 个模块无一个名字含 config_ui）。"
+  },
+  {
+    "id": "vp-no-path-prefix-keys",
+    "kind": "vp_no_key_prefix",
+    "prefixes": [
+      "/"
+    ],
+    "why": "以 / 开头的键是路径片段，不是界面文字。structurize 的建筑棒把类别路径（craftsmanship/luxury）同时当面包屑显示、按钮 ID 和 Map 键用，楼层行还把「路径:序号」塞进隐藏 Text 控件、点击时读回来查表。为了让面包屑显示中文而写的 167 条 `/luxury → /豪华` 子串替换，把 458 条真实路径改坏了 277 条，查表落空直接 NPE 闪退（issue #3，7.2 vr14 beta2）。按钮上显示的其实只是路径最后一段的首字母大写形式，用精确键就能译，所以这一类整体放弃。"
+  },
+  {
+    "id": "vp-no-conflicting-values",
+    "kind": "vp_value_conflict",
+    "why": "同一个类、同一条原文、同一种匹配模式下写了两句译文，哪句生效取决于模块加载顺序与表内顺序——本机看到的和玩家看到的可以不是同一句，而且改了其中一句还查不出为什么没生效。2026-08-07 rftoolsbase.json 与 rftoolsbase_filter_zh.json 对同一个 GuiFilterModule 的三条原文各写了一套（「忽略耐久值」对「忽略损伤值」）。value 以 @ 开头是子串替换、其余是全串匹配，两种模式成对出现是对的，不算冲突。"
+  },
+  {
+    "id": "vp-ae-provider-family",
+    "kind": "term_binding",
+    "files": ["ae2.json"],
+    "terms": [
+      { "en": "Extended", "zh": "扩展" },
+      { "en": "Expanded", "zh": "拓充" }
+    ],
+    "why": "AE2 有两个附属各带一件『XX样板供应器』：ExtendedAE 的叫 ME扩展样板供应器（mcmod 词条 784050），ExpandedAE 的叫拓充样板供应器（模组 jar 自带中文）。两张升级卡的说明曾把两者对调，而对调之后的两句话各自读起来都通顺，靠人眼复核拦不住——只有把原文里的词和译文里的词绑起来才判得了。"
+  }
+]

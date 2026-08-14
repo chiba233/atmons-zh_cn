@@ -1,0 +1,40 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/hives/dragon_egg_hive.json",
+ "sha1": "f9d6bf136b5be2cdcf930598e396d1e6a291843e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dragon Egg Hive",
+   "龙蛋蜂箱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A special hive made for Draconic bees that allows the user to harvest the otherwise hard to obtain draconic combs. Naturally Draconic bees live in obsidian nests, but will also live inside a hollowed out dragon egg. They can also be convinced to live in an advanced hive but won't produce any dragon breath there.",
+   "这是一种专为末影龙蜜蜂打造的特殊蜂巢，能让玩家收获原本很难获得的龙蜜脾。正常情况下，末影龙蜜蜂栖息在黑曜石蜂巢中，但它们也会住进被掏空的龙蛋里。你也可以说服它们住进高级蜂箱，不过在那里它们不会产出龙息。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You can make a fulfilling omelet with the leftovers",
+   "剩下的材料还能做一份丰盛的煎蛋卷"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Draconic bees living in a Dragon Egg Hive operating in the End do not need any flowering as they are absorbing Draconic essence from the air. While operating in any other location, the Draconic bees must have another pollination source.$(br2)Dragon Egg Hives do not support upgrades",
+   "居住在末地中龙蛋蜂箱里的末影龙蜜蜂不需要任何开花方块，因为它们会直接从空气中吸收龙之精华。而在其他地点工作时，末影龙蜜蜂必须有其他授粉来源。$(br2)龙蛋蜂箱不支持升级"
+  ]
+ ]
+}

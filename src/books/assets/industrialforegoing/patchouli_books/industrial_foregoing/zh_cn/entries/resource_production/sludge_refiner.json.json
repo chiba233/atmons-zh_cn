@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/sludge_refiner.json",
+ "sha1": "fe49d42a0ecf6837bacb4ebd567c4f2359ac81f1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sludge Refiner",
+   "污泥精炼机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine that transforms $(6)sludge$() into something useful.$(br2)When supplied with $(6)Sludge$(), obtained from the $(l:agriculture_n_husbandry/plant_gatherer)Plant Gatherer$(), it will generate $(6)something$().$(br)This process requires $(6)1000$()RF/t though so be sure to have some power stored.",
+   "一台能把 $(6)污泥$() 变成有用东西的机器。$(br2)当输入由 $(l:agriculture_n_husbandry/plant_gatherer)植物收割机$() 产生的 $(6)污泥$() 时，它会生成 $(6)某种东西$()。$(br)不过该过程需要 $(6)1000$()RF/t，所以请确保储备足够的电力。"
+  ]
+ ]
+}

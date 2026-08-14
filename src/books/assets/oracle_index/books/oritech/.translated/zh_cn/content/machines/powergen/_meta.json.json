@@ -1,0 +1,48 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/machines/powergen/_meta.json",
+ "sha1": "29d2dda9e03f45ccaba896da98b3a637e0df2817",
+ "t": [
+  [
+   [
+    "basic_generator_block.mdx"
+   ],
+   "Basic Generator",
+   "基础发电机"
+  ],
+  [
+   [
+    "big_solar_panel_block.mdx"
+   ],
+   "Solar Panel",
+   "太阳能板"
+  ],
+  [
+   [
+    "bio_generator_block.mdx"
+   ],
+   "Bio Generator",
+   "生物质发电机"
+  ],
+  [
+   [
+    "fuel_generator_block.mdx"
+   ],
+   "Fuel Generator",
+   "火力发电机"
+  ],
+  [
+   [
+    "lava_generator_block.mdx"
+   ],
+   "Lava Generator",
+   "岩浆发电机"
+  ],
+  [
+   [
+    "steam_engine_block.mdx"
+   ],
+   "Steam Engine",
+   "蒸汽引擎"
+  ]
+ ]
+}

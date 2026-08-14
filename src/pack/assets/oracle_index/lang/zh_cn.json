@@ -1,0 +1,19 @@
+{
+  "oracle_index.title.oracle_index": "神谕目录",
+  "oracle_index.title.oracle-index": "神谕目录",
+  "key.oracle_index.open": "打开神谕索引",
+  "key.oracle_index.search": "打开神谕搜索",
+  "key.categories.oracle": "神谕目录",
+  "oracle_index.searchbar.placeholder": "查找或计算",
+  "oracle_index.searchbar.tooltip": "支持完整句子和数学表达式的智能搜索。",
+  "tooltip.oracle_index.open_search": "打开搜索。你随时都可以按下 [CTRL + %s] 或 [%s] 来打开它。",
+  "tooltip.oracle_index.back": "返回上一页。",
+  "tooltip.oracle_index.close_screen": "关闭 Wiki。",
+  "oracle_index.button.docs": "文档",
+  "oracle_index.button.content": "内容",
+  "oracle_index.tooltip.docs": "按住 [ALT] 查看文档",
+  "oracle_index.callout.default": "便条",
+  "oracle_index.callout.info": "信息",
+  "oracle_index.callout.warning": "警告",
+  "oracle_index.callout.danger": "危险"
+}

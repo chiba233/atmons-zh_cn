@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/logistics/_meta.json",
+ "sha1": "ba5147b0d190187f8274dac2268161fd10bed6de",
+ "t": [
+  [
+   [
+    "drone_port.mdx"
+   ],
+   "ドローンポート",
+   "无人机港"
+  ],
+  [
+   [
+    "energy.mdx"
+   ],
+   "エネルギー",
+   "能量"
+  ],
+  [
+   [
+    "pipe_boosters.mdx"
+   ],
+   "パイプブースター",
+   "管道升压器"
+  ]
+ ]
+}

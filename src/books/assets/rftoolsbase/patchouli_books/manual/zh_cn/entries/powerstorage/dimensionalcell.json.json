@@ -1,0 +1,85 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/dimensionalcell.json",
+ "sha1": "cc42ebed95e0e50ee7696c5104505d56bfccd300",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dimensional Cell",
+   "维度能量单元"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Dimensional Cell is multi-dimensional power storage. Like a $(l:rftoolsbase:powerstorage/powercell)Powercell$(/l), it stores and transfers FE, but linked cells can share power without touching.",
+   "维度能量单元是一种多维电力存储设备。与$(l:rftoolsbase:powerstorage/powercell)能量单元$(/l)类似，它可存储并传输FE；但已链接的维度能量单元可在不接触的情况下共享电力。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Dimensional Cells are linked with a $(l:rftoolsbase:powerstorage/powercell_card)Powercell Card$(/l). Insert an unlinked card to create a link, or copy an existing cell link to another card.",
+   "维度能量单元通过$(l:rftoolsbase:powerstorage/powercell_card)能量单元卡$(/l)进行链接。插入未链接的卡片可创建新链接，或将现有单元链接复制至另一张卡片。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The GUI has card slots for linking/copying, a charge slot for FE items, a network storage bar, side mode buttons, and a Stats button for inserted/extracted FE.",
+   "GUI包含用于链接/复制的卡片插槽、用于FE物品的充能插槽、网络存储条、侧边模式按钮，以及用于查看已插入/提取FE的统计按钮。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "None, In, and Out set all sides to ignore, receive, or transmit FE. Individual sides can also be changed with a $(l:rftoolsbase:tools/smartwrench)Smart Wrench$(/l): blue input, yellow output, blank disabled.",
+   "“无”、“输入”与“输出”模式可将所有侧面统一设为禁用、接收或传输FE。单个侧面亦可用$(l:rftoolsbase:tools/smartwrench)智能扳手$(/l)单独调整：蓝色为输入，黄色为输出，空白则为禁用。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "There is a drawback to Dimensional Cells, however; when set to $(thing)Output Mode$(), there is a small cost to drawing RF from remote cells. It's not a lot, usually just a few percent, but it adds up. Luckily, Dimensional Cells can be $(l:rftoolsbase:machines/infusing)Infused$() to reduce this cost.",
+   "不过，维度能量单元也有一个缺点：当设置为$(thing)输出模式$()时，从远程单元提取 RF 会有少量损耗。通常不多，只是几个百分点，但积少成多。幸运的是，维度能量单元可以通过$(l:rftoolsbase:machines/infusing)注魔$()来减少这种损耗。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "The lowest tier of Dimensional Cell holds 250,000 RF, and can input or output up to 1,250 RF/Tick. This speed can be boosted via $(l:rftoolsbase:machines/infusing)Infusion$().",
+   "最低阶的维度能量单元可存储 250,000 RF，并且每刻最多可输入或输出 1,250 RF。这个速度可以通过$(l:rftoolsbase:machines/infusing)注魔$()提升。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "The medium tier of Dimensional Cell holds 1,000,000 RF, and can input or output up to 5,000 RF/Tick. This speed can be boosted via $(l:rftoolsbase:machines/infusing)Infusion$().",
+   "中阶的维度能量单元可存储 1,000,000 RF，并且每刻最多可输入或输出 5,000 RF。这个速度可以通过$(l:rftoolsbase:machines/infusing)注魔$()提升。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "The top tier of Dimensional Cell holds 4,000,000 RF, and can input or output up to 20,000 RF/Tick. This speed can be boosted via $(l:rftoolsbase:machines/infusing)Infusion$().",
+   "最高阶的维度能量单元可存储 4,000,000 RF，并且每刻最多可输入或输出 20,000 RF。这个速度可以通过$(l:rftoolsbase:machines/infusing)注魔$()提升。"
+  ]
+ ]
+}

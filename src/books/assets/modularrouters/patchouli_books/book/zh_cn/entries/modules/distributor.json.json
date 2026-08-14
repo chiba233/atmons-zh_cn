@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/distributor.json",
+ "sha1": "ec0775e250775ef0f2d1652f2d12eba10b987896",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Distributor Module",
+   "分配模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is an extended version of the $(l:modules/sender_2)Sender Module Mk2/$, which can send items to multiple targets. $(thing)Sneak-right-click/$ an inventory to add it to the Distributor Module, and $(thing)Sneak-right-click/$ the inventory again to remove it.$(p)The Distributor Module can distribute to up to 8 targets.",
+   "这是 $(l:modules/sender_2)发送模块 Mk2/$ 的扩展版本，可以将物品发送到多个目标。$(thing)潜行右击/$一个容器以将其添加到分配模块中，再次对该容器执行 $(thing)潜行右击/$ 可将其移除。$(p)分配模块最多可以分配到 8 个目标。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A little extra control over distribution strategy is available via the GUI control on the right:$(li)$(bold)Round Robin/$ - distribute to each inventory in turn, as evenly as possible$(li)$(bold)Random/$ - pick one of the targets at random$(li)$(bold)Nearest/$ - always fill the closest target with space for the item$(li)$(bold)Furthest/$ - always fill the furthest target with space for the item",
+   "右侧的 GUI 控件还能提供一些额外的分配策略控制：$(li)$(bold)轮询/$ - 依次向各个容器分配，尽可能平均$(li)$(bold)随机/$ - 随机挑选一个目标$(li)$(bold)最近/$ - 总是优先填充最近且有空间容纳该物品的目标$(li)$(bold)最远/$ - 总是优先填充最远且有空间容纳该物品的目标"
+  ]
+ ]
+}

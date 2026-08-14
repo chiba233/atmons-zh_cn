@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/memory_stick.json",
+ "sha1": "ab4de8a58b2708c957124baed85bfa11776d7aa8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Memory Stick",
+   "记忆棒"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A $(item)Memory Stick/$ is a useful handheld device for extracting, storing, and restoring player experience levels:$(li)$(thing)Right-click/$: move one level of experience from yourself into the stick$(li)$(thing)Sneak + Right-click/$: move one level of experience from the stick to yourself$(li)$(thing)Left-click/$: toggle XP auto-absorption, where any XP orbs you collect are automatically absorbed by the stick",
+   "$(item)记忆棒/$是一种实用的手持设备，可用于提取、存储和恢复玩家的经验等级：$(li)$(thing)右击/$：将你自身的一级经验转移到 U 盘中$(li)$(thing)潜行 + 右击/$：将 U 盘中的一级经验转移给你自己$(li)$(thing)左击/$：切换 XP 自动吸收功能，你收集到的任何经验球都会被 U 盘自动吸收"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Experience stored in the Memory Stick can also be extracted as $(l:base_concepts/memory_essence)Memory Essence/$ fluid. To do this, simply $(thing)right-click/$ any $(l:machines/tanks)Fluid Tank/$ to transfer XP to or from the tank (other mods' fluid tanks should also work fine here). Right-clicking an empty tank will attempt to transfer Memory Essence from the stick to the tank; right-clicking a tank with any Memory Essence will attempt to transfer from the tank to the stick.",
+   "存储在记忆棒中的经验也可以提取为 $(l:base_concepts/memory_essence)记忆源质/$流体。要做到这一点，只需 $(thing)右击/$任意一个 $(l:machines/tanks)流体储罐/$，即可在储罐与经验之间进行转移（其他模组的流体储罐在这里通常也能正常使用）。右击一个空的储罐时，会尝试将记忆棒中的记忆源质转移到储罐中；右击一个含有任意记忆源质的储罐时，则会尝试将储罐中的记忆源质转移到记忆棒中。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "With the $(thing)Curios/$ mod installed, you can store the Memory Stick in any Curios slot, to save on inventory space. This is particularly useful with XP auto-absorption switched on.",
+   "安装了 $(thing)饰品/$ 模组后，你可以将 记忆棒 存放在任意饰品栏槽位中，以节省容器空间。开启 XP 自动吸收后，这会特别有用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Curios",
+   "饰品"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a Memory Stick",
+   "合成记忆棒"
+  ]
+ ]
+}

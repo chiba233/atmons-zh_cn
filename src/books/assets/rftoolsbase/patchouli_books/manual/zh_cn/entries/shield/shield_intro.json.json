@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shield/shield_intro.json",
+ "sha1": "5497686f40226600fc9b9d9b5b462a2738f79f3a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Introduction",
+   "简介"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Shield Projector can be used to protect areas against mobs or keep mobs in some area. It can also cause damage",
+   "护盾投射仪可用于保护区域免受生物侵扰，或将生物限制在某个区域内。它也能造成伤害。"
+  ]
+ ]
+}

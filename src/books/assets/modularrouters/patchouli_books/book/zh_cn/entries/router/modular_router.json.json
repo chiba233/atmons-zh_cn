@@ -1,0 +1,139 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/router/modular_router.json",
+ "sha1": "f95876707082c7608744c79a9e32f0e660b387b6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Modular Router",
+   "物品路由器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Modular Router/$ is the core of the routing system. It is responsible for executing all the modules plugged into it; moving items, blocks and fluids around in various ways.",
+   "该$(thing)物品路由器/$是整套传输系统的核心。它负责执行所有接入其中的模块，以多种方式搬运物品、方块和流体。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)An Modular Router GUI with several modules and upgrades installed",
+   "$(italic)一个安装了多个模块和升级的物品路由器 GUI"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The $(thing)Modular Router/$ has a one-slot buffer, able to hold up to stack of items. This buffer is exposed as a normal inventory, so it can be interacted with via $(item)Hoppers/$ and other mod piping systems.$(p)In addition, a $(item)Comparator/$ placed against the router will measure the slot's fullness as expected.",
+   "$(thing)物品路由器/$带有一个单槽缓冲区，最多可容纳一组物品。这个缓冲区作为普通容器对外暴露，因此可以通过$(item)漏斗/$和其他模组的管道系统与之交互。$(p)此外，在路由器旁放置$(item)比较器/$时，也会如预期那样检测该槽位的填充程度。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "1. The Buffer",
+   "1. 缓冲器"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The $(thing)Modular Router/$ has nine slots for $(l:intro/modules)modules/$. Each time the router runs (between 1 and 10 times per second depending on Speed Upgrades), it will $(thing)execute/$ each module in turn, from left to right.$(p)You can configure installed modules without removing them from the router by pressing $(4)$(bold)[$(k:modularrouters.configure)]/$ while hovering over it, or $(thing)Middle-Clicking/$ the module in the GUI.",
+   "$(thing)物品路由器/$配备九个$(l:intro/modules)模块/$插槽。路由器每秒运行1至10次（具体取决于已安装的速度升级数量），每次运行时将从左至右依次$(thing)执行/$每个模块。$(p)你无需拆卸模块，即可通过悬停于模块上方并按下$(4)$(bold)[$(k:modularrouters.configure)]/$，或在GUI界面中$(thing)中键点击/$该模块，来配置已安装的模块。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "2. Module Slots",
+   "2. 模块栏"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(thing)Modular Router/$ has five slots for $(l:intro/upgrades)upgrades/$. Upgrades enhance the router's functionality in various ways; for example, each inserted $(l:upgrades/speed)Speed Upgrade/$ makes the router tick a little faster, while each $(l:upgrades/stack)Stack Upgrade/$ allows it to handle more items in each operation.",
+   "$(thing)物品路由器/$配备五个$(l:intro/upgrades)升级/$插槽。升级可从多方面增强路由器的功能；例如，每插入一个$(l:upgrades/speed)速度升级/$，路由器的运行频率便会略微加快；而每插入一个$(l:upgrades/stack)堆叠升级/$，路由器单次操作所能处理的物品数量也会相应增加。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "3. Upgrade Slots",
+   "3. 升级槽"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "The $(thing)Modular Router/$ has some flexibility over how it responds to redstone input, controlled by the top-right button:$(li)Default: always run, regardless of redstone signal$(li)Only run when there is $(italic)no/$ redstone signal$(li)Only run when there $(italic)is/$ a redstone signal$(li)Never run$(li)Run $(italic)once/$ when a redstone pulse is received (any signal higher than previously).",
+   "$(thing)物品路由器/$对红石输入的响应方式具有一定灵活性，由右上角的按钮控制：$(li)默认：始终运行，不受红石信号影响$(li)仅在$(italic)没有/$红石信号时运行$(li)仅在$(italic)有/$红石信号时运行$(li)永不运行$(li)在接收到红石脉冲时仅运行$(italic)一次/$（任何高于先前强度的信号）。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "4. Redstone Control",
+   "4. 红石控制"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "In the spirit of being environmentally-friendly, the router has an option to automatically slow down if it's been idle for a while.$(p)When Eco Mode is enabled, if the router has done no work in the last $(ttcolor)$(t:Adjustable in mod config - 'ecoTimeout')5 seconds/$ then it will slow down and only tick once every $(ttcolor)$(t:Adjustable in mod config - 'lowPowerTickRate')5 seconds/$ (regardless of $(l:upgrades/speed)Speed Upgrades/$). However, as soon as it does any work, it will return to normal tick speed.",
+   "本着环保精神，如果路由器闲置一段时间，它可以自动降速。$(p)启用生态模式后，如果路由器在最近$(ttcolor)$(t:Adjustable in mod config - 'ecoTimeout')5 秒/$内没有执行任何工作，它就会降速为每$(ttcolor)$(t:Adjustable in mod config - 'lowPowerTickRate')5 秒/$只进行一次 tick（无论是否安装了$(l:upgrades/speed)速度升级/$）。不过，一旦它开始工作，就会立刻恢复正常 tick 速度。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "5. Eco Mode",
+   "5. 节能模式"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "This is primarily intended for busy servers, to save on CPU cycles, but it's potentially nice-to-have for any router that only runs rarely and where rapid item transfer isn't that important (e.g. a sheep farm where you might have a $(l:modules/vacuum)Vacuum Module/$ gathering sheared wool periodically).",
+   "这项功能主要是为繁忙的服务器设计的，用来节省 CPU 周期，但对于那些很少运行且不太需要快速传输物品的路由器来说也很实用（例如羊毛农场中，使用$(l:modules/vacuum)虚空模块/$定期收集剪下的羊毛）。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Eco Mode (cont)",
+   "节能模式（续）"
+  ]
+ ]
+}

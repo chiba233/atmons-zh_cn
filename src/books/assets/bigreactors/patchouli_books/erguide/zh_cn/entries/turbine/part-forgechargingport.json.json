@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-forgechargingport.json",
+ "sha1": "ad4ea8087c7a3b7ed0ab98a97a30d67183a946ed",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Forge Charging Port",
+   "Forge充电端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Forge Charging Port allows you to use the energy stored in your Turbine to charge items that use the the Forge Energy $(l:bigreactors:misc/powersystem)power system$(/l) to function.$(br2)Open the graphical interface of the port and insert the item you want charged into the input slot in the center.",
+   "Forge 充能端口允许你使用涡轮机中储存的能量，为依靠 Forge Energy $(l:bigreactors:misc/powersystem)供能系统$(/l)运行的物品充能。$(br2)打开端口的图形界面，然后将你想充能的物品放入中央的输入槽位。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Forge Charging Port",
+   "Forge充电端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Once the item energy buffer is full, the item will be automatically moved to the interface output slot for you to collect.$(br2)If, for any reason, you need to stop the charging process, press the eject button to move the item to the output slot immediately.",
+   "当物品的能量缓冲区充满后，物品会自动移动到界面的输出槽位，供你取出。$(br2)如果你因任何原因需要停止充能过程，按下弹出按钮即可立即将物品移到输出槽位。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

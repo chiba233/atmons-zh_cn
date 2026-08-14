@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/ore/unobtainium.json",
+ "sha1": "f1e7fe28740b2ae5d6c06922cac6374e66d633c8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Unobtainium Ore",
+   "难得素矿石"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Unobtainium ore can be found in the End Highland biome.It spawns under Y 78.",
+   "难得素矿石可在末地高地生物群系中找到，生成于 Y 78 以下。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Unobtainium Ore",
+   "难得素矿石"
+  ]
+ ]
+}

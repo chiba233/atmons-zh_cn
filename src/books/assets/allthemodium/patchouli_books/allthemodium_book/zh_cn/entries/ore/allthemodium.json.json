@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/ore/allthemodium.json",
+ "sha1": "3741d62d267ffd813d15bf144c3c0b390d873def",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Allthemodium Ore",
+   "ATM矿石"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Allthemodium Ore spawns in the Deep Dark biome in cave walls and ceilings, you can also find it as a common spawn very high in the Mountains above 170Y, It can also be found everywhere in the mining dimension between Y -59 and Y 20. also Deepslate layer caves of the Other Dimension",
+   "ATM矿石会生成在深暗之域生物群系的洞穴墙壁和天花板上；你也可以在山地生物群系 170Y 以上的高空较常见地发现它。它还会在采矿维度中 Y -59 到 Y 20 之间的任何位置生成，也会出现在异界维度的深板岩层洞穴中"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Allthemodium Ore",
+   "ATM矿石"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/muffler.json",
+ "sha1": "852413c7f43ba1ce1cabd3314869a2d8605e7873",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Muffler Upgrade",
+   "消声器升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade can be used to suppress sounds and particle effects made by item routers, and can be useful if a noisy module is regularly running in a place where a player often is.$(li)One or more Muffler Upgrades in a router will disable all audible effects$(li)Two or more will also disable all particle effects (beams and flying items)",
+   "该升级可用于抑制物品路由器产生的声音与粒子特效，在噪音较大的模块频繁运行于玩家常驻区域时尤为实用。$(li)路由器中安装一个或多个消音升级，将禁用所有可听音效；$(li)安装两个或以上时，还将禁用所有粒子特效（包括光束与飞行物品）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)Three upgrades will also disable the router's active animation; the pulsing texture on the front face of the router block$(p)Note that all sounds and particle effects can also be disabled in the mod config; this upgrade is only useful if sounds/effects have not been disabled.",
+   "$(li)安装三个消音升级还将禁用路由器的激活动画——即路由器方块正面的脉动纹理效果。$(p)请注意：所有声音与粒子特效亦可在模组配置中全局禁用；本升级仅在未全局禁用声音/特效时才具实际价值。"
+  ]
+ ]
+}

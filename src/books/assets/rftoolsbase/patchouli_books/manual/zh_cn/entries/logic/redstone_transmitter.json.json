@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/redstone_transmitter.json",
+ "sha1": "9dfe5d77cb8c500208674a3c97390cedf1812864",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Transmitter",
+   "红石信号发信器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This block will wirelessly send out a redstone signal on a specific channel when it gets a redstone signal. Use this in combination with the redstone receiver block. If you place this block down it will create a channel. You can also link this transmitter to existing channels by right clicking on another transmitter or receiver",
+   "当这个方块接收到红石信号时，它会在指定频道上无线发送一个红石信号。可与红石接收器方块配合使用。放置该方块时会创建一个频道。你也可以通过对另一个发射器或接收器右键，将这个发射器连接到已有频道。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Use a $(l:rftoolsbase:logic/redstone_receiver)Redstone Receiver$(/l) to receive redstone signals.$(br2)Using the GUI of this block you can give this channel a name which makes it easier to recognize",
+   "请使用$(l:rftoolsbase:logic/redstone_receiver)红石信号接收器$(/l)接收红石信号。$(br2)通过该方块的GUI，你可以为该通道命名，以便更轻松识别。"
+  ]
+ ]
+}

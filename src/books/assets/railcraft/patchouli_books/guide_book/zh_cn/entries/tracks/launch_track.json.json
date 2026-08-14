@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/launch_track.json",
+ "sha1": "bfe12a50fe151bd03b526e9ac8477a16a4f3194f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Launch Track",
+   "发射轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This track will launch any cart that passes over it into the air. Launch force can be adjusted by right-clicking on the rail with a Crowbar.$(br2)The track must be powered with Redstone to launch carts.",
+   "此轨道可将经过其上的任何矿车弹射至空中。弹射力度可通过撬棍右键点击轨道进行调节。$(br2)轨道必须由红石充能才能弹射矿车。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Maybe not very realistic, but a ton of fun anyway!This track will launch any cart that passes over it into the air. Launch force can be adjusted by right-clicking on the rail with a Crowbar.$(br2)The track must be powered with Redstone to launch carts.$(br2)Maybe not very realistic, but a ton of fun anyway!",
+   "虽不甚符合现实，却充满无穷乐趣！此轨道可将经过其上的任何矿车弹射至空中。弹射力度可通过撬棍右键点击轨道进行调节。$(br2)轨道必须由红石充能才能弹射矿车。$(br2)虽不甚符合现实，却充满无穷乐趣！"
+  ]
+ ]
+}

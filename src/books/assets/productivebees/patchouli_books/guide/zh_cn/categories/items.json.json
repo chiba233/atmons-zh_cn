@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/items.json",
+ "sha1": "b77828b75f9ef996550c13571d827f3da10244cd",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Stuff about the items in this mod",
+   "关于这个模组中物品的内容"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Items",
+   "物品"
+  ]
+ ]
+}

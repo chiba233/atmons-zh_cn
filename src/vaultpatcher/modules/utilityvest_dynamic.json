@@ -1,0 +1,19 @@
+[
+  {
+    "name": "utilityvest_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.satherov.utilityvest.client.screen.RadialMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Radial Menu",
+        "value": "径向菜单"
+      }
+    ]
+  }
+]

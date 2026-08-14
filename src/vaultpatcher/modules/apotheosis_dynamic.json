@@ -1,0 +1,23 @@
+[
+  {
+    "name": "apotheosis_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.client.WorldTierSelectScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Difficulty:",
+        "value": "难度："
+      },
+      {
+        "key": "Do something, idk",
+        "value": "做点什么，我也不知道"
+      }
+    ]
+  }
+]

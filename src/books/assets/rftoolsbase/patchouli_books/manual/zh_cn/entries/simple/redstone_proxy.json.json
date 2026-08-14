@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/redstone_proxy.json",
+ "sha1": "45dba4feb65400d86a1be618b394a310475aa305",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Proxy",
+   "红石代理器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Redstone Proxy is a helper block for redstone interaction. Use it where an XNet setup needs a simple redstone-facing block.",
+   "红石代理器是一种辅助型红石交互方块。当XNet系统需要一个简单且面向红石的方块时，请使用它。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The update variant also sends neighbor updates. Use it when nearby redstone should be notified immediately.",
+   "更新变体还会发送邻接方块更新信号。当邻近红石元件需立即获知状态变化时，请选用此变体。"
+  ]
+ ]
+}

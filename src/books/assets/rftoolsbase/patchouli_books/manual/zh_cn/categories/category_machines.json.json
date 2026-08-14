@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_machines.json",
+ "sha1": "ad1d08238bbfb1ee83ff473a57b0b150d4266998",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "All the machines",
+   "所有机器"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Machines",
+   "机器"
+  ]
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/laser_node.json",
+ "sha1": "bd5858b6284d604a2285f2c16abfd08086456ce9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Laser Node",
+   "激光节点"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Laser Node is the most important block in LaserIO as it allows interaction with adjacent blocks. $(br2)By using Cards such as the $(l:laserio:card_item)Item Card$(/l), you can interact with the adjacent block to transfer Items, Fluids, Energy, or Redstone.",
+   "激光节点能与毗邻方块交互，是本模组中最为重要的方块。$(br2)诸如$(l:laserio:card_item)物品卡$(/l)的各式物流卡可以让节点传输物品、流体、能量或红石信号。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Node interacting with Chest",
+   "与箱子交互的节点"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Laser Node",
+   "激光节点"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Each side of a node has a 3x3 grid of inventory slots that accept Cards. Right click a node's side to open it's UI. $(br2)Use the buttons along the top to change which side you're working on, in case the side you want to modify isn't easily accessible.$(br2)The adjacent screenshot shows a node interacting with an inventory on it's west side. ",
+   "节点的每个侧面都有接受物流卡的 3x3 方格。右击节点侧面以打开其界面。$(br2)可以用界面上方的按钮切换活动面，以免想调整的面不方便右击。$(br2)下页截图中的节点正与其西侧箱子交互。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Node UI with Card",
+   "装有物流卡的节点界面"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Laser Node UI",
+   "激光节点界面"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Nodes can interact with multiple adjacent inventories at the same time.",
+   "节点能同时与不同侧面的存储空间交互。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Node between 2 chests",
+   "在两个箱子之间的节点"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Laser Node Working",
+   "正在运作的激光节点"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Nodes can be connected together using the $(l:laserio:laser_wrench)Laser Wrench$(/l), allowing connections between distant inventories.  The maximum range between connections is 8 blocks.$(br2)If your nodes are father apart, it is recommended to use $(l:laserio:laser_connector)Laser Connectors$().",
+   "节点可用$(l:laserio:laser_wrench)激光扳手$(/l)相互连接，从而连接相距较远的存储空间。节点间连接最大长度为 8 格。$(br2)若节点间距大于该距离，推荐选用$(l:laserio:laser_connector)激光连接器$()连接两者。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "Two Nodes Connected",
+   "相连的两个激光节点"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Laser Nodes Connected",
+   "相连的激光节点"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Laser Node",
+   "激光节点"
+  ]
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reprocessor/part-collector.json",
+ "sha1": "1dc28d8730017d9309e07b6a9e85aa1f85b30695",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Collector",
+   "采集器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Collector acquire material from the Reprocessor interior once a re-processing job is complete.",
+   "再处理作业完成后，采集器会从再处理器内部获取材料。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Collector",
+   "采集器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Collector",
+   "采集器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() bottom face (not on frame)$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()必须且仅需一个$(br)$(l)有效位置：$()底部表面（不可位于框架上）$(br)$(l)图形界面：$()无"
+  ]
+ ]
+}

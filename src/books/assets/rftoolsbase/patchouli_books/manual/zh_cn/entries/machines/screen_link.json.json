@@ -1,0 +1,67 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen_link.json",
+ "sha1": "fb3f4909d957e9c1079fc439a357b4dd97a48683",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Screen Link",
+   "屏幕链接"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Screen Link stores the location of a $(l:rftoolsbase:machines/screen)Screen$(/l) so a $(l:rftoolsbase:tools/tablet)Tablet$(/l) can open that screen remotely.",
+   "屏幕链接用于储存$(l:rftoolsbase:machines/screen)屏幕$(/l)的位置，从而使$(l:rftoolsbase:tools/tablet)平板电脑$(/l)能够远程打开该屏幕。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Screen Link",
+   "屏幕链接"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Right-click a Screen with the Screen Link to store it. Right-clicking a non-screen block clears the stored target.",
+   "使用屏幕链接对屏幕右键以储存其位置；对非屏幕方块右键则可清除已储存的目标。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Linking",
+   "连接"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Put the link in a Tablet. Using the tablet opens the remote screen if the screen's chunk is loaded. Sneak-use opens the tablet interface.",
+   "将链接存入平板电脑。使用该平板电脑时，若目标屏幕所在区块已加载，则自动打开远程屏幕界面；潜行使用则打开平板电脑自身界面。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Tablet",
+   "碑"
+  ]
+ ]
+}

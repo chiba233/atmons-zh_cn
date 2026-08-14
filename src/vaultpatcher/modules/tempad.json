@@ -1,0 +1,19 @@
+[
+  {
+    "name": "tempad_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "earth.terrarium.tempad.common.block.timedoor_marker.AbstractMarkerBlock"
+    ],
+    "pairs": [
+      {
+        "key": "null cannot be cast to non-null type earth.terrarium.tempad.common.block.timedoor_marker.AbstractMarkerBe",
+        "value": "null 无法转换为非空类型 earth.terrarium.tempad.common.block.timedoor_marker.AbstractMarkerBe"
+      }
+    ]
+  }
+]

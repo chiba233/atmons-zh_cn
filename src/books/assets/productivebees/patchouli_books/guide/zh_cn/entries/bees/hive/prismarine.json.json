@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/prismarine.json",
+ "sha1": "4fda8b8b5a6352996daf67d1ba7f04bd7217dfd8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Prismarine Bee",
+   "海晶蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Obtained by fishing in an ocean biome.",
+   "通过在海洋生物群系中钓鱼获得。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Prismarine Bee",
+   "海晶蜜蜂"
+  ]
+ ]
+}

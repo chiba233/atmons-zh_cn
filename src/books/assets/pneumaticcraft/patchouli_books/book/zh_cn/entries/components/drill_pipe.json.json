@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/drill_pipe.json",
+ "sha1": "c40dafeee80f42a089aa91de5ae9b853a0babc59",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Drill Pipe",
+   "气举钻管"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Drill Pipes/$ are required by the $(l:machines/gas_lift)Gas Lift/$ to drill down to fluids.$(p)They are also suitable for use in general building, if you like.",
+   "$(item)气举钻管/$是 $(l:machines/gas_lift)气举/$ 向下钻取流体所必需的。$(p)当然，如果你愿意，它们也适合用于一般建筑。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting an Drill Pipe",
+   "合成气举钻管"
+  ]
+ ]
+}

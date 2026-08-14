@@ -1,0 +1,83 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/_meta.json",
+ "sha1": "a9ff2a82199357ff374aab806ee9ed4cbba3059a",
+ "t": [
+  [
+   [
+    "addons.mdx"
+   ],
+   "Dodatki",
+   "插件"
+  ],
+  [
+   [
+    "assembler.mdx"
+   ],
+   "Assember",
+   "装配器"
+  ],
+  [
+   [
+    "atomic_forge.mdx"
+   ],
+   "Kuźnia Atomowa",
+   "原子锻炉"
+  ],
+  [
+   [
+    "centrifuge.mdx"
+   ],
+   "Centrifuga",
+   "离心机"
+  ],
+  [
+   [
+    "foundry.mdx"
+   ],
+   "Huta",
+   "冶炼厂"
+  ],
+  [
+   [
+    "fragment_forge.mdx"
+   ],
+   "Kuźnia Fragmentów",
+   "粉碎工厂"
+  ],
+  [
+   [
+    "generators.mdx"
+   ],
+   "Generatory",
+   "发电机"
+  ],
+  [
+   [
+    "machine_basics.mdx"
+   ],
+   "Podstawy Maszyn",
+   "机器基础"
+  ],
+  [
+   [
+    "multiblocks.mdx"
+   ],
+   "Multibloki",
+   "多方块"
+  ],
+  [
+   [
+    "pulverizer.mdx"
+   ],
+   "Młynek",
+   "研磨机"
+  ],
+  [
+   [
+    "steam_engine.mdx"
+   ],
+   "Silnik Parowy",
+   "蒸汽引擎"
+  ]
+ ]
+}

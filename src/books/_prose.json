@@ -1,0 +1,2838 @@
+{
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/aae_intro-index.md": {
+  "sha1": "92df5a644918fac2d4f6642ac35539d40c998467",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/aae_intro-index.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/advanced_io_bus.md": {
+  "sha1": "c5245889201c194cc6673797970671c9362e0924",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/advanced_io_bus.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/advanced_pattern_encoder.md": {
+  "sha1": "31da5d9520ad8e1bafe50e1f90a243e4c8e3d717",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/advanced_pattern_encoder.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/advanced_pattern_provider.md": {
+  "sha1": "fd8484c74e375e64338af89fe3212fc4d50875c2",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/advanced_pattern_provider.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/app_upgrade_items.md": {
+  "sha1": "0b924d1ebe3892f38b803ec205a9a569a9ccf239",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/app_upgrade_items.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/import_export_bus.md": {
+  "sha1": "5469199977b6d3ac39b66128ca982fd23ce70beb",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/import_export_bus.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_armor.md": {
+  "sha1": "35036da4a82f74fa80bc703b1b468414cb0aa967",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/quantum_armor.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_computer.md": {
+  "sha1": "b4de73fca16cb074f1e5e18b6845d6fbd6bea4b6",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/quantum_computer.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_crafter.md": {
+  "sha1": "71e611b6620e2254cf47bb3f77c323c5d4740a4d",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/quantum_crafter.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/quantum_crafter_terminal.md": {
+  "sha1": "0826195f2e2a7c4051f66a294f85991c05f25b01",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/quantum_crafter_terminal.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/reaction_chamber.md": {
+  "sha1": "fc0a70bceba231eb74a6fa6ce785ca3d56c005da",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/reaction_chamber.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/stock_export_bus.md": {
+  "sha1": "90822c7a4ee144f7909e06df3dd2b9e337ce49c3",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/stock_export_bus.md"
+ },
+ "assets/advanced_ae/ae2guide/_zh_cn/aae_intro/throughput_monitor.md": {
+  "sha1": "daa743016f4728179b5de35b0e09e96dcffe53bb",
+  "src": "assets/advanced_ae/ae2guide/aae_intro/throughput_monitor.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/ae2-mechanics-index.md": {
+  "sha1": "912f47fd3cae2feddd946d694a14f3bfa09e71c8",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/ae2-mechanics-index.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/autocrafting.md": {
+  "sha1": "9140d4f1cdd1f8271c5807a88d86f04dffa671da",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/autocrafting.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/bytes-and-types.md": {
+  "sha1": "32df11724599e30c9f45d104182f094fbbe14a2c",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/bytes-and-types.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/cable-subparts.md": {
+  "sha1": "5f887be84159775f7eb0da0ef795f65c5d438b4c",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/cable-subparts.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/certus-growth.md": {
+  "sha1": "00fbe1d027bb27c50cb4d9f10272385969e6e1fe",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/certus-growth.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/channels.md": {
+  "sha1": "363e77121ba995804f2034041e092b2a76ff67dd",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/channels.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/devices.md": {
+  "sha1": "22e9672f01c0af9c59b0b71ef3ef50e16f268e60",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/devices.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/energy.md": {
+  "sha1": "4b3ab7be567901b0472bdb0b49e35d2d2da215f6",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/energy.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/import-export-storage.md": {
+  "sha1": "aa7e3fbcc6a31927bbcabfc7cb7ae6ff11710d9c",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/import-export-storage.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/me-network-connections.md": {
+  "sha1": "0b161046bb748ed40dd0ae1c3e3edbcca82aee57",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/me-network-connections.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/meteorites.md": {
+  "sha1": "b39f1e74e4054120579b1ba88ef2be66c1f27402",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/meteorites.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/p2p-tunnels.md": {
+  "sha1": "264c5b5340bb2372a2030e285345f146cd6aaeb2",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/p2p-tunnels.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/quantum-bridge.md": {
+  "sha1": "fe854b2325b34667adddaf92a160ec61395283a1",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/quantum-bridge.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/spatial-io.md": {
+  "sha1": "dea3ec99e489152846d720070f51bfffe4f822c6",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/spatial-io.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2-mechanics/subnetworks.md": {
+  "sha1": "313ac19d471148d911e78aa915757a1b3d8d6475",
+  "src": "assets/ae2/ae2guide/ae2-mechanics/subnetworks.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/ae2importexportcard-index.md": {
+  "sha1": "00a96a8cb24aad16955e0cbd1228c5bc8fd0e510",
+  "src": "assets/ae2/ae2guide/ae2importexportcard-index.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/import_storage_export_pipe.snbt": {
+  "sha1": "56f10b006908f20b8ccd6fe73441a8bee1d608fc",
+  "src": "assets/ae2/ae2guide/assets/assemblies/import_storage_export_pipe.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/machine_automation_1.snbt": {
+  "sha1": "cb2c7f2a8a6ae22a492e5297a1bdaa2d176b2927",
+  "src": "assets/ae2/ae2guide/assets/assemblies/machine_automation_1.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/machine_automation_2.snbt": {
+  "sha1": "62caddaf54f58321488b3402c258668e836aed02",
+  "src": "assets/ae2/ae2guide/assets/assemblies/machine_automation_2.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/metallurgic_infuser_automation.snbt": {
+  "sha1": "9925696b731049fa2fc2957dc75df3393976e505",
+  "src": "assets/ae2/ae2guide/assets/assemblies/metallurgic_infuser_automation.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/network_storage_types.snbt": {
+  "sha1": "6e40ff13cd037fd25dfa3a7ebb501872b6faca3a",
+  "src": "assets/ae2/ae2guide/assets/assemblies/network_storage_types.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/provider_misconception_1.snbt": {
+  "sha1": "dece93a9639e1229e7fbe7e301478239c439ea79",
+  "src": "assets/ae2/ae2guide/assets/assemblies/provider_misconception_1.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/provider_misconception_2.snbt": {
+  "sha1": "61952e6f63353a6260793b67ec15009af8adc90e",
+  "src": "assets/ae2/ae2guide/assets/assemblies/provider_misconception_2.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/provider_misconception_3.snbt": {
+  "sha1": "f1e208547cf2a2e54146d238883f6108033eff79",
+  "src": "assets/ae2/ae2guide/assets/assemblies/provider_misconception_3.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/assets/assemblies/treelike_network_structure.snbt": {
+  "sha1": "5eac8d0298ce36f8b8b34fe6677be139dc128c3e",
+  "src": "assets/ae2/ae2guide/assets/assemblies/treelike_network_structure.snbt"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/advanced-certus-farm.md": {
+  "sha1": "2416aba8bcd398c9e3a8723f00bf7bc5dc5d40f6",
+  "src": "assets/ae2/ae2guide/example-setups/advanced-certus-farm.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/amethyst-farm.md": {
+  "sha1": "a58917704d228196179f2bd3b585a44491e5c132",
+  "src": "assets/ae2/ae2guide/example-setups/amethyst-farm.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-emptier.md": {
+  "sha1": "bc62713e6847d623745b7a48847dd5bfd8b92e8f",
+  "src": "assets/ae2/ae2guide/example-setups/bucket-emptier.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/bucket-filler.md": {
+  "sha1": "43cc078ff0ebfba8d78e7b87e07cd1db280f4f22",
+  "src": "assets/ae2/ae2guide/example-setups/bucket-filler.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/cell-dumper-filler.md": {
+  "sha1": "7ac92b15fe04c9c6337cbea5aae3c4fae9b2c791",
+  "src": "assets/ae2/ae2guide/example-setups/cell-dumper-filler.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/charger-automation.md": {
+  "sha1": "92072e16625c522b7feb6e1355bb2cc28e46a19a",
+  "src": "assets/ae2/ae2guide/example-setups/charger-automation.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/example-setups-index.md": {
+  "sha1": "760a103e1827265b4de64a7d714bfc340a7ae260",
+  "src": "assets/ae2/ae2guide/example-setups/example-setups-index.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/furnace-automation.md": {
+  "sha1": "81db29fe4e57dfaa727406093fae7e91c2d71a7a",
+  "src": "assets/ae2/ae2guide/example-setups/furnace-automation.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/interface-autostocking.md": {
+  "sha1": "ffd816148e780dc6d882966f3956e5d56dd59a64",
+  "src": "assets/ae2/ae2guide/example-setups/interface-autostocking.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/level-emitter-autostocking.md": {
+  "sha1": "2c6ba5d3ea3b876f2212f3c45d00edb87edee444",
+  "src": "assets/ae2/ae2guide/example-setups/level-emitter-autostocking.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/main-network.md": {
+  "sha1": "d6624d3f22119c24c3cc241339fd4380d0701cb1",
+  "src": "assets/ae2/ae2guide/example-setups/main-network.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/ore-fortuner.md": {
+  "sha1": "da8722991f3bf60a8ca34fd0a8dce0e4a4f8b597",
+  "src": "assets/ae2/ae2guide/example-setups/ore-fortuner.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/pipe-subnet.md": {
+  "sha1": "16007bd18e4f3d463b690c0b23022ab4c7375995",
+  "src": "assets/ae2/ae2guide/example-setups/pipe-subnet.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/processor-automation.md": {
+  "sha1": "1c9009cc84d41f15521d267c38dba39d84d67c65",
+  "src": "assets/ae2/ae2guide/example-setups/processor-automation.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/recursive-crafting-setup.md": {
+  "sha1": "4268da89b934ac172dd2405f45c3b74df1ee4b49",
+  "src": "assets/ae2/ae2guide/example-setups/recursive-crafting-setup.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/regulated-cobble-gen.md": {
+  "sha1": "d73a10b9eb0a61393fc0a600d22586b8da582660",
+  "src": "assets/ae2/ae2guide/example-setups/regulated-cobble-gen.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/semiauto-certus-farm.md": {
+  "sha1": "b07001e681131f074686ee29e01c21d759ba384b",
+  "src": "assets/ae2/ae2guide/example-setups/semiauto-certus-farm.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/simple-certus-farm.md": {
+  "sha1": "b33cf04af32a2fa55af0d087b69e7bc579f6ae92",
+  "src": "assets/ae2/ae2guide/example-setups/simple-certus-farm.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/specialized-local-storage.md": {
+  "sha1": "f5b5090d88bb4bbe51e0119cd1dfb3e9b7253a65",
+  "src": "assets/ae2/ae2guide/example-setups/specialized-local-storage.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/storage-types.md": {
+  "sha1": "e7fa53675777b54d21349ee0b1975eadad283f25",
+  "src": "assets/ae2/ae2guide/example-setups/storage-types.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/example-setups/throw-in-water-automation.md": {
+  "sha1": "b7362bec49cad076781957574c6eceac2ed7ea69",
+  "src": "assets/ae2/ae2guide/example-setups/throw-in-water-automation.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/getting-started.md": {
+  "sha1": "2aca3ca419dae1ad9f059c384f5b0da1811bd854",
+  "src": "assets/ae2/ae2guide/getting-started.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/index.md": {
+  "sha1": "f92c92529ad0b12b01c4cebfbb62f3e32fa35eb6",
+  "src": "assets/ae2/ae2guide/index.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/annihilation_plane.md": {
+  "sha1": "3e6e20d97dda68bcb3d1d014b1cc55d72177c93f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/annihilation_plane.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/budding_certus.md": {
+  "sha1": "d965a9a76a8d819dd348911a1bc96b51d3ac1656",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/budding_certus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/cable_anchor.md": {
+  "sha1": "395dc07df384784e2f8780602c76b474df3abb43",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/cable_anchor.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/cables.md": {
+  "sha1": "626a31d31572b289eb94cd5264512d7334508ac7",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/cables.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/cell_workbench.md": {
+  "sha1": "74fba2f93fe25e0b07db107b0588dc9018c18144",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/cell_workbench.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/certus_quartz_crystal.md": {
+  "sha1": "432c5fb882415c77631ba4c2db777973d17fb0db",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/certus_quartz_crystal.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/certus_quartz_crystal_charged.md": {
+  "sha1": "57a223edcc4027f0448ca1cb45309fd7c5e05d0e",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/certus_quartz_crystal_charged.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/certus_quartz_dust.md": {
+  "sha1": "d1c687c10702051b20de366a36bfc843df1ac380",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/certus_quartz_dust.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/charged_staff.md": {
+  "sha1": "e10f59b81047617ca9a3d3c5a4d1bba03961a439",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/charged_staff.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/charger.md": {
+  "sha1": "1408e8148253bba5489b17f9248f1cc7fff3ac31",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/charger.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/chest.md": {
+  "sha1": "ab62e32ead2cb1b50d3f063b90ea5bc263ac8c93",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/chest.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/color_applicator.md": {
+  "sha1": "fad1b0caf8fb843502167776a5cc0f4826a1eb75",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/color_applicator.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/condenser.md": {
+  "sha1": "7f951c38f35f5a88841aed29de7cd2ad9aa8a855",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/condenser.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/controller.md": {
+  "sha1": "593c94839aeee97829537e0bd43452e5989fb6f4",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/controller.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/crafting_cpu_multiblock.md": {
+  "sha1": "d638b49b1a67610f3704bf1580ea29b22ad52f5c",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/crafting_cpu_multiblock.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/crank.md": {
+  "sha1": "6602b9c1a08f845b474511797140858abdbed2bf",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/crank.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/crystal_resonance_generator.md": {
+  "sha1": "9df9367098d2191a62f1c78a704e2249baf2efe3",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/crystal_resonance_generator.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/cutting_knives.md": {
+  "sha1": "9f15b4fd77c8bfe15acc02107f8d35c27e34594a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/cutting_knives.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/decorative_certus.md": {
+  "sha1": "f4a6d235b9c28a6db4148b78d96994a4b0bb678c",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/decorative_certus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/decorative_fluix.md": {
+  "sha1": "e2a455463d368b1856014b12dbe196d275cc8030",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/decorative_fluix.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/decorative_sky_stone.md": {
+  "sha1": "78d62df7a70e54a40186d09cdb23a15953f7ea7b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/decorative_sky_stone.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/drive.md": {
+  "sha1": "ca9805cee23c390118a118affd32b7ba505532c6",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/drive.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/ender_dust.md": {
+  "sha1": "cc86bf979314e222bb024224659f6fb4a3e8a47d",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/ender_dust.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/energy_acceptor.md": {
+  "sha1": "53919f68eb83e5a7267f8a218d71f5ebc2b7b9f9",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/energy_acceptor.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/energy_cells.md": {
+  "sha1": "b55207a351785d30a6e2189197748b90e85fac35",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/energy_cells.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/entropy_manipulator.md": {
+  "sha1": "c14da03df831d3368a5f83a2a9e391ac1761294f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/entropy_manipulator.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/export_bus.md": {
+  "sha1": "96bed59888b77a8d174c998e805c5d12f96d66a4",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/export_bus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/facades.md": {
+  "sha1": "31e24a7ba10468d3282d88039f8b835c2dcc7470",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/facades.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_block.md": {
+  "sha1": "0cc169be44d22e7ca1630101f1e224bd989e3e24",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_block.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_crystal.md": {
+  "sha1": "38234beb843425bdda254b4295f5a73a5d9f9ef5",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_crystal.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_dust.md": {
+  "sha1": "a7d3fdbe5ce29f5e34779de1b155852ccf4c34fa",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_dust.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_pearl.md": {
+  "sha1": "66aaed489270116f56d47de57b5aa888453b7c39",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_pearl.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_researcher.md": {
+  "sha1": "a710d6e2f3c9de8b755dcb4a5ff1e11938c84fb2",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_researcher.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_tools.md": {
+  "sha1": "8eaafff87decc892ee5181b58fbe6b8a325695ec",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_tools.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/fluix_upgrade_smithing_template.md": {
+  "sha1": "ed78efc3cc8f5f1d4815ff7d0b278429266d9c9a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/fluix_upgrade_smithing_template.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/formation_annihilation_core.md": {
+  "sha1": "09e431d170fc9c1798cc1ecd46a39f21f292689b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/formation_annihilation_core.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/formation_plane.md": {
+  "sha1": "553c875fc3b0284a8d27c52e4be95c7cb46a086b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/formation_plane.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/growth_accelerator.md": {
+  "sha1": "bd736dfa661d170ac34357070f7d99b97c1ee527",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/growth_accelerator.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/guide.md": {
+  "sha1": "1ab495b113389e956ae9ec24d8d58b6e034d279a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/guide.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/illuminated_panels.md": {
+  "sha1": "5b04d8ac1362cda5a0d390af8a8fd77b022b3f21",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/illuminated_panels.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/import_bus.md": {
+  "sha1": "7b1400153ebf8352605afb6bb386c253d5bec41a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/import_bus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/inscriber.md": {
+  "sha1": "0e96b6ef663b92bd5473d60b2f230d96fa333889",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/inscriber.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/interface.md": {
+  "sha1": "b648e1cb34531effb340016f387b502e4891230a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/interface.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/io_port.md": {
+  "sha1": "5dd1c51c93bbec382d85be700bff90728da1e22f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/io_port.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/items-blocks-machines-index.md": {
+  "sha1": "6ef18242b7aff8706756866922d75913be3d30e8",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/items-blocks-machines-index.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/level_emitter.md": {
+  "sha1": "9d08382c412079e24ba26231efc29c375018f24d",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/level_emitter.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/matter_ball.md": {
+  "sha1": "cee01fdf188a47538633008e29ca19819782f42f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/matter_ball.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/matter_cannon.md": {
+  "sha1": "d017c85275f250fc26dc984c5c2e8cabb9f419c2",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/matter_cannon.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/memory_card.md": {
+  "sha1": "f085a33ef15bf1a84a01bc26ccb472aa40eaad1a",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/memory_card.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/meteorite_compass.md": {
+  "sha1": "79ff20fbb01af095906ef914079f21a44572c2fc",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/meteorite_compass.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/molecular_assembler.md": {
+  "sha1": "0bf5173e76e1972657aebda5fd6df9c246774d22",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/molecular_assembler.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/monitors.md": {
+  "sha1": "fcf1b8387373972f16353cabb1b55f376d06575b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/monitors.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/mysterious_cube.md": {
+  "sha1": "3a9be89bf94aa45729b60f98999939d9be123a49",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/mysterious_cube.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/network_tool.md": {
+  "sha1": "3602711365a8dbc6275f88f0de6c70487a7a7a4b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/network_tool.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/p2p_tunnels.md": {
+  "sha1": "72dc3bbf2d4d3c154b301eb812e5c37386faa2f4",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/p2p_tunnels.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/paintballs.md": {
+  "sha1": "fc2fbcbe0ed9f4c8c2021b765e0d6f10b7743d3f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/paintballs.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/pattern_provider.md": {
+  "sha1": "7b842afe0a67a865e6823f81151c39b5c88de623",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/pattern_provider.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/patterns.md": {
+  "sha1": "4eeca199acfec26625c0f7a40bb3001faf42d0a9",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/patterns.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/presses.md": {
+  "sha1": "cd9ad451f6cf6b3c6d0e2bebd316d219e2607ab4",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/presses.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/processors.md": {
+  "sha1": "7789bc9c72e744c617e08971bc76b54d41d6c7f6",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/processors.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quantum_bridge.md": {
+  "sha1": "51a78cbab99ee725156618624c4072048daf3058",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quantum_bridge.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quartz_block.md": {
+  "sha1": "55f529e14ea32bd768b416b4198de7f22a4a303e",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quartz_block.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quartz_fiber.md": {
+  "sha1": "f709ed6b5b38037756af81a79f9cf9237ca5a628",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quartz_fiber.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quartz_fixture.md": {
+  "sha1": "92c411e6d2112741cb3edcade64465547f8b96ff",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quartz_fixture.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quartz_glass.md": {
+  "sha1": "92d4976ed7167ed9ef76214d4319b43dda366eb1",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quartz_glass.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/quartz_tools.md": {
+  "sha1": "501de539fbe3d7936cebf705bb9c4e3f290eb0c8",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/quartz_tools.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/singularities.md": {
+  "sha1": "426501f4788f350ce6f193b5fbd5d1046e5db850",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/singularities.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/sky_dust.md": {
+  "sha1": "215f5ab17d8300eebea48f591ff3916e33612c9b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/sky_dust.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/sky_stone.md": {
+  "sha1": "08bbd1cf6997bbc2af61b4917260e66d091b33d6",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/sky_stone.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/sky_stone_tank.md": {
+  "sha1": "c542e97eb6e77b36473642979cb1fd257cb87155",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/sky_stone_tank.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/spatial_anchor.md": {
+  "sha1": "6abd2db262a30a083662f891359917423f413efd",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/spatial_anchor.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/spatial_cells.md": {
+  "sha1": "bd42ff86116089d9d619e3a2681c541f36f538d9",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/spatial_cells.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/spatial_io_port.md": {
+  "sha1": "2bbf7202e5611a5cff8bc6a4bd1c1d114499c4d8",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/spatial_io_port.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/spatial_pylon.md": {
+  "sha1": "e1a5533213819740c20e5f266e2f30c2c361a9ab",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/spatial_pylon.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/storage_bus.md": {
+  "sha1": "1747e508c718ee2b3f550121fcbb7a2f61d6dcab",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/storage_bus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/storage_cells.md": {
+  "sha1": "4c768497c781b7570adde13fb62ff41a29a0b687",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/storage_cells.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/terminals.md": {
+  "sha1": "ea8bd1157f15b4a5298ccd66a82ef24d9c7f27be",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/terminals.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/tiny_tnt.md": {
+  "sha1": "e99798fca32062d7639c8dc818c5468df37c7392",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/tiny_tnt.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/toggle_bus.md": {
+  "sha1": "fa6d0b8077715b1089fca635d58f2b7ae02a6d5b",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/toggle_bus.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/upgrade_cards.md": {
+  "sha1": "c8c920f171d988df43e3f83b13a980c66e0fa75f",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/upgrade_cards.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/vibration_chamber.md": {
+  "sha1": "e7ab8766771dd705007d3f43e6933ae27388a007",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/vibration_chamber.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/view_cell.md": {
+  "sha1": "73ddb0a3a26c57c6c6e2deae2da92d43fd8d32ec",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/view_cell.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/wireless_access_point.md": {
+  "sha1": "89bc99777beace9a035b7c0a2d4d2aa3b9c17c5e",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/wireless_access_point.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/wireless_receiver.md": {
+  "sha1": "dbe2de712f789b7a0b1381a6b4a8541b855c63aa",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/wireless_receiver.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/wireless_terminals.md": {
+  "sha1": "752c0693e54bb793a220450cde986c13cb7ef337",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/wireless_terminals.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/items-blocks-machines/wrench.md": {
+  "sha1": "e9d23da0f6a7fd8c2cdd1ce7ca282f434e29e8a6",
+  "src": "assets/ae2/ae2guide/items-blocks-machines/wrench.md"
+ },
+ "assets/ae2/ae2guide/_zh_cn/tips-and-tricks.md": {
+  "sha1": "f685f84ab707af42091f9b2d7dbdfefa77922a6d",
+  "src": "assets/ae2/ae2guide/tips-and-tricks.md"
+ },
+ "assets/ae2netanalyser/ae2guide/_zh_cn/ae2_network_analyser.md": {
+  "sha1": "c2ec23bd2596ae6734a11983070d490fe495882a",
+  "src": "assets/ae2netanalyser/ae2guide/ae2_network_analyser.md"
+ },
+ "assets/ae2netanalyser/ae2guide/_zh_cn/ae2_tick_profiler.md": {
+  "sha1": "3a0efb08248c740026e87d7b6e6c8775c814356f",
+  "src": "assets/ae2netanalyser/ae2guide/ae2_tick_profiler.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/ae2wtlib-index.md": {
+  "sha1": "c7bbec19d87772b01fc12d122a58dfd4ac6b22fe",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/ae2wtlib-index.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/magnet_card.md": {
+  "sha1": "79baf594ab1b1d5d1a38e677fd66c1de6e1dd9c2",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/magnet_card.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/quantum_bridge_card.md": {
+  "sha1": "7b94b027ed066ec791ad76cf3b804d78f3589705",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/quantum_bridge_card.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/restock.md": {
+  "sha1": "4b52da66d070a5af91ff9925af4c68c89d4cddde",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/restock.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/wireless_crafting_terminal.md": {
+  "sha1": "104ca126678aebc7abe5c9c708fd8e9d1c227d3b",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/wireless_crafting_terminal.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/wireless_terminals.md": {
+  "sha1": "39071fcc5e299072e9ab237afe7e5a683ce447c2",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/wireless_terminals.md"
+ },
+ "assets/ae2wtlib/ae2guide/_zh_cn/ae2wtlib/wireless_universal_terminal.md": {
+  "sha1": "daecc84447cd62098ef886fe8093d29fd0338fb1",
+  "src": "assets/ae2wtlib/ae2guide/ae2wtlib/wireless_universal_terminal.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/appflux-index.md": {
+  "sha1": "79a946063e59915cdcb0b5859c0807e3df390276",
+  "src": "assets/appflux/ae2guide/appflux/appflux-index.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/diamond_dust.md": {
+  "sha1": "44d7ba95901f8bcf8aefa8cf0e8b992277f2023a",
+  "src": "assets/appflux/ae2guide/appflux/diamond_dust.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/emerald_dust.md": {
+  "sha1": "40220a3423600411832e6d2e6d6a99452b229f7a",
+  "src": "assets/appflux/ae2guide/appflux/emerald_dust.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/energy_processor.md": {
+  "sha1": "fb9629356b2bccf933d250ca74d576c1addca1b0",
+  "src": "assets/appflux/ae2guide/appflux/energy_processor.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/flux_accessor.md": {
+  "sha1": "cda91f18776fdd130cf543a8dece7b780c5f659f",
+  "src": "assets/appflux/ae2guide/appflux/flux_accessor.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/flux_cells.md": {
+  "sha1": "c44922022841c3f5e6480287fe899cb34edcf03f",
+  "src": "assets/appflux/ae2guide/appflux/flux_cells.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/induction_card.md": {
+  "sha1": "b9307a143ac48e6e57d3778d51e63589ae88272f",
+  "src": "assets/appflux/ae2guide/appflux/induction_card.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/insulating_resin.md": {
+  "sha1": "933cec7d5cf130927d7c48bd3330fee0c90e8f1c",
+  "src": "assets/appflux/ae2guide/appflux/insulating_resin.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/mark_energy.md": {
+  "sha1": "4695764ec157a0ec598b0928b795c5e5c4d68264",
+  "src": "assets/appflux/ae2guide/appflux/mark_energy.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/portable_flux_cells.md": {
+  "sha1": "95c68a63bdfd5b247c1848f25bed25eb80e3a6e4",
+  "src": "assets/appflux/ae2guide/appflux/portable_flux_cells.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/redstone_crystal.md": {
+  "sha1": "4d0190e2586e960e895e479388d2a24e4ef4ee58",
+  "src": "assets/appflux/ae2guide/appflux/redstone_crystal.md"
+ },
+ "assets/appflux/ae2guide/_zh_cn/appflux/terminal_interact.md": {
+  "sha1": "5781d5cf638fb0429ed10fd290cfb35d900b3f87",
+  "src": "assets/appflux/ae2guide/appflux/terminal_interact.md"
+ },
+ "assets/arseng/ae2guide/_zh_cn/arseng-index.md": {
+  "sha1": "1f97ba50af16863162f8fb6e3a16cc260d53a939",
+  "src": "assets/arseng/ae2guide/arseng-index.md"
+ },
+ "assets/enderdrives/ae2guide/_zh_cn/enderdrives_intro/enderdrives_intro-index.md": {
+  "sha1": "067f6c452742941fba40dd3fd3dd23a1a8037be5",
+  "src": "assets/enderdrives/ae2guide/enderdrives_intro/enderdrives_intro-index.md"
+ },
+ "assets/enderdrives/ae2guide/_zh_cn/enderdrives_intro/enderdrives_intro.md": {
+  "sha1": "36c155bcfe699fc9f05fa942b1c9fe190ddce7c3",
+  "src": "assets/enderdrives/ae2guide/enderdrives_intro/enderdrives_intro.md"
+ },
+ "assets/enderdrives/ae2guide/_zh_cn/enderdrives_intro/tapedrive_intro.md": {
+  "sha1": "ae0a08699f11a7ebace9de253eb30b586502804c",
+  "src": "assets/enderdrives/ae2guide/enderdrives_intro/tapedrive_intro.md"
+ },
+ "assets/energymeter/guides/energymeter/guide/_zh_cn/index.md": {
+  "sha1": "49a8e290c6b21d40696a9223c7d6bbfe9dbe9136",
+  "src": "assets/energymeter/guides/energymeter/guide/index.md"
+ },
+ "assets/energymeter/guides/energymeter/guide/_zh_cn/interface.md": {
+  "sha1": "5bcc1acfedb2187cfbc71a906503093891cb714d",
+  "src": "assets/energymeter/guides/energymeter/guide/interface.md"
+ },
+ "assets/expandedae/ae2guide/_zh_cn/cards.md": {
+  "sha1": "8cfbab57d048a6ad7ca6a294a5a68699353d8b77",
+  "src": "assets/expandedae/ae2guide/cards.md"
+ },
+ "assets/expandedae/ae2guide/_zh_cn/exp_encoding.md": {
+  "sha1": "1d3e9fad1420e51c3bd53e30baf9f0fd63b7086c",
+  "src": "assets/expandedae/ae2guide/exp_encoding.md"
+ },
+ "assets/expandedae/ae2guide/_zh_cn/exp_pp.md": {
+  "sha1": "1592ce033f19c00a449827dbefd0f7dfd063884f",
+  "src": "assets/expandedae/ae2guide/exp_pp.md"
+ },
+ "assets/expandedae/ae2guide/_zh_cn/expandedae-index.md": {
+  "sha1": "74baaf6e6b69d08bcb38ec083e5189a536a7e539",
+  "src": "assets/expandedae/ae2guide/expandedae-index.md"
+ },
+ "assets/expandedae/ae2guide/_zh_cn/qol-features.md": {
+  "sha1": "36af45e18cf2aa15d9fedc4e8d14d7799826275b",
+  "src": "assets/expandedae/ae2guide/qol-features.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/active_formation_plane.md": {
+  "sha1": "4f750e2faf73c9102b63a0ac2abf44de052069e2",
+  "src": "assets/extendedae/ae2guide/epp_intro/active_formation_plane.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/assembler_matrix.md": {
+  "sha1": "74f4808608f95504bb63726b9df3a2ede18c06f8",
+  "src": "assets/extendedae/ae2guide/epp_intro/assembler_matrix.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/caner.md": {
+  "sha1": "0924e16d6b7e063d684b9406bfea7ce0c321d897",
+  "src": "assets/extendedae/ae2guide/epp_intro/caner.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/circuit_cutter.md": {
+  "sha1": "83cc4ce0238dc22fb62d9a41fbf297e6a95b2783",
+  "src": "assets/extendedae/ae2guide/epp_intro/circuit_cutter.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/concurrent_processor.md": {
+  "sha1": "f2a9d162bd07caa701f6ae37d6465f4fc158e48b",
+  "src": "assets/extendedae/ae2guide/epp_intro/concurrent_processor.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/config_modifier.md": {
+  "sha1": "bfb2f0915ef1b451a1f49aea8a9e6738a7808a13",
+  "src": "assets/extendedae/ae2guide/epp_intro/config_modifier.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/crystal_assembler.md": {
+  "sha1": "d501e22d8719f84dd370bbd4e977085f77cddcb5",
+  "src": "assets/extendedae/ae2guide/epp_intro/crystal_assembler.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/crystal_fixer.md": {
+  "sha1": "f8b7d405f69c5026c4fc511df3c99219f55acddf",
+  "src": "assets/extendedae/ae2guide/epp_intro/crystal_fixer.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_block.md": {
+  "sha1": "77904d21e1553847266f608c3bb63704f3396b80",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_block.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_budding.md": {
+  "sha1": "1d7e6c6d81fcd4a60c1e6679261f8de31a9b44f2",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_budding.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_crystal.md": {
+  "sha1": "29e4ccd021be7fd6d54be03c5f13b1f207a78547",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_crystal.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_dust.md": {
+  "sha1": "2857343c42b3652741f9d69f631532ed712517a1",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_dust.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_ingot.md": {
+  "sha1": "a80335c8c93b8727ee44f90b4984d2020b4eb13b",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_ingot.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_seed.md": {
+  "sha1": "529fe776751109aa396bbf4c4e9fedeb5ce8e2b2",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_seed.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/entro_shard.md": {
+  "sha1": "4fdc001aa1ebd9b909a567dded2e06805fccec8b",
+  "src": "assets/extendedae/ae2guide/epp_intro/entro_shard.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/epp_intro-index.md": {
+  "sha1": "efbb285c7d19760b6ade59bf2a086e48099d5601",
+  "src": "assets/extendedae/ae2guide/epp_intro/epp_intro-index.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_charger.md": {
+  "sha1": "0470bf447d56fd3f8ee000b1ca2bae2aef8530ba",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_charger.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_drive.md": {
+  "sha1": "1db3ba20d1316825ab3e46db979f1da1c45bb070",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_drive.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_inscriber.md": {
+  "sha1": "eddf9228a786195f44f5bd91277fa19d6b9df576",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_inscriber.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_interface.md": {
+  "sha1": "4103b5151bc1d7ce16e942a734bdcdcc6f5c8a61",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_interface.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_io_bus.md": {
+  "sha1": "effd6bd40c838540387811ff5620acd78696ec4a",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_io_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_io_port.md": {
+  "sha1": "200bcaf13c236ae5a8ef676fdb047ea5b49562b3",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_io_port.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_modecular_assembler.md": {
+  "sha1": "44d228a46b5edde951ace68a44754fba3a5220f5",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_modecular_assembler.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_provider.md": {
+  "sha1": "6d907f02c248e7465dbdde6c5393c19d96d26f9d",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_pattern_provider.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/extended_pattern_terminal.md": {
+  "sha1": "016345a2a50d5013300867b4c184f40af5312ed6",
+  "src": "assets/extendedae/ae2guide/epp_intro/extended_pattern_terminal.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/infinity_cell.md": {
+  "sha1": "0207140025951ab473bd4dda7f37b7c3f5720407",
+  "src": "assets/extendedae/ae2guide/epp_intro/infinity_cell.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/ingredient_buffer.md": {
+  "sha1": "1b0e7a2154bc8636d6c3b8e72e9b3d6c578f042d",
+  "src": "assets/extendedae/ae2guide/epp_intro/ingredient_buffer.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/machine_frame.md": {
+  "sha1": "515410229d92be1a3d95013a608076a931fa51ea",
+  "src": "assets/extendedae/ae2guide/epp_intro/machine_frame.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/mod_export_bus.md": {
+  "sha1": "992eac7babef7d52fec425bdd5583902b0790c69",
+  "src": "assets/extendedae/ae2guide/epp_intro/mod_export_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/mod_storage_bus.md": {
+  "sha1": "e131b2bc415c7cce6fc0745e354364fa9b562ab6",
+  "src": "assets/extendedae/ae2guide/epp_intro/mod_storage_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/oversize_interface.md": {
+  "sha1": "930fc6619544ef200ebf08d8b5d46c03ef7ae947",
+  "src": "assets/extendedae/ae2guide/epp_intro/oversize_interface.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/packing_tape.md": {
+  "sha1": "eb23a51230c9675958f6a43597d8b040ae2d0f43",
+  "src": "assets/extendedae/ae2guide/epp_intro/packing_tape.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/pattern_modifier.md": {
+  "sha1": "755e6b660da7b2a580952dc4703ed6cc02919c2e",
+  "src": "assets/extendedae/ae2guide/epp_intro/pattern_modifier.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/precise_export_bus.md": {
+  "sha1": "070eeaccb1061137fc6bf4343cc0a23b9c23a70c",
+  "src": "assets/extendedae/ae2guide/epp_intro/precise_export_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/precise_storage_bus.md": {
+  "sha1": "06c7228c8788d85692597fc9bcfc820b4ac0abc3",
+  "src": "assets/extendedae/ae2guide/epp_intro/precise_storage_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/quartz_blend.md": {
+  "sha1": "fd9ba2946a1fc71a4658671290cd96090f6f416c",
+  "src": "assets/extendedae/ae2guide/epp_intro/quartz_blend.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/silicon_block.md": {
+  "sha1": "4ae7d378bff960a8944bb7ca4451487e3887e896",
+  "src": "assets/extendedae/ae2guide/epp_intro/silicon_block.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/smart_annihilation_plane.md": {
+  "sha1": "a5e43404452b9cde8a86d6b9bbf55774bb7b203b",
+  "src": "assets/extendedae/ae2guide/epp_intro/smart_annihilation_plane.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/tag_export_bus.md": {
+  "sha1": "8f5b4f7a0f55de885ef0d2ec6b3ae9be25bc3516",
+  "src": "assets/extendedae/ae2guide/epp_intro/tag_export_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/tag_storage_bus.md": {
+  "sha1": "d9e6d07446be801624d532116b0f2d77d832d397",
+  "src": "assets/extendedae/ae2guide/epp_intro/tag_storage_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/threshold_export_bus.md": {
+  "sha1": "1fdaca43b2719b719f2c9283454b8107119207f0",
+  "src": "assets/extendedae/ae2guide/epp_intro/threshold_export_bus.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/threshold_level_emitter.md": {
+  "sha1": "a41793082d2f075eebb32fee5849c7fbce8b7fc4",
+  "src": "assets/extendedae/ae2guide/epp_intro/threshold_level_emitter.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/upgrade_items.md": {
+  "sha1": "e0c31ad68abd05968290a07a34ff6b504d89d31d",
+  "src": "assets/extendedae/ae2guide/epp_intro/upgrade_items.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/void_cell.md": {
+  "sha1": "0c350311f3f9b4b56ad19578a9850f9a0dd0bf60",
+  "src": "assets/extendedae/ae2guide/epp_intro/void_cell.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/wireless_connector.md": {
+  "sha1": "cbe936fab1623256baac11f223b6fe7b469de877",
+  "src": "assets/extendedae/ae2guide/epp_intro/wireless_connector.md"
+ },
+ "assets/extendedae/ae2guide/_zh_cn/epp_intro/wireless_hub.md": {
+  "sha1": "4807057c9a3c21e33c9be6bb0c1240bf3a9f0731",
+  "src": "assets/extendedae/ae2guide/epp_intro/wireless_hub.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/floppy_disks.md": {
+  "sha1": "72738e7f1c8257cfe2157cf6b0f1ea636065a6aa",
+  "src": "assets/little_big_redstone/guide/floppy_disks.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/index.md": {
+  "sha1": "1fb127550c6a2b3cea95565a649b5e57d4ee62aa",
+  "src": "assets/little_big_redstone/guide/index.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic.md": {
+  "sha1": "48d37e18c108cbc7e9143cdf6a1f8be795bc0f37",
+  "src": "assets/little_big_redstone/guide/logic.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/and_gate.md": {
+  "sha1": "fe28a44bfc8cb5875a0ef3394de19ff03000a984",
+  "src": "assets/little_big_redstone/guide/logic/and_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/calculator.md": {
+  "sha1": "d2230a2cc5f5bd9409c82b436b4d24464edea141",
+  "src": "assets/little_big_redstone/guide/logic/calculator.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/comparator.md": {
+  "sha1": "da6cb0947c70dd8f269882c90ad7559d4807447d",
+  "src": "assets/little_big_redstone/guide/logic/comparator.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/introduction.md": {
+  "sha1": "a76e4ac3a6ba84799794eb9e6ca246a28babe8a3",
+  "src": "assets/little_big_redstone/guide/logic/introduction.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/io.md": {
+  "sha1": "02278b3e66381e7a1376963de09bbb5fe3c21ad7",
+  "src": "assets/little_big_redstone/guide/logic/io.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/nand_gate.md": {
+  "sha1": "3369cb181366f10830dedee5fdd5db4d7096fa45",
+  "src": "assets/little_big_redstone/guide/logic/nand_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/nor_gate.md": {
+  "sha1": "1853afd6b82ce4723e87a8f87451b424c0b523dc",
+  "src": "assets/little_big_redstone/guide/logic/nor_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/not_gate.md": {
+  "sha1": "9847f398be6bbb506d8f5095723057a9bcd93a08",
+  "src": "assets/little_big_redstone/guide/logic/not_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/or_gate.md": {
+  "sha1": "37252790781811cbce1ea302136afc087a6bb12c",
+  "src": "assets/little_big_redstone/guide/logic/or_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/pulse_throttler.md": {
+  "sha1": "efbeec49182e2bd49b1f771e26be09199c267d6c",
+  "src": "assets/little_big_redstone/guide/logic/pulse_throttler.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/randomizer.md": {
+  "sha1": "a8e044050af057e9b16e2e04cc8eb23952884028",
+  "src": "assets/little_big_redstone/guide/logic/randomizer.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/reader.md": {
+  "sha1": "42ac14232c4c83cd8b73d0ca73efcbb567af6f96",
+  "src": "assets/little_big_redstone/guide/logic/reader.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/rs_nor_latch.md": {
+  "sha1": "131cbd4315f439023908024ea48e74cd4750294d",
+  "src": "assets/little_big_redstone/guide/logic/rs_nor_latch.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/selector.md": {
+  "sha1": "eaadd2d1c0df8ac45a0feb411d09b2b41ead6dfb",
+  "src": "assets/little_big_redstone/guide/logic/selector.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/sequencer.md": {
+  "sha1": "848f673d92c4db4f681c7713ba74e95cab1210e9",
+  "src": "assets/little_big_redstone/guide/logic/sequencer.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/t_flip_flop.md": {
+  "sha1": "a3aabb474c3210c2681f478d078a1f4d59a55e71",
+  "src": "assets/little_big_redstone/guide/logic/t_flip_flop.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/tag.md": {
+  "sha1": "9d897185d2d6b2f4f5695d8718bd7236e92d83e8",
+  "src": "assets/little_big_redstone/guide/logic/tag.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic/xor_gate.md": {
+  "sha1": "31867413eaed63d8d6fd880f2f0bc7d05e5dac45",
+  "src": "assets/little_big_redstone/guide/logic/xor_gate.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/logic_arrays.md": {
+  "sha1": "95213485e1d19f7aed2687dee1fbcb1a7e8d9a7d",
+  "src": "assets/little_big_redstone/guide/logic_arrays.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/microchips.md": {
+  "sha1": "ae122a9c0a285a751f277f50b4570b95cf1b48c5",
+  "src": "assets/little_big_redstone/guide/microchips.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/redstone_bits.md": {
+  "sha1": "fd269f4ef484439a65a1e66413937bc85e7e48cc",
+  "src": "assets/little_big_redstone/guide/redstone_bits.md"
+ },
+ "assets/little_big_redstone/guide/_zh_cn/sticky_notes.md": {
+  "sha1": "e07eb53dbc86346198a85cec4154fef9fbb7aeeb",
+  "src": "assets/little_big_redstone/guide/sticky_notes.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/bulk_cell.md": {
+  "sha1": "daccec61caf782a0f65aff8cf3e119b2ec9af4ca",
+  "src": "assets/megacells/ae2guide/bulk_cell.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/crafting.md": {
+  "sha1": "8054add8fcbac2500db7f7ee8d7933a24880c66b",
+  "src": "assets/megacells/ae2guide/crafting.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/energy.md": {
+  "sha1": "97c8e36a868efca0c2ae143b7bca8c99c2e12c75",
+  "src": "assets/megacells/ae2guide/energy.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/extras.md": {
+  "sha1": "3ef12d768843a0923ab2cf87a88bc90e7493b924",
+  "src": "assets/megacells/ae2guide/extras.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/index.md": {
+  "sha1": "656cc25c60b2ffdb7a8490c7e01bfc7352fc7fd8",
+  "src": "assets/megacells/ae2guide/index.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/radioactive_cell.md": {
+  "sha1": "850a13fe2b7088e95e187dd074c3dcfa2f62aa5b",
+  "src": "assets/megacells/ae2guide/radioactive_cell.md"
+ },
+ "assets/megacells/ae2guide/_zh_cn/storage.md": {
+  "sha1": "e0ffa8415217d772da8812eee9a1744f574993e7",
+  "src": "assets/megacells/ae2guide/storage.md"
+ },
+ "assets/merequester/ae2guide/_zh_cn/merequester.md": {
+  "sha1": "0271dae4005c3affd8c3d664047b209719ed72bf",
+  "src": "assets/merequester/ae2guide/merequester.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age.md": {
+  "sha1": "b02f12faa3a366e95a6bfb28490373dba2e5fa65",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/advanced_machines.md": {
+  "sha1": "6b0bf4ed1bc841ad9522e43ed07de1797b088f3e",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/advanced_machines.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/basic_machines.md": {
+  "sha1": "be3dbc42e851792db098b84e919dd8e4d61b4d4b",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/basic_machines.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/config_card.md": {
+  "sha1": "88b2fdfcaa464de8537c884b4283f7741182c130",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/config_card.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/ebf.md": {
+  "sha1": "66ed3baf46c786e95c170a11ebc3f1fd8cab204f",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/ebf.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/electric_quarry.md": {
+  "sha1": "4d7bef620b6eaa3161b13c0e4a069b3c449494b8",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/electric_quarry.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/electricity.md": {
+  "sha1": "18bff6308243ddba6982b5a774b739588edcf936",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/electricity.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/jetpack.md": {
+  "sha1": "46482dbf3286a5ca05e38e2b5d517c5cb86db5df",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/jetpack.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/large_steam_boiler.md": {
+  "sha1": "ea834f4d3865a7f9f7cb47f39fa06de5df4fb813",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/large_steam_boiler.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/large_tank.md": {
+  "sha1": "66cf51ad0094abb9150924ee9be1995442d4b623",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/large_tank.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/making_cables.md": {
+  "sha1": "482bc7e5dc21bfe5489a44075a145940d8798af7",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/making_cables.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/oil_processing.md": {
+  "sha1": "c9dbdedeeca68919f6c1c16cc22ff59d3a7a778d",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/oil_processing.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/electric_age/portable_storage_unit.md": {
+  "sha1": "ce954d27df0e0b2c9fcbcc3bb6b2b4b598026375",
+  "src": "assets/modern_industrialization/mi_guidebook/electric_age/portable_storage_unit.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/endgame.md": {
+  "sha1": "f6538c6dff1d4ba6a6148be73d49a47c3c556e54",
+  "src": "assets/modern_industrialization/mi_guidebook/endgame.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/index.md": {
+  "sha1": "f569cb68cfa3c3213adbf0e5acf7387c7057baef",
+  "src": "assets/modern_industrialization/mi_guidebook/index.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/lategame/fusion_reactor.md": {
+  "sha1": "eae768743bd1bd9f52604d64a100993af7814a9d",
+  "src": "assets/modern_industrialization/mi_guidebook/lategame/fusion_reactor.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/lategame/gravichestplate.md": {
+  "sha1": "9e3e4da320f95a870839cf74a55b19c66973a1d5",
+  "src": "assets/modern_industrialization/mi_guidebook/lategame/gravichestplate.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/lategame/quantum_tier.md": {
+  "sha1": "e3a77ee9371e4c9621cdba54f6510843e481b168",
+  "src": "assets/modern_industrialization/mi_guidebook/lategame/quantum_tier.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/lategame/replicator.md": {
+  "sha1": "84525460d1203e9384f6756e667d0a806725f9bc",
+  "src": "assets/modern_industrialization/mi_guidebook/lategame/replicator.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame.md": {
+  "sha1": "879616504dd27889b8f59276cc75bdf5f242f9b2",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/diesel.md": {
+  "sha1": "18e76a56cadb08bf30afdb7d64e5ab9b5b786800",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/diesel.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/fluid_transfer.md": {
+  "sha1": "d630784d45462677606b6bb18649d9a87441368f",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/fluid_transfer.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/high_pressure.md": {
+  "sha1": "dfad3812412f26369b0daef37946b5c96ddd820e",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/high_pressure.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/implosion_compressor.md": {
+  "sha1": "f4e256c5008d0a753c1659e70878434a979d87f0",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/implosion_compressor.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/nuclear_reactor.md": {
+  "sha1": "a0c9605c97e55b990aeb0033f6118b878ce93472",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/nuclear_reactor.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/stainless_steel.md": {
+  "sha1": "69c9ba91c12bd9a31109df8694e626b57b49361c",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/stainless_steel.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/midgame/upgrades.md": {
+  "sha1": "255c8375b842b270fae99d4aa428d0ebda0d7eff",
+  "src": "assets/modern_industrialization/mi_guidebook/midgame/upgrades.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age.md": {
+  "sha1": "d84981d686d263c04811d73ee2521a7913e4d864",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/bronze_boiler.md": {
+  "sha1": "59f0f1db71ac3c65e6685a1439c08a8680058479",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/bronze_boiler.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/coke_oven.md": {
+  "sha1": "18a9670fc356b2ce3a748385967eae5b552c454a",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/coke_oven.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/forge_hammer.md": {
+  "sha1": "756daab3195e7347b77ecf171efc7a9db8c8cea1",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/forge_hammer.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/making_bronze.md": {
+  "sha1": "e11296157597d91ac2e8a3822212af6b5ba7f49c",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/making_bronze.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/pipes.md": {
+  "sha1": "18623f15c665e316fdfa6a3baf8e38ed2a40a93e",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/pipes.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/quarry.md": {
+  "sha1": "924f110eea174f931ff4d276f4b8694fe8b32048",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/quarry.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/steam_machines.md": {
+  "sha1": "70f37a86f76a3831dcb94e4726d5ce223d6d68cd",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/steam_machines.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/steel.md": {
+  "sha1": "078de7fef2493e48d0ee253ea3510484b5a6985f",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/steel.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/steel_machines.md": {
+  "sha1": "113693803d4cd7cc60487fc41ba756126269045d",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/steel_machines.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/tanks.md": {
+  "sha1": "12e7146f5dc337531ec94b48dc277346007f8d54",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/tanks.md"
+ },
+ "assets/modern_industrialization/mi_guidebook/_zh_cn/steam_age/water_pump.md": {
+  "sha1": "204b43c6a8cc5495606b7a4c27d498d32affa3db",
+  "src": "assets/modern_industrialization/mi_guidebook/steam_age/water_pump.md"
+ },
+ "assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/content_unlocks.mdx": {
+  "sha1": "9a85d96df227e2587bc90dacff09780a5e947619",
+  "src": "assets/oracle_index/books/oracle-index/docs/developer/content_unlocks.mdx"
+ },
+ "assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/gradle_task.mdx": {
+  "sha1": "6ff79f51d1d7d798f7458141440f71da7bd6f53b",
+  "src": "assets/oracle_index/books/oracle-index/docs/developer/gradle_task.mdx"
+ },
+ "assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/setup.mdx": {
+  "sha1": "6ff0a8733e6ec0954c66c62c344a4cc686a11c94",
+  "src": "assets/oracle_index/books/oracle-index/docs/developer/setup.mdx"
+ },
+ "assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/search.mdx": {
+  "sha1": "a15d0557dadc5982df2a860d8742af0abcc98ddf",
+  "src": "assets/oracle_index/books/oracle-index/docs/search.mdx"
+ },
+ "assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/user_guide.mdx": {
+  "sha1": "5d88d2f5cb98ae35f7f43dc9f9180e6a6bf19832",
+  "src": "assets/oracle_index/books/oracle-index/docs/user_guide.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/enchanter_block.mdx": {
+  "sha1": "a173c36feb67123bb67a7f9b1f1d768500832fbf",
+  "src": "assets/oracle_index/books/oritech/content/arcane/enchanter_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/enchantment_catalyst_block.mdx": {
+  "sha1": "a7c31821088473f0ccd417ce26cfd59c82328d21",
+  "src": "assets/oracle_index/books/oritech/content/arcane/enchantment_catalyst_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/spawner_cage_block.mdx": {
+  "sha1": "74002be087c93e38d509a6a0db21d532dc6c58ba",
+  "src": "assets/oracle_index/books/oritech/content/arcane/spawner_cage_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/spawner_controller_block.mdx": {
+  "sha1": "619127f222bd87dfba1809c65a89e64e13f2c57e",
+  "src": "assets/oracle_index/books/oritech/content/arcane/spawner_controller_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/tainted_refinery.mdx": {
+  "sha1": "7556a9ef399e93a634a9857300e7334a7acfdc78",
+  "src": "assets/oracle_index/books/oritech/content/arcane/tainted_refinery.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/arcane/wither_crop_block.mdx": {
+  "sha1": "724543fb111e09314244afe002a5f2c957044b85",
+  "src": "assets/oracle_index/books/oritech/content/arcane/wither_crop_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/ceiling_light.mdx": {
+  "sha1": "7c5e8e4749e780ea2d550e659a7ab3c232a40762",
+  "src": "assets/oracle_index/books/oritech/content/building/ceiling_light.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/hangar_door.mdx": {
+  "sha1": "725c4e15ba525e614e7b23f707890e4f760f038d",
+  "src": "assets/oracle_index/books/oritech/content/building/hangar_door.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/industrial_glass_block.mdx": {
+  "sha1": "9b15e79db25c9a53d982c48e0c1ead1bd079b56e",
+  "src": "assets/oracle_index/books/oritech/content/building/industrial_glass_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/industrial_paints.mdx": {
+  "sha1": "639316ee51e0eec99a8cbb3fe459450952d0e87d",
+  "src": "assets/oracle_index/books/oritech/content/building/industrial_paints.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/machine_plating_block.mdx": {
+  "sha1": "6fbc90c9c79fb76924506e1716ff6f0b20a55813",
+  "src": "assets/oracle_index/books/oritech/content/building/machine_plating_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/metal_beam_block.mdx": {
+  "sha1": "d3eb1c8c88d89d1e0609398309f73f015427304f",
+  "src": "assets/oracle_index/books/oritech/content/building/metal_beam_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/metal_girder_block.mdx": {
+  "sha1": "f69014c4cee5dd9bab62c6749c5a2ec22f942b88",
+  "src": "assets/oracle_index/books/oritech/content/building/metal_girder_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/tech_button.mdx": {
+  "sha1": "5243d35ee18cebcb4448e9573329438251d28496",
+  "src": "assets/oracle_index/books/oritech/content/building/tech_button.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/tech_door.mdx": {
+  "sha1": "dd0108d69070c2b055244d7f607c1011319fa1a3",
+  "src": "assets/oracle_index/books/oritech/content/building/tech_door.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/building/tech_lever.mdx": {
+  "sha1": "caa3e0b3f842c8db11a18af6f0bb8fdcbf33e5a8",
+  "src": "assets/oracle_index/books/oritech/content/building/tech_lever.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/advanced_battery.mdx": {
+  "sha1": "aa0f499844750d47cfe5d8d5929182889928990d",
+  "src": "assets/oracle_index/books/oritech/content/components/advanced_battery.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/advanced_computing_engine.mdx": {
+  "sha1": "b296013101293ddecd1b978ff3949cc813bc5743",
+  "src": "assets/oracle_index/books/oritech/content/components/advanced_computing_engine.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/banana.mdx": {
+  "sha1": "9f46e4f2d0f6aa16e415df87886f4c949f8b1b30",
+  "src": "assets/oracle_index/books/oritech/content/components/banana.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/basic_battery.mdx": {
+  "sha1": "ace221836c70564d3a9951be55513ed9effd8592",
+  "src": "assets/oracle_index/books/oritech/content/components/basic_battery.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/carbon_fibre_strands.mdx": {
+  "sha1": "4bba35901168799ff3fab0f30fab6e3a68d0c7ae",
+  "src": "assets/oracle_index/books/oritech/content/components/carbon_fibre_strands.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/clay_catalyst_beads.mdx": {
+  "sha1": "e428cf799102244f1a72ea04612ca156377f924c",
+  "src": "assets/oracle_index/books/oritech/content/components/clay_catalyst_beads.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/dubios_container.mdx": {
+  "sha1": "90df5c1e522a9c181666379b727c34eada0d8747",
+  "src": "assets/oracle_index/books/oritech/content/components/dubios_container.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/enderic_compound.mdx": {
+  "sha1": "f0366575beca34ee2a37995b733c01c8a1ecb1cb",
+  "src": "assets/oracle_index/books/oritech/content/components/enderic_compound.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/enderic_lens.mdx": {
+  "sha1": "357aad7bce4920eb5df1da91616ece993646100f",
+  "src": "assets/oracle_index/books/oritech/content/components/enderic_lens.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/flux_gate.mdx": {
+  "sha1": "7bd94d59c380b11c7c6c474dfbcfce15034faa0e",
+  "src": "assets/oracle_index/books/oritech/content/components/flux_gate.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/heisenberg_compensator.mdx": {
+  "sha1": "e569dea2780e68b73125ed5904b80a2ad3cc021d",
+  "src": "assets/oracle_index/books/oritech/content/components/heisenberg_compensator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/ion_thruster.mdx": {
+  "sha1": "184df1ff8085c391b24d6c947e1316593e4d6ef1",
+  "src": "assets/oracle_index/books/oritech/content/components/ion_thruster.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/magnetic_coil.mdx": {
+  "sha1": "78ce0f7c649567a3e655ac80247119a9cc9d0026",
+  "src": "assets/oracle_index/books/oritech/content/components/magnetic_coil.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/motor.mdx": {
+  "sha1": "e64e6845aa9e428b2bff7bdfc53efbddcc48b731",
+  "src": "assets/oracle_index/books/oritech/content/components/motor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/overcharged_crystal.mdx": {
+  "sha1": "4e2f3787177bfc292bd04e80ec95dd26929ea001",
+  "src": "assets/oracle_index/books/oritech/content/components/overcharged_crystal.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/packed_wheat.mdx": {
+  "sha1": "a284938e954b66a7c9126bca59235e6cb22d8f54",
+  "src": "assets/oracle_index/books/oritech/content/components/packed_wheat.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/polymer_resin.mdx": {
+  "sha1": "deca333a6547062ec5964b99e13c7c43debed44d",
+  "src": "assets/oracle_index/books/oritech/content/components/polymer_resin.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/processing_unit.mdx": {
+  "sha1": "5c6ec084b0906dd84b58ddd98618b56c5b606b61",
+  "src": "assets/oracle_index/books/oritech/content/components/processing_unit.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/raw_biopolymer.mdx": {
+  "sha1": "f9ef26404b5eb78c909591b9958c39c0cd8ec86c",
+  "src": "assets/oracle_index/books/oritech/content/components/raw_biopolymer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/reinforced_carbon_sheet.mdx": {
+  "sha1": "6b623d1f2e1fd2f354a8ba64df11f5de4421e42d",
+  "src": "assets/oracle_index/books/oritech/content/components/reinforced_carbon_sheet.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/silicon_wafer.mdx": {
+  "sha1": "d1bc2301512c204b0a72f5b92e0b6625f5c8de41",
+  "src": "assets/oracle_index/books/oritech/content/components/silicon_wafer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/solid_biofuel.mdx": {
+  "sha1": "7a59067f85b21fec45f3a84f50976982a4fa0330",
+  "src": "assets/oracle_index/books/oritech/content/components/solid_biofuel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/super_ai_chip.mdx": {
+  "sha1": "6a14154057828b4ac0c8cf3f30c640056a779d4f",
+  "src": "assets/oracle_index/books/oritech/content/components/super_ai_chip.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/components/unholy_intelligence.mdx": {
+  "sha1": "b9376d721d4446b7d9ceb7bbb838d478d0711fe5",
+  "src": "assets/oracle_index/books/oritech/content/components/unholy_intelligence.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/chainsaw.mdx": {
+  "sha1": "f0d77d547648986cc9a8d47a73458a3770dade58",
+  "src": "assets/oracle_index/books/oritech/content/equipment/chainsaw.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/electric_mace.mdx": {
+  "sha1": "9a5a3d85a8cf9dd76c7aad598eb254789571d41f",
+  "src": "assets/oracle_index/books/oritech/content/equipment/electric_mace.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/exo_suit.mdx": {
+  "sha1": "8e56bede7fac3e8cb85e4302163c34bf77cf880f",
+  "src": "assets/oracle_index/books/oritech/content/equipment/exo_suit.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/hand_drill.mdx": {
+  "sha1": "982e368cfec54e75a155ab140e3a9fc19a05f6e7",
+  "src": "assets/oracle_index/books/oritech/content/equipment/hand_drill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/jetpack.mdx": {
+  "sha1": "f761df40462ed0c121add603bfe667efcf36a9de",
+  "src": "assets/oracle_index/books/oritech/content/equipment/jetpack.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/portable_laser.mdx": {
+  "sha1": "c09725cb7075c67c0a1d67caa061e33f65a7dd82",
+  "src": "assets/oracle_index/books/oritech/content/equipment/portable_laser.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/promethium_axe.mdx": {
+  "sha1": "972edaeeead68135b2f09edaa3d63896041ace31",
+  "src": "assets/oracle_index/books/oritech/content/equipment/promethium_axe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/promethium_pickaxe.mdx": {
+  "sha1": "5b034c189e9378e3b1fd9a81de2f8f2599dcfdc2",
+  "src": "assets/oracle_index/books/oritech/content/equipment/promethium_pickaxe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/target_designator.mdx": {
+  "sha1": "b12cb98ec60f6ebaad73435cb67f452e23b63942",
+  "src": "assets/oracle_index/books/oritech/content/equipment/target_designator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/equipment/wrench.mdx": {
+  "sha1": "2306047ebb25f857024396610c6f3169f9e2511d",
+  "src": "assets/oracle_index/books/oritech/content/equipment/wrench.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/creative_storage_block.mdx": {
+  "sha1": "68a1ee0674da93d5a8ef5a8c1b361f5525c0546b",
+  "src": "assets/oracle_index/books/oritech/content/logistics/creative_storage_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/creative_tank_block.mdx": {
+  "sha1": "66a72e874bbb71383f61db0f6bf620da37ca85b8",
+  "src": "assets/oracle_index/books/oritech/content/logistics/creative_tank_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/energy_pipe.mdx": {
+  "sha1": "cac322615bcb90362110b5403ba6a089177004f2",
+  "src": "assets/oracle_index/books/oritech/content/logistics/energy_pipe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/fluid_pipe.mdx": {
+  "sha1": "8cb2361971436c14d1263ec1ea6dcf20f39a6386",
+  "src": "assets/oracle_index/books/oritech/content/logistics/fluid_pipe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/item_filter_block.mdx": {
+  "sha1": "245fc7db85e04e21a249568b61ec42443a661bc4",
+  "src": "assets/oracle_index/books/oritech/content/logistics/item_filter_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/item_pipe.mdx": {
+  "sha1": "cb40fbb838066cd336c2fcefb216f0fc0ff74309",
+  "src": "assets/oracle_index/books/oritech/content/logistics/item_pipe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/large_storage_block.mdx": {
+  "sha1": "8137c5ec248c426e77d5b7d8d1a63a4ec1f311f0",
+  "src": "assets/oracle_index/books/oritech/content/logistics/large_storage_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/power_pole_block.mdx": {
+  "sha1": "a65d09fb1e6f2b8230e50b09984e53ebd3218cbf",
+  "src": "assets/oracle_index/books/oritech/content/logistics/power_pole_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/small_storage_block.mdx": {
+  "sha1": "63e3d551a702739f675fd35f31be21c25b2216b6",
+  "src": "assets/oracle_index/books/oritech/content/logistics/small_storage_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/small_tank_block.mdx": {
+  "sha1": "1bb9ba17b3ab874a13410b1ef12e6b50b67257e8",
+  "src": "assets/oracle_index/books/oritech/content/logistics/small_tank_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/superconductor.mdx": {
+  "sha1": "87bc7508c6c1d4ca9fec9081bca9e37c48e8a71e",
+  "src": "assets/oracle_index/books/oritech/content/logistics/superconductor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/logistics/unstable_container.mdx": {
+  "sha1": "9f475ee3b3b823f4f52aa8c67276ce7f273f14cc",
+  "src": "assets/oracle_index/books/oritech/content/logistics/unstable_container.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/capacitor_addon_extender.mdx": {
+  "sha1": "0277c8a63f5ee4774dd57488960116138485cd1c",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/capacitor_addon_extender.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/crop_filter_addon.mdx": {
+  "sha1": "6842169c64875df91f5309c2036f0650b943f600",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/crop_filter_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_acceptor_addon.mdx": {
+  "sha1": "cb7e01cc1118b1c659a0e34b05b8bb9f80dc3c9d",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_acceptor_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_burst_addon.mdx": {
+  "sha1": "9e8f689395846038c4e5beb971e1737cdf31d301",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_burst_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_capacitor_addon.mdx": {
+  "sha1": "b0de69fcab4cad6929a3b6955efc886caf4b5676",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_capacitor_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_combi_addon.mdx": {
+  "sha1": "3dd2841406cbd19e2e0e5c420b59141370f499e1",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_combi_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_efficiency_addon.mdx": {
+  "sha1": "45b63ccb67a15005b834cf6717f58d0a7b335244",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_efficiency_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_extender.mdx": {
+  "sha1": "030f7c4677776d676b6cef6a2793210952876ff8",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_extender.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_fluid_addon.mdx": {
+  "sha1": "63823e023562722e11cec794e71f686e70cf9257",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_fluid_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_hunter_addon.mdx": {
+  "sha1": "234967b49471968b2a143a0690c27cce5ea8463f",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_hunter_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_inventory_proxy_addon.mdx": {
+  "sha1": "f0ad10e18c106b6c10d2e80bb671301d33983f23",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_inventory_proxy_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_processing_addon.mdx": {
+  "sha1": "37001608e56fa07f97ca1deb2a9dea0bc2438c69",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_processing_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_redstone_addon.mdx": {
+  "sha1": "ce35c4b119809de83fea476ac34e7a28cf0b7b13",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_redstone_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_silk_touch_addon.mdx": {
+  "sha1": "c117590a696af8b99a20da800b8aa85acbac0b0c",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_silk_touch_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_speed_addon.mdx": {
+  "sha1": "ea4086417cf93877136a9ac841dec59e1ff559ee",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_speed_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_ultimate_addon.mdx": {
+  "sha1": "1d57f9e6e47081e467e16da602c7a97b74528b66",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_ultimate_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/machine_yield_addon.mdx": {
+  "sha1": "5395e8131b2b23c1fbb88d9139edf3718aea7926",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/machine_yield_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/quarry_addon.mdx": {
+  "sha1": "0ab4f98fce8304b604818e60c869c24cce27320c",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/quarry_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/addons/steam_boiler_addon.mdx": {
+  "sha1": "d8f3d0814e091bf08bdab6291774c00981b46859",
+  "src": "assets/oracle_index/books/oritech/content/machines/addons/steam_boiler_addon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/augmentations/advanced_augment_station.mdx": {
+  "sha1": "0b25943b6b844ed711b01c1b05df86ddf7fa3c28",
+  "src": "assets/oracle_index/books/oritech/content/machines/augmentations/advanced_augment_station.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/augmentations/arcane_augment_station.mdx": {
+  "sha1": "65214b12d62a43594a46b39f24a5de48072d3501",
+  "src": "assets/oracle_index/books/oritech/content/machines/augmentations/arcane_augment_station.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/augmentations/augment_application_block.mdx": {
+  "sha1": "2fcae563340b0aff1465c32acc068b0036cb4b25",
+  "src": "assets/oracle_index/books/oritech/content/machines/augmentations/augment_application_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/augmentations/simple_augment_station.mdx": {
+  "sha1": "8710adad0af690b87b6f5240fba93b93b108264f",
+  "src": "assets/oracle_index/books/oritech/content/machines/augmentations/simple_augment_station.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/gantries/destroyer_block.mdx": {
+  "sha1": "6db050a14afbedfc0abc38e3b57ce8b88919019c",
+  "src": "assets/oracle_index/books/oritech/content/machines/gantries/destroyer_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/gantries/fertilizer_block.mdx": {
+  "sha1": "9d40468d172551c74e787960ec0eb21f849aa883",
+  "src": "assets/oracle_index/books/oritech/content/machines/gantries/fertilizer_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/gantries/machine_frame_block.mdx": {
+  "sha1": "c96c57de6cfe5902a63d0fce7ce48404d2ed68d7",
+  "src": "assets/oracle_index/books/oritech/content/machines/gantries/machine_frame_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/gantries/placer_block.mdx": {
+  "sha1": "0cb3bd7e709b68127830dfc4d74194c49b7d00e2",
+  "src": "assets/oracle_index/books/oritech/content/machines/gantries/placer_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/machine_core_2.mdx": {
+  "sha1": "cf1e88b02bdb76e2130ba1a267ef5b288634b32d",
+  "src": "assets/oracle_index/books/oritech/content/machines/machine_core_2.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/basic_generator_block.mdx": {
+  "sha1": "e5b4502278e8abc403765ea2f72b92e912cd43c2",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/basic_generator_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/big_solar_panel_block.mdx": {
+  "sha1": "52c837ce3fb1d4dbab583801195322761d46c0d2",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/big_solar_panel_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/bio_generator_block.mdx": {
+  "sha1": "744c6b2908e1bb3fa1d840eb95846dc4981a2f44",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/bio_generator_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/fuel_generator_block.mdx": {
+  "sha1": "e220fc76ae22c13ecee396bd9288303efc490d78",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/fuel_generator_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/lava_generator_block.mdx": {
+  "sha1": "51c50ee8ba32802c52faadc866c29f852dbbfadb",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/lava_generator_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/powergen/steam_engine_block.mdx": {
+  "sha1": "d12ce8173f10bfa32a726676d5bf94bfdf6d8942",
+  "src": "assets/oracle_index/books/oritech/content/machines/powergen/steam_engine_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/assembler_block.mdx": {
+  "sha1": "98dc098022957ebf4c7596585d004a1e89bb28f6",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/assembler_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/atomic_forge_block.mdx": {
+  "sha1": "cd70b0fbb69a8a9704547622204cfdf0135341d8",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/atomic_forge_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/centrifuge_block.mdx": {
+  "sha1": "eca1ac1e03819884ab278dae5931b78565f4d45c",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/centrifuge_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/cooler_block.mdx": {
+  "sha1": "84a528c7e7340726a890e9a89c3bbc521862a9e4",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/cooler_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/foundry_block.mdx": {
+  "sha1": "64a25bd50e7041d9b55ec634661ebf895ee8ee12",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/foundry_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/fragment_forge_block.mdx": {
+  "sha1": "109a2e477b62ee510e7aa72cd22541d908b5a168",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/fragment_forge_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/powered_furnace_block.mdx": {
+  "sha1": "f9ffc8619ea40a69ae0a788c5903c06ca9608860",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/powered_furnace_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/pulverizer_block.mdx": {
+  "sha1": "ed067abe55c317f2e65fe7cbda098a5495253004",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/pulverizer_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/refinery_block.mdx": {
+  "sha1": "b10831d10cde6bfff2168e40da95ce6ecd0d24b9",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/refinery_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/processing/refinery_module_block.mdx": {
+  "sha1": "caeeaba8b2793e11987b5bf63d4001a0672114df",
+  "src": "assets/oracle_index/books/oritech/content/machines/processing/refinery_module_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/charger_block.mdx": {
+  "sha1": "d68d9deba4d90cd9777b84a7fe2a845dcc67b5cd",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/charger_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/deep_drill_block.mdx": {
+  "sha1": "3ab8adffd7e329bc99fca5148cc87cb9c5d6eca9",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/deep_drill_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/drone_port_block.mdx": {
+  "sha1": "fb1270f49e205185a81b01d051982e29950dc9a1",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/drone_port_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/laser_arm_block.mdx": {
+  "sha1": "28caefb4c0ef0a542c66a0e033ddbdc75eeca181",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/laser_arm_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/pipe_booster_block.mdx": {
+  "sha1": "fe02d5743f3e73505e8dfd847cf4af366c63476e",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/pipe_booster_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/pump_block.mdx": {
+  "sha1": "5ed6e793739c68d7382f9a7bbedc08e35f068f93",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/pump_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/shrinker_block.mdx": {
+  "sha1": "c5a37686482d640e3a52122faf5c971de4939bb6",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/shrinker_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/machines/utility/treefeller_block.mdx": {
+  "sha1": "afc4299ce9fe92414876110c2481c3bd951b5e90",
+  "src": "assets/oracle_index/books/oritech/content/machines/utility/treefeller_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/low_yield_nuke.mdx": {
+  "sha1": "6ae654bfaf1a7bcc3dcf4b7fcd65fde56db84e56",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/low_yield_nuke.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/nuke.mdx": {
+  "sha1": "30b93aa02e56b68fb9fdc6344b6d8b12a0986ff7",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/nuke.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_absorber_port.mdx": {
+  "sha1": "53495bcfb7f0b9eb0dd9a24da75acdcfb123f564",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_absorber_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_condenser.mdx": {
+  "sha1": "ff874b2de8c4bde886206f4d3f02da54a67d64be",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_condenser.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_controller.mdx": {
+  "sha1": "11d6f823607eecf6296b2a030b8da20036ff4daa",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_controller.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_double_rod.mdx": {
+  "sha1": "adb51b3596bb5c9b7661951d06d1f38a53acefca",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_double_rod.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_energy_port.mdx": {
+  "sha1": "ab4627185fb71ab837bf4f5b7baee2910213cc13",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_energy_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_fuel_port.mdx": {
+  "sha1": "3490b7de1b2686a9ec127679ad4bfd99b404433c",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_fuel_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_heat_pipe.mdx": {
+  "sha1": "99b84681467447f9a29077483fe02602e0c74fb2",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_heat_pipe.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_quad_rod.mdx": {
+  "sha1": "9e9dbf3663607a996d3bdd630a3f83aaab47bad4",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_quad_rod.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_redstone_port.mdx": {
+  "sha1": "0e7f72734445ce75a24bfe2906d16e8cd388e5e0",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_redstone_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_reflector.mdx": {
+  "sha1": "b2354279676a3d31f4adab3ce2c969f5ebb36f5c",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_reflector.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_rod.mdx": {
+  "sha1": "82883c9449e1a0e9e92eb738e3757ae2e2b6b9c9",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_rod.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_vent.mdx": {
+  "sha1": "6ba8f97e993f3b6410a6bfb174a2e822fd68e1aa",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_vent.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/reactor_wall.mdx": {
+  "sha1": "9e3f5218974cb8e2c70beda7162c7611590691d8",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/reactor_wall.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/nuclear/uranium_pellet.mdx": {
+  "sha1": "c77e07aaeeab3a5904d9ec8b3448644b9e86a6c9",
+  "src": "assets/oracle_index/books/oritech/content/nuclear/uranium_pellet.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/particle/accelerator_controller.mdx": {
+  "sha1": "4ac51a86922b595ed530c7f87e498ed9666de803",
+  "src": "assets/oracle_index/books/oritech/content/particle/accelerator_controller.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/particle/accelerator_motor.mdx": {
+  "sha1": "c7a967a349d83a94e00be66d53113f2ad3b058c9",
+  "src": "assets/oracle_index/books/oritech/content/particle/accelerator_motor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/particle/accelerator_ring.mdx": {
+  "sha1": "72635f8a75c878e97c617075bde3b3729923efe1",
+  "src": "assets/oracle_index/books/oritech/content/particle/accelerator_ring.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/particle/accelerator_sensor.mdx": {
+  "sha1": "12a977eb2d215e17e8b0de0b34c8dc59ec7c5f3d",
+  "src": "assets/oracle_index/books/oritech/content/particle/accelerator_sensor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/particle/particle_collector_block.mdx": {
+  "sha1": "c7b6f42710fe75f2a6d29e91500af99929ac8dcf",
+  "src": "assets/oracle_index/books/oritech/content/particle/particle_collector_block.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/adamant_ingot.mdx": {
+  "sha1": "afe128cb09784e75845f016e75d82ea4d53457a8",
+  "src": "assets/oracle_index/books/oritech/content/resources/adamant_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/biomass.mdx": {
+  "sha1": "9c3f141f14e7f20758db13ad641dbfd06693b640",
+  "src": "assets/oracle_index/books/oritech/content/resources/biomass.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/biosteel_ingot.mdx": {
+  "sha1": "00d9df4799ae66839b39592259ec04969f7b12cd",
+  "src": "assets/oracle_index/books/oritech/content/resources/biosteel_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/duratium_ingot.mdx": {
+  "sha1": "1bdf8c0fcb6d0e3fa92f697fb01af236572b1082",
+  "src": "assets/oracle_index/books/oritech/content/resources/duratium_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/electrum_ingot.mdx": {
+  "sha1": "5fbc52c22ff0f8713a7313e201daa5e2926903c0",
+  "src": "assets/oracle_index/books/oritech/content/resources/electrum_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/energite_ingot.mdx": {
+  "sha1": "21ebc74965b9368e10e2a5c1a160f7730db37095",
+  "src": "assets/oracle_index/books/oritech/content/resources/energite_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/fluxite.mdx": {
+  "sha1": "762b9998bb9d481108fdf3652cdda7c942ea984b",
+  "src": "assets/oracle_index/books/oritech/content/resources/fluxite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/nickel_ingot.mdx": {
+  "sha1": "0dcc8594515437e9be01912de5ef9204216a8308",
+  "src": "assets/oracle_index/books/oritech/content/resources/nickel_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/plastic_sheet.mdx": {
+  "sha1": "b8b888b57c19bee4f58d622bcf3e0ea1639ac688",
+  "src": "assets/oracle_index/books/oritech/content/resources/plastic_sheet.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/platinum_ingot.mdx": {
+  "sha1": "f34acfd939b8ba7258007944d0cac9d75e477924",
+  "src": "assets/oracle_index/books/oritech/content/resources/platinum_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/prometheum_ingot.mdx": {
+  "sha1": "27e6464b069cae78e221cea899d41b4290641890",
+  "src": "assets/oracle_index/books/oritech/content/resources/prometheum_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/silicon.mdx": {
+  "sha1": "b77a2455a48855d261ad845bb2c060fe439b4993",
+  "src": "assets/oracle_index/books/oritech/content/resources/silicon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/steel_ingot.mdx": {
+  "sha1": "a43b31bc72d342620d8cb2afcf53347b34bbc0b9",
+  "src": "assets/oracle_index/books/oritech/content/resources/steel_ingot.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/world/deepslate_platinum_ore.mdx": {
+  "sha1": "9311c787219a17df67542d7668d99435e994f219",
+  "src": "assets/oracle_index/books/oritech/content/resources/world/deepslate_platinum_ore.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/world/deepslate_uranium_ore.mdx": {
+  "sha1": "d98f46ea547e0ca4d27def8da30164ee81821b30",
+  "src": "assets/oracle_index/books/oritech/content/resources/world/deepslate_uranium_ore.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/world/resource_node_redstone.mdx": {
+  "sha1": "4beda20789b4a9075ba35b0daa575998b5849610",
+  "src": "assets/oracle_index/books/oritech/content/resources/world/resource_node_redstone.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/content/resources/world/still_oil_bucket.mdx": {
+  "sha1": "645c5fb349ec10737dfe9239878eb9a4d5db3248",
+  "src": "assets/oracle_index/books/oritech/content/resources/world/still_oil_bucket.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/addons.mdx": {
+  "sha1": "dbe49be1b1d30a02c6b0d18be85d7e1457e01b87",
+  "src": "assets/oracle_index/books/oritech/docs/addons.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/alloys.mdx": {
+  "sha1": "0ee3ba1c4c06b44cbf76f5ad53e45f925ffd7115",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/alloys.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/assembling_components.mdx": {
+  "sha1": "e8e2c1ed65f7f263597122ccc5c104934d279fc5",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/assembling_components.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/first_generator.mdx": {
+  "sha1": "e296ed650e746c2fe6d799786a64c7a3cd18368a",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/first_generator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/fragmenting.mdx": {
+  "sha1": "bc1e279f96315042111efbda37817bb9d621b12d",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/fragmenting.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/gather_resources.mdx": {
+  "sha1": "eeac75248feb203ee3f118cad950f8291accecce",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/gather_resources.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/have_fun.mdx": {
+  "sha1": "cecd34541a1c67fe71d69198359131a6df4521db",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/have_fun.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/getting_started/lasers.mdx": {
+  "sha1": "4e8e482e88539bbc9f28c17418b6c19911352788",
+  "src": "assets/oracle_index/books/oritech/docs/getting_started/lasers.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/multiblocks.mdx": {
+  "sha1": "409d4413cf3855f3397760ab7391f0b27aeb1e46",
+  "src": "assets/oracle_index/books/oritech/docs/multiblocks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/particle_accelerator.mdx": {
+  "sha1": "600e141b19485a08a50e74c4ae785b145570a6bd",
+  "src": "assets/oracle_index/books/oritech/docs/particle_accelerator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/reactor/components.mdx": {
+  "sha1": "a3373ca3764aeccfdc06ace5dfaf1556ee7daef0",
+  "src": "assets/oracle_index/books/oritech/docs/reactor/components.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/reactor/designs.mdx": {
+  "sha1": "3b822bc945251772f3756e332f8fb4e2984704d0",
+  "src": "assets/oracle_index/books/oritech/docs/reactor/designs.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/docs/reactor/introduction.mdx": {
+  "sha1": "4ad5e6aa5e051d6df0b64347a74d521994189d52",
+  "src": "assets/oracle_index/books/oritech/docs/reactor/introduction.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/arcane/enchantments.mdx": {
+  "sha1": "198fa3ab98a6d021409085b09d2302b0393d2e1d",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/arcane/enchantments.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/arcane/mob_spawning.mdx": {
+  "sha1": "c4a0642abb1acb909d57140e8f30f801c0b9cbd8",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/arcane/mob_spawning.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/arcane/souls.mdx": {
+  "sha1": "475d7b34c469583bf11791faab4dce64b0cf6a76",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/arcane/souls.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/block_destroyer.mdx": {
+  "sha1": "81eac631ca89721645ba8c23a778ac45d7a7549e",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/block_destroyer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/block_placer.mdx": {
+  "sha1": "ce6ec5c72a20e95ababb90cbe107c44bf67b5b9b",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/block_placer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/deepdrill.mdx": {
+  "sha1": "21faa007f8c7f2002ee58288ae3c16d6ce486ab5",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/deepdrill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/enderic_laser.mdx": {
+  "sha1": "b3c3805acadb6e6350467e13637d566e3de9400b",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/enderic_laser.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/fertilizer.mdx": {
+  "sha1": "495cdd9645caa52adb38ecf82eeb4df134d9d18f",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/fertilizer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/machine_frames.mdx": {
+  "sha1": "bd32c1ba0c11cf5a156f0790ca5c20b3859035c6",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/machine_frames.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/particle_accelerator.mdx": {
+  "sha1": "9c80107613eb6765d7f7ca4366b515627b6cbb7b",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/particle_accelerator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/pump.mdx": {
+  "sha1": "85c04546a74e4016e7f1cf2f84b1f49ec36d068e",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/pump.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/redstone.mdx": {
+  "sha1": "183974472d44c45e4c8357fc05fbc06603618982",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/redstone.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/interaction/tree_cutter.mdx": {
+  "sha1": "e4d2d0f54016baeafe983d28699fb8771593d9d2",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/interaction/tree_cutter.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/logistics/drone_port.mdx": {
+  "sha1": "e3b707b028829628b71c4a770cdefdc70baeead2",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/logistics/drone_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/logistics/energy.mdx": {
+  "sha1": "338b45577675a521d608898d00d648bef1c7bc02",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/logistics/energy.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/logistics/fluid_transport.mdx": {
+  "sha1": "66fcc2736f76a8a106b4e6bd18cb57cc525b8da2",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/logistics/fluid_transport.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/logistics/item_transport.mdx": {
+  "sha1": "ad33f48c2a4639908b5319f50b4f15013a9941ee",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/logistics/item_transport.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/addons.mdx": {
+  "sha1": "235f6ff073a70da8ba394769ed812e31df4bb0d3",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/addons.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/assembler.mdx": {
+  "sha1": "ee2782f3f240f2c58bb67d0ac39bd3374be1f172",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/assembler.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/atomic_forge.mdx": {
+  "sha1": "97643bad4b967e82276aa84c2f4858cd926e05dc",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/atomic_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/centrifuge.mdx": {
+  "sha1": "32aea1e9a4d68ff0a84d32ce6752b25552c237fb",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/centrifuge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/foundry.mdx": {
+  "sha1": "5bdae19792f42c7aa01501477321db13eb6cdd49",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/foundry.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/fragment_forge.mdx": {
+  "sha1": "6e5931b0343de5f83b76a7d9a658578aec9553d8",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/fragment_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/generators.mdx": {
+  "sha1": "4681211bda6505afb6599ac1f261f6165d4667e1",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/generators.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/machine_basics.mdx": {
+  "sha1": "776eba0f8636cdba36de96a01be7677a04be5768",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/machine_basics.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/multiblocks.mdx": {
+  "sha1": "bdfcc292a37fb45a1d8f8cc0d0cda76bdab36aca",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/multiblocks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/pulverizer.mdx": {
+  "sha1": "56d7523f5d8e6945aea51895047bd8a570a43a1d",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/pulverizer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/processing/steam_engine.mdx": {
+  "sha1": "ff2277f3dcd369a6f7ce453adf7407e6ff330b1e",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/steam_engine.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/adamant.mdx": {
+  "sha1": "5b96e18bbe08a95840572c0db8dee46d31c4abcd",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/adamant.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/biosteel.mdx": {
+  "sha1": "f9d9c4a58a35004ad8a3814e7334d45df143f0ba",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/biosteel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/crude_oil.mdx": {
+  "sha1": "5705a57cb55e4d1af1b3f12b85334d7f8e201876",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/crude_oil.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/duratium.mdx": {
+  "sha1": "72cde9082384e54603ccbe0f40ed0c3b901a1d65",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/duratium.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/electrum.mdx": {
+  "sha1": "3aaaa044957790d889cb65e140167365b6a89c58",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/electrum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/enderic_compound.mdx": {
+  "sha1": "82b4542a516617d52fbaa8ba51e2f39bb78099c6",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/enderic_compound.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/energite.mdx": {
+  "sha1": "88c6ae44e03c06a36cb4528fa6f92f935c6867ba",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/energite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/fluxite.mdx": {
+  "sha1": "41edb3895b7ec9882079d06c4a2a8909701567c8",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/fluxite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/nickel.mdx": {
+  "sha1": "a539150c7a3abecc3f728e49559b7cd7d2b21567",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/nickel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/ore_boulder.mdx": {
+  "sha1": "95dfee8748e0f026a1ba73e8459499824be09e1f",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/ore_boulder.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/platinum.mdx": {
+  "sha1": "bda3225dc3f18249cb9f100bcd46abcd0e28a76c",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/platinum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/prometheum.mdx": {
+  "sha1": "e93dd69dc9b44be8a58bf517b9b13f44cb60ca61",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/prometheum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/resource_node.mdx": {
+  "sha1": "def344ea129c89f5a7da8461dfeea0405a44d961",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/resource_node.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/silicon.mdx": {
+  "sha1": "6666a0e1331531949a11995cf11b5eb9c03dd36f",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/silicon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/resources/steel.mdx": {
+  "sha1": "9f5b6946c194a0fd83072a721861304f7891566a",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/resources/steel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/chainsaw.mdx": {
+  "sha1": "98d2616ec87640db564a21ab683d2dc71d4c028b",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/chainsaw.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/exo_armor.mdx": {
+  "sha1": "4efc4d9fe4a1caf2bdb1b0aa7d142584970e1336",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/exo_armor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/hand_drill.mdx": {
+  "sha1": "d286b2d03e329ce8275dfa160f9f30447c1a73ca",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/hand_drill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/jetpacks.mdx": {
+  "sha1": "ff455d430b38c53019fdc2508d409e44716f779b",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/jetpacks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/prometheum_tools.mdx": {
+  "sha1": "5fe7aff91f324589b00bf1ec506a00c254132a9c",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/prometheum_tools.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/content/tools/target_designator.mdx": {
+  "sha1": "2a18b5301a1471522ad42768c10b47eb1b78a156",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/tools/target_designator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/alloys.mdx": {
+  "sha1": "a58f7c39e959278dab18f5d2fa444a03df1ff078",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/alloys.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/assembling_components.mdx": {
+  "sha1": "f3e356d5df7cc43e865389dcaa0263928c22b6ff",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/assembling_components.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/first_generator.mdx": {
+  "sha1": "eaafebfd2b6249a6a81bec7e985802c203b428c2",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/first_generator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/fragmenting.mdx": {
+  "sha1": "876c73ae43c55cfbcb5219de526d17b51a15b30e",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/fragmenting.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/gather_resources.mdx": {
+  "sha1": "45da565a397667de875364019fb6354f9b3e7b82",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/gather_resources.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/have_fun.mdx": {
+  "sha1": "84484c00784bba8e9f627e60d6955e096b46be5d",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/have_fun.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/fr_fr/docs/getting_started/lasers.mdx": {
+  "sha1": "ba30a25173a8370a651e501f68f3be5ca4395853",
+  "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/lasers.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/arcane/enchantments.mdx": {
+  "sha1": "d53c92c8443299721048d66cf500a24877f4a273",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/arcane/enchantments.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/arcane/mob_spawning.mdx": {
+  "sha1": "3bdbd211aa37d1d2f8d808ded8c07635145cbf28",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/arcane/mob_spawning.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/arcane/souls.mdx": {
+  "sha1": "d2719eb6277078d4ac5fe6ea63bb87aba1b78b07",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/arcane/souls.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/block_destroyer.mdx": {
+  "sha1": "0edbc6750398276738da30fab09318bf2c75b6e2",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/block_destroyer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/block_placer.mdx": {
+  "sha1": "c05a2dd708167f7ceb16b53e86f6009b6581ef66",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/block_placer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/cybernetics.mdx": {
+  "sha1": "8f248b2e1ac9b494081aabfe52adbffeac14a80a",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/cybernetics.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/enderic_laser.mdx": {
+  "sha1": "0ced926aa53e9fcf4b0b3cf189d28ef64624e98d",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/enderic_laser.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/fertilizer.mdx": {
+  "sha1": "21c03eab7ba230dba96c778ce1b4293e73360234",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/fertilizer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/machine_frames.mdx": {
+  "sha1": "d52b535e306c720517b70279d46bdd84fb025907",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/machine_frames.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/particle_accelerator.mdx": {
+  "sha1": "e5cda2b809f7224f63da6d421e440de2140728a4",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/particle_accelerator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/pump.mdx": {
+  "sha1": "c9df7335636d0316b4c293ac8cc4561d1fd190ad",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/pump.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/redstone.mdx": {
+  "sha1": "da7024ee8a21815c577bf79eeb42c40264104bb7",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/redstone.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/tree_cutter.mdx": {
+  "sha1": "224b03efdeecdce41acf66cda4c7fbbfb0f68240",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/tree_cutter.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/interaction/unstable_container.mdx": {
+  "sha1": "8a0d651f6814932c90b70bfa7bc7af3a79b43ba2",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/interaction/unstable_container.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/logistics/drone_port.mdx": {
+  "sha1": "eade0f00255845e74885302a4937ad7debddd53c",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/logistics/drone_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/logistics/energy.mdx": {
+  "sha1": "41d9af429cfe4d5f85e17ff38616d7c16db6b5aa",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/logistics/energy.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/logistics/item_transport.mdx": {
+  "sha1": "e0458ff6b0481dcbaf331d0bd8d8c0a56b3e26e0",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/logistics/item_transport.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/logistics/pipe_boosters.mdx": {
+  "sha1": "38d3d6b308772a1c2cebfdfdac043af3248aa2b1",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/logistics/pipe_boosters.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/processing/atomic_forge.mdx": {
+  "sha1": "d65d2b447991e844ac90ce899d2d14c750a2d137",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/processing/atomic_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/processing/fragment_forge.mdx": {
+  "sha1": "64f1e75a3419b93df3be576579a5f5bd0b3d2add",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/processing/fragment_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/processing/multiblocks.mdx": {
+  "sha1": "93d6d876e3d1756727b3716553aea576623a3203",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/processing/multiblocks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/processing/reactor/components.mdx": {
+  "sha1": "6afda6af7ce40f58f26385e9bd80ecfdfaeae937",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/processing/reactor/components.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/adamant.mdx": {
+  "sha1": "137bbce4db54bce5d236463402a023bbb49abc08",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/adamant.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/biosteel.mdx": {
+  "sha1": "c1de5f40eebdd562aec71cca6337303966269e78",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/biosteel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/duratium.mdx": {
+  "sha1": "42a4724488729facb0f17d9e8e9d655cb7d328ed",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/duratium.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/electrum.mdx": {
+  "sha1": "48ad00fdc5f0bead529fb218bcf7c8095e504f32",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/electrum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/energite.mdx": {
+  "sha1": "b80735fa5874fc74fbf28b4dc30d252c27958870",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/energite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/fluxite.mdx": {
+  "sha1": "379b98e2c7437ed08c173659fb90f1a856157cd7",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/fluxite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/nickel.mdx": {
+  "sha1": "a85b659684370705eea54473f3368e60433ea26b",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/nickel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/platinum.mdx": {
+  "sha1": "6f82dd0970485d0eae9d016a9af91a706b16e081",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/platinum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/prometheum.mdx": {
+  "sha1": "55d91f2f356afb907039fc118390c7316690ef12",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/prometheum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/silicon.mdx": {
+  "sha1": "b4214421bc2b3d8d6f7ed2c2401e31e6127f312e",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/silicon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/steel.mdx": {
+  "sha1": "8b5fbb0ec7ee6b136110299df3aea3cce06527bd",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/steel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/resources/uranium.mdx": {
+  "sha1": "5e045d4ba4cc5a89eee88d669708c1a454ab0e89",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/resources/uranium.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/chainsaw.mdx": {
+  "sha1": "0ce49b45945f6f8ad186d15befe88f9d214ec5ae",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/chainsaw.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/electric_mace.mdx": {
+  "sha1": "7bc1bfb14c808d85bfc8ba2221dca448e26288b2",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/electric_mace.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/enderic_railgun.mdx": {
+  "sha1": "75742c17c73780f23df8e2125884744918c75c2f",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/enderic_railgun.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/exo_armor.mdx": {
+  "sha1": "671bf11c8e5ab441ea0f568b429100c0d08ed459",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/exo_armor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/hand_drill.mdx": {
+  "sha1": "fd7b77f8faf25b573c8387bf77141fdb00311690",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/hand_drill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/jetpacks.mdx": {
+  "sha1": "1cdd8e58386e99825b3f3ca8beea05dc469f1c45",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/jetpacks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/target_designator.mdx": {
+  "sha1": "48c1c41f026fe54881b61d5cca4c771acd2d5a43",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/target_designator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/ja_jp/content/tools/wrench.mdx": {
+  "sha1": "955c1b7f32b52cf5052f17611f2c837ae87e7891",
+  "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/wrench.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/arcane/enchantments.mdx": {
+  "sha1": "9e00e203d6752ecdd7e4d4d8529970e4f32e7ef1",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/arcane/enchantments.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/arcane/mob_spawning.mdx": {
+  "sha1": "6cd2ef286fd353b28fb50cc2caf8617951eb599f",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/arcane/mob_spawning.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/arcane/souls.mdx": {
+  "sha1": "98c656c17a42e889710b2de80c7bf6b6b641b4e4",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/arcane/souls.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/block_destroyer.mdx": {
+  "sha1": "9cd7b7f7a25f645409cc451b7673b89356e126c2",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/block_destroyer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/block_placer.mdx": {
+  "sha1": "ed4fe174afbdf54821993a378f901a66cde68b43",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/block_placer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/deepdrill.mdx": {
+  "sha1": "ca05cc0caae3571d0c16b956c0f74ed523ba178a",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/deepdrill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/enderic_laser.mdx": {
+  "sha1": "2b16d950a0dda58ccd3612643f2f4048be7540cb",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/enderic_laser.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/fertilizer.mdx": {
+  "sha1": "d6296f63ff74c6ec5ad02e0b77c7dacb03523ad5",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/fertilizer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/machine_frames.mdx": {
+  "sha1": "7a17b4b909518ff94f601b09bdbabf2f3daadd5a",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/machine_frames.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/particle_accelerator.mdx": {
+  "sha1": "4ea70bdc643f06a75c3e3c50b23c5c1cb5a2483d",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/particle_accelerator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/pump.mdx": {
+  "sha1": "76556a9732d31824e8b27c835feb905cd1448ecc",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/pump.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/redstone.mdx": {
+  "sha1": "d15668acdc7ae0cf7c446ac503584371db828e96",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/redstone.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/interaction/tree_cutter.mdx": {
+  "sha1": "faa4a66c8f0dd094d03d8c25f3873128f1fee11e",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/interaction/tree_cutter.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/logistics/drone_port.mdx": {
+  "sha1": "8863b61161f8a962fd6b42827bbfc0e7461b3bb5",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/logistics/drone_port.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/logistics/energy.mdx": {
+  "sha1": "42d4daadb9cbd0602b2fba3a4df876c18afd895d",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/logistics/energy.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/logistics/fluid_transport.mdx": {
+  "sha1": "4c59476116b6225ff838bbf3dad566dafc02c0c6",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/logistics/fluid_transport.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/logistics/item_transport.mdx": {
+  "sha1": "92ebe22c00243e1cdd336f72a116d4c61240bd83",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/logistics/item_transport.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/logistics/pipe_boosters.mdx": {
+  "sha1": "ed93dacebf0edb9bf05e86f71cccb20eb694961a",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/logistics/pipe_boosters.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/addons.mdx": {
+  "sha1": "af0890ddddcb6ccc60132a23a55584699e2336b7",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/addons.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/assembler.mdx": {
+  "sha1": "0ae7c2a3c08b753a8c1a15d808a9165a2b139ff3",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/assembler.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/atomic_forge.mdx": {
+  "sha1": "1e43ba5e04e4efb95e89108d4fa8501782a64c4d",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/atomic_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/centrifuge.mdx": {
+  "sha1": "7711a44d5ac48196729e5c98f3b0dfb20c762328",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/centrifuge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/foundry.mdx": {
+  "sha1": "f62e5c999b0e24c3125844771385f9595f3764e9",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/foundry.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/fragment_forge.mdx": {
+  "sha1": "60c0eee11e320eb728143415cee782e6e231b5f4",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/fragment_forge.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/generators.mdx": {
+  "sha1": "f6afb4babae248aa19d6f98228097a267ee093c2",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/generators.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/machine_basics.mdx": {
+  "sha1": "f277a6a7ddb34d7b9a8bed479a8b647ea6b1cb87",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/machine_basics.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/multiblocks.mdx": {
+  "sha1": "a248e85bd21eefd2ec8417458be32438762d806d",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/multiblocks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/pulverizer.mdx": {
+  "sha1": "148abe209dd65852217ce2956a352c8ad153ad02",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/pulverizer.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/processing/steam_engine.mdx": {
+  "sha1": "fda64c5d162c302742bec9d951ec444f6d427648",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/processing/steam_engine.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/adamant.mdx": {
+  "sha1": "9e75e5423e48aa9ff041654851fe5758eca9dfcc",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/adamant.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/biosteel.mdx": {
+  "sha1": "3e6a16030f6202c599810140f1ed7e0fc1648244",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/biosteel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/crude_oil.mdx": {
+  "sha1": "8361fe3f83091c390d9a754a3bd3fd9a509e8123",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/crude_oil.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/duratium.mdx": {
+  "sha1": "1857771ed4cae1bc18c3c7b7fe18eb5d2b431f81",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/duratium.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/electrum.mdx": {
+  "sha1": "dcba63f418137b087b41963dd98e8d15f234bd50",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/electrum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/enderic_compound.mdx": {
+  "sha1": "af9352fb83ff798f11c6e6fac9f6fdd5f79ebe83",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/enderic_compound.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/energite.mdx": {
+  "sha1": "9c3384b119eb9094068b3d37eb0f22f6300033bf",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/energite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/fluxite.mdx": {
+  "sha1": "e99aea16f558f806e352f43429ae603053a092d6",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/fluxite.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/nickel.mdx": {
+  "sha1": "16236a8c199e169d895fb051830b4a934920c4ea",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/nickel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/ore_boulder.mdx": {
+  "sha1": "be5acd447bda4ebef8f068e3cd0b567bb99c3ae0",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/ore_boulder.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/platinum.mdx": {
+  "sha1": "a4f56ccd3e857e5db9acb74385cb5474e1ae87cb",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/platinum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/prometheum.mdx": {
+  "sha1": "27b8a790a7a23d1341315078a6345f5100636bcf",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/prometheum.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/resource_node.mdx": {
+  "sha1": "8f0422ba3ee1680c9d75bbbb053645374b247f8d",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/resource_node.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/silicon.mdx": {
+  "sha1": "ab18ba7be697e3d49c0f18d36b57e7f2a3b489f7",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/silicon.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/resources/steel.mdx": {
+  "sha1": "6be84e55f576bbb442195e1e44bffaaa17225779",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/resources/steel.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/chainsaw.mdx": {
+  "sha1": "1aed2323875e70fc5c99c871975587b90bf26b77",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/chainsaw.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/exo_armor.mdx": {
+  "sha1": "dee625b3719cdcba10373fb93832beb36f4aac5a",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/exo_armor.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/hand_drill.mdx": {
+  "sha1": "e35799790d583b6bf2277850305a9e1f26ed1617",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/hand_drill.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/jetpacks.mdx": {
+  "sha1": "6c5b1de738aa22679c4017f5b5d2199a52cbb39e",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/jetpacks.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/prometheum_tools.mdx": {
+  "sha1": "64b80982b63bdf18b7856aeb82e3169795a1fb89",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/prometheum_tools.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/content/tools/target_designator.mdx": {
+  "sha1": "0a29a35b400dca5fd8141bab057d9bfbff5ee941",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/target_designator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/alloys.mdx": {
+  "sha1": "ea9ed09f00a89f471b2cdeaa914d74a43d6d8036",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/alloys.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/assembling_components.mdx": {
+  "sha1": "e47f5b79f7d126223fb00b3d663e84e21b9db301",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/assembling_components.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/first_generator.mdx": {
+  "sha1": "2b3cc7086062ac8b5be311d1ad74288777e1dc43",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/first_generator.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/fragmenting.mdx": {
+  "sha1": "98f9b68cc48fa476be71a6fcd3206b28329ee8d1",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/fragmenting.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/gather_resources.mdx": {
+  "sha1": "ad2f43e546de72be96e8b8bef4c5c3c718c51929",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/gather_resources.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/have_fun.mdx": {
+  "sha1": "e7deeafa27e953770b04f68c508592169c270477",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/have_fun.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/pl_pl/docs/getting_started/lasers.mdx": {
+  "sha1": "d24798a680cd0d7fd0cffef896415e7a7f8b3787",
+  "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/lasers.mdx"
+ },
+ "assets/oracle_index/books/oritech/.translated/zh_cn/translated/zh_cn/content/arcane/spawner_controller_block.mdx": {
+  "sha1": "b1d531f3219571ea2dd3b7bc783dc452548dd53e",
+  "src": "assets/oracle_index/books/oritech/translated/zh_cn/content/arcane/spawner_controller_block.mdx"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/energy_blocks/energizing.md": {
+  "sha1": "9cd45025aa1e2ee9eb1ebaf8a409a6c2a9b295a0",
+  "src": "assets/powah/guides/powah/book/energy_blocks/energizing.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/energy_blocks/energy_discharger.md": {
+  "sha1": "c2c8389294201f8ab2b629fb70e344ff9d07aca2",
+  "src": "assets/powah/guides/powah/book/energy_blocks/energy_discharger.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/energy_blocks/energy_hopper.md": {
+  "sha1": "70151e3defaab52b121f39f44f5a6bf34689dff8",
+  "src": "assets/powah/guides/powah/book/energy_blocks/energy_hopper.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/energy_blocks/index.md": {
+  "sha1": "20cd5b3cae00d885e4ec7399e3b3e410f376fe97",
+  "src": "assets/powah/guides/powah/book/energy_blocks/index.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/energy_blocks/player_transmitter.md": {
+  "sha1": "726622e0b1c2de024b0f89617b02ac632474965e",
+  "src": "assets/powah/guides/powah/book/energy_blocks/player_transmitter.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/furnator.md": {
+  "sha1": "9a39ec679956f820908ae84edd77a434abf14884",
+  "src": "assets/powah/guides/powah/book/generators/furnator.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/index.md": {
+  "sha1": "ed43b6bbd90fd6a59c8337a99a7b1449d12172c0",
+  "src": "assets/powah/guides/powah/book/generators/index.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/magmator.md": {
+  "sha1": "85540343e31a4dcf5f89d8fd4cd243bc6aa51173",
+  "src": "assets/powah/guides/powah/book/generators/magmator.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/reactor.md": {
+  "sha1": "12552577ea70c0cd8faf81ae4de8a8e6109f38b5",
+  "src": "assets/powah/guides/powah/book/generators/reactor.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/solar_panel.md": {
+  "sha1": "bf8615c590aa7bdd26edce6bd5b1c4c9ec69e114",
+  "src": "assets/powah/guides/powah/book/generators/solar_panel.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/generators/thermo_generator.md": {
+  "sha1": "314bc1d7888288087c65c0dacbcb6d88dc4b62c7",
+  "src": "assets/powah/guides/powah/book/generators/thermo_generator.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/index.md": {
+  "sha1": "8d8847acfe9f0fd9a23cf4c9398b5e6910e044ad",
+  "src": "assets/powah/guides/powah/book/index.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/battery.md": {
+  "sha1": "a69d1ccfe2ad5405e1ededbd81cf5e2eb447a1dc",
+  "src": "assets/powah/guides/powah/book/items/battery.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/binding_card.md": {
+  "sha1": "c9a199966d4b309cf70ce215d28309027e81790f",
+  "src": "assets/powah/guides/powah/book/items/binding_card.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/binding_card_dim.md": {
+  "sha1": "cd96dd0b92177522b3ea1dbc8ba3e1ed64ca99fb",
+  "src": "assets/powah/guides/powah/book/items/binding_card_dim.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/charged_snowball.md": {
+  "sha1": "08c1456e44c01e060c16e7848ed546bfc4533567",
+  "src": "assets/powah/guides/powah/book/items/charged_snowball.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/index.md": {
+  "sha1": "51a6e93c0874384ab9a3305c5a5c639b67604d04",
+  "src": "assets/powah/guides/powah/book/items/index.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/lens_of_ender.md": {
+  "sha1": "e9b55587e2fe468a15d5e6af647a8fc92300d75c",
+  "src": "assets/powah/guides/powah/book/items/lens_of_ender.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/player_aerial_pearl.md": {
+  "sha1": "40dddc837c52979fc24e7ae0e1f00bb4842bae8b",
+  "src": "assets/powah/guides/powah/book/items/player_aerial_pearl.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/items/wrench.md": {
+  "sha1": "9a58023a9ef5e68be4fdd20f1d96302936d735c8",
+  "src": "assets/powah/guides/powah/book/items/wrench.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/materials/dry_ice.md": {
+  "sha1": "68f9d33b43200d6b55e9340cfedb24fb825fac71",
+  "src": "assets/powah/guides/powah/book/materials/dry_ice.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/materials/index.md": {
+  "sha1": "c23eb22952d66563e18307750c792fc94041abd8",
+  "src": "assets/powah/guides/powah/book/materials/index.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/materials/uraninite.md": {
+  "sha1": "186c60b5eaad2467689729fa286fba6d84edb68f",
+  "src": "assets/powah/guides/powah/book/materials/uraninite.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/storage_transfer/ender_cell.md": {
+  "sha1": "e8a96fecf4ff1f7aa88ce0bdcb2988665b77c898",
+  "src": "assets/powah/guides/powah/book/storage_transfer/ender_cell.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/storage_transfer/ender_gate.md": {
+  "sha1": "3cb6f65564eb626047fb66b1f81ecc15c378a85d",
+  "src": "assets/powah/guides/powah/book/storage_transfer/ender_gate.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/storage_transfer/energy_cable.md": {
+  "sha1": "8ecae409cce5e7636ca071971dcb9d446dfd1abc",
+  "src": "assets/powah/guides/powah/book/storage_transfer/energy_cable.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/storage_transfer/energy_cell.md": {
+  "sha1": "35184f75c77ad79ea860d30b7bf4cf378032ce01",
+  "src": "assets/powah/guides/powah/book/storage_transfer/energy_cell.md"
+ },
+ "assets/powah/guides/powah/book/_zh_cn/storage_transfer/index.md": {
+  "sha1": "019f8ee41cc73369606bd45dbd17646b9017c8fb",
+  "src": "assets/powah/guides/powah/book/storage_transfer/index.md"
+ },
+ "assets/rftoolsbuilder/gui/builder.gui": {
+  "sha1": "aebe47e06adca10ce65620f3b5a798efa09a9dde",
+  "src": "assets/rftoolsbuilder/gui/builder.gui"
+ },
+ "assets/rftoolsbuilder/gui/mover.gui": {
+  "sha1": "75ce74b2ec6a4dcc3f729735007864fe08c538cd",
+  "src": "assets/rftoolsbuilder/gui/mover.gui"
+ },
+ "assets/rftoolsbuilder/gui/mover_controller.gui": {
+  "sha1": "46d04f1a418eb7156ecf848c7912b3869572bb62",
+  "src": "assets/rftoolsbuilder/gui/mover_controller.gui"
+ },
+ "assets/rftoolsbuilder/gui/vehicle_builder.gui": {
+  "sha1": "ed3cfc0e6db037ef3dcbeafd14ea9fbd3d461470",
+  "src": "assets/rftoolsbuilder/gui/vehicle_builder.gui"
+ },
+ "assets/rftoolspower/gui/blazing_agitator.gui": {
+  "sha1": "fadbff9a2bf5b4675801e422f02ddff56c9c26a4",
+  "src": "assets/rftoolspower/gui/blazing_agitator.gui"
+ },
+ "assets/rftoolspower/gui/blazing_generator.gui": {
+  "sha1": "7149fb15f181cb18cf497a37b03c6cbe901a0674",
+  "src": "assets/rftoolspower/gui/blazing_generator.gui"
+ },
+ "assets/rftoolspower/gui/blazing_infuser.gui": {
+  "sha1": "664f2358943d899ef26b2705ac45d291f4a69940",
+  "src": "assets/rftoolspower/gui/blazing_infuser.gui"
+ },
+ "assets/rftoolspower/gui/coalgenerator.gui": {
+  "sha1": "9d753f7bc3878567f1bec849e370a8a46308d576",
+  "src": "assets/rftoolspower/gui/coalgenerator.gui"
+ },
+ "assets/rftoolspower/gui/endergenic.gui": {
+  "sha1": "a6e85ad3f8b4e3b1c10872e8fde7aa488b99bfa5",
+  "src": "assets/rftoolspower/gui/endergenic.gui"
+ },
+ "assets/rftoolspower/gui/endermonitor.gui": {
+  "sha1": "4d5b35cc00cd07c60f26a200af2781962ad57f4f",
+  "src": "assets/rftoolspower/gui/endermonitor.gui"
+ },
+ "assets/rftoolspower/gui/pearl_injector.gui": {
+  "sha1": "13aba2b99d93e8c29579f469b57b88f149b66972",
+  "src": "assets/rftoolspower/gui/pearl_injector.gui"
+ },
+ "assets/rftoolsutility/gui/counter.gui": {
+  "sha1": "216945f0d041da748e4725add9f9f1ba766ac0f0",
+  "src": "assets/rftoolsutility/gui/counter.gui"
+ },
+ "assets/rftoolsutility/gui/crafter.gui": {
+  "sha1": "58369e168d8405be6ebd335d8e8ff5d565217918",
+  "src": "assets/rftoolsutility/gui/crafter.gui"
+ },
+ "assets/rftoolsutility/gui/environmental.gui": {
+  "sha1": "47bdae43aec2d638bbe47254f41d2691bd041219",
+  "src": "assets/rftoolsutility/gui/environmental.gui"
+ },
+ "assets/rftoolsutility/gui/invchecker.gui": {
+  "sha1": "7272ca4a5efc59dab0a1db9fe3eb109129523184",
+  "src": "assets/rftoolsutility/gui/invchecker.gui"
+ },
+ "assets/rftoolsutility/gui/redstone_receiver.gui": {
+  "sha1": "194c149fcc4fb0397b04e64dc735fb2bddb1f814",
+  "src": "assets/rftoolsutility/gui/redstone_receiver.gui"
+ },
+ "assets/rftoolsutility/gui/redstone_transmitter.gui": {
+  "sha1": "063a5bdf0dfb75ba93a460048088d1afa92be7a3",
+  "src": "assets/rftoolsutility/gui/redstone_transmitter.gui"
+ },
+ "assets/rftoolsutility/gui/sensor.gui": {
+  "sha1": "e19cb301c75d1c5aef1dd99d3981cf3510f3181d",
+  "src": "assets/rftoolsutility/gui/sensor.gui"
+ },
+ "assets/rftoolsutility/gui/sequencer.gui": {
+  "sha1": "2fcd022de4c9b05bd0c4ab7aab92f4a398dd0505",
+  "src": "assets/rftoolsutility/gui/sequencer.gui"
+ },
+ "assets/rftoolsutility/gui/threelogic.gui": {
+  "sha1": "7772e6e3feaaa5b032bf9f7a00e47a7c7fca2e78",
+  "src": "assets/rftoolsutility/gui/threelogic.gui"
+ },
+ "assets/rftoolsutility/gui/timer.gui": {
+  "sha1": "1b9164937ffe998dc67211c2c20c7f1915c1af34",
+  "src": "assets/rftoolsutility/gui/timer.gui"
+ },
+ "assets/tombstone/text/coral_chant_1_en_us-zh_cn.txt": {
+  "sha1": "424ef83f5112f6378245df8f41bd0940a72c8492",
+  "src": "assets/tombstone/text/coral_chant_1_en_us.txt"
+ },
+ "assets/tombstone/text/coral_chant_1_fr_fr-zh_cn.txt": {
+  "sha1": "564335ec979a1de4d0bf3fdea2044181d73c9856",
+  "src": "assets/tombstone/text/coral_chant_1_fr_fr.txt"
+ },
+ "assets/tombstone/text/coral_chant_2_en_us-zh_cn.txt": {
+  "sha1": "df2196543b5a7a6eb700de04f4e696d309c744d5",
+  "src": "assets/tombstone/text/coral_chant_2_en_us.txt"
+ },
+ "assets/tombstone/text/coral_chant_2_fr_fr-zh_cn.txt": {
+  "sha1": "5989fc99be511bd03f6058a3a4c0598e840e40b8",
+  "src": "assets/tombstone/text/coral_chant_2_fr_fr.txt"
+ },
+ "assets/tombstone/text/coral_chant_3_en_us-zh_cn.txt": {
+  "sha1": "7b2f6f8a4784801a03b0bb9fd053ccbc39ee4805",
+  "src": "assets/tombstone/text/coral_chant_3_en_us.txt"
+ },
+ "assets/tombstone/text/coral_chant_3_fr_fr-zh_cn.txt": {
+  "sha1": "6aa57c9cf3ff1c9e2847484caceede8b49a31255",
+  "src": "assets/tombstone/text/coral_chant_3_fr_fr.txt"
+ },
+ "assets/tombstone/text/coral_chant_4_en_us-zh_cn.txt": {
+  "sha1": "eef25aca81a3d4e914e141e94637d04799218bee",
+  "src": "assets/tombstone/text/coral_chant_4_en_us.txt"
+ },
+ "assets/tombstone/text/coral_chant_4_fr_fr-zh_cn.txt": {
+  "sha1": "97406307b20b9e44acdada7f19c349c390a118c8",
+  "src": "assets/tombstone/text/coral_chant_4_fr_fr.txt"
+ },
+ "assets/tombstone/text/elyra_diary_1_en_us-zh_cn.txt": {
+  "sha1": "0db76571b691db6861b2920a87c38257a19b8558",
+  "src": "assets/tombstone/text/elyra_diary_1_en_us.txt"
+ },
+ "assets/tombstone/text/elyra_diary_1_fr_fr-zh_cn.txt": {
+  "sha1": "9df48075ba77cb54fc2b8ec9bb07eadb2d9ea800",
+  "src": "assets/tombstone/text/elyra_diary_1_fr_fr.txt"
+ },
+ "assets/tombstone/text/elyra_diary_2_en_us-zh_cn.txt": {
+  "sha1": "2b0dd34794358e598e726b2eb8150ebf4dfe3b21",
+  "src": "assets/tombstone/text/elyra_diary_2_en_us.txt"
+ },
+ "assets/tombstone/text/elyra_diary_2_fr_fr-zh_cn.txt": {
+  "sha1": "567d032603f78bbc0b438962056d0751345e75ed",
+  "src": "assets/tombstone/text/elyra_diary_2_fr_fr.txt"
+ },
+ "assets/tombstone/text/elyra_diary_3_en_us-zh_cn.txt": {
+  "sha1": "42036468bfad6bbacaf9dcb3e3c0f348c426ac8f",
+  "src": "assets/tombstone/text/elyra_diary_3_en_us.txt"
+ },
+ "assets/tombstone/text/elyra_diary_3_fr_fr-zh_cn.txt": {
+  "sha1": "f26095c5657240b3446c975e61892c9c1a5dc22b",
+  "src": "assets/tombstone/text/elyra_diary_3_fr_fr.txt"
+ },
+ "assets/tombstone/text/elyra_diary_4_en_us-zh_cn.txt": {
+  "sha1": "ebed4a9782433141c111d6e3cc185b61e50fd113",
+  "src": "assets/tombstone/text/elyra_diary_4_en_us.txt"
+ },
+ "assets/tombstone/text/elyra_diary_4_fr_fr-zh_cn.txt": {
+  "sha1": "f5dbb1f835f9b90023dc6368d47c8992d13e4f79",
+  "src": "assets/tombstone/text/elyra_diary_4_fr_fr.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_1_en_us-zh_cn.txt": {
+  "sha1": "77b74194622bc3dff809841e15d2e905d8ce6581",
+  "src": "assets/tombstone/text/erdos_fragments_1_en_us.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_1_fr_fr-zh_cn.txt": {
+  "sha1": "b4aacb8dbb30557197c7a0e97df2ba3efc0d8095",
+  "src": "assets/tombstone/text/erdos_fragments_1_fr_fr.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_2_en_us-zh_cn.txt": {
+  "sha1": "ab2b47a48e5bdce8b871208b791f284c6dd1b325",
+  "src": "assets/tombstone/text/erdos_fragments_2_en_us.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_2_fr_fr-zh_cn.txt": {
+  "sha1": "8db5f22eb486a4a54bd57da664e6c6fc711db678",
+  "src": "assets/tombstone/text/erdos_fragments_2_fr_fr.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_3_en_us-zh_cn.txt": {
+  "sha1": "cfd2dbe8ce0ec03b8a73a7efe544d7c41dda8b09",
+  "src": "assets/tombstone/text/erdos_fragments_3_en_us.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_3_fr_fr-zh_cn.txt": {
+  "sha1": "fede19ef3e0cce743a99a40b3456670e7e096a1d",
+  "src": "assets/tombstone/text/erdos_fragments_3_fr_fr.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_4_en_us-zh_cn.txt": {
+  "sha1": "f5f489478f6faa6a44193586a8bb8a0ddd812201",
+  "src": "assets/tombstone/text/erdos_fragments_4_en_us.txt"
+ },
+ "assets/tombstone/text/erdos_fragments_4_fr_fr-zh_cn.txt": {
+  "sha1": "f7dcfbed5d2edb5dc648c4dfbed1f3a161d927f2",
+  "src": "assets/tombstone/text/erdos_fragments_4_fr_fr.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_1_en_us-zh_cn.txt": {
+  "sha1": "499a37d10f2d33e56a2a30caf2eee82d1afdbd7e",
+  "src": "assets/tombstone/text/rite_of_silent_bond_1_en_us.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_1_fr_fr-zh_cn.txt": {
+  "sha1": "e6a55b3d2d8a654971d08817fe7cf6baa73e7c33",
+  "src": "assets/tombstone/text/rite_of_silent_bond_1_fr_fr.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_2_en_us-zh_cn.txt": {
+  "sha1": "c5ed4bd851ea665583c78f65149592ba2967da83",
+  "src": "assets/tombstone/text/rite_of_silent_bond_2_en_us.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_2_fr_fr-zh_cn.txt": {
+  "sha1": "6182996f86c211cd2ee9163eb4dea6c650c324bd",
+  "src": "assets/tombstone/text/rite_of_silent_bond_2_fr_fr.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_3_en_us-zh_cn.txt": {
+  "sha1": "91821308279790515fcab3cbeb014936302e02d2",
+  "src": "assets/tombstone/text/rite_of_silent_bond_3_en_us.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_3_fr_fr-zh_cn.txt": {
+  "sha1": "a0f603793fec796d48504e8398cfeab87b7e4774",
+  "src": "assets/tombstone/text/rite_of_silent_bond_3_fr_fr.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_4_en_us-zh_cn.txt": {
+  "sha1": "c0f09eaa748fcd3fa97f8786c76f8c459aff85b9",
+  "src": "assets/tombstone/text/rite_of_silent_bond_4_en_us.txt"
+ },
+ "assets/tombstone/text/rite_of_silent_bond_4_fr_fr-zh_cn.txt": {
+  "sha1": "bb8cb9b2e6b5d06db695609a07076aeb0fe96841",
+  "src": "assets/tombstone/text/rite_of_silent_bond_4_fr_fr.txt"
+ },
+ "assets/xnet/gui/controller.gui": {
+  "sha1": "e71435bc733a5867239bc486a368d85758aaa6b3",
+  "src": "assets/xnet/gui/controller.gui"
+ },
+ "assets/xnet/gui/router.gui": {
+  "sha1": "e5477baf8379bd105b6754fe8b32512b83143c8d",
+  "src": "assets/xnet/gui/router.gui"
+ },
+ "assets/xnet/gui/wireless_router.gui": {
+  "sha1": "b09d955a8abb93da762cbe5acf56a342411755d2",
+  "src": "assets/xnet/gui/wireless_router.gui"
+ },
+ "assets/xnet/text/manual_xnet-zh_cn.txt": {
+  "sha1": "505de57817e320c8d427279d06ce411945ee5045",
+  "src": "assets/xnet/text/manual_xnet.txt"
+ }
+}

@@ -1,0 +1,346 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/base_concepts/upgrades.json",
+ "sha1": "3f609f09f4b1ce8d2fbe0ff0c03d7f745e58745f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Upgrades",
+   "升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Upgrades/$ are craftable items which can be inserted into machines and some tools to enhance their functionality in some way. To add upgrades to tools, you will need a $(l:machines/charging_station)Charging Station/$.$(p)The precise effect of each upgrade varies by device; it's documented in the machine's GUI, or (for items) in the Charging Station's upgrade GUI.",
+   "$(thing)升级/$是可合成的物品，可以插入机器和部分工具中，以某种方式增强其功能。要为工具添加升级，你需要一个$(l:machines/charging_station)充气站/$。$(p)每种升级的具体效果会因设备而异；相关说明可在机器的 GUI 中查看，而物品则可在充气站的升级 GUI 中查看。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Volume Upgrade",
+   "合成容量升级"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Dispenser Upgrade",
+   "合成发射器升级"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting an Inventory Upgrade",
+   "合成物品栏升级"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Crafting a Item Life Upgrade",
+   "合成物品寿命升级"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Crafting a Entity Tracker Upgrade",
+   "合成实体追踪升级"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Crafting a Block Tracker Upgrade",
+   "合成方块追踪升级"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "Crafting a Speed Upgrade$(p)$(bold)Tip:/$ you can also use a $(l:machines/liquid_hopper)Liquid Hopper/$ (or other modded tank) of $(l:components/lubricant)Lubricant/$ to craft multiple upgrades at a time!",
+   "合成一个速度升级$(p)$(bold)提示：/$你也可以使用一桶装有 $(l:components/lubricant)润滑油/$ 的 $(l:machines/liquid_hopper)流体漏斗/$（或其他模组的储罐），一次合成多个升级！"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "Creating Speed Upgrades from $(l:renewables/glycerol)Glycerol/$",
+   "由 $(l:renewables/glycerol)甘油/$ 制作速度升级"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "Crafting a Search Upgrade",
+   "合成搜索升级"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "Crafting a Coordinate Tracker Upgrade",
+   "合成坐标追踪升级"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "Crafting a Range Upgrade",
+   "合成范围升级"
+  ],
+  [
+   [
+    "pages",
+    12,
+    "text"
+   ],
+   "Crafting a Security Upgrade",
+   "合成安全升级"
+  ],
+  [
+   [
+    "pages",
+    13,
+    "text"
+   ],
+   "Crafting a Magnet Upgrade",
+   "合成磁铁升级"
+  ],
+  [
+   [
+    "pages",
+    14,
+    "text"
+   ],
+   "Crafting a Thaumcraft Upgrade",
+   "合成神秘时代升级"
+  ],
+  [
+   [
+    "pages",
+    15,
+    "text"
+   ],
+   "Crafting a Charging Upgrade",
+   "合成充气升级"
+  ],
+  [
+   [
+    "pages",
+    16,
+    "text"
+   ],
+   "Crafting a Armor Upgrade",
+   "合成护甲升级"
+  ],
+  [
+   [
+    "pages",
+    17,
+    "text"
+   ],
+   "Crafting a Jet Boots Upgrade: Tier I",
+   "合成喷气靴升级：I级"
+  ],
+  [
+   [
+    "pages",
+    18,
+    "text"
+   ],
+   "Crafting a Jet Boots Upgrade: Tier II",
+   "合成喷气靴升级：II级"
+  ],
+  [
+   [
+    "pages",
+    19,
+    "text"
+   ],
+   "Crafting a Jet Boots Upgrade: Tier III",
+   "合成喷气靴升级：III级"
+  ],
+  [
+   [
+    "pages",
+    20,
+    "text"
+   ],
+   "Crafting a Jet Boots Upgrade: Tier IV",
+   "合成喷气靴升级：Tier IV"
+  ],
+  [
+   [
+    "pages",
+    21,
+    "text"
+   ],
+   "Crafting a Jet Boots Upgrade: Tier V",
+   "合成喷气靴升级：V级"
+  ],
+  [
+   [
+    "pages",
+    22,
+    "text"
+   ],
+   "Crafting a Jumping Upgrade: Tier I",
+   "合成跳跃升级：I级"
+  ],
+  [
+   [
+    "pages",
+    23,
+    "text"
+   ],
+   "Crafting a Jumping Upgrade: Tier II",
+   "合成跳跃升级：II级"
+  ],
+  [
+   [
+    "pages",
+    24,
+    "text"
+   ],
+   "Crafting a Jumping Upgrade: Tier III",
+   "合成跳跃升级：III级"
+  ],
+  [
+   [
+    "pages",
+    25,
+    "text"
+   ],
+   "Crafting a Jumping Upgrade: Tier IV",
+   "合成跳跃升级：IV级"
+  ],
+  [
+   [
+    "pages",
+    26,
+    "text"
+   ],
+   "Crafting a Night Vision Upgrade",
+   "合成夜视升级"
+  ],
+  [
+   [
+    "pages",
+    27,
+    "text"
+   ],
+   "Crafting a Scuba Upgrade",
+   "合成水肺升级"
+  ],
+  [
+   [
+    "pages",
+    28,
+    "text"
+   ],
+   "Crafting a Flippers Upgrade",
+   "合成脚蹼升级"
+  ],
+  [
+   [
+    "pages",
+    29,
+    "text"
+   ],
+   "Crafting a Standby Upgrade",
+   "合成待机升级"
+  ],
+  [
+   [
+    "pages",
+    30,
+    "text"
+   ],
+   "Crafting a Minigun Upgrade",
+   "合成机枪升级"
+  ],
+  [
+   [
+    "pages",
+    31,
+    "text"
+   ],
+   "Crafting an Air Conditioning Upgrade",
+   "空调升级的合成"
+  ],
+  [
+   [
+    "pages",
+    32,
+    "text"
+   ],
+   "Crafting a Radiation Shielding Upgrade",
+   "合成辐射防护升级"
+  ],
+  [
+   [
+    "pages",
+    33,
+    "text"
+   ],
+   "Crafting a Gilded Upgrade",
+   "合成镶金升级"
+  ],
+  [
+   [
+    "pages",
+    34,
+    "text"
+   ],
+   "Crafting an Ender Visor Upgrade",
+   "合成末影眼罩升级"
+  ],
+  [
+   [
+    "pages",
+    35,
+    "text"
+   ],
+   "Crafting a Stomp Upgrade",
+   "合成震地升级"
+  ],
+  [
+   [
+    "pages",
+    36,
+    "text"
+   ],
+   "Crafting a Chunkloader Upgrade",
+   "合成区块加载升级"
+  ]
+ ]
+}

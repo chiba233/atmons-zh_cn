@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/obsidian.json",
+ "sha1": "e298fd11729627149341ac054a4f747073297fce",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Obsidian Bee",
+   "黑曜石蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bred from a $(l:bees/wild/magmatic)Magmatic Bee$(/l) and a $(l:bees/solitary/sweat)Sweat Bee$(/l).",
+   "由一只$(l:bees/wild/magmatic)熔岩蜜蜂$(/l)和一只$(l:bees/solitary/sweat)汗蜜蜂$(/l)繁殖而来。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Obsidian Bee",
+   "黑曜石蜜蜂"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/water_condensator.json",
+ "sha1": "6e096f43cb98e32fcd0e1338e3ff1644403cb904",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Water Condensator",
+   "蓄水器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine that generates $(6)water$() from surrounding sourceblocks.$(br2)When adjacent to at least $(6)2 water source blocks$(), it will start working.$(br)Adding additional source blocks and supplying $(6)1000()RF per operation, will make the machine significally faster.",
+   "一台利用周围源水方块生成 $(6)水$() 的机器。$(br2)当相邻至少 $(6)2 个水源方块$() 时，它就会开始工作。$(br)添加更多源水方块并为每次操作提供 $(6)1000()RF，可大幅提升机器速度。"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-glass.json",
+ "sha1": "9c0d5ae5014f0ee07a14575d60f95857d8ccaf6d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Glass blocks are decorative blocks that can be used, instead of a $(l:bigreactors:turbine/part-casing)Housing$(/l) block, to show the interior of the Turbine.",
+   "玻璃方块是装饰性方块，可以替代$(l:bigreactors:turbine/part-casing)机壳$(/l)方块使用，用来展示涡轮机内部结构。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

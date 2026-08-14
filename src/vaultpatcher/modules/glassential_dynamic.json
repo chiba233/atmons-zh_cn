@@ -1,0 +1,19 @@
+[
+  {
+    "name": "glassential_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.github.bigenergy.glassential.client.gui.ColorPickerScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Color Picker",
+        "value": "拾色器"
+      }
+    ]
+  }
+]

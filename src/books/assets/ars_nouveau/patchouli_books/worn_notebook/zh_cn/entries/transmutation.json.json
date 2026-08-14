@@ -1,0 +1,22 @@
+{
+ "src": "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/transmutation.json",
+ "sha1": "58f30ef125f53e8ed1a32ae449b313ff41a614ac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Transmutation",
+   "嬗变"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can convert surplus amounts of silver into gold and vice-vera!",
+   "你可以将多余的银变成金，反过来也可以！"
+  ]
+ ]
+}

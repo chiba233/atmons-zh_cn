@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/projector/scanner.json",
+ "sha1": "33fe7555cb87eda3e4ab39a32539cc7051540665",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Scanner",
+   "模式扫描机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Scanner scans a section of the world and stores the result in a Shape Card.",
+   "扫描器将扫描世界中某一区域，并将结果存入塑形卡片中。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Put an input Shape Card in the top-left slot. It controls the size and offset of the area to scan.$(br2)Press $(thing)Scan$() to write the result to the Shape Card in the bottom-left slot.",
+   "将输入塑形卡片放入左上角槽位，它将控制待扫描区域的尺寸与偏移量。$(br2)点击$(thing)扫描$()，即可将结果写入左下角槽位的塑形卡片中。"
+  ]
+ ]
+}

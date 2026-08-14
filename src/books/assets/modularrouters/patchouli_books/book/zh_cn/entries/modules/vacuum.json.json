@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/vacuum.json",
+ "sha1": "d022e9bab37c777797e24d2d5eba191145e6f00b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vacuum Module",
+   "虚空模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module scans for dropped items in a 13x13x13 cubic area around the router (i.e. up to 6 blocks in each direction), and absorbs them into the router's buffer, if possible.$(p)The range can be increased up to 25x25x25 (12 blocks in each direction) with $(l:augments/range_up)Range Up Augments/$, or shrunk to just 3x3x3 with $(l:augments/range_down)Range Down Augments/$.",
+   "这个模块会扫描路由器周围 13x13x13 的立方体范围内掉落的物品（即各方向最多 6 格），并在可能时将其吸入路由器缓冲区。$(p)可通过$(l:augments/range_up)范围升级拓展/$将范围扩大到最多 25x25x25（每个方向 12 格），或通过$(l:augments/range_down)范围缩减增强件/$将其缩小到仅 3x3x3。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The scanned area is centered on the router if the module's $(l:intro/modules#direction)configured direction/$ is $(bold)All/$ (the default).$(p)If the module has an actual direction configured, the area is offset in that direction by 6 blocks, plus one for each Range Up Augment installed, minus one for each Range Down Augment installed.$(p)E.g. with a direction of $(bold)UP/$, the module will only scan an area directly above the router.",
+   "如果模块的$(l:intro/modules#direction)设定方向/$为$(bold)全部/$（默认值），则扫描区域以路由器为中心。$(p)如果模块设置了具体方向，则扫描区域会向该方向偏移 6 格，再额外加上每个已安装范围升级拓展带来的 1 格，并减去每个范围缩减增强件带来的 1 格。$(p)例如，当方向为$(bold)上/$时，模块只会扫描路由器正上方的区域。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/basics/dissolution_chamber.json",
+ "sha1": "67c7cf1019c3a1702a7400770f4ca5f912ee7a33",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dissolution Chamber",
+   "溶解成型机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A powerful machine used to craft materials using up to $(6)8$() items and/or $(6)1$() fluid. This machine can produce items and/or fluids. $(br2)All the recipes are shapeless meaning that the ingredients can be in any slot. $(br2)When a recipe is present the machine will lock all of the slots to prevent more items from being inserted.",
+   "一种功能强大的合成机器，最多可同时使用$(6)8$()件物品和/或$(6)1$()种流体进行合成。该机器可产出物品和/或流体。$(br2)所有配方均为无序配方，即原料可放入任意槽位。$(br2)当配方存在时，机器将锁定全部槽位，防止额外物品被插入。"
+  ]
+ ]
+}

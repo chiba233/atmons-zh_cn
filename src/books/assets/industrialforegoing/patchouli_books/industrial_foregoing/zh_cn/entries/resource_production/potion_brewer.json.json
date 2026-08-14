@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/potion_brewer.json",
+ "sha1": "c8415daa995f3013023b1a82aa4aca7db983802b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Potion Brewer",
+   "自动炼药机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "An automatic vanilla brewer.$(br2)When supplied with $(6)Power$() it will create a potion from the provided ingredients.$(br)Empty bottles will be filled if the internal $(6)water$() container is filled and it won't get consumed. $(br2)A potion needs to be configured in the green filter to be able to extract any potions.",
+   "一台自动原版酿造台。$(br2)当为其提供$(6)能量$()时，它会利用所提供的材料酿造药水。$(br)若内部$(6)水$()容器已装满，则空玻璃瓶将被自动灌装，且水不会被消耗。$(br2)需在绿色过滤器中配置一种药水，才能提取对应药水。"
+  ]
+ ]
+}

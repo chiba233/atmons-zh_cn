@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-rotorshaft.json",
+ "sha1": "d01f7a18d6e37cb268773b33d609e9fde4c7fadd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Rotor Shaft",
+   "转子轴"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Rotor Shaft is the main component of the Turbine $(l:bigreactors:turbine/rotor)Rotor$(/l)$(br2)The Rotor Shaft blocks must be placed one after the other inside the Turbine and must encompass its entire length, starting from the $(l:bigreactors:turbine/part-rotorbearing)Rotor Bearing$(/l) and ending against a $(l:bigreactors:turbine/part-casing)Housing$(/l) block on the other side.$(br2)",
+   "转子轴是涡轮机$(l:bigreactors:turbine/rotor)转子$(/l)$(br2)的核心组件。转子轴方块必须在涡轮机内部首尾相接依次放置，并须覆盖整个涡轮机长度——起始于$(l:bigreactors:turbine/part-rotorbearing)转子轴承$(/l)，终止于另一端的$(l:bigreactors:turbine/part-casing)外壳$(/l)方块。$(br2)"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Rotor Shaft",
+   "转子轴"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() inside the Turbine$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()是$(br)$(l)有效位置：$()涡轮机内部$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

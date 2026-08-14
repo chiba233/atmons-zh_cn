@@ -1,0 +1,83 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/processing/_meta.json",
+ "sha1": "019864a0c21722f7249eea5890b3c31db00cf91f",
+ "t": [
+  [
+   [
+    "addons.mdx"
+   ],
+   "Modules",
+   "模块"
+  ],
+  [
+   [
+    "assembler.mdx"
+   ],
+   "Assembleur",
+   "装配器"
+  ],
+  [
+   [
+    "atomic_forge.mdx"
+   ],
+   "Forge Atomique",
+   "原子锻造炉"
+  ],
+  [
+   [
+    "centrifuge.mdx"
+   ],
+   "Centrifugeuse",
+   "离心机"
+  ],
+  [
+   [
+    "foundry.mdx"
+   ],
+   "Fonderie",
+   "熔炉"
+  ],
+  [
+   [
+    "fragment_forge.mdx"
+   ],
+   "Forge à Fragmentation",
+   "粉碎工厂"
+  ],
+  [
+   [
+    "generators.mdx"
+   ],
+   "Générateurs",
+   "发电机"
+  ],
+  [
+   [
+    "machine_basics.mdx"
+   ],
+   "Informations Générales",
+   "基本信息"
+  ],
+  [
+   [
+    "multiblocks.mdx"
+   ],
+   "Multibloc",
+   "多方块"
+  ],
+  [
+   [
+    "pulverizer.mdx"
+   ],
+   "Pulvérisateur",
+   "粉碎机"
+  ],
+  [
+   [
+    "steam_engine.mdx"
+   ],
+   "Energie Vapeur",
+   "蒸汽能量"
+  ]
+ ]
+}

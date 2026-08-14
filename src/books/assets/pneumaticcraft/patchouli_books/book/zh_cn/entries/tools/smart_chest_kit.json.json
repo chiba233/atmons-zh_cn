@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/smart_chest_kit.json",
+ "sha1": "829860093d1ec3a32ed615f580434b9cd0140aef",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Smart Chest Upgrade Kit",
+   "智能箱子升级组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Smart Chest Upgrade Kit/$ is a convenience which lets you upgrade any wooden chest or $(l:machines/reinforced_chest)Reinforced Chest/$ to a $(l:machines/smart_chest)Smart Chest/$ in-place, keeping the chest's items. Just $(thing)Sneak-Right-click/$ the upgrade kit against any valid chest to upgrade it.",
+   "$(item)智能箱子升级组件/$是一种便利用品，可让你在保留箱内物品的同时，直接将任意木制箱子或 $(l:machines/reinforced_chest)强化箱子/$原地升级为 $(l:machines/smart_chest)智能箱子/$。只需手持升级组件对任意可升级的箱子执行 $(thing)潜行右击/$ 即可完成升级。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(p)Note: If used on a $(item)Reinforced Chest/$, you will get back a Reinforced Chest as an item drop. If used on a $(item)wooden chest/$, you will get that chest back as an item drop.",
+   "$(p)注意：如果对 $(item)强化箱子/$ 使用，你会以掉落物形式拿回一个强化箱子。如果对 $(item)木箱/$ 使用，你会以掉落物形式拿回那个箱子。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Smart Chest Upgrade Kit.$(p)Note that the Smart Chest must be completely empty and unconfigured.",
+   "合成一个智能箱子升级套件。$(p)请注意，智能箱子必须完全清空且未进行任何配置。"
+  ]
+ ]
+}

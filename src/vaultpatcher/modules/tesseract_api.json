@@ -1,0 +1,19 @@
+[
+  {
+    "name": "tesseract_api_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.swedz.tesseract.neoforge.lang.parser.parser.DecimalParser"
+    ],
+    "pairs": [
+      {
+        "key": "ParsedDecimal value must be >= 0",
+        "value": "ParsedDecimal 值必须大于等于 0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shield/shield_advanced.json",
+ "sha1": "a24dfac0360d4925c9f39aeaffff35654816fdfb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Advanced",
+   "高级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Shield Projector can form a shield from nearby template blocks, or from a Shape Card inserted in the GUI. Shaped shields ignore template blocks.",
+   "护盾投射器可利用附近模板方块生成护盾，也可通过GUI中插入的塑形卡片生成护盾。经塑形的护盾将忽略模板方块。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Visibility modes are Invisible, Shield, Transparent, Solid, and Mimic. Mimic uses the block inserted in the mimic slot as the shield texture.",
+   "可见性模式包括：隐形、护盾、透明、实心与模仿。模仿模式将使用模仿槽位中插入的方块纹理作为护盾外观。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Filters decide what happens to entities: pass, block, damage, or block and damage. Filter types include All, Passive, Hostile, Item, and Player.",
+   "过滤器决定实体的处理方式：放行、阻挡、造成伤害，或同时阻挡并造成伤害。过滤器类型包括全部、被动、敌对、物品与玩家。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Filter order matters. Move specific rules above broad rules so named players or item rules are handled before a general All rule.",
+   "过滤器顺序至关重要。请将具体规则置于宽泛规则之上，确保特定玩家或物品规则优先于通用‘全部’规则得到处理。"
+  ]
+ ]
+}

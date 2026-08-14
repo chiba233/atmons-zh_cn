@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/intro.json",
+ "sha1": "e517d2a7ad67d690cd4fd36f1014861ba529ca6b",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Welcome to $(modr) !",
+   "欢迎来到 $(modr)！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Introduction",
+   "简介"
+  ]
+ ]
+}

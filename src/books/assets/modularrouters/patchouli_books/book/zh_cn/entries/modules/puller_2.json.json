@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/puller_2.json",
+ "sha1": "aac97ef512c568b6c6af883a86a2cbbd62b4e703",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Puller Module Mk2",
+   "抽取模块 Mk2"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This behaves like the $(l:modules/puller_1)Puller Mk1/$, but can pull items from non-adjacent inventories.$(p)The inventory can be up to 12 blocks away (up to 24 with $(l:augments/range_up)Range Augments/$); clear line of sight is $(italic)not/$ required.",
+   "这个模块的行为类似于$(l:modules/puller_1)抽取模块 Mk1/$，但它可以从不相邻的容器中拉取物品。$(p)目标容器最远可在 12 格外（配合$(l:augments/range_up)范围升级拓展/$时可达 24 格）；并且$(italic)不/$需要视线畅通。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)To select the target inventory, $(thing)Sneak-Right-click/$ the block with the Puller Mk2 module in hand. You will get a confirmation message.$(li)While holding a Puller Mk2 with a target set, the targeted block will be highlighted.",
+   "$(li)要选择目标容器，请手持抽取模块 Mk2 对方块$(thing)潜行右键单击/$。你会收到一条确认消息。$(li)手持已设定目标的抽取模块 Mk2 时，目标方块会被高亮显示。"
+  ]
+ ]
+}

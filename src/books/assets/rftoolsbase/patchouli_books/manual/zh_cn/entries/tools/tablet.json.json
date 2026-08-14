@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/tablet.json",
+ "sha1": "cf67f7a6ca334db3660f96605ed42efa0b94dc08",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Tablet",
+   "碑"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Tablet can be used to remotely access various machines. $(5)Sneak right click$() to open the internal tablet gui where you can install up to 6 modules. Right clicking the tablet will give you the gui of the current module. Using the $(k:prevDestination) and $(k:nextDestination) keys you can switch between installed modules",
+   "碑可用于远程访问各种机器。$(5)潜行右键$()可打开碑的内部 GUI，在其中最多可安装 6 个模块。右键点击碑会打开当前模块的 GUI。使用$(k:prevDestination)和$(k:nextDestination)键可以在已安装模块之间切换。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Note that to be able to access the remote machine it will have to be near enough or chunkloaded. If it is properly chunkloaded then the tablet will also work from another dimension",
+   "注意，要访问远程机器，它必须足够接近或已区块加载。如果它被正确区块加载，那么碑在其他维度中也能工作。"
+  ]
+ ]
+}

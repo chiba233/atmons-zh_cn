@@ -1,0 +1,62 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/tools/_meta.json",
+ "sha1": "603f96d10390c7e0a58815dddee112cbaf87c05e",
+ "t": [
+  [
+   [
+    "chainsaw.mdx"
+   ],
+   "チェーンソー",
+   "链锯"
+  ],
+  [
+   [
+    "electric_mace.mdx"
+   ],
+   "エレキメイス",
+   "电击法杖"
+  ],
+  [
+   [
+    "enderic_railgun.mdx"
+   ],
+   "エンダリックレールガン",
+   "末影电磁炮"
+  ],
+  [
+   [
+    "exo_armor.mdx"
+   ],
+   "Exoアーマー",
+   "外骨骼盔甲"
+  ],
+  [
+   [
+    "hand_drill.mdx"
+   ],
+   "ハンドドリル",
+   "手摇钻"
+  ],
+  [
+   [
+    "jetpacks.mdx"
+   ],
+   "ジェットパック",
+   "喷气背包"
+  ],
+  [
+   [
+    "target_designator.mdx"
+   ],
+   "ターゲットデザイナー",
+   "目标设计器"
+  ],
+  [
+   [
+    "wrench.mdx"
+   ],
+   "パイプレンチ",
+   "管道扳手"
+  ]
+ ]
+}

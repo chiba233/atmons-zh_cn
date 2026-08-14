@@ -1,0 +1,26 @@
+{
+  "resources": {
+    "name": "🪨 資源",
+    "icon": null
+  },
+  "tools": {
+    "name": "🔨 工具",
+    "icon": null
+  },
+  "logistics": {
+    "name": "🛞 物流",
+    "icon": null
+  },
+  "processing": {
+    "name": "🛠 加工",
+    "icon": null
+  },
+  "interaction": {
+    "name": "🫳 相互作用",
+    "icon": null
+  },
+  "arcane": {
+    "name": "🪄 神秘",
+    "icon": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/tools/smartwrench.json",
+ "sha1": "99902368cfa958ff1423a650d181f318bba601de",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Smart Wrench",
+   "智能扳手"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Smart Wrench can be used to easily remove tech blocks and also select blocks for special functionality. $(br2)Use as a normal wrench: $(5)Sneak right click$() to pick up and $(5)right click$() to rotate.$(br2)$(5)Right click$() in the air to change mode",
+   "智能扳手可用于轻松拆除科技方块，也可用于为特殊功能选择方块。$(br2)作为普通扳手使用：$(5)潜行右键$()可拾取，$(5)右键$()可旋转。$(br2)$(5)对空气$()右键可切换模式。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "If the wrench is in $(thing)Select Mode$(), then it can be used to perform specialized operations on (for example) blocks like the Shield Projector.",
+   "如果扳手处于$(thing)选择模式$()，那么它可用于对某些方块执行专门操作，例如护盾投射仪。"
+  ]
+ ]
+}

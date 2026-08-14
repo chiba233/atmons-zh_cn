@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reprocessor/part-fluidinjector.json",
+ "sha1": "9c2de634ce9db90007956358b8e824b3f67d0100",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Fluid Injector allows you to insert the fluids needed to reprocess waste materials into the Reprocessor.$(br2) Different waste types may require different fluids.",
+   "流体注入器允许你向再处理器中注入再处理废料所需的流体。$(br2)不同类型的废料可能需要不同的流体。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Fluid Injector",
+   "流体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()需要且只能有一个$(br)$(l)有效位置：$()任意垂直面上（不在框架上）$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

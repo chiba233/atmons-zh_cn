@@ -1,0 +1,46 @@
+[
+  {
+    "name": "naturesaura_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "de.ellpeck.naturesaura.commands.CommandAura"
+    ],
+    "pairs": [
+      {
+        "key": "Added aura to area",
+        "value": "已向区域添加灵气"
+      },
+      {
+        "key": "Removed aura from area",
+        "value": "已移除区域中的灵气"
+      },
+      {
+        "key": "Reset aura in area",
+        "value": "重置区域内的灵气"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "de.ellpeck.naturesaura.compat.patchouli.PatchouliCompat"
+    ],
+    "pairs": [
+      {
+        "key": "It's the author Ellpeck's birthday!",
+        "value": "今天是作者 Ellpeck 的生日！"
+      },
+      {
+        "key": "§6Happy §4P§6r§ei§2d§9e§5!",
+        "value": "§6祝§4你§6骄§e傲§2节§9快§5乐！"
+      },
+      {
+        "key": "Thanks for your support, ",
+        "value": "感谢你的支持，"
+      }
+    ]
+  }
+]

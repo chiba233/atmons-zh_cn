@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/wireless_router.json",
+ "sha1": "9f16c057b8161ef794dc37e312d81f3e515f3847",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Wireless Router",
+   "无线路由器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Wireless Router can connect two separate Controller networks together.$(br2)Place an antenna on top of the router. The tier of that antenna determines the wireless range.",
+   "无线路由器可连接两个独立的控制器网络。$(br2)在路由器顶部放置一根天线，其等级将决定无线作用范围。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Wireless routers work with routing networks. Use routing cables and connectors on the local side, then publish or consume channels through the router GUI.",
+   "无线路由器需配合路由网络使用。本地端请使用路由网络线缆与路由连接器，再通过路由器GUI发布或订阅频道。"
+  ]
+ ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "name": "mcjtylib_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.lib.gui.GuiSideWindow"
+    ],
+    "pairs": [
+      {
+        "key": "Gui style:",
+        "value": "GUI 样式："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.lib.gui.GuiStyle"
+    ],
+    "pairs": [
+      {
+        "key": "bevel gradient",
+        "value": "斜角渐变"
+      },
+      {
+        "key": "flat gradient",
+        "value": "平直渐变"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.lib.gui.Window"
+    ],
+    "pairs": [
+      {
+        "key": "Could not find action '",
+        "value": "未找到操作“"
+      },
+      {
+        "key": "Could not find codec for type '",
+        "value": "找不到类型“”的编解码器"
+      },
+      {
+        "key": "Could not find component '",
+        "value": "找不到组件“"
+      },
+      {
+        "key": "Could not find stream codec for type '",
+        "value": "无法找到类型 ' 的流编解码器"
+      },
+      {
+        "key": "Could not find value '",
+        "value": "找不到值 '"
+      }
+    ]
+  }
+]

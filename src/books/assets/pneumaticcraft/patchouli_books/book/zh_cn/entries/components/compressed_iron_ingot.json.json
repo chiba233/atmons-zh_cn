@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/compressed_iron_ingot.json",
+ "sha1": "5559108d6498ef95ca13b1e8415af912866fe50b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Compressed Iron Ingot",
+   "压缩铁锭"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "See $(l:base_concepts/basic_materials#compressed_iron_ingot)Basic Materials/$.",
+   "参见 $(l:base_concepts/basic_materials#compressed_iron_ingot)基础材料/$。"
+  ]
+ ]
+}

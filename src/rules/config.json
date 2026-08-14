@@ -1,0 +1,18 @@
+[
+ {
+  "id": "vp-load-all-modules",
+  "kind": "json_assert",
+  "file": "config/vaultpatcher_asm/config.json",
+  "path": ["load_all_modules"],
+  "equals": true,
+  "why": "为 false 时我们自建的模块一个都不加载，游戏照常启动，只是全是英文——静默失效。"
+ },
+ {
+  "id": "vp-debug-off",
+  "kind": "json_assert",
+  "file": "config/vaultpatcher_asm/config.json",
+  "path": ["debug_mode", "is_enable"],
+  "equals": false,
+  "why": "开着会刷出数千条日志拖性能，发布版禁止。"
+ }
+]

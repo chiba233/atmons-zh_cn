@@ -1,0 +1,30 @@
+---
+id: mffs:fortron_capacitor
+type: block
+---
+
+# Fortron 能量储存器
+
+Fortron 能量储存器是 MFFS 机器的储能与调度装置。
+它负责收集 [Fortron 衍生器](@mffs:coercion_deriver) 产出的 []($fortron)，再转送给需要 []($fortron)
+才能运转的机器，本质上就是个中枢。
+
+<PrefabObtaining />
+
+## 用法
+
+放好储存器，设定它使用的频率。储存器默认用 0 号频率，可以这样改：
+
+- 右键点击储存器，在界面里输入想要的频率号
+- 手持 [频率卡](@mffs:frequency_card) 潜行右键点击储存器
+
+给 Fortron 能量储存器一个红石信号即可激活。激活后它会从红色变成蓝色，
+开始在同频率、且在范围内（默认 15 格）的其他 MFFS 设备之间传输 Fortron。
+
+## 可升级项
+
+Fortron 能量储存器可以装各种模块来增强能力：
+
+- [扩展模块](@mffs:scale_module)：让储存器能与更远的 MFFS 机器联动。每装一个，联动范围在默认 15 格的基础上加 1 格
+- [速度模块](@mffs:speed_module)：让储存器与机器之间的 []($fortron) 传输更快。每装一个，传输速率提高 50 FE
+- [容量模块](@mffs:capacity_module)：提高储存器能储存的 []($fortron) 上限

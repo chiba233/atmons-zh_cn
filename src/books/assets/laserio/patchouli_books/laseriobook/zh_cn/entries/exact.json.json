@@ -1,0 +1,31 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/exact.json",
+ "sha1": "e3ce69880426c01400a3c15cdb8bcecebc71363b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Exact",
+   "精确"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Exact is only available on Extractor and Stocker Modes.$(br2)Exact mode ensures that the exact amount of items set in the 'Extract Amount' field are extracted. For example, if the Extract Amount is set to 8, and there are only 5 items in an adjacent chest, the extractor will not remove them until 8 are available.",
+   "精确仅在提取和存储模式可用。$(br2)精确模式确保仅按“传输数量”栏的数值提取物品。例如，若传输数量设为 8，而毗邻箱子内仅有 5 个物品，则在其中该物品的数量达到 8 个前，提取卡不会运行。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Exact mode works slightly differently for Stock Mode cards. Exact will only allow items to move if the amount needed to meet the stocking request OR the Extract Amount are available in the network, whichever is smaller.$(br2)For example, if a stocker needs 13 more items, and can extract 32 at a time, it will only extract if 13 items are available somewhere in the network.",
+   "精确在存储模式下功能略有不同。只有在网络中某物品的数量达到存储需求，或达到传输数量时，精确设置才会抽取物品。$(br2)例如，若存储卡还需要 13 个物品，其本身能一次提取 32 个物品，则只在网络中其他位置存在 13 个物品时，该卡才会开始提取。"
+  ]
+ ]
+}

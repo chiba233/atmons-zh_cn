@@ -1,0 +1,80 @@
+All the Mods 10 简体中文汉化补丁 · 绿油油版 (atm10-zh-cn)
+授权条款 / Licensing Terms
+
+本项目按目录划分授权域。第一节适用于代码，第二节适用于译文内容，第三节列出
+随包分发与构建时读取的第三方作品。
+
+================================================================================
+第一节  代码 —— GPL-3.0-or-later
+================================================================================
+
+适用范围：
+
+    scripts/**       构建、生成与校验脚本
+    installer/**     安装器
+    .github/**       持续集成配置
+
+Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
+
+依据 GNU 通用公共许可证第 3 版或（由您选择）任何更新版本授权。许可证正文见
+LICENSE-GPL-3.0。上述文件头部的 SPDX-License-Identifier 标注与本节一致。
+
+================================================================================
+第二节  译文内容 —— CC BY-NC-SA 4.0
+================================================================================
+
+适用范围：
+
+    src/pack/**            资源包内的译文（语言文件、导览书、界面文本）
+    src/config/**          任务书与配置内的译文
+    src/kubejs/**          运行期文本替换脚本内的译文
+    src/vaultpatcher/**    字节码文本替换表内的译文
+
+Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
+
+依据「知识共享 署名—非商业性使用—相同方式共享 4.0 国际」授权：
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
+
+本节采用该许可证，系因译文中含有 CFPA 社区翻译（Minecraft-Mod-Language-Package）
+的成分，该作品以 CC BY-NC-SA 4.0 授权，其「相同方式共享」条款要求衍生作品采用
+相同许可证。
+
+第一节与第二节分列，系因 GPL-3.0 第 7 条禁止在分发时附加额外限制，而
+CC BY-NC-SA 4.0 含有非商业性使用限制；将两者合并声明为单一许可证不能成立。
+
+================================================================================
+第三节  第三方作品
+================================================================================
+
+随包分发的第三方 jar，其许可证全文与 jar 置于同一目录：
+
+    mods/vaultpatcher.jar                   GPL-3.0-only（作者：FengMing3093）
+        → mods/LICENSE-vault-patcher.txt
+    可选mods-拼音搜索/jecharacters-*.jar     MIT
+        → 可选mods-拼音搜索/LICENSE-just-enough-characters.txt
+        → 可选mods-拼音搜索/来源与许可.md（版本、作者、项目地址、sha256）
+
+`mods/LICENSE-vault-patcher.txt` 与本包根目录的 `LICENSE-GPL-3.0` 是同一份文件：
+GPL-3.0 许可证正文本身，取自 FSF 原文、未作任何增删，不含任何一方的版权声明。
+VaultPatcher 的著作权属其作者，与本项目无关；本项目自己的著作权声明见第一节。
+两者选用的 GPL 变体也不同：本项目代码是 GPL-3.0-or-later；VaultPatcher 的作者在
+Modrinth 项目页标为 GPL-3.0-only，jar 内 `META-INF/neoforge.mods.toml` 写的是
+已废弃的 `GPL-3.0`，此处按前者记为 only，两处均为作者本人的声明，本项目不作解释。
+
+本包为其提供译文的各模组，其许可证声明与随带的许可证全文见随包分发的：
+
+    THIRD-PARTY-LICENSES.md                 逐个模组的许可证声明
+    licenses/<modId>.txt                    模组 jar 内随带的许可证全文
+
+上述清单由 scripts/gen_licenses.py 从各模组 jar 内的 `mods.toml`（Fabric 为
+`fabric.mod.json`）逐个读取生成，内容为各模组作者自己的声明。
+
+仅在构建时读取、不随包分发：
+
+    All the Mods 10 整合包本体              见其发布页
+    整合包内各模组的 jar                    各自许可证
+    思源黑体、更纱黑体等字体                SIL Open Font License 1.1
+
+本项目不分发任何模组的原始文件。资源包中亦不含与模组自带文件逐字节相同的内容：
+构建时由 scripts/audit_upstream.py 逐一比对并剔除；缺失的条目由游戏自动回落至
+模组自带的语言版本。

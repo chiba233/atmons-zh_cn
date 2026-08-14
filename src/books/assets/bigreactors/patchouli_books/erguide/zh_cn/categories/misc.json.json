@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/misc.json",
+ "sha1": "aafc04173fb3e2742b56dc6203f28a0d6afc508e",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This section contains topics that don't quite fit into other categories.",
+   "本节包含一些不太适合归入其他分类的主题。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Other stuff",
+   "杂项内容"
+  ]
+ ]
+}

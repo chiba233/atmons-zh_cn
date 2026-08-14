@@ -1,0 +1,27 @@
+[
+  {
+    "name": "lollipop_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "owmii.powah.client.screen.container.ReactorScreen"
+    ],
+    "pairs": [
+      {
+        "key": "+0 C",
+        "value": "+0 ℃"
+      },
+      {
+        "key": "+180 C",
+        "value": "+180 ℃"
+      },
+      {
+        "key": "+120 C",
+        "value": "+120 ℃"
+      }
+    ]
+  }
+]

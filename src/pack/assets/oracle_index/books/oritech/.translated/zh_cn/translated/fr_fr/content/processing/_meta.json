@@ -1,0 +1,13 @@
+{
+  "machine_basics.mdx": "基本信息",
+  "multiblocks.mdx": "多方块",
+  "addons.mdx": "模块",
+  "pulverizer.mdx": "粉碎机",
+  "assembler.mdx": "装配器",
+  "centrifuge.mdx": "离心机",
+  "foundry.mdx": "熔炉",
+  "fragment_forge.mdx": "粉碎工厂",
+  "atomic_forge.mdx": "原子锻造炉",
+  "generators.mdx": "发电机",
+  "steam_engine.mdx": "蒸汽能量"
+}

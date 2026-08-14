@@ -1,0 +1,247 @@
+[
+  {
+    "name": "pneumaticcraft_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.api.crafting.TemperatureRange"
+    ],
+    "pairs": [
+      {
+        "key": "negative temperatures are not accepted!",
+        "value": "不接受负温度！"
+      },
+      {
+        "key": "min temp must be < max temp!",
+        "value": "最低温度必须小于最高温度！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.api.crafting.recipe.HeatPropertiesRecipe"
+    ],
+    "pairs": [
+      {
+        "key": "invalid blockstate definition: ",
+        "value": "无效的方块状态定义："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.AssemblyControllerScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Prog.",
+        "value": "程序"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.FluxCompressorScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Input",
+        "value": "输入"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.PneumaticDynamoScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Output",
+        "value": "输出"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.pneumatic_armor.ArmorColoringScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Colors",
+        "value": "颜色"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.pneumatic_armor.ArmorStatMoveScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Move Gui",
+        "value": "移动GUI"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.pneumatic_armor.options.SearchOptions"
+    ],
+    "pairs": [
+      {
+        "key": "Search",
+        "value": "搜索"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.programmer.ProgWidgetAreaScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Inventory Searcher (GPS)",
+        "value": "物品栏查找器（GPS）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.programmer.ProgWidgetCoordinateScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Inventory Searcher (GPS)",
+        "value": "物品栏查找器（GPS）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.programmer.ProgWidgetItemFilterScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Search",
+        "value": "搜索"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.remote.config.AbstractRemoteConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "<parse error>: ",
+        "value": "<解析错误>："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.semiblock.AbstractLogisticsScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Searcher",
+        "value": "搜索仪"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.client.gui.upgrademanager.PneumaticArmorUpgradeScreen"
+    ],
+    "pairs": [
+      {
+        "key": "0.0 mL/t",
+        "value": "0.0 毫升/刻"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.commands.ModCommands"
+    ],
+    "pairs": [
+      {
+        "key": "(encoding failed)",
+        "value": "（编码失败）"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.drone.progwidgets.ProgWidgetCoordinate"
+    ],
+    "pairs": [
+      {
+        "key": "XYZ: var '",
+        "value": "XYZ: 变量 '"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.item.GPSAreaToolItem"
+    ],
+    "pairs": [
+      {
+        "key": "index must be 0 or 1!",
+        "value": "索引必须为 0 或 1！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.sensor.pollSensors.ConstantSensor"
+    ],
+    "pairs": [
+      {
+        "key": "Signal Level",
+        "value": "信号等级"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.sensor.pollSensors.TwitchStreamerSensor"
+    ],
+    "pairs": [
+      {
+        "key": "Player Name",
+        "value": "玩家名称"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.thirdparty.jei.JEIAssemblyControllerCategory"
+    ],
+    "pairs": [
+      {
+        "key": "Required Machines",
+        "value": "所需机器"
+      },
+      {
+        "key": "Prog.",
+        "value": "程序"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "me.desht.pneumaticcraft.common.thirdparty.Fusion"
+    ],
+    "pairs": [
+      {
+        "key": "Fusion for PneumaticCraft",
+        "value": "气动工艺的聚变"
+      }
+    ]
+  }
+]

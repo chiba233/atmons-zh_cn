@@ -1,0 +1,244 @@
+{
+ "_说明": "正文写死在纯文本里的手册：只存「原文→译文」，构建时套到 jar 里那一份上。见 scripts/gen_literal_books.py。",
+ "mod": "xnet（XNet · 频道网络）",
+ "files": {
+  "assets/xnet/text/manual_xnet.txt": {
+   "sha1": "505de57817e320c8d427279d06ce411945ee5045",
+   "raw": true,
+   "t": [
+    [
+     "{b}XNet Manual",
+     "{b}XNet手册"
+    ],
+    [
+     "Table of Contents:",
+     "目录："
+    ],
+    [
+     "{l:intro}Introduction",
+     "{l:intro}简介"
+    ],
+    [
+     "{l:basic}Basic Networking",
+     "{l:basic}基础网络"
+    ],
+    [
+     "{l:advanced}Advanced Networking",
+     "{l:advanced}高级网络"
+    ],
+    [
+     "{l:types}Channel Types",
+     "{l:types}频道类型"
+    ],
+    [
+     "{l:netcolors}Network Colors",
+     "{l:netcolors}网络颜色"
+    ],
+    [
+     "{l:colors}Colored Cables",
+     "{l:colors}线缆颜色"
+    ],
+    [
+     "{l:connector}Connectors",
+     "{l:connector}连接器"
+    ],
+    [
+     "{l:controller}Controller",
+     "{l:controller}控制器"
+    ],
+    [
+     "{l:router}Router",
+     "{l:router}路由器"
+    ],
+    [
+     "{l:wirelessrouter}Wireless Router",
+     "{l:wirelessrouter}无线路由器"
+    ],
+    [
+     "{l:proxy}Redstone Proxy",
+     "{l:proxy}红石代理器"
+    ],
+    [
+     "{b}Introduction",
+     "{b}简介"
+    ],
+    [
+     "XNet is all about networking and transporting items, liquids, energy\nand information through the world. Using cables you connect various\nmachines and blocks and in the controller you configure how things\nmove through the created network. A cable can send all kinds of\ninformation. You don't need different cables for items, energy, or liquids.",
+     "XNet 的核心是组网，以及在世界中传输物品、流体、能量与信息。你用线缆连接各种机器\n和方块，再到控制器里配置这些东西如何在建好的网络中流动。一根线缆就能传输所有种类\n的信息，物品、能量、流体都不需要专门的线缆。"
+    ],
+    [
+     "XNet is also very efficient and scalable. Cables are not tile entities\nand you can create huge cable networks without performance differences.",
+     "XNet 同样高效、易扩展。线缆不是方块实体，就算搭出庞大的线缆网络，性能也不会打\n折扣。"
+    ],
+    [
+     "{b}Basic Networking",
+     "{b}基础网络"
+    ],
+    [
+     "A network (or local network) is represented by a number of machines\nand blocks connected using cables and connectors and one controller.\nEvery network needs one controller (and not more) and it is the block\nthat does the actual work.",
+     "一个网络（或者说本地网络）由若干台机器和方块组成，它们通过线缆和连接器相连，\n再配上一台控制器。每个网络需要且只能有一台控制器，实际的工作都是它在做。"
+    ],
+    [
+     "On a single network you can have up to eight channels for items, liquids,\nenergy, and information. You can configure these channels in the UI of the\ncontroller.",
+     "同一个网络里，物品、流体、能量和信息最多可以配置八个频道，在控制器的界面里\n就能设置这些频道。"
+    ],
+    [
+     "Every channel can be connected to as many blocks and machines as\nyou want using connectors.",
+     "每个频道可以用连接器接上任意数量的方块和机器，没有限制。"
+    ],
+    [
+     "{b}Advanced Networking",
+     "{b}高级网络"
+    ],
+    [
+     "Using routers one can connect multiple networks. A single router\ncan connect up to 6 networks (one for each side). To do that simply\nconnect the network to the router using a normal connector.",
+     "路由器可以把多个网络连起来。单个路由器最多能连 6 个网络（每个面一个），只需\n用普通连接器把网络接到路由器上就行。"
+    ],
+    [
+     "Channels are only visible to the router if they are named. This can\nbe done in the UI of the controller. These channels are called\n'named channels'.",
+     "频道只有起了名字，路由器才能看见它，这个可以在控制器的界面里设置。这类频道\n叫做「已命名频道」。"
+    ],
+    [
+     "A named channel can then be published in the router by giving it\na 'published name'. Only then can this channel be used by other\nnetworks (either local or remote).",
+     "已命名频道可以在路由器里给它起一个「发布名称」，从而发布出去。只有发布之后，\n其他网络（不管是本地还是远程的）才能用上这个频道。"
+    ],
+    [
+     "{b}Channel Types",
+     "{b}频道类型"
+    ],
+    [
+     "There are currently four different channel types:\n  * xnet.item: for transporting items\n  * xnet.energy: for transporting energy\n  * xnet.fluid: for transporting fluids\n  * xnet.logic: for sensors and logic control",
+     "目前共有四种频道类型：\n  * xnet.item：传输物品\n  * xnet.energy：传输能量\n  * xnet.fluid：传输流体\n  * xnet.logic：传感器与逻辑控制"
+    ],
+    [
+     "The logic channel is special. It allows you to create sensors to\nmeasure various things in other blocks (like number of items,\namount of energy, ...) and then set a 'color' on the controller.",
+     "逻辑频道比较特殊，它让你建立传感器去探测其他方块里的各种数值（比如物品数量、\n能量存量等），再据此在控制器上设置一种「颜色」。"
+    ],
+    [
+     "Note that the logic channel doesn't do anything through a router\nright now.",
+     "注意，逻辑频道眼下还没法通过路由器工作。"
+    ],
+    [
+     "{b}Network Color",
+     "{b}网络颜色"
+    ],
+    [
+     "Using a logic channel and sensors you can enable or disable\nfifteen different colors in a controller. Basically a color is\na boolean value that can be either on or off. You can use these\ncolors in connections from all channel types to disable or\nenable a connection. Every connection can listen to four\ndifferent colors and will only work if all set (non-black)\ncolors are enabled.",
+     "借助逻辑频道和传感器，你可以在控制器上启用或关闭十五种不同的颜色。颜色本质上\n是一个布尔值，只有开、关两种状态。所有类型的频道在建立连接时都可以用上这些\n颜色，来控制连接的启停。每条连接最多能监听四种颜色，只有把它设置的所有颜色\n（非黑色的那些）都启用了，这条连接才会生效。"
+    ],
+    [
+     "{b}Colored Cables",
+     "{b}线缆颜色"
+    ],
+    [
+     "Cables and connectors can have four different colors. Do not\nconfuse these colors with network colors from the previous\nsection! These cable colors allow you to place distinct\nnetworks right next to each other without them connecting.",
+     "线缆和连接器可以设成四种不同的颜色，注意别把它跟上一节说的网络颜色搞混了！\n线缆颜色的作用是让你把不同的网络紧挨着铺设，而不会互相连通。"
+    ],
+    [
+     "There is also a 'fifth' color which is for the routing cables\nand connectors.",
+     "此外还有「第五种」颜色，专门留给路由线缆和路由连接器用。"
+    ],
+    [
+     "{b}Connectors",
+     "{b}连接器"
+    ],
+    [
+     "A connector is a part of the cable that can be used to connect\nto a machine. Placing a connector will automatically make a\nconnection to any suitable block around it. Note that a connector\nin itself is not sufficient to do something. You need to actually\ncreate a connection in the controller.",
+     "连接器是线缆里用来接上机器的部件。放下连接器后，它会自动跟周围任何合适的\n方块建立连接。但请注意，光有连接器本身还做不了什么，你还得在控制器里真正\n建立一条连接。"
+    ],
+    [
+     "The advanced connector has more speed, and can also access\nthe block from other sides then the one you are physically\nconnecting too.",
+     "高级连接器速度更快，而且还能访问方块上除了实际连接面以外的其他面。"
+    ],
+    [
+     "Note that in the GUI of a connector you can give it a name to make\nit easier to identify connectors in the controller.",
+     "注意，在连接器的界面里可以给它起个名字，方便你以后在控制器里认出它。"
+    ],
+    [
+     "{b}Controller (part 1)",
+     "{b}控制器（一）"
+    ],
+    [
+     "The controller is the main driver of a network. Every network\nneeds one controller. It also needs power. In the GUI of the\ncontroller you can create up to 8 different channels with a\ngiven type. Then for each connected block on that channel you\ncan create a connection. Depending on the type of the channel\nthere are various parameters you can set on a connection.",
+     "控制器是驱动网络的核心，每个网络都需要一台控制器，而且它要耗电。在控制器\n的界面里，你最多可以建立 8 个不同类型的频道，再给这个频道上接入的每个方块\n建立一条连接。不同类型的频道，连接上能设置的参数也不一样。"
+    ],
+    [
+     "{b}Controllers (part 2)",
+     "{b}控制器（二）"
+    ],
+    [
+     "Hint: it is often handy to disable a channel while you are\nworking on it so that things don't start moving too soon. This\ncan be done in the channel editor section.",
+     "小提示：调试频道的时候，先把它禁用掉往往更方便，免得东西过早开始搬运。这个\n可以在频道编辑区域设置。"
+    ],
+    [
+     "Note that in that section you can also give the channel a name.\nThis is only needed for advanced networking using routers.",
+     "同一个区域里也能给频道起名字，不过这只有在用路由器搭建高级网络时才需要。"
+    ],
+    [
+     "{b}Router (part 1)",
+     "{b}路由器（一）"
+    ],
+    [
+     "The router is the block that can be used to connect distinct\nnetworks. On its own it can connect six different networks\n(one networks per side) but using routing cables you can also\nmake a routing network and connect multiple routers.",
+     "路由器是用来连接不同网络的方块。单独一台最多能连 6 个网络（每个面一个），\n如果用路由线缆把多台路由器接起来组成路由网络，能连的就更多了。"
+    ],
+    [
+     "{b}Router (part 2)",
+     "{b}路由器（二）"
+    ],
+    [
+     "In the GUI of the router you can see all named channels in all\nlocal networks (this is why it can be important to be able to\nname channels in the contoller). To make such a channel available\nto the routing network you need to 'publish' it. To do that\nyou give it a global name in that list.",
+     "在路由器的界面里，你能看到所有本地网络里已命名的频道（这也是为什么在控制器\n里给频道命名很重要）。要让这样的频道能被路由网络用上，你得把它「发布」出去，\n做法是在那份列表里给它填一个全局名称。"
+    ],
+    [
+     "All published channels of the same type and with the same published\nname will automatically connect. That means that a controller\nextracting items (from one of its locally connected blocks) will\nbe able to insert items into all blocks connected locally or in\nconnected channels from other networks.",
+     "类型相同、发布名称也相同的已发布频道会自动互相连通。也就是说，某台控制器\n从它本地连接的方块里抽取物品时，可以把物品送进本地连接的方块，也能送进其他\n网络里连上同一发布频道的方块。"
+    ],
+    [
+     "{b}Router (part 3)",
+     "{b}路由器（三）"
+    ],
+    [
+     "On the right side of the GUI you can see all published channels\nfrom remote routers. Again channels connect automatically to them\nif they have the same type and name.",
+     "界面右侧能看到所有来自远程路由器的已发布频道。同样，只要类型和名称相同，\n频道就会自动连上。"
+    ],
+    [
+     "Note that this only goes one step. If you have router A connected\nto router B and router B connected to router C then networks on\nrouter A can not see networks on router C. Even if they have the\nsame published name.",
+     "注意这只能传递一步。假如路由器 A 连着路由器 B，路由器 B 又连着路由器 C，\n那么路由器 A 上的网络是看不到路由器 C 上的网络的，哪怕它们发布名称相同也\n一样。"
+    ],
+    [
+     "Also note that there is a limit of 32 published channels on a\nrouting network.",
+     "另外要注意，一个路由网络里最多只能有 32 个已发布频道。"
+    ],
+    [
+     "{b}Wireless Router (part 1)",
+     "{b}无线路由器（一）"
+    ],
+    [
+     "A wireless router allows transmission of published channels\nwirelessly to outer wireless routers. To make this work you\nhave to put the wireless router on a routing network connected\nto one or more routers. The wireless router will make all\npublished channels available (provided it has enough power).",
+     "无线路由器能把已发布的频道无线传输给其他无线路由器。要用这个功能，得把无线\n路由器接入一个连着一台或多台路由器的路由网络。只要供电充足，无线路由器就会\n把所有已发布频道都开放出去。"
+    ],
+    [
+     "{b}Wireless Router (part 2)",
+     "{b}无线路由器（二）"
+    ],
+    [
+     "By default a wireless router is set to 'private' mode which\nmeans that only you will be able to use it. You can change this\nin the GUI. Wireless channels are made available in the router\nwhere you can connect them to channels of local controllers.",
+     "无线路由器默认是「私有」模式，也就是只有你自己能用，这个可以在界面里改。\n无线频道会出现在路由器里，你可以在那儿把它们接到本地控制器的频道上。"
+    ],
+    [
+     "A wireless router needs an antenna base on which a normal\nantenna (one or two) or a dish is placed. The dish allows\nfor unlimited range.",
+     "无线路由器需要一个天线基座，上面装一到两根普通天线，或者装一个天线盘。装\n天线盘的话，传输距离就没有限制。"
+    ],
+    [
+     "{b}Redstone Proxy",
+     "{b}红石代理器"
+    ],
+    [
+     "The Redstone Proxy block is a very simple block that has no\nfunctionality on its own. It is special because connectors can\nalso connect to it which allows you to access the redstone\nproperties of it in a sensor. Using a sensor in a logic channel\nyou can read out the amount of redstone going into the proxy block.",
+     "红石代理器是个很简单的方块，它自己不干什么活。它的特别之处在于连接器也能\n接到它上面，这样你就能在传感器里读到它的红石属性。用逻辑频道里的传感器，\n就可以读出输入到这个代理方块的红石强度。"
+    ]
+   ]
+  }
+ }
+}

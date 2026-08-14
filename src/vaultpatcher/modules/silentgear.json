@@ -1,0 +1,357 @@
+[
+  {
+    "name": "silentgear_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.SideProxy"
+    ],
+    "pairs": [
+      {
+        "key": "Materials, parts, and/or traits have not loaded! This may be caused by a broken mod, even those not related to Silent Gear. Search your log for \"Failed to reload data packs\" to find the error.",
+        "value": "材料、部件和/或特性尚未加载！这可能是由某个损坏的模组导致的，甚至可能与寂静装备无关。请在日志中搜索“Failed to reload data packs”以查找错误。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.api.item.GearType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Gear Type",
+        "value": "未知装备类型"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.api.part.PartType"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown Part Type",
+        "value": "未知部件类型"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.api.traits.TraitInstance"
+    ],
+    "pairs": [
+      {
+        "key": "INVALID (",
+        "value": "无效（"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.api.util.PropertyKey"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid key: ",
+        "value": "无效键："
+      },
+      {
+        "key": "Unknown gear property: \"",
+        "value": "未知装备属性：\""
+      },
+      {
+        "key": "Unknown gear type: \"",
+        "value": "未知装备类型：\""
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.client.event.TooltipHandler"
+    ],
+    "pairs": [
+      {
+        "key": " (Silent Gear)",
+        "value": "(寂静装备)"
+      },
+      {
+        "key": "* Part ID: ",
+        "value": "* 部件 ID："
+      },
+      {
+        "key": "* Part data pack: ",
+        "value": "* 部件数据包:"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.client.gui.book.MaterialBookScreen"
+    ],
+    "pairs": [
+      {
+        "key": "This book is a work in progress. Some elements may change.",
+        "value": "本书仍在编写中。部分内容可能会发生变化。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.client.tooltip.MaterialTooltips"
+    ],
+    "pairs": [
+      {
+        "key": "Material ID: ",
+        "value": "材料 ID:"
+      },
+      {
+        "key": "Material data pack: ",
+        "value": "材料数据包："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.command.MaterialsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Wrote materials info to ",
+        "value": "已将材料信息写入"
+      },
+      {
+        "key": "Could not create directory: ",
+        "value": "无法创建目录："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.command.PartsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Could not create directory: ",
+        "value": "无法创建目录："
+      },
+      {
+        "key": "Wrote to ",
+        "value": "已写入 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.command.TraitsCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Wrote to ",
+        "value": "已写入 "
+      },
+      {
+        "key": "Could not create directory: ",
+        "value": "无法创建目录："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.BlockFillerTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "  - Fills with: ",
+        "value": "  - 填充为："
+      },
+      {
+        "key": "  - Replaces",
+        "value": "  - 替换为"
+      },
+      {
+        "key": "    - Tag: ",
+        "value": "    - 标签："
+      },
+      {
+        "key": "    - Block: ",
+        "value": "    - 方块："
+      },
+      {
+        "key": "  - Fill Area",
+        "value": "  - 填充范围"
+      },
+      {
+        "key": "    - Fills facing plane only",
+        "value": "    - 仅填充朝向平面"
+      },
+      {
+        "key": "    - On sneak: ",
+        "value": "    - 潜行时："
+      },
+      {
+        "key": "  - Durability Cost: ",
+        "value": "  - 耐久消耗："
+      },
+      {
+        "key": "  - Cooldown: ",
+        "value": "  - 冷却时间："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.BlockPlacerTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "  - Places: ",
+        "value": "  - 放置："
+      },
+      {
+        "key": "  - Durability Cost: ",
+        "value": "  - 耐久消耗："
+      },
+      {
+        "key": "  - Cooldown: ",
+        "value": "  - 冷却时间："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.CancelEffectsTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "  - Cancels these effects: ",
+        "value": "  - 取消这些效果："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.FireproofTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "  - The item cannot be destroyed by fire or lava",
+        "value": "  - 该物品不会被火焰或熔岩摧毁"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.NumberPropertyModifierTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "Not a NumberProperty: ",
+        "value": "不是 NumberProperty："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.SelfRepairTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "  - Only works if equipped or in a player's inventory",
+        "value": "  - 仅在装备时或位于玩家物品栏中时生效"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.WindBlastTraitEffect"
+    ],
+    "pairs": [
+      {
+        "key": "Creates an explosion similar to a wind charge on attack",
+        "value": "攻击时会产生类似风弹的爆炸"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.util.GearHelper"
+    ],
+    "pairs": [
+      {
+        "key": " & Knuckles",
+        "value": "& 纳克鲁斯"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.api.property.NumberProperty$Operation"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown operation: ",
+        "value": "未知操作："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.AttributeTraitEffect$Key"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid key: ",
+        "value": "无效键："
+      },
+      {
+        "key": "Unknown gear type: ",
+        "value": "未知装备类型："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.TargetEffectTraitEffect$EffectMap"
+    ],
+    "pairs": [
+      {
+        "key": "    - Level ",
+        "value": "    - 等级 "
+      },
+      {
+        "key": "Level key must be positive: ",
+        "value": "等级键必须为正数："
+      },
+      {
+        "key": "Not a number: ",
+        "value": "不是数字："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.gear.gear.trait.effect.WielderEffectTraitEffect$LevelType"
+    ],
+    "pairs": [
+      {
+        "key": "by trait level",
+        "value": "按特性等级"
+      },
+      {
+        "key": "by armor piece count",
+        "value": "按盔甲数量"
+      },
+      {
+        "key": "requires full set of armor",
+        "value": "需要全套盔甲"
+      },
+      {
+        "key": "Unknown WielderEffectTraitEffect.LevelType: ",
+        "value": "未知的 WielderEffectTraitEffect.LevelType："
+      }
+    ]
+  }
+]

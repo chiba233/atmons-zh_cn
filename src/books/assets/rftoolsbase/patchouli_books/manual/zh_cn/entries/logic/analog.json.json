@@ -1,0 +1,67 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/analog.json",
+ "sha1": "93077c5d121b28a4d3bb9e6d2a75e2c6b2b1101f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Analog",
+   "模拟"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Analog$() can do calculations on an input signal based on the comparison result of the A and B inputs. $(br2)Right Clicking on the block will bring up its GUI, with a picture of the Output (O), Input (I), and the two side inputs (A) and (B).",
+   "$(item)模拟器$()可以根据 A 和 B 输入的比较结果，对输入信号进行计算。$(br2)右键点击该方块会打开它的 GUI，其中会显示输出（O）、输入（I）以及两个侧面输入（A）和（B）的图示。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Analog",
+   "模拟"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "see overleaf for a picture and explanation of the GUI.",
+   "请看对页上的图片和关于 GUI 的说明。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The GUI shows the output side, input side, and the A/B comparison inputs. For each comparison result you configure a multiplier and offset applied to the input signal.",
+   "GUI界面显示输出侧面、输入侧面及A/B对比输入。针对每种对比结果，你可配置应用于输入信号的倍率与偏移量。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Below the picture of the Analog, we have three possible conditions: A = B, A is Less Than B, and A is Greater than B. $(br2)In all three conditions, we can do some basic arithmetic on the input, allowing us to multiply the strength of the input, and add to it as well. For example, you could take the input strength, double it, and add 10.",
+   "在模拟器图示下方，有三种可能条件：A = B、A 小于 B，以及 A 大于 B。$(br2)在这三种条件下，我们都可以对输入执行一些基础算术运算，例如将输入强度相乘，或对其进行加法。比如，你可以把输入强度翻倍，再加上 10。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "If you want to divide the signal, or take points off, you can multiply it by a number less than 1, or add a negative number respectively. For example, multiplying the strength by '0.5' is equivalent to dividing it by two, and adding  '-10' is the same as taking away 10. $(br2)Since we're working with redstone signals here, anything above 15 or below 0 is capped to full strength signal or no signal, respectively. $(br2)$(i)Isn't math fun?$()",
+   "如果你想对信号进行除法，或者减少数值，也可以分别通过乘以小于 1 的数字，或加上一个负数来实现。例如，将强度乘以“0.5”就等同于除以二，而加上“-10”则等同于减去 10。$(br2)由于这里处理的是红石信号，因此任何高于 15 或低于 0 的值都会分别被限制为满强度信号或无信号。$(br2)$(i)数学是不是很有趣？$()"
+  ]
+ ]
+}

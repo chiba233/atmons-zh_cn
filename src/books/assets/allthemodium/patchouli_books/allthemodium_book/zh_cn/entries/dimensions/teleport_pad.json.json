@@ -1,0 +1,22 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/dimensions/teleport_pad.json",
+ "sha1": "edcc81922b9b190f6715e72905e1fb246144b76f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Teleport Pad",
+   "传送垫"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Teleport Pad is used to teleport to $(l:dimensions/miningdim)The Mining Dimension$(/c), and $(l:dimensions/otherdim)The Other$(/c) you need to shift right click with both an empty hand and off hand.$(br2)As a note, the $(l:dimensions/miningdim)The Mining Dimension$(/c) is disabled in the ATM6: To The Sky pack",
+   "传送垫可用于传送到 $(l:dimensions/miningdim)采矿维度$(/c) 和 $(l:dimensions/otherdim)异界$(/c)，你需要在主手和副手都为空的情况下按住 Shift 右键点击。$(br2)另外需要注意的是，$(l:dimensions/miningdim)采矿维度$(/c) 在 ATM6: To The Sky 整合包中已被禁用"
+  ]
+ ]
+}

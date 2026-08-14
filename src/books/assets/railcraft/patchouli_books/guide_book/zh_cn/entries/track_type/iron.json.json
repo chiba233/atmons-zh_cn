@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/track_type/iron.json",
+ "sha1": "0d0f2bf92b585509fcf0f6bda41b5ab18953d0e1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Iron",
+   "铁"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The standard track is essentially equal to the vanilla Minecraft rail. They are built with standard rails and wooden railbeds. However, they can have Track Kits applied, like other flex tracks from Railcraft do.",
+   "标准轨道本质上等同于原版Minecraft铁轨。它们由标准铁轨与木质轨枕构成。不过，它们也可应用轨道功能套件，如同铁路模组其他柔性轨道一样。"
+  ]
+ ]
+}

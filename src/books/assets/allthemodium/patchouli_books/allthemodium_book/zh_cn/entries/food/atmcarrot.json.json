@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/food/atmcarrot.json",
+ "sha1": "44d78dbbe66dddc97d3a9d2718b117c39cef6651",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Allthemodium Carrot",
+   "ATM胡萝卜"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Allthemodium Carrot",
+   "ATM胡萝卜"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Allthemodium carrot gives 40 hunger and 320 saturation. The carrot has the following effects:$(li)Fast to Eat$(li)Can Always Eat$(li)Absorption X for 30 Sec$(li)Regeneration X for 30 Sec",
+   "Allthemodium胡萝卜可提供 40 点饥饿度和 320 点饱和度。该胡萝卜具有以下效果：$(li)食用速度快$(li)始终可以食用$(li)30 秒伤害吸收 X$(li)30 秒再生 X"
+  ]
+ ]
+}

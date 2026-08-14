@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/crafting.json",
+ "sha1": "8301d951efaa1973b5b71110d1a9e1ad0deb29e5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crafting Widget",
+   "合成"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(l:tools/drone)Drone/$ will craft items using items it has in its inventory. To specify a crafting recipe, place $(l:programming/item_filter)Item Filters/$ on the right side of the Crafting widget, in the pattern of the crafting recipe.$(p)You don't need to use exactly 9 $(thing)Item Filters/$: as long as you can create the recipe pattern, it will work.",
+   "$(l:tools/drone)雄蜂/$会使用其容器中的物品来合成物品。要指定合成配方，请将 $(l:programming/item_filter)物品过滤器/$ 按照合成配方的图案放置在合成组件右侧。$(p)你不必正好使用 9 个 $(thing)物品过滤器/$：只要能摆出配方图案，就可以生效。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "By default the Crafting widget will try to craft as many items as possible; you can limit this in the widget GUI with the $(thing)Use Count/$ setting.$(p)You will probably want to install some $(l:base_concepts/upgrades#dispenser)Inventory Upgrades/$ in the $(item)Drone/$ to give it a larger inventory.",
+   "默认情况下，合成组件会尽可能合成更多物品；你可以在组件 GUI 中通过 $(thing)使用计数/$ 设置来限制这一点。$(p)你大概会想给 $(item)无人机/$ 安装一些 $(l:base_concepts/upgrades#dispenser)物品栏升级/$，以便让它拥有更大的物品栏。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "It is possible to quickly and easily set up Item Filters for the Crafting widget using JEI; see $(l:programming/programmer#jei)this page/$ for more information.",
+   "可以使用 JEI 为合成组件快速轻松地设置物品过滤器；更多信息请参见$(l:programming/programmer#jei)此页面/$。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "JEI Integration",
+   "JEI扩展"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(italic)Crafting Widget/$",
+   "$(italic)合成组件/$"
+  ]
+ ]
+}

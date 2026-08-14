@@ -1,0 +1,55 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/fr_fr/docs/getting_started/_meta.json",
+ "sha1": "32cb92b62142cb4e165fd1edcc3fb27b67bcbc97",
+ "t": [
+  [
+   [
+    "alloys.mdx"
+   ],
+   "Fabrication d'Acier (et autres alliages)",
+   "钢（及其他合金）冶炼"
+  ],
+  [
+   [
+    "assembling_components.mdx"
+   ],
+   "Assemblage de Composants",
+   "组件装配"
+  ],
+  [
+   [
+    "first_generator.mdx"
+   ],
+   "Génération d'électricité de base",
+   "基础发电"
+  ],
+  [
+   [
+    "fragmenting.mdx"
+   ],
+   "Fragmentation des Minerais",
+   "矿石破碎"
+  ],
+  [
+   [
+    "gather_resources.mdx"
+   ],
+   "Rassembler des Ressources",
+   "收集资源"
+  ],
+  [
+   [
+    "have_fun.mdx"
+   ],
+   "Amusez-vous",
+   "尽情享受吧"
+  ],
+  [
+   [
+    "lasers.mdx"
+   ],
+   "Lasers! Et Fluxite",
+   "镭射器！与通量水晶"
+  ]
+ ]
+}

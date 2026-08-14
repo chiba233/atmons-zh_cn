@@ -1,0 +1,39 @@
+[
+  {
+    "name": "octolib_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "it.hurts.octostudios.octolib.module.command.OctolibCommand"
+    ],
+    "pairs": [
+      {
+        "key": "This command should be ran by a player.",
+        "value": "此命令应由玩家执行。"
+      },
+      {
+        "key": "You have not permission to reload config.",
+        "value": "你没有重载配置的权限。"
+      },
+      {
+        "key": "Error occurs while reload config by path ",
+        "value": "按路径重载配置时发生错误"
+      },
+      {
+        "key": "Error occurs while reloading config by path ",
+        "value": "按路径重新加载配置时发生错误"
+      },
+      {
+        "key": "Config by path \"",
+        "value": "按路径配置 \""
+      },
+      {
+        "key": "Config with path \"",
+        "value": "路径为 \" 的配置"
+      }
+    ]
+  }
+]

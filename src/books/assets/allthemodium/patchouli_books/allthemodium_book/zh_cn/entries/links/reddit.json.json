@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/links/reddit.json",
+ "sha1": "77533e7bb3cf0357c1ac7ce24bfdd522246b2c2c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reddit",
+   "瑞迪特"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "link_text"
+   ],
+   "Reddit Link",
+   "Reddit链接"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Reddit is a good place to see the server lists, and also to ask for help, and show off builds.",
+   "Reddit 是查看服务器列表的好地方，也可以在那里求助和展示你的建筑。"
+  ]
+ ]
+}

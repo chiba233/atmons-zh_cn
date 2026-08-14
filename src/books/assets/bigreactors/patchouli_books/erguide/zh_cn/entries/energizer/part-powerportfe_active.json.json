@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/energizer/part-powerportfe_active.json",
+ "sha1": "4a12b753bd01b5a38d13be5fad04a90d0a39e10f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Active FE Power Port",
+   "FE能量端口（主动）"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Active FE Power Port allows you to insert and extract energy from the Energizer.$(br2)Any Forge Energy-compatible cable or machine can be connected to the Active FE Power Port. The port will automatically transfer energy to the connected block if it supports it.",
+   "主动 FE 能量端口可以让你向充能器输入和从中提取能量。$(br2)任何兼容 Forge 能量的线缆或机器都可以连接到主动 FE 能量端口。如果连接的方块支持，端口会自动向其传输能量。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Active FE Power Port",
+   "FE能量端口（主动）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Active FE Power Port",
+   "FE能量端口（主动）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

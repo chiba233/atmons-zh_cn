@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powermonitor/powermonitor.json",
+ "sha1": "8ca904a6a120d3ba40aedf26ba508f9847b2a076",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Power Monitor",
+   "能量监控器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This logic block can be placed with its input side facing an $(thing)energy block$(). It has a GUI that you can use to control the power range where it should emit a $(thing)redstone signal$(). $(br2)Redstone is emitted when the power level is above the minimum percentage and below the maximum percentage. ",
+   "这个逻辑方块可以放置，使其输入面朝向一个$(thing)能源方块$()。它有一个 GUI，你可以用来控制它应发出$(thing)红石信号$()的能量范围。$(br2)当能量水平高于最小百分比且低于最大百分比时，就会发出红石信号。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Power Monitor",
+   "能量监控器"
+  ]
+ ]
+}

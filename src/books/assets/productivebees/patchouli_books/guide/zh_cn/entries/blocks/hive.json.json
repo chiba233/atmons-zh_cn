@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/hive.json",
+ "sha1": "d72087b3aa82cf10d11891abe28f1b3ced1fd888",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Advanced Hives",
+   "高级蜂箱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(l:hives/advanced_hives)See the chapter on advanced hives$(/l).",
+   "$(l:hives/advanced_hives)请参阅高级蜂箱章节。$(/l)"
+  ]
+ ]
+}

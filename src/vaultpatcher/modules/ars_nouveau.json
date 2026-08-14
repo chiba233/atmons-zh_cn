@@ -1,0 +1,71 @@
+[
+  {
+    "name": "ars_nouveau_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.zeroregard.ars_technica.api.ProcessingTooltipHelper"
+    ],
+    "pairs": [
+      {
+        "key": "[Create Recipe: ",
+        "value": "[机械动力配方："
+      },
+      {
+        "key": "[Create Processing: ",
+        "value": "[机械动力加工："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.zeroregard.ars_technica.glyphs.EffectFuse"
+    ],
+    "pairs": [
+      {
+        "key": "Heated Mixing",
+        "value": "加热搅拌"
+      },
+      {
+        "key": "Superheated Mixing",
+        "value": "超高温搅拌"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.zeroregard.ars_technica.glyphs.EffectPolish"
+    ],
+    "pairs": [
+      {
+        "key": "Refines items into their polished variants",
+        "value": "将物品精制为其抛光变种"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.zeroregard.ars_technica.glyphs.EffectPress"
+    ],
+    "pairs": [
+      {
+        "key": "Flattens items into their pressed variants",
+        "value": "将物品压制为其压制变种"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.starbunclemania.common.item.DirectionScroll"
+    ],
+    "pairs": [
+      {
+        "key": "Direction set to ",
+        "value": "方向已设为 "
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "tiab_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.mangorage.tiab.common.commands.TiabCommand"
+    ],
+    "pairs": [
+      {
+        "key": "No Time in a bottle item in inventory!",
+        "value": "物品栏中没有时间之瓶！"
+      },
+      {
+        "key": "Time added to bottle!",
+        "value": "已向瓶中添加时间！"
+      },
+      {
+        "key": "No Time in a bottle item in inventory",
+        "value": "物品栏中没有时间之瓶"
+      }
+    ]
+  }
+]

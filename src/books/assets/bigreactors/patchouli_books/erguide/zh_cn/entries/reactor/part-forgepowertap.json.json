@@ -1,0 +1,85 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-forgepowertap.json",
+ "sha1": "88be88b0c569233ae4d8e7ef743769588ec01055",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Forge Energy Power Tap",
+   "Forge能量接口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Forge Energy Power Tap allows you to extract energy from a $(l:bigreactors/passive)passively cooled$(/l) Reactor. This Power Tap outputs energy using the Forge Energy $(l:bigreactors/powersystem)power system$(/l), meaning it can only be connected to pipes or machines that are compatible with that system.",
+   "Forge Energy 能量输出端口允许你从$(l:bigreactors/passive)被动冷却$(/l)反应堆中提取能量。该输出端口使用 Forge Energy $(l:bigreactors/powersystem)供能系统$(/l)输出能量，这意味着它只能连接到兼容该系统的管道或机器。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Forge Energy Power Tap",
+   "Forge能量接口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Only one $(l:bigreactors/powersystem)power system$(/l) can be used for each Reactor, which means only one type of Power Tap can be utilized in a single Reactor build. The Power Tap is available in both $(l:bigreactors/passiveactiveparts)passive and active$(/l) forms.",
+   "每个反应堆只能使用一种$(l:bigreactors/powersystem)供能系统$(/l)，这意味着在单个反应堆结构中只能使用一种类型的能量输出端口。能量输出端口同时提供$(l:bigreactors/passiveactiveparts)被动和主动$(/l)两种形式。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic (Passive)",
+   "基础（被动）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced (Passive)",
+   "强化（被动）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title1"
+   ],
+   "Basic (Active)",
+   "基础（主动）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title2"
+   ],
+   "Reinforced (Active)",
+   "加固 (主动)"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no$(br)$(l)Power system:$() Forge Energy",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否$(br)$(l)供能系统：$()Forge Energy"
+  ]
+ ]
+}

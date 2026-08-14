@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/compressors.json",
+ "sha1": "7fea6ca0cb7c16096aa9f7fc0a2ec1e228972860",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Compressors are machines which compress air to generate $(l:base_concepts/pressure)pressure/$. These are the power generators for $(pncr).",
+   "压缩机是通过压缩空气来产生$(l:base_concepts/pressure)压力/$的机器，它们是 $(pncr) 的动力来源。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Compressors",
+   "压缩机"
+  ]
+ ]
+}

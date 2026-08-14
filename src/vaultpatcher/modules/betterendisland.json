@@ -1,0 +1,27 @@
+[
+  {
+    "name": "betterendisland_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yungnickyoung.minecraft.betterendisland.command.EndIslandCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Could not find the End dimension.",
+        "value": "无法找到末地维度。"
+      },
+      {
+        "key": "Could not find the dragon fight.",
+        "value": "未能找到龙之战。"
+      },
+      {
+        "key": "Ender Dragon fight has been reset.",
+        "value": "末影龙战斗已被重置。"
+      }
+    ]
+  }
+]

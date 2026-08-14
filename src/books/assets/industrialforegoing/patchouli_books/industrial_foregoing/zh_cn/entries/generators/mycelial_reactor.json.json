@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/generators/mycelial_reactor.json",
+ "sha1": "061531e03811d7fe625c21fa97c85004745fe251",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mycelial Reactor",
+   "菌丝网络产能反应堆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Using the $(6)Mycelial Network$() (A subspace domain containing a living vegetative mass of fungus called the mycelium) this reactor can detect the other $(6)mycelial generators$() and generate massive amounts of FE. $(br2)For this to happen, once instance of each generator needs to be working at the same time.",
+   "利用 $(6)菌丝网络$()（一个包含名为菌丝的活性真菌营养体的亚空间领域），该反应堆可以检测其他 $(6)菌丝发电机$() 并产生海量 FE。$(br2)要实现这一点，每种发电机都必须同时有一台处于工作状态。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Maybe new technologies can be discovered in the future using this network.",
+   "未来或许可通过此网络发现全新科技。"
+  ]
+ ]
+}

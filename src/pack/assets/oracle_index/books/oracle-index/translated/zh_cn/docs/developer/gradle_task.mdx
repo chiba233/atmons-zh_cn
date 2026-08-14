@@ -1,0 +1,20 @@
+---
+title: （可选）自动Gradle Wiki同步
+---
+
+建议添加一个 Gradle 任务，以自动将“wiki”目录中的内容同步到已构建的模组中。一个简单的 Architectury Gradle 任务可能如下所示：
+
+```
+tasks.named('processResources') {
+    from("$rootDir/wiki") {
+        into "assets/oracle_index/books/oritech"
+        exclude 'assets/item/**'   // 物品在游戏里是按真实物品组件渲染的，不必收进来
+    }
+    doLast {
+        println "processResources 已执行：wiki 目录已拷入 assets/oracle_index"
+    }
+}
+```
+
+这些文件将被添加至"common/build/resources"文件夹。
+请注意，本示例针对Architectury多平台项目编写，并添加至"common"项目的build.gradle文件中。根据你的模组配置，你可能需要对此进行调整。

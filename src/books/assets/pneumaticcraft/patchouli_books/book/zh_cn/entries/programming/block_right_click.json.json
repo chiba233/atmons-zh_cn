@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/block_right_click.json",
+ "sha1": "c080368d71fc76561e69b6db16c5319eed1b8b75",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Right Click Widget",
+   "右击拼图"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Drone will $(thing)right-click/$ with the item in its first inventory slot, for every block position in its connected $(l:programming/area)Area/$ widget. This could be used to hoe the ground, place seeds, apply bonemeal, throw a potion, deploy a drone, rotate blocks with a wrench... the possibilities are endless.",
+   "雄蜂会使用其容器第一个槽位中的物品，对其连接的 $(l:programming/area)区域/$组件内的每个方块位置执行 $(thing)右击/$。这可以用来锄地、播种、施用骨粉、投掷药水、部署雄蜂、用扳手旋转方块……可能性无穷无尽。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "This widget operates in one of two modes, selectable via the widget GUI in the Programmer:$(li)Item Mode - use the $(thing)held item's/$ right-click logic, e.g. use a $(item)Flint & Steel/$ on some block$(li)Block Mode - activate the $(thing)block's/$ right-click logic, e.g. flip a $(item)Lever/$$(p)In $(thing)Item Mode/$, any attached filters apply to the $(italic)item/$ being used; in $(thing)Block Mode/$, filters apply to the $(italic)block/$ being activated.",
+   "该组件可在两种模式中运行其一，可通过编程器中的组件 GUI 进行选择：$(li)物品模式 - 使用$(thing)手持物品/$的右键逻辑，例如对某个方块使用 $(item)打火石/$$(li)方块模式 - 激活$(thing)方块/$的右键逻辑，例如扳动一个 $(item)拉杆/$$(p)在 $(thing)物品模式/$ 下，任何已附加的筛选器都会应用于被使用的 $(italic)物品/$；而在 $(thing)方块模式/$ 下，筛选器会应用于被激活的 $(italic)方块/$。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You could use this widget to place down regular blocks. However, this is $(italic)not/$ recommended, because when a Drone right-clicks a position where a block exists already, it will right-click the block, resulting in placing down a block $(italic)next/$ to this block instead of the block itself.$(p)For these reasons the use of the $(l:programming/place)Place/$ widget is preferred. There are some situations, though (e.g. trying to plant $(item)Seeds/$) where the $(thing)Right Click Block/$ widget is required.",
+   "你可以使用这个程序块来放置普通方块。不过，并$(italic)不/$推荐这么做，因为当无人机在某个已经有方块存在的位置右击时，它会改为右击那个方块，结果就会把方块放到该方块的$(italic)旁边/$，而不是放在目标位置本身。$(p)基于这些原因，通常更建议使用$(l:programming/place)放置/$程序块。不过，在某些情况下（例如尝试种植$(item)种子/$时），则必须使用$(thing)右击方块/$程序块。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(italic)Right Click Widget/$",
+   "$(italic)右击控件/$"
+  ]
+ ]
+}

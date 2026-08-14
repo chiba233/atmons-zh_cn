@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_xnet.json",
+ "sha1": "0af6fbccc330048446336538a9a069bcd1fb56a3",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "XNet is a mod about item, fluid, and power distribution. It does this in a very efficient way",
+   "XNet 是一个关于物品、流体和能量传输的模组。它能以非常高效的方式完成这些功能"
+  ],
+  [
+   [
+    "name"
+   ],
+   "XNet",
+   "XNet手册"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/stasis_chamber.json",
+ "sha1": "6acbd041a19cee1a1560d2c424c53d481609f6f8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Stasis Chamber",
+   "生物静滞室"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When provided with power this machine will $(6)freeze$() and $(6)heal$() any entity that are in its working area.",
+   "当提供能量时，该机器会对其工作区域内的任意实体施加$(6)冰冻$()与$(6)治愈术$()效果。"
+  ]
+ ]
+}

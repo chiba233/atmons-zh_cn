@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_nbt.json",
+ "sha1": "8cdb21b2c8a2ead1b2b2a10c33c7064f1cf6b45f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "NBT Filter",
+   "NBT 过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The NBT filter has a very similar UI and functionality as the $(l:laserio:filter_tag)Tag Filter$(/l).$(br2)Placing an item in the top right slot will show you all nbt tag labels on that item. Adding them to the list (in the same way you do with the tag filter) will filter items that contain those tags, regardless of the values those tags are assigned.",
+   "NBT 过滤器的界面和功能均与$(l:laserio:filter_tag)标签过滤器$(/l)类似。$(br2)在右上角槽位中放置物品，可显示该物品的所有 NBT 标签。添加（操作与标签过滤器一致）至列表后，拥有这些标签的物品均会纳入过滤范围，不论标签的具体值是什么。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "NBT UI",
+   "NBT 过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "NBT UI",
+   "NBT 过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "For example, all enchanted items have an 'Enchantments' tag, which specifies things like Looting, sharpness, etc. If you add the 'enchantments' tag to this list, the filter will filter out all enchanted items.$(br2)Enchanted swords can go in one inventory, and non-enchanted to another. Regardless of which enchantments are applied.",
+   "例如，所有附魔物品均带有“魔咒”标签，对应抢夺、锋利等魔咒。将“魔咒”标签加入列表后，过滤器会滤出所有附魔物品。$(br2)附魔剑和未附魔的剑会进入不同的存储空间，不论其上具体带有什么魔咒。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "All other functionality is identical to the $(l:laserio:filter_tag)Tag Filter$(/l), see that entry for more information.",
+   "所有其他功能均与$(l:laserio:filter_tag)标签过滤器$(/l)一致，更多信息课参见该条目。"
+  ]
+ ]
+}

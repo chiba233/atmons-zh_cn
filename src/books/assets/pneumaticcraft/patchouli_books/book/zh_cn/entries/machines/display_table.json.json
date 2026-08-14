@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/display_table.json",
+ "sha1": "17c7b011935c1b9151b4b0feeaefa96a6b8502ed",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Display Table",
+   "展示桌"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Display Table/$ is a simple inventory which can store (and display) a single item. It's partly intended for decorative purposes, but may also be useful for automation, since the table's inventory can be interacted with via hoppers, drones & other piping systems.",
+   "$(item)展示桌/$是一个简单的容器，可存放（并展示）单个物品。它部分是为装饰用途而设计的，但也可用于自动化，因为可以通过漏斗、无人机和其他管道系统与展示桌的容器进行交互。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Display Tables, when placed next to each other, will visually connect and not render adjacent legs, forming a single larger table. This does require that both blocks have exactly the same rotation; if the rotation is different, then the table will not connect in this way.$(p)Visually-connected tables still have a separate 1-item inventory for each table.",
+   "当多个展示桌相邻放置时，它们在外观上会连接在一起，并且不会渲染相邻的桌腿，从而形成一张更大的桌子。不过，这要求两个方块的朝向必须完全相同；如果朝向不同，桌子就不会以这种方式连接。$(p)在外观上连接起来的桌子，每张展示桌仍然各自拥有一个独立的 1 物品容器。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Display Table",
+   "合成展示桌"
+  ]
+ ]
+}

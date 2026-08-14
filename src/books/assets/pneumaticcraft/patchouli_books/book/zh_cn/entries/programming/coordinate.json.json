@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/coordinate.json",
+ "sha1": "34f51daf1f61e44f7bfdd42957b808c8ba7eacc9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coordinate Widget",
+   "坐标"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Coordinate/$ is a widget solely used as a parameter for the $(l:programming/coordinate_operator)Coordinate Operator/$ and $(l:programming/condition_coordinate)Condition: Coordinate/$ widgets.$(p)This widget could be compared to the $(l:programming/area)Area/$ widget: with the $(thing)Area/$ widget you're supplying $(italic)two/$ coordinates to make up an area, while with this widget you're just supplying $(italic)one/$. There are two ways to supply a coordinate:",
+   "$(thing)坐标/$是一个仅用作$(l:programming/coordinate_operator)坐标运算符/$和$(l:programming/condition_coordinate)条件：坐标/$组件参数的组件。$(p)这个组件可以类比为$(l:programming/area)区域/$组件：使用$(thing)区域/$组件时，你需要提供$(italic)两个/$坐标来组成一个区域，而使用这个组件时，你只需提供$(italic)一个/$。提供坐标有两种方式："
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(bold)Constant/$$(br)A constant coordinate is, well... constant. You can select one by selecting a $(l:tools/gps_tool)GPS Tool/$, or just type X/Y/Z values into the textfields directly.$(p)$(bold)Variable/$$(br)By selecting Variable you can return the value stored in the $(l:programming/variables)variable/$ as the coordinate. Keep in mind that with this you can only supply a coordinate, not modify the variable!",
+   "$(bold)固定/$$(br)固定坐标，顾名思义……就是固定不变的。你可以通过选择一个 $(l:tools/gps_tool)定位工具/$ 来选定坐标，或者直接在文本框中输入 X/Y/Z 的值。$(p)$(bold)变量/$$(br)选择“变量”后，你可以将存储在 $(l:programming/variables)变量/$ 中的值作为坐标返回。请记住，这样你只能提供一个坐标，不能修改该变量！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(italic)Coordinate Widget/$",
+   "$(italic)坐标小部件/$"
+  ]
+ ]
+}

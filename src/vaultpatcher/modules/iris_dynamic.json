@@ -1,0 +1,58 @@
+[
+  {
+    "name": "iris_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.gui.debug.DebugLoadFailedGridScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Reload pack",
+        "value": "重载资源包"
+      },
+      {
+        "key": "Copy error",
+        "value": "复制错误"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.irisshaders.iris.gui.screen.ShaderPackScreen"
+    ],
+    "pairs": [
+      {
+        "key": "New update available!",
+        "value": "发现新版本更新！"
+      },
+      {
+        "key": "Shader debug mode toggle",
+        "value": "着色器调试模式切换"
+      },
+      {
+        "key": "Debug mode helps investigate problems and shows shader errors. Would you like to enable it?",
+        "value": "调试模式有助于排查问题并显示着色器错误。你想启用它吗？"
+      },
+      {
+        "key": "Unknown shader toggle",
+        "value": "未知着色器切换"
+      },
+      {
+        "key": "This allows unknown shaders to load in.",
+        "value": "这允许加载未知着色器。"
+      },
+      {
+        "key": "Enable",
+        "value": "启用"
+      },
+      {
+        "key": "Disable",
+        "value": "禁用"
+      }
+    ]
+  }
+]

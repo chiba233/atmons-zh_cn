@@ -1,0 +1,55 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/pl_pl/docs/getting_started/_meta.json",
+ "sha1": "651e5d7681fb336c2cbc0369b29502a9036a5490",
+ "t": [
+  [
+   [
+    "alloys.mdx"
+   ],
+   "Wytwarzanie Stali (i innych Stopów)",
+   "钢铁（及其他合金）制造"
+  ],
+  [
+   [
+    "assembling_components.mdx"
+   ],
+   "Składanie Komponentów",
+   "组件合成"
+  ],
+  [
+   [
+    "first_generator.mdx"
+   ],
+   "Podstawowe Generowanie Energii",
+   "基础能量生成"
+  ],
+  [
+   [
+    "fragmenting.mdx"
+   ],
+   "Fragmentowanie Rud",
+   "矿石粉碎"
+  ],
+  [
+   [
+    "gather_resources.mdx"
+   ],
+   "Zbieranie zasobów",
+   "资源采集"
+  ],
+  [
+   [
+    "have_fun.mdx"
+   ],
+   "Baw się dobrze",
+   "玩得开心"
+  ],
+  [
+   [
+    "lasers.mdx"
+   ],
+   "Lasery! I Fluxit",
+   "镭射器！与通量水晶"
+  ]
+ ]
+}

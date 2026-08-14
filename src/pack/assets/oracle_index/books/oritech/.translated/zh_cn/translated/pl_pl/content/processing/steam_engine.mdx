@@ -1,0 +1,31 @@
+---  
+title: 蒸汽能源  
+icon: oritech:steam_boiler_addon  
+---  
+
+<center>  
+<ModAsset location="oritech:area/steam_power" width={1000} />  
+</center>  
+
+除基础发电机外，所有发电机均可通过添加蒸汽锅炉插件升级为蒸汽发生器。
+添加后，机器将不再直接生产RF能量，转而按2:1比例生成蒸汽。
+蒸汽生产需消耗水。水与蒸汽可直接泵入/泵出该插件，但不可直接泵入/泵出机器本体。
+
+
+要利用蒸汽发电，可使用蒸汽引擎生产RF能量。该引擎以蒸汽为输入，输出水。
+但在该过程中约有20%的水会流失，因此必须为发电机持续供水。
+
+
+<Callout variant="info">  
+Silniki parowe nie będą działać, jeśli ich zbiornik wody lub magazyn energii są całkowicie pełne.  
+Upewnij się, że woda ma gdzie odpływać. Dzięki zbiornikom, komparatorom i czerwonej kamieni możesz zbudować samowystarczalną pętlę.  
+</Callout>  
+
+多个蒸汽发动机可串联成链。它们将共享首个发动机的能源存储、水源及蒸汽储罐，协同运行。蒸汽发动机运行速度取决于蒸汽储罐内蒸汽水平。
+蒸汽越多，压力越大，运行速度越快。
+速度随蒸汽储罐填充百分比线性提升，满罐时最大倍率为10。
+
+然而，引擎效率取决于其转速。更高的效率意味着单位蒸汽产量可转化出更多RF。
+机器最高效率在约700%转速时达成。
+任何低于或高于该数值的转速均会导致效率下降。
+能量从机器的红色端口输出。流体端口以蓝色标识。

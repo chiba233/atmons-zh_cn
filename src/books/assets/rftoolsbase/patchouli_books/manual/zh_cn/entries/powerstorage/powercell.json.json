@@ -1,0 +1,58 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powerstorage/powercell.json",
+ "sha1": "bb25e7a8f984266e2c037208d7b118dd29bab311",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Powercell",
+   "能量单元"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Powercells$() store massive amounts of power. They can be placed either individually, or they can be placed next to one another to form a multiblock structure. Powercells will automatically distribute RF between themselves and their neighbors, and will join up into a multiblock regardless of tier.",
+   "$(item)能量单元$()可以存储海量能量。它们既可以单独放置，也可以相邻放置以形成多方块结构。能量单元会自动在自身与相邻单元之间分配 RF，并且无论阶级如何都可以组成多方块结构。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Powercells have no UI, but can be configured to input, output, or ignore power by hitting the desired side with a $(l:rftoolsbase:tools/smartwrench)smart wrench$() in $(thing)Wrench Mode$(). Blue is input, Yellow is output, and a blank side is neither.",
+   "能量单元没有界面，但可以用处于$(thing)扳手模式$()的$(l:rftoolsbase:tools/smartwrench)智能扳手$()敲击所需侧面，将其配置为输入、输出或忽略能量。蓝色为输入，黄色为输出，空白面则两者都不是。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "By default, the $(item)Powercell (low)$() can hold 500,000RF each.",
+   "默认情况下，$(item)能量单元（低）$()每个可存储 500,000 RF。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "By default, the $(item)Powercell (Medium)$() can hold 4,000,000RF each.",
+   "默认情况下，$(item)能量单元（中）$()每个可存储 4,000,000 RF。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "By default, the $(item)Powercell (high)$() can hold 20,000,000RF each. That's a lot of RF!",
+   "默认情况下，$(item)能量单元（高）$()每个可存储 20,000,000 RF。真是相当多的 RF！"
+  ]
+ ]
+}

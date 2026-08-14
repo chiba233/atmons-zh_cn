@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder_builder.json",
+ "sha1": "af0aa732dcc28f80338e3f956ca64f770dd6e9b4",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Builder is a very versatile block to build, quarry, or collect",
+   "建筑机是一种用途非常广泛的方块，可用于建造、采掘或收集"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Builder",
+   "建筑机"
+  ]
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/components/_meta.json",
+ "sha1": "a295c53930dcae7a3f697002a2415462cdf48625",
+ "t": [
+  [
+   [
+    "advanced_battery.mdx"
+   ],
+   "Advanced Battery",
+   "高级电池"
+  ],
+  [
+   [
+    "advanced_computing_engine.mdx"
+   ],
+   "Advanced Computing Engine",
+   "高级计算引擎"
+  ],
+  [
+   [
+    "banana.mdx"
+   ],
+   "Banana",
+   "香蕉"
+  ],
+  [
+   [
+    "basic_battery.mdx"
+   ],
+   "Basic Battery",
+   "基础电池"
+  ],
+  [
+   [
+    "carbon_fibre_strands.mdx"
+   ],
+   "Carbon Fibre Strands",
+   "碳纤维"
+  ],
+  [
+   [
+    "clay_catalyst_beads.mdx"
+   ],
+   "Clay Catalyst Beads",
+   "黏土催化剂"
+  ],
+  [
+   [
+    "dubios_container.mdx"
+   ],
+   "Dubios Container",
+   "可疑的容器"
+  ],
+  [
+   [
+    "enderic_compound.mdx"
+   ],
+   "Enderic Compound",
+   "末影化合物"
+  ],
+  [
+   [
+    "enderic_lens.mdx"
+   ],
+   "Enderic Lens",
+   "末影透镜"
+  ],
+  [
+   [
+    "flux_gate.mdx"
+   ],
+   "Flux Gate",
+   "能量阀门"
+  ],
+  [
+   [
+    "heisenberg_compensator.mdx"
+   ],
+   "Heisenberg Compensator",
+   "海森堡补偿器"
+  ],
+  [
+   [
+    "ion_thruster.mdx"
+   ],
+   "Ion Thruster",
+   "离子推进器"
+  ],
+  [
+   [
+    "magnetic_coil.mdx"
+   ],
+   "Magnetic Coil",
+   "电磁线圈"
+  ],
+  [
+   [
+    "motor.mdx"
+   ],
+   "Motor",
+   "马达"
+  ],
+  [
+   [
+    "overcharged_crystal.mdx"
+   ],
+   "Overcharged Crystal",
+   "过充水晶"
+  ],
+  [
+   [
+    "packed_wheat.mdx"
+   ],
+   "Packed Wheat",
+   "打包小麦"
+  ],
+  [
+   [
+    "polymer_resin.mdx"
+   ],
+   "Polymer Resin",
+   "石油树脂"
+  ],
+  [
+   [
+    "processing_unit.mdx"
+   ],
+   "Processing Unit",
+   "处理器"
+  ],
+  [
+   [
+    "raw_biopolymer.mdx"
+   ],
+   "Raw Biopolymer",
+   "粗有机聚合物"
+  ],
+  [
+   [
+    "reinforced_carbon_sheet.mdx"
+   ],
+   "Reinforced Carbon Sheet",
+   "强化碳纤维板"
+  ],
+  [
+   [
+    "silicon_wafer.mdx"
+   ],
+   "Silicon Wafer",
+   "硅晶体"
+  ],
+  [
+   [
+    "solid_biofuel.mdx"
+   ],
+   "Solid Biofuel",
+   "固体生物燃料"
+  ],
+  [
+   [
+    "super_ai_chip.mdx"
+   ],
+   "Super AI Chip",
+   "超级AI芯片"
+  ],
+  [
+   [
+    "unholy_intelligence.mdx"
+   ],
+   "Unholy Intelligence",
+   "不洁智慧"
+  ]
+ ]
+}

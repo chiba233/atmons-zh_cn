@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/generators/biofuel.json",
+ "sha1": "734da4f350cc81a58f624cb380665effcdfbc57e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Biofuel (Fluid)",
+   "生物燃料（流体）"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A purple fluid made of plants, dyes and some questionable things like skulls in a $(l:generators/bioreactor)Bioreactor$(). $(br2)Used in a $(l:generators/biofuel_generator)Biofuel Generator$() or in $(l:tools/infinity_tools)Infinity Tools$().",
+   "一种由植物、染料以及一些可疑成分（比如颅骨）在$(l:generators/bioreactor)生物质炉$()中制成的紫色液体。$(br2)可用于$(l:generators/biofuel_generator)生物燃油发电机$()或$(l:tools/infinity_tools)无限工具$()。"
+  ]
+ ]
+}

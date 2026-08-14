@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/part-glass.json",
+ "sha1": "e40cc2e6b81b9711875f1c4b3906879185e69216",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Glass blocks are decorative blocks that can be used instead of a Casing block to showcase the interior of the Fluidizer.",
+   "玻璃方块是装饰性方块，可以替代机壳方块使用，以展示流化器内部。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

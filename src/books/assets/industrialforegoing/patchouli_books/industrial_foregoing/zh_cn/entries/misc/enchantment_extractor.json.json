@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/enchantment_extractor.json",
+ "sha1": "6ed5468406a092cc736b37661f5ebfd2cdad88b7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Enchantment Extractor",
+   "附魔提取机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine can extract enchantments from items when provided with a book. $(br2)It can function 2 ways, extract the enchantments into a book or it can extract the enchantment and transform it into $(l:agr_husb/essence)Essence$().",
+   "该机器可在提供书本的前提下，从物品中提取附魔。$(br2)其具备两种运行模式：将附魔提取至书本中，或将附魔转化为$(l:agr_husb/essence)精华$()。"
+  ]
+ ]
+}

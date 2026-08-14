@@ -1,0 +1,148 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/plastic.json",
+ "sha1": "ef99d4c7628d7ef091a0e83766edb264c26af215",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Plastic",
+   "塑料"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Plastic/$ is an important crafting component in $(pncr).$(p)$(item)Molten Plastic/$ is made from $(l:manufacturing/refinery)LPG/$ and $(item)Coal/$, or $(l:renewables/biodiesel)Biodiesel/$ and $(item)Charcoal/$ in the $(l:manufacturing/thermopneumatic_processing_plant)Thermopneumatic Processing Plant/$.",
+   "$(item)塑料/$是 $(pncr) 中重要的合成材料。$(p)$(item)熔融塑料/$可在 $(l:manufacturing/thermopneumatic_processing_plant)热气动加工机/$ 中由 $(l:manufacturing/refinery)液化石油气/$ 和 $(item)煤炭/$，或 $(l:renewables/biodiesel)生物柴油/$ 和 $(item)木炭/$ 制成。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(item)Molten Plastic/$ can be solidified simply by pouring it into the world; it will turn into a $(item)Plastic Sheet/$ within half a second or so. This is very easily automated with a $(l:machines/liquid_hopper)Liquid Hopper/$ with a $(l:base_concepts/upgrades#dispenser)Dispenser Upgrade/$, and an $(l:machines/omnidirectional_hopper)Omnidirectional Hopper/$.",
+   "$(item)熔融塑料/$只需倒入世界中即可凝固；大约半秒后，它就会变成一块$(item)塑料片/$。使用带有$(l:base_concepts/upgrades#dispenser)发射器升级/$的$(l:machines/liquid_hopper)流体漏斗/$和一个$(l:machines/omnidirectional_hopper)全向漏斗/$，就能非常轻松地实现自动化。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Plastic Sheet",
+   "塑料片"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(item)Plastic Sheets/$ are produced by placing a bucket or $(l:machines/tanks)tank/$ of $(item)Molten Plastic/$ into an inventory with a $(l:semiblocks/heat_frame)Heat Frame/$ attached, and chilling the Heat Frame, ideally to below -80C (the colder the better). $(item)Molten Plastic/$ will be consumed from the bucket or tank, and you will have a chance for a second $(item)Plastic Sheet/$ for each 1000mB of Molten Plastic consumed.",
+   "$(item)塑料片/$的生产方式是：将一桶或一$(l:machines/tanks)储罐/$$(item)熔融塑料/$放入一个连接了$(l:semiblocks/heat_frame)导热框架/$的容器中，并对导热框架进行冷却，最好冷却到 -80C 以下（越冷越好）。$(item)熔融塑料/$会从桶或储罐中被消耗，每消耗 1000mB 的熔融塑料，你都有机会额外获得一份$(item)塑料片/$。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Plastic Sheet",
+   "塑料片"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "An alternative way to solidify $(item)Plastic Sheets/$ is to place a bucket or $(l:machines/tanks)tank/$ of $(item)Molten Plastic/$ into an inventory with a $(l:semiblocks/heat_frame)Heat Frame/$ attached, and chill the Heat Frame, ideally to below -80C (the colder the better). $(item)Molten Plastic/$ will be consumed from the bucket or tank, and you will have a chance for a second $(item)Plastic Sheet/$ for each 1000mB of Molten Plastic consumed.",
+   "另一种使 $(item)塑料片/$ 固化的方法，是将一桶或一$(l:machines/tanks)储罐/$的 $(item)熔融塑料/$ 放入一个装有 $(l:semiblocks/heat_frame)导热框架/$ 的容器中，并对导热框架进行冷却，最好降到 -80C 以下（越冷越好）。桶或储罐中的 $(item)熔融塑料/$ 会被消耗，而每消耗 1000mB 的熔融塑料，你都有机会额外获得一张 $(item)塑料片/$。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Improving Yields",
+   "提升产量"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Although $(pncr) Fluid Tanks have inventory slots, and allow $(thing)Heat Frames/$ to be placed on them, simply attaching a Heat Frame to a tank full of Molten Plastic won't work; the fluid tank must be in item form in an inventory (chest, etc.) with a Heat Frame attached.",
+   "虽然$(pncr)流体储罐有容器槽位，并且允许在其上放置$(thing)热量框架/$，但仅仅把热量框架装在装满熔融塑料的储罐上并不起作用；流体储罐必须以物品形式存在于某个容器中（如箱子等），并且已附加热量框架。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "A Note on Tanks",
+   "关于储罐的说明"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "These bricks are formed with $(item)Plastic Sheets/$ and any dye, and are suitable for building with.$(p)Don't walk on these with bare feet, because it hurts an unreasonable amount!$(p)$(italic)Compatible with other leading brands of construction brick./$",
+   "这些砖块由 $(item)塑料片/$ 和任意染料制成，很适合用于建筑。$(p)不过别光脚踩在上面，因为会疼得离谱！$(p)$(italic)兼容其他主流品牌的积木。/$"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Plastic Construction Brick™",
+   "塑料砖块™"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "The smooth version of the $(item)Plastic Construction Brick/$ is also suitable for building with.$(p)These bricks also have the advantage of making excellent flooring, since they will increase your walk speed!",
+   "$(item)塑料建筑砖/$ 的光滑版本同样适合用于建筑。$(p)这些砖块还有个优点，就是作为地板非常出色，因为它们会提高你的行走速度！"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Smooth Plastic Construction Brick™",
+   "平整塑料砖块™"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "You can guess the recipes for the other colours",
+   "你可以自己推测出其他颜色的配方"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "You can smelt bricks back into plastic sheets",
+   "你可以将砖块重新冶炼成塑料片"
+  ]
+ ]
+}

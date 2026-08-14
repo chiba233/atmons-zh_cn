@@ -1,0 +1,20 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/categories/food.json",
+ "sha1": "630187ba9b5be8cac11ec56555a5c6babbe6e5cf",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The food items in Allthemodium",
+   "Allthemodium中的食物物品"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Food Items",
+   "食物"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_pressure.json",
+ "sha1": "e24a39fbd3d6926d8da8a1aa0d19bd2eef23350b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Condition: Pressure Widget",
+   "条件：压力组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Condition: Pressure/$ widget allows you to (remotely) check if the $(l:base_concepts/pressure)pressure/$ of the pneumatic block(s) in the connected $(l:programming/area)Area/$ widget matches the configured pressure threshold.",
+   "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：压力/$组件可让你（远程）检查已连接的$(l:programming/area)区域/$组件中的气动方块的$(l:base_concepts/pressure)压力/$是否符合已配置的压力阈值。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Condition: Pressure Widget/$",
+   "$(italic)条件：压力控件/$"
+  ]
+ ]
+}

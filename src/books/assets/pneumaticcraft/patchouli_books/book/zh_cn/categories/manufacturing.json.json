@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/manufacturing.json",
+ "sha1": "10c0f08a3d4efe5315e2691b2aaa78879684730d",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The machines and systems used to produce components to build other $(pncr) machines and tools.",
+   "用于生产各种组件的机器与系统，而这些组件可用来制造其他 $(pncr) 机器和工具。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Manufacturing",
+   "制造"
+  ]
+ ]
+}

@@ -1,0 +1,68 @@
+name: 🐞 崩溃或功能异常 / Crash or malfunction
+description: 装了汉化后游戏崩溃、卡死或功能不正常 / Game crashes or misbehaves after installing
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！Thanks for reporting!
+        汉化涉及字节码补丁（VaultPatcher），个别崩溃确实可能由汉化引起，请尽量填全。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么？ / What happened?
+      description: 做了什么操作，哪里不对？崩溃的话贴 crash report。 / What did you do, and what went wrong? Attach the crash report if it crashed.
+      placeholder: 例如：打开建造机 GUI 点击红石模式按钮后崩溃，crash-report 如下……
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      placeholder: |
+        1. 打开 …
+        2. 点击 …
+        3. 出现 …
+    validations:
+      required: false
+  - type: input
+    id: pack-version
+    attributes:
+      label: 汉化补丁版本 / Patch version
+      description: 见下载的压缩包文件名或 Release 页。 / See the zip filename or the Release page.
+      placeholder: 例如 v7.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: 游戏环境 / Environment
+      options:
+        - 单机 / Single-player
+        - 服务器 / Multiplayer server
+        - 都会出现 / Both
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统 / OS
+      placeholder: 例如 Windows 11 / macOS 15 / Ubuntu 24.04
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志（可选） / Logs (optional)
+      description: logs/latest.log 或 crash-reports/ 下最新文件，欢迎附截图。 / Attach latest.log or the newest crash report. Screenshots welcome.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认 / Before submitting
+      options:
+        - label: 我搜过现有 issue，没有重复。 / I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: 我确认卸载汉化（用安装器「恢复备份」）后问题消失，或不确定。 / The problem disappears after restoring the backup, or I'm not sure.
+          required: false

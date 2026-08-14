@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/modular_router.json",
+ "sha1": "0e1061a807c99cbe3be4618341406056cb25b6a6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Modular Router Overview",
+   "物品路由器概览"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Modular Router/$ is the central block of the routing system.  By itself, it does nothing other than serve as a one-slot inventory (which can be piped into and out of by hoppers and other mod piping systems).$(p)To do anything useful with a router, however, you need to install one or more (up to nine) $(l:intro/modules)Modules/$.",
+   "$(item)物品路由器/$是整个路由系统的核心方块。它本身除了作为一个单槽容器外什么也不做（漏斗和其他模组的管道系统都可以向其中输入或从中输出）。$(p)不过，如果想让路由器真正发挥作用，你需要安装一个或多个（最多九个）$(l:intro/modules)模块/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Every time a router ticks - once per second by default - it will execute every installed module, in order.  Each of these modules will operate on the item(s) in the buffer or on the world around the router in a specific way - see the $(bold)Modules/$ section for info on each individual module type.$(p)The router's operation can also be modified with $(bold)Upgrades/$ - speed it up, let it handle more items per tick, increase the range of certain modules...",
+   "每当路由器进行一次 tick——默认每秒一次——它就会按顺序执行所有已安装的模块。每个模块都会以特定方式对缓冲区中的物品或路由器周围的世界进行操作——关于各个模块类型的详细信息，请参阅$(bold)模块/$章节。$(p)路由器的运行方式也可以通过$(bold)升级/$进行修改——加快速度、让它每 tick 处理更多物品、提高某些模块的作用范围……"
+  ]
+ ]
+}

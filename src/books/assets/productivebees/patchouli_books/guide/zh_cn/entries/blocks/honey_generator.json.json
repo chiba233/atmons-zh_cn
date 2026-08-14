@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/honey_generator.json",
+ "sha1": "dd0b622ced8615da7df42742d959d3e7d98385ed",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Honey Generator",
+   "蜂蜜发电机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Burns honey to produce power. Honey can be piped in or honey bottles, blocks and buckets can be added in the GUI",
+   "燃烧蜂蜜来产生能量。蜂蜜可以通过管道输入，也可以在 GUI 中放入蜂蜜瓶、蜂蜜块和蜂蜜桶。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A Honey Generator accepts two upgrades; A $(l:items/upgrades#productivity)Productivity upgrade$(/l) will lower the honey consumption. $(l:items/upgrades#speed)Speed upgrade$(/l) will increase the...speed.",
+   "蜂蜜发电机可接受两种升级：$(l:items/upgrades#productivity)升级：产量$(/l)会降低蜂蜜消耗；$(l:items/upgrades#speed)升级：速度$(/l)会提升……速度。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/compressors/advanced_liquid_compressor.json",
+ "sha1": "fb0c157ddffbe045be52c1b0fee984d97d75fcdf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Advanced Liquid Compressor",
+   "高级液体压缩机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Advanced Liquid Compressor/$ is the $(l:base_concepts/pressure_tiers)tier 2/$ version of the $(l:compressors/liquid_compressor)Liquid Compressor/$, with a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with $(l:base_concepts/upgrades#speed)Speed Upgrades/$.$(p)However, this generator must be $(l:base_concepts/heat)cooled/$, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all.",
+   "$(item)高级液体压缩机/$是$(l:compressors/liquid_compressor)液体压缩机/$的$(l:base_concepts/pressure_tiers)阶段2/$版本，最大安全压力为 20 bar。它的基础产气速度为 50mL/tick，并且可以安装$(l:base_concepts/upgrades#speed)速度升级/$。$(p)不过，这台机器必须$(l:base_concepts/heat)冷却/$，因为随着温度升高，它的效率会下降，严重时甚至会完全无法产生空气。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting an $(item)Advanced Liquid Compressor/$",
+   "合成一个 $(item)高级液体压缩机/$"
+  ]
+ ]
+}

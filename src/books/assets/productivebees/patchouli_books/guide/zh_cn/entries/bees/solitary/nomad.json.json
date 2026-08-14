@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/nomad.json",
+ "sha1": "f3ed18527711bc401ac4541975b6145e34e95e21",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Nomad Bee",
+   "游牧蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Nomada marshamella]",
+   "[诺玛达·马尔沙梅拉]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Nomad Bee",
+   "游牧蜜蜂"
+  ]
+ ]
+}

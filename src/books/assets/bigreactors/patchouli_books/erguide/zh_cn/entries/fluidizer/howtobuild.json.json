@@ -1,0 +1,22 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/howtobuild.json",
+ "sha1": "4191d146a9c9a8d138b7b9df5d62d02dc23d0355",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "How to build",
+   "建造方法"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Fluidizer is a 3x3x3 (minimum size) machine built from Casing blocks and a mix of the other device parts.$(br)Glass can be used in place of Casing blocks on all faces of the machine (but not on the frame).$(br2)Check each Fluidizer part page for restrictions on where each part can be placed.",
+   "流化器是一种由机壳方块和其他设备部件混合搭建而成的 3x3x3（最小尺寸）机器。$(br)机器所有面都可以用玻璃替代机壳方块（但框架不能替代）。$(br2)请查看各个流化器部件页面，了解每个部件可放置位置的限制。"
+  ]
+ ]
+}

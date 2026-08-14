@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/semiblocks.json",
+ "sha1": "e7f6a810d5368b201edf5d20a554a1e6a3e1c892",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "$(thing)Semiblocks/$ are curious items which aren't quite blocks, but are placeable like blocks, and can exist in the same space as real blocks.$(p)See also $(l:logistics/frames)Logistics Frames/$ which are also technically semiblocks.",
+   "$(thing)半方块/$是一类很特别的物品。它们不完全算是方块，却能像方块一样放置，并且可以与真正的方块共存于同一空间中。$(p)另见$(l:logistics/frames)物流框架/$，它们从技术上来说也属于半方块。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Semiblocks/Gadgets",
+   "半方块/小工具"
+  ]
+ ]
+}

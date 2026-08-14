@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/blast.json",
+ "sha1": "d3cb79406fe55b208fde7521b8123ad53e86d99d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Blast Upgrade",
+   "爆炸升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade makes the router fully immune to explosion damage, and also to being destroyed by boss mobs.",
+   "这个升级可使路由器完全免疫爆炸伤害，也不会被 Boss 生物摧毁。"
+  ]
+ ]
+}

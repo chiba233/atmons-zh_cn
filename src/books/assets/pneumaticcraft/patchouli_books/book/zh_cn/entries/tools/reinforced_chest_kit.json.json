@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/reinforced_chest_kit.json",
+ "sha1": "7d4915a6474db9d2955f8860f32c7e555091a775",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reinforced Chest Upgrade Kit",
+   "强化箱子升级组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Reinforced Chest Upgrade Kit/$ is a convenience which lets you upgrade any wooden chest to a $(l:machines/reinforced_chest)Reinforced Chest/$ in-place, keeping the chest's items. Just $(thing)Sneak-Right-click/$ the upgrade kit against any wooden chest to upgrade it.$(p)Note: You will get the $(item)wooden chest/$ you used the upgrade kit on back as an item drop.",
+   "$(item)强化箱子升级组件/$可让你直接将任意木箱升级为$(l:machines/reinforced_chest)强化箱子/$，同时保留箱内物品，非常方便。只需拿着升级组件对任意木箱$(thing)潜行右击/$即可完成升级。$(p)注意：你用于升级的$(item)木箱/$会以掉落物的形式返还给你。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Reinforced Chest Upgrade Kit.$(p)Note that the Reinforced Chest must be completely empty.",
+   "合成一个强化箱子升级组件。$(p)请注意，强化箱子必须是完全清空的。"
+  ]
+ ]
+}

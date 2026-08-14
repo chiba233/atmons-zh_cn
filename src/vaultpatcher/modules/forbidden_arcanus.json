@@ -1,0 +1,38 @@
+[
+  {
+    "name": "forbidden_arcanus_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.stal111.forbidden_arcanus.client.gui.screen.research.KnowledgeWidget"
+    ],
+    "pairs": [
+      {
+        "key": "Unlock?",
+        "value": "解锁？"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.stal111.forbidden_arcanus.data.research.ModKnowledge"
+    ],
+    "pairs": [
+      {
+        "key": "The start of an adventure.",
+        "value": "一场冒险的开始。"
+      },
+      {
+        "key": "The forbidden grimoire.",
+        "value": "禁忌咒典。"
+      },
+      {
+        "key": "More than elegant furniture.",
+        "value": "不止是优雅的家具。"
+      }
+    ]
+  }
+]

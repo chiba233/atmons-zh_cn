@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/yellow_black_carpenter.json",
+ "sha1": "78afc87e4b09c725b847c41216d31a92a101b959",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Yellow and Black Carpenter Bee",
+   "黄黑木匠蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Xylocopa aruana]",
+   "[阿鲁阿纳木蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Yellow and Black Carpenter Bee",
+   "黄黑木匠蜜蜂"
+  ]
+ ]
+}

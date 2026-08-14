@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/programming.json",
+ "sha1": "b2f2307d4b55e923c0fd08c8bc3ecfc651861cda",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "All about $(l:tools/drone)Drone/$ programming, with some tutorials and a reference guide to the many programming widgets.",
+   "关于$(l:tools/drone)无人机/$编程的全部内容，包括一些教程，以及涵盖众多编程组件的参考指南。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Drone Programming",
+   "无人机编程"
+  ]
+ ]
+}

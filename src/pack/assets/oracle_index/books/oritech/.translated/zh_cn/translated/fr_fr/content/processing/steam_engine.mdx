@@ -1,0 +1,26 @@
+---
+title: 蒸汽能量
+icon: oritech:steam_boiler_addon
+---
+
+<center>
+<ModAsset location="oritech:area/steam_power" width={1000} />
+</center>
+
+所有发电机（基础发电机除外）均可通过添加蒸汽锅炉模块升级为蒸汽发生器。升级后，机器将不再直接产出RF。
+
+取而代之的是，它将以2:1的速率产生蒸汽。产生蒸汽需消耗水。水和蒸汽可直接泵入或泵出该模块，但无法直接泵入或泵出机器本体。
+
+为利用蒸汽，可使用蒸汽引擎将其转化为RF。蒸汽引擎以蒸汽为输入，输出水。然而该过程中约20%的水将损耗，因此发电机需持续稳定的水源供应。
+
+<Callout variant="info">
+    Les machines à vapeur ne fonctionneront pas si leur réservoir d'eau ou d'énergie est complètement plein. Assurez-vous toujours que l'eau peut aller quelque part. Avec quelques réservoirs, des comparateurs et de la redstone vous pouriez probablement construire une boucle automatique.
+</Callout>
+
+多个蒸汽引擎可串联使用。它们将共享首个引擎的能量存储、水箱与蒸汽箱，并协同运作。蒸汽引擎转速随储存蒸汽量变化。
+
+蒸汽越多，压力越大，机器运转越快。速度与蒸汽罐填充百分比呈线性关系，满罐时速度倍率最高可达10倍。
+
+然而，引擎效率随转速而变化；更高的效率意味着单位蒸汽可产出更多RF。效率是
+
+当发动机以约700%额定速度运行时达到最大效率。低于或高于此速率均会导致效率下降。能量将从机器红色位置输出，而流体端口则以蓝色标记。

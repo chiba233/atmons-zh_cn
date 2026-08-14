@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/base_concepts/basic_materials.json",
+ "sha1": "6c1f614027d4f9a7547bfa4e02e0bbfda69199e9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Basic Materials",
+   "基本材料"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(pncr) does not generate any extra ores in the ground. To get started, you just need $(item)Iron Ingots/$, which you will convert into $(item)Compressed Iron Ingots$(), used in many recipes throughout the mod.$(p)To do this, throw your $(item)Iron Ingots/$ on the ground, and cause a nearby explosion. $(item)TNT/$ will do the trick, but any other explosion works too.",
+   "$(pncr)不会在地下生成任何额外的矿石。要开始游玩，你只需要$(item)铁锭/$，并将其制成$(item)压缩铁锭$()，这会用于本模组中的许多配方。$(p)要做到这一点，把你的$(item)铁锭/$扔在地上，然后在附近引发一次爆炸。$(item)TNT/$就能做到，不过任何其他爆炸也同样有效。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)      Step back/$",
+   "$(italic)      退后一点/$"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Warning: as a side effect of the explosion you will lose around 20% of your ingots. To avoid this, you can also craft $(item)Compressed Iron Ingots/$ in a $(l:manufacturing/pressure_chamber)Pressure Chamber/$. However, to be able to craft the $(thing)Pressure Chamber/$ itself you'll need some $(item)Compressed Iron Ingots/$, so a little initial loss is unavoidable.",
+   "警告：爆炸的副作用是你会损失大约 20% 的锭。为了避免这一点，你也可以在$(l:manufacturing/pressure_chamber)压力室/$中制作 $(item)压缩铁锭/$。不过，要制作$(thing)压力室/$本身，你需要先准备一些 $(item)压缩铁锭/$，所以一开始有少量损失是不可避免的。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(item)Block of Compressed Iron/$ is an excellent $(l:base_concepts/heat)Heat Conductor/$ and can be used to provide more faces to attach $(l:machines/heat_sink)Heat Sinks/$ to heat-producing machines. However, see also $(l:machines/heat_pipe)Heat Pipes/$.",
+   "$(item)压缩铁块/$是一种极佳的$(l:base_concepts/heat)热传导器/$，可用于为产热机器提供更多可安装$(l:machines/heat_sink)散热片/$的面。不过，另请参见$(l:machines/heat_pipe)热管/$。"
+  ]
+ ]
+}

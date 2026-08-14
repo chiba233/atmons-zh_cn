@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/pickup_delay.json",
+ "sha1": "f55410bde7e0f42104036c6fe29de8d12c4da6ac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pickup Delay Augment",
+   "延迟拾取拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can only be added to the $(l:modules/dropper)Dropper/$ and $(l:modules/flinger)Flinger/$ modules.$(p)It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec). This can be useful if you don't want players accidentally picking up nearby dropped items, for example.",
+   "这个增强件只能添加到$(l:modules/dropper)投掷器/$和$(l:modules/flinger)抛掷术/$模块中。$(p)它可以叠加；每添加一个增强件，掉落/抛出的物品拾取延迟就会增加 10 tick（0.5 秒）。例如，如果你不希望玩家误捡附近掉落的物品，它就会很有用。"
+  ]
+ ]
+}

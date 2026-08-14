@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_backpack.json",
+ "sha1": "aaf8d8a14b58bde8c1a9444e171e829deedae0d1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Backpack",
+   "无限背包"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Backpack is a tool that allows you to store big amounts of items in a portable way.$(br2)It can hold 3 specific fluids: $(6)biofuel$() to allow automatic operations to function, $(6)essence$() from the picked up experience (when auto-pickup is enabled) and $(6)liquid meat$() to feed you automatically.",
+   "无限背包是一种便携式工具，可让你随身存储大量物品。$(br2)它可以容纳 3 种特定流体：$(6)生物燃料$()，用于维持自动功能运作；$(6)精华液$()，来自拾取的经验（启用自动拾取时）；以及 $(6)肉汤$()，用于自动喂食你。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When $(6)Magnet Mode$() is enabled nearby items will be teleported to the player when they can be picked up. $(br2)When $(6)Auto-Pickup Mode$() is enabled items that can go in the backpack picked up by the player it will go into the backpack automatically. $(br2)Each slot can be configured to $(6)void$() excess or to $(6)refill$() stacks that aren't full in your inventory.",
+   "启用 $(6)磁引模式$() 后，附近可被拾取的物品会被传送到玩家身边。$(br2)启用 $(6)自动拾取模式$() 后，玩家拾取到且可放入背包的物品会自动进入背包。$(br2)每个槽位都可以设置为将多余物品 $(6)虚空$() 掉，或为你物品栏中未堆满的物品栏位进行 $(6)补充$()。"
+  ]
+ ]
+}

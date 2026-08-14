@@ -1,0 +1,103 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/minigun_ammo.json",
+ "sha1": "88aabc8405bbbe37a858d413c859debd9b2a4a02",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Minigun Ammo",
+   "加特林机枪弹药"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Gun Ammo is used by the $(l:tools/minigun)Minigun/$.$(p)One ammo cartridge holds up to 2000 minigun rounds, depending on the ammo type. Ammo is steadily consumed while the $(item)Minigun/$ is firing, and ammo levels can be seen in the ammo item's tooltip, its durability bar, and (when the minigun is equipped) on the HUD, next to the minigun sight in the centre of the screen.",
+   "枪械弹药可用于 $(l:tools/minigun)机枪/$。$(p)根据弹药类型不同，一盒弹药最多可容纳 2000 发机枪子弹。$(item)机枪/$ 开火时会持续消耗弹药，弹药余量可以在弹药物品的提示框、其耐久条，以及（装备机枪时）屏幕中央准星旁边的 HUD 上看到。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Ammo must be inserted into the $(item)Minigun's/$ magazine to be used; it will not be consumed from the player's inventory. $(thing)Sneak+right-click/$ the $(item)Minigun/$ to load ammo into it.$(p)Ammo is consumed from the numbered slots 1-4 in order, but you can $(thing)middle-click/$ a slot to lock it, forcing the $(item)Minigun/$ to consume ammo from that slot only; useful if you have multiple ammo types loaded. $(thing)Middle-click/$ a locked slot to unlock it again.",
+   "弹药必须装入$(item)转管机枪/$的弹匣中才能使用；它不会从玩家的物品栏中消耗。对着$(item)转管机枪/$按下$(thing)潜行右击/$即可将弹药装填进去。$(p)弹药会按顺序从编号为 1-4 的槽位中消耗，但你也可以对某个槽位按下$(thing)鼠标中键/$将其锁定，强制$(item)转管机枪/$只从该槽位消耗弹药；如果你装填了多种弹药类型，这会很有用。对已锁定的槽位按下$(thing)鼠标中键/$即可再次解锁。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Plain $(item)Gun Ammo/$ has no special capabilities on its own, but has a large cartridge of 2000 rounds.$(p)In addition, it is the only ammo type which can be crafted with $(l:tools/minigun_ammo#potions)Potions/$ to gain their effect.",
+   "普通 $(item)枪械弹药/$ 本身没有任何特殊能力，但拥有 2000 发的大容量弹盒。$(p)此外，它也是唯一一种可以与 $(l:tools/minigun_ammo#potions)药水/$ 合成以获得其效果的弹药类型。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(item)Incendiary Minigun Ammo/$ has a cartridge size of 1000, and will set fire to entities it hits.$(p)It also has a chance to set fire to blocks, so caution is advised!",
+   "$(item)燃烧机枪弹药/$ 的弹盒容量为 1000 发，并会让它击中的实体着火。$(p)它还有概率点燃方块，因此使用时请务必小心！"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(item)Weighted Minigun Ammo/$ has a cartridge size of 500, and does very high damage, but due to its weight has only 20% of the range of normal ammo.",
+   "$(item)重质型加特林机枪弹药/$的弹匣容量为 500，伤害极高，但由于过于沉重，射程只有普通弹药的 20%。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(item)Armor-piercing Minigun Ammo/$ has a cartridge size of 500, and is somewhat expensive to craft, but does slightly more damage than regular ammo, and can bypass the armor of targets.",
+   "$(item)穿甲机枪弹药/$ 的弹盒容量为 500 发，合成成本略高，但伤害比普通弹药稍高一些，并且可以无视目标的护甲。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "$(item)Explosive Minigun Ammo/$ has a cartridge size of 250. It has a chance to create a small but highly effective explosion when it hits; beware, this explosion can also injure you. Explosions will not damage terrain $(ttcolor)$(t:See 'B:explosiveAmmoTerrainDamage' in config)by default/$.",
+   "$(item)爆炸机枪弹药/$ 的弹盒容量为 250 发。它在命中时有概率造成一次小型但非常有效的爆炸；不过要小心，这种爆炸也会伤到你。默认情况下，爆炸$(ttcolor)$(t:See 'B:explosiveAmmoTerrainDamage' in config)不会/$破坏地形。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "$(item)Freezing Minigun Ammo/$ has a cartridge size of 1000. It slows targets that it hits, and has a chance to encase them in a damaging freezing cloud; beware, this cloud can also injure you.$(p)It does extra damage against fire-resistant targets, so is an excellent choice for fighting in the $(#800)Nether/$.",
+   "$(item)冰冻机枪弹药/$ 的弹盒容量为 1000 发。它会减缓命中目标的速度，并有概率将其困在一团会造成伤害的冰冻云雾中；但要注意，这团云雾同样也会伤到你。$(p)它对抗火焰抗性目标时会造成额外伤害，因此在 $(#800)下界/$ 中战斗时是极佳的选择。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "You can craft standard minigun ammo with any $(item)Potion/$, and that ammo no longer does physical damage, but has a chance to apply that potion effect to your target.$(p)$(thing)Splash/$ and $(thing)Lingering/$ potions can also be used; they have the expected area effect, but ammo is consumed 3 times as quickly when tipped with splash potions, and 6 times as quickly with lingering potions!",
+   "你可以用任意$(item)药水/$来合成标准加特林机枪弹药，这种弹药将不再造成物理伤害，而是有一定几率对目标施加该药水效果。$(p)$(thing)喷溅型药水/$和$(thing)滞留型药水/$也可以使用；它们会产生预期的范围效果，但使用喷溅型药水作为弹头时，弹药消耗速度会变为 3 倍，而使用滞留型药水时则会变为 6 倍！"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Potion-Tipped Ammo",
+   "涂有药水的弹药"
+  ]
+ ]
+}

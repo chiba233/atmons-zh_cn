@@ -1,0 +1,85 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/activator.json",
+ "sha1": "ef4f312bee01c218d58021ac0fa0064bfe759d1f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Activator Module",
+   "执行模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This powerful module acts like a $(italic)fake player/$ which can use an item in the router's buffer, against nearby blocks or entities. There are three modes, which can be selected via the controls on the right of the GUI. Each mode is detailed in the following pages.",
+   "这个强大的模块相当于一个$(italic)假玩家/$，可以使用路由器缓冲区中的物品，对附近的方块或实体进行操作。它有三种模式，可通过 GUI 右侧的控件进行选择。接下来的页面会分别介绍每种模式。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "This mode performs a right-click with the item in the router's buffer, just as if a player had done so. The logic used is the same as for player clicks, e.g. right-clicking a $(item)Flint and Steel/$ on a door will open the door, not start a fire.$(p)The targeted block (if any) depends on the router's facing, module direction, and also the Look Above/Below/Level module setting.",
+   "该模式会使用路由器缓冲区中的物品执行一次右键操作，就像玩家亲自这样做一样。其使用的逻辑与玩家点击完全相同，例如对着门使用$(item)打火石/$右键时，会打开门而不是点火。$(p)目标方块（如果有）取决于路由器朝向、模块方向，以及模块的 Look Above/Below/Level 设置。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Right-click",
+   "右击"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "This mode performs a right-click with the item in the router's buffer on a nearby $(thing)entity/$. You could use this to milk a cow for example, or shear a sheep.$(p)This can result in items being dropped on the ground, e.g. if a cow is clicked with a stack of more than one bucket in the router's buffer.",
+   "该模式会使用路由器缓冲区中的物品，对附近的$(thing)实体/$执行右键操作。例如，你可以用它给奶牛挤奶，或给羊剪毛。$(p)这可能会导致物品掉落到地面上，例如当路由器缓冲区中有一组多个桶并对奶牛进行点击时。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Right-click Entity",
+   "右击实体"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "This mode performs a left-click with the item in the router's buffer on a nearby $(thing)entity/$, attacking it. This mode costs $(l:upgrades/energy)Forge Energy/$ by default, unlike other modules.$(p)Note: while $(l:upgrades/speed)Speed Upgrades/$ can be useful here, weapon cooldowns do apply, so excessive Speed Upgrades will just end up wasting energy and weapon durability.",
+   "该模式会使用路由器缓冲区中的物品，对附近的$(thing)实体/$执行左键攻击。与其他模块不同，这个模式默认会消耗$(l:upgrades/energy)Forge能量/$。$(p)注意：虽然$(l:upgrades/speed)速度升级/$在这里可能有用，但武器冷却依然生效，所以安装过多速度升级只会白白浪费能量和武器耐久。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Attack Entity",
+   "攻击实体"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The Activator has a range of about 4 blocks, similar to what an actual player has. The module can also be configured to look $(thing)Above/$ or $(thing)Below/$ (default is $(thing)Level/$).$(p)$(thing)Above/$ is particularly handy for planting things on top of a solid block beside or above the router, while $(thing)Below/$ is useful when you want to target the ground directly adjacent to the router, rather than a more distant block.",
+   "执行模块的作用范围约为4个方块，与真实玩家相当。该模块还可配置为朝$(thing)上方/$或$(thing)下方/$探测（默认为$(thing)同层/$）。$(p)$(thing)上方/$探测特别适用于在路由器旁侧或正上方的实心方块顶部种植作物；而$(thing)下方/$探测则适用于直接瞄准路由器紧邻地面的目标，而非更远处的方块。"
+  ]
+ ]
+}

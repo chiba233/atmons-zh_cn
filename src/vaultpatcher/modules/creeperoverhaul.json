@@ -1,0 +1,88 @@
+[
+  {
+    "name": "creeperoverhaul_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "tech.thatgravyboat.creeperoverhaul.client.cosmetics.ui.CosmeticGridWidget"
+    ],
+    "pairs": [
+      {
+        "key": "None",
+        "value": "无"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tech.thatgravyboat.creeperoverhaul.client.cosmetics.ui.CosmeticsClaimModal"
+    ],
+    "pairs": [
+      {
+        "key": "Enter the code you received,\ninto the text box below, to claim your cosmetic.\n",
+        "value": "输入你收到的代码，\n到下方的文本框中，以领取你的外观。\n"
+      },
+      {
+        "key": "Claim",
+        "value": "领取"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tech.thatgravyboat.creeperoverhaul.client.cosmetics.ui.CosmeticsModal"
+    ],
+    "pairs": [
+      {
+        "key": "Claim Code",
+        "value": "领取代码"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "tech.thatgravyboat.creeperoverhaul.client.cosmetics.ui.LoginModal"
+    ],
+    "pairs": [
+      {
+        "key": "Login",
+        "value": "登录"
+      },
+      {
+        "key": "Logging in...",
+        "value": "正在登录..."
+      },
+      {
+        "key": "Getting available cosmetics...",
+        "value": "正在获取可用外观……"
+      },
+      {
+        "key": "Failed to get cosmetics, try again later.",
+        "value": "获取外观失败，请稍后重试。"
+      },
+      {
+        "key": "Error occurred on server side while getting cosmetics.",
+        "value": "获取外观时服务器端发生错误。"
+      },
+      {
+        "key": "Unknown error occurred while getting cosmetics.",
+        "value": "获取外观时发生未知错误。"
+      },
+      {
+        "key": "Failed to login, check if you are logged in to Minecraft.",
+        "value": "登录失败，请检查你是否已登录 Minecraft。"
+      },
+      {
+        "key": "Error occurred on server side while logging in.",
+        "value": "登录时服务器端发生错误。"
+      },
+      {
+        "key": "Unknown error occurred while logging in.",
+        "value": "登录时发生未知错误。"
+      }
+    ]
+  }
+]

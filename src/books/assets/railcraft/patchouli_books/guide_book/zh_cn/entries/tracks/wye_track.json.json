@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/wye_track.json",
+ "sha1": "b3be26f5093bb77c9f300905a61cd733729395ce",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Wye Track",
+   "Y型轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Wye tracks are a good mean to adjust a minecart's travel direction.$(br2)They are placed in the world by right clicking a spike maul on a flex track and cycle through possibilities. By default, wye track kit is the second possibility, after turnout track kit.",
+   "Y型轨道是调整矿车行驶方向的有效手段。$(br2)在柔性轨道上右键点击钢制道钉锤即可将其放置于世界中，并循环切换各种可能形态。默认情况下，Y型轨道功能套件为第二种可选形态，排在转辙轨道功能套件之后。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "They can be controlled by an switch actuator, either lever (manual), motor (signal/redstone based), or routing (routing table based).$(br2)When a player break the track kit, it drops nothing and becomes a piece of flex track.",
+   "它们可通过转辙致动器控制，包括拉杆（手动）、电机（基于信号/红石）或路由（基于路由表）三种方式。$(br2)当玩家破坏轨道功能套件时，它不会掉落任何物品，而是变回一段柔性轨道。"
+  ]
+ ]
+}

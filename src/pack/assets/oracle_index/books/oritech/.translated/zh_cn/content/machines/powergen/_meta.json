@@ -1,0 +1,8 @@
+{
+  "basic_generator_block.mdx": "基础发电机",
+  "big_solar_panel_block.mdx": "太阳能板",
+  "bio_generator_block.mdx": "生物质发电机",
+  "fuel_generator_block.mdx": "火力发电机",
+  "lava_generator_block.mdx": "岩浆发电机",
+  "steam_engine_block.mdx": "蒸汽引擎"
+}

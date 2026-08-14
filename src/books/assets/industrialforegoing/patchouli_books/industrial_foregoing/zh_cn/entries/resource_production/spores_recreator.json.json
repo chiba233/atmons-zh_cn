@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/spores_recreator.json",
+ "sha1": "83c3cc4c018e29e1ff179a8687144903e64d7ded",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Spores Recreator",
+   "蘑菇孢子繁殖器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Duplicates $(6)fungi$().$(br2)Requires $(6)40$()RF/t and $(6)water$() ($(6)100$()mb per operation). $(br2)For nether fungi it needs $(6)lava$().",
+   "复制 $(6)蘑菇$()。$(br2)需要 $(6)40$()RF/t 和 $(6)水$()（每次操作消耗 $(6)100$()mb）。$(br2)如果是下界菌类，则需要 $(6)熔岩$()。"
+  ]
+ ]
+}

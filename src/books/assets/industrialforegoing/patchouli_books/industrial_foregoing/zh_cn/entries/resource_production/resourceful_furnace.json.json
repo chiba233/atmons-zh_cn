@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/resourceful_furnace.json",
+ "sha1": "1520d3f2a16a134bac5971bc80cd2980793a2011",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Resourceful Furnace",
+   "高级熔炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "3 Furnaces in 1.$(br2)Returns $(6)2$()mb of Essence per item melted. Requires $(6)40$()RF/t.",
+   "1 台顶 3 台熔炉。$(br2)每熔炼一个物品会返回 $(6)2$()mb 的精华液。需要 $(6)40$()RF/t。"
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "ftbfiltersystem_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbfiltersystem.FilterSystemCommands"
+    ],
+    "pairs": [
+      {
+        "key": "(encoding failed)",
+        "value": "（编码失败）"
+      }
+    ]
+  }
+]

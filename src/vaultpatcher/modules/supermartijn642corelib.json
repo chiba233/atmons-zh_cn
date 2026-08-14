@@ -1,0 +1,19 @@
+[
+  {
+    "name": "supermartijn642corelib_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.supermartijn642.core.gui.ScreenUtils"
+    ],
+    "pairs": [
+      {
+        "key": "Rendering item",
+        "value": "正在渲染物品"
+      }
+    ]
+  }
+]

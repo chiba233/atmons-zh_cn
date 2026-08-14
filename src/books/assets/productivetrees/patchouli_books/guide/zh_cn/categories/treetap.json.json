@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/categories/treetap.json",
+ "sha1": "9c2937bfe65da057df0701b9eb61bac34f1cd6e1",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This mod has compatibility with the Tree Tap mod, opening up for some additional tree products to be extracted.",
+   "该模组兼容树龙头模组，从而可提取更多种类的树木产物。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tree Tap Compat",
+   "木龙头兼容性"
+  ]
+ ]
+}

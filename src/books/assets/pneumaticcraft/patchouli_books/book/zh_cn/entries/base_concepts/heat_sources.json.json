@@ -1,0 +1,139 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/base_concepts/heat_sources.json",
+ "sha1": "06fa7f2c2b554817be59f107edb3dac86c3c5922",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Heat Sources",
+   "热源"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Static heat sources/$ are blocks and fluids which add or remove heat to/from machines when adjacent to them. When too much heat is added or removed, they may transform into other blocks or fluids. Note that heat extraction/addition is tracked externally to the block in question, so breaking/replacing blocks to reset extracted heat is not a viable strategy.",
+   "$(thing)静态热源/$是在与机器相邻时，会向机器添加或移除热量的方块和流体。当添加或移除的热量过多时，它们可能会转化为其他方块或流体。请注意，热量的提取/添加是独立于相关方块本身进行追踪的，因此通过破坏/替换方块来重置已提取热量并不是可行的策略。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The following vanilla blocks & fluids act as static heat sources: $(li)Air$(li)Ice/Packed Ice/Blue Ice$(li)Snow$(li)Torch$(li)Fire (will go out)$(li)Magma (cools to Netherrack)$(li)Water (may freeze or evaporate)$(li)Lava (cools to Obsidian)$(li)Campfire (will go out)",
+   "以下原版方块和流体可作为静态热源：$(li)空气$(li)冰/浮冰/蓝冰$(li)雪$(li)火把$(li)火（会熄灭）$(li)岩浆（会冷却为下界岩）$(li)水（可能会结冰或蒸发）$(li)熔岩（会冷却为黑曜石）$(li)篝火（会熄灭）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Vanilla Heat Sources",
+   "原版热源"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Several blocks from mods will also function as static heat sources with differing properties, including:$(li)IC2 Steam and Superheated Steam$(li)IC2 Coolant and Hot Coolant$(li)IC2 and Immersive Engineering Uranium Blocks$(li)Quark Blaze Lanterns$(li)Quark Brimstone and Permafrost$(li)Natura Heat Sand$(li)All modded fluids have heat properties (temperature is mod-defined)",
+   "来自模组的若干方块也可作为静态热源使用，并且各自具有不同的特性，包括：$(li)IC2蒸汽和过热蒸汽$(li)IC2冷却液和热冷却液$(li)IC2 与沉浸工程的铀块$(li)夸克的烈焰灯$(li)夸克的硫磺和永冻层$(li)Natura 的热沙$(li)所有模组流体都具有热属性（温度由模组定义）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Modded Heat Sources",
+   "模组热源"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "(For modpack makers) All block heat properties are defined in datapacks. You can add your own definitions or override/remove default definitions by adding JSON files to $(thing)data/<mod-id>/pneumaticcraft/block_heat_properties/$.",
+   "（供整合包制作者参考）所有方块热属性都在数据包中定义。你可以通过将 JSON 文件添加到 $(thing)data/<mod-id>/pneumaticcraft/block_heat_properties/$，来添加你自己的定义，或覆盖/移除默认定义。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Adding Custom Sources",
+   "添加自定义来源"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "A $(l:machines/vortex_tube)Vortex Tube/$ is a $(thing)dynamic heat source/$ which converts $(l:base_concepts/pressure)pressure/$ directly to heat and cold. It's highly recommended to put a $(l:machines/heat_sink)Heat Sink/$ on the unused side of a Vortex Tube, for efficiency.",
+   "$(l:machines/vortex_tube)涡流管/$是一种$(thing)动态热源/$，可将$(l:base_concepts/pressure)压力/$直接转换为热量和冷量。强烈建议在涡流管未使用的一侧放置一个$(l:machines/heat_sink)散热片/$，以提高效率。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "A $(l:semiblocks/heat_frame)Heat Frame/$ is a gadget that can be used to heat (or freeze!) items in any inventory. Note that Heat Frames will not absorb heat directly from a $(thing)static heat source/$, but you could put a $(l:machines/heat_pipe)Heat Pipe/$ beside it to transmit the heat.",
+   "$(l:semiblocks/heat_frame)导热框架/$是一种装置，可用于加热（或冷冻！）任何容器中的物品。请注意，导热框架不会直接从$(thing)静态热源/$吸收热量，不过你可以在它旁边放置一根$(l:machines/heat_pipe)热管/$来传递热量。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "A $(l:machines/heat_sink)Heat Sink/$ is a block that can be used to efficiently disperse Heat (or cold!) from the block it's attached to, into the atmosphere.",
+   "$(l:machines/heat_sink)散热片/$是一种方块，可用于将其所连接方块中的热量（或者冷量！）高效地散发到大气中。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "A $(l:machines/heat_pipe)Heat Pipe/$ is an insulated core of compressed iron which can transmit heat between blocks, without any thermal connection to adjacent air or fluid blocks. It's a more compact (and cheaper) alternative to using $(item)Compressed Iron Blocks/$ to transmit heat. You can also attach $(item)Heat Sinks/$ directly to a Heat Pipe.",
+   "$(l:machines/heat_pipe)热管/$是由绝缘压缩铁核心制成的部件，可以在方块之间传递热量，且不会与相邻的空气方块或流体方块产生任何热连接。与使用 $(item)一重压缩铁块/$ 来传递热量相比，它更加紧凑（也更便宜）。你还可以将 $(item)散热片/$ 直接连接到热管上。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "When connecting a vanilla $(item)Furnace/$ to any dynamic heat source (such as a $(l:machines/vortex_tube)Vortex Tube/$, but also blocks like the $(l:compressors/advanced_air_compressor)Advanced Air Compressor/$ which produces heat), the heat will be consumed by the Furnace to \"fuel\" it, making it possible to run Furnaces purely on heat, requiring no solid fuel. This is both convenient and more efficient.",
+   "当把原版 $(item)熔炉/$ 连接到任意动态热源时（例如 $(l:machines/vortex_tube)涡流管/$，也包括像 $(l:compressors/advanced_air_compressor)高级空气压缩机/$ 这样会产生热量的方块），熔炉会消耗这些热量来作为“燃料”，从而可以完全依靠热量运行熔炉，而不再需要任何固体燃料。这既方便，也更加高效。"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "This furnace \"fueling\" will start to work at 100°C, and will go faster with higher temperatures. Placing multiple heat sources around the Furnace will increase the heating effect.$(p)This heating effect also works for the vanilla $(item)Blast Furnace/$ and $(item)Smoker/$.",
+   "这种熔炉“供热”会在达到 100°C 时开始运作，并且温度越高，运作速度就越快。在熔炉周围放置多个热源会增强加热效果。$(p)这种加热效果同样适用于原版的 $(item)高炉/$ 和 $(item)发烟器/$。"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "title"
+   ],
+   "Furnace (cont)",
+   "熔炉 (续)"
+  ]
+ ]
+}

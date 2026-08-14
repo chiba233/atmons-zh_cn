@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/turbine_rotor.json",
+ "sha1": "94e51d8b637177642fd281a8d8fb5a3231d74d0f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Turbine Rotor",
+   "涡轮机转子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Turbine Rotor",
+   "涡轮机转子的合成"
+  ]
+ ]
+}

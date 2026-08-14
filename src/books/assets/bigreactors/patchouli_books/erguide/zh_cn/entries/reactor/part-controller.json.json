@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-controller.json",
+ "sha1": "4ae8ac22cd242424a32bdcde5634d3cb789cc3e3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Controller is your main interface to the Reactor.$(br2)Right-click on the Controller to open its graphical user interface, and from there, you can turn the Reactor on or off, check how much reactant is present in the Fuel Rods, how hot the Reactor is, and so on.",
+   "控制器是你操作反应堆的主要界面。$(br2)右键点击控制器即可打开它的图形界面，你可以在其中开启或关闭反应堆、查看燃料棒中有多少反应物、反应堆有多热，等等。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Depending on the operational mode of the Reactor, you can also check the status of its internal energy buffer and production ratio for $(l:bigreactors/passive)passively cooled$(/l) Reactors or the amount of coolant and vapor present in an $(l:bigreactors/active)actively cooled$(/l) Reactor.$(br2)If you hover over a control in the interface, a tooltip will be displayed with additional information or explanatory text for that control.",
+   "根据反应堆的运行模式不同，你还可以查看$(l:bigreactors/passive)被动冷却$(/l)反应堆的内部能量缓冲状态和产能比率，或查看$(l:bigreactors/active)主动冷却$(/l)反应堆中的冷却液与蒸汽数量。$(br2)如果你将鼠标悬停在界面中的某个控件上，就会显示一个提示框，提供该控件的额外信息或说明文字。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() at least one is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()至少需要一个$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "amendments_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.client.screens.FunnyScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Open Mods Folder",
+        "value": "打开模组文件夹"
+      },
+      {
+        "key": "Open log file",
+        "value": "打开日志文件"
+      },
+      {
+        "key": "Open crash report",
+        "value": "打开崩溃报告"
+      },
+      {
+        "key": "Quit Game",
+        "value": "退出游戏"
+      },
+      {
+        "key": "Supplementaries (suslementaries) has done messed up :(\n",
+        "value": "补充物（Supplementaries）出错了 :(\n"
+      }
+    ]
+  }
+]

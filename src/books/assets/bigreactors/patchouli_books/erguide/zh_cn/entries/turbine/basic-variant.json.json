@@ -1,0 +1,22 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/basic-variant.json",
+ "sha1": "00cc448c1bdebd86366a48566b53603a0d964dac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "As for the Reactor, the Basic variant is your starter Turbine.$(br2)With a maximum size of 5x5x10 blocks and primarily requiring only iron ingots to craft, it's a cost-effective solution for your early to mid-game energy needs.$(br2)Basic Turbines can use up to 1000 mB/t of vapor to spin their rotor.",
+   "和反应堆一样，基础变种是你的入门级涡轮机。$(br2)它的最大尺寸为 5x5x10 方块，且合成材料主要只需要铁锭，因此是一个适合你游戏前中期能源需求的高性价比方案。$(br2)基础涡轮机最多可使用 1000 mB/t 的蒸汽来带动转子旋转。"
+  ]
+ ]
+}

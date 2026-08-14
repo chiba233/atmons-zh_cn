@@ -1,0 +1,93 @@
+[
+  {
+    "name": "codechickenlib_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "codechicken.lib.internal.command.client.HighlightCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Not looking at a block.",
+        "value": "未看向方块。"
+      },
+      {
+        "key": "Highlight not set.",
+        "value": "未设置高亮。"
+      },
+      {
+        "key": "Highlight position cleared.",
+        "value": "高亮位置已清除。"
+      },
+      {
+        "key": "Enabled highlight depth.",
+        "value": "已启用高亮深度。"
+      },
+      {
+        "key": "Disabled highlight depth.",
+        "value": "禁用高亮深度。"
+      },
+      {
+        "key": "Set highlight at ",
+        "value": "在 处设置高亮"
+      },
+      {
+        "key": "Moved highlight from ",
+        "value": "已将高亮从"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "codechicken.lib.internal.command.client.ItemInfoCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Registry Name: ",
+        "value": "注册名："
+      },
+      {
+        "key": "Components   : ",
+        "value": "组件   :"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "codechicken.lib.internal.command.client.RenderItemToFileCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to queue render for webp, ffmpeg is not accessible. Either make it accessible on PATH, or set the `ccl.ffmpeg` system property.",
+        "value": "无法将渲染加入 webp 队列，ffmpeg 不可访问。请将其加入 PATH，或设置 `ccl.ffmpeg` 系统属性。"
+      },
+      {
+        "key": "'..' is not allowed in name.",
+        "value": "名称中不允许使用“..”。"
+      },
+      {
+        "key": "Resolution must be a power of 2. 16, 32, 64...",
+        "value": "分辨率必须是 2 的幂，如 16、32、64……"
+      },
+      {
+        "key": "You are not holding anything.",
+        "value": "你手上什么都没拿。"
+      },
+      {
+        "key": "Queued item render to file: ",
+        "value": "已将物品渲染排队到文件："
+      },
+      {
+        "key": "Queued item render to webp: ",
+        "value": "已将物品渲染加入 webp 队列："
+      },
+      {
+        "key": "Queued item render to gif: ",
+        "value": "已将物品渲染加入 gif 队列："
+      }
+    ]
+  }
+]

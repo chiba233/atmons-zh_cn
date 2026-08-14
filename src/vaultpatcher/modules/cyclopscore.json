@@ -1,0 +1,41 @@
+[
+  {
+    "name": "cyclopscore_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.cyclops.cyclopscore.client.gui.GuiMainMenuExtensionDevWorld"
+    ],
+    "pairs": [
+      {
+        "key": "Couldn't load level list",
+        "value": "无法加载等级列表"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.cyclops.cyclopscore.command.argument.ArgumentTypeConfigProperty"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown property",
+        "value": "未知属性"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "org.cyclops.cyclopscore.command.argument.ArgumentTypeEnum"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown value",
+        "value": "未知值"
+      }
+    ]
+  }
+]

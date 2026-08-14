@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/timer.json",
+ "sha1": "d33483af24ee4f8d691bacd98f16bb014038ee02",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Timer",
+   "定时触发器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The timer is a simple gate that will repeatedly send a redstone pulse. You can input any value for the delay so it can be used for very long timeouts",
+   "计时器是一个简单的门电路，会重复发送红石脉冲。你可以输入任意延迟值，因此它也可用于非常长的超时设置。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "What is special about this timer is that it restart when it itself receives a redstone pulse at its input. So given timely input pulses this block will never output a pulse itself. By using this feature this block can be used as a way to detect that a certain activity is overdue",
+   "这个计时器的特别之处在于，当它自己的输入端收到红石脉冲时，它会重新开始计时。因此，如果输入脉冲足够及时，这个方块就永远不会自行输出脉冲。利用这个特性，这个方块可用于检测某项活动是否已经超时。"
+  ]
+ ]
+}

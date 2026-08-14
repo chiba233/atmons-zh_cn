@@ -1,0 +1,34 @@
+[
+  {
+    "name": "compactmachines_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.client.room.MachineRoomScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Room Preview Disabled",
+        "value": "房间预览已禁用"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.room.ui.upgrades.RoomUpgradeScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Close",
+        "value": "关闭"
+      },
+      {
+        "key": "Room Upgrades",
+        "value": "房间升级"
+      }
+    ]
+  }
+]

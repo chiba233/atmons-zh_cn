@@ -1,0 +1,19 @@
+[
+  {
+    "name": "silentlib_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.silentchaos512.lib.client.gui.nbt.DisplayNBTScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Export to JSON",
+        "value": "导出为 JSON"
+      }
+    ]
+  }
+]

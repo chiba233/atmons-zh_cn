@@ -1,0 +1,114 @@
+{
+ "_说明": "法术书风味文本走 Component.literal，不过 I18n，语言文件够不着；只存原文→译文（按 JSON 转义形态），构建时套到 jar 那份上，产物落在 kubejs/data。",
+ "mod": "ars_elemental",
+ "files": {
+  "data/ars_elemental/recipe/tomes/camel_tome.json": {
+   "sha1": "968f3f412304051590e67a54845971e3c899e75f",
+   "t": [
+    [
+     "Summon a Camel for a short time.",
+     "短时间召唤一头骆驼。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/dolphin_tome.json": {
+   "sha1": "f518e7fabfe7f3951f7e85969fe05ad4de70a520",
+   "t": [
+    [
+     "Summon two rideable Dolphins for a short time.",
+     "短时间召唤两只可骑乘的海豚。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/flower_tome.json": {
+   "sha1": "4b8a84785d70f0c664de6e26686db897d1e054d7",
+   "t": [
+    [
+     "May the venom become the seed of a flower that will blossom in undeath.",
+     "愿此毒化作花种，在不死之中绽放。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/frostbite_tome.json": {
+   "sha1": "a6bf59925b0d17127116dcfc5ef780a8b0677047",
+   "t": [
+    [
+     "It's not easy to heal while you're a meat popsicle.",
+     "变成人肉冰棍的时候，可不好治伤。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/glassmaker_tome.json": {
+   "sha1": "03e3900225456ae2ee9db2ecc9cb9d5972e0f768",
+   "t": [
+    [
+     "Encase yourself in glass.",
+     "把自己封进玻璃里。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/hellflare_tome.json": {
+   "sha1": "b4c43ff90f31b2ccc989ceffbc4425deb21938d6",
+   "t": [
+    [
+     "These wicked flames cook so well that even armor becomes weaker to magic.",
+     "这邪火烤得太到位，连盔甲都变得更怕魔法了。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/leviosa_tome.json": {
+   "sha1": "57ebf14ecb6c9a1009129bd278e1ccfd864404b5",
+   "t": [
+    [
+     "Way worse than being shulked, wind feels sharp today.",
+     "比被潜影贝顶飞难受多了，今天的风格外割人。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/magnet_tome.json": {
+   "sha1": "c71f41129af577e31c90832a6ac428276dcc0c0b",
+   "t": [
+    [
+     "Creates a gravity center that also attract nearby blocks.",
+     "造出一个引力中心，连附近的方块也一并吸过来。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/shrimp_pistol_tome.json": {
+   "sha1": "c3b5f1fc71121c806ff848f9799080950234f698",
+   "t": [
+    [
+     "Trap the enemy in a bubble that detonates shortly after from cavitation.",
+     "把敌人困进气泡，片刻后由空化效应引爆。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/skelehorse_tome.json": {
+   "sha1": "d4edf927aa7f4d49b77065a421db88766523f31d",
+   "t": [
+    [
+     "Summon a Skeletal Horse for a short time.",
+     "短时间召唤一匹骷髅马。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/strider_tome.json": {
+   "sha1": "3c29556a468028430afa3bb5615e0d34580efc55",
+   "t": [
+    [
+     "Summon a rideable Strider for a short time.",
+     "短时间召唤一只可骑乘的炽足兽。"
+    ]
+   ]
+  },
+  "data/ars_elemental/recipe/tomes/zap_tome.json": {
+   "sha1": "580915a88a041c695b55804cbcade104e61061bb",
+   "t": [
+    [
+     "Starbchu, I Choose You!.",
+     "星辉丘，就决定是你了！"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/sender_1.json",
+ "sha1": "f529f7df43eb41b44b4490b43c5950a5446459e7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sender Module Mk1",
+   "发送模块 Mk1"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to send an item from the router's buffer to an inventory in the module's $(l:intro/modules#direction)configured direction/$:$(li)The target inventory can be up to 8 blocks away (up to 16 with $(l:augments/range_up)Range Up Augments/$)$(li)The target inventory $(italic)must/$ be directly along the X, Y, or Z axis.$(li)The router $(italic)must/$ have clear line of sight to the target; no opaque blocks, but blocks such as glass, fences, iron bars etc. are OK.",
+   "该模块尝试将路由器缓存中的物品发送至模块$(l:intro/modules#direction)已配置方向/$上的某个容器中：$(li)目标容器最远可达8个方块距离（安装$(l:augments/range_up)范围升级拓展/$后可扩展至16个方块）；$(li)目标容器$(italic)必须/$严格位于X、Y或Z轴的正向直线上；$(li)路由器$(italic)必须/$拥有通往目标容器的清晰视线；不透明方块会阻挡视线，但玻璃、栅栏、铁栏杆等透明方块则无影响。"
+  ]
+ ]
+}

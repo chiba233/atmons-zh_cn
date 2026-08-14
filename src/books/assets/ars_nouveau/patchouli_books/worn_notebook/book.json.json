@@ -1,0 +1,20 @@
+{
+ "src": "assets/ars_nouveau/patchouli_books/worn_notebook/book.json",
+ "sha1": "1b5310febefc4d4082eb65bd400b1ad5233fe5fc",
+ "t": [
+  [
+   [
+    "landing_text"
+   ],
+   "Lost notes from the worn notebook",
+   "破旧的笔记本中的遗失笔记"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Elemental Notes",
+   "元素笔记"
+  ]
+ ]
+}

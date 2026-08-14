@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-forgefluidport.json",
+ "sha1": "3ac26205d7ebfd4a7e2bbabdcf4ba46e9e5be5df",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Forge Fluid Port",
+   "Forge流体端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Forge Fluid Port allows you to insert or extract fluids from an $(l:bigreactors/active)actively cooled$(/l) Reactor. $(br2) This Port accepts and emits vanilla fluids, but only if they are valid $(l:bigreactors/coolantsystem)coolants or vapors$(/l). $(br2) You can use a $(l:bigreactors/wrench)wrench$(/l) to change the Port from input to output mode.",
+   "Forge 流体端口允许你向$(l:bigreactors/active)主动冷却$(/l)反应堆中插入或抽取流体。$(br2)该端口可以接收和输出原版流体，但前提是它们必须是有效的$(l:bigreactors/coolantsystem)冷却液或蒸汽$(/l)。$(br2)你可以使用$(l:bigreactors/wrench)扳手$(/l)将端口从输入模式切换为输出模式。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Forge Fluid Port",
+   "Forge流体端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Reinforced (Passive)",
+   "强化（被动）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced (Active)",
+   "加固 (主动)"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no$(br)$(l)Wrench:$() a $(l:bigreactors:misc/wrench)wrench$(/l) can be used to toggle the Port mode.",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()加固$(br)$(l)图形界面：$()否$(br)$(l)扳手：$()可以使用$(l:bigreactors:misc/wrench)扳手$(/l)切换端口模式。"
+  ]
+ ]
+}

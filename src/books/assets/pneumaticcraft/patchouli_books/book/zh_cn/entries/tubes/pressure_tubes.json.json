@@ -1,0 +1,67 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tubes/pressure_tubes.json",
+ "sha1": "1b8245f1ce54dbc471e45b9c125451afd56d0abe",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pressure Tubes",
+   "压力管道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Pressure Tubes are the primary device in $(pncr) for transporting compressed air between compressors and machines.$(p)Unconnected tubes will leak air! However, the sides of a tube can be toggled open or shut by right-clicking with a $(l:tools/pneumatic_wrench)Pneumatic Wrench/$. Wrenches from other mods may also work.",
+   "压力管道是 $(pncr) 中用于在压缩机与机器之间传输压缩空气的主要装置。$(p)未连接的管道会漏气！不过，使用 $(l:tools/pneumatic_wrench)气动扳手/$ 右键单击即可切换管道各侧的开启或关闭状态。其他模组的扳手也可能有效。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Two Pressure Tubes with a $(l:tubes/pressure_gauge_module)Pressure Gauge/$ $(italic)connecting an $(l:compressors/air_compressor)Air Compressor/$ $(italic)and $(l:machines/air_cannon)Air Cannon/$",
+   "$(italic)两根带有$(l:tubes/pressure_gauge_module)压力表/$的压力管道，$(italic)连接着$(l:compressors/air_compressor)空气压缩机/$ $(italic)和$(l:machines/air_cannon)空气炮/$"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Tubes!",
+   "导管！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Pressure Tubes can be fitted with $(l:tubes/tube_modules)Tube Modules/$, attachable components which add various types of functionality to the tube. See the individual pages for each module for more information.$(p)Pressure Tubes can be concealed with a $(l:tools/camo_applicator)Camouflage Applicator/$.",
+   "压力管道可以安装 $(l:tubes/tube_modules)管道模块/$，这些可附加的组件会为管道增加各种功能。有关各个模块的更多信息，请参阅其对应页面。$(p)压力管道还可以使用 $(l:tools/camo_applicator)伪装涂覆器/$ 进行伪装。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "There are three $(l:base_concepts/pressure_tiers)tiers/$ of tube:$(br)$(li)Tier 1 tubes can contain up to 5 bar of pressure, and have a capacity of 1000mL of air.$(li)Tier 1.5 (Reinforced) tubes can handle up to 10 bar of pressure and also have a capacity of 1000mL.$(li)Tier 2 (Advanced) tubes can handle up to 20 bar of pressure and have a capacity of 4000mL of air.",
+   "管道共有三种$(l:base_concepts/pressure_tiers)等级/$：$(br)$(li)1 级管道最多可承受 5 bar 压力，空气容量为 1000mL。$(li)1.5 级（强化）管道最多可承受 10 bar 压力，容量同样为 1000mL。$(li)2 级（高级）管道最多可承受 20 bar 压力，空气容量为 4000mL。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Crafting a Pressure Tube",
+   "合成压力管道"
+  ]
+ ]
+}

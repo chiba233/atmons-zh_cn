@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ars_arsenal_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.blocks.prism.ChainingPrismLens"
+    ],
+    "pairs": [
+      {
+        "key": "Adding glyphs: ",
+        "value": "添加魔符："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.items.Debugger"
+    ],
+    "pairs": [
+      {
+        "key": "Dev-only item, spawns the wip mages on right click, shift-use to cycle elements.",
+        "value": "仅开发者可用的物品，右键会生成仍在制作中的法师，按住 Shift 使用可切换元素。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.items.armor.HeavyArmorE"
+    ],
+    "pairs": [
+      {
+        "key": "Model and Texture still work in progress, currently same as medium variant.",
+        "value": "模型和材质仍在开发中，目前与适中模式相同。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.items.armor.LightArmorE"
+    ],
+    "pairs": [
+      {
+        "key": "Model and Texture still work in progress, currently same as medium variant.",
+        "value": "模型和材质仍在开发中，目前与适中模式相同。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.rituals.SquirrelRitual"
+    ],
+    "pairs": [
+      {
+        "key": "Fast Squirrels",
+        "value": "松鼠飞毛腿"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "alexthw.ars_elemental.common.rituals.forest.ArchwoodForestationRitual"
+    ],
+    "pairs": [
+      {
+        "key": "Forestation - Archwood",
+        "value": "至高木森林造林"
+      }
+    ]
+  }
+]

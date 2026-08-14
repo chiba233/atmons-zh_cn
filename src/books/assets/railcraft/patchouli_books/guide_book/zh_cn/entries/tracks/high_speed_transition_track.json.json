@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/high_speed_transition_track.json",
+ "sha1": "fb335dcdf2d8156cda4a33fdc51d474675b84bfe",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "H.S. Transition Track",
+   "高速过渡轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "These directional speed rails will only boost carts in one direction when powered. Carts travelling in the opposite direction will be slowed to normal minecart speeds if the track is powered or slowed to a stop if it is not.",
+   "此类定向加速轨道仅在充能时单向助推矿车；反向行驶的矿车，若轨道充能则减速至普通矿车速度，若未充能则减速至完全停止。"
+  ]
+ ]
+}

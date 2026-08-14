@@ -1,0 +1,58 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/scanner.json",
+ "sha1": "f77e6317f2acc826c741ad1999633f35031edfae",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Storage Scanner",
+   "存储检测器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Storage Scanner scans nearby inventories and shows their contents in one GUI. You can search, request items, and insert items back into connected inventories.",
+   "存储检测器可扫描附近物品栏，并在一个GUI界面中集中展示其内容。你可进行搜索、请求物品，或向已连接的物品栏回填物品。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Use the radius slider and Scan button to find inventories. With XNet integration configured as required, scanner range is controlled by XNet connections instead.",
+   "使用半径滑块与扫描按钮查找物品栏。若已按要求配置XNet集成，则扫描范围将由XNet连接决定，而非本机设置。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The search box filters by item name. Prefix a term with @ to filter by mod id, such as @minecraft or @rftoolsstorage.",
+   "搜索框按物品名称进行筛选。在关键词前添加@符号可按模组ID筛选，例如@minecraft或@rftoolsstorage。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Inventories can be moved, removed, marked routable, and sorted. Routable inventories are used for automated insert/extract behavior and starred module views.",
+   "物品栏可被移动、移除、标记为可路由，或排序。可路由物品栏将用于自动化插/取行为及带星标模块视图。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "For remote use, link a $(l:rftoolsbase:scanner/modules)Storage Control Module$(/l) to the scanner and install it in a $(l:rftoolsbase:scanner/remote)Tablet Scanner$(/l).",
+   "如需远程使用，请将$(l:rftoolsbase:scanner/modules)存储控制模块$(/l)链接至检测器，并安装至$(l:rftoolsbase:scanner/remote)平板电脑（检测器）$(/l)中。"
+  ]
+ ]
+}

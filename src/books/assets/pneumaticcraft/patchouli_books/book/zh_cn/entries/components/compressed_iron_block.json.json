@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/compressed_iron_block.json",
+ "sha1": "9e076afbf34e751875e549ca3f6705ba26136d85",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Block of Compressed Iron",
+   "压缩铁块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "See $(l:base_concepts/basic_materials#compressed_iron_block)Basic Materials/$.",
+   "参见 $(l:base_concepts/basic_materials#compressed_iron_block)基础材料/$。"
+  ]
+ ]
+}

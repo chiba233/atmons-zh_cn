@@ -1,0 +1,41 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/particle/_meta.json",
+ "sha1": "fd9031474ec0336fa3ccfdf18cbc815cf934670a",
+ "t": [
+  [
+   [
+    "accelerator_controller.mdx"
+   ],
+   "Accelerator Controller",
+   "加速器控制器"
+  ],
+  [
+   [
+    "accelerator_motor.mdx"
+   ],
+   "Accelerator Motor",
+   "加速器马达"
+  ],
+  [
+   [
+    "accelerator_ring.mdx"
+   ],
+   "Accelerator Guide Ring",
+   "加速器导引环"
+  ],
+  [
+   [
+    "accelerator_sensor.mdx"
+   ],
+   "Accelerator Speed Sensor",
+   "加速器速度传感器"
+  ],
+  [
+   [
+    "particle_collector_block.mdx"
+   ],
+   "Tachyon Collector",
+   "速子收集器"
+  ]
+ ]
+}

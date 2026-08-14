@@ -1,0 +1,87 @@
+[
+  {
+    "name": "ftblibrary_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftblibrary.FTBLibrary"
+    ],
+    "pairs": [
+      {
+        "key": "Hello from FTB Library!",
+        "value": "来自 FTB Library 的问候！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftblibrary.FTBLibraryCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Can't do this on dedicated server!",
+        "value": "无法在专用服务器上执行此操作！"
+      },
+      {
+        "key": "Not a block entity: ",
+        "value": "不是方块实体："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftblibrary.nbtedit.NBTEditorScreen$TopLeftPanel"
+    ],
+    "pairs": [
+      {
+        "key": "New name",
+        "value": "新名称"
+      },
+      {
+        "key": "Compound",
+        "value": "复合标签"
+      },
+      {
+        "key": "List",
+        "value": "列表"
+      },
+      {
+        "key": "String",
+        "value": "字符串"
+      },
+      {
+        "key": "Byte Array",
+        "value": "字节数组"
+      },
+      {
+        "key": "Int Array",
+        "value": "整数数组"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftblibrary.ui.ColorSelectorPanel"
+    ],
+    "pairs": [
+      {
+        "key": "⇧ + Enter",
+        "value": "⇧ + 回车"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftblibrary.ui.misc.AbstractThreePanelScreen$BottomPanel"
+    ],
+    "pairs": [
+      {
+        "key": "⇧ + Enter",
+        "value": "⇧ + 回车"
+      }
+    ]
+  }
+]

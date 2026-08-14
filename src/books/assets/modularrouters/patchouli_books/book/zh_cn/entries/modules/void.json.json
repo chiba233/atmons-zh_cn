@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/void.json",
+ "sha1": "e332267e584fae942dde8fbf93765e2a088ed695",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Void Module",
+   "销毁模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This dangerous module permanently destroys items in the router's buffer! It is strongly recommended to configure this module with a $(l:intro/modules#filter)whitelist filter/$ to prevent accidental deletion of valuable items...",
+   "这个危险的模块会永久销毁路由器缓冲区中的物品！强烈建议你为该模块配置一个$(l:intro/modules#filter)白名单过滤器/$，以防误删贵重物品……"
+  ]
+ ]
+}

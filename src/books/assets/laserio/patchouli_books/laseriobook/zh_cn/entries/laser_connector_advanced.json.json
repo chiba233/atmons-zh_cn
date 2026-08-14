@@ -1,0 +1,85 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/laser_connector_advanced.json",
+ "sha1": "8447dfa75365ef200c381f07b285665f20661f1d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Adv. Connector",
+   "高级激光连接器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Advanced Laser Connectors work just like $(l:laserio:laser_connector)Laser Connectors$(/l), connecting to other (basic) connectors and nodes up to 8 blocks away. $(br2)They can only be connected to one other Advanced Connector, however, forming a pair.  The connection range from one advanced connector to its partner is infinite - including across dimensions!",
+   "高级激光连接器和$(l:laserio:laser_connector)激光连接器$(/l)功能一致，可以连接至最远 8 格内的基础连接器和节点。$(br2)但是，它们只能与一个高级连接器相连，形成连接器对。对内高级连接器的连接范围没有距离上限⸺甚至能跨越维度！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Two Advanced Connectors linked to each other",
+   "两个互相连接的高级连接器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Adv. Connector",
+   "高级激光连接器"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "If an Advanced Connector already has a partner, and you attempt to pair it with a new partner, the original connection will be broken to form the new connection.  $(br2)When looking at the block with the $(l:laserio:laser_wrench)Laser Wrench$(/l) in your hand, you'll see the coordindates of the partner block.",
+   "如果某个高级连接器已经处于对中，再试图连接至另一个高级连接器，则原来的连接会断开，同时形成新链接。$(br2)手持$(l:laserio:laser_wrench)激光扳手$(/l)看向高级连接器时，它会显示相连的高级连接器的坐标。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Showing the coordinates of the partner connector",
+   "显示相连的高级连接器的坐标"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Partner Coordindates",
+   "相连坐标"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Advanced Laser Connectors do NOT chunk load for you. You are responsible for handling all chunk loading on your own! Nodes in unloaded chunks will not operate.",
+   "高级激光连接器$(l)不会$()加载区块，这一任务需要靠你去完成！未加载区块内的节点不会运作。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Adv. Laser Connector",
+   "高级激光连接器"
+  ]
+ ]
+}

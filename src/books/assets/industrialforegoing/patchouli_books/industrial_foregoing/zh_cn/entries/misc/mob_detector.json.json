@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/mob_detector.json",
+ "sha1": "a85a70500d90cfd4d1fb11ff874ded4791310ed9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mob Detector",
+   "生物探测器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine will detect how many entities are in front of it and it will emit a redstone signal in the back with the same strength as the amount of entities detected.",
+   "这台机器会检测其前方有多少实体，并在背面输出与检测到的实体数量相同强度的红石信号。"
+  ]
+ ]
+}

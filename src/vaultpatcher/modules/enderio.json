@@ -1,0 +1,63 @@
+[
+  {
+    "name": "enderio_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.enderio.enderio.AlphaWarning"
+    ],
+    "pairs": [
+      {
+        "key": "[Warning] Ender IO is in alpha - expect bugs and take backups often!",
+        "value": "[警告] Ender IO 仍处于 alpha 阶段 - 预计会有 bug，并请经常备份！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.enderio.enderio.api.soul.Soul"
+    ],
+    "pairs": [
+      {
+        "key": "Entity type cannot be null",
+        "value": "实体类型不能为空"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.enderio.enderio.content.armory.DarkSteelSwordItem"
+    ],
+    "pairs": [
+      {
+        "key": "This item is currently only used to get mob heads",
+        "value": "该物品目前仅用于获取生物头颅"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.enderio.enderio.content.cold_fire.ColdFireIgniter"
+    ],
+    "pairs": [
+      {
+        "key": "Fluids:",
+        "value": "流体："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.enderio.enderio.content.conduits.probe.ConduitProbeItem"
+    ],
+    "pairs": [
+      {
+        "key": "This feature isn't implemented yet.",
+        "value": "此功能尚未实现。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/items/bee_helmet.json",
+ "sha1": "37807a014817758fd8677d9e7d2c8b32a7f4183f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bee Helmet",
+   "蜜蜂头盔"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Press-fit a bee nest on your pretty diamond helmet to get it all sticky. Bees in the nest will surely become accustomed to you and might even defend your when you are in peril. Wearing this garment will also show your well intentions to other bees and keep them from attacking you.",
+   "把一个蜂巢硬压到你漂亮的钻石头盔上，让它变得黏糊糊的。住在蜂巢里的蜜蜂肯定会逐渐习惯你，甚至可能在你身处险境时保护你。穿上这件装备还能向其他蜜蜂表明你的善意，让它们不再攻击你。"
+  ]
+ ]
+}

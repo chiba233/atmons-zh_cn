@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_tools.json",
+ "sha1": "794e7c1e21e431660791c5366f3051e22822c6c4",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Various tools exist that make your life easier for manipulating and configuring the various tech machines",
+   "有各种各样的工具可用来让你更轻松地操作和配置各种科技机器"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tools",
+   "工具"
+  ]
+ ]
+}

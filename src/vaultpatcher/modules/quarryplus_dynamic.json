@@ -1,0 +1,35 @@
+[
+  {
+    "name": "quarryplus_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yogpc.qp.machine.marker.ChunkMarkerScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Top+",
+        "value": "顶部+"
+      },
+      {
+        "key": "Top-",
+        "value": "顶部-"
+      },
+      {
+        "key": "Bottom+",
+        "value": "底部+"
+      },
+      {
+        "key": "Bottom-",
+        "value": "底部-"
+      },
+      {
+        "key": "Size",
+        "value": "尺寸"
+      }
+    ]
+  }
+]

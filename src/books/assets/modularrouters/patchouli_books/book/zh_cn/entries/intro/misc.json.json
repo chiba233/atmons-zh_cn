@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/misc.json",
+ "sha1": "94e0065299ae8174414ff2d64f4c7da2077fd12a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Miscellaneous Stuff",
+   "杂项内容"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This chapter covers some miscellaneous items and crafting components.",
+   "本章介绍一些杂项物品和合成组件。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "See $(l:upgrades/security#override)Security Upgrade/$.",
+   "参见$(l:upgrades/security#override)安全升级/$。"
+  ]
+ ]
+}

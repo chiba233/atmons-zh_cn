@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine-variants.json",
+ "sha1": "23fe85e18e705639d4cc9853335b45ce3dac77c1",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Turbine parts come in different variants, and each is described in the following pages.$(br2)Some Turbine parts may not be available for a specific variant since they can't be supported by that variant's functionality.",
+   "涡轮机部件有不同的变体，接下来的页面会分别进行说明。$(br2)某些涡轮机部件可能不适用于特定变体，因为该变体的功能无法支持它们。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Variants",
+   "变种"
+  ]
+ ]
+}

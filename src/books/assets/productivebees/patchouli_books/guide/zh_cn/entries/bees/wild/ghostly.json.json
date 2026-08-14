@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/ghostly.json",
+ "sha1": "751ce159f9523448893f4bde93b8b4dcf6f0cb20",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ghostly Bee",
+   "恶魂蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Found living in soul sand nests in the nether. Ghostly Bees prefer pollinating nearby soul sand.",
+   "栖息在下界的灵魂沙蜂巢中。恶魂蜜蜂更喜欢为附近的灵魂沙授粉。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Ghostly Bee",
+   "恶魂蜜蜂"
+  ]
+ ]
+}

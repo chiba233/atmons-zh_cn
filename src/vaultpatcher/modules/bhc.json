@@ -1,0 +1,23 @@
+[
+  {
+    "name": "bhc_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.traverse.bhc.common.recipes.HeartAmuletRecipe$Serializer"
+    ],
+    "pairs": [
+      {
+        "key": "No ingredients for heart amulet recipe",
+        "value": "心之护符配方没有材料"
+      },
+      {
+        "key": "Too many ingredients for shapeless recipe. The maximum is: %s",
+        "value": "无序配方的材料过多。最大数量为：%s"
+      }
+    ]
+  }
+]

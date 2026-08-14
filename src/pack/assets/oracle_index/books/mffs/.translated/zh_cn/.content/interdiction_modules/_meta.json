@@ -1,0 +1,10 @@
+{
+    "anti_friendly_module.mdx": "反友好生物模块",
+    "anti_hostile_module.mdx": "反敌对生物模块",
+    "anti_personnel_module.mdx": "反人员模块",
+    "anti_spawn_module.mdx": "反生成模块",
+    "block_access_module.mdx": "防访问模块",
+    "block_alter_module.mdx": "防修改模块",
+    "confiscation_module.mdx": "没收模块",
+    "warn_module.mdx": "警告模块"
+}

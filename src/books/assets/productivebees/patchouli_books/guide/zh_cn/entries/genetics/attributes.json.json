@@ -1,0 +1,148 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/genetics/attributes.json",
+ "sha1": "1215c21a80f65babeae7280ecc6943840362fa32",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bee Attributes",
+   "蜜蜂特质"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Bee attributes can be transferred from one bee to another by putting the isolated gene on a honey treat and feeding it to the bee. $(br)See the page on $(l:genetics/collecting#crystalline)collecting genes$(/l).",
+   "可以通过将分离出的基因放在蜜蜂小食上并喂给蜜蜂，将一种蜜蜂的属性转移给另一种蜜蜂。$(br)请参阅$(l:genetics/collecting#crystalline)收集基因$(/l)页面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Bees with higher level of productivity will produce more combs per trip.$(br2)Levels are:$(br)Normal$(br)Medium$(br)High$(br)Very High",
+   "产量等级越高的蜜蜂，每次外出后产出的蜜脾就越多。$(br2)等级如下：$(br)普通$(br)中等$(br)高$(br)极高"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Productivity",
+   "生产力"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Normally bees will retreat to the safety of their hive during rain and thunderstorms. Bees can become tolerant to harsh weather conditions by leaving them leashed outside during bad weather. Beware though that they have a risk of taking damage and dying until they become accustomed so keep an eye on them and honey treats on hand.",
+   "通常情况下，蜜蜂会在下雨和雷暴时回到蜂巢中避难。若在恶劣天气中把它们拴在室外，蜜蜂就有机会逐渐适应这种严酷天气。不过要小心，在适应之前它们有受伤甚至死亡的风险，所以记得时刻留意它们，并备好蜜蜂小食。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Weather Tolerance",
+   "天气耐受性"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Levels are:$(br)None - can only work in clear weather$(br)Rain - can work during rain$(br)Any - can work in any weather",
+   "等级如下：$(br)无 - 只能在晴朗天气工作$(br)雨天 - 可在下雨时工作$(br)任意 - 可在任何天气下工作"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Most bees only work during the day, but this can be changed. Leash a Diurnal bee to something during night and it has a chance to turn Nocturnal$(br)Leash a Nocturnal bee during day and it has a chance to turn Metaturnal$(br)Be careful though as they can take damage with leashed in an environment they are not accustomed to",
+   "大多数蜜蜂只会在白天工作，但这一点可以改变。夜晚时把一只昼行性蜜蜂拴在某处，它有概率转变为夜行性$(br)白天时把一只夜行性蜜蜂拴住，它有概率转变为全行性$(br)不过要小心，在它们尚未适应的环境中被拴住时，可能会受到伤害"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Beehavior",
+   "行为"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Levels are:$(br)Diurnal - works only during daytime$(br)Nocturnal - works only during nighttime$(br)Metaturnal - works all day and night",
+   "等级如下：$(br)昼行性 - 只在白天工作$(br)夜行性 - 只在夜晚工作$(br)全行性 - 昼夜都能工作"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Affects the bee's max health.$(br)With a high endurance the bee has a chance to not lose its stinger when attacking.$(br)Levels are:$(br)Weak$(br)Normal$(br)Medium$(br)Strong",
+   "影响蜜蜂的最大生命值。$(br)耐久较高时，蜜蜂在攻击时有几率不会失去螫针。$(br)等级如下：$(br)脆弱$(br)普通$(br)中等$(br)强壮"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Endurance",
+   "耐力"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "Bees have different temper, some will attack on sight and others will avoid harmful interaction altogether. A bee that has been fed a lot of honey treats will improve it's temper.$(br)Levels are:$(br)Passive$(br)Normal$(br)Aggressive$(br)Hostile",
+   "蜜蜂有不同的脾气，有些见面就会攻击，有些则会尽量避免有害互动。给一只蜜蜂喂很多蜜蜂小食后，它的脾气会有所改善。$(br)等级如下：$(br)被动$(br)普通$(br)好斗$(br)敌对"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Temper",
+   "性情"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "Some bees can apply effects to nearby players, both positive and negative.",
+   "有些蜜蜂会对附近的玩家施加效果，既有正面效果，也有负面效果。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Effects",
+   "效果"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_holder.json",
+ "sha1": "2f73942a6fb90ff59272d169c224543d5b50e941",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Card Holder",
+   "物流卡存储器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The card holder is the solution to all your inventory woes! At least, the ones caused by this mod....Simply craft a Card Holder and right click it to open up the UI. Cards placed in this UI can stack up to 64, provided their NBT data matches. (Reminder: You can craft cards by themselves to reset their NBT)",
+   "物流卡存储器能摧枯拉朽地解决各式各样的物品栏问题！好吧，至少能很好地解决本模组的这类问题⋯⋯合成物流卡存储器，再手持右击打开界面即可。本界面内物流卡的最大堆叠数为 64，但仅有 NBT 一致的会堆叠。（提示：可将物流卡合成为自身来重设 NBT。）"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Cards can be modified from within the holder - by right clicking on a cardstack (Just like in a laser node).$(br2)NOTE: If the stacksize of the card is larger than 1, it will disable the Filter and Overclocker slots to prevent item duping. #BlameSoaryn",
+   "可在存储器内直接编辑物流卡配置⸺右击物流卡即可（和节点内操作一致）。$(br2)注意：若某物流卡处堆叠有多于 1 张卡，则过滤器槽和超频器槽会被禁用，以防复制物品。#BlameSoaryn"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "By holding shift and right clicking the Card holder, it will start automatically pulling cards out of your inventory! You can tell this is activated because the card holder starts to glow as if it were enchanted. Shift-right click again to toggle it off. If you have the card holder in your inventory when you open a node, you'll see its cards displayed",
+   "潜行时手持存储器右击，即可让其自动装载玩家物品栏内的物流卡！自动装载功能打开后，存储器会发出紫色光效，就好像被附魔了一样。再次潜行右击可关闭该功能。在打开节点界面时，若物品栏内有存储器，则存储器中的物流卡也会一并显示。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "NOTE: Filters and Overclockers can now be stored in the card holder!  Filters will only be automatically added to the card holder if they have no stored data. Craft them by themselves to clear any saved data.$(br2)Filters with stored data can still be manually added to the card holder.",
+   "注意：过滤器和超频器现在也可存入存储器了！只有无数据的过滤器会自动存入存储器。将其合成为自身可清除其中数据。$(br2)带有数据的过滤器仍可以手动放入存储器。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Card Holder",
+   "物流卡存储器"
+  ]
+ ]
+}

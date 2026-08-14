@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_saw.json",
+ "sha1": "e97f0ac2ecb27880b7fc2de3ac0818bb95a6a509",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Saw",
+   "无限链锯"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Saw is a tool that allows you to chop trees efficiently, the bigger the tier the more blocks you can chop at the same time. Keep breaking the same block to chop big trees.",
+   "无限链锯是一种可以高效砍树的工具，等级越高，同时砍掉的方块就越多。持续破坏同一个方块即可砍伐大型树木。"
+  ]
+ ]
+}

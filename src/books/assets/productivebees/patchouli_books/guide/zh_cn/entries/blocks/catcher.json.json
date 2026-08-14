@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/catcher.json",
+ "sha1": "0c8bd4c0e41c467a497eb9cfdf7a4025a285c41a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Catcher",
+   "捕捉器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Load it up with cages and it will catch any bee flying over it. You can put a flower or $(l:blocks/feeder)feeding slab$(/l) on top to attract bees.",
+   "给它装满蜂笼后，它就会捕捉任何从上方飞过的蜜蜂。你还可以在上面放一朵花或$(l:blocks/feeder)喂食台$(/l)来吸引蜜蜂。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Catcher accepts three upgrades; A $(l:items/upgrades#babee)BaBee upgrade$(/l) will filter out adult bees and only catch BaBees. $(l:items/upgrades#filter)Filter upgrade$(/l) will make catch only the bees on the filter. A $(l:items/upgrades#range)Range upgrade$(/l) will increase the range. Multiple Range upgrades can be installed.",
+   "捕捉器可接受三种升级：$(l:items/upgrades#babee)升级：幼年蜂$(/l)会过滤掉成年蜜蜂，只捕捉幼年蜂；$(l:items/upgrades#filter)升级：过滤$(/l)只会捕捉过滤器中指定的蜜蜂；$(l:items/upgrades#range)升级：范围$(/l)会提升作用范围，且可安装多个。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/categories/cards.json",
+ "sha1": "9eba6163a54cb0d7546ea5b1d378eeef0b2f2bdb",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Cards are how Nodes interact with adjacent blocks. Without them Nodes are worthless!",
+   "节点物流卡与相邻方块交互。离了它们节点就毫无用处！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Cards",
+   "物流卡"
+  ]
+ ]
+}

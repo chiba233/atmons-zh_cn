@@ -1,0 +1,13 @@
+{
+  "description.gmut.gravitational_modulating_additional_unit": "为‘重力调制单元’，添加附加功能",
+  "key.gmut.vertical_speed": "垂直速度修改",
+  "module.gmut.fix_fov": "无视觉变形",
+  "module.gmut.fly_always": "始终无视重力",
+  "module.gmut.gravitational_modulating_additional_unit": "微重力操纵",
+  "module.gmut.stop_immediately": "无重力惯性",
+  "module.gmut.vertical_speed": "垂直速度修改",
+  "constants.gmut.key_category": "通用机械 - 重力调节附加单元",
+  "constants.gmut.mod_name": "重力调节附加单元",
+  "module.gmut.enabled": "已启用",
+  "module.gmut.mute_modulating_sound": "屏蔽调制音效"
+}

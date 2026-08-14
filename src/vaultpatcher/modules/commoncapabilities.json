@@ -1,0 +1,19 @@
+[
+  {
+    "name": "commoncapabilities_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "org.cyclops.commoncapabilities.modcompat.vanilla.VanillaModCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Furnace and Brewing stand capabilities.",
+        "value": "熔炉和酿造台能力。"
+      }
+    ]
+  }
+]

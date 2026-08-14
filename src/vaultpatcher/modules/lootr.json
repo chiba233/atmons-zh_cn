@@ -1,0 +1,35 @@
+[
+  {
+    "name": "lootr_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "noobanidus.mods.lootr.common.command.CustomConvertJob"
+    ],
+    "pairs": [
+      {
+        "key": "A conversion job is already running.",
+        "value": "一个转换任务已在运行。"
+      },
+      {
+        "key": "Level not found.",
+        "value": "未找到等级。"
+      },
+      {
+        "key": "Progress: ",
+        "value": "进度："
+      },
+      {
+        "key": "Conversion complete. processed=",
+        "value": "转换完成。已处理="
+      },
+      {
+        "key": "Conversion failed: ",
+        "value": "转换失败："
+      }
+    ]
+  }
+]

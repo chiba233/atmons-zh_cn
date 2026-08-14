@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder_projector.json",
+ "sha1": "d99c26368514d67bfbb62c6d3175ba6fc3641354",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Blocks for scanning, composing, and projecting shapes",
+   "用于扫描、合成与延展形状的方块"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Scanner and Projector",
+   "扫描仪与投射仪"
+  ]
+ ]
+}

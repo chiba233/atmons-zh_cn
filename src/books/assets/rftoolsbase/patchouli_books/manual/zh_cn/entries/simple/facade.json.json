@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/facade.json",
+ "sha1": "3b9ec0010c7497a09e563134ca579ce9dde703ae",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Facade",
+   "外观面板"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Facades hide XNet cables by mimicking another block. Use the facade item on a block to copy it, then place it over an XNet cable.",
+   "伪装块通过模拟其他方块外观来遮蔽XNet线缆。对目标方块使用伪装块物品以复制其外观，随后将其覆盖于XNet线缆之上。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Connectors can also be hidden with facades. Breaking the facade reveals or restores the cable setup behind it.",
+   "连接器亦可通过伪装块隐藏。破坏伪装块即可显露或恢复其后方的线缆布局。"
+  ]
+ ]
+}

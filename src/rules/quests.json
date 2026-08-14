@@ -1,0 +1,23 @@
+[
+  {
+    "id": "quest-delta-filename-prefix",
+    "kind": "filename_prefix",
+    "glob": "src/config/ftbquests/quests/lang/zh_cn/**/*.snbt",
+    "prefix": "zz_hanhua_",
+    "why": "本包的任务书覆盖是 delta（只写要改的键），出货时由 gen_quest_lang_patches.py 打进上游那份章节文件、按原文件名发出去。src/ 里这批 delta 必须带 zz_hanhua_ 前缀，好让生成器认得出「哪些是我们的覆盖」——认错了就会把上游整份文件当成 delta。前缀本身也是历史事故的产物：早先是直接按上游原名发 delta，只有 2 个键的 aether.snbt 把上游同名文件的 167 个键整个盖掉了。",
+    "message": "任务书 delta {path} 缺少 zz_hanhua_ 前缀（生成器靠这个前缀认出哪些文件是本包的覆盖）",
+    "scope": "repo"
+  },
+  {
+    "id": "quest-delta-blocks-parse",
+    "kind": "snbt_blocks_parse",
+    "glob": "config/ftbquests/quests/lang/zh_cn/**/*.snbt",
+    "why": "delta 文件必须能被生成器那个块解析器读通。2026-08-02 给 delta 排序时按行 sort，把 129 个多行数组打散成 513 个游离的空串行；当时 check.py 只有按行正则，匹配不上的行直接跳过，ci.yml 全绿放行，三分钟后才被真正调用 blocks() 的 build.yml 拦下。这条闸复用同一个解析器，不另写一份——两份判得不一样就等于没有闸。只查结构不查有没有键：空的 delta 是合法的，生成器打完补丁后会照原名发一个空壳去盖掉玩家硬盘上的旧文件（安装器只覆盖不删除），所以生成之后整棵树的 delta 本来就都是空的。"
+  },
+  {
+    "id": "quest-delta-no-duplicate-keys",
+    "kind": "snbt_no_dup_keys",
+    "glob": "config/ftbquests/quests/lang/zh_cn/**/*.snbt",
+    "why": "同一个键出现在两个文件里时，哪份生效取决于合并顺序——而 ftbquestslangsplitter 在 chapters/ 里**根本不排序**（Files.list 直接 forEach），Linux 的 ext4 返回哈希序，等于随机。2026-08-01 查出来：本包 1249 条覆盖有 923 条与 ATM 自带中文撞键，首次启动前就装包的服务器上会有随机一批被顶回上游原文。现在出货树里一个键只由一份文件持有，这条闸就是那个不变量的守卫。历史事故：refined_storage.snbt 的旧标题盖掉了已对齐的新标题。"
+  }
+]

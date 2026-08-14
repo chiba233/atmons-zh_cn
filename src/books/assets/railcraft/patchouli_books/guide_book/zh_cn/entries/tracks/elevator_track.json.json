@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/elevator_track.json",
+ "sha1": "6caac808b78dd7060c05f195f24f08fd64c0d13e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Elevator Track",
+   "电梯轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This rail is unique in that is can be placed vertically. When powered, it will power all the rails below it. Powered rails will lift minecarts up, unpowered rails will lower minecarts down. When a minecart reaches the top it will be pushed onto any normal rail located on the block above. The rail also doubles as a ladder.",
+   "此铁轨的独特之处在于可垂直放置。充能后，它将激活下方所有铁轨。充能铁轨可将矿车向上提升，未充能铁轨则使其向下降低。当矿车抵达顶端时，将被推送至上方方块处的任意普通铁轨上。该铁轨还兼具梯子功能。"
+  ]
+ ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "modonomicon_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.modonomicon.datagen.book.demo.features.SpotlightEntry"
+    ],
+    "pairs": [
+      {
+        "key": "Spotlight Entry",
+        "value": "聚光灯条目"
+      },
+      {
+        "key": "An entry showcasing spotlight pages.",
+        "value": "一个展示聚光灯页面的条目。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.modonomicon.item.ModonomiconItem"
+    ],
+    "pairs": [
+      {
+        "key": "Book ID: ",
+        "value": "书籍 ID:"
+      }
+    ]
+  }
+]

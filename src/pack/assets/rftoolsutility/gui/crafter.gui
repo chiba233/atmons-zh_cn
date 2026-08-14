@@ -1,0 +1,113 @@
+window {
+    size(256,238)
+
+    event('remember','crafter.remember')
+    event('forget','crafter.forget')
+    event('redstone','mcjtylib.setRsMode')
+    event('apply','crafter.apply')
+    bind('speed','speedMode')
+    bind('internal','craftMode')
+    bind('keep','keepOne')
+
+    panel('','positional') {
+        bg1('rftoolsutility:textures/gui/crafter.png')
+        energybar('energybar') {
+            hint(12,141,10,76)
+            showtext(false)
+        }
+        choicelabel('keep') {
+            channel('keep')
+            hint(148,7,41,14)
+            choices {
+                choice('All') {
+                    tooltips('输入槽中的所有物品都会被消耗','?a（更改后按“应用”）')
+                }
+                choice('Keep') {
+                    tooltips('在每个物品栏槽中保留一件物品','?a（更改后按“应用”）')
+                }
+            }
+        }
+        choicelabel('internal') {
+            channel('internal')
+            hint(148,24,41,14)
+            tooltips('“Int”模式：合成结果将','放入物品栏','而不是输出缓存')
+            choices {
+                choice('Ext') {
+                    tooltips('合成操作结果','将进入输出缓冲区','?a（更改后按“应用”）')
+                }
+                choice('Int') {
+                    tooltips('合成操作结果','将保留在输入缓存中','?a（更改后按“应用”）')
+                }
+                choice('ExtC') {
+                    tooltips('合成操作结果','将进入输出缓冲区','但剩余物品（例如','桶）将保留在输入槽中','?a（更改后按“应用”）')
+                }
+            }
+        }
+        widgetlist('recipes') {
+            channel('select')
+            hint(10,7,126,84)
+            bgthickness(-1)
+            bgfilled1(-7631989)
+        }
+        slider {
+            hint(137,7,10,84)
+            scrollable('recipes')
+        }
+        button('apply','应用') {
+            channel('apply')
+            hint(212,65,34,16)
+            tooltips('点击以应用该设置','将配方传输到合成器')
+        }
+        imagechoicelabel('redstone') {
+            channel('redstone')
+            hint(31,186,16,16)
+            image('rftoolsbase:textures/gui/guielements.png')
+            dim(0,0,256,256)
+            choices {
+                choice('Ignored') {
+                    uv(0,0)
+                    tooltips('红石模式：','已忽略')
+                    image('rftoolsbase:textures/gui/guielements.png')
+                }
+                choice('Off') {
+                    uv(16,0)
+                    tooltips('红石模式：','关闭以激活')
+                    image('rftoolsbase:textures/gui/guielements.png')
+                }
+                choice('On') {
+                    uv(32,0)
+                    tooltips('红石模式：','开启以激活')
+                    image('rftoolsbase:textures/gui/guielements.png')
+                }
+            }
+        }
+        imagechoicelabel('speed') {
+            channel('speed')
+            hint(49,186,16,16)
+            image('rftoolsbase:textures/gui/guielements.png')
+            dim(48,0,256,256)
+            choices {
+                choice('Slow') {
+                    uv(48,0)
+                    tooltips('速度模式：','慢速')
+                    image('rftoolsbase:textures/gui/guielements.png')
+                }
+                choice('Fast') {
+                    uv(64,0)
+                    tooltips('速度模式：','快速')
+                    image('rftoolsbase:textures/gui/guielements.png')
+                }
+            }
+        }
+        button('','R') {
+            channel('remember')
+            hint(148,74,18,16)
+            tooltips('记住当前物品','在内部和','外部缓存')
+        }
+        button('','F') {
+            channel('forget')
+            hint(168,74,18,16)
+            tooltips('清除已记住的布局')
+        }
+    }
+}

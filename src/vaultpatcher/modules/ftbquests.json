@@ -1,0 +1,172 @@
+[
+  {
+    "name": "ftbquests_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.MultilineTextEditorScreen$ToolbarPanel"
+    ],
+    "pairs": [
+      {
+        "key": "Ctrl",
+        "value": "Ctrl 键"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.SelectQuestObjectScreen$QuestObjectButton"
+    ],
+    "pairs": [
+      {
+        "key": "Type: ",
+        "value": "类型："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.QuestButton"
+    ],
+    "pairs": [
+      {
+        "key": "Ctrl+A to select all quests",
+        "value": "按 Ctrl+A 选择所有任务"
+      },
+      {
+        "key": "Ctrl+D to deselect all quests",
+        "value": "Ctrl+D 取消选择所有任务"
+      },
+      {
+        "key": "Ctrl+Arrow Key to move selected quests",
+        "value": "Ctrl+方向键移动选中的任务"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.QuestPanel"
+    ],
+    "pairs": [
+      {
+        "key": "Moving",
+        "value": "移动"
+      },
+      {
+        "key": "Lang: ",
+        "value": "语言："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.ViewQuestPanel"
+    ],
+    "pairs": [
+      {
+        "key": "[No Subtitle]",
+        "value": "[无副标题]"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.ViewQuestPanel$QuestDescriptionField"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown quest object id: %s",
+        "value": "未知的任务对象 id：%s"
+      },
+      {
+        "key": "Invalid quest object id: %s",
+        "value": "无效的任务对象 id：%s"
+      },
+      {
+        "key": "Can't open url for %s (%s)",
+        "value": "无法为 %s（%s）打开 url"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.quest.ChapterGroup"
+    ],
+    "pairs": [
+      {
+        "key": "Unnamed Group",
+        "value": "未命名组"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.quest.loot.RewardTable"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown reward type!",
+        "value": "未知的奖励类型！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.quest.task.ItemTask"
+    ],
+    "pairs": [
+      {
+        "key": "No valid items!",
+        "value": "没有有效物品！"
+      },
+      {
+        "key": "Report this bug to modpack author!",
+        "value": "请将此错误报告给整合包作者！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.quest.task.Task"
+    ],
+    "pairs": [
+      {
+        "key": "Bad resource location: ",
+        "value": "无效的资源位置："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.ViewQuestPanel$4"
+    ],
+    "pairs": [
+      {
+        "key": "[Page Down]",
+        "value": "[下一页]"
+      },
+      {
+        "key": "[Mousewheel Down]",
+        "value": "滚轮向下"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbquests.client.gui.quests.ViewQuestPanel$5"
+    ],
+    "pairs": [
+      {
+        "key": "[Page Up]",
+        "value": "[上一页]"
+      },
+      {
+        "key": "[Mousewheel Up]",
+        "value": "[鼠标滚轮上滚]"
+      }
+    ]
+  }
+]

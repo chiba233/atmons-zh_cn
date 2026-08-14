@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/meat_feeder.json",
+ "sha1": "3548b75f1d89920db542b3102e3ac738653c9f35",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Meat Feeder",
+   "肉汤注射器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When in your inventory the Meat Feeder will feed you with the liquid meat stored inside of the tool.",
+   "当肉汤注射器位于你的物品栏中时，它会用工具内储存的肉汤自动为你进食。"
+  ]
+ ]
+}

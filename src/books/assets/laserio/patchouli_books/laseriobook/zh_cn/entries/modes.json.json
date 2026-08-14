@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/modes.json",
+ "sha1": "81de375adcad723558aa5c2f414d428db4e5efa5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Modes",
+   "模式"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Modes determine what a card fundamentally does. The following pages define each mode type currently available.$(br2)Each type of card (Item/Fluid/Energy) supports the the following three modes. Item cards are used as an example.$(br2)Redstone cards will support a different set of modes.",
+   "物流卡的模式决定该卡如何运行。后几页会介绍已有的几种模式。$(br2)各物流卡（物品/流体/能量）均有后述三种模式。后续示例均使用物品卡。$(br2)红石卡的模式与其余物流卡不同。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Insert Mode cards are a validate destination for objects being extracted by Extract Mode cards.$(br2)Stock mode cards will attempt to pull from Insert Mode cards.",
+   "输入模式物流卡是提取卡所取出物品、流体、能量的输出口。$(br2)存储卡则会尝试从输入卡取出物品、流体和能量。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Extract Mode cards attempt to remove objects from their adjacent block. Items, for example, will be removed from an adjacent chest and sent to an insert card.",
+   "提取模式物流卡会尝试从其毗邻方块中取出物品、流体和能量。在此例中，物品会从毗邻的箱子中被取出，并传输至某张输入卡。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Stock Mode cards attempt to find the designated items in their filter, and pull them from other Insert Nodes in the same network.$(br2)Stock mode cards require a filter set to Allow.",
+   "存储模式物流卡会尝试搜寻其过滤器槽内设定的物品和流体，并从同网络中的其他输入卡处取出这些事物。$(br2)存储卡的运行需要白名单过滤器。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Sensor cards do not move objects around, but instead look at an adjacent inventory, and will emit a redstone signal on the redstone channel if the inventory matches the filter.$(br2)Sensor mode cards require a filter.",
+   "传感模式物流卡不会移动事物，而是会检查毗邻存储空间。若其中内容匹配过滤器，则在设定的红石频道上发出红石信号。$(br2)传感卡的运行需要过滤器。"
+  ]
+ ]
+}

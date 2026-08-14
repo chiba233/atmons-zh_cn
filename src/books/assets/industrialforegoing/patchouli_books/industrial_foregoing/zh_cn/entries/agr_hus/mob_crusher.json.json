@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_crusher.json",
+ "sha1": "90e74fa8eee87f34ba69c75a116a8bd38c21d644",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mob Crusher",
+   "屠宰机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to $(6)kill$() mobs as if a player would producing drops and Essence. Drops are directly created from the mob lootpool. $(br2)This machine has an alternate mode where instead of generating essence it will generate drops with random levels of $(6)fortune$().",
+   "一种用于$(6)击杀$()生物的机器，其效果如同玩家手动击杀，可正常掉落战利品与精华。掉落物直接源自对应生物的战利品表。$(br2)该机器具备备用模式：此时不生成精华，而是生成带有随机$(6)幸运$()等级的掉落物。"
+  ]
+ ]
+}

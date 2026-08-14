@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/pink_slime.json",
+ "sha1": "85b63e6434b23eed8cfdd967fccbf2e89a89a94a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pink Slime (Bucket)",
+   "粉色史莱姆球 (桶)"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A fluid produced by the $(l:agr_hus/mob_slaughter_factory)Mob Slaughter Factory$().",
+   "由 $(l:agr_hus/mob_slaughter_factory)屠宰场$() 产出的流体。"
+  ]
+ ]
+}

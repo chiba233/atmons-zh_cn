@@ -1,0 +1,31 @@
+[
+  {
+    "name": "crashutilities_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.darkere.crashutils.Screens.CUScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Return to player",
+        "value": "返回玩家"
+      },
+      {
+        "key": "None",
+        "value": "无"
+      },
+      {
+        "key": "Go Back",
+        "value": "返回"
+      },
+      {
+        "key": "(Double click to teleport)",
+        "value": "（双击传送）"
+      }
+    ]
+  }
+]

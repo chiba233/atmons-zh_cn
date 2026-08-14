@@ -1,0 +1,23 @@
+[
+  {
+    "name": "redstonepen_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "wile.redstonepen.libmc.Auxiliaries"
+    ],
+    "pairs": [
+      {
+        "key": " (dev build)",
+        "value": "（开发构建）"
+      },
+      {
+        "key": " GIT id #",
+        "value": " GIT 编号 #"
+      }
+    ]
+  }
+]

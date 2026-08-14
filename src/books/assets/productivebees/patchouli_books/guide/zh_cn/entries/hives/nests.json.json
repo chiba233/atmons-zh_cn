@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/hives/nests.json",
+ "sha1": "34e733a595ffb6d790fdc5047345a4b9a86e2425",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Nests",
+   "蜂巢"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Nests can be found scattered around the world and will each be the home of 1 solitary bee. Nests can be picked up with the bee inside by breaking it, no need for silk touch. To clear a nest of it's bee and any eggs you simply need to craft it with itself.",
+   "蜂巢散布在世界各地，每个蜂巢都是 1 只独居蜜蜂的家。破坏蜂巢时，即使蜜蜂还在里面也能直接拾取，不需要精准采集。若想清除蜂巢中的蜜蜂和所有蜂卵，只需要把它与自身一起合成即可。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Empty nests can attract new bees if you put one or more honey treats in them. Right click with a honey treat to start the repopulation cooldown.",
+   "空的蜂巢在放入一个或多个蜜蜂小食后，可以吸引新的蜜蜂入住。手持蜜蜂小食右键即可开始重新繁衍的冷却时间。"
+  ]
+ ]
+}

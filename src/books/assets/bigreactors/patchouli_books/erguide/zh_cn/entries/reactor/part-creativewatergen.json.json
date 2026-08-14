@@ -1,0 +1,40 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-creativewatergen.json",
+ "sha1": "e7b874d36f325cb90cf0c1b448843c465d86b9e5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Creative Water Generator",
+   "创造模式无限水"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Water Generator is a creative-only part that acts as a constant source of water for an $(l:bigreactors/active)actively cooled$(/l) Reactor.$(br2)This part automatically supplies one bucket of water to the Coolant Fluid Tank, but only when the Reactor is turned on.",
+   "水发生器是一个仅限创造模式使用的部件，可为$(l:bigreactors/active)主动冷却$(/l)反应堆提供持续不断的水源。$(br2)该部件会自动向冷却液流体储罐补充一桶水，但仅在反应堆开启时生效。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Water Generator",
+   "水发电机"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() Reinforced$(br)$(l)Graphical interface:$() no$(br)$(l)Creative mode:$() this part is only available in creative mode and there is no crafting recipe for it.",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()强化$(br)$(l)图形界面：$()否$(br)$(l)创造模式：$()该部件仅可在创造模式中使用，没有对应的合成配方。"
+  ]
+ ]
+}

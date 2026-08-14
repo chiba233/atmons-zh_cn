@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/filter_basics.json",
+ "sha1": "549b43403d604de2c31dfe1ad1f75f97a684193e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Basic Mechanics",
+   "基础机制"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Right click a filter item to open it's UI. Alternatively, the UI is also available when filters are inside cards.$(br2)Filters allow you to restrict what items can be inserted, extracted, or stocked.$(br2)1. Allow vs Deny$(br)2. Compare NBT$(br)3. Filter Slots",
+   "手持过滤器右击可打开其界面，也可通过在物流卡界面内右击过滤器打开。$(br2)过滤器用于限制输入，提取或存储何种物品。$(br2)1. 白名单或黑名单$(br)2. 匹配 NBT$(br)3. 过滤槽"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Basic Filter UI",
+   "基础过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Filter UI",
+   "过滤器界面"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Allow vs Deny$(br2)In allow mode, the items in the filter will be allowed by the filter. Meaning that inserters can accept cobblestone, or extractors can extract cobblestone.$(br2)In Deny mode, it is the opposite.",
+   "白名单或黑名单$(br2)白名单允许通过过滤槽内的物品。也即输入卡会接受圆石，提取卡会提取圆石。$(br2)黑名单则全部反过来。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Compare NBT$(br2)When compare NBT is enabled, NBT tags on items will be considered by the filter. For example, a sword stores how much damage it has taken on NBT. With 'Compare NBT' enabled, a diamond sword without any damage is different than a damaged one, or an enchanted one.$(br2)With Compare NBT disabled, all diamond swords will match, regardless of their status. ",
+   "匹配 NBT$(br2)启用匹配 NBT 时，物品的 NBT 标签也纳入过滤器过滤考察范围内。例如，剑会将其耐久度损耗存为 NBT。启用匹配 NBT 时，满耐久度的钻石剑视作不同于受损的钻石剑，附魔的和未附魔的亦然。$(br2)禁用匹配 NBT 时，所有钻石剑都被视为同一物品，无论其状态如何。"
+  ]
+ ]
+}

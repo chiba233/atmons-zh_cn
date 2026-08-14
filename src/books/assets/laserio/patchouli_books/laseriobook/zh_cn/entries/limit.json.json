@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/limit.json",
+ "sha1": "45fd198db6e8937e9f4c6956a52101a4e051a57e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Limit",
+   "能量限制"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Limit % only exists on Energy Cards. Limit % specifies the percentage of FE to operate with on the adjacent energy accepting block.$(br2)There are two different metrics, Insert % for Stock/Insert mode, and Extract % for extract mode.",
+   "能量限制仅在能量卡中可用。该值决定毗邻储能方块可操作能量的占比。$(br2)该值共有两种理解方式，存储和输入模式下是输入百分比，提取模式下是提取百分比。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(l)Insert/Stock Limit$()$(br2)By default, the limit% is set to 100%.  Specifies how much to fill up the specified energy block.$(br2)For example: If the block can hold 1,000,000 FE, and you specify 50%, it will only fill up to 500,000FE.$(br2)The default (100%) will fill it up completely.",
+   "$(l)输入/存储限制$()$(br2)默认情况下，该值为 100%。该值表示将目标能量槽填充至多少百分比。$(br2)例如：若对应能量槽能保有 1,000,000FE，将该值设为 50%，节点仅会将其填充至 500,000FE。$(br2)默认值（100%）会将其充满。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Extract Limit$()$(br2)By default, the limit% is set to 0%. Specifies how much to leave behind in the specified energy block.$(br2)For example: If the block can hold 1,000,000 FE, and you specify 50%, it will extract until the block has 500,000fe remaining, and will not extract any more.$(br2)The default (0%) will extract all energy.",
+   "$(l)提取限制$()$(br2)默认情况下，该值为 0%。该值表示在目标能量槽中余下多少百分比。$(br2)例如：若对应能量槽能保有 1,000,000FE，将该值设为 50%，节点会提取至槽内仅余 500,000FE，并且不会再提取。$(br2)默认值（0%）会提出所有能量。"
+  ]
+ ]
+}

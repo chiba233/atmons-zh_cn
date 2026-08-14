@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/tools.json",
+ "sha1": "e1df4da82e68cb9d9ca101b01097d001ac21c4ef",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "These are various handheld items - tools and weapons - which serve a useful purpose.",
+   "这里收录了各种手持物品——工具和武器——它们都各有用途。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tools",
+   "工具"
+  ]
+ ]
+}

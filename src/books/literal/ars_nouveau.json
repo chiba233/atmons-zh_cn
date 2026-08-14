@@ -1,0 +1,631 @@
+{
+ "_说明": "法术书风味文本走 Component.literal，不过 I18n，语言文件够不着；只存原文→译文（按 JSON 转义形态），构建时套到 jar 那份上，产物落在 kubejs/data。",
+ "mod": "ars_nouveau",
+ "files": {
+  "data/ars_nouveau/recipe/tomes/alex_tome.json": {
+   "sha1": "e528680631007bc98e84d974172f03e668a3a2d6",
+   "t": [
+    [
+     "For those who can't settle with just a tiny hut.",
+     "给那些不满足于一间小破屋的人。"
+    ],
+    [
+     "Alex's Magnificent Mansion",
+     "Alex 的华丽宅邸"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/arachne_tome.json": {
+   "sha1": "105d4ab6f0b8e631e1a78b600e9070d6ab41184e",
+   "t": [
+    [
+     "Creates three snaring projectiles.",
+     "射出三发缚身弹。"
+    ],
+    [
+     "Arachne's Weaving",
+     "Arachne 的织网"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/aurellia_tome.json": {
+   "sha1": "0ce6c38f83ddb7c5f189ed17718b25c77113ee5e",
+   "t": [
+    [
+     "The bite from this storm is worse than its bark.",
+     "这场风暴雷声大，雨点更大。"
+    ],
+    [
+     "Aurellia's Bite Storm",
+     "Aurellia 的尖牙风暴"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/bailey_tome.json": {
+   "sha1": "b2a93baecbb15583d90a2d5af24291a64d341d3f",
+   "t": [
+    [
+     "To the MOOn",
+     "哞向月球"
+    ],
+    [
+     "Bailey's Bovine Rocket",
+     "Bailey 的奶牛火箭"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/beepsterr_tome.json": {
+   "sha1": "7d7182f4c3c8e73b8499f8289a4e60ff95a80f76",
+   "t": [
+    [
+     "It's covered in dirt and moss..",
+     "上面沾满了泥土和苔藓……"
+    ],
+    [
+     "Verdant Aura",
+     "翠绿光环"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/bugcolez_tome.json": {
+   "sha1": "885c0d209e12046747969a4e8b31f79f2cd783f3",
+   "t": [
+    [
+     "Their Friends are their power!",
+     "他们的力量，源自他们的伙伴！"
+    ],
+    [
+     "Pixie Pummel",
+     "恼鬼群殴"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/chems_tome.json": {
+   "sha1": "db9c6bae150b7d302c2494b39c0269df669c1f86",
+   "t": [
+    [
+     "Smothers an area with runes that launch entities upward. Do NOT get covered in the Repulsion Runes.",
+     "在一片区域铺满把实体弹上天的符文。千万**别**让自己被斥力符文盖住。"
+    ],
+    [
+     "Repulsion Runes",
+     "斥力符文"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/chosenarchitect_tome.json": {
+   "sha1": "e28dc8bf2115d8d9ec45346dbe6c8dbbbd7c3af5",
+   "t": [
+    [
+     "In a flash of magic, the world twists, and what was once here is now there.",
+     "魔力一闪，世界扭曲，原本在此处的，已在彼处。"
+    ],
+    [
+     "Chosen's Chaotic Shift",
+     "Chosen 的混沌置换"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/cocoaeyebrows_tome.json": {
+   "sha1": "714768b42f5e1653cbde236787a81c703ddb98f6",
+   "t": [
+    [
+     "Leave the riches untouched. Seek only to carve the earth.",
+     "财宝不取分毫，只求凿开大地。"
+    ],
+    [
+     "Gobute's Humble Tunnel",
+     "Gobute 的朴素隧道"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/crowdrone_tome.json": {
+   "sha1": "39c9f22924742b4daa0f578c60d984f6ab955b61",
+   "t": [
+    [
+     "Crows are known to collect shiny things, even in the darkest of places.",
+     "众所周知，乌鸦爱捡亮闪闪的东西——再暗的地方也不例外。"
+    ],
+    [
+     "Crow's Gluttonous Gaze",
+     "Crow 的贪婪目光"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/darkfira_tome.json": {
+   "sha1": "054b080ff72b9e3a5326bf23dbeb906a96216311",
+   "t": [
+    [
+     "Encases your enemies or friends in a tomb of ice. Guaranteed to leave them shocked and confused.",
+     "把敌人（或朋友）封进冰墓。保证让对方又惊又懵。"
+    ],
+    [
+     "Darkfira's Flash Freeze",
+     "Darkfira 的急速冰封"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/farfalla_tome.json": {
+   "sha1": "4f2283b2e9f56189ce52abf7d83edf2e8bd6e272",
+   "t": [
+    [
+     "Creates a fire that quickly freezes to ice.",
+     "点起一团转眼就冻成冰的火。"
+    ],
+    [
+     "Farfalla's Frosty Flames",
+     "Farfalla 的霜火"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/fireball_tome.json": {
+   "sha1": "9814473c847a1687bb7bc1334a8b548fd8c9e0de",
+   "t": [
+    [
+     "A classic.",
+     "经典之作。"
+    ],
+    [
+     "Fireball!",
+     "火球术！"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/frantastic_tome.json": {
+   "sha1": "4315685d87cdb3730c26703deb80cc7ba0b5c4e4",
+   "t": [
+    [
+     "It is unknown whether the original author of this spell survived its first casting, or if she was replaced by one of her simulacra in the ensuing chaos. Don't think too hard about it. ",
+     "没人知道这个法术的原作者是否在第一次施放中幸存，还是在随后的混乱里被自己的某个幻影顶替了。别想太多。 "
+    ],
+    [
+     "Simulmancer's Storm",
+     "Simulmancer 的风暴"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/glow_tome.json": {
+   "sha1": "8fec2a975ca25efa8ca455f23d7e282200fce2e8",
+   "t": [
+    [
+     "Snares the target and grants other targets Glowing.",
+     "束缚目标，并让其他目标发光。"
+    ],
+    [
+     "Glow Trap",
+     "发光陷阱"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/gootastic_tome.json": {
+   "sha1": "7840e307840bda0febb040684a61fb5174e1b4cf",
+   "t": [
+    [
+     "The squid's Lovecraftian roots appear to make it immune.",
+     "鱿鱼那克苏鲁式的血统似乎让它免疫了。"
+    ],
+    [
+     "Gootastic's Telekinetic Fishing Rod",
+     "Gootastic 的念力钓竿"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/ivy_tome.json": {
+   "sha1": "e49de3cfeb79100e6833ab88ef3ad7e9448a1644",
+   "t": [
+    [
+     "Now you never have to be lonely again! You will always have a friend with you! Feel free to change their name to whatever you want! :D",
+     "从此再也不孤单！永远有个伙伴陪着你！想给它起什么名字都行！:D"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/kamiihoney_tome.json": {
+   "sha1": "adc0d7964391e8f023713b80db4adb68c45c5df9",
+   "t": [
+    [
+     "Safely contain your enemies while they wither away. Some say Kamii is still stuck in a bubble somewhere after miscasting this curse.",
+     "把敌人稳稳关住，看他们慢慢枯萎。据说 Kamii 施错这道咒之后，至今还困在某处的泡泡里。"
+    ],
+    [
+     "Kamii's Curse",
+     "Kamii 的诅咒"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/kirin_tome.json": {
+   "sha1": "e535e9e3cc7d4303614abeb62957513383b47db1",
+   "t": [
+    [
+     "Heroes are so straightforward, so easily befuddled...",
+     "英雄总是那么直来直去，也就那么好糊弄……"
+    ],
+    [
+     "KirinDave's Sinister Switch",
+     "KirinDave 的阴险调包"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/lootz_tome.json": {
+   "sha1": "001b8e0ee008e93048767f9d694110520479405d",
+   "t": [
+    [
+     "Mobs meet fireworks",
+     "生物，遇上烟花"
+    ],
+    [
+     "Fireworks and Mobs",
+     "烟花与生物"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/lufia_tome.json": {
+   "sha1": "414686866c1dd26aac7c8e97a979ba5da3f0d90b",
+   "t": [
+    [
+     "Your enemies will try to kill you. Use this, to kill them back. Cast under a targets feet to bury them. Results may vary.",
+     "敌人想杀你，那就用这个杀回去。对着目标脚下施放即可将其活埋。效果因人而异。"
+    ],
+    [
+     "Lufia's Bwomp",
+     "Lufia 的砰咚"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/lyrellion_tome.json": {
+   "sha1": "d87e9d843e822ec3e9685c59c2c70e7e06ba6236",
+   "t": [
+    [
+     "You. Shall. Not. Pass.",
+     "你，不，能，通，过。"
+    ],
+    [
+     "Lyrellion’s Wall of Force",
+     "Lyrellion 的力场墙"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/mystifi_tome.json": {
+   "sha1": "9f96c858735456105c72d6e9ea329c726c4a99f8",
+   "t": [
+    [
+     "Be careful About digging straight down, People say its like digging your own grave",
+     "往正下方挖要当心，都说那跟给自己挖坟没两样"
+    ],
+    [
+     "Mysti's Gravely Dig",
+     "Mysti 的自掘坟墓"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/nikk_tome.json": {
+   "sha1": "5a48d02bb26065707854dc0412624ab78f04a0b5",
+   "t": [
+    [
+     "Weaken it, kill it and take it home.",
+     "削弱它，杀掉它，带回家。"
+    ],
+    [
+     "Sutokahs LOVE",
+     "Sutokah 的爱"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/othy_tome.json": {
+   "sha1": "a761fd18f183b941d75791fb1c113d0a55409bc0",
+   "t": [
+    [
+     "Swarm your enemies with bladed spirits.",
+     "让刃灵成群扑向你的敌人。"
+    ],
+    [
+     "Othy's Misdirection",
+     "Othy 的声东击西"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/pandoxyy_tome.json": {
+   "sha1": "4f210ad04b0393f66a85c5182613a3b99d6d5ce1",
+   "t": [
+    [
+     "First you're airborne. Then you're dizzy. Then you're somewhere else. By the time you figure out what happened, it's already happening again.",
+     "先是腾空，然后发晕，接着人已在别处。等你搞明白发生了什么，它又开始了。"
+    ],
+    [
+     "Pandoxyy's Spin Cycle",
+     "Pandoxyy 的脱水甩干"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/plauged757_tome.json": {
+   "sha1": "dd6e9a09c6045d21096f8010aa89aaf48bb2c80a",
+   "t": [
+    [
+     "WARNING: ONLY TO BE USED AS A LAST RESORT!!",
+     "警告：仅限走投无路时使用！！"
+    ],
+    [
+     "Self Atomic",
+     "自我核爆"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/poseidon_tome.json": {
+   "sha1": "fb27022542a3f1ff7e05b23b290e56b265e6d26e",
+   "t": [
+    [
+     "Fire at a body of water to create a Ice bubble in the depths.",
+     "朝水域施放，在深处造出一个冰泡。"
+    ],
+    [
+     "Poseidon's Refuge",
+     "Poseidon 的庇护所"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/pranks_tome.json": {
+   "sha1": "4497f802a633d6ae844e3bd60dfc24f902b461ef",
+   "t": [
+    [
+     "Tome-Fuzzer sending chaotic magic streams into existence. May be hacking the planet.",
+     "法术书模糊测试器，凭空吐出一股股混沌魔力流。它可能正在黑掉这颗星球。"
+    ],
+    [
+     "Pranks",
+     "恶作剧"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/renew_rune_tome.json": {
+   "sha1": "0da43c153ed2b03498056f7f1be8db99cfc30a16",
+   "t": [
+    [
+     "Cures status effects and heals the user.",
+     "清除状态效果并治疗施法者。"
+    ],
+    [
+     "Rune of Renewing",
+     "复原符文"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/riftderp_tome.json": {
+   "sha1": "bae05ed04e53e5a1c95c03ea068c656baa7b190f",
+   "t": [
+    [
+     "Just like that one guy, from that one thing! This spell will put you right in the enemy's face, so be ready for some swordplay!",
+     "就像那个作品里的那个人一样！这个法术会把你直接怼到敌人脸上，所以剑准备好。"
+    ],
+    [
+     "Rift's Blink Strike",
+     "Rift 的闪现突袭"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/sebuss_tome.json": {
+   "sha1": "756057286bf8cb0add42a06e0a5a8809be2f7e5c",
+   "t": [
+    [
+     "Even the book is burning hot! You might need to use this spell with caution if you don't want your item to burn!",
+     "连书本身都烫手！不想让东西烧起来的话，用这法术悠着点！"
+    ],
+    [
+     "Sebuss's Very Hot Smelt",
+     "Sebuss 的滚烫熔炼"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/shadow_tome.json": {
+   "sha1": "731ff156cf6cc695b3834e604cd995d67546fe69",
+   "t": [
+    [
+     "Creates a temporary tunnel of blocks.",
+     "开出一条临时的方块隧道。"
+    ],
+    [
+     "The Shadow's Temporary Tunnel",
+     "Shadow 的临时隧道"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/shoob_tome.json": {
+   "sha1": "79ec54bdc4f8e6681a1d3b8f38f9e267a88fe650",
+   "t": [
+    [
+     "Need a quick getaway? Using Shoob's patented \\\"Tactical retreat\\\" technique, you can escape AND do it gracefully! (Shibe Inc is not liable for misuse or failure in the escape)",
+     "需要溜之大吉？用上 Shoob 专利的「战术转进」技术，逃跑也能逃得体面！（柴犬公司对误用及逃跑失败概不负责）"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/silvanus_tome.json": {
+   "sha1": "460917c575cf82cab1b1830494c7404da9c18bc1",
+   "t": [
+    [
+     "When you want to go deeper but just don't have the torches",
+     "想往深处走，偏偏没带火把的时候"
+    ],
+    [
+     "Emergency Flair",
+     "应急照明"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/sloppybox_tome.json": {
+   "sha1": "413daeb8f784f4868981fa435bc999deff3aa858",
+   "t": [
+    [
+     "Enough heat to melt a mountain or evaporate oceans.",
+     "这份热量足以熔山，或蒸干海洋。"
+    ],
+    [
+     "Arcane Smelt",
+     "奥术熔炼"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/spinoftw_tome.json": {
+   "sha1": "410061c52d2225c21cb0c97a86bbf8ddd4407123",
+   "t": [
+    [
+     " A utility spell to aid you in your adventures",
+     " 一个助你冒险的实用法术"
+    ],
+    [
+     "You were hurt, but you're fine",
+     "你受伤了，但你没事"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/takeoff_tome.json": {
+   "sha1": "0f8084b4279bded4ddf34d081de0778dde12ef61",
+   "t": [
+    [
+     "Launches the caster into the air and grants temporary elytra flight!",
+     "把施法者弹上天，并临时赋予鞘翅飞行！"
+    ],
+    [
+     "Takeoff!",
+     "起飞！"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/toxin_tome.json": {
+   "sha1": "3576672c719f49c05add0bba6f54bb98e7a2bb36",
+   "t": [
+    [
+     "Poisons that target and causes them to take additional damage from all sources.",
+     "使目标中毒，并令其受到的一切伤害都有额外加成。"
+    ],
+    [
+     "Potent Toxin",
+     "剧毒"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/treeleafs_tome.json": {
+   "sha1": "28e1efc3299c85f5b357e162cf557b085caf4801",
+   "t": [
+    [
+     "Just make sure your somewhere you want to be greener",
+     "只要确保你所在的地方，你希望它更绿一点"
+    ],
+    [
+     "Treeleafs gardeners dream",
+     "Treeleafs 的园丁之梦"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/uni_tome.json": {
+   "sha1": "0ebf70c421a9d25d22bbb1a9a4ec54ba0462c227",
+   "t": [
+    [
+     "Stay away!",
+     "离我远点！"
+    ],
+    [
+     "Uni's Windshield",
+     "Uni 的风盾"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/urticantodin_tome.json": {
+   "sha1": "9ebcab132ea8243d4f36f9e36e311b93241b2297",
+   "t": [
+    [
+     " Traveling issues? Nonsense, all it takes is one leap and you get there in no time! Why the sticky feeling? Safety precautions, your legs aren't strong enough for the sudden stop with the ground, so we made them bouncy!",
+     " 赶路发愁？胡说，纵身一跃就到了！那黏糊糊的手感是怎么回事？安全措施罢了——你的腿扛不住跟地面的急停，所以我们给它加了弹性！"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/vault_tome.json": {
+   "sha1": "0936edc22b65891b36c013ee389b47be236d6af3",
+   "t": [
+    [
+     "Sometimes you just need to get over that wall.",
+     "有时候你就是得翻过那堵墙。"
+    ],
+    [
+     "Vault",
+     "翻越"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/warp_impact_tome.json": {
+   "sha1": "f03a2d6e0b54094674e3f5dd1486cc30529b5e2f",
+   "t": [
+    [
+     "Teleportation, with style!",
+     "传送，也要传得有型！"
+    ],
+    [
+     "Warp Impact",
+     "跃迁冲击"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/worsecookie_tome.json": {
+   "sha1": "8ac9967e76a30ce5fa52f8b57afb250735016ad6",
+   "t": [
+    [
+     "Along the shore the cloud waves break, The twin suns sink beneath the lake, The shadows lengthen. In Carcosa",
+     "云浪拍岸而碎，双日沉入湖底，暗影渐长。于卡尔克萨"
+    ],
+    [
+     "The Yellow Sun",
+     "黄日"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/xacris_2_tome.json": {
+   "sha1": "2e67715f49d20e180c80ac4cf236b89125da84e1",
+   "t": [
+    [
+     "Light up the sky",
+     "点亮长空"
+    ],
+    [
+     "Xacris's Firework Display",
+     "Xacris 的烟花表演"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/xacris_tome.json": {
+   "sha1": "1d70462a18f39a404cc29d4c68d0e632bac82f6f",
+   "t": [
+    [
+     "Builds a small hut around the user.",
+     "在施法者周围搭起一间小屋。"
+    ],
+    [
+     "Xacris' Tiny Hut",
+     "Xacris 的小屋"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/yeet_tome.json": {
+   "sha1": "104ce2dbc4167ccf6d2128e64aa54e6be623a605",
+   "t": [
+    [
+     "Summons orbiting projectiles that will launch nearby enemies.",
+     "召出环绕飞行的弹体，把靠近的敌人弹开。"
+    ],
+    [
+     "Knocked out of Orbit",
+     "撞出轨道"
+    ]
+   ]
+  },
+  "data/ars_nouveau/recipe/tomes/yuukiukami_tome.json": {
+   "sha1": "13facc75986745e095964fbd614c751d51454df5",
+   "t": [
+    [
+     "One of YuukiUkami’s earliest creations, this spell reflects their desire for precision and mastery. Infused with the arcane finesse of its creator, it draws minerals from the earth at a distance, as if the ores themselves were eager to join the mage’s growing legacy",
+     "YuukiUkami 最早的作品之一，映照出其对精准与掌控的追求。这道法术承载着创造者的秘法巧思，能远距离将矿物自大地中抽出，仿佛矿石自己也急着加入这位法师日渐丰厚的收藏"
+    ],
+    [
+     "Yuuki's Mineral Assimilator",
+     "Yuuki 的矿物汲取器"
+    ]
+   ]
+  }
+ }
+}

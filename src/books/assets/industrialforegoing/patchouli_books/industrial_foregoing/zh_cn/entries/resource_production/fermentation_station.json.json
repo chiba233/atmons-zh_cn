@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/fermentation_station.json",
+ "sha1": "9b9f1493a9deb8062d47ae1b0f41307edf35cb2d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fermentation Station",
+   "发酵站"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Using raw ore meat this machine will seal its contents when reached the configured level and it will ferment that meat using the selected production type.",
+   "使用生矿物肉汤，这台机器会在内容物达到设定等级时将其密封，并根据所选的生产类型对该肉汤进行发酵。"
+  ]
+ ]
+}

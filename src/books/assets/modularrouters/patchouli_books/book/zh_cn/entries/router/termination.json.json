@@ -1,0 +1,49 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/router/termination.json",
+ "sha1": "31d60de83b67f54062c4b61522406edc8d45d55d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Termination",
+   "终止"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This a slightly esoteric topic which in most cases you won't need to worry about. However, when you do need it, it'll be very useful!",
+   "这是一个稍微有些冷门的话题，大多数情况下你都不需要在意。不过，等你真的需要它时，它会非常有用！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Termination is configured on a per-module basis, by the 'T' button beneath the filter slots. By default, it's inactive; if you switch if on for a module, then $(italic)if/$ the module does any work this router tick, the router will stop there. No further modules (i.e. to the right of this module) will be executed this time round.",
+   "终止功能需按模块单独配置，通过过滤槽下方的“T”按钮启用。默认状态下该功能处于关闭状态；若你为某模块启用了该功能，则$(italic)一旦/$该模块在本次路由器运行周期中执行了任何操作，路由器将立即停止运行。本轮循环中，其右侧的所有模块均不再执行。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Why would this be useful? Imagine a scenario where your router is being supplied with many items, e.g. from a quarry. You want to void $(item)Cobblestone/$, and send everything else to another inventory; so you would add a $(l:modules/void)Void Module/$ with a whitelist of Cobblestone, followed by a $(l:modules/sender_1)Sender Module/$ to send anything else onwards.",
+   "为什么这会有用呢？设想这样一个场景：你的路由器正从采石场接收大量物品。你想销毁$(item)圆石/$，并把其他所有东西发送到另一个容器；那么你可以添加一个将圆石加入白名单的$(l:modules/void)销毁模块/$，再接一个$(l:modules/sender_1)发送模块/$，把剩余物品继续传走。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "When the router runs, say there's already a stack of Cobblestone in the buffer.  The Void Module will void a Cobblestone, and then the Sender module will send the remaining 63 Cobblestone on to your storage. This is probably not you want.$(p)However, if you switch on Termination on the Void Module, then when it runs, the router will stop for that tick; the Sender module won't run until the Void Module has nothing else to do.",
+   "假设路由器运行时，其缓存中已存在一叠圆石。此时，销毁模块将销毁其中一块圆石，随后发送模块则会将剩余的63块圆石传送至你的存储系统——这很可能并非你所期望的结果。$(p)然而，若你为销毁模块启用了终止功能，则它一旦执行操作，路由器便会在此轮周期中立即停止；发送模块只有在销毁模块无事可做时，才会开始运行。"
+  ]
+ ]
+}

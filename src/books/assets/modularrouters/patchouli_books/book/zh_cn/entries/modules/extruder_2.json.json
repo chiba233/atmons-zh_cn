@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/extruder_2.json",
+ "sha1": "a0526eca6701745aeef01578383ffe17db993f1c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Extruder Module Mk2",
+   "造桥模块 Mk2"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module behaves somewhat like the $(l:modules/extruder_1)Extruder Module Mk1/$, but with a few important differences:$(li)The Mk2 module doesn't place items from the router's buffer, but rather from a template defined within the module itself.$(li)This template appears on the right-hand side of the module's GUI, has 9 slots, and can have multiple items per slot. Items placed in the template are \"ghost\" items.",
+   "该模块行为与$(l:modules/extruder_1)造桥模块 Mk1/$相似，但存在若干关键差异：$(li)Mk2模块并非从路由器缓存中提取物品进行放置，而是依据模块自身定义的模板进行操作；$(li)该模板显示于模块GUI界面右侧，共含9个槽位，且每个槽位可容纳多种物品。置于模板中的物品均为“幽灵”物品。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)Blocks extruded are \"virtual\" - effectively created out of nowhere, but drop nothing when broken and can't be crafted normally.$(li)Therefore, this module isn't suitable for farming like the Extruder Mk1, but can be used to place doors/bridges etc. with more complex patterns than the Mk1 could.$(li)The default range for the Extruder Mk2 is 24 blocks, which can be increased to 48 with Range Upgrades.",
+   "$(li)挤出的方块是“虚拟”方块——实际上是凭空生成的，但被破坏时不会掉落任何东西，也不能正常合成。$(li)因此，这个模块不像造桥模块 Mk1 那样适合农场用途，但它可以用来放置门、桥等，从而实现 Mk1 做不到的更复杂图案。$(li)造桥模块 Mk2 的默认范围是 24 格，可通过范围升级提高到 48 格。"
+  ]
+ ]
+}

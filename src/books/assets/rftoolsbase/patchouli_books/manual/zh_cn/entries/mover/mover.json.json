@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/mover/mover.json",
+ "sha1": "bbec8d3b191de908d54cf8b154a8a1644eeb6282",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mover",
+   "传运器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Mover marks a position where a vehicle can move to.$(br2)Use a $(l:rftoolsbase:mover/mover_controller)Mover Controller$(/l) to discover and connect Movers into a movement network.",
+   "传运器标记了载具可移动至的位置。$(br2)请使用$(l:rftoolsbase:mover/mover_controller)传运器控制器$(/l)发现并连接传运器，构建移动网络。"
+  ]
+ ]
+}

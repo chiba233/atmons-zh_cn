@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/extractamount.json",
+ "sha1": "ca64a162ce5d78c984a0687fd9efb153dabf967c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Extract Amount",
+   "传输数量"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Extract Amount is only available on Extractor and Stocker Modes.$(br2)This setting determines how many items (or how much fluid/fe) are extracted per operation.$(br2)For example, if set to 8 items per 20 ticks, the extractor will extract 8 items at a time, every 20 ticks.",
+   "传输数量仅在提取和存储模式可用。$(br2)该设置决定单次运行提取所少物品、流体或能量。$(br2)例如，若设为每 20 刻传输 8 个物品，提取卡就会每 20 刻一次性提取 8 个物品。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Extractor and Stocker cards have a default value of 1, and a maximum value of 8, unless $(l:laserio:overclocker_card)Card Overclockers$(/l) are installed.  The following extract amounts are allowed with the designated overclockers installed:$(br)1. 16$(br)2. 32$(br)3. 48$(br)4. 64$(br2)If you want to extract 64 items at a time, you need 4 overclockers installed.",
+   "提取卡和存储卡默认值为 1，最大值为 8；除非装有$(l:laserio:overclocker_card)卡超频元件$(/l)。传输数量最大值与超频器数量关系如下：$(br)1. 16$(br)2. 32$(br)3. 48$(br)4. 64$(br2)若想要一次提取 64 个物品，你需要装入 4 个超频器。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Left click on this value to increase it by 1. Right click to decrease it. Holding shift will multiply the change amount by 10, while holding control will multiply the change amount by 64.$(br2)These can be combined, meaning holding shift+ctrl will multiply by 640.$(br2)For example, shift right click will decrement by 10.",
+   "左击传输数量增加 1，右击减少 1。按住 Shift 点击会以 10 的倍数调整传输数量，按住 Ctrl 则以 64 的倍数进行调整。$(br2)当然也可以同时按住 Shift 和 Ctrl，以 640 的倍数进行调整。$(br2)例如，按住 Shift 右击会将传输数量减少 10。"
+  ]
+ ]
+}

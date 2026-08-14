@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/wire.json",
+ "sha1": "bf8df741e5ad7c525c464774db91428a7ef2044f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Wire",
+   "连线"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Wire$() simply transmits the $(thing)input signal$() to the $(thing)output$(). Simple, straightforward, lag free. It can only go in straight lines though. $(br2)On the upside, as with all other blocks made using $(l:rftoolsbase:basics/machine_bases)Machine Bases$(), it can be placed on walls or ceilings.",
+   "$(item)连线$()仅用于将$(thing)输入信号$()传输至$(thing)输出$()。简单直接，且无延迟。但其仅能沿直线铺设。$(br2)优点在于，与所有使用$(l:rftoolsbase:basics/machine_bases)机器基座$()制作的方块一样，它可被放置在墙壁或天花板上。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Wire",
+   "连线"
+  ]
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/compressors/electrostatic_compressor.json",
+ "sha1": "bf4b502de3300b264a62eba651acc2310020634b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Electrostatic Compressor",
+   "静电压缩机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Electrostatic Compressor/$ is a $(l:base_concepts/pressure_tiers)tier 2/$ air $(l:base_concepts/pressure)compressor/$, which uses $(thing)lightning/$ for the energy to produce compressed air.$(p)When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around? You have to have it get struck.",
+   "$(item)静电压缩机/$是一台$(l:base_concepts/pressure_tiers)阶段2/$空气$(l:base_concepts/pressure)压缩机/$，利用$(thing)闪电/$作为能量来制造压缩空气。$(p)当它被闪电击中时，会立刻产出 200,000mL 的空气。看起来很多，但你有多久会看到一只闪电苦力怕偷偷溜达呢？你必须让它被闪电击中。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To increase the chance of this happening, you can connect your compressors to a $(ttcolor)$(t:Grid blocks can be customized via the 'pneumaticraft:electrostatic_grid' block tag)grid/$ of $(item)Iron Bars/$ or $(item)Lightning Rods/$ to this machine, which act as a conductor for the lightning bolt.$(p)Larger grids are better: grid blocks can be up 5 space away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the $(item)Electrostatic Compressor/$ via each other.",
+   "为了提高这种情况发生的几率，你可以将压缩机连接到这个机器上的一片由 $(item)铁栏杆/$ 或 $(item)避雷针/$ 组成的 $(ttcolor)$(t:Grid blocks can be customized via the 'pneumaticraft:electrostatic_grid' block tag)网格/$，它们会充当闪电的导体。$(p)网格越大越好：网格方块在水平方向上最远可离开 5 格（圆形半径），上下方向最远也可离开 5 格，但它们都必须通过彼此连接，最终连到 $(item)静电压缩机/$。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Note that in the image to the left, only the central compressor has a sufficiently large grid surrounding it for maximum efficiency; the other compressors will have a lower chance of a triggering a strike (though this is still more effective than having only a single compressor in the middle of the grid).",
+   "请注意，在左侧的图片中，只有中央的压力室压缩机周围有足够大的网格，因此能达到最高效率；其他压力室压缩机触发雷击的几率会更低（不过，这仍然比只在网格中央放置单个压力室压缩机更有效）。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "With multiple $(item)Electrostatic Compressors/$ on a $(thing)grid/$, the air from a strike is shared equally amongst them.$(p)To prevent a compressor from blowing up when the pressure gets too high after a strike, you can connect up $(item)Iron Bars/$ on the bottom side of the compressor. This way the energy can be dissipated to ground instead of going into the machine.",
+   "将多个 $(item)静电压缩机/$ 放在同一个 $(thing)网格/$ 上时，一次雷击产生的空气会在它们之间平均分配。$(p)为了防止压缩机在雷击后压力过高而爆炸，你可以在压缩机底部连接 $(item)铁栏杆/$。这样一来，能量就会被导入地面耗散，而不是进入机器内部。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "This dissipation only happens when the danger pressure of the compressor has been reached, not sooner. Each $(item)Iron Bar/$ $(italic)directly/$ below the compressor (on the same Y axis) will dissipate up to 10,000mL of excess air. $(p)Thus, with 10 compressors on a shared $(thing)grid/$, $(ttcolor)$(t:200000 / 10 = 20000 air produced per compressor; 10000 x 2 = 20000 air dissipated)only 2 grid blocks/$ are needed below each compressor. (You could also add $(l:base_concepts/upgrades#security)Security Upgrades/$ to the compressor, but that's more expensive and less effective)",
+   "这种泄压只会在压缩机达到危险压力时发生，不会更早。每个位于压缩机正下方（同一 Y 轴）的 $(item)铁栏杆/$ 都能 $(italic)直接/$ 耗散最多 10,000mL 的多余空气。$(p)因此，如果 10 台压缩机共用同一片 $(thing)网格/$，那么每台压缩机下方只需要 $(ttcolor)$(t:200000 / 10 = 20000 air produced per compressor; 10000 x 2 = 20000 air dissipated)2 个网格方块/$。 （你当然也可以给压缩机加装 $(l:base_concepts/upgrades#security)安全升级/$，但那样更贵而且效果更差）"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "To improve the chance of a strike, you can also place up to 10 grid blocks directly $(italic)above/$ the compressor to form a $(thing)lightning rod/$. Each block will slightly improve the strike chance.",
+   "为了提高被击中的几率，你还可以在压缩机正 $(italic)上方/$ 放置最多 10 个网格方块，组成一个 $(thing)避雷针/$。每个方块都会略微提高落雷概率。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "$(bold)Note:/$ unlike in earlier versions of $(pncr), natural lightning bolts do $(italic)not/$ add air to the compressor (this was highly abusable using other mods to create lightning). Instead the compressor has a small chance to create a \"fake\" bolt. This chance is $(italic)very/$ small in clear weather, but improves when $(thing)raining/$, and improves dramatically in a $(thing)thunderstorm/$.",
+   "$(bold)注意：/$与 $(pncr) 的早期版本不同，自然闪电 $(italic)不会/$ 给压缩机增加空气（因为这可以与其他模组制造闪电的方式配合而被严重滥用）。取而代之的是，压缩机有很小的概率生成一道“假”闪电。在晴天时，这个概率 $(italic)非常/$ 低；下$(thing)雨/$时会提高，而在 $(thing)雷暴/$ 中天会大幅提高。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "Crafting an $(item)Electrostatic Compressor/$",
+   "合成一个 $(item)静电压缩机/$"
+  ]
+ ]
+}

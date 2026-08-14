@@ -1,0 +1,198 @@
+[
+  {
+    "name": "amendments_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.client.renderers.platform.PicklePlayer"
+    ],
+    "pairs": [
+      {
+        "key": "I am Jarman",
+        "value": "我是 Jarman"
+      },
+      {
+        "key": "I turned myself into a pickle!",
+        "value": "我把自己变成腌黄瓜了！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "net.mehvahdjukaar.supplementaries.common.utils.VibeChecker"
+    ],
+    "pairs": [
+      {
+        "key": "Supplementaries detected a possible crash caused by another mod. Check the logs.",
+        "value": "锦致装饰检测到可能由其他模组引起的崩溃。请查看日志。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.Bumblezone"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Anti Trypophobia",
+        "value": "蜜蜂领域 - 反密集恐惧症"
+      },
+      {
+        "key": "Bumblezone - Shader Emissive",
+        "value": "蜜蜂领域 - 着色器自发光"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.ForestryCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Forestry Compat",
+        "value": "蜜蜂领域 - 林业兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.JeedCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - JEED Compat",
+        "value": "蜜蜂领域 - JEED 兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.ResourcefulBeesCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Resourceful Bees Compat",
+        "value": "蜜蜂领域 - 丰饶蜜蜂兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.neoforge.BuzzierBeesCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Buzzier Bees Compat",
+        "value": "蜜蜂领域 - Buzzier Bees 兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.neoforge.ProductiveBeesCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Productive Bees Compat",
+        "value": "蜜蜂领域 - 资源蜜蜂兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.modcompat.neoforge.TokenEnchanterCompat"
+    ],
+    "pairs": [
+      {
+        "key": "Bumblezone - Token Enchanter Compat",
+        "value": "蜜蜂领域 - 徽章附魔器兼容"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.worldgen.dimension.BzChunkGenerator"
+    ],
+    "pairs": [
+      {
+        "key": "NoiseRouter T: ",
+        "value": "噪声路由器 T："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.items.recipes.ContainerCraftingRecipe$Serializer"
+    ],
+    "pairs": [
+      {
+        "key": "No ingredients for shapeless recipe",
+        "value": "无序配方没有材料"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.items.recipes.NbtKeepingShapelessRecipe$Serializer"
+    ],
+    "pairs": [
+      {
+        "key": "No ingredients for shapeless recipe",
+        "value": "无序配方没有材料"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.items.recipes.PotionCandleRecipe$Serializer"
+    ],
+    "pairs": [
+      {
+        "key": "Pattern references symbol '",
+        "value": "样板引用了符号 '"
+      },
+      {
+        "key": "Key defines symbols that aren't used in shapedPattern: ",
+        "value": "键定义了 shapedPattern 中未使用的符号："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.telepathicgrunt.the_bumblezone.items.recipes.PotionCandleRecipe$Serializer$RawPotionRecipe"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid pattern: too many rows, 3 is maximum",
+        "value": "无效样板：行数过多，最多为 3"
+      },
+      {
+        "key": "Invalid pattern: empty pattern not allowed",
+        "value": "无效样板：不允许空样板"
+      },
+      {
+        "key": "Invalid pattern: too many columns, 3 is maximum",
+        "value": "无效样板：列数过多，最多为 3"
+      },
+      {
+        "key": "Invalid pattern: each row must be the same width",
+        "value": "无效样板：每一行的宽度必须相同"
+      },
+      {
+        "key": "Invalid key tag: '",
+        "value": "无效的键标签：'"
+      },
+      {
+        "key": "Invalid key tag: ' ' is a reserved symbol.",
+        "value": "无效的键标签：' ' 是保留符号。"
+      },
+      {
+        "key": "No ingredients for shapeless recipe",
+        "value": "无序配方没有材料"
+      }
+    ]
+  }
+]

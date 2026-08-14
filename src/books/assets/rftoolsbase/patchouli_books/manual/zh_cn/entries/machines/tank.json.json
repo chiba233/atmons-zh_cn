@@ -1,0 +1,67 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/tank.json",
+ "sha1": "7662ba4e883ba608e0661cca28fa4e6258c1e153",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Tank",
+   "储罐"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A container for liquids that can (by default) hold up to 32 buckets. It's possible to restrict the type of liquids by placing a bucket with the specific liquid in the filter slot",
+   "一种用于盛装流体的容器，（默认）最多可容纳 32 桶。你可以在过滤槽中放入装有指定流体的桶，以限制可存储的流体种类。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Tank",
+   "储罐"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Right-click with buckets or other fluid containers to fill or drain the tank. Pipes can also interact with its fluid capability.",
+   "使用桶或其他流体容器对储罐进行右键点击，可实现填充或排空操作。管道亦可与其流体功能交互。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Using",
+   "使用中"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Put a filled bucket in the filter slot to lock the tank to that fluid. Remove the filter item to allow any fluid again.",
+   "在滤网槽中放入装满液体的桶，即可将储罐锁定为仅处理该种液体。移除滤网物品后，储罐将恢复为可处理任意液体。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Filter",
+   "过滤器"
+  ]
+ ]
+}

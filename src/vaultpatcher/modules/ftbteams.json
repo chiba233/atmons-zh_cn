@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ftbteams_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbteams.data.FTBTeamsCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Server ID: ",
+        "value": "服务器 ID:"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.ftb.mods.ftbteams.data.PartyTeam"
+    ],
+    "pairs": [
+      {
+        "key": "Already owner!",
+        "value": "已经是所有者！"
+      },
+      {
+        "key": "Allies:",
+        "value": "盟友："
+      }
+    ]
+  }
+]

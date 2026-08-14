@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/storagemodules.json",
+ "sha1": "75467d376a95dfd899098b5d74f5b364db80c111",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Storage Modules",
+   "存储模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Storage Modules are the actual item storage for Modular Storage. Tier 1 holds 100 stacks, Tier 2 holds 200, Tier 3 holds 300, and Tier 4 holds 500.",
+   "存储模块是模块化存储器的实际物品存储单元。一阶模块可容纳100堆叠，二阶模块可容纳200堆叠，三阶模块可容纳300堆叠，四阶模块可容纳500堆叠。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Upgrading with shaped NBT recipes preserves the module contents. Keep backups before moving valuable modules between systems.",
+   "使用塑形NBT配方升级时，模块内容将被完整保留。在将珍贵模块迁移至其他系统前，请务必做好备份。"
+  ]
+ ]
+}

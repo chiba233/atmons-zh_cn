@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/upgrade_matrix.json",
+ "sha1": "e9b6fbacea5848b6dfdca48514f9d8bb5c1f9124",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Upgrade Matrix",
+   "升级矩阵"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Upgrade Matrix/$ can be used in place of $(item)Lapis Lazuli/$ for the crafting of any $(l:base_concepts/upgrades)upgrades/$. The advantage of using Upgrade Matrices is greatly decreased Lapis usage, which may be a boon if you have limited Lapis and many upgrades to craft.",
+   "$(item)升级矩阵/$可以替代$(item)青金石/$，用于合成任何$(l:base_concepts/upgrades)升级卡/$。使用升级矩阵的优势在于能大幅减少青金石的消耗；如果你的青金石有限，但需要合成大量升级卡，这会非常有帮助。"
+  ]
+ ]
+}

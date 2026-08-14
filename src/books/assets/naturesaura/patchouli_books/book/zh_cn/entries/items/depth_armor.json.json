@@ -1,0 +1,22 @@
+{
+ "src": "assets/naturesaura/patchouli_books/book/en_us/entries/items/depth_armor.json",
+ "sha1": "9d8e5cb32da8288ad76dadcc13a41f22ac5d17f7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Soulstrider's Armor",
+   "灵魂行者盔甲"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When wearing $(item)Soulstrider's armor$(), a magical botanist can feel dark energy surging in them. While this armor can be repaired like its $(l:items/sky_armor)counterparts$(), it also provides a $(thing)set bonus$(): When wearing every piece of the armor (or swapping the chestplate for an $(item)Elytra$()), upon being struck, the armor causes all nearby enemies to fuse with the ground for a few seconds, causing them to $(thing)stand completely still$().",
+   "穿上$(item)灵魂行者盔甲$()时，魔法植物学家能感到黑暗能量在体内涌动。这套盔甲与它的$(l:items/sky_armor)同类$()一样可以修复，此外还带$(thing)套装效果$()：穿齐全套（或把胸甲换成$(item)鞘翅$()）后，一旦受到攻击，盔甲会让附近所有敌人与地面融为一体数秒，使它们$(thing)完全无法动弹$()。"
+  ]
+ ]
+}

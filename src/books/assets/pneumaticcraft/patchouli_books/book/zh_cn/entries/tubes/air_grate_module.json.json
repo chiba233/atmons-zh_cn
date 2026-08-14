@@ -1,0 +1,76 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tubes/air_grate_module.json",
+ "sha1": "407cf1a03368072f8ed851007c510f1a2dfc1834",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Air Grate Module",
+   "空气栅管道模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module is used to attract/repel entities to/from the module. With positive $(l:base_concepts/pressure)pressure/$, the tube will blow entities away and with $(thing)negative/$ pressure it will suck entities towards it. Negative pressure is achieved with a $(l:machines/vacuum_pump)Vacuum Pump/$. When item entities are close enough, they will automatically be inserted into any adjacent inventory, respecting sided inventories (like Furnaces).",
+   "该模块用于将实体吸引到模块附近，或将其从模块附近排斥开。在正$(l:base_concepts/pressure)压/$下，管道会将实体吹开；而在 $(thing)负/$压下，则会将实体吸向自身。负压可通过 $(l:machines/vacuum_pump)真空泵/$ 产生。当实体物品足够接近时，它们会自动被插入任意相邻容器中，并遵守容器的面向规则（例如熔炉）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The module's range can be expressed with these formulae:$(p)With positive pressure:$(p)  $(#272)Range = 4 x pressure (bar)/$$(p)With negative pressure:$(p)  $(#272)Range = -16 x pressure (bar)/$$(p)E.g. at 2 bar it repels at 4x2=8 blocks. At -0.5 bar, it attracts at -16x-0.5=8 blocks.",
+   "该模块的作用范围可用以下公式表示：$(p)在正气压下：$(p)  $(#272)范围 = 4 x 气压（bar）/$$(p)在负气压下：$(p)  $(#272)范围 = -16 x 气压（bar）/$$(p)例如，在 2 bar 时，它会在 4x2=8 格的范围内排斥；在 -0.5 bar 时，它会在 -16x-0.5=8 格的范围内吸引。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The Air Grate will only affect entities in a cubic area, in the direction it's facing. The module must also have line of sight to an entity.$(p)You can right-click the module to make it show the affected range for a few seconds.",
+   "空气格栅只会影响其朝向方向上一个立方区域内的实体。该模块还必须与实体保持视线接触。$(p)你可以右击该模块，使其显示受影响的范围，持续几秒钟。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "An Air Grate Module can also be used to actively cool $(l:machines/heat_sink)Heat Sinks/$. The range in which Heat Sinks is cooled is a 3x3x3 cube in front of the Air Grate. This range is visualized when the module is placed down.$(p)The Air Grate will only cool Heat Sinks when it has a range of 3 blocks or more (so, 0.75 bar).",
+   "空气格栅模块也可用于主动冷却$(l:machines/heat_sink)散热片/$。空气格栅前方会形成一个 3x3x3 的立方体区域，其中的散热片会被冷却。放置该模块时，会显示这一区域。$(p)只有当空气格栅的作用距离达到 3 格或以上时，它才会冷却散热片（即 0.75 bar）。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Heat Sink Cooling",
+   "散热片主动散热"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "When you apply an $(l:tubes/module_expansion_card)Module Expansion Card/$, you gain control over which entities are affected by the module.$(p)You could set it up, for example, so that only a certain player gets affected, or only Creepers, or only items. This can be done by right clicking the upgraded module to open a GUI allowing an $(l:base_concepts/entity_filter)entity filter/$ to be defined.",
+   "当你安装 $(l:tubes/module_expansion_card)模块拓展卡/$ 后，你就可以控制哪些实体会受到该模块的影响。$(p)例如，你可以设置成只影响某位特定玩家，或者只影响苦力怕，或者只影响物品。要做到这一点，只需右键点击已升级的模块，打开 GUI，并在其中定义一个 $(l:base_concepts/entity_filter)实体过滤器/$。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Crafting a Air Grate Module",
+   "合成空气格栅模块"
+  ]
+ ]
+}

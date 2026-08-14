@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/minigun.json",
+ "sha1": "f016ba5e53d67bdd751f7328db17b5766a8f9dc6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Minigun",
+   "转管机枪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Minigun/$ is a handheld weapon, which runs on $(l:base_concepts/pressure)compressed air/$ and $(l:tools/minigun_ammo)Gun Ammo/$. Ammo needs to be inserted into the $(l:tools/minigun_ammo#magazine)Minigun's magazine/$ - it will not be consumed from the player's inventory.$(p)To fire the minigun, simply hold $(thing)right-click/$. The barrel will start to spin and will fire as soon as it is up to speed.",
+   "$(item)转管机枪/$是一种手持武器，以 $(l:base_concepts/pressure)压缩空气/$ 和 $(l:tools/minigun_ammo)Gun Ammo/$ 运作。弹药需要装入 $(l:tools/minigun_ammo#magazine)转管机枪的弹链/$中——不会直接消耗玩家物品栏中的弹药。$(p)要发射转管机枪，只需按住$(thing)右击/$。枪管会开始旋转，并在转速达到后立刻开火。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Many features (spin-up speed, range, potion proc chance...) of the $(item)Minigun/$ are upgradable in a $(l:machines/charging_station)Charging Station/$.$(p)Full documentation on each upgrade and its effects is available in the Charging Station's upgrade GUI.",
+   "$(item)转管机枪/$的许多特性（预热速度、射程、药水触发几率等）都可以在$(l:machines/charging_station)充气站/$中升级。$(p)有关每种升级及其效果的完整说明，可在充气站的升级 GUI 中查看。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Upgrading",
+   "升级"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Minigun",
+   "合成加特林机枪"
+  ]
+ ]
+}

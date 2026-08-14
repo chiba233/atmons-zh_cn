@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/sewage_composter.json",
+ "sha1": "8e1b0c8f6e62d2d055e91f441c9521a99c1313df",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sewage Composter",
+   "污水堆肥机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When provided with $(l:agr_hus/sewage)Sewage$() this machine will create $(l:agr_hus/fertilizer)Fertilizer$() from it.",
+   "当提供 $(l:agr_hus/sewage)污水$() 时，这台机器会将其转化为 $(l:agr_hus/fertilizer)肥料$()。"
+  ]
+ ]
+}

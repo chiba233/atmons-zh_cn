@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/stonework_factory.json",
+ "sha1": "882fa367aa37b8aa3bf0453fbd52e91bc02e69ac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Material StoneWork Factory",
+   "造石加工机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A next-generation $(6)cobblestone$() generator.$(br2)When supplied with $(6)60$()RF/t and both $(6)water$() and $(6)lava$(), it can be instructed to create certain materials.$(br)These materials can be further manipulated by actions:$(br)$(li)Smelting$(br)$(li)Crushing$(br)$(li)Crafting",
+   "新一代的 $(6)圆石$() 造石机。$(br2)当提供 $(6)60$()RF/t 以及 $(6)水$() 和 $(6)熔岩$() 后，它可以被设定为制造特定材料。$(br)这些材料还可以通过以下操作进一步处理：$(br)$(li)烧炼$(br)$(li)粉碎$(br)$(li)合成"
+  ]
+ ]
+}

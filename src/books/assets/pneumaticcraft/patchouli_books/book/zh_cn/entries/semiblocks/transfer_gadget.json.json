@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/semiblocks/transfer_gadget.json",
+ "sha1": "fbb1e3c6fe721dab7a272d2b5ddae25b981f0f8e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Transfer Gadget",
+   "传输装置"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Transfer Gadget/$ is a rather basic item/fluid transfer item. It can be placed $(italic)between/$ two inventories or tanks to transfer between them. The best way to place it is to first place down one inventory, then right click the side of that block with a $(item)Transfer Gadget/$, then place the second inventory.",
+   "$(item)传输装置/$是一种相当基础的物品/流体传输物品。它可以放置在两个容器或储罐$(italic)之间/$，以在它们之间进行传输。放置它的最佳方式是先放下一个容器，然后手持 $(item)传输装置/$ 右键点击该方块的侧面，再放置第二个容器。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Transfer Gadget will have one of two colors:$(li)$(6)Orange/$ - output mode$(li)$(9)Blue/$ - input mode.$(p)An $(6)output mode/$ gadget extracts from the inventory/tank it's placed on, inserting to the neighbouring block, and an $(9)input mode/$ gadget does the opposite. Resources are transferred at a rate of 1 item or 100mB fluid every 2 seconds.",
+   "传输装置会有两种颜色之一：$(li)$(6)橙色/$ - 输出模式$(li)$(9)蓝色/$ - 输入模式。$(p)处于 $(6)输出模式/$ 的传输装置会从它所放置的容器/储罐中抽取资源，并插入到相邻方块中；而处于 $(9)输入模式/$ 的传输装置则正好相反。资源传输速度为每 2 秒 1 个物品或 100mB 流体。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(thing)Right-click/$ the $(item)Transfer Gadget/$ with an empty hand or a $(l:tools/logistics_configurator)Logistics Configurator/$ to toggle input/output mode. $(thing)Sneak+right-click/$ (or left-click - hit) to remove the $(item)Transfer Gadget/$.$(p)Because of its low speed and cheap recipe, this is ideal for early-game item/fluid transfer where space might be limited.",
+   "$(thing)右击/$$(item)传输装置/$，手中不拿物品或拿着$(l:tools/logistics_configurator)物流配置器/$时，可切换输入/输出模式。$(thing)潜行+右击/$（或左击——攻击）可移除$(item)传输装置/$。$(p)由于其速度较慢但合成配方便宜，因此非常适合游戏前期在空间有限的情况下传输物品/流体。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a Transfer Gadget",
+   "合成传输装置"
+  ]
+ ]
+}

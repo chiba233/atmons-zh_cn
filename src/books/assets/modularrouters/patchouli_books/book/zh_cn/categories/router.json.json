@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/router.json",
+ "sha1": "9e0b9251bd0c34c0b9dc4cf4501b084decaf7b1e",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Modular Router is the only block in the $(modr) mod.",
+   "物品路由器是 $(modr) 模组中唯一的方块。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Modular Router",
+   "物品路由器"
+  ]
+ ]
+}

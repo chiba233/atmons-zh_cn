@@ -1,0 +1,75 @@
+[
+  {
+    "name": "mousetweaks_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "yalter.mousetweaks.ConfigScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Mouse Tweaks Options",
+        "value": "鼠标微调选项"
+      },
+      {
+        "key": "RMB Tweak",
+        "value": "右键调整"
+      },
+      {
+        "key": "Wheel Tweak",
+        "value": "滚轮调整"
+      },
+      {
+        "key": "Wheel Tweak Search Order",
+        "value": "滚轮微调搜索顺序"
+      },
+      {
+        "key": "Scroll Direction",
+        "value": "滚动方向"
+      },
+      {
+        "key": "Scroll Scaling",
+        "value": "滚动缩放"
+      },
+      {
+        "key": "Debug Mode",
+        "value": "调试模式"
+      },
+      {
+        "key": "First to Last",
+        "value": "从前到后"
+      },
+      {
+        "key": "Last to First",
+        "value": "从后到前"
+      },
+      {
+        "key": "Down to Push, Up to Pull",
+        "value": "向下滚动推入，向上滚动拉出"
+      },
+      {
+        "key": "Up to Push, Down to Pull",
+        "value": "向上滚动推入，向下滚动拉出"
+      },
+      {
+        "key": "Inventory Position Aware",
+        "value": "物品栏位置感知"
+      },
+      {
+        "key": "Inventory Position Aware, Inverted",
+        "value": "物品栏位置感知，反转"
+      },
+      {
+        "key": "Multiple Wheel Clicks Move Multiple Items",
+        "value": "多次滚轮点击移动多个物品"
+      },
+      {
+        "key": "Always Move One Item (macOS Compatibility)",
+        "value": "总是移动一个物品（macOS 兼容性）"
+      }
+    ]
+  }
+]

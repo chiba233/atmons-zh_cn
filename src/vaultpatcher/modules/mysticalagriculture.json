@@ -1,0 +1,19 @@
+[
+  {
+    "name": "mysticalagriculture_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.blakebr0.mysticalagriculture.compat.crafttweaker.AwakeningCrafting$SetEssenceVesselColorAction"
+    ],
+    "pairs": [
+      {
+        "key": "Mystical Agriculture",
+        "value": "神秘农业"
+      }
+    ]
+  }
+]

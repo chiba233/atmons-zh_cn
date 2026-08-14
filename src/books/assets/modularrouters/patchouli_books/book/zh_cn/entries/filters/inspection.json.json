@@ -1,0 +1,40 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/filters/inspection.json",
+ "sha1": "923e8df2319af564900fd8d71494e114b98e2755",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Inspection Filter",
+   "检测过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This filter allows for matching of items by various miscellaneous integer properties of the item. The current inspections supported are:$(li)For fluid container items (buckets, tanks...), the fluid level as a percentage.$(li)For energy container items (batteries, powered tools...), the energy level as a percentage.",
+   "该过滤器支持通过物品各类杂项整数属性进行匹配。当前支持的检测类型包括：$(li)对于流体容器类物品（如水桶、储罐等），检测其内部流体容量百分比；$(li)对于能量容器类物品（如电池、充能工具等），检测其内部能量容量百分比。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)The highest enchantment level of enchantments on the item (can be used to filter out enchanted items, e.g. from a mob farm)$(li)The durability of items (tools, weapons) as a percentage of the max durability.$(li)For edible items, the food value as the number of half-shanks restored (e.g. steak has a value of 8).",
+   "$(li)物品所附魔咒的最高等级（可用于筛选出附魔物品，例如来自刷怪笼的战利品）；$(li)物品（工具、武器）的耐久度，以最大耐久度的百分比表示；$(li)对于可食用物品，检测其食物值，即恢复半条饥饿值的数量（例如牛排的食物值为8）。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "For items which don't have the inspected property at all, the returned value will always be -1, e.g. a piece of $(item)Cobblestone/$ has a durability value of -1. This is distinct from a 0 return, since a tool with <1% durability remaining would return a value of 0.$(p)This filter can be useful to automatically pull out damaged or discharged items for repair/recharging, etc.",
+   "对于根本不具有被检测属性的物品，返回值始终为 -1，例如一块$(item)圆石/$的耐久值就是 -1。这与返回 0 不同，因为一件剩余耐久低于 1% 的工具会返回 0。$(p)这个过滤器可用于自动抽出受损或电量耗尽的物品，以便修理、充能等。"
+  ]
+ ]
+}

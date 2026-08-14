@@ -1,0 +1,40 @@
+---
+id: mffs:projector
+type: block
+---
+
+# 力场投影仪
+
+力场投影仪是 MFFS 机器家族的核心。它消耗 []($fortron) 能量，在世界里投射出各种形状与大小的力场。
+
+<PrefabObtaining />
+
+## 用法
+
+要生成力场，先把力场投影仪与附近的 [Fortron 能量储存器](@mffs:fortron_capacitor) 联动，给它供上 []($fortron)。
+
+两种做法：
+- 右键点击力场投影仪，在界面里输入相同的频率号
+- 手持 [频率卡](@mffs:frequency_card) 潜行右键点击投影仪
+
+想要哪种力场形状，就合成对应的投影模式物品。右键打开投影仪，把该模式物品放进中间那个被外向箭头围着的红色槽位。
+
+再合成若干 [扩展模块](@mffs:scale_module)，放进界面左侧的模块矩阵格里。矩阵格里每多一个 [扩展模块](@mffs:scale_module)，
+力场半径就增加 1 格。
+
+界面底部那个数字表示：维持指定大小与形状的力场需要多少 []($fortron)。
+用 [红石](@minecraft:redstone) 信号激活投影仪。
+
+激活后力场投影仪会从红色变成蓝色，开始投射力场（前提是 Fortron 足够）。
+
+想穿过力场，需要 [生物识别器](@mffs:biometric_identifier)。
+
+## 可升级项
+
+力场投影仪可以装各种模块。
+
+通用模块的效果如下：
+
+- [扩展模块](@mffs:scale_module)：调整投射出的力场形状
+- [速度模块](@mffs:speed_module)：让投影仪更快地生成力场
+- [容量模块](@mffs:capacity_module)：提高投影仪能储存的 Fortron 上限

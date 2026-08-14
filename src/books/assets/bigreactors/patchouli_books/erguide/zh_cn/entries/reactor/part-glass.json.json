@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-glass.json",
+ "sha1": "d49f7b4c8d342e7529b2786e1df68f00d7956dfd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Glass blocks are decorative elements that can be used in place of Casing blocks to showcase the interior of the Reactor.",
+   "玻璃方块是装饰性元素，可以替代机壳方块使用，以展示反应堆内部。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Glass",
+   "玻璃"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面上（不在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

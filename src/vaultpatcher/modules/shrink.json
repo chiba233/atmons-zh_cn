@@ -1,0 +1,19 @@
+[
+  {
+    "name": "shrink_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.gigabit101.shrink.client.ShrinkScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Shrinking Device",
+        "value": "缩放装置"
+      }
+    ]
+  }
+]

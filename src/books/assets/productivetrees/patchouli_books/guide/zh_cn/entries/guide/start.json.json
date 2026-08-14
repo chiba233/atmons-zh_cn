@@ -1,0 +1,49 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/guide/start.json",
+ "sha1": "3072a95b9a6f0bc2af274c21a1d18ad7af2df3bf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Getting Started",
+   "开始"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Put one tree next to another tree near some bees, profit.$(br)The hive can be simulated and range upgrades increase the working area by 2 blocks per upgrade. Base range is 4.$(br2)Please note that this mod is in beta and not feature complete.$(br)Specifically the growth features for the trees (how they look when grown) are under development.",
+   "将一棵树紧邻另一棵树放置，并确保附近有蜜蜂，即可坐享收益。$(br)蜂箱支持模拟运行，而射程升级可使工作范围每次提升2个方块，基础射程为4个方块。$(br2)请注意，本模组尚处测试阶段，功能尚未完善。$(br)尤其是树木的成长特性（即成长后的外观）仍在开发中。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Put one tree next to another tree near some bees, profit.$(br)You can also collect leaves and run them through a pollen sifter to extract pollen. Use the pollen balls on a leaf to pollinate it and get a new tree species.$(br2)Please not that this mod is in beta and not feature complete.$(br1)Specifically the growth features for the trees (how they look when grown) are under development.",
+   "将一棵树紧邻另一棵树放置，并确保附近有蜜蜂，即可坐享收益。$(br)你还可以收集树叶，再用花粉筛进行筛选以提取花粉；将花粉球用于树叶上，即可为其授粉并培育出新的树种。$(br2)请注意，本模组尚处测试阶段，功能尚未完善。$(br1)尤其是树木的成长特性（即成长后的外观）仍在开发中。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "If you use bees you need to make sure that the leaves of the two trees you want to breed are withing 4 blocks of the beenest/hive and that the bees have flowers nearby. Each trip to the hive from the flower will trigger a pollination attempt on a nearby leaf.",
+   "若使用蜜蜂进行育种，请确保两棵目标树木的树叶均位于蜂巢/蜂箱周围4个方块范围内，且蜜蜂附近需有花朵。蜜蜂每次从花朵飞回蜂巢时，都会尝试对附近的树叶进行一次授粉。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "You can use a spyglass to better spot which leaves have been pollinated.",
+   "你可以使用单筒望远镜更清晰地分辨哪些树叶已被授粉。"
+  ]
+ ]
+}

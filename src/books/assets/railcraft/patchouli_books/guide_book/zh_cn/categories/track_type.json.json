@@ -1,0 +1,20 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/categories/track_type.json",
+ "sha1": "67682a484d34fb2c46bfcfbea75de6c059dd23c3",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "They are represented by the rail types and the railbed types. Each of them has different abilities, such as speed, conduction, collision, whether they can be unsupported by blocks, explosion resistance, etc.",
+   "它们由铁轨类型和道砟类型表示。每种类型都具有不同的能力，例如速度、导热、碰撞、是否可悬空放置、爆炸抗性等。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Track Type",
+   "追踪类型"
+  ]
+ ]
+}

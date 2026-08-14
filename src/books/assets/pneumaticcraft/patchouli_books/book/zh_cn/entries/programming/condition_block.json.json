@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/condition_block.json",
+ "sha1": "1596342465a515a82282a6a5b06630db43df68a0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Condition: Block Widget",
+   "条件：方块组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a $(l:programming/conditions)Condition/$ widget.$(p)The $(thing)Condition: Block/$ widget allows you to check an $(l:programming/area)area/$ for certain blocks. With this you can check if an area contains a full-grown crop, for example. You can filter which blocks are valid by attaching an $(l:programming/item_filter)Item Filter/$.",
+   "这是一个$(l:programming/conditions)条件/$部件。$(p)$(thing)条件：方块/$部件可让你检查某个$(l:programming/area)区域/$内是否存在特定方块。例如，你可以用它检查一片区域内是否有已经完全成熟的作物。你还可以通过连接一个$(l:programming/item_filter)物品过滤器/$来筛选哪些方块是有效的。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The drone will check the block if it can be silk touched, if so it will check if the item filter matches the silk touched block. If it can't be silk touched, the drops of the block will be used to filter.$(p)For example, you can set the filter to Wheat, and it will match the filter as soon as the crop will drop wheat (= full grown).",
+   "无人机将检查该方块是否能被精准采集；如果可以，它会检查物品过滤器是否与精准采集后的方块匹配。如果不能被精准采集，就会使用该方块的掉落物来进行过滤。$(p)例如，你可以将过滤器设置为小麦，这样只要该作物会掉落小麦（= 已完全长成），就会匹配过滤器。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(italic)Condition: Block Widget/$",
+   "$(italic)条件：方块控件/$"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+window {
+    size(180,152)
+
+    binddata('name', 'name', 'rftoolsbuilder:mover_data')
+    bind('connections', 'connections')
+    binddata('down', 'down', 'rftoolsbuilder:mover_data')
+    binddata('up', 'up', 'rftoolsbuilder:mover_data')
+    binddata('north', 'north', 'rftoolsbuilder:mover_data')
+    binddata('south', 'south', 'rftoolsbuilder:mover_data')
+    binddata('west', 'west', 'rftoolsbuilder:mover_data')
+    binddata('east', 'east', 'rftoolsbuilder:mover_data')
+
+    panel('','positional') {
+        bg1('rftoolsbuilder:textures/gui/mover.png')
+
+        label('', '连接：') {
+            hint(10,10,70,14)
+            horizalign('ALIGN_LEFT')
+        }
+         label('connections', '') {
+             hint(80,10,35,14)
+             horizalign('ALIGN_LEFT')
+         }
+
+        label('', '名称：') {
+            hint(10,25,35,14)
+            horizalign('ALIGN_LEFT')
+        }
+        textfield('name') {
+            hint(40,25,60,14)
+            tooltips('设置此移动器的名称')
+        }
+
+        panel('','horizontal') {
+            hint(2,40,160,20)
+            spacing(1)
+            label('', '已排除：')
+            togglebutton('down','D') {
+                tooltips('启用/禁用向下方向')
+            }
+            togglebutton('up','U') {
+                tooltips('启用/禁用向上方向')
+            }
+            togglebutton('north','N') {
+                tooltips('启用/禁用北方向')
+            }
+            togglebutton('south','S') {
+                tooltips('启用/禁用南方向')
+            }
+            togglebutton('west','W') {
+                tooltips('启用/禁用西方向')
+            }
+            togglebutton('east','E') {
+                tooltips('启用/禁用东方向')
+            }
+        }
+    }
+}

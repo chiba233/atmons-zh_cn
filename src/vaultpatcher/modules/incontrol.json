@@ -1,0 +1,105 @@
+[
+  {
+    "name": "incontrol_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdArea"
+    ],
+    "pairs": [
+      {
+        "key": "Not in any area",
+        "value": "不在任何区域内"
+      },
+      {
+        "key": "Current area: ",
+        "value": "当前区域："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdDays"
+    ],
+    "pairs": [
+      {
+        "key": "Current day is ",
+        "value": "当前日期为"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdInfo"
+    ],
+    "pairs": [
+      {
+        "key": "Light: ",
+        "value": "光照："
+      },
+      {
+        "key": "Current day is ",
+        "value": "当前日期为"
+      },
+      {
+        "key": "Current time is ",
+        "value": "当前时间为 "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdNumbers"
+    ],
+    "pairs": [
+      {
+        "key": "Current numbers: ",
+        "value": "当前数值："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdPhases"
+    ],
+    "pairs": [
+      {
+        "key": "Current phases: ",
+        "value": "当前阶段："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.commands.CmdReload"
+    ],
+    "pairs": [
+      {
+        "key": "Reloaded InControl rules",
+        "value": "已重新加载 InControl 规则"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "mcjty.incontrol.tools.rules.RuleBase"
+    ],
+    "pairs": [
+      {
+        "key": "Block is not valid!",
+        "value": "方块无效！"
+      },
+      {
+        "key": "Mob resizing not implemented yet!",
+        "value": "怪物尺寸调整尚未实现！"
+      },
+      {
+        "key": "Bad NBT for mob!",
+        "value": "怪物的 NBT 错误！"
+      }
+    ]
+  }
+]

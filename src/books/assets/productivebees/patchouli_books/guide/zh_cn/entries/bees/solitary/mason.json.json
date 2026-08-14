@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/mason.json",
+ "sha1": "94c03b1ed149f2fd0bc2332571457e3fde66bf7d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mason Bee",
+   "石匠蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Osmia lignaria]",
+   "[蓝果园蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Mason Bee",
+   "石匠蜜蜂"
+  ]
+ ]
+}

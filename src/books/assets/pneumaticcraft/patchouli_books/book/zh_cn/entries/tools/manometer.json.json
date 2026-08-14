@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/manometer.json",
+ "sha1": "6a83c03b9ea998765a66f9ab89859cc07fed90b3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Manometer",
+   "压力计"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "With a Manometer you can measure $(l:base_concepts/pressure)pressure/$ on a pneumatic network. Additionally, some Pneumatic machines/tubes have some special information about them. For instance, the $(l:tubes/safety_module)Safety Valve Tube Module/$ displays its safety threshold. So if you aren't feeling comfortable with redstone maths, this tool may be of use to you.",
+   "使用压力计，你可以测量气动网络中的$(l:base_concepts/pressure)压力/$。此外，一些气动机器/管道还会显示一些特殊信息。例如，$(l:tubes/safety_module)安全阀管道模块/$会显示其安全阈值。所以，如果你不太擅长红石计算，这个工具可能会对你有用。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Manometer",
+   "合成压力计"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "With mods such as $(thing)The One Probe/$ or $(thing)WAILA/HWYLA/$ installed, the $(item)Manometer/$ may be of limited use.",
+   "安装了诸如 $(thing)The One Probe/$ 或 $(thing)WAILA/HWYLA/$ 之类的模组后，$(item)压力计/$ 的用途可能会比较有限。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Other Mods",
+   "其余模组"
+  ]
+ ]
+}

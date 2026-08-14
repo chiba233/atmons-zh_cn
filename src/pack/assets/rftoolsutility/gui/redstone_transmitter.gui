@@ -1,0 +1,19 @@
+window {
+    size(168,44)
+
+    action('reset','reset')
+
+    panel('','vertical') {
+        bgthickness(2)
+        textfield('name') {
+            channel('name')
+            desired(160,16)
+            tooltips('此项的可选名称','红石频道')
+        }
+        button('reset','重置频道') {
+            channel('reset')
+            desired(160,16)
+            tooltips('重置频道')
+        }
+    }
+}

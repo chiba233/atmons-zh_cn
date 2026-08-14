@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/simple/connector.json",
+ "sha1": "806a7cc87a322046279c2513f869dbbaa177e23e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Connectors",
+   "连接器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Use a Connector to attach a cable network to a block or machine. Open the Connector to name it and control whether it is enabled.",
+   "使用连接器将线缆网络接入方块或机器。打开连接器GUI可为其命名，并控制其启用状态。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Advanced Connectors support higher internal energy capacity and more demanding setups. They are configured in the same way as normal connectors.",
+   "高级连接器支持更高的内部能量容量及更复杂的配置需求。其配置方式与普通连接器完全一致。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Routing Connectors are for routing networks. Use them with routing cables when linking networks through Routers or Wireless Routers.",
+   "路由连接器专用于路由网络。在通过路由器或无线路由器连接网络时，请配合路由网络线缆使用。"
+  ]
+ ]
+}

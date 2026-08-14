@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/ether_gas.json",
+ "sha1": "4b27ee8bfdf113567cd80562cb21d4dddffd04de",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ether Gas (Bucket)",
+   "以太气体（桶）"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The fluid produced by the $(l:resource_production/fluid_laser_base)Fluid Laser Base$() when placed right on top of a Wither.",
+   "由 $(l:resource_production/fluid_laser_base)流体镭射钻基座$() 在正上方放置于一只凋零上方时产出的流体。"
+  ]
+ ]
+}

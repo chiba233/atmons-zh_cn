@@ -1,0 +1,19 @@
+[
+  {
+    "name": "mininggadgets_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.direwolf20.mininggadgets.client.screens.widget.ToggleButton"
+    ],
+    "pairs": [
+      {
+        "key": "Enabled: ",
+        "value": "已启用："
+      }
+    ]
+  }
+]

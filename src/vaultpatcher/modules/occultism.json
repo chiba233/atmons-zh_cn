@@ -1,0 +1,118 @@
+[
+  {
+    "name": "occultism_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonDjinniManageMachineItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Manage Machine",
+        "value": "Testspirit 管理机器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonDjinniTest"
+    ],
+    "pairs": [
+      {
+        "key": "Djinni Test",
+        "value": "巨灵测试"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonFoliotCleanerItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Cleaner",
+        "value": "测试精灵清洁器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonFoliotFarmerItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Farmer",
+        "value": "测试精灵农民"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonFoliotLumberjackItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Lumberjack",
+        "value": "泰斯特斯皮里特 伐木工人"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonFoliotTraderItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Trader",
+        "value": "测试精灵交易员"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.debug.SummonFoliotTransportItemsItem"
+    ],
+    "pairs": [
+      {
+        "key": "Testspirit Transporter",
+        "value": "测试灵传送器"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.item.tool.GuideBookItem"
+    ],
+    "pairs": [
+      {
+        "key": "Book ID: ",
+        "value": "书籍 ID:"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.ritual.CommandRitual"
+    ],
+    "pairs": [
+      {
+        "key": "Executing command block",
+        "value": "正在执行命令方块"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.klikli_dev.occultism.common.ritual.Ritual"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown condition",
+        "value": "未知条件"
+      }
+    ]
+  }
+]

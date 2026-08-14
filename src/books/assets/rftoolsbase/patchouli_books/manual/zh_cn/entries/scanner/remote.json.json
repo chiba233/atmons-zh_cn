@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/remote.json",
+ "sha1": "8043a2e21ec396e0bdf7a9c161572212d40d3369",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Remote Scanner",
+   "远程扫描器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Tablet Scanner is a tablet state used for remote access to a linked Storage Scanner.",
+   "平板电脑（检测器）是一种用于远程访问已链接存储检测器的平板电脑状态。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Link a Storage Control Module to a Storage Scanner, put that module in a tablet, and select it. Right-click opens the remote scanner GUI.",
+   "将存储控制模块链接至存储检测器，再将该模块插入平板电脑并选中。右键点击即可打开远程扫描器GUI。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Sneak right-click opens the tablet management GUI instead. Remote use consumes FE from the tablet according to the scanner tablet cost.",
+   "潜行右键点击将打开平板电脑管理GUI。远程使用时，将根据扫描平板电脑的消耗标准，从平板电脑中扣除FE。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/laser_drill.json",
+ "sha1": "7b113ba3117751418978f720af8937225681f3f3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Laser Drill",
+   "镭射钻"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine, when provided with power, charges the first $(l:resource_production/ore_laser_base)Ore Laser Base$() and $(l:resource_production/fluid_laser_base)Fluid Laser Base$() that finds in its working area.",
+   "这台机器在供电后，会为其工作范围内找到的第一个 $(l:resource_production/ore_laser_base)镭射钻基座$() 和 $(l:resource_production/fluid_laser_base)流体镭射钻基座$() 充能。"
+  ]
+ ]
+}

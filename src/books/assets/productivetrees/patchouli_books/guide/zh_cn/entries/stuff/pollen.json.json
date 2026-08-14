@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/stuff/pollen.json",
+ "sha1": "4a4c9f33850877738a359bf6f6ea4d12fec460da",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pollen",
+   "花粉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Pollen collected by bees can be used to manually pollinates leaves and create new tree species. Check in JEI which trees to be bred together to know which pollen to use on which leaves.",
+   "蜜蜂采集的花粉可用于手动为树叶授粉，并培育出新的树种。请在JEI中查阅哪些树木可相互杂交，从而明确应将哪种花粉用于哪类树叶。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Pollen collected by pollen sifters can be used to manually pollinates leaves and create new tree species. Check in JEI which trees to be bred together to know which pollen to use on which leaves.",
+   "花粉筛采集的花粉可用于手动为树叶授粉，并培育出新的树种。请在JEI中查阅哪些树木可相互杂交，从而明确应将哪种花粉用于哪类树叶。"
+  ]
+ ]
+}

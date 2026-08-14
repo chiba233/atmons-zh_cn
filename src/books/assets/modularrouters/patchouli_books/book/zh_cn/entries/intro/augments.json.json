@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/intro/augments.json",
+ "sha1": "6967b2418676cf324cbb2541e78f3ba0c5a43e6d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Augments",
+   "升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Augments/$ are like $(l:intro/upgrades)upgrades/$ but are inserted into a $(l:intro/modules)module/$ rather than a $(l:intro/modular_router)Modular Router/$. Each module has slots for 4 augments (some augments can be stacked). Augments enhance or extend a module's functionality in various ways.",
+   "$(thing)增强件/$有点像$(l:intro/upgrades)升级/$，但它们插入的是$(l:intro/modules)模块/$而不是$(l:intro/modular_router)物品路由器/$。每个模块都有 4 个增强件槽位（某些增强件可以堆叠）。增强件能以多种方式强化或扩展模块的功能。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)A Vacuum Module with 6 Range Up augments and an XP Vacuum augment/$",
+   "$(italic)一个装有 6 个范围升级拓展和一个经验吸收拓展的虚空模块/$"
+  ]
+ ]
+}

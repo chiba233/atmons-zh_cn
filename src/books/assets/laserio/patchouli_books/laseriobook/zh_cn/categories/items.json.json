@@ -1,0 +1,20 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/categories/items.json",
+ "sha1": "6f24335dfa8a9df9740c75ee398e79452eb79a4b",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A few items that are used in the mod!",
+   "一些本模组的物品！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Items",
+   "物品"
+  ]
+ ]
+}

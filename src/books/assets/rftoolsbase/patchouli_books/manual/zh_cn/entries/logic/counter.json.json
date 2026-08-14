@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/counter.json",
+ "sha1": "67e286b90f2d2b7c648e50768bda7223accffa0d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Counter",
+   "计数器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The counter is a simple block that will count redstone pulses and emit a redstone signal when it reaches a certain number. Then it starts over. $(br2)its GUI has two values - 'Counter' (the maximum number it can count up to) and 'Current' (the number it's currently at).",
+   "计数器是一个简单的方块，它会统计红石脉冲，并在达到指定次数时发出红石信号。之后它会重新开始。$(br2)它的 GUI 有两个值——“Counter”（可计数到的最大值）和“Current”（当前计数值）。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Counter",
+   "计数器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Once Current is equal to Counter, it emits a redstone signal. Another redstone pulse will turn off the signal and reset Counter to 0.",
+   "当 Current 等于 Counter 时，它会发出红石信号。再来一个红石脉冲会关闭该信号，并将 Counter 重置为 0。"
+  ]
+ ]
+}

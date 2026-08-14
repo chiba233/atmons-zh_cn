@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/crusher.json",
+ "sha1": "c1f69a12520220d4013a0c598a1010e64d82c773",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crusher",
+   "粉碎机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Rock Crusher is a 3x2x2 structure for processing various materials. The Crusher is built out of 12 special blocks made from a Steel Block, Pistons, and Diamonds. If broken down, it takes 3 Blocks of Steel, 12 Pistons, and 12 Diamonds to build one Rock Crusher. Rock Crushers cannot be built adjacent to each other – there must be at least one tile in between Rock Crushers.",
+   "粉碎机是一种3×2×2尺寸的结构，用于加工各类材料。该粉碎机由12块特殊方块构成，原料为钢块、活塞与钻石。若将其拆除，重建一台粉碎机需消耗3个钢块、12个活塞与12颗钻石。粉碎机之间不可相邻建造——两台粉碎机间至少需间隔一格空间。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Crusher",
+   "粉碎机"
+  ]
+ ]
+}

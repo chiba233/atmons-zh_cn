@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/tools/tag_filter.json",
+ "sha1": "9b71f1a3e5e09834c6d67a470b2d6c63b021164b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tag Filter",
+   "标签过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "See the $(l:machines/tag_workbench)Tag Workbench/$.",
+   "参见 $(l:machines/tag_workbench)标签工作台/$。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/sensor.json",
+ "sha1": "0d2804a513b8589ef7fd441e051fe9551e9c4f9a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sensor",
+   "传感器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The sensor can detect various things directly in front of its input (either 1 block, 3 blocks or 5 blocks). It can detect blocks being placed, crop growth level, number of entities and so on",
+   "传感器可以检测其输入端正前方的各种情况（距离可为 1 格、3 格或 5 格）。它可以检测方块是否被放置、作物生长等级、实体数量等等。"
+  ]
+ ]
+}

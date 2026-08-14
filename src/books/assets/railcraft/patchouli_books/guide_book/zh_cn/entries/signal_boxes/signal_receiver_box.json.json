@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/signal_boxes/signal_receiver_box.json",
+ "sha1": "f1092c674512143b7a4d198672e86ab2911d50b9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Receiver Box",
+   "信号接收器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This box can be paired with any Controller. When paired, you can open a GUI to pick which Signal Aspects should emit a Redstone current from the Box. If placed next to a Signal Controller Box it will transmit the Aspect to it as well.",
+   "此方块可与任意控制器配对。配对后，您可打开GUI界面，选择哪些信号类型应从该方块输出红石电流。若将其放置于信号控制器旁，它还将把所选信号类型传输给该控制盒。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/powergeneration/coalgenerator.json",
+ "sha1": "35473c84c8be89569647c8843ed2bf21b32d68f7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coal Generator",
+   "热力发电机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Coal Generator is a simple early FE generator. Insert coal or coal blocks and it will burn them into power for nearby machines or connected cables.",
+   "煤发电机是一种简易的早期FE发电机。插入煤炭或煤块后，它将燃烧这些燃料，为附近机器或已连接线缆提供电力。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "It has an internal buffer, so it can keep burning while output is temporarily blocked. Coal blocks are convenient for longer unattended runs.",
+   "它具有内部缓冲区，因此即使输出暂时被阻塞，也能持续燃烧。煤炭方块便于长时间无人值守运行。"
+  ]
+ ]
+}

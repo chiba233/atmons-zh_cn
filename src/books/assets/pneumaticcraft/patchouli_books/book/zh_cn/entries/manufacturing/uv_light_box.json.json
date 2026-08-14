@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/manufacturing/uv_light_box.json",
+ "sha1": "753a4121042ee8e1a77a2e841afacd72427de5e4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "UV Light Box",
+   "紫外线灯箱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)UV Light Box/$ is a machine in which you can expose $(l:components/pcb)PCB's/$ to UV light, at certain places (which is determined by the $(l:components/pcb_blueprint)Blueprint/$ laying on top of the PCB).$(p)The exposure process takes a maximum of 10 minutes; less if you add $(l:base_concepts/upgrades#speed)Speed Upgrades/$ to the machine.",
+   "$(item)紫外线灯箱/$是一台可以让你将$(l:components/pcb)电路板/$暴露在紫外线下的机器，并且只会在特定位置曝光（这些位置由放在电路板上方的$(l:components/pcb_blueprint)蓝图/$决定）。$(p)曝光过程最长需要 10 分钟；如果你给机器安装$(l:base_concepts/upgrades#speed)速度升级/$，所需时间会更短。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "After the full 10 minutes, you'll have a 100% chance that the $(item)PCB/$ will be successfully etched in $(l:manufacturing/etching_acid)Etching Acid/$. You can however expose the PCB for a shorter time, which will result in a lower chance of the PCB successfully being etched.$(p)Note that exposure progress is faster when the total progress is lower, and slower toward the end.",
+   "整整 10 分钟后，$(item)电路板/$在 $(l:manufacturing/etching_acid)蚀刻酸/$中将有 100% 的几率被成功蚀刻。不过，你也可以让电路板曝光更短的时间，这会导致电路板成功蚀刻的几率更低。$(p)注意，当总进度较低时，曝光进度会更快；而越接近完成时，速度就会越慢。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You can manually adjust the completion threshold via the GUI slider, but it's also possible to set this via a redstone signal; set the redstone mode to $(thing)Interpolate Threshold/$. In this mode, the threshold is fixed to 25% + 5% per signal level (although a signal of 0 disables the machine, so 30%-100% in effect).$(p)This may be handy if you want to set the threshold of many lightboxes at once.",
+   "你可以通过 GUI 滑块手动调整完成阈值，但也可以通过红石信号来设置；将红石模式设为 $(thing)内插阈值/$。在此模式下，阈值固定为 25% + 每级信号 5%（不过 0 级信号会禁用机器，因此实际生效范围是 30% - 100%）。$(p)如果你想一次性设置许多灯箱的阈值，这会很方便。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Threshold Automation",
+   "阈值自动化"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Crafting a UV Light Box",
+   "合成紫外线灯箱"
+  ]
+ ]
+}

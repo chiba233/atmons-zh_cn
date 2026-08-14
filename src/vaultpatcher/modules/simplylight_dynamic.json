@@ -1,0 +1,19 @@
+[
+  {
+    "name": "simplylight_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.flanks255.simplylight.gui.EdgeEditorGUI"
+    ],
+    "pairs": [
+      {
+        "key": "Edge Editor",
+        "value": "边缘编辑器"
+      }
+    ]
+  }
+]

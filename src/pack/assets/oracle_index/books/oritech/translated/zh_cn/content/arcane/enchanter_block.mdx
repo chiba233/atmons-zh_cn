@@ -1,0 +1,35 @@
+---
+id: oritech:enchanter_block
+type: block
+title: 稳定附魔器
+custom:
+    RF/t: "512"
+    Cost multiplier: "5x enchantment level"
+    Catalyst range: "16 blocks"
+---
+
+稳定附魔器用于为装备与工具附加标准附魔。
+与普通附魔台不同，它允许您通过界面选择所需的具体附魔。
+
+## 附加装备
+
+附魔台运行时，既需要能量，也需要附近[奥术催化剂](@oritech:enchantment_catalyst_block)提供的灵魂。
+
+- **能量**: 激活时消耗**512 RF/t**。
+- **灵魂**: 附魔台不储存灵魂，必须位于
+一种或多种含灵魂的催化剂。
+- **催化网数量**: 更高等级附魔需更多邻近激活的催化剂，且消耗更多灵魂。
+所需催化剂数量等于该附魔的基础消耗值加上目标等级。
+
+<center>
+<ModAsset location="oritech:area/enchanting" width={640} />
+</center>
+
+## 运行
+
+1. 将待附魔物品放入左侧插槽。
+2. 打开GUI界面并选择期望的附魔。
+3. 若能量充足且附近存在足够催化剂，附魔过程将启动。
+4. 完成后，附魔物品将移至右侧输出插槽。
+
+完成附魔所需时间随附魔等级与稀有度的提高而增加。

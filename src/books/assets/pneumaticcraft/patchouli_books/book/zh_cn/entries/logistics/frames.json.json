@@ -1,0 +1,130 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/logistics/frames.json",
+ "sha1": "58cb2ea544e8b356926c15b9c524146c9c45db98",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logistics Frames",
+   "物流框架"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Logistics Frames/$ are attachable gadgets which are placed onto inventories or tanks to mark them as part of a $(thing)Logistics System/$.$(p)Placed frames can be configured by $(thing)right-clicking/$ with a $(l:tools/logistics_configurator)Logistics Configurator/$, and removed by $(thing)sneak+right-clicking/$ with the Configurator. Frames can also be configured in-hand by right-clicking the item form.",
+   "$(thing)物流框架/$是可附加的小装置，可安装在容器或储罐上，将其标记为$(thing)物流系统/$的一部分。$(p)放置后的框架可以使用$(l:tools/logistics_configurator)物流配置器/$$(thing)右击/$进行配置，也可以使用配置器$(thing)潜行右击/$将其拆除。框架也可以在手持时通过右击其物品形态进行配置。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The following frame properties can be configured:$(li)All Frames support $(thing)filtering/$ to control what items/fluids they will provide or accept. See also $(l:tools/tag_filter)Tag Filters/$.$(li)The $(thing)Filter/$ side tab lets you configure whether filters match by $(thing)item NBT/$ or $(thing)mod ID/$, and also whether the filter should be applied as a whitelist (default) or blacklist.",
+   "以下框架属性可进行配置：$(li)所有框架都支持$(thing)过滤/$，用于控制它们会提供或接收哪些物品/流体。另请参见$(l:tools/tag_filter)标签过滤器/$。$(li)$(thing)过滤/$侧边标签页可让你配置过滤器是按$(thing)物品 NBT/$还是按$(thing)模组 ID/$进行匹配，以及过滤器应作为白名单（默认）还是黑名单应用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)For $(l:logistics/frames#requester)Requester Frames/$, the $(thing)Minimum Order Size/$ tab allows you to configure the minimum amount of items or fluid that will be moved at a time; useful to prevent drones making constant trips with tiny payloads.$(li)Finally, all frames can be configured to be $(thing)invisible/$ to players unless they are holding a Logistics item (frame or configurator). Note: invisible frames pass any player left-clicks on to the block beneath.",
+   "$(li)对于 $(l:logistics/frames#requester)请求框架/$，$(thing)最小请求量/$ 选项卡可让你配置每次移动的物品或流体的最小数量；这对于防止无人机带着极少量货物频繁往返很有用。$(li)最后，所有框架都可以配置为对玩家 $(thing)隐形/$，除非他们手持一个物流物品（框架或配置器）。注意：隐形框架会将玩家的任何左键点击传递给下方的方块。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The $(item)Active Provider Frame/$ provides items/fluids to $(l:logistics/frames#requester)Requester Frames/$, $(l:logistics/frames#storage)Storage Frames/$ and $(l:logistics/frames#default_storage)Default Storage Frames/$.",
+   "$(item)主动供应框架/$会向$(l:logistics/frames#requester)请求框架/$、$(l:logistics/frames#storage)存储器外壳/$和$(l:logistics/frames#default_storage)物流默认存储框架/$提供物品/流体。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Active Provider Frame",
+   "主动供应框架"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(item)Passive Provider Frame/$ provides items/fluids to $(l:logistics/frames#requester)Requester Frames/$ only.",
+   "$(item)被动供应框架/$只会向 $(l:logistics/frames#requester)请求者框架/$ 提供物品/流体。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Passive Provider Frame",
+   "被动供应框架"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(item)Storage Frames/$ can receive items/fluids from $(l:logistics/frames#active_provider)Active Provider Frames/$ and supply items to $(l:logistics/frames#requester)Requester Frames/$.",
+   "$(item)存储器外壳/$可以从$(l:logistics/frames#active_provider)物流主动供应框架/$接收物品/流体，并向$(l:logistics/frames#requester)物流请求框架/$供应物品。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Storage Frame",
+   "存储器外壳"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "$(item)Default Storage Frames/$ can receive items/fluids from $(l:logistics/frames#active_provider)Active Provider Frames/$ and supply resources to $(l:logistics/frames#requester)Requester Frames/$ and $(l:logistics/frames#storage)Storage Frames/$. They have a lower priority than Storage Frames, which will be always be used first if possible.",
+   "$(item)默认存储器外壳/$可从 $(l:logistics/frames#active_provider)主动供应框架/$ 接收物品/流体，并向 $(l:logistics/frames#requester)请求框架/$ 和 $(l:logistics/frames#storage)存储器外壳/$ 提供资源。它们的优先级低于存储器外壳，因此只要可能，系统总会优先使用后者。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Default Storage Frame",
+   "默认存储器外壳"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "$(item)Requester Frames/$ can request items/fluids from any other framed inventory. For these frames, use the configuration GUI to tell the frame how much of each item or fluid to try to keep $(thing)stocked/$.",
+   "$(item)请求框架/$可以从任何其他带框架的容器中请求物品/流体。对于这些框架，使用配置GUI来设置框架应尽量让每种物品或流体保持$(thing)库存充足/$的数量。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Requester Frame",
+   "物流请求框架"
+  ]
+ ]
+}

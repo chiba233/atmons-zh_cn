@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/rotor.json",
+ "sha1": "9d2b7f1073522c59a9259f3f4016abca3faca5ec",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Rotor",
+   "转子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Rotor is the most important component of your Turbine, as its design will have a direct impact on the $(l:bigreactors:turbine/innerworking)energy production$(/l) of the Turbine.$(br2)A Rotor is built using four types of blocks:$(li)a single $(l:bigreactors:turbine/part-rotorbearing)Rotor Bearing$(/l)$(li)some $(l:bigreactors:turbine/part-rotorshaft)Rotor Shaft$(/l) blocks$(li)a number of $(l:bigreactors:turbine/part-rotorblade)Rotor Blades$(/l)$(li)a single $(l:bigreactors:turbine/part-casing)Housing$(/l) block.",
+   "转子是涡轮机最重要的部件，因为它的设计会直接影响涡轮机的$(l:bigreactors:turbine/innerworking)能量产出$(/l)。$(br2)一个转子由四类方块构成：$(li)一个$(l:bigreactors:turbine/part-rotorbearing)转子轴承$(/l)$(li)若干$(l:bigreactors:turbine/part-rotorshaft)转子轴$(/l)方块$(li)若干$(l:bigreactors:turbine/part-rotorblade)扇叶$(/l)$(li)一个$(l:bigreactors:turbine/part-casing)机壳$(/l)方块。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(bold)Building the Rotor$()$(br2)The Rotor can be build following any of the three axis (X, Y, or Z) of the Turbine.$(br2)The first block of your Rotor mush be a $(l:bigreactors:turbine/part-rotorbearing)Rotor Bearing$(/l) placed on one face of the Turbine, usually in the middle.$(br2)Starting from the bearing, place down as many $(l:bigreactors:turbine/part-rotorshaft)Rotor Shaft$(/l) blocks as needed to reach the opposite face of the Turbine where it should meet a $(l:bigreactors:turbine/part-casing)Housing$(/l) there.",
+   "$(bold)建造转子$()$(br2)转子可以沿着涡轮机的三个轴向（X、Y 或 Z）中的任意一个来建造。$(br2)转子的第一个方块必须是一个$(l:bigreactors:turbine/part-rotorbearing)转子轴承$(/l)，它要放在涡轮机的某个面上，通常位于中间。$(br2)从轴承开始，放置足够多的$(l:bigreactors:turbine/part-rotorshaft)转子轴$(/l)方块，一直延伸到涡轮机对面的那一面，并在那里与一个$(l:bigreactors:turbine/part-casing)机壳$(/l)相接。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "After the shaft is complete, it's time to place some $(l:bigreactors:turbine/part-rotorblade)Rotor Blades$(/l) down. They can be placed in any position that is perpendicular, and adjacent, to a $(l:bigreactors:turbine/part-rotorshaft)Rotor Shaft$(/l) or next to an already placed blade.$(br2)Your Rotor can have as many blades as you like, in any combination.$(br)However, it's important to note that the number of blades, along with their vapor capacity, has a direct relation to the Rotor speed.",
+   "完成轴体后，就该放置一些$(l:bigreactors:turbine/part-rotorblade)扇叶$(/l)了。它们可以放在任何与$(l:bigreactors:turbine/part-rotorshaft)转子轴$(/l)垂直且相邻的位置，也可以放在已放置扇叶的旁边。$(br2)你的转子可以拥有任意数量、任意组合的扇叶。$(br)不过需要注意的是，扇叶数量及其蒸汽容量会直接影响转子的转速。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(bold)How many Blades?$()$(br2)Each Blade variant come with a maximum vapor capacity, the maximum amount of vapor they can capture and $(italic)use$() to spin the Rotor.$(br2)Hover on a Blade in your inventory to see it's capacity.$(br2)Use this value to calculate how many Blades you need to handle the vapor flow rate you've set for your Turbine (in the Controller graphical interface).",
+   "$(bold)需要多少扇叶？$()$(br2)每种扇叶变种都有一个最大蒸汽容量，也就是它们能够捕获并$(italic)利用$()来带动转子旋转的最大蒸汽量。$(br2)将鼠标悬停在物品栏中的扇叶上即可查看其容量。$(br2)利用这个数值，你就能计算出在当前为涡轮机设定的蒸汽流量下（可在控制器图形界面中设置）需要多少扇叶。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(bold)Inductor Coils$()$(br2)To actually generate energy, you need to place al least some $(l:bigreactors:turbine/coils)Inductor Coils$(/l) at the end of your Rotor (near the closing $(l:bigreactors:turbine/part-casing)Housing$(/l) block.$(br2)$(italic)And remember to engage them in the $(l:bigreactors:turbine/part-controller)Controller$(/l) graphical interface!$()$(br2)You can place up to three rings of coils, each ring consisting of up to eight coil blocks.",
+   "$(bold)电感线圈$()$(br2)要真正发电，您需要在转子末端（靠近封顶的$(l:bigreactors:turbine/part-casing)无家可归$(/l)方块处）至少放置一些$(l:bigreactors:turbine/coils)电感线圈$(/l)。$(br2)$(italic)并请记得在$(l:bigreactors:turbine/part-controller)控制器$(/l)的图形界面中启用它们！$()$(br2)您最多可放置三层线圈环，每层环最多由八个线圈方块组成。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Mixing coil types is permitted and, if you do so, the Turbine will make the average of the values of their properties.$(br2)Doing so allows you to start with easily available, or cheap, coils and then replace them gradually instead of waiting to have the more rare or expensive coils on hand.$(br2)In the following page you can see the example Rotor shown previously with some $(l:bigreactors:turbine/coils)Inductor Coils$(/l) added.",
+   "允许混用不同类型的线圈；如果你这么做，轮机会取它们各项属性数值的平均值。$(br2)这样一来，你就可以先使用容易获得或较便宜的线圈，然后再逐步替换，而不必一直等到手头有更稀有或更昂贵的线圈。$(br2)在下一页中，你可以看到前面展示过的转子示例，并添加了一些$(l:bigreactors:turbine/coils)电感线圈$(/l)。"
+  ]
+ ]
+}

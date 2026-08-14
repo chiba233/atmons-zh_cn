@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/stuff/pollen_sieve.json",
+ "sha1": "15deb9656967187d32551cf3ff1f29cbda76caef",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pollen Sieve Upgrade",
+   "升级：花粉筛"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Install in an advanced beehive from Productive Bees to have the bees collect pollen from nearby trees. The collection area is affected by range upgrades. More than one sieve upgrade will not increase the yield.",
+   "将该升级安装至资源蜜蜂模组的高级蜂箱中，即可让蜜蜂自动采集附近树木的花粉。采集范围受射程升级影响，但安装多个花粉筛升级并不会提升花粉产量。"
+  ]
+ ]
+}

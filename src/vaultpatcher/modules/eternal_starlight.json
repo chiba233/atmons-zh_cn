@@ -1,0 +1,42 @@
+[
+  {
+    "name": "eternal_starlight_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "cn.leolezury.eternalstarlight.common.entity.living.boss.gatekeeper.TheGatekeeper"
+    ],
+    "pairs": [
+      {
+        "key": "Failed to load offers: ",
+        "value": "加载交易失败："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "cn.leolezury.eternalstarlight.common.item.recipe.AlloyRecipe$Serializer"
+    ],
+    "pairs": [
+      {
+        "key": "No result for alloy recipe",
+        "value": "合金配方没有产物"
+      },
+      {
+        "key": "Too many results for alloy recipe",
+        "value": "合金配方产物过多"
+      },
+      {
+        "key": "No ingredient for alloy recipe",
+        "value": "合金配方没有材料"
+      },
+      {
+        "key": "Too many ingredients for alloy recipe",
+        "value": "合金配方材料过多"
+      }
+    ]
+  }
+]

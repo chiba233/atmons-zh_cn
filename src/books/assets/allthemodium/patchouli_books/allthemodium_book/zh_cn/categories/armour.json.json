@@ -1,0 +1,20 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/categories/armour.json",
+ "sha1": "c0b0ab5db1042566624067facdd33446ae967936",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This will show you information about the different armour options",
+   "这里会向你展示不同护甲选项的信息"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Armour",
+   "盔甲"
+  ]
+ ]
+}

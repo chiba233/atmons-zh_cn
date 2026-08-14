@@ -1,0 +1,15 @@
+window {
+    size(168,20)
+
+    binddata('public','publicAccess','xnet:wireless_router_data')
+
+    panel('','vertical') {
+        bgthickness(2)
+        togglebutton('public','设为公共') {
+            channel('public')
+            desired(160,16)
+            tooltips('如果选中，此频道','将公开可用')
+            check(true)
+        }
+    }
+}

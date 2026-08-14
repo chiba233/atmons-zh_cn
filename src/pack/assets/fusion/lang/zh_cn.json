@@ -1,0 +1,10 @@
+{
+ "fusion.resource_packs.requires_newer_version": "（为较新版本的聚变制作）",
+ "fusion.resource_packs.warning_screen.title": "聚变版本警告",
+ "fusion.resource_packs.warning_screen.message": "此资源包是为较新版本的聚变制作的，可能无法与当前已安装的聚变版本正确兼容。",
+ "fusion.resource_packs.warning_screen.confirmation": "你仍然想启用该资源包吗？",
+ "fusion.resource_packs.warning_screen.current_version": "已安装版本：",
+ "fusion.resource_packs.warning_screen.required_version": "所需版本：",
+ "fusion.resource_packs.warning_screen.cancel": "No",
+ "fusion.resource_packs.warning_screen.confirm": "是"
+}

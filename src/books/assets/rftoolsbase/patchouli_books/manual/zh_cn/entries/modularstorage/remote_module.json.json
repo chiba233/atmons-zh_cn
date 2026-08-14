@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/remote_module.json",
+ "sha1": "be8de057179576c3767bf4e2392b9b029f555e9e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Remote Module",
+   "远程模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Remote Storage Module is a legacy/internal module in this version and is not part of normal progression.",
+   "远程存储模块在此版本中属于遗留/内部模块，不属于常规游戏进程的一部分。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "For normal remote access, use a $(l:rftoolsbase:scanner/modules)Storage Control Module$(/l) linked to a Storage Scanner and install it in a tablet.",
+   "对于常规远程访问，请使用一张$(l:rftoolsbase:scanner/modules)存储控制模块$(/l)，将其链接至存储检测器，并安装至平板电脑中。"
+  ]
+ ]
+}

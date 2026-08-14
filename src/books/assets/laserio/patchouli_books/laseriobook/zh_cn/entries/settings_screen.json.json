@@ -1,0 +1,76 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/settings_screen.json",
+ "sha1": "b4110cee52d7abb5d85df4604bf9c3b3d8ef5fd7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Network Settings",
+   "网络设置"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The network settings screen is available from any $(l:laserio:laser_node)Laser Node$(/l) screen. In this settings screen, you may change the color of the network. This color will affect:$(li)Laser Node Block (in world)$(li)Laser Connector Block (in world)$(li)Color of lasers between blocks. ",
+   "所有$(l:laserio:laser_node)激光节点$(/l)界面均可打开网络设置界面。此界面可更改网络的颜色。该颜色会影响：$(li)（放置下来的）激光节点$(li)（放置下来的）激光连接器$(li)各方块间激光的颜色。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Different Colored networks",
+   "不同颜色的节点"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Colored Nodes",
+   "多彩节点"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The color of the lasers between the node and inventories (Like chests or tanks) will not be affected.$(br2)Making a change to a node on a network will automatically propagate to all other nodes across the same network. In this way, you can have different colored networks around your world!$(br2)This is purely cosmetic and has no practical effect on functionality.",
+   "节点与箱子、储罐等存储空间之间的激光不会更改颜色。$(br2)在网络中一个节点上做出的改动会自动传播至网络中的所有其他节点。如此就可以搭建不同颜色的网络了！$(br2)这一设置仅作装饰，没有实际功能。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "When adding a node or network to another network, the following rules apply:$(br2)If one of the nodes/networks has a color setting, and the other is default, the default will always be overridden.$(br2)Otherwise the highlighted block will send its settings to the on you click on the connect it. For example, if you shift-click a green node and then click on a blue node, the blue node will turn green. ",
+   "向另一网络添加节点或网络时，会参照如下规则操作：$(br2)若节点/网络之一有颜色设定，另一方为默认，则覆盖默认。$(br2)若不符合，则会复制高亮方块的设定至新加节点或网络。例如，Shift 点击绿色节点，再点击蓝色节点，则蓝色节点会变为绿色。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "There are two settings for Alpha, Alpha and Wrench Alpha.$(br2)Alpha only affects the laser going between any two blocks and determines the transparency of that laser. If set to 0, you will not see the lasers between nodes/connectors at all.$(br2)Wrench Alpha will ADD this setting to the alpha when the player is holding the wrench.",
+   "Alpha 值分为两项设置：Alpha，扳手 Alpha。$(br2)Alpha 只会影响两个方块间的激光，更改其透明度。若设为 0，则节点/连接器间的激光不可见。$(br2)玩家持有激光扳手时，会将扳手 Alpha 与 Alpha $(l)相加$()。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "For example, if you set alpha to 0 and wrench alpha to 80, you'll only see the lasers when holding a wrench!$(br2)If you set the alpha to 80 and the wrench alpha to 200, you'll see the lasers more brightly while holding the wrench. Theres no harm in going above 255 when adding the two numbers, it will automatically limit itself to 255.",
+   "例如，Alpha 设为 0，扳手 Alpha 设为 80，则只能在持有扳手时看见激光！$(br2)若将 Alpha 设为 80，扳手 Alpha 设为 200，那么持有扳手时激光会更亮。两数的和超过 255 也没有关系，实操时会自动限制到 255。"
+  ]
+ ]
+}

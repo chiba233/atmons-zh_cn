@@ -1,0 +1,13 @@
+# 服务端 VaultPatcher 安全模块子集（build_dist.sh 与 check.py 共用此清单）
+# 准入标准：只允许类定向(target_class)替换；全局替换会污染服务端 NBT/注册名，一律禁止
+# （唯一例外：rftoolsbuilder_hardcode_zh 的全局块，key 带四空格前缀，为纯显示文本）
+mcjtylib
+mcjtylib_manual_zh
+rftoolsbase
+rftoolsbase_filter_zh
+rftoolspower
+rftoolsstorage
+rftoolsutility
+rftools_all_modules_zh
+rftools_gui_labels_zh
+rftoolsbuilder_hardcode_zh

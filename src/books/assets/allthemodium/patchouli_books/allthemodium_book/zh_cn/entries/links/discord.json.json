@@ -1,0 +1,31 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/links/discord.json",
+ "sha1": "289535669a4c84d2ab25d2052e59a025df4f5ada",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Discord",
+   "不和"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "link_text"
+   ],
+   "Discord Invite",
+   "Discord邀请"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Our discord has chat rooms for each mod pack, For help and general discussion.",
+   "我们的 Discord 为每个整合包都设有聊天频道，可用于求助和综合讨论。"
+  ]
+ ]
+}

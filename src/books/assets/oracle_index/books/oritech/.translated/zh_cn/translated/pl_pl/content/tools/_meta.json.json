@@ -1,0 +1,41 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/tools/_meta.json",
+ "sha1": "1e8cd16c287905187229a7e2c70299d5aee251b5",
+ "t": [
+  [
+   [
+    "chainsaw.mdx"
+   ],
+   "Piła Łańcuchowa",
+   "链锯"
+  ],
+  [
+   [
+    "exo_armor.mdx"
+   ],
+   "Pancerz Exo",
+   "外骨骼盔甲"
+  ],
+  [
+   [
+    "hand_drill.mdx"
+   ],
+   "Wiertło Ręczne",
+   "手摇钻"
+  ],
+  [
+   [
+    "prometheum_tools.mdx"
+   ],
+   "Narzędzia Prometeum",
+   "钷工具"
+  ],
+  [
+   [
+    "target_designator.mdx"
+   ],
+   "Wskaźnik Celów",
+   "目标标识器"
+  ]
+ ]
+}

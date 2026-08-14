@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/sewage.json",
+ "sha1": "6f93fd1d020bf7e7ccd1d45a46bf7adf42c45168",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sewage (Bucket)",
+   "污水(桶)"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The fluid produced by the $(l:agr_hus/sewer)Sewer$(). You don't want to know about it.",
+   "由$(l:agr_hus/sewer)排污器$()产生的流体。你绝对不想知道它的来历。"
+  ]
+ ]
+}

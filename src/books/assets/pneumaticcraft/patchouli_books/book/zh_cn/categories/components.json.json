@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/components.json",
+ "sha1": "41698a05b446ec1a4cddc6a5ebce59a787e0b1cc",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Miscellaneous items used as crafting components.",
+   "用于制作其他组件的杂项物品。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Components",
+   "组件"
+  ]
+ ]
+}

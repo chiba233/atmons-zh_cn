@@ -1,0 +1,130 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/items/upgrades.json",
+ "sha1": "38d66cfd39df0c611276e4fa4eea5612040e022f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Upgrades",
+   "升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Upgrades can be put into machines and hives to increase their functionality or improve the performance",
+   "升级可以安装到机器和蜂箱中，以增强它们的功能或提升性能。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The base of all the other upgrades.",
+   "所有其他升级的基础。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "When installed in a hive, the BaBee upgrade will give a small chance for the bees living inside the hive to breed and produce new offspring without your involvement. Note that bees which can't breed normally do not work with this upgrade. $(br)When installed in a $(l:blocks/catcher)catcher$(/l), only BaBees will be caught and put in cages.",
+   "安装在蜂箱中时，升级：幼年蜂会让居住在蜂箱内的蜜蜂有小概率自行繁殖并产生新的后代，无需你的参与。请注意，原本无法正常繁殖的蜜蜂无法使用此升级。$(br)安装在$(l:blocks/catcher)捕捉器$(/l)中时，则只会捕捉幼年蜂并将其装入蜂笼。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "When installed in a hive, the productivity upgrade will increase the number of combs a bee produces per trip. Multiple productivity upgrades can be installed.",
+   "安装在蜂箱中后，升级：产量会提高蜜蜂每次外出产出的蜜脾数量。该升级可安装多个。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "When installed in a hive, the Speed upgrade will decrease the time a bee spends inside the hive. $(br)When installed in a $(l:blocks/centrifuge)centrifuge$(/l) or an $(l:blocks/incubator)incubator$(/l), it will increase the operation speed",
+   "安装在蜂箱中时，升级：速度会减少蜜蜂待在蜂箱内的时间。$(br)安装在$(l:blocks/centrifuge)离心机$(/l)或$(l:blocks/incubator)孵化器$(/l)中时，则会提高运行速度"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "Right click on a bee to add it to the filter. Put the filter in a crafting grid to clear it. When installed in a hive, only bees specified on the filter will be allowed to enter. $(br)When installed in a catcher, only the bees specified on the filter will be picked up.",
+   "对一只蜜蜂右键即可将其添加到过滤器中。将过滤器放入合成网格即可清空。安装在蜂箱中时，只允许过滤器中指定的蜜蜂进入。$(br)安装在捕捉器中时，则只会拾取过滤器中指定的蜜蜂。"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "When installed in a hive, the operating range of Farmer and Collector/Hoarder bees is increased by 1 per upgrade, from default 4. When installed in a catcher, the Range upgrade will expand the area of operation by 1 block in all directions. Multiple range upgrades can be installed.",
+   "安装在蜂箱中时，农夫蜜蜂和收集者/囤积者蜜蜂的工作范围每个升级增加 1 格，默认范围为 4 格。安装在捕捉器中时，升级：范围会将工作区域向所有方向各扩大 1 格。该升级可安装多个。"
+  ],
+  [
+   [
+    "pages",
+    13,
+    "text"
+   ],
+   "When installed in a hive, bees that can teleport will no longer teleport when living in the hive with the upgrade.",
+   "安装在蜂箱中时，原本能够瞬移的蜜蜂在带有该升级的蜂箱里生活时，将不再进行瞬移。"
+  ],
+  [
+   [
+    "pages",
+    15,
+    "text"
+   ],
+   "When installed in a hive, a small sample of pollinating bees will be extracted with each visit. It shouldn't bee hurting them at all. Multiple can be installed in the same hive for improved rate.",
+   "安装在蜂箱中时，每次授粉中的蜜蜂造访时都会提取少量样本，完全不会伤害它们。可以在同一个蜂箱中安装多个，以提高提取效率。"
+  ],
+  [
+   [
+    "pages",
+    17,
+    "text"
+   ],
+   "When installed in a hive, bees will produce full comb blocks instead of honeycombs.",
+   "安装在蜂箱中后，蜜蜂产出的将是完整的蜜脾块，而不是蜜脾。"
+  ],
+  [
+   [
+    "pages",
+    19,
+    "text"
+   ],
+   "When installed in a hive, bees will no longer come out of the hive, their flower trip will instead be simulated for better server performance. The bees flower block or feeding slab with flower blocks must be placed at the foot of the hive, not blocking the front, but right below that.",
+   "安装在蜂箱中时，蜜蜂将不再从蜂箱中飞出，而是会模拟其外出采花的过程，以获得更好的服务器性能。蜜蜂的花朵方块，或带花朵方块的喂食台，必须放在蜂箱底部，也就是正下方，且不能挡住前面。"
+  ],
+  [
+   [
+    "pages",
+    20,
+    "name"
+   ],
+   "Simulated Hive",
+   "模拟蜂箱"
+  ],
+  [
+   [
+    "pages",
+    21,
+    "name"
+   ],
+   "Simulated Hive",
+   "模拟蜂箱"
+  ]
+ ]
+}

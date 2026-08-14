@@ -1,0 +1,40 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/breaker.json",
+ "sha1": "4834a97afc129554901d1b05935827645c62b3f2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Breaker Module",
+   "破坏模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to break a block, adjacent to the $(l:router/item_router)Router/$ in the module's $(l:intro/modules#direction)configured direction/$.$(p)Most blocks are breakable, although anything with an unbreakable hardness (e.g. vanilla $(item)Bedrock/$ or $(item)End Portal/$) can not be broken, nor can any fluid blocks. If the block is broken, its primary drop(s) will be automatically inserted into the item router's buffer, if possible.",
+   "这个模块会尝试破坏与$(l:router/item_router)路由器/$相邻、位于模块$(l:intro/modules#direction)设定方向/$上的方块。$(p)大多数方块都可以被破坏，但任何硬度不可破坏的方块（例如原版的$(item)基岩/$或$(item)末地传送门/$）都无法被破坏，流体方块也不行。如果方块被成功破坏，其主要掉落物会在可能的情况下自动放入物品路由器的缓冲区中。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Breaker Module can be crafted with any type of pickaxe (including modded pickaxes), but the pickaxe used to craft the module determines its harvest level.  E.g. if you create a Breaker Module with an $(item)Iron Pickaxe/$, it will not be able to break $(item)Obsidian/$.$(p)Additionally, any $(thing)enchantments/$ on the pickaxe used will be noted in the module ($(thing)Silk Touch/$ and $(thing)Fortune/$ are of particular use).",
+   "破坏模块可使用任意类型的镐来合成（包括模组镐），但用于合成该模块的镐会决定它的挖掘等级。例如，如果你用$(item)铁镐/$制作破坏模块，它就无法破坏$(item)黑曜石/$。$(p)另外，用于合成的镐上带有的任何$(thing)附魔/$也会被记录到模块中（其中$(thing)精准采集/$和$(thing)时运/$特别有用）。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "By default the Breaker Module filter works on $(thing)items that would be dropped/$, rather than on the block itself. E.g. filtering on $(item)Stone/$ would not work to break Stone, unless the module has $(thing)Silk Touch/$ enabled. In this case, you should filter on $(item)Cobblestone/$.$(p)You can set the module to match by the $(thing)block/$ via the module GUI; this can be useful to distinguish between blocks that both drop nothing, e.g. $(item)Ice/$ and $(item)Packed Ice/$.",
+   "默认情况下，破坏模块的过滤器作用于$(thing)将会掉落的物品/$，而不是方块本身。例如，除非模块启用了$(thing)精准采集/$，否则用$(item)石头/$作为过滤条件并不能破坏石头。在这种情况下，你应该过滤$(item)圆石/$。$(p)你也可以通过模块 GUI 将模块设为按$(thing)方块/$匹配；这对于区分那些都会掉落为空的方块会很有用，例如$(item)冰/$和$(item)浮冰/$。"
+  ]
+ ]
+}

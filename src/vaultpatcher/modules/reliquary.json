@@ -1,0 +1,19 @@
+[
+  {
+    "name": "reliquary_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "reliquary.client.gui.AlkahestryTomeScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Perform basic,\nintermediate or\nadvanced Alkahestry.",
+        "value": "进行基础、\n中级或\n高级炼金术。"
+      }
+    ]
+  }
+]

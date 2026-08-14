@@ -1,0 +1,9 @@
+{
+  "laserbridges.deimosconfig.title": "激光桥与门配置",
+  "laserbridges.deimosconfig.max_length": "最大红石信号强度下的桥长度",
+  "laserbridges.deimosconfig.blocks_cut_through_by_lasers": "可被激光替换的方块",
+  "block.laserbridges.laser_source_block": "激光源",
+  "block.laserbridges.laser_fence_source_block": "激光栅栏源",
+  "block.laserbridges.laser_block_powered": "激光方块",
+  "block.laserbridges.laser_fence_powered": "激光方块"
+}

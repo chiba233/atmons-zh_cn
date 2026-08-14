@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/dropper.json",
+ "sha1": "a54332b77b99d26b24fcf75a5d111662e378ec95",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dropper Module",
+   "投掷器模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module tries to drop an item from the router's buffer as an item entity in the world. The drop will be adjacent to the router in the module's $(l:intro/modules#direction)configured direction/$. The item entity will be placed with a zero velocity, unlike the vanilla $(item)Dropper/$ which adds an irritating random velocity to the item.",
+   "该模块尝试将路由器缓存中的物品作为实体物品丢弃至世界中。丢弃位置位于模块$(l:intro/modules#direction)已配置方向/$上紧邻路由器处。该物品实体将以零初速度放置，不同于原版$(item)投掷器/$——后者会给物品附加令人困扰的随机初速度。"
+  ]
+ ]
+}

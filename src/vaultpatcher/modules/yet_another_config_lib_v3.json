@@ -1,0 +1,254 @@
+[
+  {
+    "name": "yet_another_config_lib_v3_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.YACLScreen$CategoryTab"
+    ],
+    "pairs": [
+      {
+        "key": "Done",
+        "value": "完成"
+      },
+      {
+        "key": "Cancel",
+        "value": "取消"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.DoubleSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小于 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必须大于 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能为 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.FloatSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小于 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必须大于 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能为 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.IntegerSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小于 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必须大于 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能为 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.slider.LongSliderController"
+    ],
+    "pairs": [
+      {
+        "key": "`max` cannot be smaller than `min`",
+        "value": "`max` 不能小于 `min`"
+      },
+      {
+        "key": "`interval` must be more than 0",
+        "value": "`interval` 必须大于 0"
+      },
+      {
+        "key": "`valueFormatter` must not be null",
+        "value": "`valueFormatter` 不能为 null"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.gui.controllers.string.StringControllerElement"
+    ],
+    "pairs": [
+      {
+        "key": "Click to type...",
+        "value": "点击以输入..."
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.LabelOptionImpl"
+    ],
+    "pairs": [
+      {
+        "key": "Label Option",
+        "value": "标签选项"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.LabelOptionImpl$BuilderImpl"
+    ],
+    "pairs": [
+      {
+        "key": "`stateManager` must not be null",
+        "value": "`stateManager` 不能为空"
+      },
+      {
+        "key": "Cannot set state manager if lines have already been defined",
+        "value": "如果行已定义，则无法设置状态管理器"
+      },
+      {
+        "key": "`line` must not be null",
+        "value": "`line` 不能为空"
+      },
+      {
+        "key": "Cannot build label option without a state manager or lines",
+        "value": "在没有状态管理器或文本行的情况下，无法构建标签选项"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.OptionImpl$BuilderImpl"
+    ],
+    "pairs": [
+      {
+        "key": "Name not specified!",
+        "value": "未指定名称！"
+      },
+      {
+        "key": "`name` cannot be null",
+        "value": "`name` 不能为空"
+      },
+      {
+        "key": "`controllerBuilder` cannot be null",
+        "value": "`controllerBuilder` 不能为空"
+      },
+      {
+        "key": "`control` cannot be null",
+        "value": "`control` 不能为 null"
+      },
+      {
+        "key": "`stateManager` cannot be null",
+        "value": "`stateManager` 不能为空"
+      },
+      {
+        "key": "Cannot set state manager when binding is set",
+        "value": "已设置绑定时无法设置状态管理器"
+      },
+      {
+        "key": "Cannot set state manager when instant is set",
+        "value": "当 instant 已设置时，无法设置状态管理器"
+      },
+      {
+        "key": "`binding` cannot be null",
+        "value": "`binding` 不能为空"
+      },
+      {
+        "key": "Cannot set binding when state manager is set",
+        "value": "设置了状态管理器时无法设置绑定"
+      },
+      {
+        "key": "`def` must not be null",
+        "value": "`def` 不能为 null"
+      },
+      {
+        "key": "`getter` must not be null",
+        "value": "`getter` 不得为 null"
+      },
+      {
+        "key": "`setter` must not be null",
+        "value": "`setter` 不能为 null"
+      },
+      {
+        "key": "`flag` must not be null",
+        "value": "`flag` 不能为空"
+      },
+      {
+        "key": "`flags` must not be null",
+        "value": "`flags` 不能为空"
+      },
+      {
+        "key": "Cannot set instant when state manager is set",
+        "value": "已设置状态管理器时，无法设置瞬时值"
+      },
+      {
+        "key": "`listener` must not be null",
+        "value": "`listener` 不能为空"
+      },
+      {
+        "key": "`optionEventListeners` must not be null",
+        "value": "`optionEventListeners` 不得为 null"
+      },
+      {
+        "key": "`listeners` must not be null",
+        "value": "`listeners` 不能为 null"
+      },
+      {
+        "key": "`control` must not be null when building `Option`",
+        "value": "构建 `Option` 时，`control` 不能为 null"
+      },
+      {
+        "key": "instant application does not support option flags",
+        "value": "即时应用不支持选项标志"
+      },
+      {
+        "key": "State manager must be set, either by using .binding() to create a simple manager or .state() to create an advanced one",
+        "value": "必须设置状态管理器，可通过使用 .binding() 创建简单管理器，或使用 .state() 创建高级管理器"
+      },
+      {
+        "key": "Always synced state managers do not support option flags.",
+        "value": "始终同步的状态管理器不支持选项标记。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.isxander.yacl3.impl.OptionImpl"
+    ],
+    "pairs": [
+      {
+        "key": "`value` cannot be null",
+        "value": "`value` 不能为空"
+      },
+      {
+        "key": "Listener depth exceeded 10! Possible cyclic listener pattern: a listener triggered an event that triggered the initial event etc etc.",
+        "value": "监听器深度超过 10！可能存在循环监听器模式：某个监听器触发了一个事件，而该事件又触发了初始事件，等等等等。"
+      }
+    ]
+  }
+]

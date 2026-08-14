@@ -1,0 +1,22 @@
+{
+ "src": "assets/ars_nouveau/patchouli_books/worn_notebook/en_us/entries/gem.json",
+ "sha1": "b45d95f9de68ba91cd91351ea1d77d7ee53cf866",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Spirit Attuned Gem",
+   "魔灵同调宝石"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Alternate recipe when diamonds are scarce.",
+   "缺少钻石时的替代配方。"
+  ]
+ ]
+}

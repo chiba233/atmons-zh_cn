@@ -1,0 +1,19 @@
+[
+  {
+    "name": "securitycraft_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.geforcemods.securitycraft.screen.KeypadFurnaceScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Keypad Gurnace",
+        "value": "键盘熔炉"
+      }
+    ]
+  }
+]

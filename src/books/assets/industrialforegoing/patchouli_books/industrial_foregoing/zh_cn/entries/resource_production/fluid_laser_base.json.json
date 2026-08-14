@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/resource_production/fluid_laser_base.json",
+ "sha1": "9154f5cd0fb005858901c65d6f232cafc34faffb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Laser Base",
+   "流体镭射钻基座"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When fully charged with a $(l:resource_production/laser_drill)Laser Drill$() it will fluids. To do it will need a specific catalyst that won't be consumed and the machine will need to be placed in an specific biome and be drilling at a specific depth. $(br2)Some fluids might need an entity under the machine to produce the fluid. $(br2)Check JEI for values.",
+   "在由 $(l:resource_production/laser_drill)镭射钻$() 充满能量后，它会产出流体。为此需要一种不会被消耗的特定催化剂，并且机器必须放置在特定生物群系中，且在特定深度进行钻取。$(br2)某些流体可能需要机器下方存在实体才能产出。$(br2)具体数值请查看 JEI。"
+  ]
+ ]
+}

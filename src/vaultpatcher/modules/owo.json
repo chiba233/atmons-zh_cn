@@ -1,0 +1,86 @@
+[
+  {
+    "name": "owo_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "io.wispforest.owo.renderdoc.RenderdocScreen"
+    ],
+    "pairs": [
+      {
+        "key": "RenderDoc Controls",
+        "value": "RenderDoc控制"
+      },
+      {
+        "key": "Such has been disabled at the request of ATM!",
+        "value": "应 ATM 的要求，此功能已被禁用！"
+      },
+      {
+        "key": "Close",
+        "value": "关闭"
+      },
+      {
+        "key": "Capture Hotkey",
+        "value": "捕获热键"
+      },
+      {
+        "key": "Press...",
+        "value": "按下..."
+      },
+      {
+        "key": "Enabled",
+        "value": "已启用"
+      },
+      {
+        "key": "Capture List",
+        "value": "捕获列表"
+      },
+      {
+        "key": "Frame Rate",
+        "value": "帧率"
+      },
+      {
+        "key": "Frame Number",
+        "value": "帧数"
+      },
+      {
+        "key": "Launch UI",
+        "value": "启动界面"
+      },
+      {
+        "key": "Capture Frame",
+        "value": "捕获帧"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.wispforest.owo.ui.util.UIErrorToast"
+    ],
+    "pairs": [
+      {
+        "key": "Type: ",
+        "value": "类型："
+      },
+      {
+        "key": "Thrown by: ",
+        "value": "投掷者："
+      },
+      {
+        "key": "No context provided",
+        "value": "未提供上下文"
+      },
+      {
+        "key": "owo-ui error",
+        "value": "owo-ui 错误"
+      },
+      {
+        "key": "Check your log for details",
+        "value": "查看日志了解详情"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/generators/biofuel_generator.json",
+ "sha1": "a27b66b7b6cbe77d66062af9c69ebcccf0e28847",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Biofuel Generator",
+   "生物燃油发电机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A generator that uses $(l:generators/biofuel)Biofuel$() to generate $(6)160$()RF/t. $(br2)This generator is efficient so it will stop consuming fuel when the internal buffer is full.",
+   "一种使用 $(l:generators/biofuel)生物燃料$() 来产生 $(6)160$()RF/t 的发电机。$(br2)该发电机效率很高，因此当内部缓冲区已满时会停止消耗燃料。"
+  ]
+ ]
+}

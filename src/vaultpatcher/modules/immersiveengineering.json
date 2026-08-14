@@ -1,0 +1,75 @@
+[
+  {
+    "name": "immersiveengineering_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "blusunrize.immersiveengineering.client.IEManual"
+    ],
+    "pairs": [
+      {
+        "key": "Shader list",
+        "value": "着色器列表"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "blusunrize.immersiveengineering.client.gui.info.FluidInfoArea"
+    ],
+    "pairs": [
+      {
+        "key": "Fluid Registry: ",
+        "value": "流体注册表："
+      },
+      {
+        "key": "Density: ",
+        "value": "密度："
+      },
+      {
+        "key": "Temperature: ",
+        "value": "温度："
+      },
+      {
+        "key": "Viscosity: ",
+        "value": "黏度："
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "blusunrize.immersiveengineering.common.items.CoresampleItem"
+    ],
+    "pairs": [
+      {
+        "key": "Somehow this sample is dated in the future...are you a time traveller?!",
+        "value": "不知为何，这个样本的日期在未来……你是时间旅行者吗？！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "blusunrize.lib.manual.ManualInstance"
+    ],
+    "pairs": [
+      {
+        "key": "At backtrace %s, key %s",
+        "value": "在回溯 %s 处，键 %s"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "blusunrize.lib.manual.gui.GuiButtonManualLink"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid link",
+        "value": "非法链接"
+      }
+    ]
+  }
+]

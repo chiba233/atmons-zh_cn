@@ -1,0 +1,14 @@
+{
+  "creative_storage_block.mdx": "创造能量存储",
+  "creative_tank_block.mdx": "创造储罐",
+  "energy_pipe.mdx": "能量线缆",
+  "fluid_pipe.mdx": "流体管道",
+  "item_pipe.mdx": "不透明物流管道",
+  "item_filter_block.mdx": "物品筛选器",
+  "large_storage_block.mdx": "大型能量存储",
+  "power_pole_block.mdx": "能量输电杆",
+  "small_storage_block.mdx": "便携能量存储",
+  "small_tank_block.mdx": "便携储罐",
+  "superconductor.mdx": "超导体",
+  "unstable_container.mdx": "薛定谔保险柜"
+}

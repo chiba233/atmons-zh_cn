@@ -1,0 +1,22 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/dimensions/miningdim.json",
+ "sha1": "b56cd30ed47fd49955e0715235a3ebc635076417",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Mining Dimension",
+   "挖矿维度"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Mining Dimension is useful to set up quarries to mine in. It is also useful to use as a testing area since it is a superflat dimension. To teleport to the dimension use the $(l:dimensions/teleport_pad)Teleport Pad$(/c) in the Overworld.",
+   "挖矿维度适合搭建采石场进行采矿，也适合作为测试区域，因为这是一个超平坦维度。要传送到该维度，请在主世界中使用$(l:dimensions/teleport_pad)传送垫$(/c)。"
+  ]
+ ]
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "name": "create_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.foundation.item.ItemDescription$Builder"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid lang formatting!",
+        "value": "语言格式无效！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.ClearBufferCacheCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Cleared rendering buffers.",
+        "value": "已清除渲染缓冲区。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.CloneCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Clones all blocks as well as super glue from the specified area to the target destination",
+        "value": "将指定区域内的所有方块以及强力胶复制到目标位置"
+      },
+      {
+        "key": "Successfully cloned ",
+        "value": "克隆成功"
+      },
+      {
+        "key": "Successfully applied glue ",
+        "value": "已成功涂上胶"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.CouplingCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Only Minecarts can be coupled",
+        "value": "只有矿车才能连接"
+      },
+      {
+        "key": "Minecarts have to be in the same Dimension",
+        "value": "矿车必须位于同一维度中"
+      },
+      {
+        "key": "Minecart has no Couplings Attached",
+        "value": "矿车没有附加连接器"
+      },
+      {
+        "key": "The specified Carts are not coupled",
+        "value": "指定的矿车未连接"
+      },
+      {
+        "key": "Your selector targeted ",
+        "value": "你的选择器选中了"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.DumpRailwaysCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Click to remove ",
+        "value": "点击以移除 "
+      },
+      {
+        "key": "Click to teleport to ",
+        "value": "点击以传送至"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.FabulousWarningCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Disabled Fabulous graphics warning",
+        "value": "禁用“精美”图像警告"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.FixLightingCommand"
+    ],
+    "pairs": [
+      {
+        "key": "NeoForge's experimental block rendering pipeline is now enabled.",
+        "value": "现已启用 NeoForge 的实验性方块渲染管线。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.HighlightCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Try looking at a Block that has failed to assemble a Contraption and try again.",
+        "value": "请尝试看向一个组装失败的机械装置方块，然后再试一次。"
+      },
+      {
+        "key": "Can't highlight a specific position for this issue",
+        "value": "无法为此问题高亮显示特定位置"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.ReplaceInCommandBlocksCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Couldn't find \"",
+        "value": "找不到“"
+      },
+      {
+        "key": "Replaced occurrences in ",
+        "value": "已替换以下位置中的匹配项"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.command.TrainCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Train '",
+        "value": "列车"
+      },
+      {
+        "key": "Can only teleport to train when in Creative or Spectator Mode!",
+        "value": "只能在创造模式或旁观模式下传送到列车！"
+      },
+      {
+        "key": "Unable to teleport to Train. No valid location found",
+        "value": "无法传送到列车。未找到有效位置"
+      },
+      {
+        "key": "Teleported to Train '",
+        "value": "已传送至列车 '"
+      },
+      {
+        "key": "No Train with id ",
+        "value": "没有 id 为的列车"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.simibubi.create.infrastructure.gui.CreateMainMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Modrinth",
+        "value": "Modrinth页面"
+      }
+    ]
+  }
+]

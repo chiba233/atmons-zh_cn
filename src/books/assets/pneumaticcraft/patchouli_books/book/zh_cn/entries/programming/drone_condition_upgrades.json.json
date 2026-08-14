@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/drone_condition_upgrades.json",
+ "sha1": "78d49325a8f6bea804d93517daa846c9281ffa0a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Drone Condition: Upgrades Widget",
+   "无人机条件：升级控件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Drone Condition: Upgrades/$ widget lets you check the number of installed upgrades in this $(l:tools/drone)Drone/$. Specify the upgrade(s) to be checked by using one or more attached $(l:programming/item_filter)Item Filter/$ widgets, set to the upgrade item(s) to be checked; without any filter, all installed upgrades of all types will be counted.",
+   "$(thing)无人机条件：升级/$组件可让你检查此 $(l:tools/drone)无人机/$ 中已安装的升级数量。使用一个或多个附加的 $(l:programming/item_filter)物品过滤器/$ 组件，并将其设置为要检查的升级物品，即可指定要检查的升级；如果不使用任何过滤器，则会统计所有类型的全部已安装升级。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Drone Condition: Upgrades Widget/$",
+   "$(italic)无人机条件：升级控件/$"
+  ]
+ ]
+}

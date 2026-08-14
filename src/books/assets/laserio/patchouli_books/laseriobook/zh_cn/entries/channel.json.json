@@ -1,0 +1,31 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/channel.json",
+ "sha1": "307a436992db14beedd0f3b26d7242d7d205ff07",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Channel",
+   "频道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Cards can only interact with other cards that are on the same channel. This allows a player to have multiple sets of routing logic on the same network.$(br2)For example, Extractor cards on the 'Orange' channel will only attempt to insert into 'Orange' colored Insert Cards, and will ignore all other cards.",
+   "物流卡仅能与同频道的其他卡交互。可借此在同一网络上构建多组路由逻辑。$(br2)例如，在“橙色”频道的提取模式卡只会尝试输出至同为“橙色”频道的输入模式卡，并忽略所有其他物流卡。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "For example, set an Extract Card to the 'Orange Channel' with a filter for cobblestone, and another extract card to the 'Black Channel' with a filter for coal. Then place them in the same node. $(br2)An Orange channel inserter can sit above a furnace, with a black channel inserter below. This will ensure that only cobblestone goes into the top of the furnace, while coal goes below.",
+   "比如，设置一张“橙色”频道过滤圆石的提取卡和一张“黑色”频道过滤煤炭的提取卡，并放入同一节点。$(br2)将一张橙色频道输入卡连至熔炉上方，一张黑色频道输入卡连入其下方。如此熔炉上方只会收到圆石，熔炉下方只会收到煤炭。"
+  ]
+ ]
+}

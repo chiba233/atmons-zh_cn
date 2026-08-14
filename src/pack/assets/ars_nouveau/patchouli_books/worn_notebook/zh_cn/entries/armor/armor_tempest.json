@@ -1,0 +1,43 @@
+{
+  "category": "ars_nouveau:armor",
+  "icon": "ars_elemancy:tempest_hat",
+  "name": "ars_elemancy.armor_set.tempest",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ars_elemancy.page.armor_set.tempest"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_hat_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_hat_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_robes_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_robes_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_leggings_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_leggings_2"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_boots_1"
+    },
+    {
+      "type": "ars_nouveau:elemancy_armor_recipe",
+      "recipe": "ars_elemancy:tempest_boots_2"
+    }
+  ]
+}

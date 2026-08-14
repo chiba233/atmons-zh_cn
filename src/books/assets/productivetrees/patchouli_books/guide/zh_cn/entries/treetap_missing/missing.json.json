@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/treetap_missing/missing.json",
+ "sha1": "9dfe98ee0a2ef531733698b3fba51c6e7bfc7937",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tree Tap is best Tap",
+   "木龙头最好"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "link_text"
+   ],
+   "Click to rectify",
+   "点击修复"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You do not have Tree Tap installed :sadge:",
+   "你尚未安装木龙头 :sadge:"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/buffer_stop_track.json",
+ "sha1": "205000507654b46ebeb986e2d5fabcb9ad248c66",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Buffer Stop Track",
+   "缓冲停车轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "In need of a stylish bookend for your rail lines? Then this track is for you! Its the perfect end cap to prevent carts from rolling off the end of your tracks. Cart's won't bounce off or explode here, too!",
+   "需要为您的铁路线路添置一款时尚的收尾装饰？那么这款轨道正合您意！它是防止矿车滑出轨道末端的理想封口。矿车在此既不会弹开，也不会爆炸！"
+  ]
+ ]
+}

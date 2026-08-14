@@ -1,0 +1,31 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/basics/fluid_extractor.json",
+ "sha1": "d9b16497c277f05b26b31ac429e7a3277024fbb7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fluid Extractor",
+   "液体提取机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The fluid extractor will extract $(l:basics/latex)latex$() from wood that are placed in front of the machine. Multiple extractors can be used to extract from the same log at the same time. $(br2)The machine will start consuming the log and once consumed it will remove the bark from it and replace it with the stripped variant, once that gets consumed it will disappear. ",
+   "流体提取器可从机器前方放置的原木中提取$(l:basics/latex)胶乳$()。多个提取器可同时对同一原木进行提取。$(br2)机器将开始消耗原木；消耗完毕后，自动剥离树皮并替换为去皮变体；该变体被完全消耗后，原木将彻底消失。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br2)$(6)Each log will produce different amounts of latex, check JEI for rates. $(6)Power optional: Providing power will make the machine work faster",
+   "$(br2)$(6)每种原木产出的胶乳量都不同，具体速率请查看 JEI。$(6)供电可选：提供能量会让机器工作得更快"
+  ]
+ ]
+}

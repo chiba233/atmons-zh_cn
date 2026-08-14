@@ -1,0 +1,42 @@
+---
+id: mffs:coercion_deriver
+type: block
+---
+
+# Fortron 衍生器
+
+Fortron 衍生器是 MFFS 机器家族的一员，主要用来把 FE 能量转化成 []($fortron)，其他 MFFS 机器都靠它才能工作。
+它设计上要与 [Fortron 能量储存器](@mffs:fortron_capacitor) 配合，把 []($fortron) 充进储存器里。
+
+之后再由 [储存器](@mffs:fortron_capacitor) 把 []($fortron) 分配给其他机器。
+
+<PrefabObtaining />
+
+## 用法
+
+要产生 []($fortron)，把 Fortron 衍生器接上 FE 电源，再用 [红石](@redstone) 信号激活它。
+通电并激活后，衍生器会从红色变成蓝色，开始产出 []($fortron)。
+
+把 Fortron 衍生器的频率号设成与其他机器一致，就能与 [Fortron 能量储存器](@mffs:fortron_capacitor) 等 MFFS 机器联动。
+
+两种设法：
+
+- 右键点击衍生器，在界面里输入想要的频率号
+- 手持 [频率卡](@mffs:frequency_card) 潜行右键点击 Fortron 衍生器
+
+Fortron 衍生器产出 []($fortron) 的能力可以用 [青金石](@lapis_lazuli) 或 [下界石英](@nether_quartz) 增幅。
+把它们放进箭头旁边那个槽位即可，[]($fortron) 产量大约能提高到 20 倍。
+
+## 运行模式
+
+Fortron 衍生器有两种运行模式：衍生与整合。默认是衍生，即持续把输入的 FE 转成 []($fortron)。
+
+点击界面中间的衍生切换按钮可以换到整合模式，再点一次换回来。整合模式下衍生器反向工作，
+把现有的 []($fortron) 转回 FE。
+
+## 可升级项
+
+Fortron 衍生器可以装各种模块来提升性能。
+
+- [速度模块](@mffs:speed_module)：提高放入 [青金石](@lapis_lazuli) 或 [下界石英](@nether_quartz) 时的增幅效果
+- [容量模块](@mffs:capacity_module)：提高衍生器能储存的 []($fortron) 上限

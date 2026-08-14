@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/modules.json",
+ "sha1": "85e1ecaaf57c17c73ba4cfc94492044c8e3d5b0b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Modules",
+   "模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Various machines in the RFTools tech mods support modules. These are items that can be inserted in the machine to modify or provide functionalities. In most cases (when a machine supports modules) you can just right click with the module on the machine to insert it",
+   "RFTools 技术类模组中的多种机器都支持模块。这些是可以插入机器中以修改或提供功能的物品。在大多数情况下（当机器支持模块时），你只需拿着模块对机器右键即可将其插入。"
+  ]
+ ]
+}

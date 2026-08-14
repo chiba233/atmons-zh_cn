@@ -1,0 +1,21 @@
+[
+  {
+    "name": "atm_custom_name_dynamic_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false,
+    "_说明": "整合包用 KubeJS 把英文名直接写进物品的 custom_name 组件（kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js），不是翻译键，资源包够不着。而同一个文件里 ATM 之星那条配方**按这个名字匹配输入**（itemIn 带同样的 custom_name），所以绝不能去改配方——改了玩家手上已有的方块就对不上配方。走 dynamic 是因为 VaultPatcher 往 PlainTextContents$LiteralContents 里注了 DynamicReplaceUtils.__mappingString，配方侧与物品侧的 custom_name 都会变成 LiteralContents 并过同一次替换，两边同时变中文，匹配不受影响。本块不写 target_class：__mappingString 里 dynamicName 为空即无条件替换，写了反而要靠栈回溯校验。键是整串精确匹配，不用 @。⚠️ 代价：替换发生在构造而非渲染，世界存盘会把中文写进物品 NBT；玩家装过本包又卸掉之后，那些方块的名字会留在中文而配方回到英文，就对不上了。"
+  },
+  {
+    "pairs": [
+      {
+        "key": "Awakened Unobtainium-Vibranium Alloy Block",
+        "value": "觉醒的难得素-振金合金块"
+      },
+      {
+        "key": "Infused Patrick Star",
+        "value": "灌注派大星"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tracks/locking_track.json",
+ "sha1": "6a313948129e4feffa676d18baac92f8e02782d3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Locking Track",
+   "锁定轨道"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When unpowered these tracks will grab and hold onto any cart that passes over them. And unlike Powered Rails, the cart can't be pushed off. Additionally, if you hit the track with a Crowbar you can change modes. Some of these modes have arrows on the track. When an unpowered rail with a minecart on it becomes powered, it will launch the cart in the direction of the arrow.",
+   "未充能时，此类轨道可抓取并固定经过其上的任何矿车。与充能铁轨不同，矿车无法被外力推离。此外，用撬棍敲击轨道可切换其模式。部分模式会在轨道上显示箭头。当带有矿车的未充能轨道被充能时，矿车将沿箭头方向被弹射出去。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Modes:$(li)Lockdown Mode - Default, releases cart when powered but does not boost it.$(li)Lockdown Train Mode - When powered, will stay powered until 10 seconds after the entire train leaves the track or another train/cart approaches. Does not boost carts.$(li)Boarding Mode - When powered, will boost the cart in the direction of the arrow.",
+   "模式：$(li)封锁模式——默认模式，充能时释放矿车但不提供助推。$(li)列车封锁模式——充能后将持续保持充能状态，直至整列列车完全驶离轨道，或另一列列车/矿车接近为止（延时10秒），且不提供助推。$(li)登车模式——充能时沿箭头方向助推矿车。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Modes:$(li)Boarding Train Mode - When powered, will stay powered until 10 seconds after the entire train leaves the track or another train/cart approaches. Boosts in the direction of the arrow.$(li)Holding Mode - When powered, will boost the cart in the direction it was originally travelling when it was locked.$(li)Holding Train Mode - When powered, will stay powered until 10 seconds after the entire train leaves the track or another train/cart approaches. Boosts in direction of travel.",
+   "模式：$(li)列车登车模式——充能后将持续保持充能状态，直至整列列车完全驶离轨道，或另一列列车/矿车接近为止（延时10秒），并沿箭头方向助推。$(li)扣留模式——充能时沿矿车最初被锁定时的行驶方向助推。$(li)列车扣留模式——充能后将持续保持充能状态，直至整列列车完全驶离轨道，或另一列列车/矿车接近为止（延时10秒），并沿行驶方向助推。"
+  ]
+ ]
+}

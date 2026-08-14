@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/track_type/reinforced.json",
+ "sha1": "92d907da9cf3d3b87776f938169ed61edaff0ed8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Reinforced Track has a couple of benefits over Iron Track Type.$(li)It has a stronger blast resistance. (45, enough for TNT explosions)$(li)It's also 25% faster than the iron track type.",
+   "强化轨道相较于铁制轨道具有若干优势。$(li)其抗爆性能更强（抗爆等级达45，足以抵御TNT爆炸）。$(li)其运行速度比铁制轨道快25%。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Compared to H.S. Track type, it is way slower, and way safer.$(br2)However, you should use place reinforced tracks on blast resistant blocks, since the track will always drop once the supporting block is removed.",
+   "与高速轨道相比，它明显更慢，但也更为安全。$(br2)然而，您应将强化轨道铺设在抗爆方块上，因为一旦支撑方块被移除，轨道必然掉落。"
+  ]
+ ]
+}

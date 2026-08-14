@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/logic_chip.json",
+ "sha1": "8d5468c1ae07875e342fb6cceb014c7007cf8ef3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logic Chips",
+   "逻辑芯片"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Logic Chips are the primary crafting ingredient in LaserIO. $(br2)They are the only item crafted with 'vanilla' materials, and all subsequent items use a chip in one way or another.",
+   "逻辑芯片是本模组最重要的合成原料。$(br2)它是唯一仅用原版材料就可合成的物品，其余物品的合成均会直接或间接地使用到逻辑芯片。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Raw Logic Chip",
+   "未处理的逻辑芯片"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Logic Chip",
+   "逻辑芯片"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/plant_sower.json",
+ "sha1": "a6f6029f77d34ffc3c1833f67af735775b33ace9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Plant Sower",
+   "植物播种机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to $(6)plant$() crops and saplings. $(br2)The 9 internal inventory slots are $(6)color$() coded and correspond to the colored markings on the top of the Plant Sower. The working area above the machine is divided into 9 segments and only seeds from the corresponding inventory slot will be planted in each section.",
+   "一台用于$(6)种植$()作物和树苗的机器。$(br2)其内部 9 个容器槽位采用$(6)颜色$()编码，并与植物播种机顶部的彩色标记一一对应。机器上方的工作区域被划分为 9 个区段，只有对应容器槽位中的种子才会种植在对应区域内。"
+  ]
+ ]
+}

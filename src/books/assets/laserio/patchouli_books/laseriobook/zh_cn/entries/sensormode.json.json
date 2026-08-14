@@ -1,0 +1,58 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/sensormode.json",
+ "sha1": "10a7e2b19bdc73d4a283f564f3187849f3b15140",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sensor Mode",
+   "传感模式"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Sensor mode, unlike other card modes, does not move objects around. Instead, it looks at an adjacent inventory/tank/cell and looks to see if the contents match the filter.  If they do, it emits a redstone signal of strength 15 on the designated redstone channel.$(br2)Sensor mode cards require a filter to function - without one they will do nothing.",
+   "传感模式与其他模式不同，它不会移动事物，而是会检查某个毗邻的容器/储罐/存储元件，校验其内容是否匹配过滤器。如果匹配，则其会在分配的红石频道上发出强度为 15 的红石信号。$(br2)传感模式的运作需要过滤器，否则就什么都做不了。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "With a basic filter, the sensor looks for any amount of objects. For example, a basic filter with a piece of cobblestone in it, will check to see if there is any cobblestone in the adjacent chest. If yes, it will emit a redstone signal on the specified redstone channel.$(br2)This will be true whether there is 1 piece of cobblestone, or 1000.",
+   "装有基础过滤器时，传感卡会检查任意数量的事物。例如，装入过滤圆石的基础过滤器，则会检查毗邻箱子中是否有圆石。若有，则在给定红石频道上发出红石信号。$(br2)不论箱子中有 1 个圆石，还是 1000 个圆石，存储卡均会发出信号。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "With a counting filter, the sensor looks for greater than or equal to the amount specified. For example, if the count filter is set to 32 pieces of cobblestone, it will emit true for 32, 33, 34, and so on.$(br2)However, the exact mode button is available for counting filters. If enabled, it will only emit true for 32 cobblestone, no more no less.",
+   "装有计数过滤器时，传感卡会检查大于等于设定数量的事物。例如，装入过滤 32 个圆石的计数过滤器，则会在毗邻方块中有 32、33、34 等数目的圆石时发出信号。$(br2)不过，精确模式在计数过滤器中可用。若启用，则只会在 32 个圆石时发出信号，不多也不少。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A new button is available on sensor mode - the And/Or button. In 'or' mode, only one of the filters has to match, following the preceeding rules.$(br2)For example, with 32 cobble and 16 glass in the filter, with 'or' mode, the chest need only contain 32 cobble to emit a signal. Or 16 glass. Or both.$(br2)In 'and' mode, all filters must match, for example, the chest must contain 32 cobblestone AND 16 glass.",
+   "传感模式还有一个新按钮：与/或按钮。在“或”模式下，仅需一个过滤项匹配即可，过滤器的匹配规则同上。$(br2)例如，过滤 32 个圆石和 16 个玻璃，在“或”模式下，箱子中装有 32 个圆石，或是 16 个玻璃，或是两者均装有，都会触发信号。$(br2)在“与”模式下，所有过滤项均需匹配。同上例背景，箱子需装有 32 个圆石$(l)和$() 16 个玻璃才可触发。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Tag and mod filters work as you would expect. For tag filters in 'and', the contents of the container must match all tags, whether that means 1 item matching all tags, or multiple items.$(br2)Only 1 sensor card per side per redstone channel is recommended, as having multiple may lead to race conditions causing unexpected results.",
+   "标签过滤器、模组过滤器的表现无变化。在“与”模式中装有标签过滤器，则存储空间内容物需匹配所有标签。无论单个物品匹配所有标签，还是多个物品分别匹配，均视作匹配。$(br2)节点每面每红石频道推荐只安排 1 张传感卡；多张传感卡可能产生竞争条件，导致结果出错。"
+  ]
+ ]
+}

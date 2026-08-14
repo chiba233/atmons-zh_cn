@@ -1,0 +1,67 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen_controller.json",
+ "sha1": "1542c0bf6b70642c1e36b5a205e22e6ddec9454e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Screen Controller",
+   "屏幕控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "With the Screen Controller you can power nearby $(l:rftoolsbase:machines/screen)screens$(/l). Using the 'Scan' button in the GUI you can connect to all screens in a 32x32x32 radius.$(br2)$(5)Infusing$() this machine will increase this range",
+   "使用屏幕控制器，你可为附近的$(l:rftoolsbase:machines/screen)屏幕$(/l)供电。在GUI中点击“扫描”按钮，即可连接半径32×32×32范围内的所有屏幕。$(br2)$(5)注魔$()该机器可扩大此作用范围。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Screen Controller",
+   "屏幕控制器"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Place the controller within range, supply FE, and press Scan. Re-scan after adding, removing, or moving screens.",
+   "将控制器放置于有效范围内，为其供应FE，并点击“扫描”。在增删或移动屏幕后，请重新扫描。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Scanning",
+   "扫描"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The default scan area is 32x32x32 blocks around the controller. $(5)Infusing$() the controller increases this range.",
+   "默认扫描区域为控制器周围32×32×32格的空间。$(5)注魔$()控制器可扩大此范围。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Range",
+   "范围"
+  ]
+ ]
+}

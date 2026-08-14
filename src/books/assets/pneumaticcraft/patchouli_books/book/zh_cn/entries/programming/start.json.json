@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/programming/start.json",
+ "sha1": "5c5b87588a031598652ad1a1722b8891bb005405",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Start Widget",
+   "开始"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Start/$ widget is the first widget in your program, and is where $(l:programming/flow_control)program execution/$ starts.$(p)It $(italic)must/$ exist, and there can be only one.",
+   "$(thing)开始/$组件是你程序中的第一个组件，也是$(l:programming/flow_control)程序执行/$开始的地方。$(p)它$(italic)必须/$存在，而且只能有一个。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Call me MacLeod/$",
+   "$(italic)叫我麦克劳德/$"
+  ]
+ ]
+}

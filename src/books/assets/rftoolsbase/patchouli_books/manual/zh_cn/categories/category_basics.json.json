@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_basics.json",
+ "sha1": "2fa9ee2c7dd1823e5041d4fe54c12d9c2ad94179",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Basic information about RFTools, including worldgen details.",
+   "关于 RFTools 的基础信息，包括世界生成的细节。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Basics",
+   "基础"
+  ]
+ ]
+}

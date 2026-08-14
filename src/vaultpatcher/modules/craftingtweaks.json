@@ -1,0 +1,19 @@
+[
+  {
+    "name": "craftingtweaks_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.blay09.mods.craftingtweaks.command.CraftingTweaksCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Crafting Tweaks debug mode: ",
+        "value": "合成辅助调试模式："
+      }
+    ]
+  }
+]

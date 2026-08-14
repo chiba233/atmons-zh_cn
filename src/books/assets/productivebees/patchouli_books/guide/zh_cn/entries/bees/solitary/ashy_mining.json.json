@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/ashy_mining.json",
+ "sha1": "ee4c7af5c78d19a866bb254bc4d012904933767f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ashy Mining Bee",
+   "灰烬穴居蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "[Andrena cineraria]",
+   "[灰矿蜂]"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Ashy Mining Bee",
+   "灰烬穴居蜜蜂"
+  ]
+ ]
+}

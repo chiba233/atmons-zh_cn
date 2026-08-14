@@ -1,0 +1,43 @@
+[
+  {
+    "name": "potionsmaster_dynamic_lang_guard",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.thevortex.potionsmaster.client.DynamicLanguageProvider"
+    ],
+    "pairs": [
+      {
+        "key": "item.potionsmaster.",
+        "value": "vphanhua.dropped.powder."
+      },
+      {
+        "key": "item.potionsmaster.calcinated_",
+        "value": "vphanhua.dropped.calcinated_powder."
+      },
+      {
+        "key": "effect.potionsmaster.",
+        "value": "vphanhua.dropped.effect."
+      },
+      {
+        "key": "item.minecraft.potion.effect.",
+        "value": "vphanhua.dropped.potion."
+      },
+      {
+        "key": "item.minecraft.splash_potion.effect.",
+        "value": "vphanhua.dropped.splash."
+      },
+      {
+        "key": "item.minecraft.lingering_potion.effect.",
+        "value": "vphanhua.dropped.lingering."
+      },
+      {
+        "key": "item.minecraft.tipped_arrow.effect.",
+        "value": "vphanhua.dropped.arrow."
+      }
+    ]
+  }
+]

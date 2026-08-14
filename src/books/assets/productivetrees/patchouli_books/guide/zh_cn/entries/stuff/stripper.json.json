@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/stuff/stripper.json",
+ "sha1": "60bafb5e6197fddd2e8c09dab570f2e88856d8ea",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Stripper",
+   "剥离器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Takes the bark off the wood leaving it naked and stripped. Requires an axe to operate.",
+   "可剥去木材的树皮，使其裸露无皮。需使用斧头才能操作。"
+  ]
+ ]
+}

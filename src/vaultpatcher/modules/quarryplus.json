@@ -1,0 +1,19 @@
+[
+  {
+    "name": "quarryplus_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.yogpc.qp.machine.misc.GeneratorBlock"
+    ],
+    "pairs": [
+      {
+        "key": "Change generator mode to %d(%d FE)",
+        "value": "将发电机模式更改为 %d（%d FE）"
+      }
+    ]
+  }
+]

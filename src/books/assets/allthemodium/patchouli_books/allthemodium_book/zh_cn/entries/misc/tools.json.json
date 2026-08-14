@@ -1,0 +1,22 @@
+{
+ "src": "assets/allthemodium/patchouli_books/allthemodium_book/en_us/entries/misc/tools.json",
+ "sha1": "9f1ea44f2e6df110fe0398886af55f1b67b3a22e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Allthemodium Tools",
+   "ATM工具"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Allthemodium has several built in tools included, all of which are indestructible.",
+   "Allthemodium 内置了多种工具，且全部不可损坏。"
+  ]
+ ]
+}

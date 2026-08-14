@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/scanner/modules.json",
+ "sha1": "c13710e042112f41efb56fc037807582cb3e3dd6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Scanner Modules",
+   "扫描模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Storage Control and Dump modules are Screen modules that work through a linked Storage Scanner. Sneak right-click a scanner with the module to set its target.",
+   "存储控制模块与倾倒模块均为显示屏模块，通过已链接的存储检测器运作。对该检测器潜行右键使用模块，即可设定其目标。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The Storage Control Module watches up to nine item filters and can count all inventories or only starred/routable inventories.",
+   "存储控制模块最多可监控九个物品过滤器，并可统计全部物品栏，或仅统计已标注星号/可路由的物品栏。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The Dump Module pushes matching player inventory items into the linked scanner network. It can use common item tags for broader matching.",
+   "销毁模块会将匹配玩家物品栏的物品推送至已链接的扫描器网络中。它支持使用通用物品标签以实现更宽泛的匹配范围。"
+  ]
+ ]
+}

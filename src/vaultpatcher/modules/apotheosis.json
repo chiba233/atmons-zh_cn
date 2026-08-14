@@ -1,0 +1,101 @@
+[
+  {
+    "name": "apotheosis_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.commands.BossCommand"
+    ],
+    "pairs": [
+      {
+        "key": "No available player context!",
+        "value": "没有可用的玩家上下文！"
+      },
+      {
+        "key": "No bosses available for the current context!",
+        "value": "当前上下文中没有可用的怪物！"
+      },
+      {
+        "key": "Unknown boss: ",
+        "value": "未知 Boss："
+      },
+      {
+        "key": "Unknown rarity: ",
+        "value": "未知稀有度:"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.commands.CategoryCheckCommand"
+    ],
+    "pairs": [
+      {
+        "key": "Loot Category - ",
+        "value": "战利品类别 - "
+      },
+      {
+        "key": "Equipment Slot - ",
+        "value": "装备槽位 - "
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.commands.SocketCommand"
+    ],
+    "pairs": [
+      {
+        "key": "The target item cannot receive sockets!",
+        "value": "目标物品无法添加孔槽！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.data.GearSetProvider"
+    ],
+    "pairs": [
+      {
+        "key": "Gear Sets",
+        "value": "装备套装"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.socket.gem.GemInstance"
+    ],
+    "pairs": [
+      {
+        "key": "Invalid Gem Category",
+        "value": "无效的宝石类别"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.shadowsoffire.apotheosis.socket.gem.GemItem"
+    ],
+    "pairs": [
+      {
+        "key": "Errored gem with no bonus!",
+        "value": "出错的宝石，没有加成！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "io.redspace.ironsspellbooks.IronsSpellbooks"
+    ],
+    "pairs": [
+      {
+        "key": "Legacy Dead King",
+        "value": "旧版死者之王"
+      }
+    ]
+  }
+]

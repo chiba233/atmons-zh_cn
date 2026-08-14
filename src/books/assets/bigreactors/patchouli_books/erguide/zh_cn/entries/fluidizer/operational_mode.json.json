@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/operational_mode.json",
+ "sha1": "782077320900fdf84e72a7b107e0ef4ef72f5bef",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Operational mode",
+   "运行模式"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Fluidizer can process materials in the following three different modes, depending on the type and number of Injectors in the machine:$(br2)$(li)$(o)Solid mode: $() turns solid fuel sources (like ingots) into fluid fuel. To enable this mode, you need one, and only one, Solid Injector in the machine",
+   "流化器可根据机器中注入器的类型和数量，以以下三种不同模式处理材料：$(br2)$(li)$(o)固体模式：$()将固体燃料来源（如锭）转化为流体燃料。要启用此模式，机器中需要有且只能有一个固体注入器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)$(o)Solid Mixing mode: $() turns two solid fuel sources (like ingots) into fluid and mixes them to create a new fuel type. To enable this mode, you need two, and only two, Solid Injectors in the machine.$(li)$(o)Fluid Mixing mode: $() mixes two fluid fuels into a new fuel type. To enable this mode, you need two, and only two, Fluid Injectors in the machine.",
+   "$(li)$(o)固体混合模式：$()将两种固体燃料来源（如锭）转化为流体并加以混合，从而制造出一种新燃料类型。要启用此模式，机器中需要有且只能有两个固体注入器。$(li)$(o)流体混合模式：$()将两种流体燃料混合为一种新燃料类型。要启用此模式，机器中需要有且只能有两个流体注入器。"
+  ]
+ ]
+}

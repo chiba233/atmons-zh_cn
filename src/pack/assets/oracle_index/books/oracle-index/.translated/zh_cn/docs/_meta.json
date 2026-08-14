@@ -1,0 +1,14 @@
+{
+  "user_guide.mdx": {
+    "name": "📗 用户指南",
+    "icon": null
+  },
+  "search.mdx": {
+    "name": "🔍 智能搜索",
+    "icon": null
+  },
+  "developer": {
+    "name": "⌨ 模组开发指南",
+    "icon": null
+  }
+}

@@ -1,0 +1,53 @@
+*.pyc
+.DS_Store
+/.idea/
+/.tmp/
+__pycache__/
+
+# 构建产物
+/dist/
+/build/
+# fetch_pack.py 下载的整合包（overrides + 480 个 mod jar）
+/pack/
+/pack-*/
+/atm10-*.zip
+
+# ───────────────────────────────────────────────────────────────
+# 出货用的目录树**一棵都不在仓库里**。
+#
+# `kubejs/`、`config/`、`resourcepacks/`、`mods/` 是整合包的目录结构，属于**产物**：
+# 由 scripts/assemble.py 从 src/ 现摊，由生成器现产，由 gen_upstream_patches.py
+# 对着目标版本的官方文件现打补丁。仓库里只有 src/（手写真源与映射）和 scripts/。
+#
+# 为什么非这样不可：把「上游文件改几个字符串后的整份副本」提交进来，等于把上游内容
+# 和我们的改动焊死。ATM 一升级，我们发出去的就是「旧上游 + 我们的改动」，把人家的
+# 修复整个覆盖掉。多版本更要命——CustomAdditions.js 在 7.1→7.2 之间被 ATM 换了
+# 冰与火的类名，拿 7.2 的副本发给 7.1 用户会当场 ClassNotFound。
+#
+# 这几行是**防呆**：万一有人在仓库根跑了老命令摊出这些目录，也不会被误提交。
+/kubejs/
+/config/
+/resourcepacks/
+/mods/
+/vaultpatcher/
+/可选mods-拼音搜索/
+# ───────────────────────────────────────────────────────────────
+
+# 横幅生成用的点阵字体：十几 MB，跑 scripts/fetch_fonts.sh 现取，不入库
+/assets-src/fonts/*
+!/assets-src/fonts/README.md
+
+# 底本全文快照：只用于本地看差异，检测靠同目录的指纹文件，不入库（每版 13MB）
+/versions/db/*/lang_baseline_local.json
+
+# 生成器之间传递的中间快照，早先落在 scripts/ 下，现已改到 build/snapshots/。
+# 留着这几行是为了老工作区里的残留文件不会被误提交。
+/scripts/upstream_format_en_us.json
+/scripts/pb_upstream_en_us.json
+/scripts/trophy_entity_names.json
+/scripts/wood_planks_names.json
+
+# 底本残留清单里逐条抄着底本的原文与译文——这东西本身就不能进公开仓库
+versions/base_residue.json
+# 合成器的中间产物：里面带着底本旧译文，不入库
+versions/composed_names.json

@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reactor/part-fuelrod.json",
+ "sha1": "7c1e908313fa92ab6df3e879b7b18f836fcba9bd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Fuel Rod",
+   "燃料棒"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Fuel Rods are placed inside your Reactor in long horizontal or vertical piles. They serve as a reservoir for reactants—either fuel, waste, or a mix of both—and are irradiated while the Reactor is active, generating heat that can be converted into energy or used to vaporize coolants.",
+   "燃料棒会以横向或纵向的长列形式放置在你的反应堆内部。它们用于储存反应物——燃料、废料，或两者的混合物——并会在反应堆运行时受到辐照，产生的热量可以被转化为能量，或用于将冷却液汽化。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Fuel Rod",
+   "燃料棒"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The first Fuel Rod in each pile must be placed adjacent to a $(l:bigreactors/part-casing)Casing block$(/l), and the last Fuel Rod must be followed by a $(l:bigreactors/part-controlrod)Control Rod$(/l). You can choose to arrange all your Fuel Rod piles vertically (along the Y axis) or horizontally (along either the X or Z axis), but mixing orientations is not allowed. As a result of this requirement, all Control Rods must be placed on the same face of the Reactor.",
+   "每列中的第一根燃料棒必须紧邻$(l:bigreactors/part-casing)机壳方块$(/l)放置，而最后一根燃料棒后方必须接着放置一个$(l:bigreactors/part-controlrod)控制棒$(/l)。你可以选择将所有燃料棒列都纵向排列（沿 Y 轴），或横向排列（沿 X 轴或 Z 轴），但不能混用不同朝向。因此，所有控制棒都必须放置在反应堆的同一面上。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() yes$(br)$(l)Valid positions:$() inside the Reactor$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no",
+   "$(l)必需：$()是$(br)$(l)有效位置：$()反应堆内部$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否"
+  ]
+ ]
+}

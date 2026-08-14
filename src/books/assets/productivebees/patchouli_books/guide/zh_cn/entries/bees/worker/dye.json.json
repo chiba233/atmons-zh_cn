@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/dye.json",
+ "sha1": "cffdf5bce3e2f7e08bf33d1b01254dfbd4144ce9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Dye Bee",
+   "染料蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Produces dye based on the flower it has pollinated.",
+   "根据它授粉过的花朵产出对应的染料。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Dye Bee",
+   "染料蜜蜂"
+  ]
+ ]
+}

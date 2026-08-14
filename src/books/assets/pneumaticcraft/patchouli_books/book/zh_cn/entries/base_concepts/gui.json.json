@@ -1,0 +1,49 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/base_concepts/gui.json",
+ "sha1": "a18d8438cc38609924b7907c24c83d546c381922",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "GUI Concepts",
+   "机器窗口基本概念"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Most machines in $(pncr) have a GUI with several $(thing)side tabs/$. Some tabs are common to most or all machines, while some are unique to certain machines. Here is a list of some common tabs:",
+   "$(pncr) 中的大多数机器都有一个带有多个$(thing)侧边标签/$的 GUI。有些标签是大多数甚至所有机器通用的，而有些则是特定机器独有的。以下是一些常见标签的列表："
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)$(bold)Redstone behaviour/$: In here you can select how a machine responds to redstone or when it should emit redstone.$(li)$(bold)Information /$: The info tab shows (static) information about what the machine is used for.$(li)$(bold)Upgrades /$: In here you can read about the upgrades this machine accepts, and what they do in the machine's context.",
+   "$(li)$(bold)红石行为/$：你可以在这里选择机器如何响应红石，以及它应在何时发出红石信号。$(li)$(bold)信息/$：信息页会显示这台机器用途的（静态）说明。$(li)$(bold)升级/$：你可以在这里查看这台机器可接受的升级，以及这些升级在该机器中的作用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)$(bold)Pressure Status/$: Here you can find current pressure the machine is under and the volume of the machine.$(li)$(bold)Problems /$: If the machine doesn't work, this tab will point you in the right direction about what's wrong.",
+   "$(li)$(bold)气压状态/$：你可以在这里查看机器当前所承受的气压以及机器的容积。$(li)$(bold)问题 /$：如果机器无法工作，这个标签页会为你指出问题所在的正确方向。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A GUI showing 3 side tabs: Pressure Status, Problems (none here) and a machine-specific Assembly Controller Status",
+   "一个 GUI，显示了 3 个侧边标签页：压力状态、问题（此处没有）以及该机器专属的装配台状态"
+  ]
+ ]
+}

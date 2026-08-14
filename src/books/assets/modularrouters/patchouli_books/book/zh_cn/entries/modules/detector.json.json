@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/detector.json",
+ "sha1": "ff6f02dcedf1e3e3dd9719697381d721ec62cf72",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Detector Module",
+   "检测模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module doesn't actually manipulate items, but instead detects specific items in the router's buffer. If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the $(l:intro/modules#direction)configured direction/$.$(p)The signal level (default: 15) and signal type (default: weak) can be adjusted via the module GUI.",
+   "这个模块并不直接操作物品，而是检测路由器缓冲区中的特定物品。如果缓冲区内容符合模块过滤器，它就会让路由器朝$(l:intro/modules#direction)设定方向/$发出红石信号。$(p)信号强度（默认：15）和信号类型（默认：弱）都可通过模块 GUI 调整。"
+  ]
+ ]
+}

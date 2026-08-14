@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/modularstorage/modularstorage.json",
+ "sha1": "b46103d455ae0ccace0d91501b8b3766b1fbac4b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Modular Storage",
+   "模块化存储器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Modular Storage is a searchable storage block. Insert a $(l:rftoolsbase:modularstorage/storagemodules)Storage Module$(/l) to define how many stacks it can hold.",
+   "模块化存储器是一种支持搜索的存储方块。插入$(l:rftoolsbase:modularstorage/storagemodules)存储模块$(/l)以定义其可容纳的物品堆叠数量。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The block stores items in the module, so the module can keep its contents when moved. Higher tier modules unlock larger inventories.",
+   "该方块将物品存于模块内，因此模块在移动时可保留其内容。更高阶模块可解锁更大的物品栏容量。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Use the GUI to search, sort, compact, and cycle through visible inventory sizes. The module slot controls the actual storage capacity.",
+   "通过GUI可执行搜索、排序、压缩及循环切换可见物品栏尺寸等操作。模块插槽则控制实际存储容量。"
+  ]
+ ]
+}

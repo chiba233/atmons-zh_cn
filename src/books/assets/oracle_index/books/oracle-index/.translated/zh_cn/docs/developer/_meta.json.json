@@ -1,0 +1,30 @@
+{
+ "src": "assets/oracle_index/books/oracle-index/docs/developer/_meta.json",
+ "sha1": "b78ba488fc627a4bea5373a2780cdc6bfcce94fc",
+ "t": [
+  [
+   [
+    "content_unlocks.mdx",
+    "name"
+   ],
+   "Content Progression System",
+   "内容进阶系统"
+  ],
+  [
+   [
+    "gradle_task.mdx",
+    "name"
+   ],
+   "(Optional) Automatic Gradle Wiki Sync",
+   "（可选）自动Gradle Wiki同步"
+  ],
+  [
+   [
+    "setup.mdx",
+    "name"
+   ],
+   "Ingame Mod View Setup",
+   "游戏内模组视图设置"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/aphorism_tile.json",
+ "sha1": "b38b32a2708776d4b9ce481d3efeda6fb054b3c3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Aphorism Tile",
+   "格言瓷砖"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Aphorism Tiles/$ are like $(item)Signs/$, but they can display arbitrary amounts of text. Any text is automatically scaled so that the full text fits on the tile.$(p)When you place down an Aphorism Tile it $(ttcolor)$(t:This can be disabled in client config - see 'B:dramaSplash')defaults/$ to a random splash text from the $(l:http://mc-drama.herokuapp.com/)Drama Generator/$.",
+   "$(thing)格言瓷砖/$类似于$(item)告示牌/$，但它们可以显示任意长度的文本。所有文本都会自动缩放，以便完整内容能适配瓷砖。$(p)当你放置一块格言瓷砖时，它$(ttcolor)$(t:This can be disabled in client config - see 'B:dramaSplash')默认/$会显示来自$(l:http://mc-drama.herokuapp.com/)戏剧生成器/$的一条随机标语。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)$(item)Aphorism Tiles/$ can be edited in-place by $(thing)right-clicking/$ with an empty hand.$(li)Markup can be added by using $(thing)Alt + 0-9/a-f/l/m/n/o/r/$ ($(l:https://minecraft.gamepedia.com/Formatting_codes)standard Minecraft codes/$).$(li)Holding $(thing)F1/$ will show some popup help for the editor keybindings.$(li)$(item)Aphorism Tiles/$ can be recolored by $(thing)right-clicking/$ with any dye item. The tile border and background can be colored independently by clicking a corresponding area of the tile.",
+   "$(li)$(item)格言瓷砖/$可以空手$(thing)右击/$直接编辑。$(li)使用 $(thing)Alt + 0-9/a-f/l/m/n/o/r/$ 可添加格式代码（$(l:https://minecraft.gamepedia.com/Formatting_codes)Minecraft标准代码/$）。$(li)按住 $(thing)F1/$ 会显示一些关于编辑器按键绑定的弹出帮助。$(li)$(item)格言瓷砖/$也可以通过用任意染料物品$(thing)右击/$来重新上色。点击瓷砖的对应区域，即可分别为边框和背景着色。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)$(item)Aphorism Tiles/$ can also display $(thing)items/$, instead of or along with text. You can specify an item to display by putting (on its own line) text in the format $(thing){item:<modid>:<itemid>}/$, e.g. $(thing){item:minecraft:diamond}/$.$(li)Alternatively, click the $(thing)Insert Item.../$ button on the left-hand GUI panel, and choose an item from the search popup. This will replace all the text on the current line. You can display multiple items on one tile.",
+   "$(li)$(item)格言瓷砖/$也可以显示$(thing)物品/$，以替代文字或与文字一同显示。你可以通过输入格式为 $(thing){item:<modid>:<itemid>}/$ 的文本来指定要显示的物品（单独占一行），例如 $(thing){item:minecraft:diamond}/$。$(li)或者，点击左侧 GUI 面板上的 $(thing)插入物品.../$ 按钮，并从弹出的搜索界面中选择一个物品。这会替换当前行上的所有文本。你也可以在一块瓷砖上显示多个物品。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)Tip: displayed items are scaled in size to match the height of text lines. If you're mixing text and items, keep text lines short to avoid tiny items.$(li)You can also use the slider on the left-hand GUI panel to set a $(thing)margin/$ for the tile's text, if you would like it to take up less space on the tile.$(li)Finally, you can use the checkbox on the left-hand GUI panel to make the whole tile $(thing)invisible/$, so that $(italic)only/$ the text (and/or items) is shown.",
+   "$(li)提示：显示的物品会按比例缩放，以匹配文本行的高度。如果你要混排文本和物品，请尽量保持文本行较短，以避免物品显示得过小。$(li)你也可以使用左侧 GUI 面板上的滑块，为该图块的文本设置$(thing)边距/$，如果你想让它在图块中占用更少空间。$(li)最后，你可以使用左侧 GUI 面板上的复选框，将整个图块设为$(thing)不可见/$，这样就会$(italic)仅/$显示文本（和/或物品）。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(li)Invisible Aphorism Tiles have no block shape at all unless you sneak, so they have potential uses as labels for chests, especially when displaying item(s). Since they have no shape, any interactions get passed to the block behind - right-clicking a chest, for example.$(li)Invisible tiles can be edited by sneak & right-clicking them (with any empty hand, as normal).",
+   "$(li)隐形格言瓷砖在你潜行之前完全没有任何方块形状，因此很适合用作箱子的标签，尤其是在展示物品时。由于它们没有形状，任何交互都会传递给后方的方块——例如右击箱子。$(li)隐形瓷砖可以通过潜行并右击来编辑它们（和正常情况一样，任意一只空手都可以）。"
+  ]
+ ]
+}

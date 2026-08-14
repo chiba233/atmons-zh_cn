@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ironfurnaces_dynamic_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": true,
+    "i18n": false,
+    "_说明": "熔炉配置链接器那行「方向：east」的方向值来自 Direction.getSerializedName()，那个字符串同时用在 NBT 与方块状态的键上，去改 net.minecraft.core.Direction 会坏存档。这里改的不是那个值，而是 ItemFurnaceCopy 拼好之后整句进 Component.literal 的结果——版本数据库里 'Direction: ' 记的是 substring，说明它嵌在拼接配方 \"Direction: \\u0001\" 里被静态替换，运行时拼出来就是「方向：east」。这一句每帧现拼、不落盘，所以没有 atm_custom_name_dynamic 那条的存盘残留问题。本块不写 target_class（dynamicName 为空即无条件替换）；键是整串精确匹配，方向值不会单独出现，不用 @。"
+  },
+  {
+    "pairs": [
+      {
+        "key": "方向：down",
+        "value": "方向：下"
+      },
+      {
+        "key": "方向：up",
+        "value": "方向：上"
+      },
+      {
+        "key": "方向：north",
+        "value": "方向：北"
+      },
+      {
+        "key": "方向：south",
+        "value": "方向：南"
+      },
+      {
+        "key": "方向：west",
+        "value": "方向：西"
+      },
+      {
+        "key": "方向：east",
+        "value": "方向：东"
+      }
+    ]
+  }
+]

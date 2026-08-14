@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/magmatic.json",
+ "sha1": "80ff8c6c3802c91bb9da41e2d9024545c6b697eb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Magmatic Bee",
+   "岩浆蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Found living in nether brick nests in nether fortresses. Magmatic Bees prefer pollinating magma blocks or nether wart.$(br)Be careful of what material you build their enclosure with, these buggers can turn cobblestone into lava.",
+   "栖息在下界要塞中的地狱砖块蜂巢里。熔岩蜜蜂更喜欢为岩浆块或下界疣授粉。$(br)建造它们围栏时一定要注意材料，这些家伙会把圆石变成岩浆。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Magmatic Bee",
+   "岩浆蜜蜂"
+  ]
+ ]
+}

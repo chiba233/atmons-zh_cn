@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/ja_jp/content/arcane/_meta.json",
+ "sha1": "d84081be2e68fe242c034428759441959501d0e4",
+ "t": [
+  [
+   [
+    "enchantments.mdx"
+   ],
+   "エンチャンティング",
+   "附魔"
+  ],
+  [
+   [
+    "mob_spawning.mdx"
+   ],
+   "モブスポーン",
+   "生物刷出"
+  ],
+  [
+   [
+    "souls.mdx"
+   ],
+   "ソウル",
+   "灵魂"
+  ]
+ ]
+}

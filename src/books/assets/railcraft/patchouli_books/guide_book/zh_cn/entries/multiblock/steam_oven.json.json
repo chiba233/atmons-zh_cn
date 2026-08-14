@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/steam_oven.json",
+ "sha1": "2ef0f6dd9fe26135a7b7786addf0fab3c39270d2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Steam Oven",
+   "蒸汽炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Steam Oven is a 2x2x2 structure that when fed Steam will cook items for you. It can cook up to 9 items at once in the short time of 256 ticks(which is 12.8 seconds)!",
+   "蒸汽炉是一种2×2×2尺寸的结构，当通入蒸汽后可自动为您烹煮物品。它能在短短256刻（即12.8秒）内同时烹煮最多9件物品！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Steam Oven",
+   "蒸汽炉"
+  ]
+ ]
+}

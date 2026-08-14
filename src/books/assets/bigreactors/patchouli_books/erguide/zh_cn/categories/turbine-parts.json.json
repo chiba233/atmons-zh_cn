@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine-parts.json",
+ "sha1": "c2a933fe3e64fe0f492d2e9853b62e16abf2c78f",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A Turbine is built using the following parts.$(br2)Some parts are mandatory, while others are optional. Some are available to all Turbine variants, and some are not. The part page will illustrate which parts are available for the desired Turbine.",
+   "涡轮机由以下部件构成。$(br2)有些部件是必需的，而有些则是可选的。有些适用于所有涡轮机变体，也有些并非如此。部件页面会说明目标涡轮机可使用哪些部件。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Turbine parts",
+   "轮机部件"
+  ]
+ ]
+}

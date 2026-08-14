@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_item.json",
+ "sha1": "7894700e3d7728b0065a0909147aabfafc48455c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Item Cards",
+   "物品卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Item Cards are used to send items between inventories, such as chests and furnaces.$(br2)Overclocker values are documented on the following page.",
+   "物品卡用于在箱子、熔炉等存储空间之间传输物品。$(br2)超频器相关数值详见下页。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Item/T values (max) for Overclockers:$(br2)$(li)0 Overclockers: 8 Items/20t$(li)1 Overclocker:  16 Items/15t$(li)2 Overclockers: 32 Items/10t$(li)3 Overclockers: 48 Items/5t$(li)4 Overclockers: 64 Items/1t",
+   "物品/tick 数值（最大值）与超频器数量关系：$(br2)$(li)0 超频器：8 物品/20t$(li)1 超频器：16 物品/15t$(li)2 超频器：32 物品/10t$(li)3 超频器：48 物品/5t$(li)4 超频器：64 物品/1t"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Item Card",
+   "物品卡"
+  ]
+ ]
+}

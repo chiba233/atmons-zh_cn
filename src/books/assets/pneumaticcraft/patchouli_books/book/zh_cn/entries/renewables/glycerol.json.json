@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/renewables/glycerol.json",
+ "sha1": "9cff36b1a62f480ac60fa30a650e07b9dda13646",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glycerol",
+   "甘油"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(thing)Glycerol/$ is a by-product of producing $(l:renewables/biodiesel)Biodiesel/$, but it turns out to be a rather useful substance in its own right. Its uses are detailed in the following pages.",
+   "$(thing)甘油/$是生产 $(l:renewables/biodiesel)生物柴油/$ 时的副产物，但事实证明它本身也是一种相当有用的物质。它的用途会在接下来的页面中详细说明。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(thing)Bandages/$ can be used to quickly heal 3 hearts of health. Quickly is not instantaneous, though; you will need to right-click and hold for 2 seconds to apply a bandage, and there is an 8-second cooldown between uses.",
+   "$(thing)绷带/$可用于快速恢复 3 颗红心的生命值。不过，“快速”并不等于瞬间生效；你需要按住右击 2 秒来使用绷带，并且每次使用之间有 8 秒冷却时间。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Double the output of using $(thing)Sugar/$, what's not to like? This will save on your precious $(l:components/lubricant)Lubricant/$.",
+   "使用 $(thing)砂糖/$ 时产量翻倍，这还有什么不好的呢？这样还能节省你珍贵的 $(l:components/lubricant)润滑油/$。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(thing)Glycerol/$ also makes a decent fuel item, equivalent to 4 $(thing)Planks/$ or half a lump of $(thing)Coal/$.",
+   "$(thing)甘油/$也是一种不错的燃料，相当于 4 个 $(thing)木板/$或半块 $(thing)煤炭/$。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "As a Fuel",
+   "作为燃料"
+  ]
+ ]
+}

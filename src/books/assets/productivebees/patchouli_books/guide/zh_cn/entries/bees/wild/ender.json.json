@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/ender.json",
+ "sha1": "ec037d07b41fbb4f41d6b3e169a72964b8693146",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ender Bee",
+   "末影蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Found living in end stone nests on end islands. Ender Bees prefer pollinating the locally flora of chorus plants.",
+   "栖息在末地岛屿上的末地石蜂巢中。末影蜜蜂更喜欢为当地的紫颂植物授粉。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Ender Bee",
+   "末影蜜蜂"
+  ]
+ ]
+}

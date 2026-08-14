@@ -1,0 +1,118 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/nuclear/_meta.json",
+ "sha1": "b8f0181ef0c9d69fefba1f3011820f88fa275675",
+ "t": [
+  [
+   [
+    "low_yield_nuke.mdx"
+   ],
+   "Low-Yield Nuclear Explosion Device",
+   "低当量核爆炸装置"
+  ],
+  [
+   [
+    "nuke.mdx"
+   ],
+   "Manhattan Module",
+   "曼哈顿模块"
+  ],
+  [
+   [
+    "reactor_absorber_port.mdx"
+   ],
+   "Reactor Absorber Port",
+   "反应堆吸收器口"
+  ],
+  [
+   [
+    "reactor_condenser.mdx"
+   ],
+   "Reactor Heat Absorber",
+   "反应堆热量吸收器"
+  ],
+  [
+   [
+    "reactor_controller.mdx"
+   ],
+   "Nuclear Reactor Controller",
+   "核反应堆控制器"
+  ],
+  [
+   [
+    "reactor_double_rod.mdx"
+   ],
+   "Reactor Double Rod",
+   "双联反应堆棒"
+  ],
+  [
+   [
+    "reactor_energy_port.mdx"
+   ],
+   "Reactor Energy Port",
+   "反应堆能量端口"
+  ],
+  [
+   [
+    "reactor_fuel_port.mdx"
+   ],
+   "Reactor Fuel Port",
+   "反应堆燃料口"
+  ],
+  [
+   [
+    "reactor_heat_pipe.mdx"
+   ],
+   "Reactor Heat Pipe",
+   "反应堆热量管道"
+  ],
+  [
+   [
+    "reactor_quad_rod.mdx"
+   ],
+   "Reactor Quad Rod",
+   "四联反应堆棒"
+  ],
+  [
+   [
+    "reactor_redstone_port.mdx"
+   ],
+   "Reactor Redstone Port",
+   "反应堆红石端口"
+  ],
+  [
+   [
+    "reactor_reflector.mdx"
+   ],
+   "Neutron Reflector",
+   "中子反射板"
+  ],
+  [
+   [
+    "reactor_rod.mdx"
+   ],
+   "Reactor Fuel Rod",
+   "反应堆燃料棒"
+  ],
+  [
+   [
+    "reactor_vent.mdx"
+   ],
+   "Reactor Heat Vent",
+   "反应堆散热片"
+  ],
+  [
+   [
+    "reactor_wall.mdx"
+   ],
+   "Reactor Wall",
+   "反应堆墙"
+  ],
+  [
+   [
+    "uranium_pellet.mdx"
+   ],
+   "Uranium Processing",
+   "铀处理"
+  ]
+ ]
+}

@@ -1,0 +1,18 @@
+---
+title: 机器框架
+icon: oritech:machine_frame_block
+---
+<center>
+<ModAsset location="oritech:area/machine_frame" width={512} />
+</center>
+
+*[方块放置器](../interaction/block_placer)、[方块破坏者](../interaction/block_destroyer)与[fertiliseur](../interaction/fertilizer)* 均需依托机器框架结构运行。机器框架划定机器工作区域，该区域必须为内部中空的矩形。
+
+
+机器始终瞄准框架**下方**的方块。
+
+多台机器可共用同一机器框架。
+
+为此，只需在框架上放置多台机器。机器将始终遍历框架区域内所有方块。
+
+所有基于机器框架运行的机器均可使用大部分模块。速度模块可同时提升移动与作业速度。

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/generators/pity.json",
+ "sha1": "283de630489582ed3a544dbb492f8e22880d8ca3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pififul Generator",
+   "低端火力发电机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A very inefficient generator that consumes burnable fuels, like coal. $(br2)It's so inefficient that when the machine energy buffer is full it will keep consuming fuel.",
+   "一种效率极低的发电机，仅可燃烧煤炭等燃料。$(br2)其效率之低，以至于当机器能量缓冲区充满时，仍会持续消耗燃料。"
+  ]
+ ]
+}

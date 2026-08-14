@@ -1,0 +1,58 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/basics/machine_bases.json",
+ "sha1": "72277ea7fdd5bcd0eb4c987335b1ba92e0d33322",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Machine Bases",
+   "机器基座"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Machine Bases$() are similar to $(l:rftoolsbase:basics/machine_frames)Machine Frames$() in that they are a crafting material, however the resulting machines are slightly different. $(br2)Machine Bases produce machines that are a quarter of a block high, and usually have some form of $(thing)redstone$() output or input.",
+   "$(item)机器基座$()与$(l:rftoolsbase:basics/machine_frames)机器框架$()类似，都是合成材料，但最终做出的机器略有不同。$(br2)机器基座制作出的机器高度只有四分之一个方块，并且通常具有某种形式的$(thing)红石$()输入或输出。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "When you place one of these machines, the direction it faces is determined by $(thing)which edge of the block your cursor is closest to$(). $(br2)It may help to imagine an X on the side of the block you are placing the machine on, then think about which 'quarter' of the X you're looking at. $(br2)The output will be facing this direction and the input will come from the opposite direction.",
+   "当你放置这些机器中的一种时，它的朝向由$(thing)你的光标最靠近方块哪一条边$()决定。$(br2)你可以把要放置机器的那个方块侧面想象成画了一个 X，然后考虑你看向的是这个 X 的哪个“四分区”。$(br2)输出端会朝向这个方向，而输入端则来自相反方向。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "This is particularly useful for placing these machines in cramped spaces or on walls - which is one of the more convenient features of these blocks. $(br2)Of course, if you don't like the direction the block is facing in, you can always $(l:rftoolsbase:tools/smartwrench)Wrench$() it - just right-click with the wrench in Wrench Mode to change the direction it's facing in.",
+   "这对于在狭小空间或墙面上放置这些机器特别有用——这是这些方块更方便的特性之一。$(br2)当然，如果你不喜欢方块当前的朝向，随时都可以用$(l:rftoolsbase:tools/smartwrench)扳手$()调整——只需用处于扳手模式的扳手右键点击，即可改变它的朝向。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "heading"
+   ],
+   "Machine Base",
+   "机器基座"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The $(item)Machine Base$() does nothing on its own, but is used in many recipes as the base for other blocks.",
+   "$(item)机器基座$()本身没有任何功能，但在许多配方中会作为其他方块的基础材料使用。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/tools/charge_meter.json",
+ "sha1": "6658d8d098b2c27fa110f114574fed04887db3db",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Charge Meter",
+   "电表"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Charge Meter is a tool from Railcraft, which is used to measure the Railcraft Charge in the various machines, wires, or tracks that use/transfer it, including the Electric Locomotive, Electric Feeder Unit, various Electric Tracks. It records the network usage over a 5-second period.",
+   "电表是铁路模组（Railcraft）提供的工具，用于测量各类使用或传输铁路电荷的机器、导线及轨道中的电荷值，包括电力机车、电力馈电单元及各类电力轨道。它会记录5秒周期内的网络使用情况。"
+  ]
+ ]
+}

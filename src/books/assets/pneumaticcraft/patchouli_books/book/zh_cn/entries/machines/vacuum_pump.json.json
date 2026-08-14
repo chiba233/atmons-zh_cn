@@ -1,0 +1,76 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/vacuum_pump.json",
+ "sha1": "77e95c5b1ae0a5d68407159fad0e53bfac9ce3f8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vacuum Pump",
+   "真空泵"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Vacuum Pump/$ is a machine used to create... a vacuum. To do this the machine consumes $(l:base_concepts/pressure)pressurized air/$.$(p)Positive pressure should be applied on the $(#0c0)'+' side/$; when the minimal working pressure is reached, the $(item)Vacuum Pump/$ starts pumping and the pressure on the $(#c00)'-' side/$ drops, to a minimum of -1.0 bar, which is a vacuum.",
+   "$(thing)真空泵/$是一种用于制造……真空的机器。为此，这台机器会消耗$(l:base_concepts/pressure)压缩空气/$。$(p)应从$(#0c0)“+”侧/$施加正压；当达到最低工作压力后，$(item)真空泵/$就会开始抽气，使$(#c00)“-”侧/$的压力下降，最低可达 -1.0 bar，也就是真空。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The following uses exist for negative (vacuum) pressure:$(li)Disenchanting: place an $(item)enchanted item/$ or $(item)Enchanted Book/$ with more than one enchantment and a vanilla $(item)Book/$ in a $(l:manufacturing/pressure_chamber)Pressure Chamber/$ and give the chamber sufficient negative pressure. A random enchantment will transfer from the item to the book.$(li)The $(l:tubes/air_grate_module)Air Grate Module/$, when given negative pressure, will attract entities to itself.",
+   "负压（真空）可用于以下用途：$(li)祛魔：将一件$(item)已附魔物品/$或$(item)附魔书/$（且其具有多个附魔）与一本原版$(item)书/$一同放入$(l:manufacturing/pressure_chamber)压力室/$，并为压力室提供足够的负压。物品上的一个随机附魔会转移到书上。$(li)$(l:tubes/air_grate_module)空气格栅模块/$在提供负压时，会将实体吸引到自身处。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Applications",
+   "应用"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)Both the $(l:spawning/vacuum_trap)Vacuum Trap/$ and $(l:spawning/spawner_extractor)Spawner Extractor/$, devices required for making and using $(l:spawning/pressurized_spawner)Pressurized Spawners/$, need negative pressure to operate.",
+   "$(li)$(l:spawning/vacuum_trap)真空陷阱/$和$(l:spawning/spawner_extractor)刷怪笼抽取器/$这两种用于制作和使用$(l:spawning/pressurized_spawner)气动刷怪笼/$所必需的设备，都需要负压才能运行。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Applications (cont.)",
+   "应用 (续)"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Crafting a Vacuum Pump",
+   "合成真空泵"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "header"
+   ],
+   "Vacuum Disenchanting",
+   "真空祛魔"
+  ]
+ ]
+}

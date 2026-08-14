@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/pneumatic_cylinder.json",
+ "sha1": "d83fb3547b502709fbc05ed2ef9d25caf9afe35e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pneumatic Cylinder",
+   "压力缸"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is a crafting component for other devices. It has no use on its own.",
+   "这是用于制作其他设备的合成组件。它本身没有用途。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a Pneumatic Cylinder",
+   "合成压力缸"
+  ]
+ ]
+}

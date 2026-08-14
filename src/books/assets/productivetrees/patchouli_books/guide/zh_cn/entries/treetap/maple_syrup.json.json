@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivetrees/patchouli_books/guide/en_us/entries/treetap/maple_syrup.json",
+ "sha1": "e38f60819d44c944f3b141bace725d9dcef969f7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Maple Syrup",
+   "枫糖浆"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Maple sap can be extracted from Sugar Maple trees.",
+   "可以从糖槭树中提取枫树汁。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Maple sap makes Maple Syrup, delicious, delicious Maple Syrup.",
+   "枫树汁可制成枫糖浆，美味可口的枫糖浆！"
+  ]
+ ]
+}

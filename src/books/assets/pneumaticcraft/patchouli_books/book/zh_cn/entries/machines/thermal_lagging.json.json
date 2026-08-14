@@ -1,0 +1,40 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/machines/thermal_lagging.json",
+ "sha1": "552b0bf04748ac5a91d723aacd1427e7f8072356",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Thermal Lagging",
+   "隔热板"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "As you're probably aware, $(pncr) machines which use $(l:base_concepts/heat)Heat/$ will lose heat to the air, if left exposed. While you can cover these machines with pretty much any non-air, non-heat-conducting block, $(thing)Thermal Lagging/$ is particularly suitable for insulating machines.",
+   "你可能已经知道，如果使用 $(l:base_concepts/heat)热量/$ 的 $(pncr) 机器暴露在空气中，就会向外散热。虽然你几乎可以用任何非空气且不导热的方块来覆盖这些机器，$(thing)隔热板/$ 仍然特别适合用于为机器保温。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(thing)Thermal Lagging/$ has the useful property of allowing you to $(italic)click through/$ to the block behind, as if the lagging wasn't even present.$(p)This applies unless you are holding any type of $(item)Pickaxe/$, $(item)wrench/$, or you are $(thing)sneaking/$, which lets you target the lagging itself for removal or other interaction.",
+   "$(thing)隔热板/$有一个很实用的特性：你可以$(italic)穿透点击/$其后方的方块，就好像隔热板根本不存在一样。$(p)不过，如果你手持任意一种$(item)镐/$或$(item)扳手/$，或者正处于$(thing)潜行/$状态，就可以选中隔热板本身，以便将其拆除或进行其他交互。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Creating Thermal Lagging",
+   "制作隔热板"
+  ]
+ ]
+}

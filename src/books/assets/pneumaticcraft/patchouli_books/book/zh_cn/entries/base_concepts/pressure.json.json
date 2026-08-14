@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/base_concepts/pressure.json",
+ "sha1": "e7d5cd914f4f39557b4774a40f81aba299c5be84",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pressure",
+   "压力"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Compressed air is the $(pncr) $(thing)power system/$, based on real-world pressure mechanics.$(li)Compressed air is $(italic)produced/$ by a class of machines called $(thing)Compressors/$, of which there are several types.$(li)All pressurizable machines and tools have a $(thing)volume/$ (measured in mL), which is the amount of air they can store at standard atmospheric pressure, or $(ttcolor)$(t:This mod uses 0 bar to represent standard atmospheric pressure, also known as Gauge Pressure)0 bar/$.",
+   "压缩空气是这种$(pncr)$(thing)动力系统/$，其运作基于现实世界中的压力机制。$(li)压缩空气由一类名为 $(thing)压缩机/$ 的机器$(italic)产生/$，其中又分为好几种类型。$(li)所有可加压的机器和工具都有一个$(thing)容积/$（以 mL 为单位），表示它们在标准大气压下，也就是 $(ttcolor)$(t:This mod uses 0 bar to represent standard atmospheric pressure, also known as Gauge Pressure)0 bar/$ 时能够储存的空气量。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)The $(thing)pressure P/$ of a machine or tool can be calculated as:$(p)  $(formula)P = (A / V) - 1/$$(p)where $(formula)V/$ is the $(thing)volume/$ and $(formula)A/$ is the $(thing)air/$ currently in the machine. E.g a machine with 5000mL $(thing)volume/$ storing 20000mL $(thing)air/$ has a pressure of $(thing)3 bar/$.$(li)The volume of most machines can be increased with $(l:base_concepts/upgrades#volume)Volume Upgrades/$, which mean smaller pressure drops when air is used.",
+   "$(li)机器或工具的$(thing)压力 P/$可以按下式计算：$(p)  $(formula)P = (A / V) - 1/$$(p)其中，$(formula)V/$表示$(thing)容量/$，$(formula)A/$表示机器内当前存储的$(thing)空气/$。例如，一台容量为 5000mL 的机器$(thing)容量/$中存储了 20000mL 的$(thing)空气/$，其压力为$(thing)3 bar/$。$(li)大多数机器的容量都可以通过$(l:base_concepts/upgrades#volume)容量升级/$来提升，这意味着在消耗空气时压力下降会更小。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)Air moves from higher pressure blocks to lower pressure blocks. Leaving $(l:tubes/pressure_tubes)tubes/$ or machines unconnected will cause a giant $(thing)air leak/$, which means pressure loss! Air leaks are audible as a hissing sound, and visible as a stream of particles leaving the block.$(li)Pressure tries to balance. Connecting a small machine to a big air capacity (like a $(l:manufacturing/pressure_chamber)Pressure Chamber/$) will result in a pressure build-up in the machine.",
+   "$(li)空气会从高压方块流向低压方块。若让$(l:tubes/pressure_tubes)气压管/$或机器未连接，就会造成巨大的$(thing)漏气/$，从而导致压力损失！漏气时会发出嘶嘶声，并且能看到粒子流从方块中逸出。$(li)压力会尝试趋于平衡。将小型机器连接到大容量储气设备（例如$(l:manufacturing/pressure_chamber)压力室/$）时，会导致机器内的压力逐渐升高。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)Pressure applies force on the inner walls of a machine or $(l:tubes/pressure_tubes)pressure tube/$. Applying too much pressure results in an $(thing)Uncontrolled Rapid Air Release Event/$, also known as an $(thing)explosion/$. The pressure at which machines can explode is shown as the red area in the pressure gauge in any machine's GUI, but the exact point at which a machine will explode isn't predictable.",
+   "$(li)压力会作用于机器或$(l:tubes/pressure_tubes)压力管道/$的内壁上。施加过高的压力会导致$(thing)失控快速空气释放事件/$，也就是所谓的$(thing)爆炸/$。机器会在何种压力下发生爆炸，会在任意机器 GUI 的压力表中以红色区域显示，但机器究竟会在何时爆炸，无法准确预测。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(li)It's important to understand that while many machines require a $(thing)minimum pressure/$ to operate, the operations that a machine carries out consume $(thing)air/$, not $(thing)pressure/$; pressure is just a function of stored air and volume.",
+   "$(li)需要明白的一点是，虽然许多机器都需要达到$(thing)最低压力/$才能运行，但机器执行操作时消耗的是$(thing)空气/$，而不是$(thing)压力/$；压力只是储存空气量与容积共同作用的结果。"
+  ]
+ ]
+}

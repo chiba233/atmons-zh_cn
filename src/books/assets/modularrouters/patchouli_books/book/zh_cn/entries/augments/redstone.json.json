@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/redstone.json",
+ "sha1": "75995c2a01bafd71d46512ccc809df8fd95c59ac",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Redstone Augment",
+   "红石拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can be added to any module.$(p)Normally, modules are run when the router runs, no questions asked. However, if this augment is added to a module, that module can define its own redstone behaviour; an extra button is added to the module's GUI to control this.",
+   "这个增强件可以添加到任何模块中。$(p)通常情况下，模块会在路由器运行时直接执行，不作任何判断。不过，如果给模块添加了这个增强件，该模块就可以定义自己的红石行为；模块 GUI 中也会额外出现一个按钮用于控制这一点。"
+  ]
+ ]
+}

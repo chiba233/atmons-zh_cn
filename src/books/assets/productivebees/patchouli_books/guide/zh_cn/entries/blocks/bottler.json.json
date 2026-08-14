@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/bottler.json",
+ "sha1": "f7845a2e308e2e2fd2cc7c29692ffb376594b94d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bottler",
+   "装瓶机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Used for bottling honey and other fluids. Honey can be pumped into the side or it can be placed next to a centrifuge to be filled automatically.$(br2)The bottler together with a piston can be used to bottle up bees as well, see $(l:genetics/transferring)genetics page$(/l).",
+   "用于装瓶蜂蜜和其他流体。蜂蜜可以从侧面泵入，也可以将它放在离心机旁边自动灌装。$(br2)装瓶机配合活塞也可以把蜜蜂装进瓶子里，详见$(l:genetics/transferring)基因工程页面$(/l)。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Bottler with Centrifuge",
+   "装瓶机与离心机"
+  ]
+ ]
+}

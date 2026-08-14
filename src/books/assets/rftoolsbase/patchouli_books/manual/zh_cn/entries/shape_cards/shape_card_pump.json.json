@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shape_cards/shape_card_pump.json",
+ "sha1": "1381f746da466bed23069597bb34d0279f4194cd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pump Card",
+   "泵卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Pump Card makes the Builder collect fluids from the selected area. The pumped fluid must be stored in a tank connected to the Builder.",
+   "泵卡使建筑机从所选区域内抽取流体。被抽取的流体必须储存于连接至建筑机的储罐中。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The normal Pump Card replaces removed fluid with the configured filler. The clearing variant leaves empty space instead.",
+   "普通泵卡会在移除流体后以设定填充物替代；清除变体则直接留出空气空间。"
+  ]
+ ]
+}

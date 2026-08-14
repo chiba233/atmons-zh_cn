@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/misc/enchantment_applicator.json",
+ "sha1": "0c40bb7e67678147d56839ad1e51bc18805ddc9a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Enchantment Applicator",
+   "自动化附魔铁砧"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine functions the same way as an anvil but instead of experience it uses $(l:agr_husb/essence)Essence$(). It can grab essence from the tank on top of the cost is too big.",
+   "该机器功能与铁砧相同，但以$(l:agr_husb/essence)精华$()替代经验。当顶部储罐中精华充足时，即可完成合成；若所需精华过多，则无法进行。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/widget_flow.json",
+ "sha1": "00dfdeaa0bfab3980007a997cecc97a3e702bc08",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Widgets that affect the program flow.",
+   "影响程序流程的控件。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Flow Control Widgets",
+   "流程控制组件"
+  ]
+ ]
+}

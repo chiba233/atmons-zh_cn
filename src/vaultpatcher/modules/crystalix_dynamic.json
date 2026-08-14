@@ -1,0 +1,30 @@
+[
+  {
+    "name": "crystalix_dynamic_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": true,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.satherov.crystalix.client.renderer.ColorPickerScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Color Selection",
+        "value": "颜色选择"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.satherov.crystalix.client.renderer.RadialMenuScreen"
+    ],
+    "pairs": [
+      {
+        "key": "Radial Menu",
+        "value": "径向菜单"
+      }
+    ]
+  }
+]

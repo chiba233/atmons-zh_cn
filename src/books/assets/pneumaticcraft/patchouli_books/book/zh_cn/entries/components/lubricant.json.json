@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/components/lubricant.json",
+ "sha1": "46b137d97396d0f259990ca7e6cf0a66c6a778ce",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Lubricant",
+   "润滑油"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(item)Lubricant/$ is required for crafting $(l:base_concepts/upgrades#speed)Speed Upgrades/$.$(p)It is created in a $(l:manufacturing/thermopneumatic_processing_plant)Thermopneumatic Processing Plant/$ with $(l:manufacturing/refinery)Diesel/$ (or $(l:renewables/biodiesel)Biodiesel/$) and $(item)Redstone/$.",
+   "合成 $(l:base_concepts/upgrades#speed)速度升级/$ 需要用到 $(item)润滑油/$。$(p)它可在 $(l:manufacturing/thermopneumatic_processing_plant)热气动加工机/$ 中使用 $(l:manufacturing/refinery)柴油/$（或 $(l:renewables/biodiesel)生物柴油/$）和 $(item)红石/$ 制成。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(italic)Slippery stuff/$",
+   "$(italic)滑溜溜的东西/$"
+  ]
+ ]
+}

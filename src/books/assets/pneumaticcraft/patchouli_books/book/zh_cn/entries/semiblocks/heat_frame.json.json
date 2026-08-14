@@ -1,0 +1,58 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/semiblocks/heat_frame.json",
+ "sha1": "f84d58fbe60d6552036324c744e47596f52bce64",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Heat Frame",
+   "导热框架"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This item can be placed on any $(thing)inventory/$. When heated by an adjacent $(l:base_concepts/heat)Heat source/$ it will try to smelt any item in the inventory (or freeze it when cooled). It will only succeed if there is room in the inventory for the resulting item. The more heat applied, the faster the smelting process will be, up to a maximum of 1 item per second. Similarly, the more it's cooled, the faster it will freeze objects.",
+   "该物品可以放置在任何$(thing)容器/$上。当它被相邻的$(l:base_concepts/heat)热源/$加热时，会尝试冶炼容器中的任意物品（或在冷却时将其冰冻）。只有当容器中有足够空间容纳产出物时，它才会成功。施加的热量越多，冶炼速度就越快，最快可达到每秒 1 个物品。同样地，冷却得越强，它冰冻物体的速度也就越快。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "link_text"
+   ],
+   "CraftTweaker Docs",
+   "矿石工艺文档"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The $(thing)Heat Frame/$ has $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ support for cooling (smelting just uses regular $(item)Furnace/$ recipes): recipes can be added and removed. Follow the link below for more information.",
+   "$(thing)导热框架/$支持通过 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ 添加冷却相关内容（烧炼则直接使用普通的 $(item)熔炉/$ 配方）：配方可以添加或移除。更多信息请查看下方链接。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "CraftTweaker",
+   "矿石工艺"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Crafting a Heat Frame",
+   "合成导热框架"
+  ]
+ ]
+}

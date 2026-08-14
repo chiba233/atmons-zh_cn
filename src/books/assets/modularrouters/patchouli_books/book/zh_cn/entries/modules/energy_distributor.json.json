@@ -1,0 +1,31 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/energy_distributor.json",
+ "sha1": "a2126a21f50539f688948d4c64a4073a4fa6066f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Energy Distributor Module",
+   "能量分配模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This module is like a combination of an $(l:modules/energy_output)Energy Output/$ and a $(l:modules/distributor)Distributor/$ Module, in that it can wirelessly distribute FE (Forge Energy) to up to 8 nearby energy-accepting blocks.$(p)$(thing)Sneak-right-click/$ a block to add it to the Energy Distributor Module, and $(thing)Sneak-right-click/$ the block again to remove it.",
+   "这个模块相当于$(l:modules/energy_output)能量输出模块/$和$(l:modules/distributor)分配模块/$的结合体，可以将 FE（Forge Energy）无线分配给附近最多 8 个可接收能量的方块。$(p)$(thing)潜行右键单击/$一个方块可将其加入能量分配模块，再次对该方块$(thing)潜行右键单击/$则会将其移除。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Like the $(l:modules/energy_output)Energy Output Module/$, this module can extract energy from either the router's internal energy buffer (if any $(l:upgrades/energy)Energy Upgrades/$ are installed) or from an energy-containing item in the router's item buffer. The internal energy buffer is used by preference.",
+   "和$(l:modules/energy_output)能量输出模块/$一样，这个模块既可以从路由器内部能量缓冲区提取能量（如果已安装$(l:upgrades/energy)能量升级/$），也可以从路由器物品缓冲区中的储能物品提取能量。优先使用内部能量缓冲区。"
+  ]
+ ]
+}

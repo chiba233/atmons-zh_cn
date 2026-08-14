@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/augments/pushing.json",
+ "sha1": "4117aad519936b3e8edfcefa95ffb1a5efd762d3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Pushing Augment",
+   "推动拓展"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This augment can only be added to the $(l:modules/extruder_1)Extruder Mk1/$ and $(l:modules/extruder_2)Extruder Mk2/$ modules.$(p)It can be stacked; each augment increases the force that entities are shoved when the module extrudes a block.",
+   "这个增强件只能添加到$(l:modules/extruder_1)造桥模块 Mk1/$和$(l:modules/extruder_2)造桥模块 Mk2/$模块中。$(p)它可以叠加；每个增强件都会提高模块挤出方块时推动实体的力度。"
+  ]
+ ]
+}

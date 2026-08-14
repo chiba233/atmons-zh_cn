@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/bees_hive.json",
+ "sha1": "2c5cbf9f1d9f35902cf5cb91ddf1fb2678ca1b70",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Hive bees, like the vanilla bee, lives in hives and produce honey and resources. They have to live in $(l:hives/advanced_hives)advanced hives$(/l) to produce resource combs. Most hive bees are bred from solitary bees and other hive bees but some are made by giving a specific item to a bee or by crafting spawn eggs. All bee recipes and flower requirements can be found in JEI.",
+   "蜂巢蜜蜂和原版蜜蜂一样，生活在蜂巢中，并产出蜂蜜和资源。它们必须生活在$(l:hives/advanced_hives)高级蜂巢$(/l)中才能产出资源蜂脾。大多数蜂巢蜜蜂都是由独居蜜蜂和其他蜂巢蜜蜂杂交而来，但也有一些需要给蜜蜂特定物品，或通过合成刷怪蛋获得。所有蜜蜂配方和花朵需求都可以在 JEI 中找到。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Hive Bees",
+   "蜂巢蜜蜂"
+  ]
+ ]
+}

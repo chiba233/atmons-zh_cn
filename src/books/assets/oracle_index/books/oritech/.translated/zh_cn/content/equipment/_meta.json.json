@@ -1,0 +1,76 @@
+{
+ "src": "assets/oracle_index/books/oritech/content/equipment/_meta.json",
+ "sha1": "009ee178b51420a68a952cecf18e8c0974139bc3",
+ "t": [
+  [
+   [
+    "chainsaw.mdx"
+   ],
+   "Chainsaw",
+   "电锯"
+  ],
+  [
+   [
+    "electric_mace.mdx"
+   ],
+   "Electric Mace",
+   "电动重锤"
+  ],
+  [
+   [
+    "exo_suit.mdx"
+   ],
+   "Exo Suit",
+   "外骨骼套装"
+  ],
+  [
+   [
+    "hand_drill.mdx"
+   ],
+   "Hand Drill",
+   "手钻"
+  ],
+  [
+   [
+    "jetpack.mdx"
+   ],
+   "Jetpacks",
+   "喷气背包"
+  ],
+  [
+   [
+    "portable_laser.mdx"
+   ],
+   "Portable Laser",
+   "便携式激光器"
+  ],
+  [
+   [
+    "promethium_axe.mdx"
+   ],
+   "Prometheum Battleaxe",
+   "钷战斧"
+  ],
+  [
+   [
+    "promethium_pickaxe.mdx"
+   ],
+   "Prometheum Pickaxe",
+   "钷镐"
+  ],
+  [
+   [
+    "target_designator.mdx"
+   ],
+   "Target Designator",
+   "目标标识器"
+  ],
+  [
+   [
+    "wrench.mdx"
+   ],
+   "Pipe Wrench",
+   "管道扳手"
+  ]
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/feeder.json",
+ "sha1": "040e2d770464a448c1f1e8e9b3998013cbba3e22",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Feeding Slab",
+   "饲养板"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Can be used as a collection point for feeding bees. It holds 3 item blocks. When Lumber or Quarry bees feed from this it will produce from a random item in the feeder.",
+   "可作为喂食蜜蜂的集中供料点。它可容纳 3 个物品方块。当伐木或采石蜜蜂从这里取食时，会从喂食器中的随机物品产出对应资源。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Feeding slabs can be honeylogged giving the bees an excellent place to dip their toes and recover from a long day of works, aka it gives them regeneration.",
+   "喂食台可以注入蜂蜜，为蜜蜂提供一个绝佳的歇脚之处，让它们在辛苦工作一天后恢复状态——也就是给予它们生命恢复效果。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Since a $(l:items/upgrades#simulator)simulated hive$(/l) only has 1 flowerblock position, feeding slabs work very well with them, letting you have up to 3 different bees working in the hive.",
+   "由于$(l:items/upgrades#simulator)模拟蜂箱$(/l)只有 1 个花朵方块位置，喂食台与它非常搭配，让你最多可以让 3 种不同的蜜蜂在同一个蜂箱中工作。"
+  ]
+ ]
+}

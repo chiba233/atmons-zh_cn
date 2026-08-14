@@ -1,0 +1,139 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/transport/conveyor_upgrades.json",
+ "sha1": "09dea292f6bdca55c75e3c68dfdb02dfc3add560",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Conveyor Upgrades",
+   "传送带升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Extracts items and fluids from inventories. It can extract items from player inventories too. $(br2)Items and fluids that need to be extracted can be filtered in the gui.",
+   "从容器中提取物品与流体。亦可从玩家物品栏中提取。$(br2)需提取的物品与流体可在GUI中设置过滤条件。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Extraction",
+   "精炼"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Inserts items and fluids to inventories. It has 2 modes, insert items that touch the conveyor or insert items that directly touch the upgrade. $(br2)Items and fluids that need to be inserted can be filtered in the gui.",
+   "向容器中插入物品和流体。它有 2 种模式：插入接触传送带的物品，或插入直接接触升级模块的物品。$(br2)需要插入的物品和流体都可以在 GUI 中进行过滤。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Insertion",
+   "注入"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Detects items and entities that are on top of the conveyor. $(br2)Items and entities that need to be detected can be filtered in the gui. Entities can be filtered using a MIB with the entity inside.",
+   "检测位于传送带上方的物品和实体。$(br2)需要检测的物品和实体都可以在 GUI 中进行过滤。实体可以通过装有该实体的御币进行过滤。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Detection",
+   "侦测"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Launches items and entites that are on top of the conveyor. The vertical and horizontal strength can be changed in the GUI.$(br2)Items and entities that need to be launched can be filtered in the gui. Entities can be filtered using a MIB with the entity inside.",
+   "将位于传送带上方的物品与实体弹射出去。弹射的垂直与水平强度可在GUI中调节。$(br2)需弹射的物品与实体可在GUI中设置过滤条件。实体可通过内置对应实体的MIB进行过滤。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Bouncing",
+   "弹性"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Drops items and entites that are on top of the conveyor directly below it. $(br2)Items and entities that need to be dropped can be filtered in the gui. Entities can be filtered using a MIB with the entity inside.",
+   "将位于传送带上方的物品与实体直接向下丢弃。$(br2)需丢弃的物品与实体可在GUI中设置过滤条件。实体可通过内置对应实体的MIB进行过滤。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Dropping",
+   "投下"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Teleports items and entites that are on top of the conveyor. The vertical and horizontal distance can be changed in the GUI.$(br2)Items and entities that need to be launched can be filtered in the gui. Entities can be filtered using a MIB with the entity inside.",
+   "将位于传送带上方的物品与实体进行传送。传送的垂直与水平距离可在GUI中调节。$(br2)需传送的物品与实体可在GUI中设置过滤条件。实体可通过内置对应实体的MIB进行过滤。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Blinking",
+   "闪现"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Splits items and entites that are on top of the conveyor with the ratio defined in the GUI. It needs upgrades in all the sides that need be distributed.",
+   "按GUI中设定的比例，将位于传送带上方的物品与实体进行拆分。所有需要分配的方向均需安装对应的升级卡。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Splitting",
+   "拆分"
+  ]
+ ]
+}

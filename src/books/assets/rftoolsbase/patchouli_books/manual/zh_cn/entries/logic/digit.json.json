@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/digit.json",
+ "sha1": "3f007669b1596e1ecb403b57e83edc632f5300fc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Digit",
+   "数字"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This block simply displays a number from 0 to F (hexadecimal) corresponding to the strength of the input signal.",
+   "这个方块会简单地显示一个 0 到 F（十六进制）的数字，对应输入信号的强度。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "heading"
+   ],
+   "Digit",
+   "数字"
+  ]
+ ]
+}

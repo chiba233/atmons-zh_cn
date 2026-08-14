@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/projector/projector_intro.json",
+ "sha1": "d769a4cf591c02fa37d6f41349d6ef1898589136",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Projector",
+   "投影仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Projector projects the contents of a Shape Card into the world.$(br2)Use it to preview or visualize a shape before using it in another machine.",
+   "投影仪可将塑形卡片内容投射至世界中。$(br2)使用它可在将该形状应用于其他机器前进行预览或可视化确认。"
+  ]
+ ]
+}

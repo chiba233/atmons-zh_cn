@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/sequencer.json",
+ "sha1": "c9662207b0f011669d4885e830aad79823d77514",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sequencer",
+   "定序触发器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Sequencer is a versatile block that can generate specific sequences of redstone signal based on other redstone inputs. It works by selecting 64 different redstone outputs. Whenever a sequence runs it will set the redstone output of this block to this pattern in sequence$(br2)There are 7 different modes:",
+   "时序器是一种多功能方块，可以根据其他红石输入生成特定序列的红石信号。它通过选择 64 个不同的红石输出模式来工作。每当一个序列运行时，它就会按顺序将这个方块的红石输出设为这些模式。$(br2)共有 7 种不同模式："
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(li)$(d)Once1: $()Cycle once. Ignores signals until done$(/li)$(li)$(d)Once2: $()Cycle once. Restart cycle on new signal$(/li)$(li)$(d)Loop1: $()Continuous loop. Ignore redstone signals$(/li)$(li)$(d)Loop2: $()Continious loop. Signal resets cycle to start$(/li)$(li)$(d)Loop3: $()Continious loop while enabled. Stay at current step if disabled$(/li)$(li)$(d)Loop4: $()Continious loop while enabled. Reset to beginning if disabled$(/li)$(li)$(d)Step: $()Perform one step in the cycle on every signal$(/li)",
+   "$(li)$(d)单次1：$()循环一次。完成前忽略信号$(/li)$(li)$(d)单次2：$()循环一次。收到新信号时重新开始循环$(/li)$(li)$(d)循环1：$()持续循环。忽略红石信号$(/li)$(li)$(d)循环2：$()持续循环。信号会将循环重置到起点$(/li)$(li)$(d)循环3：$()启用时持续循环。禁用时停留在当前步骤$(/li)$(li)$(d)循环4：$()启用时持续循环。禁用时重置到起点$(/li)$(li)$(d)步进：$()每次收到信号时在循环中前进一步$(/li)"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/energizer.json",
+ "sha1": "061b086bfebac2daa4f565febd372c0dcd052707",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Energizer is a multiblock machine that allows you to store vast amounts of energy, probably more than you can even produce!.",
+   "物品充能站是一种多方块机器，可让你储存海量能量，甚至可能比你能够生产的还要多！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "The Energizer",
+   "物品充能站"
+  ]
+ ]
+}

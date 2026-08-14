@@ -1,0 +1,22 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/manufacturing/etching_acid.json",
+ "sha1": "a240bf8ff1b0965b38e5761b2b3bd4454b70e1a1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Etching Acid",
+   "蚀刻酸"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Etching Acid is used to chemically develop $(l:components/pcb)PCB's/$. Etching Acid is made in a $(l:manufacturing/pressure_chamber)Pressure Chamber/$ and used in the $(l:manufacturing/etching_tank)Etching Tank/$.$(p)See the $(l:components/pcb)PCB's/$ entry for more info on PCB production.",
+   "蚀刻酸用于对$(l:components/pcb)电路板/$进行化学蚀刻。蚀刻酸在$(l:manufacturing/pressure_chamber)压力室/$中制造，并在$(l:manufacturing/etching_tank)蚀刻器/$中使用。$(p)有关电路板生产的更多信息，请参阅$(l:components/pcb)电路板/$词条。"
+  ]
+ ]
+}

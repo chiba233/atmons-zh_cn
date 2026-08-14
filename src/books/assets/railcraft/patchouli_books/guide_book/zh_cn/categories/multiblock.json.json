@@ -1,0 +1,20 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/categories/multiblock.json",
+ "sha1": "b5e770f3854fd6aae301974843450873499db7e1",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Everything you need to build multi-block structures",
+   "构建多方块结构所需的一切"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Multi-block structures",
+   "多方块结构"
+  ]
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-controller.json",
+ "sha1": "41bb150f6c3565e9dbd1a21855402b93b84a76cb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Controller is your main interface to the Turbine.$(br2)Right-click on the Controller to open its graphical user interface. From there, you can turn the Turbine on or off, check how much vapor and coolant are present in the internal tanks, see how fast the $(l:bigreactors/rotor)Rotor$(/l) is spinning, and monitor how much energy is being generated.",
+   "控制器是你与涡轮机交互的主要界面。$(br2)右键点击控制器即可打开它的图形用户界面。在那里，你可以开关涡轮机、查看内部储罐中蒸汽和冷却液的存量、查看$(l:bigreactors/rotor)转子$(/l)的转速，以及监控当前产生的能量。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You can also regulate how much vapor is flowing around the $(l:bigreactors/rotor)Rotor$(/l), decide what to do with the vapor once it’s condensed back to the original coolant, and engage or disengage the $(l:bigreactors/coils)Induction Coils$(/l).$(br2)If you hover over a control in the interface, a tooltip will be displayed with additional information or an explanatory text for that control.",
+   "你还可以调节流经$(l:bigreactors/rotor)转子$(/l)周围的蒸汽量，决定蒸汽冷凝回原始冷却液后该如何处理，并控制$(l:bigreactors/coils)感应线圈$(/l)的接合与脱开。$(br2)如果你将鼠标悬停在界面中的某个控件上，就会显示一个提示框，其中包含关于该控件的更多信息或说明文字。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic",
+   "基础"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced",
+   "加固"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(l)Mandatory:$() at least one is required$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()至少需要一个$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_xnet_simple.json",
+ "sha1": "4efd53d1349e9ec8c311f65a18e35310458cd6fa",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "A simple network",
+   "一个简易网络"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Simple Network",
+   "简易网络"
+  ]
+ ]
+}

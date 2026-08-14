@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsbuilder_mover.json",
+ "sha1": "d9cac8a3e8c4cef7d57383c79f7249d4ff979d76",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Blocks for building and controlling moving vehicles",
+   "用于建筑及控制移动载具的方块"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Mover",
+   "传运器"
+  ]
+ ]
+}

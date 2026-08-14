@@ -1,0 +1,238 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/environmental.json",
+ "sha1": "b79c3ecc3c06f957ebc28635542ff654d8f6b83a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Environmental Controller",
+   "环境控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Environmental Controller$() can be used to 'infuse' an area with various effects. $(thing)Up to Seven Effects$() can be supported at the same time, but this increases power usage.",
+   "$(item)环境控制器$()可用于为一片区域“注入”各种效果。$(thing)最多可同时支持七种效果$()，但这会提高能量消耗。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The Controller's GUI",
+   "控制器的 GUI"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "The UI has several elements of note. $(br2)On the left are seven $(item)Module Slots$(), where active modules are inserted. $(br2)Along the top is a slider to specify the machine's radius of operation, and below are boxes for the minimum and maximum Y levels. ",
+   "这个界面中有几个值得注意的元素。$(br2)左侧有七个$(item)模块槽$()，用于放入正在生效的模块。$(br2)顶部有一个滑块，用于指定机器的作用半径，下方则是最小和最大 Y 高度的输入框。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Below this is the filter, where you can name players to either receive or be immune from the modules' effects. The filter has seven modes: All mobs and players, Blacklist Players, Whitelist Players, Passive Mobs, Hostile Mobs, or Hostile And Passive Mobs. $(br2)Lastly, we have a button for Redstone Control (On to activate, Off to activate, or Ignored) and a power meter at the bottom left.",
+   "其下方是过滤器，你可以在其中指定玩家名称，以决定他们是会受到还是免疫这些模块效果。过滤器有七种模式：所有生物和玩家、玩家黑名单、玩家白名单、被动生物、敌对生物，或敌对与被动生物。$(br2)最后，还有一个红石控制按钮（通电激活、断电激活或忽略）以及左下角的能量表。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "This module gives Speed I to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标速度 I 效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "This module gives Regeneration I to all valid targets within range. $(br2)uses: 0.0015 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标生命恢复 I 效果。$(br2)消耗：0.0015 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "This module will halve any fall damage suffered by all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会使范围内所有有效目标受到的摔落伤害减半。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "text"
+   ],
+   "This module gives the Glowing effect to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标发光效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "This module gives Haste I to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标急迫 I 效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "This module gives Night Vision to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标夜视效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    12,
+    "text"
+   ],
+   "This module gives Saturation to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标饱和效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    13,
+    "text"
+   ],
+   "This module gives Luck to all valid targets within range. $(br2)uses: 0.002 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标幸运效果。$(br2)消耗：0.002 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    14,
+    "text"
+   ],
+   "This module prevents hostile mobs from spawning within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会阻止范围内生成敌对生物。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    15,
+    "text"
+   ],
+   "This module will negate all fall damage suffered by all valid targets within range. $(br2)uses: 0.003 RF / Tick (Per block in range)",
+   "该模块会使范围内所有有效目标受到的摔落伤害完全无效化。$(br2)消耗：0.003 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    16,
+    "text"
+   ],
+   "This module gives Haste III to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标急迫 III 效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    17,
+    "text"
+   ],
+   "This module gives Water Breathing to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标水下呼吸效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    18,
+    "text"
+   ],
+   "This module gives $(thing)Creative Flight$() to all valid targets within range. $(br2)uses: 0.004 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标$(thing)创造模式飞行$()能力。$(br2)消耗：0.004 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    19,
+    "text"
+   ],
+   "This module gives Regeneration III to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标生命恢复 III 效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    20,
+    "text"
+   ],
+   "This module gives Speed III to all valid targets within range. $(br2)uses: 0.003 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标速度 III 效果。$(br2)消耗：0.003 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    21,
+    "text"
+   ],
+   "This module gives SaturationIII to all valid targets within range. $(br2)uses: 0.003 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标饱和 III 效果。$(br2)消耗：0.003 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    22,
+    "text"
+   ],
+   "This module prevents shulkers and endermen from teleporting within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会阻止范围内的潜影贝和末影人进行传送。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    23,
+    "text"
+   ],
+   "This module gives Blindness to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标失明效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    24,
+    "text"
+   ],
+   "This module poisons to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会使范围内所有有效目标中毒。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    25,
+    "text"
+   ],
+   "This module gives Weakness to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标虚弱效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ],
+  [
+   [
+    "pages",
+    26,
+    "text"
+   ],
+   "This module gives Slowness to all valid targets within range. $(br2)uses: 0.001 RF / Tick (Per block in range)",
+   "该模块会给予范围内所有有效目标缓慢效果。$(br2)消耗：0.001 RF / Tick（按范围内每个方块计算）"
+  ]
+ ]
+}

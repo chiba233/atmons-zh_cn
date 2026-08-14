@@ -1,0 +1,19 @@
+[
+  {
+    "name": "waystones_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "net.blay09.mods.waystones.command.ModCommands"
+    ],
+    "pairs": [
+      {
+        "key": "Unknown waystone style: ",
+        "value": "未知的道标石样式："
+      }
+    ]
+  }
+]

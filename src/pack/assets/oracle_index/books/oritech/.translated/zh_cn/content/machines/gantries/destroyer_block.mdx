@@ -1,0 +1,40 @@
+---
+title: 方块破坏器
+id: oritech:destroyer_block
+type: block
+custom:
+    RF Capacity: "100,000"
+    Max RF input: "5,000"
+    Move cost: "8 RF"
+    Work cost: "128 RF base"
+    Cores required: "2"
+    Addon slots: "4"
+---
+
+方块破坏者是一种龙门架组件，用于破坏其正下方区域内的方块。它是一种多区块结构，需依托于[机器框架](@oritech:machine_frame_block)运行，并以框架正下方的方块层为目标。
+
+
+破坏方块所需的时间与能量取决于该方块的硬度。
+
+### 农业
+
+如需启用农耕用途，请安装[作物过滤器插件](@oritech:crop_filter_addon)。该插件将使方块破坏器跳过所有未成熟的作物，从而实现自动化收割。
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_farming" width={1000} />
+</center>
+
+### 采石场
+
+通过添加[矿场插件](@oritech:quarry_addon)，方块破坏器还可充当矿场。
+每个矿场插件可将向下挖掘范围扩大8倍：
+
+*   **1 个升级插件**: 8方块范围
+*   **2 个升级插件**: 64方块范围
+*   **3 个升级插件**: 512方块范围
+
+作为矿场使用时，默认速度相当缓慢，因此建议添加若干[speed](@oritech:machine_speed_addon)与[efficiency](@oritech:machine_efficiency_addon)插件。
+
+<center>
+<ModAsset location="oritech:area/block_destroyer_quarry" width={1000} />
+</center>

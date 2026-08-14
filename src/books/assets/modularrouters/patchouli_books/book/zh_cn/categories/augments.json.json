@@ -1,0 +1,20 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/categories/augments.json",
+ "sha1": "8921ecf9c920ef5be9a388e0863cdb8672c83902",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Module Augments can be installed in Modules to enhance or extend their functionality",
+   "模块拓展可安装至模块中，以增强或扩展其功能。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Augments",
+   "升级"
+  ]
+ ]
+}

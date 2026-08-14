@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/genetics.json",
+ "sha1": "86c5d174d1ace792203c54ca2b8f74b352a2baca",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "There should bee some info here about bee genetics and how to mess with them.",
+   "这里应该有一些关于蜜蜂基因，以及如何对它们动手脚的信息。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Genetics",
+   "基因工程"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/entries/compressors/liquid_compressor.json",
+ "sha1": "80781aebecda1a76f55e72fb29b03dd4d93ca409",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Liquid Compressor",
+   "液体压缩机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Liquid Compressor/$ is a simple generator which can produce $(l:base_concepts/pressure)compressed air/$. It burns liquid fuels to do so; to see which fuels you can use and their effectiveness, open up the $(bold)Available Fuels/$ tab in the Liquid Compressor's GUI. Note that this also includes high-temperature fluids such as lava.",
+   "$(item)液体压缩机/$是一种简单的机器，可以产生$(l:base_concepts/pressure)压缩空气/$。它通过燃烧液体燃料来实现这一点；要查看你可以使用哪些燃料及其效果，请打开液体压缩机 GUI 中的$(bold)可用燃料/$选项卡。注意，这也包括诸如熔岩之类的高温流体。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting a $(item)Liquid Compressor/$",
+   "合成一个 $(item)液体压缩机/$"
+  ]
+ ]
+}

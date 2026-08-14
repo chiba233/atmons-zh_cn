@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/screen.json",
+ "sha1": "6c90379f45f4b01511c97b2a41c6cdb4c36ebe8a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Screen",
+   "屏幕"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Screen is a versatile block that can display all kinds of information. This depends on the modules you have installed. The Screen needs power that is remotely supplied by a nearby $(l:rftoolsbase:machines/screen_controller)Screen Controller$(/l)$(br2)$(5)Right click$() with an empty hand to open the Screen user interface",
+   "屏幕是一种多功能方块，可显示各类信息，具体取决于你安装的模块。屏幕所需电力由附近的$(l:rftoolsbase:machines/screen_controller)屏幕控制器$(/l)远程供应。$(br2)$(5)空手$()右键可打开屏幕用户界面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "In the GUI you can install modules (or you can install them by right clicking the module on the screen)$(br2)Many modules (like the energy module) need a target to work on. To set that target you must first $(5)sneak right click$() the module on the machine you want to monitor",
+   "在 GUI 中，你可以安装模块（也可以通过拿着模块对屏幕右键来安装）。$(br2)许多模块（如能量模块）需要有目标才能工作。要设置该目标，你必须先拿着该模块对你想监控的机器$(5)潜行右键$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "When the module is installed in the Screen there are also various display options that you can set by opening the specific module GUI (accessed through the normal Screen GUI)$(br2)In that GUI you can also enable 'full bright' mode and by using the wrench you can change the size and transparency of the screen",
+   "当模块安装到屏幕中后，还可以通过打开对应模块的 GUI 来设置多种显示选项（从普通的屏幕 GUI 中进入）。$(br2)在该 GUI 中，你还可以启用“全亮”模式，并且通过使用扳手来改变屏幕的大小和透明度。"
+  ]
+ ]
+}

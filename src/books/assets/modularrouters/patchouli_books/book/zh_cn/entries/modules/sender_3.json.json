@@ -1,0 +1,22 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/modules/sender_3.json",
+ "sha1": "23da7ec0a51b9a77586566ddfd656b2c396b3258",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sender Module Mk3",
+   "发送模块 Mk3"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   " This top-end sender module operates very much like the $(l:modules/sender_3)Sender Mk2/$, but can send to any inventory (in any dimension) with no restrictions!$(p)Note: the target inventory must be chunk-loaded; $(modr) will not do this for you.",
+   "这个顶级发送模块的工作方式与$(l:modules/sender_3)发送模块2型/$非常相似，但它可以不受限制地向任意容器（任意维度）发送物品！$(p)注意：目标容器所在区块必须保持加载；$(modr) 不会替你完成这一点。"
+  ]
+ ]
+}

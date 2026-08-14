@@ -1,0 +1,46 @@
+[
+  {
+    "name": "pocketstorage_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.flanks255.pocketstorage.commands.List"
+    ],
+    "pairs": [
+      {
+        "key": "Open Pocket Storage",
+        "value": "打开口袋存储"
+      },
+      {
+        "key": "Recover Pocket Storage",
+        "value": "恢复口袋存储"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.flanks255.pocketstorage.items.PSUTier"
+    ],
+    "pairs": [
+      {
+        "key": "Tier 1",
+        "value": "第1级"
+      },
+      {
+        "key": "Tier 2",
+        "value": "阶段2"
+      },
+      {
+        "key": "Tier 3",
+        "value": "阶段3"
+      },
+      {
+        "key": "Tier 4",
+        "value": "阶段4"
+      }
+    ]
+  }
+]

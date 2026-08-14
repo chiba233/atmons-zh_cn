@@ -1,0 +1,58 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/fluidizer/part-controller.json",
+ "sha1": "9d0e55736280825d989b48855708a4a2269c4e01",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Controller is your main interface to the Fluidizer.$(br2)Right-click on the Controller to open its graphical user interface, and from there, you can turn the Fluidizer on or off, check how much fluid and energy are present in the machine, and view the status of the current job.",
+   "控制器是你操作流化器的主要界面。$(br2)右键点击控制器即可打开它的图形界面，你可以在其中开启或关闭流化器、查看机器中存有多少流体和能量，以及当前作业的状态。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "If you hover over a control in the interface, a tooltip will be displayed with additional information or explanatory text for that control.$(br2)",
+   "如果你将鼠标悬停在界面中的某个控件上，就会显示一个提示框，提供该控件的额外信息或说明文字。$(br2)"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Controller",
+   "控制器"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(l)Mandatory:$() one and only one is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()必须且只能有一个$(br)$(l)有效位置：$()任意竖直面（不能在框架上）$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

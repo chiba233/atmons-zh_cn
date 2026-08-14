@@ -1,0 +1,40 @@
+---
+id: oritech:deepslate_uranium_ore
+title: 铀矿脉
+type: block
+related_items: ["oritech:uranium_ore", "oritech:uranium_crystal"]
+---
+
+<center>
+<ModAsset location="oritech:area/uranium_cave" width={700} />
+</center>
+
+铀是一种高产能能量源，存在于世界最深层区域。
+与标准矿物矿脉不同，铀以独特的**铀矿脉**形式生成，附着于地下洞穴表面。
+
+### 生成
+
+铀矿脉主要生成于世界深层，通常位于**Y -64至Y -24**之间。
+这些矿脉有一项特殊生成规则：仅出现在有**暴露空气**的洞穴墙壁或地面。
+
+除标准矿石方块外，这些矿脉还常伴有发光的**铀晶体**，可照亮其周围区域。
+
+### 农业与水晶
+
+铀矿石可正常开采，但这些矿脉中的**铀晶体**提供了额外选项：
+
+*   **标准采掘**: 破坏晶体将掉落原始铀，可进一步加工为燃料。
+*   **末影激光器**: 使用[末影激光器](@oritech:laser_arm_block)摧毁水晶
+将产出**钚粉**。钚是[核反应堆]($reactor/introduction)更强劲的燃料来源。
+*   **不可再生**: 与紫水晶不同，铀晶体无法再生。
+一旦矿脉枯竭，你必须寻找新的矿脉。
+
+<Callout variant="warning">
+    铀的能量极高。矿脉本身以原始形态存在时，站在旁边并无危险，
+    但由它加工出的燃料芯块与燃料棒在[反应堆]($reactor/introduction)里
+    必须小心操作，以免发生灾难性的熔毁。
+</Callout>
+
+### 资源节点
+
+若需更可持续的铀供给，请寻找[铀资源节点](@oritech:resource_nodes)。这些节点位于基岩层附近，可使用[基岩层钻机](@oritech:deep_drill_block)无限开采。

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/crafter.json",
+ "sha1": "49b64ce2daa5e3c48478e50da2159333605c056d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "The Crafter",
+   "合成器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Crafter can be used to automatically craft blocks and items. The top tier version supports up to 8 different recipes$(br2)There are 26 input slots (for ingredients) and 4 output slots",
+   "自动合成机可用于自动合成方块和物品。最高阶版本支持最多 8 种不同配方。$(br2)它有 26 个输入槽（用于原料）和 4 个输出槽。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "It is possible to $(l)Remember$() the contents of the slots with the R button. That way an input or output slot can only contain that specific item. Use the F button to forget this again$(br2)$(5)Infusing$() this machine reduces the power usage$(br2)The crafter supports the $(l:rftoolsbase:tools/filtermodule)Filter Module$(/l)",
+   "可以使用 R 键$(l)记住$()槽位中的内容。这样一来，输入槽或输出槽中就只能包含该特定物品。使用 F 键可再次忘记此设置$(br2)$(5)对$()这台机器进行注魔$(br2)可以降低能耗$(l:rftoolsbase:tools/filtermodule)该合成器支持$(/l)存储过滤模块"
+  ]
+ ]
+}

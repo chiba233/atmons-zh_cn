@@ -1,0 +1,58 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/guide/start.json",
+ "sha1": "4c843648d9331db69c3c83bc2fc0047a51353306",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Getting Started",
+   "开始"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Productive Bees builds on top of vanilla bees. Some understanding of the vanilla system is assumed in this guide.",
+   "资源蜜蜂建立在原版蜜蜂机制之上。本指南默认你已经对原版系统有一定了解。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "In addition to vanilla bees you'll come across a range of new bees living in well hidden $(l:hives/nests)nests$(/l) in different biomes around the overworld. These bees are solitary meaning they will not live in a hive. However, their genetics allow for breeding different types of bees, plus they look cool.",
+   "除了原版蜜蜂外，你还会在主世界各个群系中发现许多栖息在隐蔽$(l:hives/nests)蜂巢$(/l)中的新蜜蜂。这些蜜蜂都是独居的，也就是说它们不会住进蜂箱里。不过，它们的遗传特性允许你繁殖出不同类型的蜜蜂，而且它们看起来也很酷。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "First thing you need to find is a vanilla bee nest to get some honey bottles and honeycombs. The honey bottles are needed to craft $(l:items/bee_cage)Bee Cages$(/l) which makes it much easier to transport bees to your home.",
+   "你首先需要找到一个原版蜂巢，以获取一些蜂蜜瓶和蜜脾。蜂蜜瓶是合成$(l:items/bee_cage)蜜蜂笼$(/l)所必需的，这能让你更轻松地把蜜蜂运回家。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Once you've collected enough honeycombs, build yourself an $(l:hives/advanced_hives)advanced beehive$(/l) and an $(l:hives/expansion_boxes)expansion box$(/l). The $(l:hives/advanced_hives)advanced beehive$(/l) allows you to look inside and keep an eye on your bees and what they produce.",
+   "收集到足够多的蜜脾后，给自己建造一个$(l:hives/advanced_hives)高级蜂箱$(/l)和一个$(l:hives/expansion_boxes)扩容盒$(/l)。$(l:hives/advanced_hives)高级蜂箱$(/l)可以让你查看内部情况，随时留意你的蜜蜂以及它们产出的东西。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Some bees can only be found in other dimensions or obtained through breeding. Use JEI to look up the breeding recipes so you know which bees you need to find.",
+   "有些蜜蜂只能在其他维度中找到，或通过繁殖获得。使用 JEI 查阅繁殖配方，这样你就能知道需要先找到哪些蜜蜂。"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/wireless/antennas.json",
+ "sha1": "163eddfa3d5790858e3fe02adb0165377244bd6b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Antennas",
+   "天线"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Wireless Router needs an antenna on top. A normal antenna gives short range, an antenna base improves it, and an antenna dish allows unlimited range.",
+   "无线路由器顶部需安装天线。普通天线提供短距离通信，天线基座可增强距离，天线盘则支持无限距离通信。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Higher antenna tiers cost more RF per channel. Check the item tooltip for the configured range and RF/t cost.",
+   "更高阶的天线每频道消耗更多RF。请查看物品提示信息，了解其设定的有效距离与每单位时间RF消耗量。"
+  ]
+ ]
+}

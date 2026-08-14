@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/hoarder.json",
+ "sha1": "1f938b140daaf9abb0ec13b258ac93ea873f5b1d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Hoarder Bee",
+   "囤积者蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Collects items on the ground and puts them in its hive, it's a cooler and better $(l:bees/worker/collector)Collector Bee$(/l).$(br)Combine with the farmer bee for an automated farm.",
+   "会收集地上的物品并放入自己的蜂巢中，它是更酷更强的$(l:bees/worker/collector)收集者蜜蜂$(/l)。$(br)与农夫蜜蜂搭配即可实现农场自动化。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Hoarder Bee",
+   "囤积者蜜蜂"
+  ]
+ ]
+}

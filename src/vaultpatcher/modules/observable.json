@@ -1,0 +1,19 @@
+[
+  {
+    "name": "observable_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "observable.server.CommandsKt"
+    ],
+    "pairs": [
+      {
+        "key": "Error setting value\n",
+        "value": "设置值时出错"
+      }
+    ]
+  }
+]

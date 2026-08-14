@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/turbine.json",
+ "sha1": "7fef358b529cbacb6bc90c3d279bbbb264ff58b7",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This section contains all you need to know about the Turbine and how to use it to produce energy.",
+   "本节包含关于涡轮机及如何使用它来生产能量所需了解的一切。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "The Turbine",
+   "轮机"
+  ]
+ ]
+}

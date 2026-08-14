@@ -1,0 +1,40 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/transport/item_transporter.json",
+ "sha1": "ee06241af249ac32de3623390a4dfce4d96acb4a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Item Transporter",
+   "物品运输器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Item Transporter can be used to transport items between inventories that are 1 block away. You need to have a transporter in the extraction side and in the insertion side.$(br2)Multiple transporter types can be in the same block and they have insertion modes and extraction modes. To change modes modes you need to right-click the middle area.",
+   "物品运输器可用于在相距 1 格的容器之间传输物品。你需要在提取端和插入端各放置一个运输器。$(br2)多种运输器类型可以存在于同一个方块中，并且它们拥有插入模式和提取模式。要更改模式，你需要右击中间区域。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You can filter things interacting in the GUI with blacklist and whitelist modes. $(br2)To remove upgrades or a transporter you can Sneak + Right + Clicking one of the transporters. $(br2)In regulator mode when a transporter is in insertion mode you can specify how many item/fluid an inventory can have.",
+   "你可以在 GUI 中使用黑名单和白名单模式过滤可交互的内容。$(br2)要移除升级模块或运输器，你可以潜行 + 右击其中一个运输器。$(br2)在调节器模式下，当运输器处于插入模式时，你可以指定一个容器中可拥有多少物品/流体。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You can speed how fast a transporter work with Speed Addons and you can transfer more using Efficiency Addons by right-clicking them in the outer ring of the transporter.",
+   "你可以通过在运输器外环上右击安装速度升级插件来提升运输器的工作速度，也可以安装效率升级插件来增加传输量。"
+  ]
+ ]
+}

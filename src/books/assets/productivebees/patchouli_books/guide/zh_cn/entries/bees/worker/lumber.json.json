@@ -1,0 +1,31 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/lumber.json",
+ "sha1": "2ecd8c9edd7aa2fd18bbb711a7a8afc15418e101",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Lumber Bee",
+   "木场蜜蜂"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Nibble on nearby wood and collects it in its hive.",
+   "会啃食附近的木头，并将其收集到自己的蜂巢中。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Lumber Bee",
+   "木场蜜蜂"
+  ]
+ ]
+}

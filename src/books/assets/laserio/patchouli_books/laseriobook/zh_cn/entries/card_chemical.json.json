@@ -1,0 +1,40 @@
+{
+ "src": "assets/laserio/patchouli_books/laseriobook/en_us/entries/card_chemical.json",
+ "sha1": "754550568792d202230836e0c7328b990cda263c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Chemical Cards",
+   "化学品卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Chemical Cards are used to send Chemicals between inventories, such as Mekanism Tanks.  These cards are only available if Mekanism is installed.$(br2)Overclocker values are documented on the following page.",
+   "化学品卡用于在通用机械（Mekanism）的储罐等存储空间之间传输化学品。这些卡只在安装有通用机械的情况下可用。$(br2)超频器相关数值详见下页。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "MB/T values (max) for Overclockers:$(br2)$(li)0 Overclockers: 15,000mb/20t$(li)1 Overclocker:  60,000mb/15t$(li)2 Overclockers: 120,000mb/10t$(li)3 Overclockers: 180,000mb/5t$(li)4 Overclockers: 240,000mb/1t",
+   "mB/tick 数值（最大值）与超频器数量关系：$(br2)$(li)0 超频器：15,000mB/20t$(li)1 超频器：60,000mB/15t$(li)2 超频器：120,000mB/10t$(li)3 超频器：180,000mB/5t$(li)4 超频器：240,000mB/1t"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Chemical Card",
+   "化学品卡"
+  ]
+ ]
+}

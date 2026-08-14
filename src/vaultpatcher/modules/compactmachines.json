@@ -1,0 +1,101 @@
+[
+  {
+    "name": "compactmachines_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.client.keybinds.room.RoomUpgradeUIMapping"
+    ],
+    "pairs": [
+      {
+        "key": "You must enable room components for this keybind!",
+        "value": "你必须为此快捷键启用房间组件！"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.command.EnableBasicTemplatesSubcommand"
+    ],
+    "pairs": [
+      {
+        "key": "Enabled basic templates, restart game to sync changes.",
+        "value": "已启用基础模板，请重启游戏以同步更改。"
+      },
+      {
+        "key": "Already enabled, restart game to sync changes.",
+        "value": "已启用，重启游戏以同步更改。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.command.RoomUpgradesSubcommand"
+    ],
+    "pairs": [
+      {
+        "key": "That upgrade cannot be applied to the held item.",
+        "value": "该升级无法应用于手持物品。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.command.rooms.CMFindRoomSubcommand"
+    ],
+    "pairs": [
+      {
+        "key": "Does not appear to be a bound machine block.",
+        "value": "这似乎不是一个已绑定的机器方块。"
+      },
+      {
+        "key": "Room not found at chunk: ",
+        "value": "在区块中未找到房间："
+      },
+      {
+        "key": "Room at chunk %s has ID: %s",
+        "value": "位于区块 %s 的房间 ID 为：%s"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.machine.item.BoundCompactMachineItem"
+    ],
+    "pairs": [
+      {
+        "key": "Compact Machine",
+        "value": "压缩空间机械"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.machine.item.UnboundCompactMachineItem"
+    ],
+    "pairs": [
+      {
+        "key": "New Machine",
+        "value": "新压缩空间机械"
+      },
+      {
+        "key": "Compact Machine",
+        "value": "压缩空间机械"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "dev.compactmods.machines.room.upgrade.example.TreeCutterUpgradeComponent"
+    ],
+    "pairs": [
+      {
+        "key": "Tree Cutter",
+        "value": "伐木器"
+      }
+    ]
+  }
+]

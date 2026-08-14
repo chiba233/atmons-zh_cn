@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/docs/reactor/_meta.json",
+ "sha1": "444a57b90a529b2ad3cea3f793bfc00badca5b89",
+ "t": [
+  [
+   [
+    "components.mdx"
+   ],
+   "Component Details",
+   "组件详情"
+  ],
+  [
+   [
+    "designs.mdx"
+   ],
+   "Design Principles",
+   "设计原理"
+  ],
+  [
+   [
+    "introduction.mdx"
+   ],
+   "Nuclear Reactor Introduction",
+   "核反应堆介绍"
+  ]
+ ]
+}

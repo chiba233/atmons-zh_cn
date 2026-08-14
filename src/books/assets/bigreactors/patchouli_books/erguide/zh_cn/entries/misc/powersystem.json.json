@@ -1,0 +1,31 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/misc/powersystem.json",
+ "sha1": "98ad5492ea776573a82ec18bc8aeac851ccf8b46",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Power Systems",
+   "能量系统"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Extreme Reactor energy generators are, by design, not tied to any particular power system that exists today in the world of Minecraft.$(br2)Energy is generated and then converted on the fly by the Power Taps when it is extracted from the internal energy buffer.",
+   "Extreme Reactor 的发电设备在设计上并不绑定 Minecraft 世界中现存的任何特定供能系统。$(br2)能量先被生成，然后在从内部能量缓冲中提取时，由能量接口即时转换。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Power Taps installed in your Reactor or Turbine define the output energy system of the machine.$(br2)Currently, the mod comes with a $(l:bigreactors/part-forgepowertap)Forge Energy Power Tap$(/l) that sends out $(bold)Forge Energy$() units.$(br2)Other power systems can easily be supported by adding new types of Power Taps.",
+   "安装在你的反应堆或涡轮机上的能量接口，决定了这台机器输出所使用的能量系统。$(br2)目前，本模组提供了 $(l:bigreactors/part-forgepowertap)Forge 能量接口$(/l)，可输出 $(bold)Forge 能量$()单位。$(br2)通过添加新的能量接口类型，也可以轻松支持其他供能系统。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsstorage_scanner.json",
+ "sha1": "dddb032dfd0f23b905373a0e67bc7af1482ceaa0",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Powerful block that can access nearby inventories from a centralized place",
+   "一种强大的方块，可以从集中管理的位置访问附近的容器"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Storage Scanner",
+   "存储检测器"
+  ]
+ ]
+}

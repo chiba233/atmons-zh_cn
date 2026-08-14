@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/arcane/_meta.json",
+ "sha1": "a013819e8c798177f709c696a9616632966a1eb6",
+ "t": [
+  [
+   [
+    "enchantments.mdx"
+   ],
+   "Zaklinanie",
+   "附魔"
+  ],
+  [
+   [
+    "mob_spawning.mdx"
+   ],
+   "Pojawianie się Mobów",
+   "生物生成"
+  ],
+  [
+   [
+    "souls.mdx"
+   ],
+   "Dusze",
+   "灵魂"
+  ]
+ ]
+}

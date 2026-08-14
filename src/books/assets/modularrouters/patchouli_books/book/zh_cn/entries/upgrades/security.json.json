@@ -1,0 +1,94 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/security.json",
+ "sha1": "729ed3e5bea77325fe62d8eeb0a757a24901e90b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Security Upgrade",
+   "安全升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(thing)Security Upgrade/$ has several important functions, detailed in the following pages.",
+   "该$(thing)安全升级/$具备多项重要功能，详情请参见后续页面。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A Router with a Security Upgrade installed can $(italic)only/$ be opened by players whitelisted by that upgrade. The upgrade doesn't prevent a router being broken; but since upgrades and modules remain in a broken router, players can't break a router to steal modules/upgrades or reconfigure the router. If you want to prevent a router being broken, you may wish to explore other mods' block protection capabilities.",
+   "安装了安全升级的路由器$(italic)仅/$允许经该升级白名单认证的玩家打开。该升级无法阻止路由器被破坏；但由于升级与模块在路由器被破坏后仍保留在其中，玩家无法通过破坏路由器来窃取模块/升级或重新配置路由器。若你希望彻底防止路由器被破坏，可考虑借助其他模组提供的方块保护功能。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Protection",
+   "保护"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Several modules ($(l:modules/placer)Placer/$, $(l:modules/breaker)Breaker/$, $(l:modules/activator)Activator/$) do their work as a $(thing)fake player/$. By default this is a player with the username $(thing)[Modular Routers]/$, but when a security upgrade is installed, those modules operate as the upgrade's owner. This is much safer on multiplayer servers with claim protection than simply allowing $(thing)[Modular Routers]/$ to do anything with your claims.",
+   "多个模块（$(l:modules/placer)放置器/$、$(l:modules/breaker)破坏器/$、$(l:modules/activator)执行器/$）均以$(thing)假玩家/$身份执行操作。默认情况下，该假玩家用户名为$(thing)[物品路由器]/$；但当安装了安全升级后，这些模块将转而以该升级的所有者身份运行。在启用领地保护的多人服务器上，这种方式远比单纯放任$(thing)[物品路由器]/$随意操作你的领地更为安全。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Fake Players",
+   "假玩家"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "When the $(l:modules/activator)Activator Module/$ is in $(thing)Attack Mode/$, it will ignore any players whitelisted by a Security Upgrade installed in the Router. This is generally a good idea to avoid pain & suffering if you have a high-damage weapon in your Router...",
+   "当$(l:modules/activator)执行模块/$处于$(thing)攻击模式/$时，将无视路由器中安装的安全升级所设定的白名单玩家。若你的路由器中配备了高伤害武器，此举通常十分明智，可避免不必要的痛苦与损失……"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Activator Attack Mode",
+   "激活：攻击模式"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(li)There is a non-craftable item called the $(thing)Security Override Card/$ - this can be obtained in creative mode or by cheating the item in via JEI etc. A player who holds one of these in either hand is not affected by any Security Upgrade, and can access any router.",
+   "$(li)存在一种不可合成的物品，名为$(thing)安全覆盖卡/$——该物品可通过创造模式获取，或借助JEI等工具作弊获得。持有该卡片的玩家，无论将其持于主手或副手，均不受任何安全升级限制，可自由访问所有路由器。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "You can add extra players to a Security Upgrade by $(thing)right-clicking/$ the player with the upgrade in your main hand.$(p)You can remove players from a Security Upgrade by $(thing)sneak-right-clicking/$ the player.$(p)There is a maximum of 6 additional players per Security Upgrade (so 7 in total, including the creator), but you can install more than one Security Upgrade in a router if necessary.",
+   "你可通过$(thing)右键/$点击目标玩家（手持安全升级于主手）的方式，向安全升级中添加额外玩家。$(p)你可通过$(thing)潜行+右键/$点击目标玩家的方式，将其从安全升级的白名单中移除。$(p)每个安全升级最多可添加6名额外玩家（含创建者共7人）；若确有需要，你亦可在同一路由器中安装多个安全升级。"
+  ]
+ ]
+}

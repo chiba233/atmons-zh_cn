@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/fr_fr/content/logistics/_meta.json",
+ "sha1": "7bd1d142ea3c425468caaad72377861e8ea9289b",
+ "t": [
+  [
+   [
+    "drone_port.mdx"
+   ],
+   "Station de Drone",
+   "无人机站"
+  ],
+  [
+   [
+    "energy.mdx"
+   ],
+   "Énergie",
+   "能量"
+  ],
+  [
+   [
+    "fluid_transport.mdx"
+   ],
+   "Transport de Liquides",
+   "流体运输"
+  ],
+  [
+   [
+    "item_transport.mdx"
+   ],
+   "Transport d'Objets",
+   "物品运输"
+  ]
+ ]
+}

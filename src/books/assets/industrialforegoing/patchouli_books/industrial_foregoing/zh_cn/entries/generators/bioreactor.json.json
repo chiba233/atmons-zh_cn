@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/generators/bioreactor.json",
+ "sha1": "60514f8523c5a4894fee31aaf70ea78eccaa51e3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bioreactor",
+   "生物质炉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine that when provided with water and some $(6)seeds$(), $(6)sapplings$(), $(6)dyes$() and ... $(6)skulls$()??? it will create $(l:generators/biofuel)Biofuel$(). $(br2)The more different types of items the reactor has the more biofuel per item it will create. For example: having 1 item the reactor it will only make $(6)80$()mb but, if you have 4 different items, each item will make $(6)110$()mb for a total of $(6)440$()mb.",
+   "一台在提供水以及一些 $(6)种子$()、$(6)树苗$()、$(6)染料$()，还有……$(6)头颅$()？？？时，会制造出 $(l:generators/biofuel)生物燃料$() 的机器。$(br2)反应堆内物品种类越多，每件物品产出的生物燃料就越多。例如：如果反应堆中只有 1 种物品，每件只能产出 $(6)80$()mb；但如果有 4 种不同物品，则每件会产出 $(6)110$()mb，总计 $(6)440$()mb。"
+  ]
+ ]
+}

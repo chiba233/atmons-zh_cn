@@ -1,0 +1,49 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/reprocessor/part-outputport.json",
+ "sha1": "ad1fa9dcedb9947da32bab2a6646de4a8486bac4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Output Port",
+   "输出端口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Output Port allows you to extract the re-processed material from the Reprocessor.$(br2)The graphical interface can be used to extract materials manually, or you can connect a pipe of some sort to extract them automatically.",
+   "输出端口允许你从再处理器中提取再处理后的材料。$(br2)你可以通过图形界面手动提取材料，也可以连接某种管道来自动提取。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Output Port",
+   "输出端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "crafting.title1"
+   ],
+   "Output Port",
+   "输出端口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "usage.text"
+   ],
+   "$(l)Mandatory:$() one, and only one, is required$(br)$(l)Valid positions:$() any vertical face (not on frame)$(br)$(l)Graphical interface:$() yes",
+   "$(l)必需：$()必须且只能有一个$(br)$(l)有效位置：$()任意竖直面（不能在框架上）$(br)$(l)图形界面：$()是"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/hydroponic_bed.json",
+ "sha1": "f4ecc9eb1a4dbfe7208cb50bd96b93da9d268900",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Hydroponic Bed",
+   "水培床"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This machine when combined with power and $(6)water$() (or $(6)lava$() for nether crops) it will speed up growth crop a bit. $(br2)By providing very small amounts of $(l:resource_production/ether_gas)Ether Gas$() crops will grow much faster and they will be replanted automatically.",
+   "当该机器获得能量与$(6)水$()（或下界作物所需的$(6)熔岩$()）时，可略微加快作物生长速度。$(br2)若额外注入极少量$(l:resource_production/ether_gas)以太气体$()，作物将大幅加速生长，并自动重新种植。"
+  ]
+ ]
+}

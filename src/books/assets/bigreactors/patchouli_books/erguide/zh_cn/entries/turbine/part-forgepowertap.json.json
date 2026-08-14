@@ -1,0 +1,85 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/entries/turbine/part-forgepowertap.json",
+ "sha1": "1b616b67d048b9cc3ea37bc4fe2f8d0c7f3fdf79",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Forge Energy Power Tap",
+   "Forge能量接口"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Forge Energy Power Tap allows you to extract energy from a Turbine.$(br2)Like its name implies, this Power Tap outputs energy using the Forge Energy $(l:bigreactors:misc/powersystem)power system$(/l) and so it can be connected only to pipes or machines compatible with that system.",
+   "Forge Energy 能量输出端口允许你从涡轮机中提取能量。$(br2)顾名思义，这个能量输出端口使用 Forge Energy $(l:bigreactors:misc/powersystem)供能系统$(/l)输出能量，因此它只能连接到兼容该系统的管道或机器。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Forge Energy Power Tap",
+   "Forge能量接口"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Only one $(l:bigreactors:misc/powersystem)power system$(/l) can be used for each Turbine and so only one type of Power Tap can be used to build a single Turbine.$(br2)The Power Tap is available in both $(l:bigreactors:misc/passiveactiveparts)passive and active$(/l) form.",
+   "每台涡轮机只能使用一种$(l:bigreactors:misc/powersystem)供能系统$(/l)，因此在建造单台涡轮机时也只能使用一种类型的能量输出端口。$(br2)能量输出端口同时提供$(l:bigreactors:misc/passiveactiveparts)被动和主动$(/l)两种形式。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title1"
+   ],
+   "Basic (Passive)",
+   "基础（被动）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title2"
+   ],
+   "Reinforced (Passive)",
+   "强化（被动）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title1"
+   ],
+   "Basic (Active)",
+   "基础（主动）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title2"
+   ],
+   "Reinforced (Active)",
+   "加固 (主动)"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(l)Mandatory:$() no$(br)$(l)Valid positions:$() any face (not on frame)$(br)$(l)Variants:$() all$(br)$(l)Graphical interface:$() no$(br)$(l)Power system:$() Forge Energy",
+   "$(l)必需：$()否$(br)$(l)有效位置：$()任意面（不能在框架上）$(br)$(l)变种：$()全部$(br)$(l)图形界面：$()否$(br)$(l)供能系统：$()Forge Energy"
+  ]
+ ]
+}

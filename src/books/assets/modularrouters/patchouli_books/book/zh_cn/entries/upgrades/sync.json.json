@@ -1,0 +1,49 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/upgrades/sync.json",
+ "sha1": "a86780cc74f696f0d777f238e1a2fe58fa89b8ab",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sync Upgrade",
+   "同步升级"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This upgrade is used to guarantee that two or more routers run at the same time. The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20). This tuning value can be set by $(thing)right-clicking/$ the Sync Upgrade to open its GUI, or quickly set to a random value by $(thing)sneak-right-clicking/$ the upgrade.",
+   "这个升级用于确保两台或更多路由器在同一时间运行。同步升级具有 0 .. 19 的调谐值（即比基础路由器 20 tick 的速率少 1）。这个调谐值可以通过$(thing)右键单击/$同步升级打开其 GUI 来设置，也可以通过$(thing)潜行右键单击/$该升级快速设为一个随机值。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Any routers with this upgrade installed, with same the tuning value, and with the same number of $(l:upgrades/speed)Speed Upgrades/$ installed, will always run on the same tick. The actual tuning value doesn't matter; only that the value is consistent across the routers you want to synchronise.$(p)This is particularly useful if you have a group of routers with $(l:modules/extruder_1)Extruder Modules/$ installed, and want to ensure all modules extend/retract at exactly the same time.",
+   "所有安装了该升级、调谐值相同、且安装了相同数量$(l:upgrades/speed)速度升级/$的路由器，将始终在同一游戏刻运行。实际调谐值本身并无意义；关键在于你希望同步的各路由器间，该值必须保持一致。$(p)当你拥有一组安装了$(l:modules/extruder_1)造桥模块/$的路由器，并希望确保所有模块同时伸出或缩回时，此功能尤为实用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Advanced notes #1: the Sync Upgrade's tuning value actually specifies precisely when the router will run relative to its tick rate. E.g. routers tick every 20 server ticks by default; a Sync Upgrade with a tuning upgrade of 15 ensures the router $(italic)always/$ runs 15 ticks after that, and that applies to $(italic)all/$ routers with a 15-tuned Sync Upgrade. And a 16-tuned Sync Upgrade always runs 1 tick after a 15-tuned Sync Upgrade, at least for routers with the same number of $(l:upgrades/speed)Speed Upgrades/$ installed...",
+   "高级说明 #1：同步升级的调谐值实际上精确指定了路由器相对于其刻速何时运行。例如，路由器默认每 20 个服务器刻运行一次；如果同步升级的调谐值为 15，则可确保该路由器$(italic)总是/$在那之后的第 15 刻运行，而且这同样适用于$(italic)所有/$装有调谐值为 15 的同步升级的路由器。并且，调谐值为 16 的同步升级总是会在调谐值为 15 的同步升级后 1 刻运行，至少对于安装了相同数量$(l:upgrades/speed)速度升级/$的路由器来说是如此……"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Advanced notes #2: Because $(l:upgrades/speed)Speed Upgrades/$ make routers tick more frequently, they affect how Sync Upgrades work. A router with 9 Speed Upgrades ticks every 2 server ticks (instead of every 20). For Sync Upgrades in such a router, it only matters whether the tuning value is even or odd; 2 (or 4/6/8...) ticks later is effectively the same as 0 ticks later! General case: the tuning value is calculated modulo the router's actual tick rate after Speed Upgrades are accounted for.",
+   "进阶说明#2：由于$(l:upgrades/speed)速度升级/$会提高路由器的运行频率，因此也会影响同步升级的工作方式。安装了9个速度升级的路由器每2个服务端刻运行一次（而非原本的20刻）。对于此类路由器中的同步升级而言，调谐值只需区分奇偶性即可；2刻（或4/6/8……刻）后的运行时机，本质上与0刻后并无区别！通用情况为：调谐值需按安装速度升级后路由器的实际运行周期取模计算。"
+  ]
+ ]
+}

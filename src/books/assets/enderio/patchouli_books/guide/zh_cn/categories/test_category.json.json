@@ -1,0 +1,20 @@
+{
+ "src": "assets/enderio/patchouli_books/guide/en_us/categories/test_category.json",
+ "sha1": "b820c29463984c4bd647bcde28363aa1f1b9494e",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "This is a test category for testing!",
+   "这是一个用于测试的测试分类！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Test Category",
+   "测试类别"
+  ]
+ ]
+}

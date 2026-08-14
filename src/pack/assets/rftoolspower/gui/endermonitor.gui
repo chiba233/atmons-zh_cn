@@ -1,0 +1,27 @@
+window {
+    size(140,30)
+
+    bind('mode', 'mode')
+
+    panel('','vertical') {
+        bgthickness(2)
+        panel('','horizontal') {
+            label('','模式：')
+            choicelabel('mode') {
+                channel('mode')
+                desired(80,13)
+                choices {
+                    choice('Lost Pearl') {
+                        tooltips('发出红石脉冲：当','珍珠丢失时')
+                    }
+                    choice('Pearl Fired') {
+                        tooltips('发出红石脉冲：当','珍珠发射时')
+                    }
+                    choice('Pearl Arrived') {
+                        tooltips('发出红石脉冲：当','珍珠到达时')
+                    }
+                }
+            }
+        }
+    }
+}

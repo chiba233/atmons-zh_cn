@@ -1,0 +1,22 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/entries/blocks/bee_jar.json",
+ "sha1": "1609ec0a15ca93f7eb7201851d146faece148f10",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bee Jar",
+   "蜂罐"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Show your bee collection to the world with this fancy glass container perfectly suited to hold a bee. Use a hopper or pipe to insert a $(l:items/bee_cage)bee cage$(/l) containing a bee of your choosing.",
+   "用这个漂亮的玻璃容器向世界展示你的蜜蜂收藏吧，它非常适合容纳一只蜜蜂。使用漏斗或管道插入一个装有你所选蜜蜂的$(l:items/bee_cage)蜜蜂笼$(/l)。"
+  ]
+ ]
+}

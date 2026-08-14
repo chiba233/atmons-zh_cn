@@ -1,0 +1,20 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/categories/category_rftoolsutility_logic.json",
+ "sha1": "e7b38f185f92ae2c907bb566ccb2b18e9b8046ce",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Logic Blocks are all about producing redstone signals and reacting to them",
+   "逻辑方块主要用于产生红石信号并对其作出反应"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Logic Blocks",
+   "逻辑方块"
+  ]
+ ]
+}

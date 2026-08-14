@@ -1,0 +1,31 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/signal_boxes/signal_controller_box.json",
+ "sha1": "84b93de7e1bcb59809d121d9dac538ddb52fb5e1",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Signal Controller Box",
+   "信号控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This box can be placed next to a Signal Receiver Box and will then send the Signal Aspect from the Receiver Box to a paired Receiver. Multiple Controller Boxes can be placed next to a single Receiver Box. This enables a single Block Signal to control multiple Switch Motors or Distant Signals.$(br2)Placing two Receiver Boxes next to a Controller Box will cause the Controller Box to send the most restrictive Signal Aspect between the two. Additionally it can be powered via Redstone to emit an Aspect chosen via a GUI.",
+   "该方块可放置在信号接收器旁，从而将接收盒的信号显示状态发送至配对的接收端。单个信号接收器旁可放置多个控制箱，使一个区块信号能够同时控制多台红石变道器或预告信号机。$(br2)若在控制箱旁放置两个接收盒，则控制箱将发送二者中最严格的信号显示状态。此外，它还可通过红石供能，并在GUI界面中选择要输出的信号显示状态。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "It will not activate on the Redstone current emitted directly from a Signal Receiver Box. It will however always emit the most restrictive Aspect between the one chosen in the GUI and one received from a Receiver Box. You cannot link a controller to two receivers. Placing a receiver next to a controller will make the receiver give information to the controller but will not actually link them together.",
+   "它不会响应信号接收器直接输出的红石电流。但它总会输出GUI设定与接收盒传来的信号类型中限制性更强的那一种。您无法将一个控制器同时链接至两个接收器。将接收器放置于控制器旁，会使接收器向控制器传递信息，但二者并不会真正建立链接。"
+  ]
+ ]
+}

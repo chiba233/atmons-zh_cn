@@ -1,0 +1,23 @@
+[
+  {
+    "name": "simplylight_zh_cn",
+    "authors": "Auto-Translation-Tool",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.flanks255.simplylight.blocks.LampPost"
+    ],
+    "pairs": [
+      {
+        "key": "Light Blue",
+        "value": "淡蓝色"
+      },
+      {
+        "key": "Light Gray",
+        "value": "淡灰色"
+      }
+    ]
+  }
+]

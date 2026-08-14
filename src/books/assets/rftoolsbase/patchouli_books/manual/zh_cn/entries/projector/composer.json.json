@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/projector/composer.json",
+ "sha1": "3f80472cba836e5814ba1b74f5ba890ab93c74f7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Composer",
+   "构建器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Composer combines several Shape Cards into one.$(br2)Each input shape can be added, subtracted, or intersected, letting you build more complex shapes from simpler cards.",
+   "构建器可将多张塑形卡片合并为一张。$(br2)每张输入塑形卡片均可选择“添加”、“减去”或“相交”，从而由简单卡片构建出更复杂的形状。"
+  ]
+ ]
+}

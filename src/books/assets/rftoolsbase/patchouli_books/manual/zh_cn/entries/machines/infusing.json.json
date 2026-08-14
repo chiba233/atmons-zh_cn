@@ -1,0 +1,121 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/machines/infusing.json",
+ "sha1": "b390fc65a8126ccf78e9a1cfdc50ff6b5a879879",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infusing",
+   "注魔"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(item)Machine Infuser$() uses $(l:rftoolsbase:basics/dimensional_shards)Dimensional Shards$() to $(thing)improve the efficiency$() of a lot of machines. For most things, infusing them will reduce their power requirements. Some devices will have additional benefits from infusion. $(br2)$(thing)Infusing$() the Infuser will cause it to use less power.",
+   "$(item)机器注能机$()使用$(l:rftoolsbase:basics/dimensional_shards)次元裂片$()来$(thing)提高许多机器的效率$()。对大多数设备来说，注能会降低其能量消耗。有些设备还会从注能中获得额外收益。$(br2)$(thing)为注能机本身进行注能$()会使其消耗更少能量。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "See overleaf for additional uses for the Machine Infuser, depending on what other mods you have installed.",
+   "请参见背页，了解机器注能机的更多用途，这些用途取决于你安装了哪些其他模组。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(li)$(l:rftoolsutility:machines/environmental)Environmental Controller$() $(li)$(l:rftoolsutility:machines/dialing_device)Dialing Device$() $(li)$(l:rftoolsutility:machines/matter_receiver)Matter Receiver$() $(li)$(l:rftoolsutility:machines/matter_transmitter)Matter Transmitter$() (+Speed) $(li)$(l:rftoolsutility:machines/spawner)Spawner$() $(li)$(l:rftoolsutility:machines/matter_beamer)Matter Beamer$() (+Speed, -Items Needed) $(li)$(l:rftoolsutility:machines/screen_controller)Screen Controller$() (+Range) $(li)$(l:rftoolsutility:machines/crafter)Crafter$()",
+   "$(li)$(l:rftoolsutility:machines/environmental)环境控制器$() $(li)$(l:rftoolsutility:machines/dialing_device)坐标记录仪$() $(li)$(l:rftoolsutility:machines/matter_receiver)物质接收器$() $(li)$(l:rftoolsutility:machines/matter_transmitter)物质传输器$()（+速度） $(li)$(l:rftoolsutility:machines/spawner)生物生成器$() $(li)$(l:rftoolsutility:machines/matter_beamer)物质投影仪$()（+速度，-所需物品） $(li)$(l:rftoolsutility:machines/screen_controller)屏幕控制器$()（+作用范围） $(li)$(l:rftoolsutility:machines/crafter)合成器$()"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "RFTools Utility",
+   "RF工具丨实用设备"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)$(l:rftoolsstorage:scanner/scanner)Storage Scanner$()",
+   "$(li)$(l:rftoolsstorage:scanner/scanner)存储检测器$()"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "RFTools Storage",
+   "RF工具：存储"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(li)$(l:rftoolspower:powergeneration/coalgenerator)Coal Generator$() $(li)$(l:rftoolspower:powergeneration/endergenic)Endergenic$() (+Power Generated, less powerloss while holding pearls) $(li)$(l:rftoolspower:powerstorage/dimensionalcell)Dimensional Cell$() (- Cost of extracting RF long distance, +  RF/t output) $(li)$(l:rftoolspower:powergeneration/blazingagitator)Blazing Agitator$() (+Blazing Rod Quality) $(li)$(l:rftoolspower:powergeneration/blazinggenerator)Blazing Generator$() (+Power Generated)",
+   "$(li)$(l:rftoolspower:powergeneration/coalgenerator)煤炭发电机$() $(li)$(l:rftoolspower:powergeneration/endergenic)末影能$()（+发电量，持有珍珠时更少能量损耗） $(li)$(l:rftoolspower:powerstorage/dimensionalcell)维度能量单元$()（-远距离提取 RF 的成本，+ RF/t 输出） $(li)$(l:rftoolspower:powergeneration/blazingagitator)烈焰激活器$()（+烈焰棒品质） $(li)$(l:rftoolspower:powergeneration/blazinggenerator)烈焰发电机$()（+发电量）"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "RFTools Power",
+   "RF工具：能量"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(li)$(l:rftoolsdim:dimlets/researcher)Researcher$() (+Speed) $(li)$(l:rftoolsdim:dimensions/dimension_builder)Dimension Builder$() (+Speed)",
+   "$(li)$(l:rftoolsdim:dimlets/researcher)研究台$()（+速度） $(li)$(l:rftoolsdim:dimensions/dimension_builder)维度构建器$()（+速度）"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "RFTools Dimensions",
+   "RF工具丨维度"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "$(li)$(l:rftoolsbuilder:shield/shield_intro)Shield Projector$() (+Damage) $(li)$(l:rftoolsbuilder:builder/builder_intro)Builder$() (+Speed)",
+   "$(li)$(l:rftoolsbuilder:shield/shield_intro)护盾投射仪$()（+伤害） $(li)$(l:rftoolsbuilder:builder/builder_intro)建筑机$()（+速度）"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "RFTools Builder",
+   "RF工具丨建筑机"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/productivebees/patchouli_books/guide/en_us/categories/blocks.json",
+ "sha1": "8c42824ce73e186e3e8a718048d1e9233d520ed6",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Blocks added by Productive Bees!",
+   "多产蜜蜂添加的方块！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Blocks",
+   "方块"
+  ]
+ ]
+}

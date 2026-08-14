@@ -1,0 +1,21 @@
+window {
+    size(168,44)
+
+    action('reset','reset')
+    bind('analog','analog')
+
+    panel('','vertical') {
+        bgthickness(2)
+        togglebutton('analog','模拟模式') {
+            channel('analog')
+            desired(160,16)
+            tooltips('输出相同的功率','改为将等级作为输入，','始终为 15 或 0')
+            check(true)
+        }
+        button('reset','重置频道') {
+            channel('reset')
+            desired(160,16)
+            tooltips('重置频道')
+        }
+    }
+}

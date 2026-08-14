@@ -1,0 +1,40 @@
+{
+ "src": "assets/railcraft/patchouli_books/guide_book/en_us/entries/multiblock/iron_tank.json",
+ "sha1": "0e6be2744e0762a8ac3dd372ca490e306ba8d314",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Iron Tank",
+   "铁储罐"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Swimming in Creosote Oil? Drowning in Biofuel? Covered in honey… well, let's not go there. Anyway, we have a solution for you!$(br2)Today we bring you these shining new bastions of industry, the Iron Tank! Your skyline will never be the same!$(br2)They come in four varieties, 3×3, 5×5, 7×7 and 9×9. Additionally, the height can be custom ordered anywhere from 4 blocks tall to 8 blocks tall! To build one of these marvels, you need to lay down a frame of Iron Tank Wall blocks in the dimensions you desire.",
+   "在杂酚油里游泳？在生物燃料中溺水？浑身沾满蜂蜜……算了，还是别想这个了。总之，我们为您准备了解决方案！$(br2)今天为您隆重推出这些闪耀着工业光辉的新堡垒——铁储罐！您的天际线将从此焕然一新！$(br2)它们共有四种规格：3×3、5×5、7×7 和 9×9。此外，高度还可按需定制，从4格到8格不等！要建造其中任意一款杰作，您只需按所需尺寸铺设一圈铁质蓄水器壁板作为框架即可。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Iron Tank",
+   "铁储罐"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "You must then fill the top, bottom, and sides in with any combination of Wall, Gauge, or Valve as you please.$(br2)But wait, there is more! You can also stack tanks! Just place a couple Valve blocks in the center where the tanks touch and you're good to go!",
+   "随后，您可按个人喜好，在顶部、底部及侧面任意组合放置墙、计数外设仪或阀门。$(br2)但等等，还有更多功能！您还可以堆叠储罐！只需在两罐相接处的中心位置放置若干阀门方块，即可正常使用！"
+  ]
+ ]
+}

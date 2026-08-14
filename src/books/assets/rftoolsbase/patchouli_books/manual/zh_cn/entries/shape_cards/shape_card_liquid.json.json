@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/shape_cards/shape_card_liquid.json",
+ "sha1": "fc2fbc82e5f44efe88c704ba03b2540b98109d94",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Liquid Card",
+   "流体卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Liquid Card makes the Builder place fluid into the selected shape. Provide fluid through a tank connected to the Builder.",
+   "液体卡使建筑机按所选形状向空间内注入流体。请通过连接至建筑机的储罐为其提供所需流体。"
+  ]
+ ]
+}

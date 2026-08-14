@@ -1,0 +1,38 @@
+---
+title: 插件融合器
+id: oritech:shrinker_block
+type: block
+custom:
+    RF Capacity: "50,000,000"
+    Max RF input: "833,333"
+    Cores required: "4"
+    Addon slots: "1"
+---
+
+插件融合器是一种多区块结构，用于将多个机器插件压缩为单一方块。
+它支持您将各种插件融合为一个[机器之心](@oritech:machine_combi_addon)。
+
+
+<center>
+<ModAsset location="oritech:area/shrinker_area" width={512} />
+</center>
+
+---
+
+**压缩处理**
+
+使用拼接机前，须通过延伸器连接您希望组合的插件。机器必须充满能量方可运行。
+一旦通过界面激活，或向**中心**输入红石信号，拼接机将消耗世界中的实体方块，并于其物品栏中输出单一方块（组合后的结果）。
+
+<center>
+<ModAsset location="oritech:area/shrinker_setup_area" width={512} />
+</center>
+
+<Callout variant="warning">
+    压缩不可逆。只有影响机器数值的插件（如速度、效率、产量）才能被拼合。
+
+    需要直接交互的插件（蒸汽锅炉、红石、
+    Inventory Proxy, Hunter) cannot be compacted.
+    另外，「机器之心」不能与其他插件组合——
+    它必须是唯一装上的插件。
+</Callout>

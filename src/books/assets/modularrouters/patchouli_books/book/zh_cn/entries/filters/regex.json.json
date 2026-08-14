@@ -1,0 +1,85 @@
+{
+ "src": "assets/modularrouters/patchouli_books/book/en_us/entries/filters/regex.json",
+ "sha1": "82bcb5cc61dde70c65da70523e2f60915afacc1c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Regex Filter",
+   "正则表达式过滤器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This filter allows for matching of blocks and items with a regular expression, against the item's $(strong)registry name/$. Regular expressions are very powerful, but take some learning to unlock their full potential. However, basic regex usage isn't too difficult. There are many websites with tutorial information on regular expressions, e.g. $(l:https://regexone.com/)RegexOne/$.",
+   "该过滤器支持使用正则表达式对物品或方块进行匹配，匹配依据为物品的$(strong)注册名/$。正则表达式功能极为强大，但需一定学习才能充分释放其潜力。不过，基础用法并不复杂。网上有许多提供正则表达式教程的网站，例如$(l:https://regexone.com/)RegexOne/$。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Because item filtering is done purely on the server, it can't know for sure what an item's displayed text is.  Therefore, all filtering matches are made against the item's internal $(thing)registry name/$. You can find this registry name by toggling on advanced tooltip display with $(thing)F3+H/$.$(p)Note that matching is done against only the part of the registry name $(italic)after/$ the colon.",
+   "由于物品过滤完全在服务端执行，系统无法确切获知物品显示文本的内容。因此，所有过滤匹配均基于物品的内部$(thing)注册名/$进行。你可以通过按$(thing)F3+H/$开启高级提示信息，从而查看该注册名。$(p)请注意：匹配仅针对注册名中$(italic)冒号之后/$的部分。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Registry Names",
+   "注册名"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(thing)To open the module GUI, $(thing)right-click/$ the filter, or $(thing)middle-click/$ / press $(bold)$(4)[$(k:modularrouters.configure)]/$ on a filter which is installed in a module.$(li)Type your regex into the textfield at the top, and hit $(thing)Return/$ or click the green $(bold)$(2)+/$ button. Your regex will be added to the list, assuming its syntax is valid. You can have up to 6 entries in one filter.$(li)Click the red $(bold)$(4)X/$ next to any regex to remove it from the list.$(li)Matches are case-insensitive.",
+   "$(thing)要打开模块 GUI，请$(thing)右键单击/$过滤器，或者对安装在模块中的过滤器使用$(thing)中键单击/$ / 按下 $(bold)$(4)[$(k:modularrouters.configure)]/$。$(li)将你的正则表达式输入顶部文本框，然后按下$(thing)回车/$或点击绿色的 $(bold)$(2)+/$ 按钮。只要语法有效，你的正则就会被加入列表。一个过滤器中最多可有 6 条条目。$(li)点击任意正则旁边红色的 $(bold)$(4)X/$ 可将其从列表中移除。$(li)匹配时不区分大小写。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A regex of 'ore' will match any items with 'ore' in their registry name (\"iron_ore\", \"gold_ore\", \"redstone_ore\"). Unfortunately, it will also match \"drill_core\", but you can avoid this by using a regex of $(1)_ore/$. To be even more specific, you could use $(1)_ore$/$, which also ensures that the string \"_ore\" is at the end of the item's registry name.",
+   "正则表达式“ore”会匹配注册名中包含“ore”的任意物品（\"iron_ore\"、\"gold_ore\"、\"redstone_ore\"）。可惜它也会匹配到 \"drill_core\"，不过你可以改用正则 $(1)_ore/$ 来避免这种情况。若想更精确一些，可以使用 $(1)_ore$/$，这样还可以确保字符串“_ore”位于物品注册名的末尾。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Example 1",
+   "示例 1"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Configure a $(l:modules/player)Player Module/$ to extract from the player's main inventory, and put a regex filter containing $(1)_ore/$ in the module. This can be used to extract any ores from your inventory, regardless of where you are, into your ore processing system; very handy if you're mining far from your base and you want ores that you've mined to be sent home immediately.",
+   "将$(l:modules/player)玩家模块/$配置为从玩家主物品栏提取，并在模块中放入一个包含 $(1)_ore/$ 的正则过滤器。这样就能把你物品栏中的任意矿石提取出来，无论你身处何处，都可送入你的矿物处理系统；如果你在远离基地的地方挖矿，又想让挖到的矿石立刻送回家，这会非常方便。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Example 2",
+   "示例 2"
+  ]
+ ]
+}

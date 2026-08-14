@@ -1,0 +1,22 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/builder/builder_intro.json",
+ "sha1": "2d32ef19d3803adce96ebe782edfdc8e6f943ca5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Introduction",
+   "简介"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Builder is a versatile block that can quarry, build, pump, collect XP and items and more. Use one of the shape cards to control what has to be done",
+   "建筑机是一个多功能方块，可以采掘、建造、抽取流体、收集经验和物品等。使用塑形卡片之一来控制它要执行的操作。"
+  ]
+ ]
+}

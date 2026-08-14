@@ -1,0 +1,40 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/logic/logic.json",
+ "sha1": "e529089df380162dd25b3f6796d7d9b946e95fdc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Logic",
+   "逻辑器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This block has three redstone inputs and one output. Using the GUI you can make any possible combination of those three inputs into a single output. For every input combination you can set the output to off, on or keep. In 'keep' the state of the output will be the same as it was before the input was switched to this state.",
+   "这个方块有三个红石输入和一个输出。通过 GUI，你可以将这三个输入的任意组合映射为单一输出。对于每种输入组合，你都可以将输出设为关闭、开启或保持。在“保持”模式下，输出状态将与切换到该输入状态之前保持一致。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The GUI lists every input combination for the three input sides. Set each row to Off, On, or Keep; Keep preserves the previous output state.",
+   "GUI界面列出了三个输入侧面的所有输入组合。将每行设为“关闭”、“开启”或“保持”；其中“保持”将保留上一次的输出状态。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "heading"
+   ],
+   "Digit",
+   "数字"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/agr_hus/mob_duplicator.json",
+ "sha1": "34e3dfd7a636569187ab42e9138987d3e1a43d7a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mob Duplicator",
+   "自动刷怪机"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to spawn mobs. When provided with power, $(l:agr_hus/essence)Essence$() and any entity in a  $(l:tools/mib)Mob Imprisonment Tool$() it will spawn them around it. $(br2)It will count the entities nearby and stop if there are too many.",
+   "一台用于生成生物的机器。当提供能量、$(l:agr_hus/essence)精华液$() 以及装有任意实体的 $(l:tools/mib)生物捕捉工具$() 时，它会在周围生成这些生物。$(br2)它会统计附近的实体数量，过多时将停止工作。"
+  ]
+ ]
+}

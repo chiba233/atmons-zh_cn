@@ -1,0 +1,20 @@
+{
+ "src": "assets/bigreactors/patchouli_books/erguide/en_us/categories/reactor-variants.json",
+ "sha1": "9ae732d20665cc210e7bbe1fa2423d7ab1385e28",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "The Reactor parts come in different variants, and each is described in the following pages.$(br2)Some Reactor parts may not be available for a specific variant since they can't be supported by that variant's functionality.",
+   "反应堆部件有不同的变体，接下来的页面会分别进行说明。$(br2)某些反应堆部件可能不适用于特定变体，因为该变体的功能无法支持它们。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Variants",
+   "变种"
+  ]
+ ]
+}

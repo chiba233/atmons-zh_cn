@@ -1,0 +1,20 @@
+{
+ "src": "assets/pneumaticcraft/patchouli_books/book/en_us/categories/base_concepts.json",
+ "sha1": "5109d9834fc37c9c1f0adbd6fee9aef1b48bfd70",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Some base concepts for the $(pncr) mod.",
+   "关于 $(pncr) 模组的一些基础概念。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Base Concepts",
+   "基础概念"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/rftoolsbase/patchouli_books/manual/en_us/entries/mover/vehicle_cards.json",
+ "sha1": "1b09cbd40da09789683669b60ac60224441eeb99",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Vehicle Cards",
+   "载具卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Vehicle Card stores the blocks that make up a vehicle. The Vehicle Builder fills the card from a valid space chamber.",
+   "载具卡用于存储构成载具的所有方块。载具建造机将从有效的空间方块中读取并填充该卡片。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Insert the card in a Mover to place the vehicle at that node. The Mover Controller can then move the vehicle between connected Movers.",
+   "将卡片插入传运器，即可在该节点处部署载具。随后传运器控制器即可在已连接的传运器之间移动该载具。"
+  ]
+ ]
+}

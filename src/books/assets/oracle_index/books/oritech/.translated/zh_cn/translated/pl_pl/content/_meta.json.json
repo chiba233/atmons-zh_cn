@@ -1,0 +1,48 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/pl_pl/content/_meta.json",
+ "sha1": "a5f9601e758876db5ebddc65ea1d91abd7f86fc9",
+ "t": [
+  [
+   [
+    "arcane"
+   ],
+   "🪄 Arkana",
+   "🪄 秘界"
+  ],
+  [
+   [
+    "interaction"
+   ],
+   "🫳 Interakcja ze Światem",
+   "🫳 与世界交互"
+  ],
+  [
+   [
+    "logistics"
+   ],
+   "🛞 Logistyka",
+   "🛞 物流"
+  ],
+  [
+   [
+    "processing"
+   ],
+   "🛠️ Przetwarzanie",
+   "🛠️ 处理"
+  ],
+  [
+   [
+    "resources"
+   ],
+   "🪨 Zasoby",
+   "🪨 资源"
+  ],
+  [
+   [
+    "tools"
+   ],
+   "🔨 Narzędzia",
+   "🔨 工具"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/naturesaura/patchouli_books/book/en_us/entries/using/lower_limiter.json",
+ "sha1": "d0557221c46423fd693a35b11a90a317f5137e3a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Aura Imbalance Ward",
+   "灵气失衡区"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "As any magical botanist knows, causing negative $(aura) imbalance effects can be quite dangerous, especially when using a device that consumes $(aura) passively.$(br)For cases like this, the $(item)Aura Imbalance Ward$() provides protection against any dangers: placing it next to a device that uses $(aura) causes the device to cease operation while the $(aura) levels around it are too low.$(br)This comes at no cost in return.",
+   "魔法植物学家都清楚，引发$(aura-zh-cn)失衡的负面效应相当危险，尤其是在使用会被动消耗$(aura-zh-cn)的装置时。$(br)为此，$(item)灵气失衡区$()提供了一道防护：把它放在使用$(aura-zh-cn)的装置旁边，当周围的$(aura-zh-cn)水平过低时，该装置就会停止运转。$(br)而这不需要付出任何代价。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(item)Aura Imbalance Ward$()",
+   "制作$(item)灵气失衡区$()"
+  ]
+ ]
+}

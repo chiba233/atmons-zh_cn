@@ -1,0 +1,21 @@
+{
+  "config.client.simple_weather.override_weather": "已启用",
+  "config.client.simple_weather.rain": "雨设置",
+  "config.client.simple_weather.snow": "雪设置",
+  "config.client.simple_weather.rain.rain_collision_percent": "碰撞粒子的生成机率",
+  "config.client.simple_weather.rain.rain_range": "范围",
+  "config.client.simple_weather.weather_particle_count": "粒子数量",
+  "config.client.simple_weather.weather_particle_thunder_count": "雷暴中的粒子数量",
+  "config.client.simple_weather.rain.rain_particle_alpha": "透明度",
+  "config.client.simple_weather.rain.rain_lifetime": "寿命",
+  "config.client.simple_weather.rain.rain_particle_scale": "缩放",
+  "config.client.simple_weather.rain.rain_random": "湍流",
+  "config.client.simple_weather.rain.rain_color_blending_frequency": "颜色混合频率",
+  "config.client.simple_weather.rain.use_cached_aabb": "计算 AABB",
+  "config.client.simple_weather.rain.full_biome_lookup": "完整生物群系查询",
+  "config.client.simple_weather.snow.snow_particle_scale": "缩放",
+  "config.client.simple_weather.snow.snow_lifetime": "寿命",
+  "config.client.simple_weather.snow.snow_range": "范围",
+  "config.client.simple_weather.snow.snow_particle_alpha": "透明度",
+  "config.client.simple_weather.snow.snow_outer_range": "外部范围"
+}

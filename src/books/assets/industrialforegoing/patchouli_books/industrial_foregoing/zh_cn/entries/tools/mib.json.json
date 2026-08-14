@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/mib.json",
+ "sha1": "2089e6c8c9feabddcc8ea4ca5f16ceef6912224a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mob Imprisonment Tool",
+   "生物捕捉工具"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When you $(6)Right Click$() an entity with the MIB in your hand that entity will be stored inside the MIB. $(br2)You can release the entity by $(6)Right Clicking$() with it in the ground",
+   "当你手持MIB$(6)右击$()某实体时，该实体将被存入MIB中。$(br2)你可通过将MIB$(6)右击$()地面来释放其中的实体。"
+  ]
+ ]
+}

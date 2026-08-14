@@ -1,0 +1,19 @@
+[
+  {
+    "name": "titanium_zh_cn",
+    "authors": "Auto-Translation-Tool, Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "target_class": [
+      "com.hrznstudio.titanium.recipe.condition.ContentExistsCondition"
+    ],
+    "pairs": [
+      {
+        "key": "Not a registry ops",
+        "value": "不是注册表操作"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+ "src": "assets/industrialforegoing/patchouli_books/industrial_foregoing/en_us/entries/tools/infinity_nuke.json",
+ "sha1": "7edc3ddfba940c267e8d6102949d66a2e6fa1fe7",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Infinity Nuke",
+   "无限核弹"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Infinity Nuke is a tool of mass destruction where explosion radius will increased based on the tier and the amount of biofuel in it. The Nuke won't destroy things in claimed chunks. $(br2)To make it explode you need to place it on the ground, right click it to arm it and right click it with a flint & steel to make it explode.",
+   "无限核弹是一种大规模毁灭工具，其爆炸半径会随等级以及其中生物燃料的数量而增加。核弹不会破坏已声明区块中的东西。$(br2)要让它爆炸，你需要先将其放在地上，右击进行武装，然后再用打火石右击它使其爆炸。"
+  ]
+ ]
+}

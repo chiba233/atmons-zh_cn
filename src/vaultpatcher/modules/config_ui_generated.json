@@ -12,20 +12,12 @@
     ],
     "pairs": [
       {
-        "key": "Additional Attack Damage",
-        "value": "额外攻击伤害"
-      },
-      {
         "key": "Additional Growth Height",
         "value": "额外生长高度"
       },
       {
         "key": "Additional Growth Ticks",
         "value": "额外生长刻"
-      },
-      {
-        "key": "Additional Health",
-        "value": "额外生命值"
       },
       {
         "key": "Advanced Block Charger Capacity",
@@ -160,14 +152,6 @@
         "value": "允许附魔"
       },
       {
-        "key": "Allow Grave In Water",
-        "value": "允许墓碑在水"
-      },
-      {
-        "key": "Allow Grave Key",
-        "value": "允许墓碑按键"
-      },
-      {
         "key": "Allow Invisible Shield",
         "value": "允许隐藏护盾"
       },
@@ -184,10 +168,6 @@
         "value": "允许保护"
       },
       {
-        "key": "Allow Scroll Of Reach",
-        "value": "允许卷轴的触及距离"
-      },
-      {
         "key": "Allow Teleport",
         "value": "允许传送"
       },
@@ -200,20 +180,12 @@
         "value": "始终掉落"
       },
       {
-        "key": "Always Visible In Creative",
-        "value": "始终可见在创造"
-      },
-      {
         "key": "Animal Effect",
         "value": "动物特效"
       },
       {
         "key": "Animal Multiplier",
         "value": "动物倍率"
-      },
-      {
-        "key": "Animation Duration",
-        "value": "动画持续时间"
       },
       {
         "key": "Animation Speed",
@@ -248,10 +220,6 @@
         "value": "护甲值"
       },
       {
-        "key": "Arrow Scroll Factor",
-        "value": "箭卷轴系数"
-      },
-      {
         "key": "Attack Damage",
         "value": "攻击伤害"
       },
@@ -272,10 +240,6 @@
         "value": "自动输入间隔"
       },
       {
-        "key": "Auto Output Default",
-        "value": "自动输出默认"
-      },
-      {
         "key": "Auto Output Interval",
         "value": "自动输出间隔"
       },
@@ -292,8 +256,12 @@
         "value": "背包掉落几率"
       },
       {
-        "key": "Backup On Death",
-        "value": "备份开死亡"
+        "key": "Backpack Integration",
+        "value": "背包集成"
+      },
+      {
+        "key": "Backup Interval",
+        "value": "备份间隔"
       },
       {
         "key": "Backup Type",
@@ -328,10 +296,6 @@
         "value": "基础效率"
       },
       {
-        "key": "Base Energy",
-        "value": "基础能量"
-      },
-      {
         "key": "Base Energy Capacity",
         "value": "基础能量容量"
       },
@@ -344,20 +308,8 @@
         "value": "基础实体距离"
       },
       {
-        "key": "Base Font Size",
-        "value": "基础字体大小"
-      },
-      {
         "key": "Base Harvest",
         "value": "基础收获"
-      },
-      {
-        "key": "Base Item Pipe Transfer",
-        "value": "基础物品管道传输"
-      },
-      {
-        "key": "Base Item Transfer Amount",
-        "value": "基础物品传输数量"
       },
       {
         "key": "Base Level Cost",
@@ -386,10 +338,6 @@
       {
         "key": "Base Tick Rate",
         "value": "基础刻频率"
-      },
-      {
-        "key": "Base Usage",
-        "value": "基础用量"
       },
       {
         "key": "Base Value",
@@ -528,6 +476,10 @@
         "value": "加成实体距离"
       },
       {
+        "key": "Bonus Per Level",
+        "value": "加成每等级"
+      },
+      {
         "key": "Boots Armor",
         "value": "靴子护甲"
       },
@@ -536,16 +488,8 @@
         "value": "靴子几率"
       },
       {
-        "key": "Border Width",
-        "value": "边框宽度"
-      },
-      {
-        "key": "Boss Health",
-        "value": "首领生命值"
-      },
-      {
-        "key": "Boss Health Bar Color",
-        "value": "首领生命值条颜色"
+        "key": "Boss Mode",
+        "value": "首领模式"
       },
       {
         "key": "Boss Music Volume",
@@ -570,6 +514,10 @@
       {
         "key": "Breeding Chance",
         "value": "繁殖几率"
+      },
+      {
+        "key": "Breeding Cooldown",
+        "value": "繁殖冷却"
       },
       {
         "key": "Breeding Time",
@@ -756,10 +704,6 @@
         "value": "化学每储罐"
       },
       {
-        "key": "Chemical Storage Block",
-        "value": "化学存储方块"
-      },
-      {
         "key": "Chest Loot Enabled",
         "value": "箱子战利品启用"
       },
@@ -872,6 +816,10 @@
         "value": "紧凑提示"
       },
       {
+        "key": "Config Version",
+        "value": "配置版本"
+      },
+      {
         "key": "Consumption Rate",
         "value": "消耗频率"
       },
@@ -890,10 +838,6 @@
       {
         "key": "Controller Rf Per Tick",
         "value": "控制器RF每刻"
-      },
-      {
-        "key": "Cooldown Teleport Death",
-        "value": "冷却传送死亡"
       },
       {
         "key": "Copper Backpack",
@@ -932,16 +876,8 @@
         "value": "消耗玩家"
       },
       {
-        "key": "Crafting Blacklist",
-        "value": "合成黑名单"
-      },
-      {
         "key": "Crafting Duration",
         "value": "合成持续时间"
-      },
-      {
-        "key": "Crafting Energy Usage",
-        "value": "合成能量用量"
       },
       {
         "key": "Crafting Log",
@@ -956,20 +892,12 @@
         "value": "创造能量用量"
       },
       {
-        "key": "Creative Mana",
-        "value": "创造魔力"
-      },
-      {
         "key": "Creative Output",
         "value": "创造输出"
       },
       {
         "key": "Creative Range Upgrade Energy Usage",
         "value": "创造范围升级能量用量"
-      },
-      {
-        "key": "Creative Speed",
-        "value": "创造速度"
       },
       {
         "key": "Crop Blacklist",
@@ -1060,16 +988,16 @@
         "value": "默认基础方块"
       },
       {
+        "key": "Default Color",
+        "value": "默认颜色"
+      },
+      {
         "key": "Default Dimension",
         "value": "默认维度"
       },
       {
         "key": "Default Fluid Heat Capacity",
         "value": "默认流体热量容量"
-      },
-      {
-        "key": "Default Interval",
-        "value": "默认间隔"
       },
       {
         "key": "Default Limit",
@@ -1082,10 +1010,6 @@
       {
         "key": "Default Spawn Energy Cost",
         "value": "默认生成能量消耗"
-      },
-      {
-        "key": "Default Tick Cooldown",
-        "value": "默认刻冷却"
       },
       {
         "key": "Diamond Backpack",
@@ -1160,6 +1084,10 @@
         "value": "禁用创造物品栏按钮"
       },
       {
+        "key": "Disable In Creative",
+        "value": "禁用在创造"
+      },
+      {
         "key": "Disable Inventory Button",
         "value": "禁用物品栏按钮"
       },
@@ -1180,8 +1108,20 @@
         "value": "禁用时间"
       },
       {
+        "key": "Display Amount",
+        "value": "显示数量"
+      },
+      {
         "key": "Display Durability Tooltips",
         "value": "显示耐久提示"
+      },
+      {
+        "key": "Display Item Name",
+        "value": "显示物品名称"
+      },
+      {
+        "key": "Display Time",
+        "value": "显示时间"
       },
       {
         "key": "Do Update Check",
@@ -1236,16 +1176,8 @@
         "value": "特效刻"
       },
       {
-        "key": "Efficiency Boost",
-        "value": "效率提升"
-      },
-      {
         "key": "Elite Capacity",
         "value": "精英容量"
-      },
-      {
-        "key": "Elite Energy Usage",
-        "value": "精英能量用量"
       },
       {
         "key": "Elite Heat Capacity",
@@ -1268,10 +1200,6 @@
         "value": "绿宝石熔炉"
       },
       {
-        "key": "Enable Boss Music",
-        "value": "启用首领音乐"
-      },
-      {
         "key": "Enable Break",
         "value": "启用破坏"
       },
@@ -1292,12 +1220,12 @@
         "value": "启用调试"
       },
       {
-        "key": "Enable Debug Mode",
-        "value": "启用调试模式"
-      },
-      {
         "key": "Enable Dungeon Loot",
         "value": "启用地牢战利品"
+      },
+      {
+        "key": "Enable Durability",
+        "value": "启用耐久"
       },
       {
         "key": "Enable Food Effect Tooltip",
@@ -1412,16 +1340,8 @@
         "value": "能量频率上限"
       },
       {
-        "key": "Energy Storage Block",
-        "value": "能量存储方块"
-      },
-      {
         "key": "Energy Tablet",
         "value": "能量石板"
-      },
-      {
-        "key": "Energy To Fuel Rate",
-        "value": "能量至燃料频率"
       },
       {
         "key": "Energy Type",
@@ -1460,16 +1380,24 @@
         "value": "实体白名单"
       },
       {
-        "key": "Experience Cost",
-        "value": "经验消耗"
+        "key": "Experience Value",
+        "value": "经验值"
       },
       {
-        "key": "Experience Per Item",
-        "value": "经验每物品"
+        "key": "Extra Crafting",
+        "value": "额外合成"
       },
       {
         "key": "Extra Debug",
         "value": "额外调试"
+      },
+      {
+        "key": "Farm Max Height",
+        "value": "农场最大高度"
+      },
+      {
+        "key": "Farm Max Volume",
+        "value": "农场最大容积"
       },
       {
         "key": "Farm Speed",
@@ -1514,10 +1442,6 @@
       {
         "key": "Fire Power",
         "value": "火焰功率"
-      },
-      {
-        "key": "Fire Usage",
-        "value": "火焰用量"
       },
       {
         "key": "First Show Delay",
@@ -1584,24 +1508,16 @@
         "value": "流体至源"
       },
       {
-        "key": "Fluid Transfer Multiplier",
-        "value": "流体传输倍率"
-      },
-      {
-        "key": "Fluid Unit",
-        "value": "流体单位"
-      },
-      {
         "key": "Font Name",
         "value": "字体名称"
       },
       {
-        "key": "Font Scale",
-        "value": "字体缩放"
-      },
-      {
         "key": "Font Size",
         "value": "字体大小"
+      },
+      {
+        "key": "Force Client Only",
+        "value": "强制客户端仅"
       },
       {
         "key": "Force Time",
@@ -1645,10 +1561,6 @@
       },
       {
         "key": "Fuel Tooltip",
-        "value": "燃料提示"
-      },
-      {
-        "key": "Fuel Tooltips",
         "value": "燃料提示"
       },
       {
@@ -1788,12 +1700,12 @@
         "value": "生长系数"
       },
       {
-        "key": "Gui Overlay Position",
-        "value": "界面覆盖层位置"
-      },
-      {
         "key": "Harvest Speed Multiplier",
         "value": "收获速度倍率"
+      },
+      {
+        "key": "Health Bar Color",
+        "value": "生命值条颜色"
       },
       {
         "key": "Health Multiplier",
@@ -1852,24 +1764,12 @@
         "value": "蜂蜜基础"
       },
       {
-        "key": "Horizontal Scroll Factor",
-        "value": "水平卷轴系数"
-      },
-      {
         "key": "Hp Damage",
         "value": "生命值伤害"
       },
       {
         "key": "Hunger Cost Percent",
         "value": "饥饿消耗百分比"
-      },
-      {
-        "key": "Ignore Gui Scale",
-        "value": "忽略界面缩放"
-      },
-      {
-        "key": "Ignore Gui Scale Size Multiplier",
-        "value": "忽略界面缩放大小倍率"
       },
       {
         "key": "Ignore Spawn List",
@@ -1932,8 +1832,16 @@
         "value": "物品栏充能频率"
       },
       {
-        "key": "Inventory Pause",
-        "value": "物品栏暂停"
+        "key": "Inventory Count",
+        "value": "物品栏数量"
+      },
+      {
+        "key": "Inventory Render Distance",
+        "value": "物品栏渲染距离"
+      },
+      {
+        "key": "Inventory Size",
+        "value": "物品栏大小"
       },
       {
         "key": "Inventory Slot Count",
@@ -1998,10 +1906,6 @@
       {
         "key": "Is Food Tooltip Enabled",
         "value": "食物提示启用"
-      },
-      {
-        "key": "Item Blacklist",
-        "value": "物品黑名单"
       },
       {
         "key": "Item Core Config",
@@ -2180,14 +2084,6 @@
         "value": "大型热量发电机"
       },
       {
-        "key": "Large Steam Furnace Size",
-        "value": "大型蒸汽熔炉大小"
-      },
-      {
-        "key": "Large Village Weight",
-        "value": "大型村庄权重"
-      },
-      {
         "key": "Laser Block Range",
         "value": "激光方块范围"
       },
@@ -2208,16 +2104,12 @@
         "value": "等级消耗系数"
       },
       {
-        "key": "Light Level",
-        "value": "光照等级"
-      },
-      {
         "key": "Load Time",
         "value": "加载时间"
       },
       {
-        "key": "Log Auto Backup",
-        "value": "日志自动备份"
+        "key": "Log Spawning",
+        "value": "日志生成"
       },
       {
         "key": "Loot Table Blacklist",
@@ -2256,28 +2148,12 @@
         "value": "机器容积倍率"
       },
       {
-        "key": "Mana Bar",
-        "value": "魔力条"
-      },
-      {
-        "key": "Mana Bar Display",
-        "value": "魔力条显示"
-      },
-      {
         "key": "Mana Bar Offset",
         "value": "魔力条偏移"
       },
       {
-        "key": "Mana Bar Text Visible",
-        "value": "魔力条文字可见"
-      },
-      {
         "key": "Mana Boost",
         "value": "魔力提升"
-      },
-      {
-        "key": "Mana Spawn Percent",
-        "value": "魔力生成百分比"
       },
       {
         "key": "Max Capacity",
@@ -2302,10 +2178,6 @@
       {
         "key": "Max Creative Capacity",
         "value": "最大创造容量"
-      },
-      {
-        "key": "Max Custom Mode Scale",
-        "value": "最大自定义模式缩放"
       },
       {
         "key": "Max Damage",
@@ -2356,6 +2228,10 @@
         "value": "最大高度"
       },
       {
+        "key": "Max Horizontal Distance To Players",
+        "value": "最大水平距离至玩家"
+      },
+      {
         "key": "Max Input Output",
         "value": "最大输入输出"
       },
@@ -2376,10 +2252,6 @@
         "value": "最大光照等级"
       },
       {
-        "key": "Max Mana",
-        "value": "最大魔力"
-      },
-      {
         "key": "Max Mining Time",
         "value": "最大挖掘时间"
       },
@@ -2394,14 +2266,6 @@
       {
         "key": "Max Overlay Mode",
         "value": "最大覆盖层模式"
-      },
-      {
-        "key": "Max Portal Size",
-        "value": "最大传送门大小"
-      },
-      {
-        "key": "Max Potion Effect Duration",
-        "value": "最大药水特效持续时间"
       },
       {
         "key": "Max Power",
@@ -2460,10 +2324,6 @@
         "value": "最大存储"
       },
       {
-        "key": "Max Tank Creative Size",
-        "value": "最大储罐创造大小"
-      },
-      {
         "key": "Max Tank Size",
         "value": "最大储罐大小"
       },
@@ -2508,6 +2368,10 @@
         "value": "最大矿脉大小"
       },
       {
+        "key": "Max Vertical Distance To Players",
+        "value": "最大垂直距离至玩家"
+      },
+      {
         "key": "Max Water Tank Size",
         "value": "最大水储罐大小"
       },
@@ -2516,16 +2380,8 @@
         "value": "最大水储罐存储"
       },
       {
-        "key": "Max Width",
-        "value": "最大宽度"
-      },
-      {
         "key": "Maximum Bees On Gui",
         "value": "最大蜜蜂开界面"
-      },
-      {
-        "key": "Maximum Mob Multiplier",
-        "value": "最大生物倍率"
       },
       {
         "key": "Maximum Per Player",
@@ -2540,10 +2396,6 @@
         "value": "中型速度"
       },
       {
-        "key": "Medium Village Weight",
-        "value": "中型村庄权重"
-      },
-      {
         "key": "Message Structure",
         "value": "消息结构"
       },
@@ -2554,6 +2406,10 @@
       {
         "key": "Min Energy Rate",
         "value": "最小能量频率"
+      },
+      {
+        "key": "Min Horizontal Distance To Players",
+        "value": "最小水平距离至玩家"
       },
       {
         "key": "Min Light Level",
@@ -2588,14 +2444,6 @@
         "value": "最小机器刻速度"
       },
       {
-        "key": "Minimum Mob Multiplier",
-        "value": "最小生物倍率"
-      },
-      {
-        "key": "Mining Core Range",
-        "value": "挖掘核心范围"
-      },
-      {
         "key": "Mining Count",
         "value": "挖掘数量"
       },
@@ -2604,20 +2452,8 @@
         "value": "生物粉碎机配置"
       },
       {
-        "key": "Mob Death Sounds",
-        "value": "生物死亡音效"
-      },
-      {
-        "key": "Mob Drops",
-        "value": "生物掉落"
-      },
-      {
         "key": "Mob Drops Enabled",
         "value": "生物掉落启用"
-      },
-      {
-        "key": "Mob Multiplier",
-        "value": "生物倍率"
       },
       {
         "key": "Mob Spawn",
@@ -2704,24 +2540,12 @@
         "value": "网络上限"
       },
       {
-        "key": "Neutral Neutral",
-        "value": "中立中立"
-      },
-      {
         "key": "No End Portal Render",
         "value": "不末地传送门渲染"
       },
       {
         "key": "No Energy",
         "value": "不能量"
-      },
-      {
-        "key": "No Grave Dimension",
-        "value": "不墓碑维度"
-      },
-      {
-        "key": "No Nether Blocks",
-        "value": "不下界方块"
       },
       {
         "key": "No Player Backup Count",
@@ -2912,14 +2736,6 @@
         "value": "每玩家半径"
       },
       {
-        "key": "Player Death",
-        "value": "玩家死亡"
-      },
-      {
-        "key": "Player Drops",
-        "value": "玩家掉落"
-      },
-      {
         "key": "Player Loot",
         "value": "玩家战利品"
       },
@@ -2944,10 +2760,6 @@
         "value": "功率元件最小距离"
       },
       {
-        "key": "Power Items",
-        "value": "功率物品"
-      },
-      {
         "key": "Power Per Tick",
         "value": "功率每刻"
       },
@@ -2956,8 +2768,8 @@
         "value": "阻止火焰"
       },
       {
-        "key": "Processing Time",
-        "value": "处理时间"
+        "key": "Processing Ticks",
+        "value": "处理刻"
       },
       {
         "key": "Pull Interval",
@@ -3054,10 +2866,6 @@
       {
         "key": "Recipe Generation Mode",
         "value": "配方生成模式"
-      },
-      {
-        "key": "Recipe Transfer Energy Usage",
-        "value": "配方传输能量用量"
       },
       {
         "key": "Redstone And Glowstone",
@@ -3276,14 +3084,6 @@
         "value": "精制黑曜石工具耐久"
       },
       {
-        "key": "Render Block Particles",
-        "value": "渲染方块粒子"
-      },
-      {
-        "key": "Render Experience Cost",
-        "value": "渲染经验消耗"
-      },
-      {
         "key": "Render Items On Player",
         "value": "渲染物品开玩家"
       },
@@ -3292,32 +3092,12 @@
         "value": "渲染模式"
       },
       {
-        "key": "Render Table Item",
-        "value": "渲染台物品"
-      },
-      {
         "key": "Repair Air Usage",
         "value": "修复空气用量"
       },
       {
-        "key": "Require Energy",
-        "value": "需要能量"
-      },
-      {
-        "key": "Required Ticks",
-        "value": "需要刻"
-      },
-      {
-        "key": "Required Ticks Per Hp",
-        "value": "需要刻每生命值"
-      },
-      {
         "key": "Reset On Death",
         "value": "重置开死亡"
-      },
-      {
-        "key": "Restore Effects On Death",
-        "value": "恢复特效开死亡"
       },
       {
         "key": "Rf Per Check",
@@ -3364,16 +3144,8 @@
         "value": "界面控制器每刻RF刻"
       },
       {
-        "key": "Screen Scale",
-        "value": "界面缩放"
-      },
-      {
         "key": "Screen Size",
         "value": "界面大小"
-      },
-      {
-        "key": "Scroll Duration",
-        "value": "卷轴持续时间"
       },
       {
         "key": "Scroll Speed",
@@ -3480,16 +3252,8 @@
         "value": "显示食物值在提示始终"
       },
       {
-        "key": "Show Hidden Recipes",
-        "value": "显示隐藏配方"
-      },
-      {
         "key": "Show Recipe Book",
         "value": "显示配方书"
-      },
-      {
-        "key": "Show Shield Particle",
-        "value": "显示护盾粒子"
       },
       {
         "key": "Show Source Fluid",
@@ -3548,10 +3312,6 @@
         "value": "小型光照连接器消耗"
       },
       {
-        "key": "Small Village Weight",
-        "value": "小型村庄权重"
-      },
-      {
         "key": "Solar Generation",
         "value": "太阳能生成"
       },
@@ -3592,10 +3352,6 @@
         "value": "源流体"
       },
       {
-        "key": "Source Storage Block",
-        "value": "源存储方块"
-      },
-      {
         "key": "Spawn Always Color",
         "value": "生成始终颜色"
       },
@@ -3604,24 +3360,20 @@
         "value": "生成数量"
       },
       {
-        "key": "Spawn Blacklist",
-        "value": "生成黑名单"
-      },
-      {
         "key": "Spawn Book",
         "value": "生成书"
       },
       {
-        "key": "Spawn Limit",
-        "value": "生成上限"
+        "key": "Spawn Interval Ticks",
+        "value": "生成间隔刻"
+      },
+      {
+        "key": "Spawn Interval Ticks Maximum",
+        "value": "生成间隔刻上限"
       },
       {
         "key": "Spawn Night Color",
         "value": "生成夜晚颜色"
-      },
-      {
-        "key": "Spawn On Block Entities",
-        "value": "生成开方块实体"
       },
       {
         "key": "Spawn Prevent",
@@ -3650,6 +3402,10 @@
       {
         "key": "Speed Upgrade Energy Usage",
         "value": "速度升级能量用量"
+      },
+      {
+        "key": "Speed Upgrade Modifier",
+        "value": "速度升级系数"
       },
       {
         "key": "Speed Upgrade Speed Multiplier",
@@ -3844,10 +3600,6 @@
         "value": "剑权重"
       },
       {
-        "key": "Tablet Cooldown",
-        "value": "石板冷却"
-      },
-      {
         "key": "Tablet Max RF",
         "value": "石板最大RF"
       },
@@ -3868,20 +3620,8 @@
         "value": "储罐大小"
       },
       {
-        "key": "Tank Size Limit",
-        "value": "储罐大小上限"
-      },
-      {
-        "key": "Tank Storage Per Block",
-        "value": "储罐存储每方块"
-      },
-      {
         "key": "Tank Upgrade",
         "value": "储罐升级"
-      },
-      {
-        "key": "Teleport Allowed",
-        "value": "传送允许"
       },
       {
         "key": "Teleport Attack Hp Damage",
@@ -3912,10 +3652,6 @@
         "value": "刻每煤"
       },
       {
-        "key": "Ticks Per Damage",
-        "value": "刻每伤害"
-      },
-      {
         "key": "Ticks Per Redstone Update",
         "value": "刻每红石更新"
       },
@@ -3926,10 +3662,6 @@
       {
         "key": "Time Bonus",
         "value": "时间加成"
-      },
-      {
-        "key": "Time Core Range",
-        "value": "时间核心范围"
       },
       {
         "key": "Time Crystal",
@@ -3988,10 +3720,6 @@
         "value": "涡轮功率倍率"
       },
       {
-        "key": "Type Limit Creative",
-        "value": "类型上限创造"
-      },
-      {
         "key": "Ultimate Capacity",
         "value": "终极容量"
       },
@@ -4016,10 +3744,6 @@
         "value": "更新间隔"
       },
       {
-        "key": "Upgrade Blacklist",
-        "value": "升级黑名单"
-      },
-      {
         "key": "Upgrade Light",
         "value": "升级光照"
       },
@@ -4032,40 +3756,12 @@
         "value": "升级虚空"
       },
       {
-        "key": "Upgrade Whitelist",
-        "value": "升级白名单"
-      },
-      {
-        "key": "Usage Blacklist",
-        "value": "用量黑名单"
-      },
-      {
         "key": "Usage Multiplier",
         "value": "用量倍率"
       },
       {
-        "key": "Use Cache",
-        "value": "使用缓存"
-      },
-      {
         "key": "Use Energy",
         "value": "使用能量"
-      },
-      {
-        "key": "Use On Animal Cooldown",
-        "value": "使用开动物冷却"
-      },
-      {
-        "key": "Use On Animal Cost",
-        "value": "使用开动物消耗"
-      },
-      {
-        "key": "Use On Block Cooldown",
-        "value": "使用开方块冷却"
-      },
-      {
-        "key": "Use On Block Cost",
-        "value": "使用开方块消耗"
       },
       {
         "key": "Use Per Tick",
@@ -4088,28 +3784,12 @@
         "value": "矿脉大小"
       },
       {
-        "key": "Vein Sword",
-        "value": "矿脉剑"
-      },
-      {
         "key": "Version Check",
         "value": "版本检查"
       },
       {
-        "key": "Vertical Scroll Factor",
-        "value": "垂直卷轴系数"
-      },
-      {
         "key": "Village And Dungeon Loot",
         "value": "村庄与地牢战利品"
-      },
-      {
-        "key": "Villager Drop Emerald Chance",
-        "value": "村民掉落绿宝石几率"
-      },
-      {
-        "key": "Villager Structure Weight",
-        "value": "村民结构权重"
       },
       {
         "key": "Void Always Enabled",
@@ -4251,20 +3931,12 @@
     ],
     "pairs": [
       {
-        "key": "Additional Attack Damage",
-        "value": "额外攻击伤害"
-      },
-      {
         "key": "Additional Growth Height",
         "value": "额外生长高度"
       },
       {
         "key": "Additional Growth Ticks",
         "value": "额外生长刻"
-      },
-      {
-        "key": "Additional Health",
-        "value": "额外生命值"
       },
       {
         "key": "Advanced Block Charger Capacity",
@@ -4399,14 +4071,6 @@
         "value": "允许附魔"
       },
       {
-        "key": "Allow Grave In Water",
-        "value": "允许墓碑在水"
-      },
-      {
-        "key": "Allow Grave Key",
-        "value": "允许墓碑按键"
-      },
-      {
         "key": "Allow Invisible Shield",
         "value": "允许隐藏护盾"
       },
@@ -4423,10 +4087,6 @@
         "value": "允许保护"
       },
       {
-        "key": "Allow Scroll Of Reach",
-        "value": "允许卷轴的触及距离"
-      },
-      {
         "key": "Allow Teleport",
         "value": "允许传送"
       },
@@ -4439,20 +4099,12 @@
         "value": "始终掉落"
       },
       {
-        "key": "Always Visible In Creative",
-        "value": "始终可见在创造"
-      },
-      {
         "key": "Animal Effect",
         "value": "动物特效"
       },
       {
         "key": "Animal Multiplier",
         "value": "动物倍率"
-      },
-      {
-        "key": "Animation Duration",
-        "value": "动画持续时间"
       },
       {
         "key": "Animation Speed",
@@ -4487,10 +4139,6 @@
         "value": "护甲值"
       },
       {
-        "key": "Arrow Scroll Factor",
-        "value": "箭卷轴系数"
-      },
-      {
         "key": "Attack Damage",
         "value": "攻击伤害"
       },
@@ -4511,10 +4159,6 @@
         "value": "自动输入间隔"
       },
       {
-        "key": "Auto Output Default",
-        "value": "自动输出默认"
-      },
-      {
         "key": "Auto Output Interval",
         "value": "自动输出间隔"
       },
@@ -4531,8 +4175,12 @@
         "value": "背包掉落几率"
       },
       {
-        "key": "Backup On Death",
-        "value": "备份开死亡"
+        "key": "Backpack Integration",
+        "value": "背包集成"
+      },
+      {
+        "key": "Backup Interval",
+        "value": "备份间隔"
       },
       {
         "key": "Backup Type",
@@ -4567,10 +4215,6 @@
         "value": "基础效率"
       },
       {
-        "key": "Base Energy",
-        "value": "基础能量"
-      },
-      {
         "key": "Base Energy Capacity",
         "value": "基础能量容量"
       },
@@ -4583,20 +4227,8 @@
         "value": "基础实体距离"
       },
       {
-        "key": "Base Font Size",
-        "value": "基础字体大小"
-      },
-      {
         "key": "Base Harvest",
         "value": "基础收获"
-      },
-      {
-        "key": "Base Item Pipe Transfer",
-        "value": "基础物品管道传输"
-      },
-      {
-        "key": "Base Item Transfer Amount",
-        "value": "基础物品传输数量"
       },
       {
         "key": "Base Level Cost",
@@ -4625,10 +4257,6 @@
       {
         "key": "Base Tick Rate",
         "value": "基础刻频率"
-      },
-      {
-        "key": "Base Usage",
-        "value": "基础用量"
       },
       {
         "key": "Base Value",
@@ -4767,6 +4395,10 @@
         "value": "加成实体距离"
       },
       {
+        "key": "Bonus Per Level",
+        "value": "加成每等级"
+      },
+      {
         "key": "Boots Armor",
         "value": "靴子护甲"
       },
@@ -4775,16 +4407,8 @@
         "value": "靴子几率"
       },
       {
-        "key": "Border Width",
-        "value": "边框宽度"
-      },
-      {
-        "key": "Boss Health",
-        "value": "首领生命值"
-      },
-      {
-        "key": "Boss Health Bar Color",
-        "value": "首领生命值条颜色"
+        "key": "Boss Mode",
+        "value": "首领模式"
       },
       {
         "key": "Boss Music Volume",
@@ -4809,6 +4433,10 @@
       {
         "key": "Breeding Chance",
         "value": "繁殖几率"
+      },
+      {
+        "key": "Breeding Cooldown",
+        "value": "繁殖冷却"
       },
       {
         "key": "Breeding Time",
@@ -4995,10 +4623,6 @@
         "value": "化学每储罐"
       },
       {
-        "key": "Chemical Storage Block",
-        "value": "化学存储方块"
-      },
-      {
         "key": "Chest Loot Enabled",
         "value": "箱子战利品启用"
       },
@@ -5111,6 +4735,10 @@
         "value": "紧凑提示"
       },
       {
+        "key": "Config Version",
+        "value": "配置版本"
+      },
+      {
         "key": "Consumption Rate",
         "value": "消耗频率"
       },
@@ -5129,10 +4757,6 @@
       {
         "key": "Controller Rf Per Tick",
         "value": "控制器RF每刻"
-      },
-      {
-        "key": "Cooldown Teleport Death",
-        "value": "冷却传送死亡"
       },
       {
         "key": "Copper Backpack",
@@ -5171,16 +4795,8 @@
         "value": "消耗玩家"
       },
       {
-        "key": "Crafting Blacklist",
-        "value": "合成黑名单"
-      },
-      {
         "key": "Crafting Duration",
         "value": "合成持续时间"
-      },
-      {
-        "key": "Crafting Energy Usage",
-        "value": "合成能量用量"
       },
       {
         "key": "Crafting Log",
@@ -5195,20 +4811,12 @@
         "value": "创造能量用量"
       },
       {
-        "key": "Creative Mana",
-        "value": "创造魔力"
-      },
-      {
         "key": "Creative Output",
         "value": "创造输出"
       },
       {
         "key": "Creative Range Upgrade Energy Usage",
         "value": "创造范围升级能量用量"
-      },
-      {
-        "key": "Creative Speed",
-        "value": "创造速度"
       },
       {
         "key": "Crop Blacklist",
@@ -5299,16 +4907,16 @@
         "value": "默认基础方块"
       },
       {
+        "key": "Default Color",
+        "value": "默认颜色"
+      },
+      {
         "key": "Default Dimension",
         "value": "默认维度"
       },
       {
         "key": "Default Fluid Heat Capacity",
         "value": "默认流体热量容量"
-      },
-      {
-        "key": "Default Interval",
-        "value": "默认间隔"
       },
       {
         "key": "Default Limit",
@@ -5321,10 +4929,6 @@
       {
         "key": "Default Spawn Energy Cost",
         "value": "默认生成能量消耗"
-      },
-      {
-        "key": "Default Tick Cooldown",
-        "value": "默认刻冷却"
       },
       {
         "key": "Diamond Backpack",
@@ -5399,6 +5003,10 @@
         "value": "禁用创造物品栏按钮"
       },
       {
+        "key": "Disable In Creative",
+        "value": "禁用在创造"
+      },
+      {
         "key": "Disable Inventory Button",
         "value": "禁用物品栏按钮"
       },
@@ -5419,8 +5027,20 @@
         "value": "禁用时间"
       },
       {
+        "key": "Display Amount",
+        "value": "显示数量"
+      },
+      {
         "key": "Display Durability Tooltips",
         "value": "显示耐久提示"
+      },
+      {
+        "key": "Display Item Name",
+        "value": "显示物品名称"
+      },
+      {
+        "key": "Display Time",
+        "value": "显示时间"
       },
       {
         "key": "Do Update Check",
@@ -5475,16 +5095,8 @@
         "value": "特效刻"
       },
       {
-        "key": "Efficiency Boost",
-        "value": "效率提升"
-      },
-      {
         "key": "Elite Capacity",
         "value": "精英容量"
-      },
-      {
-        "key": "Elite Energy Usage",
-        "value": "精英能量用量"
       },
       {
         "key": "Elite Heat Capacity",
@@ -5507,10 +5119,6 @@
         "value": "绿宝石熔炉"
       },
       {
-        "key": "Enable Boss Music",
-        "value": "启用首领音乐"
-      },
-      {
         "key": "Enable Break",
         "value": "启用破坏"
       },
@@ -5531,12 +5139,12 @@
         "value": "启用调试"
       },
       {
-        "key": "Enable Debug Mode",
-        "value": "启用调试模式"
-      },
-      {
         "key": "Enable Dungeon Loot",
         "value": "启用地牢战利品"
+      },
+      {
+        "key": "Enable Durability",
+        "value": "启用耐久"
       },
       {
         "key": "Enable Food Effect Tooltip",
@@ -5651,16 +5259,8 @@
         "value": "能量频率上限"
       },
       {
-        "key": "Energy Storage Block",
-        "value": "能量存储方块"
-      },
-      {
         "key": "Energy Tablet",
         "value": "能量石板"
-      },
-      {
-        "key": "Energy To Fuel Rate",
-        "value": "能量至燃料频率"
       },
       {
         "key": "Energy Type",
@@ -5699,16 +5299,24 @@
         "value": "实体白名单"
       },
       {
-        "key": "Experience Cost",
-        "value": "经验消耗"
+        "key": "Experience Value",
+        "value": "经验值"
       },
       {
-        "key": "Experience Per Item",
-        "value": "经验每物品"
+        "key": "Extra Crafting",
+        "value": "额外合成"
       },
       {
         "key": "Extra Debug",
         "value": "额外调试"
+      },
+      {
+        "key": "Farm Max Height",
+        "value": "农场最大高度"
+      },
+      {
+        "key": "Farm Max Volume",
+        "value": "农场最大容积"
       },
       {
         "key": "Farm Speed",
@@ -5753,10 +5361,6 @@
       {
         "key": "Fire Power",
         "value": "火焰功率"
-      },
-      {
-        "key": "Fire Usage",
-        "value": "火焰用量"
       },
       {
         "key": "First Show Delay",
@@ -5823,24 +5427,16 @@
         "value": "流体至源"
       },
       {
-        "key": "Fluid Transfer Multiplier",
-        "value": "流体传输倍率"
-      },
-      {
-        "key": "Fluid Unit",
-        "value": "流体单位"
-      },
-      {
         "key": "Font Name",
         "value": "字体名称"
       },
       {
-        "key": "Font Scale",
-        "value": "字体缩放"
-      },
-      {
         "key": "Font Size",
         "value": "字体大小"
+      },
+      {
+        "key": "Force Client Only",
+        "value": "强制客户端仅"
       },
       {
         "key": "Force Time",
@@ -5884,10 +5480,6 @@
       },
       {
         "key": "Fuel Tooltip",
-        "value": "燃料提示"
-      },
-      {
-        "key": "Fuel Tooltips",
         "value": "燃料提示"
       },
       {
@@ -6027,12 +5619,12 @@
         "value": "生长系数"
       },
       {
-        "key": "Gui Overlay Position",
-        "value": "界面覆盖层位置"
-      },
-      {
         "key": "Harvest Speed Multiplier",
         "value": "收获速度倍率"
+      },
+      {
+        "key": "Health Bar Color",
+        "value": "生命值条颜色"
       },
       {
         "key": "Health Multiplier",
@@ -6091,24 +5683,12 @@
         "value": "蜂蜜基础"
       },
       {
-        "key": "Horizontal Scroll Factor",
-        "value": "水平卷轴系数"
-      },
-      {
         "key": "Hp Damage",
         "value": "生命值伤害"
       },
       {
         "key": "Hunger Cost Percent",
         "value": "饥饿消耗百分比"
-      },
-      {
-        "key": "Ignore Gui Scale",
-        "value": "忽略界面缩放"
-      },
-      {
-        "key": "Ignore Gui Scale Size Multiplier",
-        "value": "忽略界面缩放大小倍率"
       },
       {
         "key": "Ignore Spawn List",
@@ -6171,8 +5751,16 @@
         "value": "物品栏充能频率"
       },
       {
-        "key": "Inventory Pause",
-        "value": "物品栏暂停"
+        "key": "Inventory Count",
+        "value": "物品栏数量"
+      },
+      {
+        "key": "Inventory Render Distance",
+        "value": "物品栏渲染距离"
+      },
+      {
+        "key": "Inventory Size",
+        "value": "物品栏大小"
       },
       {
         "key": "Inventory Slot Count",
@@ -6237,10 +5825,6 @@
       {
         "key": "Is Food Tooltip Enabled",
         "value": "食物提示启用"
-      },
-      {
-        "key": "Item Blacklist",
-        "value": "物品黑名单"
       },
       {
         "key": "Item Core Config",
@@ -6419,14 +6003,6 @@
         "value": "大型热量发电机"
       },
       {
-        "key": "Large Steam Furnace Size",
-        "value": "大型蒸汽熔炉大小"
-      },
-      {
-        "key": "Large Village Weight",
-        "value": "大型村庄权重"
-      },
-      {
         "key": "Laser Block Range",
         "value": "激光方块范围"
       },
@@ -6447,16 +6023,12 @@
         "value": "等级消耗系数"
       },
       {
-        "key": "Light Level",
-        "value": "光照等级"
-      },
-      {
         "key": "Load Time",
         "value": "加载时间"
       },
       {
-        "key": "Log Auto Backup",
-        "value": "日志自动备份"
+        "key": "Log Spawning",
+        "value": "日志生成"
       },
       {
         "key": "Loot Table Blacklist",
@@ -6495,28 +6067,12 @@
         "value": "机器容积倍率"
       },
       {
-        "key": "Mana Bar",
-        "value": "魔力条"
-      },
-      {
-        "key": "Mana Bar Display",
-        "value": "魔力条显示"
-      },
-      {
         "key": "Mana Bar Offset",
         "value": "魔力条偏移"
       },
       {
-        "key": "Mana Bar Text Visible",
-        "value": "魔力条文字可见"
-      },
-      {
         "key": "Mana Boost",
         "value": "魔力提升"
-      },
-      {
-        "key": "Mana Spawn Percent",
-        "value": "魔力生成百分比"
       },
       {
         "key": "Max Capacity",
@@ -6541,10 +6097,6 @@
       {
         "key": "Max Creative Capacity",
         "value": "最大创造容量"
-      },
-      {
-        "key": "Max Custom Mode Scale",
-        "value": "最大自定义模式缩放"
       },
       {
         "key": "Max Damage",
@@ -6595,6 +6147,10 @@
         "value": "最大高度"
       },
       {
+        "key": "Max Horizontal Distance To Players",
+        "value": "最大水平距离至玩家"
+      },
+      {
         "key": "Max Input Output",
         "value": "最大输入输出"
       },
@@ -6615,10 +6171,6 @@
         "value": "最大光照等级"
       },
       {
-        "key": "Max Mana",
-        "value": "最大魔力"
-      },
-      {
         "key": "Max Mining Time",
         "value": "最大挖掘时间"
       },
@@ -6633,14 +6185,6 @@
       {
         "key": "Max Overlay Mode",
         "value": "最大覆盖层模式"
-      },
-      {
-        "key": "Max Portal Size",
-        "value": "最大传送门大小"
-      },
-      {
-        "key": "Max Potion Effect Duration",
-        "value": "最大药水特效持续时间"
       },
       {
         "key": "Max Power",
@@ -6699,10 +6243,6 @@
         "value": "最大存储"
       },
       {
-        "key": "Max Tank Creative Size",
-        "value": "最大储罐创造大小"
-      },
-      {
         "key": "Max Tank Size",
         "value": "最大储罐大小"
       },
@@ -6747,6 +6287,10 @@
         "value": "最大矿脉大小"
       },
       {
+        "key": "Max Vertical Distance To Players",
+        "value": "最大垂直距离至玩家"
+      },
+      {
         "key": "Max Water Tank Size",
         "value": "最大水储罐大小"
       },
@@ -6755,16 +6299,8 @@
         "value": "最大水储罐存储"
       },
       {
-        "key": "Max Width",
-        "value": "最大宽度"
-      },
-      {
         "key": "Maximum Bees On Gui",
         "value": "最大蜜蜂开界面"
-      },
-      {
-        "key": "Maximum Mob Multiplier",
-        "value": "最大生物倍率"
       },
       {
         "key": "Maximum Per Player",
@@ -6779,10 +6315,6 @@
         "value": "中型速度"
       },
       {
-        "key": "Medium Village Weight",
-        "value": "中型村庄权重"
-      },
-      {
         "key": "Message Structure",
         "value": "消息结构"
       },
@@ -6793,6 +6325,10 @@
       {
         "key": "Min Energy Rate",
         "value": "最小能量频率"
+      },
+      {
+        "key": "Min Horizontal Distance To Players",
+        "value": "最小水平距离至玩家"
       },
       {
         "key": "Min Light Level",
@@ -6827,14 +6363,6 @@
         "value": "最小机器刻速度"
       },
       {
-        "key": "Minimum Mob Multiplier",
-        "value": "最小生物倍率"
-      },
-      {
-        "key": "Mining Core Range",
-        "value": "挖掘核心范围"
-      },
-      {
         "key": "Mining Count",
         "value": "挖掘数量"
       },
@@ -6843,20 +6371,8 @@
         "value": "生物粉碎机配置"
       },
       {
-        "key": "Mob Death Sounds",
-        "value": "生物死亡音效"
-      },
-      {
-        "key": "Mob Drops",
-        "value": "生物掉落"
-      },
-      {
         "key": "Mob Drops Enabled",
         "value": "生物掉落启用"
-      },
-      {
-        "key": "Mob Multiplier",
-        "value": "生物倍率"
       },
       {
         "key": "Mob Spawn",
@@ -6943,24 +6459,12 @@
         "value": "网络上限"
       },
       {
-        "key": "Neutral Neutral",
-        "value": "中立中立"
-      },
-      {
         "key": "No End Portal Render",
         "value": "不末地传送门渲染"
       },
       {
         "key": "No Energy",
         "value": "不能量"
-      },
-      {
-        "key": "No Grave Dimension",
-        "value": "不墓碑维度"
-      },
-      {
-        "key": "No Nether Blocks",
-        "value": "不下界方块"
       },
       {
         "key": "No Player Backup Count",
@@ -7151,14 +6655,6 @@
         "value": "每玩家半径"
       },
       {
-        "key": "Player Death",
-        "value": "玩家死亡"
-      },
-      {
-        "key": "Player Drops",
-        "value": "玩家掉落"
-      },
-      {
         "key": "Player Loot",
         "value": "玩家战利品"
       },
@@ -7183,10 +6679,6 @@
         "value": "功率元件最小距离"
       },
       {
-        "key": "Power Items",
-        "value": "功率物品"
-      },
-      {
         "key": "Power Per Tick",
         "value": "功率每刻"
       },
@@ -7195,8 +6687,8 @@
         "value": "阻止火焰"
       },
       {
-        "key": "Processing Time",
-        "value": "处理时间"
+        "key": "Processing Ticks",
+        "value": "处理刻"
       },
       {
         "key": "Pull Interval",
@@ -7293,10 +6785,6 @@
       {
         "key": "Recipe Generation Mode",
         "value": "配方生成模式"
-      },
-      {
-        "key": "Recipe Transfer Energy Usage",
-        "value": "配方传输能量用量"
       },
       {
         "key": "Redstone And Glowstone",
@@ -7515,14 +7003,6 @@
         "value": "精制黑曜石工具耐久"
       },
       {
-        "key": "Render Block Particles",
-        "value": "渲染方块粒子"
-      },
-      {
-        "key": "Render Experience Cost",
-        "value": "渲染经验消耗"
-      },
-      {
         "key": "Render Items On Player",
         "value": "渲染物品开玩家"
       },
@@ -7531,32 +7011,12 @@
         "value": "渲染模式"
       },
       {
-        "key": "Render Table Item",
-        "value": "渲染台物品"
-      },
-      {
         "key": "Repair Air Usage",
         "value": "修复空气用量"
       },
       {
-        "key": "Require Energy",
-        "value": "需要能量"
-      },
-      {
-        "key": "Required Ticks",
-        "value": "需要刻"
-      },
-      {
-        "key": "Required Ticks Per Hp",
-        "value": "需要刻每生命值"
-      },
-      {
         "key": "Reset On Death",
         "value": "重置开死亡"
-      },
-      {
-        "key": "Restore Effects On Death",
-        "value": "恢复特效开死亡"
       },
       {
         "key": "Rf Per Check",
@@ -7603,16 +7063,8 @@
         "value": "界面控制器每刻RF刻"
       },
       {
-        "key": "Screen Scale",
-        "value": "界面缩放"
-      },
-      {
         "key": "Screen Size",
         "value": "界面大小"
-      },
-      {
-        "key": "Scroll Duration",
-        "value": "卷轴持续时间"
       },
       {
         "key": "Scroll Speed",
@@ -7719,16 +7171,8 @@
         "value": "显示食物值在提示始终"
       },
       {
-        "key": "Show Hidden Recipes",
-        "value": "显示隐藏配方"
-      },
-      {
         "key": "Show Recipe Book",
         "value": "显示配方书"
-      },
-      {
-        "key": "Show Shield Particle",
-        "value": "显示护盾粒子"
       },
       {
         "key": "Show Source Fluid",
@@ -7787,10 +7231,6 @@
         "value": "小型光照连接器消耗"
       },
       {
-        "key": "Small Village Weight",
-        "value": "小型村庄权重"
-      },
-      {
         "key": "Solar Generation",
         "value": "太阳能生成"
       },
@@ -7831,10 +7271,6 @@
         "value": "源流体"
       },
       {
-        "key": "Source Storage Block",
-        "value": "源存储方块"
-      },
-      {
         "key": "Spawn Always Color",
         "value": "生成始终颜色"
       },
@@ -7843,24 +7279,20 @@
         "value": "生成数量"
       },
       {
-        "key": "Spawn Blacklist",
-        "value": "生成黑名单"
-      },
-      {
         "key": "Spawn Book",
         "value": "生成书"
       },
       {
-        "key": "Spawn Limit",
-        "value": "生成上限"
+        "key": "Spawn Interval Ticks",
+        "value": "生成间隔刻"
+      },
+      {
+        "key": "Spawn Interval Ticks Maximum",
+        "value": "生成间隔刻上限"
       },
       {
         "key": "Spawn Night Color",
         "value": "生成夜晚颜色"
-      },
-      {
-        "key": "Spawn On Block Entities",
-        "value": "生成开方块实体"
       },
       {
         "key": "Spawn Prevent",
@@ -7889,6 +7321,10 @@
       {
         "key": "Speed Upgrade Energy Usage",
         "value": "速度升级能量用量"
+      },
+      {
+        "key": "Speed Upgrade Modifier",
+        "value": "速度升级系数"
       },
       {
         "key": "Speed Upgrade Speed Multiplier",
@@ -8083,10 +7519,6 @@
         "value": "剑权重"
       },
       {
-        "key": "Tablet Cooldown",
-        "value": "石板冷却"
-      },
-      {
         "key": "Tablet Max RF",
         "value": "石板最大RF"
       },
@@ -8107,20 +7539,8 @@
         "value": "储罐大小"
       },
       {
-        "key": "Tank Size Limit",
-        "value": "储罐大小上限"
-      },
-      {
-        "key": "Tank Storage Per Block",
-        "value": "储罐存储每方块"
-      },
-      {
         "key": "Tank Upgrade",
         "value": "储罐升级"
-      },
-      {
-        "key": "Teleport Allowed",
-        "value": "传送允许"
       },
       {
         "key": "Teleport Attack Hp Damage",
@@ -8151,10 +7571,6 @@
         "value": "刻每煤"
       },
       {
-        "key": "Ticks Per Damage",
-        "value": "刻每伤害"
-      },
-      {
         "key": "Ticks Per Redstone Update",
         "value": "刻每红石更新"
       },
@@ -8165,10 +7581,6 @@
       {
         "key": "Time Bonus",
         "value": "时间加成"
-      },
-      {
-        "key": "Time Core Range",
-        "value": "时间核心范围"
       },
       {
         "key": "Time Crystal",
@@ -8227,10 +7639,6 @@
         "value": "涡轮功率倍率"
       },
       {
-        "key": "Type Limit Creative",
-        "value": "类型上限创造"
-      },
-      {
         "key": "Ultimate Capacity",
         "value": "终极容量"
       },
@@ -8255,10 +7663,6 @@
         "value": "更新间隔"
       },
       {
-        "key": "Upgrade Blacklist",
-        "value": "升级黑名单"
-      },
-      {
         "key": "Upgrade Light",
         "value": "升级光照"
       },
@@ -8271,40 +7675,12 @@
         "value": "升级虚空"
       },
       {
-        "key": "Upgrade Whitelist",
-        "value": "升级白名单"
-      },
-      {
-        "key": "Usage Blacklist",
-        "value": "用量黑名单"
-      },
-      {
         "key": "Usage Multiplier",
         "value": "用量倍率"
       },
       {
-        "key": "Use Cache",
-        "value": "使用缓存"
-      },
-      {
         "key": "Use Energy",
         "value": "使用能量"
-      },
-      {
-        "key": "Use On Animal Cooldown",
-        "value": "使用开动物冷却"
-      },
-      {
-        "key": "Use On Animal Cost",
-        "value": "使用开动物消耗"
-      },
-      {
-        "key": "Use On Block Cooldown",
-        "value": "使用开方块冷却"
-      },
-      {
-        "key": "Use On Block Cost",
-        "value": "使用开方块消耗"
       },
       {
         "key": "Use Per Tick",
@@ -8327,28 +7703,12 @@
         "value": "矿脉大小"
       },
       {
-        "key": "Vein Sword",
-        "value": "矿脉剑"
-      },
-      {
         "key": "Version Check",
         "value": "版本检查"
       },
       {
-        "key": "Vertical Scroll Factor",
-        "value": "垂直卷轴系数"
-      },
-      {
         "key": "Village And Dungeon Loot",
         "value": "村庄与地牢战利品"
-      },
-      {
-        "key": "Villager Drop Emerald Chance",
-        "value": "村民掉落绿宝石几率"
-      },
-      {
-        "key": "Villager Structure Weight",
-        "value": "村民结构权重"
       },
       {
         "key": "Void Always Enabled",
@@ -8490,20 +7850,12 @@
     ],
     "pairs": [
       {
-        "key": "Additional Attack Damage",
-        "value": "额外攻击伤害"
-      },
-      {
         "key": "Additional Growth Height",
         "value": "额外生长高度"
       },
       {
         "key": "Additional Growth Ticks",
         "value": "额外生长刻"
-      },
-      {
-        "key": "Additional Health",
-        "value": "额外生命值"
       },
       {
         "key": "Advanced Block Charger Capacity",
@@ -8638,14 +7990,6 @@
         "value": "允许附魔"
       },
       {
-        "key": "Allow Grave In Water",
-        "value": "允许墓碑在水"
-      },
-      {
-        "key": "Allow Grave Key",
-        "value": "允许墓碑按键"
-      },
-      {
         "key": "Allow Invisible Shield",
         "value": "允许隐藏护盾"
       },
@@ -8662,10 +8006,6 @@
         "value": "允许保护"
       },
       {
-        "key": "Allow Scroll Of Reach",
-        "value": "允许卷轴的触及距离"
-      },
-      {
         "key": "Allow Teleport",
         "value": "允许传送"
       },
@@ -8678,20 +8018,12 @@
         "value": "始终掉落"
       },
       {
-        "key": "Always Visible In Creative",
-        "value": "始终可见在创造"
-      },
-      {
         "key": "Animal Effect",
         "value": "动物特效"
       },
       {
         "key": "Animal Multiplier",
         "value": "动物倍率"
-      },
-      {
-        "key": "Animation Duration",
-        "value": "动画持续时间"
       },
       {
         "key": "Animation Speed",
@@ -8726,10 +8058,6 @@
         "value": "护甲值"
       },
       {
-        "key": "Arrow Scroll Factor",
-        "value": "箭卷轴系数"
-      },
-      {
         "key": "Attack Damage",
         "value": "攻击伤害"
       },
@@ -8750,10 +8078,6 @@
         "value": "自动输入间隔"
       },
       {
-        "key": "Auto Output Default",
-        "value": "自动输出默认"
-      },
-      {
         "key": "Auto Output Interval",
         "value": "自动输出间隔"
       },
@@ -8770,8 +8094,12 @@
         "value": "背包掉落几率"
       },
       {
-        "key": "Backup On Death",
-        "value": "备份开死亡"
+        "key": "Backpack Integration",
+        "value": "背包集成"
+      },
+      {
+        "key": "Backup Interval",
+        "value": "备份间隔"
       },
       {
         "key": "Backup Type",
@@ -8806,10 +8134,6 @@
         "value": "基础效率"
       },
       {
-        "key": "Base Energy",
-        "value": "基础能量"
-      },
-      {
         "key": "Base Energy Capacity",
         "value": "基础能量容量"
       },
@@ -8822,20 +8146,8 @@
         "value": "基础实体距离"
       },
       {
-        "key": "Base Font Size",
-        "value": "基础字体大小"
-      },
-      {
         "key": "Base Harvest",
         "value": "基础收获"
-      },
-      {
-        "key": "Base Item Pipe Transfer",
-        "value": "基础物品管道传输"
-      },
-      {
-        "key": "Base Item Transfer Amount",
-        "value": "基础物品传输数量"
       },
       {
         "key": "Base Level Cost",
@@ -8864,10 +8176,6 @@
       {
         "key": "Base Tick Rate",
         "value": "基础刻频率"
-      },
-      {
-        "key": "Base Usage",
-        "value": "基础用量"
       },
       {
         "key": "Base Value",
@@ -9006,6 +8314,10 @@
         "value": "加成实体距离"
       },
       {
+        "key": "Bonus Per Level",
+        "value": "加成每等级"
+      },
+      {
         "key": "Boots Armor",
         "value": "靴子护甲"
       },
@@ -9014,16 +8326,8 @@
         "value": "靴子几率"
       },
       {
-        "key": "Border Width",
-        "value": "边框宽度"
-      },
-      {
-        "key": "Boss Health",
-        "value": "首领生命值"
-      },
-      {
-        "key": "Boss Health Bar Color",
-        "value": "首领生命值条颜色"
+        "key": "Boss Mode",
+        "value": "首领模式"
       },
       {
         "key": "Boss Music Volume",
@@ -9048,6 +8352,10 @@
       {
         "key": "Breeding Chance",
         "value": "繁殖几率"
+      },
+      {
+        "key": "Breeding Cooldown",
+        "value": "繁殖冷却"
       },
       {
         "key": "Breeding Time",
@@ -9234,10 +8542,6 @@
         "value": "化学每储罐"
       },
       {
-        "key": "Chemical Storage Block",
-        "value": "化学存储方块"
-      },
-      {
         "key": "Chest Loot Enabled",
         "value": "箱子战利品启用"
       },
@@ -9350,6 +8654,10 @@
         "value": "紧凑提示"
       },
       {
+        "key": "Config Version",
+        "value": "配置版本"
+      },
+      {
         "key": "Consumption Rate",
         "value": "消耗频率"
       },
@@ -9368,10 +8676,6 @@
       {
         "key": "Controller Rf Per Tick",
         "value": "控制器RF每刻"
-      },
-      {
-        "key": "Cooldown Teleport Death",
-        "value": "冷却传送死亡"
       },
       {
         "key": "Copper Backpack",
@@ -9410,16 +8714,8 @@
         "value": "消耗玩家"
       },
       {
-        "key": "Crafting Blacklist",
-        "value": "合成黑名单"
-      },
-      {
         "key": "Crafting Duration",
         "value": "合成持续时间"
-      },
-      {
-        "key": "Crafting Energy Usage",
-        "value": "合成能量用量"
       },
       {
         "key": "Crafting Log",
@@ -9434,20 +8730,12 @@
         "value": "创造能量用量"
       },
       {
-        "key": "Creative Mana",
-        "value": "创造魔力"
-      },
-      {
         "key": "Creative Output",
         "value": "创造输出"
       },
       {
         "key": "Creative Range Upgrade Energy Usage",
         "value": "创造范围升级能量用量"
-      },
-      {
-        "key": "Creative Speed",
-        "value": "创造速度"
       },
       {
         "key": "Crop Blacklist",
@@ -9538,16 +8826,16 @@
         "value": "默认基础方块"
       },
       {
+        "key": "Default Color",
+        "value": "默认颜色"
+      },
+      {
         "key": "Default Dimension",
         "value": "默认维度"
       },
       {
         "key": "Default Fluid Heat Capacity",
         "value": "默认流体热量容量"
-      },
-      {
-        "key": "Default Interval",
-        "value": "默认间隔"
       },
       {
         "key": "Default Limit",
@@ -9560,10 +8848,6 @@
       {
         "key": "Default Spawn Energy Cost",
         "value": "默认生成能量消耗"
-      },
-      {
-        "key": "Default Tick Cooldown",
-        "value": "默认刻冷却"
       },
       {
         "key": "Diamond Backpack",
@@ -9638,6 +8922,10 @@
         "value": "禁用创造物品栏按钮"
       },
       {
+        "key": "Disable In Creative",
+        "value": "禁用在创造"
+      },
+      {
         "key": "Disable Inventory Button",
         "value": "禁用物品栏按钮"
       },
@@ -9658,8 +8946,20 @@
         "value": "禁用时间"
       },
       {
+        "key": "Display Amount",
+        "value": "显示数量"
+      },
+      {
         "key": "Display Durability Tooltips",
         "value": "显示耐久提示"
+      },
+      {
+        "key": "Display Item Name",
+        "value": "显示物品名称"
+      },
+      {
+        "key": "Display Time",
+        "value": "显示时间"
       },
       {
         "key": "Do Update Check",
@@ -9714,16 +9014,8 @@
         "value": "特效刻"
       },
       {
-        "key": "Efficiency Boost",
-        "value": "效率提升"
-      },
-      {
         "key": "Elite Capacity",
         "value": "精英容量"
-      },
-      {
-        "key": "Elite Energy Usage",
-        "value": "精英能量用量"
       },
       {
         "key": "Elite Heat Capacity",
@@ -9746,10 +9038,6 @@
         "value": "绿宝石熔炉"
       },
       {
-        "key": "Enable Boss Music",
-        "value": "启用首领音乐"
-      },
-      {
         "key": "Enable Break",
         "value": "启用破坏"
       },
@@ -9770,12 +9058,12 @@
         "value": "启用调试"
       },
       {
-        "key": "Enable Debug Mode",
-        "value": "启用调试模式"
-      },
-      {
         "key": "Enable Dungeon Loot",
         "value": "启用地牢战利品"
+      },
+      {
+        "key": "Enable Durability",
+        "value": "启用耐久"
       },
       {
         "key": "Enable Food Effect Tooltip",
@@ -9890,16 +9178,8 @@
         "value": "能量频率上限"
       },
       {
-        "key": "Energy Storage Block",
-        "value": "能量存储方块"
-      },
-      {
         "key": "Energy Tablet",
         "value": "能量石板"
-      },
-      {
-        "key": "Energy To Fuel Rate",
-        "value": "能量至燃料频率"
       },
       {
         "key": "Energy Type",
@@ -9938,16 +9218,24 @@
         "value": "实体白名单"
       },
       {
-        "key": "Experience Cost",
-        "value": "经验消耗"
+        "key": "Experience Value",
+        "value": "经验值"
       },
       {
-        "key": "Experience Per Item",
-        "value": "经验每物品"
+        "key": "Extra Crafting",
+        "value": "额外合成"
       },
       {
         "key": "Extra Debug",
         "value": "额外调试"
+      },
+      {
+        "key": "Farm Max Height",
+        "value": "农场最大高度"
+      },
+      {
+        "key": "Farm Max Volume",
+        "value": "农场最大容积"
       },
       {
         "key": "Farm Speed",
@@ -9992,10 +9280,6 @@
       {
         "key": "Fire Power",
         "value": "火焰功率"
-      },
-      {
-        "key": "Fire Usage",
-        "value": "火焰用量"
       },
       {
         "key": "First Show Delay",
@@ -10062,24 +9346,16 @@
         "value": "流体至源"
       },
       {
-        "key": "Fluid Transfer Multiplier",
-        "value": "流体传输倍率"
-      },
-      {
-        "key": "Fluid Unit",
-        "value": "流体单位"
-      },
-      {
         "key": "Font Name",
         "value": "字体名称"
       },
       {
-        "key": "Font Scale",
-        "value": "字体缩放"
-      },
-      {
         "key": "Font Size",
         "value": "字体大小"
+      },
+      {
+        "key": "Force Client Only",
+        "value": "强制客户端仅"
       },
       {
         "key": "Force Time",
@@ -10123,10 +9399,6 @@
       },
       {
         "key": "Fuel Tooltip",
-        "value": "燃料提示"
-      },
-      {
-        "key": "Fuel Tooltips",
         "value": "燃料提示"
       },
       {
@@ -10266,12 +9538,12 @@
         "value": "生长系数"
       },
       {
-        "key": "Gui Overlay Position",
-        "value": "界面覆盖层位置"
-      },
-      {
         "key": "Harvest Speed Multiplier",
         "value": "收获速度倍率"
+      },
+      {
+        "key": "Health Bar Color",
+        "value": "生命值条颜色"
       },
       {
         "key": "Health Multiplier",
@@ -10330,24 +9602,12 @@
         "value": "蜂蜜基础"
       },
       {
-        "key": "Horizontal Scroll Factor",
-        "value": "水平卷轴系数"
-      },
-      {
         "key": "Hp Damage",
         "value": "生命值伤害"
       },
       {
         "key": "Hunger Cost Percent",
         "value": "饥饿消耗百分比"
-      },
-      {
-        "key": "Ignore Gui Scale",
-        "value": "忽略界面缩放"
-      },
-      {
-        "key": "Ignore Gui Scale Size Multiplier",
-        "value": "忽略界面缩放大小倍率"
       },
       {
         "key": "Ignore Spawn List",
@@ -10410,8 +9670,16 @@
         "value": "物品栏充能频率"
       },
       {
-        "key": "Inventory Pause",
-        "value": "物品栏暂停"
+        "key": "Inventory Count",
+        "value": "物品栏数量"
+      },
+      {
+        "key": "Inventory Render Distance",
+        "value": "物品栏渲染距离"
+      },
+      {
+        "key": "Inventory Size",
+        "value": "物品栏大小"
       },
       {
         "key": "Inventory Slot Count",
@@ -10476,10 +9744,6 @@
       {
         "key": "Is Food Tooltip Enabled",
         "value": "食物提示启用"
-      },
-      {
-        "key": "Item Blacklist",
-        "value": "物品黑名单"
       },
       {
         "key": "Item Core Config",
@@ -10658,14 +9922,6 @@
         "value": "大型热量发电机"
       },
       {
-        "key": "Large Steam Furnace Size",
-        "value": "大型蒸汽熔炉大小"
-      },
-      {
-        "key": "Large Village Weight",
-        "value": "大型村庄权重"
-      },
-      {
         "key": "Laser Block Range",
         "value": "激光方块范围"
       },
@@ -10686,16 +9942,12 @@
         "value": "等级消耗系数"
       },
       {
-        "key": "Light Level",
-        "value": "光照等级"
-      },
-      {
         "key": "Load Time",
         "value": "加载时间"
       },
       {
-        "key": "Log Auto Backup",
-        "value": "日志自动备份"
+        "key": "Log Spawning",
+        "value": "日志生成"
       },
       {
         "key": "Loot Table Blacklist",
@@ -10734,28 +9986,12 @@
         "value": "机器容积倍率"
       },
       {
-        "key": "Mana Bar",
-        "value": "魔力条"
-      },
-      {
-        "key": "Mana Bar Display",
-        "value": "魔力条显示"
-      },
-      {
         "key": "Mana Bar Offset",
         "value": "魔力条偏移"
       },
       {
-        "key": "Mana Bar Text Visible",
-        "value": "魔力条文字可见"
-      },
-      {
         "key": "Mana Boost",
         "value": "魔力提升"
-      },
-      {
-        "key": "Mana Spawn Percent",
-        "value": "魔力生成百分比"
       },
       {
         "key": "Max Capacity",
@@ -10780,10 +10016,6 @@
       {
         "key": "Max Creative Capacity",
         "value": "最大创造容量"
-      },
-      {
-        "key": "Max Custom Mode Scale",
-        "value": "最大自定义模式缩放"
       },
       {
         "key": "Max Damage",
@@ -10834,6 +10066,10 @@
         "value": "最大高度"
       },
       {
+        "key": "Max Horizontal Distance To Players",
+        "value": "最大水平距离至玩家"
+      },
+      {
         "key": "Max Input Output",
         "value": "最大输入输出"
       },
@@ -10854,10 +10090,6 @@
         "value": "最大光照等级"
       },
       {
-        "key": "Max Mana",
-        "value": "最大魔力"
-      },
-      {
         "key": "Max Mining Time",
         "value": "最大挖掘时间"
       },
@@ -10872,14 +10104,6 @@
       {
         "key": "Max Overlay Mode",
         "value": "最大覆盖层模式"
-      },
-      {
-        "key": "Max Portal Size",
-        "value": "最大传送门大小"
-      },
-      {
-        "key": "Max Potion Effect Duration",
-        "value": "最大药水特效持续时间"
       },
       {
         "key": "Max Power",
@@ -10938,10 +10162,6 @@
         "value": "最大存储"
       },
       {
-        "key": "Max Tank Creative Size",
-        "value": "最大储罐创造大小"
-      },
-      {
         "key": "Max Tank Size",
         "value": "最大储罐大小"
       },
@@ -10986,6 +10206,10 @@
         "value": "最大矿脉大小"
       },
       {
+        "key": "Max Vertical Distance To Players",
+        "value": "最大垂直距离至玩家"
+      },
+      {
         "key": "Max Water Tank Size",
         "value": "最大水储罐大小"
       },
@@ -10994,16 +10218,8 @@
         "value": "最大水储罐存储"
       },
       {
-        "key": "Max Width",
-        "value": "最大宽度"
-      },
-      {
         "key": "Maximum Bees On Gui",
         "value": "最大蜜蜂开界面"
-      },
-      {
-        "key": "Maximum Mob Multiplier",
-        "value": "最大生物倍率"
       },
       {
         "key": "Maximum Per Player",
@@ -11018,10 +10234,6 @@
         "value": "中型速度"
       },
       {
-        "key": "Medium Village Weight",
-        "value": "中型村庄权重"
-      },
-      {
         "key": "Message Structure",
         "value": "消息结构"
       },
@@ -11032,6 +10244,10 @@
       {
         "key": "Min Energy Rate",
         "value": "最小能量频率"
+      },
+      {
+        "key": "Min Horizontal Distance To Players",
+        "value": "最小水平距离至玩家"
       },
       {
         "key": "Min Light Level",
@@ -11066,14 +10282,6 @@
         "value": "最小机器刻速度"
       },
       {
-        "key": "Minimum Mob Multiplier",
-        "value": "最小生物倍率"
-      },
-      {
-        "key": "Mining Core Range",
-        "value": "挖掘核心范围"
-      },
-      {
         "key": "Mining Count",
         "value": "挖掘数量"
       },
@@ -11082,20 +10290,8 @@
         "value": "生物粉碎机配置"
       },
       {
-        "key": "Mob Death Sounds",
-        "value": "生物死亡音效"
-      },
-      {
-        "key": "Mob Drops",
-        "value": "生物掉落"
-      },
-      {
         "key": "Mob Drops Enabled",
         "value": "生物掉落启用"
-      },
-      {
-        "key": "Mob Multiplier",
-        "value": "生物倍率"
       },
       {
         "key": "Mob Spawn",
@@ -11182,24 +10378,12 @@
         "value": "网络上限"
       },
       {
-        "key": "Neutral Neutral",
-        "value": "中立中立"
-      },
-      {
         "key": "No End Portal Render",
         "value": "不末地传送门渲染"
       },
       {
         "key": "No Energy",
         "value": "不能量"
-      },
-      {
-        "key": "No Grave Dimension",
-        "value": "不墓碑维度"
-      },
-      {
-        "key": "No Nether Blocks",
-        "value": "不下界方块"
       },
       {
         "key": "No Player Backup Count",
@@ -11390,14 +10574,6 @@
         "value": "每玩家半径"
       },
       {
-        "key": "Player Death",
-        "value": "玩家死亡"
-      },
-      {
-        "key": "Player Drops",
-        "value": "玩家掉落"
-      },
-      {
         "key": "Player Loot",
         "value": "玩家战利品"
       },
@@ -11422,10 +10598,6 @@
         "value": "功率元件最小距离"
       },
       {
-        "key": "Power Items",
-        "value": "功率物品"
-      },
-      {
         "key": "Power Per Tick",
         "value": "功率每刻"
       },
@@ -11434,8 +10606,8 @@
         "value": "阻止火焰"
       },
       {
-        "key": "Processing Time",
-        "value": "处理时间"
+        "key": "Processing Ticks",
+        "value": "处理刻"
       },
       {
         "key": "Pull Interval",
@@ -11532,10 +10704,6 @@
       {
         "key": "Recipe Generation Mode",
         "value": "配方生成模式"
-      },
-      {
-        "key": "Recipe Transfer Energy Usage",
-        "value": "配方传输能量用量"
       },
       {
         "key": "Redstone And Glowstone",
@@ -11754,14 +10922,6 @@
         "value": "精制黑曜石工具耐久"
       },
       {
-        "key": "Render Block Particles",
-        "value": "渲染方块粒子"
-      },
-      {
-        "key": "Render Experience Cost",
-        "value": "渲染经验消耗"
-      },
-      {
         "key": "Render Items On Player",
         "value": "渲染物品开玩家"
       },
@@ -11770,32 +10930,12 @@
         "value": "渲染模式"
       },
       {
-        "key": "Render Table Item",
-        "value": "渲染台物品"
-      },
-      {
         "key": "Repair Air Usage",
         "value": "修复空气用量"
       },
       {
-        "key": "Require Energy",
-        "value": "需要能量"
-      },
-      {
-        "key": "Required Ticks",
-        "value": "需要刻"
-      },
-      {
-        "key": "Required Ticks Per Hp",
-        "value": "需要刻每生命值"
-      },
-      {
         "key": "Reset On Death",
         "value": "重置开死亡"
-      },
-      {
-        "key": "Restore Effects On Death",
-        "value": "恢复特效开死亡"
       },
       {
         "key": "Rf Per Check",
@@ -11842,16 +10982,8 @@
         "value": "界面控制器每刻RF刻"
       },
       {
-        "key": "Screen Scale",
-        "value": "界面缩放"
-      },
-      {
         "key": "Screen Size",
         "value": "界面大小"
-      },
-      {
-        "key": "Scroll Duration",
-        "value": "卷轴持续时间"
       },
       {
         "key": "Scroll Speed",
@@ -11958,16 +11090,8 @@
         "value": "显示食物值在提示始终"
       },
       {
-        "key": "Show Hidden Recipes",
-        "value": "显示隐藏配方"
-      },
-      {
         "key": "Show Recipe Book",
         "value": "显示配方书"
-      },
-      {
-        "key": "Show Shield Particle",
-        "value": "显示护盾粒子"
       },
       {
         "key": "Show Source Fluid",
@@ -12026,10 +11150,6 @@
         "value": "小型光照连接器消耗"
       },
       {
-        "key": "Small Village Weight",
-        "value": "小型村庄权重"
-      },
-      {
         "key": "Solar Generation",
         "value": "太阳能生成"
       },
@@ -12070,10 +11190,6 @@
         "value": "源流体"
       },
       {
-        "key": "Source Storage Block",
-        "value": "源存储方块"
-      },
-      {
         "key": "Spawn Always Color",
         "value": "生成始终颜色"
       },
@@ -12082,24 +11198,20 @@
         "value": "生成数量"
       },
       {
-        "key": "Spawn Blacklist",
-        "value": "生成黑名单"
-      },
-      {
         "key": "Spawn Book",
         "value": "生成书"
       },
       {
-        "key": "Spawn Limit",
-        "value": "生成上限"
+        "key": "Spawn Interval Ticks",
+        "value": "生成间隔刻"
+      },
+      {
+        "key": "Spawn Interval Ticks Maximum",
+        "value": "生成间隔刻上限"
       },
       {
         "key": "Spawn Night Color",
         "value": "生成夜晚颜色"
-      },
-      {
-        "key": "Spawn On Block Entities",
-        "value": "生成开方块实体"
       },
       {
         "key": "Spawn Prevent",
@@ -12128,6 +11240,10 @@
       {
         "key": "Speed Upgrade Energy Usage",
         "value": "速度升级能量用量"
+      },
+      {
+        "key": "Speed Upgrade Modifier",
+        "value": "速度升级系数"
       },
       {
         "key": "Speed Upgrade Speed Multiplier",
@@ -12322,10 +11438,6 @@
         "value": "剑权重"
       },
       {
-        "key": "Tablet Cooldown",
-        "value": "石板冷却"
-      },
-      {
         "key": "Tablet Max RF",
         "value": "石板最大RF"
       },
@@ -12346,20 +11458,8 @@
         "value": "储罐大小"
       },
       {
-        "key": "Tank Size Limit",
-        "value": "储罐大小上限"
-      },
-      {
-        "key": "Tank Storage Per Block",
-        "value": "储罐存储每方块"
-      },
-      {
         "key": "Tank Upgrade",
         "value": "储罐升级"
-      },
-      {
-        "key": "Teleport Allowed",
-        "value": "传送允许"
       },
       {
         "key": "Teleport Attack Hp Damage",
@@ -12390,10 +11490,6 @@
         "value": "刻每煤"
       },
       {
-        "key": "Ticks Per Damage",
-        "value": "刻每伤害"
-      },
-      {
         "key": "Ticks Per Redstone Update",
         "value": "刻每红石更新"
       },
@@ -12404,10 +11500,6 @@
       {
         "key": "Time Bonus",
         "value": "时间加成"
-      },
-      {
-        "key": "Time Core Range",
-        "value": "时间核心范围"
       },
       {
         "key": "Time Crystal",
@@ -12466,10 +11558,6 @@
         "value": "涡轮功率倍率"
       },
       {
-        "key": "Type Limit Creative",
-        "value": "类型上限创造"
-      },
-      {
         "key": "Ultimate Capacity",
         "value": "终极容量"
       },
@@ -12494,10 +11582,6 @@
         "value": "更新间隔"
       },
       {
-        "key": "Upgrade Blacklist",
-        "value": "升级黑名单"
-      },
-      {
         "key": "Upgrade Light",
         "value": "升级光照"
       },
@@ -12510,40 +11594,12 @@
         "value": "升级虚空"
       },
       {
-        "key": "Upgrade Whitelist",
-        "value": "升级白名单"
-      },
-      {
-        "key": "Usage Blacklist",
-        "value": "用量黑名单"
-      },
-      {
         "key": "Usage Multiplier",
         "value": "用量倍率"
       },
       {
-        "key": "Use Cache",
-        "value": "使用缓存"
-      },
-      {
         "key": "Use Energy",
         "value": "使用能量"
-      },
-      {
-        "key": "Use On Animal Cooldown",
-        "value": "使用开动物冷却"
-      },
-      {
-        "key": "Use On Animal Cost",
-        "value": "使用开动物消耗"
-      },
-      {
-        "key": "Use On Block Cooldown",
-        "value": "使用开方块冷却"
-      },
-      {
-        "key": "Use On Block Cost",
-        "value": "使用开方块消耗"
       },
       {
         "key": "Use Per Tick",
@@ -12566,28 +11622,12 @@
         "value": "矿脉大小"
       },
       {
-        "key": "Vein Sword",
-        "value": "矿脉剑"
-      },
-      {
         "key": "Version Check",
         "value": "版本检查"
       },
       {
-        "key": "Vertical Scroll Factor",
-        "value": "垂直卷轴系数"
-      },
-      {
         "key": "Village And Dungeon Loot",
         "value": "村庄与地牢战利品"
-      },
-      {
-        "key": "Villager Drop Emerald Chance",
-        "value": "村民掉落绿宝石几率"
-      },
-      {
-        "key": "Villager Structure Weight",
-        "value": "村民结构权重"
       },
       {
         "key": "Void Always Enabled",

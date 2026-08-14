@@ -108,7 +108,7 @@ def check(path):
         except Exception:
             desc = ''
             bad.append('pack.mcmeta 读不出来')
-        mc = re.search(r'-atm([0-9.]+)\.zip$', str(path))
+        mc = re.search(r'-mons([0-9.]+)\.zip$', str(path))
         if mc and mc.group(1) not in desc:
             bad.append('pack.mcmeta 描述 %r 与文件名里的 atm%s 对不上' % (desc, mc.group(1)))
         if '@@' in desc:

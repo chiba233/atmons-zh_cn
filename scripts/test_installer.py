@@ -640,7 +640,7 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
         newd.mkdir(parents=True)
         payload(newd, 'NEW')
 
-        zname = f'atmons-zh_cn-client-r99-atm{MCVER}.zip'
+        zname = f'atmons-zh_cn-client-r99-mons{MCVER}.zip'
         zpath = root / zname
         with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
             for q in newd.rglob('*'):

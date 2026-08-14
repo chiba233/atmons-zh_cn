@@ -108,7 +108,7 @@ function Invoke-OneClickUpdate {
 
     # Release 同时带多个整合包版本和客户端/服务端包；必须按当前包的整合包版本
     # 精确选择客户端 zip，不能只取 assets[0]，否则会把 7.0 用户升级到 7.2 包。
-    $suffix = '-atm' + [regex]::Escape($script:PackMcVer) + '\.zip$'
+    $suffix = '-mons' + [regex]::Escape($script:PackMcVer) + '\.zip$'
     $asset = @($release.assets | Where-Object {
         $_.name -match '^atmons-zh_cn-client-.+' -and $_.name -match $suffix
     }) | Select-Object -First 1

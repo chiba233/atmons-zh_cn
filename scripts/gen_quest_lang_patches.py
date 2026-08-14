@@ -36,13 +36,22 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 上游自己没译的键（在任何上游文件里都找不到）留在 `chapters/hanhua_additions.snbt`，
 它们不与任何文件撞键，放哪都一样。
 
-## 上游一条中文都没有的情形
+## 本包没有 delta 层
 
-本包所在的整合包自带十种语言，**没有 zh_cn**。此时上面那套推理走到极限：我们的
-覆盖没有一条与上游撞键，于是全部归进 `hanhua_additions.snbt` 一份文件，键序问题
-天然不存在。走这条分支前必须**正面证明**看到的是一个真实的整合包（任务书 lang
-目录在、且至少有一种别的语言），否则「没取到包」会被静默当成「上游不带中文」，
-发出去的包会把上游中文整个丢掉——见 assert_no_upstream_zh()。
+上面整套机制的前提是「上游自带 zh_cn，我们只写要改的键」。本包所在的整合包
+自带十种语言、**没有 zh_cn**，所以 `src/config/…/lang/zh_cn/` 里就是整份中文
+任务书，文件名直接就是上游的章节名——摊进出货树、由 build_dist.sh 整棵 `config/`
+拷进包，那已经是最终形态。没有上游同名文件可盖，也没有第二份文件跟它抢键，
+拆成 delta 再合并回来只是把对的东西拆散了再拼回去。
+
+所以没有 `zz_hanhua_*.snbt` 时本脚本不改任何文件，只做两件事：
+
+1. **正面证明**上游确实不带 zh_cn（任务书 lang 目录在、且至少有一种别的语言）。
+   哪天上游开始自带中文任务书，这里当场变红——那时整份直发会把上游那份整个盖掉
+   （2026-07 只有 2 个键的 aether.snbt 盖掉上游同名文件 167 个键，就是这个），
+   必须改回 delta 机制。
+2. 把「一个任务键只许由一份文件持有」这条自检照跑在我们这些文件上——
+   splitter 在 chapters/ 里根本不排序，撞键就等于谁生效看 ext4 的哈希序。
 
 ⚠️ 用原文件名出货的前提是**整份文件都在**：只带我们那几条会把上游同名文件整个盖掉。
 所以这里写出去的是「上游全文 + 我们的覆盖」，不是 delta。（2026-07 就踩过一次：
@@ -135,14 +144,37 @@ def collect_delta(tree, mc):
     return srcs, delta, ver
 
 
+def check_single_owner(tree):
+    """出货树里一个任务键只许由一份文件持有。
+
+    与下面主流程末尾那道自检是同一条判据：splitter 在 chapters/ 里根本不排序
+    （`Files.list(...).forEach`），同一个键落在两份文件里，谁生效在 ext4 上是随机的。
+    """
+    d = tree / LANG
+    files = sorted(d.rglob('*.snbt'))
+    if not files:
+        raise SystemExit('❌ 出货树里一个任务书语言文件都没有：%s\n'
+                         '   assemble.py 没跑，或者 src/config 下那棵树是空的。' % d)
+    seen, n = {}, 0
+    for p in files:
+        rel = p.relative_to(d).as_posix()
+        got = [k for k, _ in blocks(p)]
+        if len(got) != len(set(got)):
+            raise SystemExit('❌ %s 内部有重复键' % rel)
+        for k in got:
+            if k in seen:
+                raise SystemExit('❌ 出货树里 %s 同时出现在 %s 与 %s（又回到靠顺序了）'
+                                 % (k, seen[k], rel))
+            seen[k] = rel
+        n += len(got)
+    print('✅ 任务书语言：本包无 delta 层，%d 个文件 %d 条按上游章节名整份出货，无撞键'
+          % (len(files), n))
+
+
 def assert_no_upstream_zh(uproot):
     """确认「上游确实不带 zh_cn 任务书」，而不是包没取到 / 路径写错。
 
-    本包所在的整合包自带十种语言，**没有 zh_cn**（上一个整合包是带的）。
-    上游一条中文都没有时，我们的覆盖跟谁都不撞，按本文件顶部的规矩全部归到
-    ADDITIONS 那一份里即可，键序问题天然不存在。
-
-    但「上游没有 zh_cn」与「压根没取到上游」在代码里长得一模一样，后者静默放过
+    「上游没有 zh_cn」与「压根没取到上游」在代码里长得一模一样，后者静默放过
     就会发出一个把上游中文整个丢掉的包。所以这里要求**正面证明**看到的是一个
     真实的整合包：任务书 lang 目录必须在，且里面至少有一种别的语言。
     """
@@ -158,9 +190,15 @@ def assert_no_upstream_zh(uproot):
                          '   空目录不能当作「上游不带中文」的证据。'
                          % (LANG.rsplit('/', 1)[0], uproot))
     if (uproot / LANG).exists():
-        raise SystemExit('❌ 上游有 %s 但一个 .snbt 都读不到：%s' % (LANG, uproot))
-    print('   上游不带 zh_cn 任务书（另有 %d 种语言：%s），'
-          '本包的覆盖将整体归入 %s' % (len(others), '、'.join(others[:4]), ADDITIONS))
+        raise SystemExit(
+            '❌ 上游开始自带 zh_cn 任务书了：%s\n'
+            '   本包的 src/config/…/lang/zh_cn/ 用的是上游章节名、整份出货，\n'
+            '   照这样发下去会把上游那份**整个盖掉**（2026-07 只有 2 个键的\n'
+            '   aether.snbt 盖掉上游同名文件 167 个键，就是这个）。\n'
+            '   要改回 delta 机制：源文件加 %s 前缀，只留我们要改的键。'
+            % (uproot / LANG, DELTA_PREFIX))
+    print('   上游不带 zh_cn 任务书（另有 %d 种语言：%s）'
+          % (len(others), '、'.join(others[:4])))
 
 
 def main():
@@ -170,12 +208,19 @@ def main():
     mc = sys.argv[3] if len(sys.argv) > 3 else None
 
     upstream_dir = uproot / LANG
+
+    # 本包没有 delta 层（见本文件顶部）：不改任何文件，只证明前提仍然成立、
+    # 并把「一个键只许由一份文件持有」查在我们这些文件上。
+    if not sorted((tree / LANG).rglob(DELTA_PREFIX + '*.snbt')):
+        assert_no_upstream_zh(uproot)
+        return check_single_owner(tree)
+
     srcs, delta, ver = collect_delta(tree, mc)
 
     # 上游每个键归属哪个文件（上游自己跨文件不许重键，重了说明我们的假设塌了）
     up_files = sorted(upstream_dir.glob('*.snbt')) + sorted((upstream_dir / 'chapters').glob('*.snbt'))
     if not up_files:
-        assert_no_upstream_zh(uproot)
+        raise SystemExit('❌ 上游 %s 下一个 .snbt 都没有' % LANG)
     up_pairs, home = {}, {}
     for p in up_files:
         rel = p.relative_to(upstream_dir).as_posix()

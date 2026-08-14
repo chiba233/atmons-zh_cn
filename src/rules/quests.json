@@ -1,14 +1,5 @@
 [
   {
-    "id": "quest-delta-filename-prefix",
-    "kind": "filename_prefix",
-    "glob": "src/config/ftbquests/quests/lang/zh_cn/**/*.snbt",
-    "prefix": "zz_hanhua_",
-    "why": "本包的任务书覆盖是 delta（只写要改的键），出货时由 gen_quest_lang_patches.py 打进上游那份章节文件、按原文件名发出去。src/ 里这批 delta 必须带 zz_hanhua_ 前缀，好让生成器认得出「哪些是我们的覆盖」——认错了就会把上游整份文件当成 delta。前缀本身也是历史事故的产物：早先是直接按上游原名发 delta，只有 2 个键的 aether.snbt 把上游同名文件的 167 个键整个盖掉了。",
-    "message": "任务书 delta {path} 缺少 zz_hanhua_ 前缀（生成器靠这个前缀认出哪些文件是本包的覆盖）",
-    "scope": "repo"
-  },
-  {
     "id": "quest-delta-blocks-parse",
     "kind": "snbt_blocks_parse",
     "glob": "config/ftbquests/quests/lang/zh_cn/**/*.snbt",

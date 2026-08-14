@@ -1,0 +1,36 @@
+{
+	quest.104EBBC08B4733F5.title: "&a模拟死亡"
+	quest.10E8BC20D406D9FB.quest_subtitle: "制造各种下界材料"
+	quest.12AE2856444996F6.quest_desc: ["此任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包均受&e保留所有权利&r许可，因此此任务不得在未经&6AllTheMods团队&r明确许可的情况下用于任何非AllTheMods团队发布的公共模组包中。\\n\\n此任务是故意隐藏的，如果你看到此任务，说明你正处于编辑模式。"]
+	quest.14B3542ECB59869C.quest_desc: ["&5战利品制造器&r是从怪物预测产物中获取战利品的机器。\\n\\n当提供电力和成功的怪物预测产物时，你可以选择从该怪物的数据模型中获取哪个物品。机器会记住你的选择，因此可以自动化。\\n\\n怪物预测产物的例子：\\n\\n- &d末影龙&r预测产物可用于获取&d龙蛋&r\\n- &2僵尸&r预测产物可用于获取铁锭\\n- &0凋灵&r预测产物可用于获取&5下界之星&r"]
+	quest.14B3542ECB59869C.title: "获取&d战利品"
+	quest.2559201BCF5D497C.quest_subtitle: "制造各种主世界材料"
+	quest.34CD54347E9821B5.quest_desc: ["一旦你制作了第一个数据模型，你需要将其升级才能发挥作用。\\n\\n数据模型最初处于第一级：&7缺陷&r。如果你想在上面运行一些模拟，至少需要将其升级到&a基础&r！\\n\\n一旦放入深度学习器中，HUD会告诉你需要多少击杀才能升级。你也可以在模型本身的提示信息中看到这些信息。"]
+	quest.34CD54347E9821B5.title: "升级数据模型"
+	quest.37EBB8E0D6E5F821.quest_desc: [
+		"&6敌对神经网络&r（简称HNN）是一个围绕模拟怪物击杀获取战利品的模组！\\n\\n为此，你将收集怪物的“数据”，然后运行模拟以创建它们的掉落物！"
+		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
+	]
+	quest.37EBB8E0D6E5F821.title: "欢迎来到&9敌对神经网络&r！"
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["&9深度学习器&r是敌对神经网络的核心组件之一。\\n\\n使用此物品，你可以右键点击以打开HUD并存储&6数据模型&r，以在击杀怪物时收集数据。\\n\\n每个学习器可以容纳4个数据模型，只要你将学习器放在背包中的任何位置，它就会为放入其中的模型收集数据！\\n\\n注意：你可以在背包中拥有多个深度学习器，它会为所有学习器中的所有数据模型收集击杀数据。"]
+	quest.3E3CBDCEAB0FF28F.quest_subtitle: "学习HUD"
+	quest.3E3CBDCEAB0FF28F.title: "&a学习怪物"
+	quest.3F3F3174BD9D03BD.quest_desc: [
+		"&d数据&5中心&r是一个7×7×7的多方块结构，以独特的方式把&d模拟室&r和&5战利品制造器&r的功能合二为一。\\n\\n它能同时处理25个&6自我意识&b数据模型&r，效果与&2&l推理&r模式相同，区别在于：\\n\\n&d数据&5中心&r不产出生物预测产物，而是直接产出战利品，可选模式与&5战利品制造器&r一致。"
+		"{@pagebreak}"
+		"搭建该多方块结构时，底面（第一层）必须使用黑曜石（哪些黑曜石可用见「黑曜石」任务）。\\n\\n墙壁和顶面必须使用黑色染色玻璃。&d数据&5中心&r方块本身可替换底层墙体中的一格，&5数据中心I/O端口&r可以替换黑色染色玻璃。"
+		"{image:atm:textures/questpics/hnn/datacenterintheend.png width:100 height:100 align:center}"
+	]
+	quest.3F3F3174BD9D03BD.quest_subtitle: "本任务的制作没有使用生成式AI"
+	quest.3F3F3174BD9D03BD.title: "&d数据&5中心"
+	quest.4092E914B24C52A7.quest_subtitle: "制造各种星辉材料"
+	quest.58C2ABED43B2EA61.quest_desc: ["&9空白数据模型&r是制作数据模型的起点。\\n\\n要开始收集某种生物的数据，你需要先做一个&9空白数据模型&r，然后&9右键点击&r你想收集数据的生物。操作正确的话，&9空白数据模型&r就会变成那种生物的数据模型。\\n\\n之后把新做好的数据模型放进&a深度学习器&r，随身带着它去击杀这种生物，就能继续收集数据。"]
+	quest.58C2ABED43B2EA61.quest_subtitle: "收集数据"
+	quest.58C2ABED43B2EA61.title: "&9对生物建模"
+	quest.5A23107C363A209E.quest_subtitle: "制造各种末地材料"
+	task.15D2A03410859443.title: "保留所有权利"
+	task.5392CADA51B80879.title: "黑色染色玻璃"
+	task.6B580F95A2E5A465.title: "保留所有权利"
+	task.6B84DAA99028ACEA.title: "黑曜石"
+	task.7F17E48ACE65C84E.title: "数据模型"
+}

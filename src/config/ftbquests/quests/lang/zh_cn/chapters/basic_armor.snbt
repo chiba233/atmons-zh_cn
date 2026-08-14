@@ -1,0 +1,273 @@
+{
+	quest.004D61425172324F.quest_desc: ["&8锁链盔甲&r比铁甲稍差一些。它在原版&l&2Minecraft&r中的主要用途因其难以获得而显得神秘，只能通过交易和生物掉落获取。\\n\\n当然了，这里是模组世界，所以我们现在可以合成它了！但这反而让它失去了原本存在的意义……"]
+	quest.004D61425172324F.quest_subtitle: "12"
+	quest.004D61425172324F.title: "&8锁链盔甲"
+	quest.041ED280691BB05D.quest_desc: ["&9霜钢&r是&2&l深暗之园&r寒冷生态群系中一种常见的矿石。"]
+	quest.041ED280691BB05D.quest_subtitle: "18"
+	quest.041ED280691BB05D.title: "&9霜钢盔甲"
+	quest.04B31A600004F7CB.quest_desc: ["该任务由&6AllTheMods团队&r或&2社区贡献者&r编写，用于AllTheMods整合包。\\n\\n由于所有&6AllTheMods&r整合包均采用&e保留所有权利&r许可，未经明确许可，此任务不得在任何非&6AllTheMods团队&r发布的公开整合包中使用。\\n\\n此任务已被刻意隐藏，如果你能看到它，说明你正处于编辑模式。"]
+	quest.05B5E640F1B68A28.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}"]
+	quest.05B5E640F1B68A28.title: "&3傀儡钢&r"
+	quest.074EC1E636CD6605.quest_desc: ["&c下界合金盔甲&r是&l&2原版&r中最顶级的护甲。它拥有与&b钻石甲&r相同的护甲值，但具有更高的盔甲韧性。\\n\\n这可能是因为你需要&b钻石甲&r才能合成它！"]
+	quest.074EC1E636CD6605.quest_subtitle: "20"
+	quest.074EC1E636CD6605.title: "&c下界合金盔甲"
+	quest.0ABB2264CBB82470.quest_desc: ["&d&lArs&r盔甲中的铁质盔甲。"]
+	quest.0ABB2264CBB82470.quest_subtitle: "15"
+	quest.0ABB2264CBB82470.title: "&5奥术师套装"
+	quest.0E2515424291BB59.quest_desc: ["&d&lArs&r盔甲的&b钻石&r版本！"]
+	quest.0E2515424291BB59.quest_subtitle: "20"
+	quest.0E2515424291BB59.title: "&5战斗法师套装"
+	quest.0F1D6F4729CC38F3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_rib.png width:100 height:150 align:center}"]
+	quest.0F1D6F4729CC38F3.quest_subtitle: "下界要塞"
+	quest.0F1D6F4729CC38F3.title: "肋骨盔甲纹饰"
+	quest.10AA2B20D86747F7.quest_desc: ["&b核源铁&r与铁拥有相同的属性，但拥有铁甲所不具备的其他能力！\\n\\n查看物品描述以了解更多关于它们的功能！"]
+	quest.10AA2B20D86747F7.quest_subtitle: "15"
+	quest.10AA2B20D86747F7.title: "&b核源铁盔甲"
+	quest.1245126B4338C019.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vex.png width:100 height:150 align:center}"]
+	quest.1245126B4338C019.quest_subtitle: "林地府邸"
+	quest.1245126B4338C019.title: "恼鬼盔甲纹饰"
+	quest.13517D17E6BF015F.quest_desc: ["使用&b钻石盔甲&r和一些&a下级精华物品&r，我们可以合成&a下级精华盔甲&r！\\n\\n它们还可以通过匠魂改造进行升级！"]
+	quest.13517D17E6BF015F.quest_subtitle: "21"
+	quest.13517D17E6BF015F.title: "&a下级精华盔甲"
+	quest.1366B946928C873B.quest_desc: ["查看&6&l蜜蜂领域&r任务页面以了解更多信息！"]
+	quest.1366B946928C873B.quest_subtitle: "10"
+	quest.1366B946928C873B.title: "蜜蜂盔甲1"
+	quest.15978093237448FE.quest_desc: ["当我们可以将&c下界合金&r升级为&3监守者盔甲&r时，为什么还要升级到&6ATM&r或其他任何东西呢！\\n\\n不过，你需要一些监守者的掉落物才能制作它！"]
+	quest.15978093237448FE.quest_subtitle: "24"
+	quest.15978093237448FE.title: "&3监守者盔甲"
+	quest.16359196D49A6223.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_froststeel.png width:100 height:150 align:center}"]
+	quest.16359196D49A6223.title: "&b霜钢&r"
+	quest.17A68C4E9E9EA2B7.quest_desc: ["&e金甲&r的性能介于铁甲和&7皮甲&r之间。但其耐久度更接近&7皮甲&r。\\n\\n除了穿上一些&e金甲&r能让猪灵对你保持中立外，它没有太多用处。"]
+	quest.17A68C4E9E9EA2B7.quest_subtitle: "11"
+	quest.17A68C4E9E9EA2B7.title: "&e金质盔甲"
+	quest.19F58E291A543228.quest_desc: ["&d&lArs&r盔甲的&e金&r版本！"]
+	quest.19F58E291A543228.quest_subtitle: "11"
+	quest.19F58E291A543228.title: "&5术士套装"
+	quest.1A8440C0048EEB02.quest_desc: ["&c烈焰金&r与铁拥有相同的属性，但拥有铁甲所不具备的其他能力！\\n\\n查看物品描述以了解更多关于它们的功能！"]
+	quest.1A8440C0048EEB02.quest_subtitle: "15"
+	quest.1A8440C0048EEB02.title: "&c烈焰金盔甲"
+	quest.1C27C74722A19FC1.quest_desc: ["使用大量超级昂贵的&l&5通用机械&r物品，你可以将&5难得素盔甲&r升级为&aMekaSuit&r！\\n\\n现在它可以储存能量，受到伤害时不会损失生命值，而是消耗能量。\\n\\n你可以使用升级单元让它变得更加强大！"]
+	quest.1C27C74722A19FC1.quest_subtitle: "取决于你能供应的能量"
+	quest.1C27C74722A19FC1.title: "&aMekaSuit"
+	quest.1CC627D3FB348C89.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_shaper.png width:100 height:150 align:center}"]
+	quest.1CC627D3FB348C89.quest_subtitle: "古迹废墟"
+	quest.1CC627D3FB348C89.title: "塑造盔甲纹饰"
+	quest.1D27EE427ECFD6CE.quest_desc: ["&c中级精华&r的升级版本。"]
+	quest.1D27EE427ECFD6CE.quest_subtitle: "27"
+	quest.1D27EE427ECFD6CE.title: "&9高级精华盔甲"
+	quest.1D91E37BFD8CC911.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_emerald.png width:100 height:150 align:center}"]
+	quest.1D91E37BFD8CC911.title: "&2绿宝石&r"
+	quest.1E3E688B3B52C4D2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_raiser.png width:100 height:150 align:center}"]
+	quest.1E3E688B3B52C4D2.quest_subtitle: "古迹废墟"
+	quest.1E3E688B3B52C4D2.title: "牧民盔甲纹饰"
+	quest.1EABF2E7AE7B8F22.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_netherite.png width:100 height:150 align:center}"]
+	quest.1EABF2E7AE7B8F22.title: "&8下界合金&r"
+	quest.1EBF234015B26F15.quest_desc: ["由&a&l根源经典&r添加的基础盔甲，不过你需要通过举行仪式才能获得它！"]
+	quest.1EBF234015B26F15.quest_subtitle: "14"
+	quest.1EBF234015B26F15.title: "&2森林装备"
+	quest.1FC7ABEAB5018E79.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_redstone.png width:100 height:150 align:center}"]
+	quest.1FC7ABEAB5018E79.title: "&4红石&r"
+	quest.211FD55DEB635A98.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_copper.png width:100 height:150 align:center}"]
+	quest.211FD55DEB635A98.title: "&6铜&r"
+	quest.21B96130EA516B82.quest_desc: ["\"我是压缩铁侠！\" \\n\\n使用和升级它都需要压缩空气！"]
+	quest.21B96130EA516B82.quest_subtitle: "15"
+	quest.21B96130EA516B82.title: "&8气动盔甲"
+	quest.2296CE4418AE62D4.quest_desc: ["&6ATM盔甲&r，但对&d&l新生魔艺&r法术有增益效果！"]
+	quest.2296CE4418AE62D4.quest_subtitle: "24"
+	quest.2296CE4418AE62D4.title: "&6ATM奥术师装备"
+	quest.243008D4DCD789D0.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_wild.png width:100 height:150 align:center}"]
+	quest.243008D4DCD789D0.quest_subtitle: "丛林神庙"
+	quest.243008D4DCD789D0.title: "荒野盔甲纹饰"
+	quest.28408BFAA54E4FC6.quest_desc: ["&7皮革盔甲&r是你能获得的最差护甲套装。\\n\\n这主要是因为&c&lMojang&r希望你先获得它。\\n\\n不过我几乎从未获得过，因为我很难找到那么多&8牛&f，抱歉&c&lMojang&r！"]
+	quest.28408BFAA54E4FC6.quest_subtitle: "7"
+	quest.28408BFAA54E4FC6.title: "&7皮革盔甲"
+	quest.2A4FE9644F3B9DC1.quest_desc: ["&2初级精华&r的升级版本。"]
+	quest.2A4FE9644F3B9DC1.quest_subtitle: "26"
+	quest.2A4FE9644F3B9DC1.title: "&c中级精华盔甲"
+	quest.2C387BFA6EE6FDB7.quest_desc: ["&c御腐水晶&r由&2&l深暗之园&r中的&c腐衰凶兽&r掉落！"]
+	quest.2C387BFA6EE6FDB7.quest_subtitle: "20"
+	quest.2C387BFA6EE6FDB7.title: "&c御腐盔甲"
+	quest.2D93888313B03029.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_blue.png width:100 height:150 align:center}"]
+	quest.2D93888313B03029.title: "&9蓝色星辉水晶&r"
+	quest.2E0F82F7E1B74033.quest_desc: ["&d&l元素魔艺&r&2大地盔甲&r！"]
+	quest.2E0F82F7E1B74033.quest_subtitle: "15"
+	quest.2E0F82F7E1B74033.title: "&2厚土法师套装"
+	quest.2EAA6BE598C83F24.quest_desc: ["&d&l元素魔艺&r&3水之盔甲&r！"]
+	quest.2EAA6BE598C83F24.quest_subtitle: "15"
+	quest.2EAA6BE598C83F24.title: "&3碧水法师套装"
+	quest.2FA0F5B348322095.quest_desc: ["&7扼塞&r是&2&l深暗之园&r中的铁矿。它随处可见。"]
+	quest.2FA0F5B348322095.quest_subtitle: "14"
+	quest.2FA0F5B348322095.title: "&7扼塞盔甲"
+	quest.3260EDAD3A619479.quest_desc: ["&5天赐矿石&r可在&5&l永恒星光&r的流星雨期间找到。小的陨石在撞击时破碎，你需要等待大陨石！\\n\\n或者叫陨星？它们有什么区别？"]
+	quest.3260EDAD3A619479.quest_subtitle: "14"
+	quest.3260EDAD3A619479.title: "&5天赐盔甲"
+	quest.333682022948E2F3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thioquartz.png width:100 height:150 align:center}"]
+	quest.333682022948E2F3.title: "&2石英硫&r"
+	quest.338BD467EBE6EE1F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_sentry.png width:100 height:150 align:center}"]
+	quest.338BD467EBE6EE1F.quest_subtitle: "掠夺者前哨站"
+	quest.338BD467EBE6EE1F.title: "哨兵盔甲纹饰"
+	quest.3416DB9F58D8AA2C.quest_desc: ["&3海王锭&r是通过钓鱼获得的海王恩惠奖励！\\n它还能提供水下活动的增益效果。"]
+	quest.3416DB9F58D8AA2C.quest_subtitle: "28"
+	quest.3416DB9F58D8AA2C.title: "&3海王盔甲"
+	quest.34D14B807A2DAC0F.quest_subtitle: "你能提供的尽可能多的能量"
+	quest.34D14B807A2DAC0F.title: "&5量子盔甲&r (&l&bAE2&r)"
+	quest.351159C55159C316.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_spire.png width:100 height:150 align:center}"]
+	quest.351159C55159C316.quest_subtitle: "末地城和末地船"
+	quest.351159C55159C316.title: "尖塔盔甲纹饰"
+	quest.3512F47DADC07EAE.quest_desc: ["&5难得素盔甲&r，但增强了&d&l新生魔艺&r法术的效果！"]
+	quest.3512F47DADC07EAE.quest_subtitle: "40"
+	quest.3512F47DADC07EAE.title: "&5难得素秘术师装备"
+	quest.361C9D90617E6D38.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_keeper.png width:100 height:150 align:center}"]
+	quest.361C9D90617E6D38.quest_subtitle: "与守门人交易获得"
+	quest.361C9D90617E6D38.title: "守御盔甲纹饰"
+	quest.3685B52446DEC809.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_gold.png width:100 height:150 align:center}"]
+	quest.3685B52446DEC809.title: "&e金&r"
+	quest.39796D8EE440F318.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_dune.png width:100 height:150 align:center}"]
+	quest.39796D8EE440F318.quest_subtitle: "沙漠神殿"
+	quest.39796D8EE440F318.title: "沙丘盔甲纹饰"
+	quest.3A2047CC0F59C6CC.quest_desc: ["&a&l根源经典&r的后期盔甲"]
+	quest.3A2047CC0F59C6CC.quest_subtitle: "17"
+	quest.3A2047CC0F59C6CC.title: "&a荒野装备"
+	quest.3AA836E8EDB52097.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_lapis.png width:100 height:150 align:center}"]
+	quest.3AA836E8EDB52097.title: "&9青金石&r"
+	quest.3ABE7074E500494D.quest_desc: ["&7钢&r用于&5&l通用机械&r中的大多数机器……加上盔甲也不错！"]
+	quest.3ABE7074E500494D.quest_subtitle: "20"
+	quest.3ABE7074E500494D.title: "&7钢甲"
+	quest.3AE0198177A8E91B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_coast.png width:100 height:150 align:center}"]
+	quest.3AE0198177A8E91B.quest_subtitle: "沉船和埋藏的宝藏"
+	quest.3AE0198177A8E91B.title: "海岸盔甲纹饰"
+	quest.3B4511E7DC788AB3.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_tenacious.png width:100 height:150 align:center}"]
+	quest.3B4511E7DC788AB3.title: "&d坚韧花瓣&r"
+	quest.3EA3A6414AB8A39C.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_flow.png width:100 height:150 align:center}"]
+	quest.3EA3A6414AB8A39C.quest_subtitle: "试炼密室"
+	quest.3EA3A6414AB8A39C.title: "涡流盔甲纹饰"
+	quest.3F0CD2C03CD7D730.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_forge.png width:100 height:150 align:center}"]
+	quest.3F0CD2C03CD7D730.quest_subtitle: "由星光傀儡掉落"
+	quest.3F0CD2C03CD7D730.title: "锻造盔甲纹饰"
+	quest.3FCEF8FF45E51608.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_quartz.png width:100 height:150 align:center}"]
+	quest.42AAEC41F2BC2474.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_glacite.png width:100 height:150 align:center}"]
+	quest.42AAEC41F2BC2474.title: "&b永冻石&r"
+	quest.452DC5EB02D592B8.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_amethyst.png width:100 height:150 align:center}"]
+	quest.452DC5EB02D592B8.title: "&5紫水晶&r"
+	quest.459BB5B4CDB21773.quest_desc: ["&7深银&r可在&5&l永恒星光&r维度的地下各处找到。"]
+	quest.459BB5B4CDB21773.quest_subtitle: "15"
+	quest.459BB5B4CDB21773.title: "&9深银盔甲"
+	quest.4664AFCFB5618CEB.quest_desc: ["&b永冻石&r位于&5&l永恒星光&r的寒冷生物群系中！"]
+	quest.4664AFCFB5618CEB.quest_subtitle: "17"
+	quest.4664AFCFB5618CEB.title: "&b永冻石盔甲"
+	quest.497D222F74A52DF5.quest_desc: ["这才是我喜欢的！铁非常常见，其盔甲在游戏初期非常出色。\\n\\n僵尸和骷髅几乎没有机会！"]
+	quest.497D222F74A52DF5.quest_subtitle: "15"
+	quest.498483750C18FCD6.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_regalium.png width:100 height:150 align:center}"]
+	quest.498483750C18FCD6.title: "&e贵豪&r"
+	quest.4A9CB8778D37049F.quest_desc: ["你需要使用觉醒仪式来获取物品，以便在&4终极精华盔甲&r上进行又一次觉醒仪式。\\n\\n我认为这是值得的；这是你能从&2&l神秘农业&r中获得的最好的盔甲！"]
+	quest.4A9CB8778D37049F.quest_subtitle: "36"
+	quest.4A9CB8778D37049F.title: "&6觉醒终极精华盔甲"
+	quest.4B9C54DA5CB6D5C9.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_host.png width:100 height:150 align:center}"]
+	quest.4B9C54DA5CB6D5C9.quest_subtitle: "遗迹"
+	quest.4B9C54DA5CB6D5C9.title: "雇主盔甲纹饰"
+	quest.4DF683461225690F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_iron.png width:100 height:150 align:center}"]
+	quest.4DF683461225690F.title: "&7铁&r"
+	quest.50429F57480F44DA.quest_desc: ["&c热泉石&r生成于热泉中，在&5&l永恒星光&r中较为罕见！"]
+	quest.50429F57480F44DA.quest_subtitle: "16"
+	quest.50429F57480F44DA.title: "&c热泉石盔甲"
+	quest.5064D5F99E2C69C8.quest_desc: ["&9高级精华&r的升级版。"]
+	quest.5064D5F99E2C69C8.quest_subtitle: "29"
+	quest.5064D5F99E2C69C8.title: "&4终极精华盔甲"
+	quest.50B127137AA9E660.quest_desc: ["终于&6铜&r有了真正的用途！"]
+	quest.50B127137AA9E660.quest_subtitle: "13"
+	quest.50B127137AA9E660.title: "&6铜盔甲"
+	quest.52AFABA08674B6A8.quest_desc: ["&3振金盔甲&r，但增强了&d&l新生魔艺&r法术！"]
+	quest.52AFABA08674B6A8.quest_subtitle: "32"
+	quest.52AFABA08674B6A8.title: "&3振金秘术师装备"
+	quest.52B61FB01D7C12A4.quest_desc: ["&a下级精华&r的升级版。"]
+	quest.52B61FB01D7C12A4.quest_subtitle: "23"
+	quest.52B61FB01D7C12A4.title: "&2初级精华盔甲"
+	quest.5865951E4F81C91F.quest_desc: ["&7锇&r + &6荧石&r = &e强化荧石&r！"]
+	quest.5865951E4F81C91F.quest_subtitle: "20"
+	quest.5865951E4F81C91F.title: "&e强化荧石盔甲"
+	quest.5A9C646718EE92C2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_vibranium.png width:100 height:150 align:center}"]
+	quest.5A9C646718EE92C2.title: "&3振金&r"
+	quest.5C83D5CDD980FD9A.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_snout.png width:100 height:150 align:center}"]
+	quest.5C83D5CDD980FD9A.quest_subtitle: "堡垒遗迹"
+	quest.5C83D5CDD980FD9A.title: "猪鼻盔甲纹饰"
+	quest.5DDC15AAFD2CAF47.quest_desc: ["&b钻石盔甲&r是&l&2原版&r系列中的下一个，通常也是我们开始附魔的地方！\\n\\n我推荐保护及其各种变种，对于模组物品我们不必太挑剔！"]
+	quest.5DDC15AAFD2CAF47.quest_subtitle: "20"
+	quest.5DDC15AAFD2CAF47.title: "&b钻石盔甲"
+	quest.5E6D7C1D7957DD4D.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_forgotten.png width:100 height:150 align:center}"]
+	quest.5E6D7C1D7957DD4D.title: "&a遗灵&r"
+	quest.5E7CCDE9229A646A.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_allthemodium.png width:100 height:150 align:center}"]
+	quest.5E7CCDE9229A646A.title: "&6ATM&r"
+	quest.62161BDE9AAAA4BF.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_wayfinder.png width:100 height:150 align:center}"]
+	quest.62161BDE9AAAA4BF.quest_subtitle: "遗迹"
+	quest.62161BDE9AAAA4BF.title: "向导盔甲纹饰"
+	quest.65A529C8238E89F1.quest_desc: ["感谢&5&l通用机械&r，我们现在可以用&9青金石&r制作盔甲了！\\n\\n不过说实话，它有点烂……"]
+	quest.65A529C8238E89F1.quest_subtitle: "9"
+	quest.65A529C8238E89F1.title: "&9青金石盔甲"
+	quest.65E733AACBE62EDB.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_ward.png width:100 height:150 align:center}"]
+	quest.65E733AACBE62EDB.quest_subtitle: "远古城市"
+	quest.65E733AACBE62EDB.title: "监守盔甲纹饰"
+	quest.66C21934DAFFAC7F.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_tide.png width:100 height:150 align:center}"]
+	quest.66C21934DAFFAC7F.quest_subtitle: "由远古守卫者掉落"
+	quest.66C21934DAFFAC7F.title: "潮汐盔甲纹饰"
+	quest.672AC964851832EB.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_swamp.png width:100 height:150 align:center}"]
+	quest.672AC964851832EB.title: "&7深银&r"
+	quest.68DABFFB6B3E1A57.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_eye.png width:100 height:150 align:center}"]
+	quest.68DABFFB6B3E1A57.quest_subtitle: "要塞"
+	quest.68DABFFB6B3E1A57.title: "眼眸盔甲纹饰"
+	quest.690DB8BEF80617E5.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_utherium.png width:100 height:150 align:center}"]
+	quest.690DB8BEF80617E5.title: "&c御腐&r"
+	quest.6A21228B0511FF85.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_thermal.png width:100 height:150 align:center}"]
+	quest.6A21228B0511FF85.title: "&6热泉石&r"
+	quest.6B671CB07D046BEC.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_diamond.png width:100 height:150 align:center}"]
+	quest.6B671CB07D046BEC.title: "&b钻石&r"
+	quest.6C5F9D0D447EFB9C.quest_desc: ["你以为我们只有&l&2原版&r吗？\\n\\n&6ATM盔甲&r拥有更高的护甲值和盔甲韧性，以及对魔法的额外抗性和其他增益，你可以在&6&lATM&r任务页面阅读详情！\\n\\n顺便说一句，你需要&c下界合金&r来制作它。"]
+	quest.6C5F9D0D447EFB9C.quest_subtitle: "24"
+	quest.6C5F9D0D447EFB9C.title: "&6ATM盔甲"
+	quest.6ED2CDD01659FD10.quest_desc: ["这套盔甲的护甲值与铁相同，但在韧性和击退抗性方面更优。"]
+	quest.6ED2CDD01659FD10.quest_subtitle: "15"
+	quest.6ED2CDD01659FD10.title: "&7压缩铁盔甲"
+	quest.6F76DA3BBAE8337B.quest_desc: ["我们能从&6&lATM&r获得的最好盔甲，&5难得素&r！\\n\\n现在拥有100%击退抗性和全方位的更高属性！\\n\\n并且需要&3振金盔甲&r来制作。"]
+	quest.6F76DA3BBAE8337B.quest_subtitle: "40"
+	quest.6F76DA3BBAE8337B.title: "&5难得素盔甲"
+	quest.71C552678A0F649F.quest_desc: ["&7锇&r生成在深板岩附近，只需要铁镐即可开采，但它的属性比&c下界合金&r更好！"]
+	quest.71C552678A0F649F.quest_subtitle: "21"
+	quest.71C552678A0F649F.title: "&7锇盔甲"
+	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
+	quest.7279700A93E8630B.title: "&5难得素&r"
+	quest.729DCB919A92B735.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_bolt.png width:100 height:150 align:center}"]
+	quest.729DCB919A92B735.quest_subtitle: "试炼密室"
+	quest.729DCB919A92B735.title: "镶铆盔甲纹饰"
+	quest.72D578686C47B154.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_red.png width:100 height:150 align:center}"]
+	quest.72D578686C47B154.title: "&5红色星辉水晶&r"
+	quest.72DDA413D73E3235.quest_desc: ["作为&6&lATM&r盔甲系列的下一个等级，&3振金&r盔甲在所有属性上都有大幅提升！\\n\\n你需要先拥有&6ATM盔甲&r才能制作它。"]
+	quest.72DDA413D73E3235.quest_subtitle: "32"
+	quest.72DDA413D73E3235.title: "&3振金盔甲"
+	quest.756628F4B7F79446.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_aramber.png width:100 height:150 align:center}"]
+	quest.756628F4B7F79446.title: "&c绯夜脂&r"
+	quest.76CDF08465700AA2.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_silent.png width:100 height:150 align:center}"]
+	quest.76CDF08465700AA2.quest_subtitle: "远古城市"
+	quest.76CDF08465700AA2.title: "幽静盔甲纹饰"
+	quest.788A7A2F1F438B64.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_cloggrum.png width:100 height:150 align:center}"]
+	quest.788A7A2F1F438B64.title: "&7扼塞&r"
+	quest.79D3055DE0EEA6B0.quest_desc: ["&d&l元素魔艺&r的&c火元素盔甲&r！"]
+	quest.79D3055DE0EEA6B0.quest_subtitle: "15"
+	quest.79D3055DE0EEA6B0.title: "&c炽焰术士套装"
+	quest.7ADE27F9398D97F1.quest_desc: ["这套盔甲没什么不同，你为什么要检查它？"]
+	quest.7ADE27F9398D97F1.quest_subtitle: "10"
+	quest.7ADE27F9398D97F1.title: "蜜蜂盔甲2"
+	quest.7B500E0577BDFF8F.quest_desc: ["&6青铜&r是&6铜&r和锡的合金。\\n\\n制作这种合金的方法有很多种，我不会告诉你正确的方法。"]
+	quest.7B500E0577BDFF8F.quest_subtitle: "18"
+	quest.7B500E0577BDFF8F.title: "&6青铜盔甲"
+	quest.7B76EC62E3F7E12C.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_aethersent.png width:100 height:150 align:center}"]
+	quest.7B76EC62E3F7E12C.title: "&5天赐质&r"
+	quest.7C1D407CF67786F6.quest_desc: ["&d&l元素魔艺&r的气元素盔甲！"]
+	quest.7C1D407CF67786F6.quest_subtitle: "15"
+	quest.7C1D407CF67786F6.title: "&f气岚法师套装"
+	quest.7F11ABFB2E21B7E4.quest_desc: ["盔甲是&l&2Minecraft&r中非常重要的一部分，它能保护你免受伤害。\\n\\n不同的盔甲部件提供不同的护甲值。这决定了盔甲的效果，越多越好！\\n\\n大多数盔甲都可以通过盔甲纹饰来改变外观进行装饰，使用一件带有盔甲纹饰的盔甲和一个用于染色的物品即可改变外观！"]
+	quest.7F11ABFB2E21B7E4.title: "&l&b基础盔甲&r"
+	quest.7FABB77A60E7962C.quest_desc: ["通过将黑曜石与&b钻石&r融合，我们可以得到强化黑曜石粉！\\n\\n然后，我们可以将&7锇&r压缩进去，使其成为锭的形式。\\n\\n之后，我们可以将这些锭制成盔甲，其属性甚至比&6ATM盔甲&r更好！"]
+	quest.7FABB77A60E7962C.quest_subtitle: "31"
+	quest.7FABB77A60E7962C.title: "&5强化黑曜石盔甲"
+	task.4BDF268861CA744F.title: "保留所有权利"
+	task.57895147416291FE.title: "保留所有权利"
+}

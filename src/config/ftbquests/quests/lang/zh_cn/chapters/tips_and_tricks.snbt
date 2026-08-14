@@ -1,0 +1,50 @@
+{
+	quest.0152938EE5651409.quest_desc: ["此任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods整合包创作。\\n\\n由于所有&6AllTheMods&r整合包均受&e保留所有权利&r许可证保护，因此此任务未经&6AllTheMods团队&r明确许可，不得用于任何非AllTheMods团队发布的公共整合包。\\n\\n此任务默认隐藏，如果你看到此任务，说明你正处于编辑模式。"]
+	quest.0790D3BB481162A6.quest_desc: [
+		"需要一个便携式工作台？再来一个便携式锻造台如何？"
+		""
+		"&l&8Crafting On A Stick&r为一些你最喜欢的合成站添加了便携版本！这是早期游戏必备物品。"
+	]
+	quest.0790D3BB481162A6.quest_subtitle: "减少放置，增加合成"
+	quest.0790D3BB481162A6.title: "便携式合成工具！"
+	quest.0C856BBB1679A7DD.quest_desc: ["在此页面上，你会发现一些有用的物品和信息，帮助你踏上旅程！"]
+	quest.0C856BBB1679A7DD.quest_subtitle: "以及其他有用的物品！"
+	quest.0E9CE6241CDBC420.quest_desc: ["&9远程泵&r非常特别，它拥有自己的模组！\\n\\n&9泵&r会收集其下方的&9水源&r并将其替换为石头。\\n它确实需要能量才能运行，但值得，它的范围非常大！\\n\\n&9水&r被收集后需要通过管道排出。"]
+	quest.0E9CE6241CDBC420.title: "&l&9远程泵"
+	quest.0F8F37D7E12078F5.quest_subtitle: "完成所有提示！"
+	quest.219AA017149C36E2.quest_desc: ["陷阱商人地毯会立即杀死任何在其附近生成的流浪商人！\\n\\n这些可能是整个模组包中最好的物品。"]
+	quest.219AA017149C36E2.quest_subtitle: "再也不用担心烦人的商人！"
+	quest.28E60192912BEBAD.quest_desc: ["在&l&2原版&r中，村民可能非常令人沮丧。轮换交易并不容易，职业有时也很难处理。\\n\\n&l&2简易村民&r是一个让所有这些都更容易处理的模组！首先，你可以通过潜行右键点击来拾起一个村民。然后可以轻松地将他们放置在世界中，或放置在&l&2简易村民&r模组提供的特定方块中！\\n\\n你可以在JEI中搜索 &d@EasyVillagers&r来查看模组提供的方块！"]
+	quest.28E60192912BEBAD.quest_subtitle: "让村民变得简单"
+	quest.28E60192912BEBAD.title: "&l&2简易村民"
+	quest.32ECD93A8F2FAB8F.quest_desc: ["&6喷气背包&r是一种广受欢迎的移动方式。\\n\\n要开始制作它们，你需要从&6木制喷气背包&r开始！它可以一直升级到&5创造模式喷气背包&r。\\n\\n虽然它们有多个版本，但它们的工作方式都相同。它们都可以放置在你的胸甲槽、背部饰品槽或饰品槽中。\\n\\n它们都需要FE来运行，你可以使用任何物品充电器来为它们充电！它们会使用FE来飞行，是的，如果你的电量耗尽，你会掉下来。\\n要飞行，你需要打开引擎 (V)，然后按住空格键飞行，松开空格键则会下降。\\n\\n对于不喜欢掉下来的玩家，你可以开启悬停（默认未绑定），开启后你将保持在同一高度飞行；通过 (空格) 上升，通过 (Shift) 下降。\\n\\n要调整飞行速度，可以更改油门。默认情况下，减少油门是 (,)，增加油门是 (.)！"]
+	quest.32ECD93A8F2FAB8F.title: "&l&6铁喷气背包"
+	quest.3B4BF42C55C8BBBF.title: "&l&9简易&4磁铁"
+	quest.47043AF7D1FABC43.title: "&l&b祛魔方法"
+	quest.5EE945A1185E8336.quest_desc: ["&l&7功能性存储&r添加了&7抽屉&r，可以存放多个物品堆叠。这些抽屉可以升级以存放更多堆叠！\\n\\n这对于你经常获得的物品，比如圆石或种子非常有用！"]
+	quest.5EE945A1185E8336.quest_subtitle: "存储抽屉？"
+	quest.5EE945A1185E8336.title: "&l&7功能性存储&r"
+	quest.637981B64BBE0D92.quest_desc: ["&a充能站&r是一个非常有用的早期游戏方块。\\n\\n它显然用于给物品充能。可以通过管道输入能量或使用熔炉燃料来生成FE形式的能量。\\n\\n然后，你可以将任何需要充能的物品放入最右边的插槽中。"]
+	quest.637981B64BBE0D92.title: "&l&a充能装置"
+	quest.6E17595887A051C2.title: "更多职业"
+	quest.70B6C9409AE69284.quest_desc: ["自然罗盘会列出你可以搜索的生物群系。\\n\\n选择一个生物群系，然后点击“搜索”。你会在左上角看到一些信息，罗盘会指向该生物群系的方向。\\n\\n探险家罗盘的工作方式相同，但它是用于结构，而不是生物群系。"]
+	quest.70B6C9409AE69284.quest_subtitle: "帮助寻找生物群系/结构"
+	quest.70B6C9409AE69284.title: "搜索用指南针"
+	quest.722978AC0C1B2649.quest_desc: ["轻松自动化无限&9水&r。\\n\\n需要更多&9水&r？再制作一些！"]
+	quest.722978AC0C1B2649.quest_subtitle: "可用作反应堆冷却剂"
+	quest.722978AC0C1B2649.title: "无限&9水&r"
+	quest.7A514E27E1A7FE32.title: "&l&c建筑工具&r"
+	quest.7EC8814940C4C3D7.quest_desc: ["使用此物品缩小自己。对于自动化工作非常有用，而且整体上也很有趣。"]
+	quest.7EC8814940C4C3D7.quest_subtitle: "亲爱的，我把自己缩小了"
+	quest.7EC8814940C4C3D7.title: "个人缩放装置"
+	task.0D5203048B6E068C.title: "陷阱商人地毯"
+	task.279AB1DAAFD60C52.title: "祛魔方法"
+	task.3B1F1A7CAC8B7BC7.title: "抽屉"
+	task.3DC008A578A93CCF.title: "提示和技巧！"
+	task.42DA8E971B27ACED.title: "提示完成"
+	task.47A1F59A538E3C4B.title: "建筑工具"
+	task.4AEB792F6A939B3A.title: "保留所有权利"
+	task.58E3131A3EA2661E.title: "指南针"
+	task.6038387EA35404CD.title: "便携式工具"
+	task.6A965CD027BF762F.title: "保留所有权利"
+}

@@ -1,0 +1,84 @@
+{
+	quest.002D65E4D7E8F62B.title: "2级催化剂"
+	quest.036D5767E07005BC.quest_desc: ["&b分液池&r是我们用来提取&7液态金属&r的工具。是的，不幸的是它们太热了，我们无法用手或桶来提取。\\n\\n将&c&l熔铸炉&r&7阀门&r连接到&b分液池&r上，这样在右键点击阀门时就可以排出&7液态金属&r。\\n\\n在查看&b分液池&r时，你也可以在&c&l熔铸炉&r中查看液态金属的量！"]
+	quest.036D5767E07005BC.title: "&c&l熔铸炉&r&b分液池"
+	quest.047F3F99035CE623.quest_subtitle: "矿井，是我的白月光"
+	quest.061A51A0EC13CA0F.quest_desc: ["现在我们有了&a控制器&r、&b分液池&r和&4储罐&r，我们还需要几个方块。\\n\\n首先是&6液体加热线圈&r。这些将构成&c&l熔铸炉&r的底面，并且是加热&c&l熔铸炉&r所必需的。\\n\\n最后是&c&l熔铸炉&r窗户或&c耐火砖&r。这些是我们用来构建其余结构的材料！可以说是字面意义上的建筑材料。\\n\\n&c&l熔铸炉&r不需要构建框架，所以每个角落都可以留空；但它必须有4面墙和一个底面才能完成。如果缺少方块，&a控制器&r会告诉你。\\n\\n&c&l熔铸炉&r的内部可以小到1x1，只要它有一个&a控制器&r、&6液体加热线圈&r和其他墙填满即可！\\n\\n不过我不建议建造这么小的熔铸炉，因为熔铸炉越大，内部空间就越大！\\n\\n当你看到&c&l熔铸炉&r建造完成时，&a控制器&r会像熔炉一样发光，&6液体加热线圈&r会变成&6橙色&r。"]
+	quest.061A51A0EC13CA0F.title: "建造&c&l熔铸炉&r"
+	quest.083ABBA1C45FF960.quest_subtitle: "只是一个割草机"
+	quest.0947B4ED95B0267E.quest_desc: ["为物品和工具提供涂层。\\n\\n下界合金是很好的涂层材料。"]
+	quest.0947B4ED95B0267E.quest_subtitle: "才不是专门为下界合金准备的呢（正经脸）"
+	quest.0D26E5EF6CFCFDBF.quest_desc: ["比匕首有更高的耐久，但伤害和速度较低。"]
+	quest.0D26E5EF6CFCFDBF.quest_subtitle: "刺击"
+	quest.0DF4B01CC5B49E4E.quest_desc: ["使用这个铸模，你可以制作基础的剑！可靠的伤害和可靠的速度。"]
+	quest.0DF4B01CC5B49E4E.quest_subtitle: "还是老伙计靠谱"
+	quest.0EF9F10A2178451F.quest_desc: [
+		"&c&l熔铸炉&r的所有部件（排液孔、浇铸台和浇铸盆除外）都可以染成任意&z颜色&r。&z颜色&r在&c&l熔铸炉&r里还能混用，喜欢的话可以造一座五彩斑斓的&c&l熔铸炉&r。"
+	]
+	quest.0EF9F10A2178451F.title: "&z可染色的&c&l熔铸炉&r&z部件"
+	quest.0FEAD3CA2CC4A8B1.title: "3级星光充能仪催化剂"
+	quest.11B0B93D725ABE43.quest_desc: ["寂静装备的装备可以使用&9修理包&r进行修理。\\n\\n要修理一个物品，将修理包放入合成格中，然后将修理工具所需的材料与它一起放入。这将“填充”修理包。\\n\\n要修理工具，将填充好的修理包与要修理的工具在合成格中组合。"]
+	quest.11B0B93D725ABE43.quest_subtitle: "不需要铁砧"
+	quest.158B24939A269D83.quest_desc: ["尖端升级用于提高工具的挖掘等级。\\n\\n例如：如果你有一个铁镐，并且有1个钻石，你可以制作一个钻石尖端升级，并将其放在你的镐上。这将允许它挖掘黑曜石，并且还会给它一个属性提升。"]
+	quest.158B24939A269D83.quest_subtitle: "当你找不到3个钻石时"
+	quest.2156C00E30424844.quest_desc: ["&4储罐&r用于向我们的&c&l熔铸炉&r中添加液体。\\n\\n主要是燃料。\\n\\n主要是&c熔岩&r！\\n\\n这似乎是真正能为&c&l熔铸炉&r提供燃料的唯一方法。"]
+	quest.2156C00E30424844.title: "&l&c熔铸炉&r&4储罐"
+	quest.222D08F43B995FED.quest_subtitle: "试着划伤这个"
+	quest.22A0A9C81A5C85A1.quest_subtitle: "把一切固定在一起"
+	quest.262036FE8E87F50A.quest_subtitle: "3x3挖掘"
+	quest.26F9DB31A835B69C.quest_desc: ["&n熔铸炉&r: &a检查&r \\n&n熔铸炉中的液态金属&r: &a检查&r \\n\\n现在我们如何将它们取出？\\n\\n还记得我们之前的朋友吗？&c&l熔铸炉&r&b分液池&r？我们需要让他与我们的新朋友&c&l熔铸炉&r&7阀门&r熟悉。\\n\\n将&c&l熔铸炉&r&7阀门&r放在&b分液池&r上，现在我们可以在其下方放置方块以将&7液态金属&r排出...\\n\\n像&8铸造盆&r这样的方块，它可以将大约900mB的&7液态金属&r转化为完整的&7金属块&r。\\n\\n或者&8铸件台&r，这是我们用来制作..."]
+	quest.26F9DB31A835B69C.title: "铸造物品"
+	quest.29131C3532610ADF.quest_desc: ["这是星光充能仪的2级柱顶。"]
+	quest.29131C3532610ADF.title: "2级星光充能仪柱顶"
+	quest.2BF119DD5D977409.title: "2级星光充能仪催化剂"
+	quest.2EB96FF06627FD9A.quest_desc: ["回收器允许你将装备分解成它们的组成部分。\\n\\n例如：如果你放入一些钻石靴子，你会得到4个钻石。"]
+	quest.2EB96FF06627FD9A.quest_subtitle: "分解（一些）物品！"
+	quest.2EB96FF06627FD9A.title: "回收器"
+	quest.3722B43822F80470.quest_desc: ["比剑造成更多伤害，但速度更慢。"]
+	quest.3722B43822F80470.quest_subtitle: "释放你内心的武士"
+	quest.3930404D5C8B44EB.quest_desc: ["用于创建自定义合金。\\n\\n这也是获得提尔钢的唯一方法！"]
+	quest.3930404D5C8B44EB.quest_subtitle: "组合材料"
+	quest.39B85DB54B1037FE.quest_desc: ["比剑稍快，但伤害较低。"]
+	quest.39B85DB54B1037FE.quest_subtitle: "膀大剑圆"
+	quest.3AC03D1FA5C341A7.quest_desc: ["再结晶器允许你将不同的晶体组合在一起，以制作新的晶体，用于制作武器、工具和盔甲。"]
+	quest.3B560B2ECE331CAF.quest_desc: ["这是星光充能仪的3级柱顶。"]
+	quest.3B560B2ECE331CAF.title: "3级星光充能仪柱顶"
+	quest.3D2C6FF462B17205.quest_desc: ["伤害较低，攻击速度非常高。减少目标的无敌时间。"]
+	quest.3D2C6FF462B17205.quest_subtitle: "刺刺刺"
+	quest.3F39BEB788175CEF.quest_subtitle: "3x3挖掘！"
+	quest.405DCD3E36232EEA.quest_desc: ["比剑造成更少的伤害，但攻击距离更长。"]
+	quest.405DCD3E36232EEA.quest_subtitle: "血脉觉醒，这是斯巴达！"
+	quest.427516AA3E8C9442.quest_subtitle: "多功能锄头"
+	quest.45899579D9B92D91.quest_desc: ["&a控制器&r是&c&l熔铸炉&r的核心。\\n\\n每个&c&l熔铸炉&r至少需要1个控制器。\\n\\n我们可以使用&c&l熔铸炉&r来查看&c&l熔铸炉&r的GUI。在这里我们可以看到&c&l熔铸炉&r中的液体量。\\n\\n我们也可以使用它来将物品放入和取出&c&l熔铸炉&r。"]
+	quest.45899579D9B92D91.title: "&c&l熔铸炉&r&a控制器"
+	quest.462C1F75A2FB9F02.quest_subtitle: "威利在哪？"
+	quest.48D358470A019E7A.title: "1级星光充能仪催化剂"
+	quest.52CDB46F6CBF007B.quest_subtitle: "挖得开心吗？"
+	quest.63CAD77A4488F2CE.quest_subtitle: "镐 + 斧 + 铲"
+	quest.657B3116A6419420.quest_subtitle: "你自己的手柄！"
+	quest.67216EC5274F08B9.quest_subtitle: "剪牧人专用"
+	quest.69383DA579901E7E.quest_subtitle: "让我\"斧\"你个问题"
+	quest.6A393C7A24899E3E.quest_desc: ["将锭放入分级机中，并使用分级催化剂，可以给材料一个等级。\\n\\n等级越高，材料的属性就越好。\\n\\n最好的等级是 \"MAX\"。"]
+	quest.6A393C7A24899E3E.quest_subtitle: "材料测试器"
+	quest.6B78378BC8036227.title: "1级催化剂"
+	quest.6BBC440BD0AD0E93.quest_desc: ["有些人喜欢&9&l寂静装备&r，而有些人喜欢&7&l匠魂&r。\\n\\n我们决定不在这两者之间做出选择，而是通过使用&9&l寂静装备&r和&c&lProductive Metalworks&r来结合两者的优势！\\n\\n&c&lProductive Metalworks&r将改变我们如何获得&9&l寂静装备&r。我们不再使用&9蓝图&r，而是现在需要&8铸模&r和一个&c&l熔铸炉&r。\\n\\n要开始制作&c&l熔铸炉&r，从&c耐火黏土&r开始。"]
+	quest.6BBC440BD0AD0E93.title: "&9&l寂静装备&r和&c&lProductive Metalworks"
+	quest.6BFD7854F078BF16.quest_subtitle: "麻烦你，抓紧点"
+	quest.711826BBCA832EE2.quest_desc: ["所有的&8铸模&r都是平等的。从另一个意义上说，它们的制作方式是一样的。\\n\\n通过将&8钢&r倒入一个物品中，放在&8铸件台&r上！\\n\\n如何制作&8钢&r你问？只需熔化任何&8钢&r物品或锭。或者你可以将9份&7铁&r与10份&0煤&r合金。\\n\\n合金化将在&c&l熔铸炉&r被&6加热&r，并且在其中含有正确数量的不同&7液态金属&r时发生。这两种&7液态金属&r将合并成一种&7液态金属&r！"]
+	quest.711826BBCA832EE2.title: "&8铸模"
+	quest.766C80E5D7B7A916.quest_subtitle: "选择一个！"
+	quest.769D5DE66D13B256.quest_desc: ["这个任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包都受&eAll Rights Reserved&r许可，此任务不允许在没有&6AllTheMods团队&r明确许可的情况下用于任何公共包。\\n\\n此任务是故意隐藏的，如果你看到这个，你正在编辑模式。"]
+	quest.7C3D763CF22D167A.quest_desc: ["星光充能仪可以为材料\"附魔\"上\"星光充能\"效果。\\n\\n你需要建造一个以星光充能仪为中心、且能仰望夜空的结构，它只在夜晚才能获得星光能量。\\n\\n充能仪必须放置在7x7结构的中心，每个角落都需要一根柱子，每根柱子顶端必须安装一个\"星光充能仪柱顶\"。\\n\\n此外，每种材料都需要各自的充能催化剂。"]
+	quest.7C3D763CF22D167A.quest_subtitle: "\"附魔\" 材料"
+	quest.7C3D763CF22D167A.title: "&d星光充能仪"
+	quest.7D690A7D0FF6E328.title: "3级催化剂"
+	quest.7E13007340A818C5.quest_desc: ["这是星光充能仪的1级柱顶。"]
+	quest.7E13007340A818C5.title: "1级星光充能仪柱顶"
+	task.2AE89914A34BF3AD.title: "耐火砖块或熔铸炉视窗"
+	task.3B23E744D3B72AE8.title: "耐火砖块或熔铸炉视窗"
+	task.511ECEA2E9BD1F71.title: "任意熔铸炉排液孔"
+	task.51297F6E0D9BB58C.title: "任意熔铸炉储罐"
+	task.55E0635973A828B0.title: "保留所有权利"
+	task.6D9DBD885FE4C94C.title: "保留所有权利"
+	task.76E296A2AD3EFE92.title: "任意熔铸炉控制器"
+}

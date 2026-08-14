@@ -1,0 +1,78 @@
+{
+	image.0140A7A8D9DAE6AC.title: "苍炎刃鬼"
+	image.2219BC2DBEE000D4.title: "沼跃鱼"
+	image.2BF5E30B49518210.title: "水跃鱼"
+	image.4A269306A4A6F283.title: "呆壳兽"
+	image.4C264DE10ECC680E.title: "巨沼怪"
+	image.4FF1BDDB4BC803E5.title: "月月熊"
+	image.7447F2A5070BAA18.title: "霜奶仙"
+	quest.02F23D223E792587.quest_desc: ["到这儿你该懂流程了！\\n\\n打！\\n\\n赢！\\n\\n那位&4训练家&r！"]
+	quest.02F23D223E792587.title: "打赢那位&4训练家&r！"
+	quest.03E605A91496B257.quest_desc: ["&7泥炭块&r其实合成起来很便宜！\\n\\n等一个满月，把它给圈圈熊用，就能&b进化&r成&6月月&r熊。\\n\\n我寻思这名字大概就是「熊月亮」的意思吧！"]
+	quest.03E605A91496B257.title: "让圈圈熊&b进化"
+	quest.03E8FB54B87524E1.quest_desc: ["&9月之石&r能让&d皮皮&r&b进化&r成&d皮可西&r，让胖&d丁&r&b进化&r成胖可&d丁&r。"]
+	quest.03E8FB54B87524E1.title: "&9月之石"
+	quest.04D0FAEF00F88A15.quest_desc: ["还记得靠&3交换&r来&b进化&r吗？该记得，就是上一条任务！\\n\\n这条完全一样，只是有些&c宝可梦&r在被&3交换&r时必须携带某件物品才会&b进化&r。\\n\\n是的，各位单人玩家，我们可以用&3联系绳&r来模拟&3交换&r。\\n\\n这类&b进化&r我就不一条条列了……"]
+	quest.04D0FAEF00F88A15.title: "带着物品&3交换"
+	quest.093D21D44BE4D923.quest_desc: ["热带草原、恶地和繁茂洞穴，是找&c日之石&r该去的地方。\\n\\n还嫌不够的话，沙漠里也可能有。"]
+	quest.093D21D44BE4D923.title: "找&c日之石"
+	quest.0AABCD95FABC6025.quest_desc: ["&5暗之石&r出现在针叶林里，沼泽里偶尔也有。"]
+	quest.0AABCD95FABC6025.title: "找&5暗之石"
+	quest.0ADFE26AD63EC714.quest_desc: ["想找某位特定的&4训练家&r，可以按右箭头查看他会在哪些生物群系刷新。\\n\\n如果你没有几百万年的空闲在&2&lMinecraft&r里瞎逛，那我推荐做一个&4Trainer Spawner&r！\\n\\n在能看到&4&o系列&r&4训练家&r刷新群系的地方，还能看到一件特征物品。把这件物品放进&4Trainer Spawner&r里。\\n\\n放好之后，给&4刷怪笼&r通上&4红石信号&r，那位&4&o系列&r&4训练家&r就会凭空出现在你面前，随时开打！\\n\\n希望你召唤他之前，他没在忙什么要紧事……"]
+	quest.0CB92F8E8C685159.quest_desc: ["&c日之石&r能让&2臭臭&5花&r&b进化&r成&2美丽花&r，&2向日种子&r成&2向日花怪&r，&2木棉&d球&r成&2风妖&d精&r，&2百合根娃娃&r成&2裙儿小姐&r。"]
+	quest.0CB92F8E8C685159.title: "&c日之石"
+	quest.0D501F8E9C5EC0B4.quest_desc: ["&9水之石&r藏在海洋、河流和沼泽底下。\\n\\n还嫌不够？那就去丛林试试！"]
+	quest.0D501F8E9C5EC0B4.title: "找&9水之石"
+	quest.16DFD50997856CFA.quest_desc: ["&5暗之石&r能让&9黑暗鸦&r&b进化&r成&9乌鸦头头&r，&5梦妖&f成&5梦妖魔&r，&5灯火&c幽灵&r成&5水晶灯火&c灵&r，&7双剑&5鞘&r成&7坚盾剑&5怪&r。"]
+	quest.16DFD50997856CFA.title: "&5暗之石"
+	quest.1B06907584B3405B.quest_desc: ["&b觉醒之石&r出现在山峰类群系：裸岩山峰、积雪山峰，各种山峰都算！基本上只要是方块接近高度上限的群系都有。\\n\\n花海、冰雪群系和丘陵群系里偶尔也能捡到。"]
+	quest.1B06907584B3405B.title: "找&b觉醒之石"
+	quest.1E0E07B8CCC48531.quest_desc: ["&a雷之石&r出现在丘陵群系。\\n\\n有时候丛林里也有。"]
+	quest.1E0E07B8CCC48531.title: "找&a雷之石"
+	quest.2182F3E8D8696D6C.quest_desc: ["&c火之石&r出现在沙漠，以及&c&l下界&r的部分群系。\\n\\n沙滩上也有，但非常少见！"]
+	quest.2182F3E8D8696D6C.title: "找&c火之石"
+	quest.252E8C0AA0C61575.quest_desc: ["&c炭小侍&r有两条不同的&b进化&r路线。\\n\\n第一条是&c红莲&d铠骑&r，给它&e庆祝之铠&r就能进化。\\n\\n&e庆祝之铠&r在堡垒遗迹的箱子里能找到！\\n\\n第二条是&c苍炎&5刃鬼&r，要用&5咒术之铠&r。\\n\\n&5咒术之铠&r出现在下界要塞的箱子里！"]
+	quest.252E8C0AA0C61575.title: "&c炭小侍&r的&b进化&r道具"
+	quest.269D24B28FA92DF8.quest_desc: ["&4Trainer Associate&r是村民。只要你手里举着&4Trainer Card&r、而且还没有&4&o系列&r，他们就会在你周围刷新。他们也会像普通村民一样出现在村庄里。\\n\\n给他们物品可以换到&4Trainer Card&r；把&4Trainer Card&r给他们，他们会给你一个&4&o系列&r！\\n\\n右键&4Trainer Card&r查看信息。这里能看到你打过的每一位&4训练家&r，或者你当前&4&o系列&r里那位&4训练家&r的资料。\\n\\n查看某位&4训练家&r时，能看到他的名字和等级上限。点右箭头就能看到他会在哪些生物群系刷新！\\n\\n&4&o系列&r里的&4训练家&r，名字一开始会显示成&k乱码&r，看过之后才会显示真名和等级上限。\\n\\n在一个&4&o系列&r里打赢等级上限更高的&4训练家&r，你的等级上限就会提高！"]
+	quest.269D24B28FA92DF8.title: "&4&o系列"
+	quest.311E949E3299C95C.quest_desc: ["&b冰之石&r能让&6穿山鼠&r&b进化&r成&6穿山王&r，&c六尾&r&b进化&r成&c九尾&r。"]
+	quest.311E949E3299C95C.title: "&b冰之石"
+	quest.3602CA4E5D3687DF.quest_desc: ["&a光之石&r出现在花海群系和部分山峰群系。"]
+	quest.3602CA4E5D3687DF.title: "找&a光之石"
+	quest.37E3E12CFC8DCA4F.quest_desc: ["&2叶之石&r能让&2臭臭&5花&r&b进化&r成&2霸王&5花&r，&2口呆&5花&r成&2大食&5花&r，&2蛋&d蛋&r成&2椰蛋&d树&r，&2长鼻&9叶&r成&2狡猾天&9狗&r。"]
+	quest.37E3E12CFC8DCA4F.title: "&2叶之石"
+	quest.39E4FD684972B543.quest_desc: ["要让一只&c宝可梦&b进化&r，得凑齐好几个条件……所以想「不小心」进化一只还挺难的……\\n\\n不过要是你想让&c宝可梦&b退化&r，把这件物品给它就行！\\n\\n不，它对一段进化的&c宝可梦&r没用，别指望能倒推出什么负数进化。"]
+	quest.3ACC787A0ED75A11.quest_desc: ["&a光之石&r能让&2毒蔷&5薇&r&b进化&r成&2罗丝雷&5朵&r，&d花叶蒂&r&b进化&r成&d花洁夫人&r。"]
+	quest.3ACC787A0ED75A11.title: "&a光之石"
+	quest.3B04DBF92FDF859F.quest_desc: ["干得漂亮！你把（&b一段进化&r的）&c宝可梦&r练到 15 级了！\\n\\n为什么还进化不了？\\n\\n因为&4&l激进训练家&r的关系，得先在对战里打赢某位&4训练家&r，才能解开等级上限。\\n\\n弄一张&4Trainer Card&r，然后去找&4Trainer Associate&r（我在村庄见到他们最多！）"]
+	quest.3B04DBF92FDF859F.title: "等级上限"
+	quest.3F67085593A2DF93.quest_desc: ["&9月之石&r出现在针叶林和溶洞。"]
+	quest.3F67085593A2DF93.title: "找&9月之石"
+	quest.402F1F09F5AB59FD.quest_desc: ["&d霜奶仙&r是一只以冰淇淋为原型的&c宝可梦&r！\\n\\n所以用这些糖饰把&d小仙奶&r&b进化&r成&d霜奶仙&r时，它会把糖饰当成顶上的配料！非常可爱。"]
+	quest.402F1F09F5AB59FD.title: "&d小仙奶&r的&b进化&r道具"
+	quest.46342661700839E0.quest_desc: ["&b觉醒之石&f能让&d奇鲁莉安&f&b进化&r成&d艾路雷&4朵&r，&b雪童子&f成&b雪妖&5女&r。"]
+	quest.46342661700839E0.title: "&b觉醒之石"
+	quest.4DC435B42889FE12.quest_desc: ["只要是有冰或雪的群系，都能找到它们！"]
+	quest.4DC435B42889FE12.title: "找&b冰之石"
+	quest.4F460A7A6F0C704B.quest_desc: ["&2叶之石&r出现在森林、丛林和繁茂洞穴。\\n\\n也就是说，基本上哪儿都有！"]
+	quest.4F460A7A6F0C704B.title: "找&2叶之石"
+	quest.5387480428BC6E0A.quest_desc: ["&9水之石&r能让&9蚊香君&r&b进化&r成&9蚊香泳&4士&r，&9大舌贝&r成&9刺甲&b贝&r，&9海星星&r成&9宝石海&d星&r，&9莲帽&2小童&r成&9乐天&2河童&r，最后还能让伊布进化成&9水伊布&r！"]
+	quest.5387480428BC6E0A.title: "&9水之石"
+	quest.53B3B9A401360586.quest_desc: ["&a雷之石&r能让&e皮卡丘&r&b进化&r成&e雷丘&r，还能让伊布进化成&e雷伊布&r。"]
+	quest.53B3B9A401360586.title: "&a雷之石"
+	quest.53E70A8232A8F06E.quest_desc: ["流浪商人加&4训练家&r？！我们到底要接待多少访客！\\n\\n好在&4训练家&r可以用&4Trainer Repel Rod&r赶走。\\n\\n放下它，他们就不会在附近刷新了！"]
+	quest.5FC88C5D97FFE44E.quest_desc: ["和朋友一起玩的话，可以对着对方按 R 发起对战，也可以&3交换&c宝可梦&r！\\n\\n如果这个按键跟别的冲突，改一下键位就行。\\n\\n有些&c宝可梦&r被&3交换&r给别人之后就会&b进化&r。\\n\\n没有朋友？我是说，不玩服务器？别慌，我们有&3联系绳&r！\\n\\n对&c宝可梦&r使用它就算「&3交换&r」了一次，它就会&b进化&r！"]
+	quest.5FC88C5D97FFE44E.title: "靠&3交换&f来&b进化"
+	quest.6C3E88C02ED3C1F0.quest_desc: ["不管靠等级、道具、&3交换&r还是别的什么！想让&c宝可梦&r走到下一个&b进化&r阶段，操作都是一样的。\\n\\n&c宝可梦&r条件齐了之后，按 (M) 打开队伍。\\n\\n在这里查看那只&c宝可梦&r，&b进化&r按钮就在它立绘的下方。\\n\\n点下去，&c宝可梦&r就&b进化&r了！"]
+	quest.6C3E88C02ED3C1F0.title: "让你的&c宝可梦&b进化"
+	quest.6E780D295717056D.quest_desc: ["&c火之石&f能让&c六尾&r&b进化&r成&c九尾&r，&c卡蒂狗&r成&c风速狗&r，还能让伊布进化成&c火伊布&r。"]
+	quest.6E780D295717056D.title: "&c火之石"
+	quest.7A4A07325C00A238.quest_desc: ["&9呆呆&d兽&r和&c炭小侍&r很像，都能靠道具走两条不同的&b进化&r路线。\\n\\n给&9呆呆&d兽&r一个&6伽勒豆蔻手环&r，会得到&9呆壳&d兽&r。\\n\\n换成&6伽勒豆蔻花圈&r，得到的就是&9呆呆&d王&r！"]
+	quest.7A4A07325C00A238.title: "&9呆呆&d兽&r的&b进化&r道具"
+	task.09E7D93E692CB782.title: "练到 15 级"
+	task.2FF61E9EBBEDE7EF.title: "交换用道具"
+	task.47E6E6B51447C8DC.title: "呆呆兽的进化道具"
+	task.48230014D8628136.title: "小仙奶的进化&r道具"
+	task.6097F6DEBA79FDF0.title: "炭小侍的进化道具"
+	task.6D8B0FFD3F4C0BCB.title: "让一只宝可梦进化"
+}

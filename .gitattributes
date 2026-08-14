@@ -1,0 +1,26 @@
+# **禁止 git 做任何换行转换。**
+#
+# 这个仓库到处按字节算哈希、按字节比对上游：
+#   src/mods.lock.json 的 license_file_sha256 校验 LICENSE-GPL-3.0
+#   src/module_hashes.json 校验 src/vaultpatcher/modules/*.json（read_bytes）
+#   gen_books.py / audit_upstream.py 拿我们的译文与模组 jar 里的原文逐字节比
+#   verify_dist.py 的 zip_digest 校验出货 zip 的内容
+#
+# 平台一改写换行，上面每一条都会对不上。Windows runner 的 core.autocrlf 默认是
+# true，LICENSE-GPL-3.0 在那边被改成 CRLF、sha256 变成另一个值，fetch_mods 的
+# 许可证正文校验当场红，而 macOS / Linux 全绿——三系统里只有一个红，最难查。
+#
+# 反过来也不能统一成 LF：仓库里有 3066 个跟踪文件本来就是 CRLF（导览书那批要与
+# 模组 jar 里的原文逐字节相同），改成 LF 就再也对不上了。
+#
+# 所以两个方向都不转，存什么样、检出就什么样。`-text` 只关掉换行转换，
+# diff 仍按文本走（关 diff 的是 `binary` 宏，那是 `-diff -merge -text`）。
+* -text
+
+# 二进制另外点名，避免将来有人把上面那行改窄了漏掉它们
+*.jar binary
+*.png binary
+*.zip binary
+*.otf binary
+*.ttf binary
+*.ttc binary

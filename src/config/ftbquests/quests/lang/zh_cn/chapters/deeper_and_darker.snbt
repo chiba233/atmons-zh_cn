@@ -15,6 +15,7 @@
 	quest.0850F88E2205623F.title: "&3幽匿卷须"
 	quest.0B11EAB8D76529E0.quest_desc: [
 		"&6远古城市&r是&2&l原版Minecraft&r中最危险的结构。因此，当然它也是&3&l幽邃黑暗&r的起点！\\n\\n在这里我们可以找到大量的&3幽匿块&r，以及战利品和&9&l监守者&r。我们还会发现由&8强化深板岩&r制成的传送门框架。\\n\\n但在那之前，尽可能多地收集战利品！并小心..."
+		"{image:atm:textures/questpics/allthemodium/all_city.png width:200 height:100 align:center}"
 	]
 	quest.0B11EAB8D76529E0.title: "访问一个&6远古城市&r"
 	quest.0B718FC37699B822.quest_desc: ["&a回响原木&r采自生长在&5回响森林&r中的&a回响树&r... 这里有回声吗？为什么我总能听到？\\n\\n&a回响树&r有&5紫色树叶&r和内部的幽匿微光体。它们的木头有&7浅灰色树皮&r和非常&a浅绿色的木头颜色&r。\\n\\n所有由它制成的木板和木制品都是&a浅绿色&r，几乎像薄荷色。\\n\\n就连活板门和门都带着独特又好看的花纹！"]
@@ -127,7 +128,6 @@
 	quest.736F4A43EEBDD7B3.title: "&3幽匿啃啮兽"
 	quest.76F14C2B866B4EAD.quest_desc: [
 		"&3&l幽冥&r是&3幽匿块&f和&3幽匿生物&r的发源地，包括&9&l监守者&r。\\n\\n在这里你会发现他的许多远房亲戚，但别担心，&3&l幽冥&r也有一些优点！\\n\\n有很多新的建筑方块和物品可以找到，以及到处都是&3幽匿块&r，提供大量的&a经验&r！\\n\\n所以准备好你的锄头，冒险进入&3&l幽冥&r吧！"
-		"{image:atm:textures/questpics/deepndark/dnd_otherside.png width:200 height:100 align:center}"
 	]
 	quest.76F14C2B866B4EAD.quest_subtitle: "这问候来自..."
 	quest.76F14C2B866B4EAD.title: "&3&l幽冥"

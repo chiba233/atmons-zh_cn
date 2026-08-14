@@ -157,13 +157,23 @@ def main(argv):
             continue
         bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
 
-    # 我们自己新加的键（整合包里没有的）也要查
+    # 上游中文里没有的键也要查。**同样要拿英文原文豁免**——判据是「英文这条是好的、
+    # 中文这条坏了」，跟上面那个循环一模一样。
+    #
+    # 原先这里漏了这层豁免。上游自带 zh_cn 时它藏得住：绝大多数键都走上面那个循环，
+    # 这里只剩零星几个。而本包所在的整合包没有 zh_cn，**所有**键都从这里过，
+    # 于是 industrial_foregoing 那条 YouTube 链接里的 `?si=…&t=427` 当场变成
+    # 「非法 &t」——那串是上游自己写的，中英文一字不差，不该由我们背。
     for key, (src, lines) in sorted(ours.items()):
         if key in zh:
             continue
         got = [c for ln in lines for c in bad_in(ln)]
-        if got:
-            bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
+        if not got:
+            continue
+        en_bad = [c for ln in en.get(key, ('', []))[1] for c in bad_in(ln)]
+        if set(got) <= set(en_bad):
+            continue
+        bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
 
     if not bad:
         print('✅ 任务书格式码：%d 个键逐条查过，没有会被 FTB 顶成红字报错的 &'

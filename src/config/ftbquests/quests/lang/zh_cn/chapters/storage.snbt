@@ -118,6 +118,7 @@
 	quest.6A2B2C5E2ADCE366.quest_desc: ["精妙背包提供可升级的背包，可以使用过滤器添加实用功能！\\n\\n背包可以放在你的Curios背部插槽中，并且可以染色。"]
 	quest.6A2B2C5E2ADCE366.quest_subtitle: "物品容器太小"
 	quest.6A2B2C5E2ADCE366.title: "精妙背包"
+	quest.6E3D53D1C4569A89.quest_desc: ["允许你在自己和背包之间传输经验。"]
 	quest.6E3D53D1C4569A89.quest_subtitle: "存储经验"
 	quest.6E3D53D1C4569A89.title: "&a经验泵升级"
 	quest.6E9041744C592573.quest_desc: ["添加从储液升级中泵取液体的能力。"]

@@ -30,6 +30,7 @@
 	quest.0B37355262121DD5.quest_subtitle: "制作种子"
 	quest.0B37355262121DD5.title: "&4注魔祭坛"
 	quest.0E1ABCAA87120367.quest_subtitle: "等级：&c5"
+	quest.0EFEDB0DD90DFC81.quest_desc: ["收获机可以自动收获作物并重新种植。收获机收集的物品会放入其内部物品栏。"]
 	quest.13124A7E22999850.quest_subtitle: "等级：&e1"
 	quest.140DADB32EF10D58.quest_desc: ["龙蛋种子需要在下方放置龙蛋核心才能生长。"]
 	quest.140DADB32EF10D58.quest_subtitle: "等级：&56"

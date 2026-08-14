@@ -36,6 +36,7 @@
 		]
 	quest.2F4458E9921DEB86.title: "&a气体管道"
 	quest.3065EA195D0A36BA.quest_desc: ["标签是Minecraft中分组物品的重要部分，因此我们当然可以利用它来作为过滤器！\\n\\n你可以放入一个物品并选择一个标签，或者如果你知道它，可以自己输入。\\n\\n对于从系统中取出工具等操作非常有用。\\n\\n（你还可以通过输入 /kubejs hand 来查找你手中的物品的标签。）"]
+	quest.308935C85364B04D.quest_desc: ["由于每张卡都保存自己的数据，不断更改每张卡的设置可能会很烦人。所以我们来克隆它们吧！\\n\\n用克隆器左键点击一张卡以复制其数据，然后右键点击一张卡以赋予它该数据！"]
 	quest.30DE4F5BC3EDB555.quest_desc: [
 		"逻辑运输器是&5&l通用机械&r用来在远处移动物品和方块的工具。\\n\\n它们需要配置为从箱子或抽屉等库存中拉取或推送。"
 		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"

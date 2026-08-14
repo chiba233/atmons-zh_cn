@@ -43,7 +43,11 @@ BOOKS=$(find "$COMMON/resourcepacks/ATMons汉化包/assets" \
 # 三个包的模组集合各不相同，同一套映射能落地的份数本来就不一样；拿旧包的数字
 # 卡新包，红的是「模组换了」而不是「汉化少了」，那种红只会逼人去调数字。
 # 基线取不到就红——判据没了不许放行（fail-closed）。
-BASE_FILE="versions/${MC}/generated_baseline.txt"
+# build/common 是**版本中立**的公共出货树，一次生成、各版本共用；它的内容由生成时
+# 那一个 ATM_PACK_ROOT 决定，所以基线取正在构建的第一个整合包版本的那一份。
+# （这一段跑在 build_one() 之前，$MC 那时还不存在，只能自己从 MC_VERSIONS 取。）
+BASE_MC="${MC_VERSIONS%% *}"
+BASE_FILE="versions/${BASE_MC}/generated_baseline.txt"
 [ -f "$BASE_FILE" ] || { echo "❌ 缺 $BASE_FILE —— 取不到生成物基线，判不了就不许放行"; exit 1; }
 baseline() {
   local v

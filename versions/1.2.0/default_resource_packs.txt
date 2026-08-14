@@ -21,8 +21,22 @@
 # defaultResourcePacks —— 实测是空数组 []，即整合包没有声明任何默认资源包。
 #
 # 所以 options.txt 读到 [] 有可能本来就是对的。要坐实这一点，得解释清楚上面那两个
-# zip 是被谁启用的：本包装着 globalpacks，实例里也有 global_packs/ 目录，嫌疑最大，
-# 但**尚未查证**。在查清之前不把 [] 当成实测值填进来。
+# zip 是被谁启用的。已经排掉的：
+#
+#   - globalpacks：实例里 global_packs/ 下 optional_data、required_data、
+#     required_resources 三个子目录**全是空的**，config/ 下也没有它的配置文件。
+#     它没有可加载的东西，不是这两个 zip 的来源。
+#   - DefaultOptions：defaultResourcePacks = []，没有声明任何默认资源包。
+#   - RCT Trainers+ 那个 zip 有解释：rctmod 自己加载它，日志里有
+#     `[Radical Cobblemon Trainers/]: Data pack initialized: RCT Trainers+ [1.6] v2.1.zip`，
+#     两次资源重载各一条，不经过 options.txt。
+#
+# 还没解释的只剩 `Maxi's-JM+CM_Pixel-U11.zip`：config/ 与 kubejs/ 里都没有任何一处
+# 按名字引用它（grep 到的 Maxi 全是 maximum/máxima 之类的词），日志里除了两次
+# ReloadableResourceManager 的活动包列表之外也再没出现过。两个 zip 的 mtime 都是
+# 09:51，跟整合包安装态同一批，不是玩家自己放进去的。
+#
+# 在这一条查清之前不把 [] 当成实测值填进来。
 #
 # 取值办法：起一次全新实例，**停在主菜单**，从游戏内的「选项 → 资源包」里确认列表，
 # 再正常退出，然后读 options.txt 的 resourcePacks: 那一行，按顺序逐项抄到下面。

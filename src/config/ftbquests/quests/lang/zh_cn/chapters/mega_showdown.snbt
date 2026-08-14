@@ -3,9 +3,9 @@
 	quest.00E4E946891014D9.title: "&5太晶珠"
 	quest.0CFF4E3560CFFB49.quest_desc: ["每只&c宝可梦&r都要有属于自己的那颗&b超级石&r，才能&b超级进化&r。\\n\\n哪颗对应哪只很好认，因为它们通常就是那只&c宝可梦&r的名字后面加个「ite」。\\n\\n每一颗都要一个&b空白进化石&r、2 个铁锭、一颗&b钻石&r，外加那只&c宝可梦&r专属的一件物品。\\n\\n另外，喷火龙和超梦各有 X、Y 两种&b超级&r形态。"]
 	quest.0CFF4E3560CFFB49.title: "各自专属的&b超级石"
-	quest.117ADB40CE01CE07.quest_desc: ["不知为何，我们的&c宝可梦&r要我们戴上特殊的&e手环&r才肯用&eZ招式&r。\\n\\n不清楚原因……总之得有一颗 Sparkling Stone 才能做，另外还要几样东西。\\n\\n&e手环&r的种类无所谓，只影响外观。我最喜欢&d丽姿的Z手环&r！"]
+	quest.117ADB40CE01CE07.quest_desc: ["不知为何，我们的&c宝可梦&r要我们戴上特殊的&e手环&r才肯用&eZ招式&r。\\n\\n不清楚原因……总之得有一颗光辉石才能做，另外还要几样东西。\\n\\n&e手环&r的种类无所谓，只影响外观。我最喜欢&d丽姿的Z手环&r！"]
 	quest.117ADB40CE01CE07.title: "&eZ手环"
-	quest.1690E9F6BBF820D1.quest_desc: ["想给&c宝可梦&5太晶化&r，得攒很多&5太晶碎块&r。\\n\\n用袋子装着会方便得多！\\n\\nTera Pouch 每种&5太晶碎块&r都能装满一组。"]
+	quest.1690E9F6BBF820D1.quest_desc: ["想给&c宝可梦&5太晶化&r，得攒很多&5太晶碎块&r。\\n\\n用袋子装着会方便得多！\\n\\n太晶收纳袋每种&5太晶碎块&r都能装满一组。"]
 	quest.16E0E86A19015F2A.quest_desc: ["要激活&b超级石&r，还得有&b超级手环&r。\\n\\n是是是，我知道它们不全是&b手环&r。\\n\\n手环也好、戒指也好、头饰也好，随便！只要能塞进&b超级进化&r那个饰品槽，戴上就是了。"]
 	quest.16E0E86A19015F2A.title: "&b超级手环"
 	quest.1E01E377A2091AA6.quest_desc: ["任何&c宝可梦&r被击败时，都有 1% 的概率掉落&5星晶太晶碎块&r。\\n\\n对一只&c宝可梦&r用掉 50 个，它就会&5太晶化&r成&5星晶属性&r。这是唯一的获得途径。\\n\\n&5星晶属性&r让所有攻击都得到加成！但它也会被其他&5星晶属性&r克制。好在这种情况相当少见。"]
@@ -28,7 +28,7 @@
 	quest.3FACB48732D14A79.title: "&bMega Site"
 	quest.41CFA175B69E6639.quest_desc: ["是&cWishing Weald&r，不是许愿井。这儿没有水，只有森林里的一座建筑。\\n\\n建筑正中央躺着一颗坠落的星星。\\n\\n许个愿吧！或者拿&b钻石镐&r把那块水晶挖了。"]
 	quest.41CFA175B69E6639.title: "&cWishing Weald"
-	quest.440B61C517B8BD09.quest_desc: ["带上刷子，就能在&eArcheological Site&r的可疑沙子里刷出物品。\\n\\n其中有两样稀有物品：Light Sparkling Stone 和 Dark Sparkling Stone。\\n\\n它们除了能做出不同的&e手环&r之外没有区别——&e手环&r只改外观，不改效果和能力。"]
+	quest.440B61C517B8BD09.quest_desc: ["带上刷子，就能在&eArcheological Site&r的可疑沙子里刷出物品。\\n\\n其中有两样稀有物品：光之光辉石和暗之光辉石。\\n\\n它们除了能做出不同的&e手环&r之外没有区别——&e手环&r只改外观，不改效果和能力。"]
 	quest.490A35A715E8E20E.quest_desc: ["身上戴着&c极巨腕带&r、附近有&c极巨能量点&r、手里有一只随时能打的&c宝可梦&r，我们就能&c极巨化&r了！\\n\\n你的&c宝可梦&r不需要更高的&c极巨等级&r才能用，等级只是让招式威力更高、体力更多。\\n\\n对战时看招式下方，会出现&c极巨化&r按钮。点它就能把招式变成&c极巨招式&r！"]
 	quest.490A35A715E8E20E.title: "&c极巨化"
 	quest.53A556F14187F399.quest_desc: ["空白的 Z 纯晶！\\n\\n没错，就是空白的！\\n\\n想做出某个具体的&eZ招式&r，还得拿它配上别的材料合成。"]
@@ -54,6 +54,8 @@
 	task.15B5242AD0DAF52A.title: "太晶碎块"
 	task.1CBDF43B0961C245.title: "各自专属的超级石"
 	task.217F7677258AF94F.title: "Z手环"
+	task.2391300D60CC0D36.title: "光辉石"
 	task.25A056981B7F62F0.title: "超级手环"
 	task.5FEDBD789E019B8D.title: "Z招式"
+	task.7A4A898E67110B8E.title: "太晶收纳袋"
 }

@@ -1054,7 +1054,7 @@ def main(check_only=False):
         # 标题不同的两个章节共用——写死一个，另一个章节就顶着别人的标题。
         # 只是「被两个章节引用」不构成风险：内容横幅（如 gear_tiers 的「世界层级」）
         # 与章节标题无关，两处显示同一句话本来就对。
-        # 2026-08-02：All the Mons 7.3 改了 Apotheosis 系的章节结构，gear_tiers.png 同时被
+        # 2026-08-02：上一个整合包 7.3 改了 Apotheosis 系的章节结构，gear_tiers.png 同时被
         # 「神化装备」「神化附魔」引用，旧写法在这里必红——红的是闸太宽，不是内容有错。
         if len(set(used)) > 1 and text in used:
             sys.exit('❌ %s 的文案「%s」正是章节标题，而它被标题不同的多个章节共用 %s'

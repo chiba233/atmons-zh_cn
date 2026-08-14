@@ -124,7 +124,7 @@ def check(path):
         bad.append('包里没有「%s」——从别处拿到 zip 的人就没有任何说明了' % README)
 
     # 占位符必须已被打包脚本填掉。查**包里全部文本文件**，不只是安装器——
-    # 曾经只查 install.sh/ps1，结果 SERVER.md 里那句「适用于 All the Mons 7.2 专用服务器」
+    # 曾经只查 install.sh/ps1，结果 SERVER.md 里那句「适用于某某 7.2 专用服务器」
     # 是写死的，7.0 / 7.1 的包里也印着 7.2，玩家报上来才发现。
     TEXT = ('.sh', '.ps1', '.bat', '.md', '.txt', '.json', '.snbt', '.js', '.mcmeta', '.url')
     # 这几份项目文档是**原样**分发的，不是模板；它们正文里会提到占位符本身

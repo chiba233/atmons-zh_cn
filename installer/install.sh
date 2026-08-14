@@ -4,7 +4,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # All the Mons @@MCVER@@ 汉化补丁「绿油油版」安装器 (macOS / Linux)
 # 版本号一律用 @@MCVER@@ 占位，由 scripts/build_dist.sh 按目标整合包版本填。
-# 写死一个版本号的话，7.0 / 7.1 的包里会印着「All the Mons 7.2」——三个包里两个是错的。
+# 写死一个版本号的话，出多个整合包版本时就会有几个包印着别的版本号（上一个整合包
+# 同时出 7.0 / 7.1 / 7.2 时踩过：三个包里两个印的是 7.2）。
 # 用法：把整个汉化文件夹放进 All the Mons 实例根目录后运行：
 #   bash install.sh                    # 交互菜单
 #   bash install.sh apply              # 应用汉化（自动先备份，不含可选mods）

@@ -48,7 +48,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-DELTA = ROOT / 'src' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn' / 'chapters'
+DELTA = ROOT / 'src' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn'
 REL = 'config/ftbquests/quests/lang'
 
 CODES = set('0123456789abcdefklmnorz')
@@ -99,8 +99,21 @@ def entries(path):
 
 
 def collect(d):
+    """某种语言下的全部键。
+
+    两处都要覆盖，漏一处就是静默少查：
+
+    - **顶层与 chapters/ 都要收**。上游 en_us 下有 5 个顶层 .snbt（chapter /
+      chapter_group / file / reward / reward_table）外加 chapters/ 里 75 个；
+      我们这边顶层也有 chapter.snbt 与 reward_table.snbt 共 106 条。原先只扫
+      chapters/，这 106 条一次都没查过。
+    - **.snbt 与 .snbt_merged 都要认**。ftbquestslangsplitter 进过一次游戏后会把
+      xxx.snbt 改名成 xxx.snbt_merged，所以拿装好的实例当输入时上游全是后一种；
+      只 glob *.snbt 的话 en 会收成空表，「英文原文本来就这么写」那条豁免就静默
+      失效（CI 取的是没进过游戏的 overrides 树，是前一种，所以只在本机翻车）。
+    """
     all_ = {}
-    for p in sorted(d.glob('*.snbt')):
+    for p in sorted(list(d.glob('*.snbt*')) + list((d / 'chapters').glob('*.snbt*'))):
         for k, lines in entries(p).items():
             all_.setdefault(k, (p.name, []))[1].extend(lines)
     return all_
@@ -109,19 +122,27 @@ def collect(d):
 def main(argv):
     root = Path(argv[0]) if argv else Path(os.environ.get('ATM_PACK_ROOT', ''))
     base = root / REL
-    if not (base / 'zh_cn' / 'chapters').is_dir():
-        strict = (os.environ.get('GATE_STRICT') or '').strip() not in ('', '0')
-        msg = '没有整合包的任务书语言目录 %s' % (base / 'zh_cn' / 'chapters')
-        if strict:
-            print('❌ 任务书格式码检查没跑成：%s。本环境声明了 GATE_STRICT，'
-                  '整合包本该已经取好，缺了不算通过' % msg)
-            return 1
-        print('ℹ️ 跳过任务书格式码检查：%s（给个整合包目录或设 ATM_PACK_ROOT）' % msg)
-        return 0
+    # 判据挂在 **en_us** 上，不挂在 zh_cn 上。
+    #
+    # 本包所在的整合包自带十种语言、没有 zh_cn，我们的中文就是整份任务书。原先
+    # 这里要求上游有 zh_cn/chapters，于是整条检查退 0 走人——而**最需要查 & 的
+    # 恰恰是我们自己那 7000 多条**，一次都没跑过。这是 fail-open，最难发现的那种。
+    #
+    # en_us 是任何一个整合包都必然有的，拿它当「包取到了没有」的判据：缺了就红，
+    # 不看 GATE_STRICT。上游没有 zh_cn 只是 zh 为空，我们那份照查不误。
+    if not (base / 'en_us').is_dir():
+        print('❌ 任务书格式码检查没跑成：没有整合包的英文任务书目录 %s\n'
+              '   多半是整合包没取到或路径写错（给个整合包目录或设 ATM_PACK_ROOT）。'
+              % (base / 'en_us'))
+        return 1
 
-    zh = collect(base / 'zh_cn' / 'chapters')
-    en = collect(base / 'en_us' / 'chapters')
+    up_zh = base / 'zh_cn'
+    zh = collect(up_zh) if up_zh.is_dir() else {}
+    en = collect(base / 'en_us')
     ours = collect(DELTA)
+    if not ours:
+        print('❌ 任务书格式码检查没跑成：%s 下一个 .snbt 都没有' % DELTA)
+        return 1
 
     bad = []
     for key, (src, lines) in sorted(zh.items()):
@@ -145,7 +166,8 @@ def main(argv):
             bad.append((src, key, got, ' '.join(x.strip() for x in lines)[:150]))
 
     if not bad:
-        print('✅ 任务书格式码：%d 个键逐条查过，没有会被 FTB 顶成红字报错的 &' % len(zh))
+        print('✅ 任务书格式码：%d 个键逐条查过，没有会被 FTB 顶成红字报错的 &'
+          % len(set(zh) | set(ours)))
         return 0
 
     print('\n❌ 这些任务的 & 用法不合法，进游戏整段描述会被红字报错顶掉（%d 处）：\n' % len(bad))
@@ -154,7 +176,7 @@ def main(argv):
         print('     非法：%s' % '、'.join('&' + c for c in got))
         print('     %s' % text)
     print('\n合法的只有：&0-9 &a-f &k &l &m &n &o &r &z &#RRGGBB，字面量的 & 要写成 \\&。')
-    print('整合包自带中文里的错，用 zz_hanhua_<章节>.snbt 覆盖掉那一条。')
+    print('本包的中文任务书就是 src/config/ftbquests/quests/lang/zh_cn/ 那份，直接改那一条。')
     return 1
 
 

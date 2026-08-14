@@ -19,6 +19,9 @@
 	quest.0FEAD3CA2CC4A8B1.title: "3级星光充能仪催化剂"
 	quest.11B0B93D725ABE43.quest_desc: ["寂静装备的装备可以使用&9修理包&r进行修理。\\n\\n要修理一个物品，将修理包放入合成格中，然后将修理工具所需的材料与它一起放入。这将“填充”修理包。\\n\\n要修理工具，将填充好的修理包与要修理的工具在合成格中组合。"]
 	quest.11B0B93D725ABE43.quest_subtitle: "不需要铁砧"
+	quest.1290A26F44659212.quest_desc: ["有些金属——比如&6ATM&r——的熔点是普通&c熔岩&r达不到的，得靠&9灵魂熔岩&r提供的更高温度。\\n\\n普通&c熔岩&r最高提供 1000 度，而&9灵魂熔岩&r能到 3000 度。"]
+	quest.1290A26F44659212.quest_subtitle: "熔岩不够烫的时候"
+	quest.1290A26F44659212.title: "&9灵魂熔岩"
 	quest.158B24939A269D83.quest_desc: ["尖端升级用于提高工具的挖掘等级。\\n\\n例如：如果你有一个铁镐，并且有1个钻石，你可以制作一个钻石尖端升级，并将其放在你的镐上。这将允许它挖掘黑曜石，并且还会给它一个属性提升。"]
 	quest.158B24939A269D83.quest_subtitle: "当你找不到3个钻石时"
 	quest.2156C00E30424844.quest_desc: ["&4储罐&r用于向我们的&c&l熔铸炉&r中添加液体。\\n\\n主要是燃料。\\n\\n主要是&c熔岩&r！\\n\\n这似乎是真正能为&c&l熔铸炉&r提供燃料的唯一方法。"]
@@ -54,6 +57,8 @@
 	quest.462C1F75A2FB9F02.quest_subtitle: "威利在哪？"
 	quest.48D358470A019E7A.title: "1级星光充能仪催化剂"
 	quest.52CDB46F6CBF007B.quest_subtitle: "挖得开心吗？"
+	quest.571EE70FCB4D999F.quest_desc: ["不想给&c&l熔铸炉&r烧&c熔岩&r？那就改用&4FE&r。\\n\\n这时要用&4电容器&r替代&4储罐&r，并把&6液体加热线圈&r换成&4电驱&r或&9高级电驱&r&6加热线圈&r。\\n\\n&4电驱&r&6加热线圈&r只能做到和&c熔岩&r一样的温度（1000 度），而&9高级电驱&r&6加热线圈&r能达到&9灵魂熔岩&r的那一档（3000 度）。"]
+	quest.571EE70FCB4D999F.title: "&4电力版&l&c熔铸炉"
 	quest.63CAD77A4488F2CE.quest_subtitle: "镐 + 斧 + 铲"
 	quest.657B3116A6419420.quest_subtitle: "你自己的手柄！"
 	quest.67216EC5274F08B9.quest_subtitle: "剪牧人专用"
@@ -80,5 +85,6 @@
 	task.51297F6E0D9BB58C.title: "任意熔铸炉储罐"
 	task.55E0635973A828B0.title: "保留所有权利"
 	task.6D9DBD885FE4C94C.title: "保留所有权利"
+	task.74A964DE0E47BAC3.title: "任意 #productivemetalworks:foundry_capacitors"
 	task.76E296A2AD3EFE92.title: "任意熔铸炉控制器"
 }

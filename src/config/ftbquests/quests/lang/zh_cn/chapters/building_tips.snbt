@@ -34,6 +34,14 @@
 	quest.1591013DDD4766E1.title: "&l&c懒人厨房&r"
 	quest.1972B36F72808D55.quest_desc: ["不过这些石头中只有一部分是经过凿刻的。"]
 	quest.1972B36F72808D55.title: "&l&b开裂&r石头"
+	quest.1CF227F4B5D3F88B.quest_desc: [
+		"&d&lCamol&r 能给&l任何东西&r做伪装。从 Pipez 到通用机械的线缆，再到 ATM 之星，除了厨房水槽——不，等等，厨房水槽也行。\\n\\n把&d&l伪装方块&r和你想拿来当外观的方块一起合成，然后右键点到想伪装的方块上，比如某根线缆之类。\\n\\n默认情况下&d&l伪装方块&r会沿用被伪装方块的碰撞箱。把它单独放进合成格里，可以换成「保形」版本——那样它会采用外观方块的形状。\\n\\n想拆掉&d&l伪装方块&r，拿另一个伪装方块右键那个被伪装的方块就行。"
+		"{@pagebreak}"
+		"{image:atm:textures/questpics/building_tips/camol_example.png width:200 height:100 align:center}"
+	]
+	quest.1CF227F4B5D3F88B.title: "&d&lCamol"
+	quest.1E53576CC2566FF0.quest_desc: ["&l&cCobble&fFurnies&r加入了各式家具，大多以&c宝可梦&r为主题。\\n\\n有凳子、椅子、桌子、某些&c宝可梦&r的&7雕像&r、电视等等。\\n\\n它连厨房都想到了，包括配营火锅用的灶台。\\n\\n这些大多用家具工作台制作。"]
+	quest.1E53576CC2566FF0.title: "&l&cCobble&fFurnies"
 	quest.2094D1CE4BA66091.quest_desc: ["光线是任何基地非常重要的一部分。\\n\\n它可以防止怪物生成，帮助照明，甚至可以为你的建筑增添更多色彩和活力！\\n\\n或者你可以直接使用夜视药水，但那有什么乐趣呢！"]
 	quest.22D2CFDDB06C720C.quest_desc: ["工具在&2&lMinecraft&r中非常重要，但物品栏空间也同样重要。所以为什么不制作一把镐尖斧来腾出一些空间呢！\\n镐尖斧是镐(Pickaxe)、斧(Axe)和铲(Shovel)的结合体。\\n\\n它们可以剥皮木头、铺路，并且可以挖掘同等级镐/斧/铲能挖掘的任何方块！"]
 	quest.22D2CFDDB06C720C.title: "镐尖斧"
@@ -42,6 +50,7 @@
 	quest.23631A4A743D4F0C.quest_desc: ["这个就别抱怨了。\\n\\n有几十种获取铁的方法，即使是正常的流程发展也需要它。\\n\\n你会得到铁，你会把它做成方块，你会让它变得漂亮！"]
 	quest.23631A4A743D4F0C.title: "&l&b开裂&r金属"
 	quest.266127E7947CB3D4.quest_desc: ["你在本任务页面上看到的所有漂亮建筑都来自ATM Discord社区的成员！\\n\\n别担心，所有人都已同意分享他们的建筑并已获得署名！\\n\\n如果你也想分享你的建筑，请查看Discord中的artwork-builds-showoff频道！\\n\\n（我不能保证所有建筑都是在ATMons中制作的，只能说它们是由Minecraft玩家同伴制作的。同样，有些建筑可能使用了光影，所以如果你的建筑看起来不完全一样，可能就是这个原因！）"]
+	quest.26FADB78B04F592B.quest_desc: ["&l&a建筑小帮手 2&r这个模组加入了几件非常好用的物品。\\n\\n当然，全是用来盖房子的！\\n\\n每一件都要&c电&r才能工作，默认按&lG&r呼出它们的菜单。"]
 	quest.26FADB78B04F592B.title: "&l&a建筑小帮手&r"
 	quest.28FDB2D13D0DDE8E.quest_desc: ["&b&l开裂&r与凿刻模组相似，它改变方块的设计，但&b&l开裂&r有自己独特的方式！\\n\\n&b&l开裂&r使用的是你需要前往的工作站来改变方块。\\n\\n有7个不同的工作站，每个工作站改变不同的方块：木匠工作台改变木头，玻璃吹制台改变玻璃。\\n\\n其中6个工作站可以变成手持物品以便于使用。\\n\\n甚至还有它们的背包升级！"]
 	quest.28FDB2D13D0DDE8E.title: "&l&b开裂&r"
@@ -78,6 +87,8 @@
 	quest.44688FC2E34FF09F.quest_desc: ["Minecraft已经有成百上千种方块，模组又增加了更多！但有时这仍然不够。\\n\\n借助一些模组，我们可以将现有的方块改造成不同形状、不同设计，甚至变成全新的方块！"]
 	quest.44688FC2E34FF09F.title: "改造方块"
 	quest.48971CE964CF037F.quest_desc: ["虽然保护我们的核反应堆很重要，观察其内容物也关乎安全。\\n\\n但这种玻璃也可以用来让我们的基地更好看！\\n\\n那么到底什么更重要：保护核反应堆的安全？还是让我们的基地更好看！"]
+	quest.4BEA1F7E788B50C5.quest_desc: ["&l&c凿子·重生&r是另一个从&l Chisel &r衍生出来的模组。\\n\\n这个模组的精髓在于……等等，写错任务了。\\n\\n&l&cCobble&fmon Stone Statues&r让你能给几乎任何想得到的&c宝可梦&r做&7雕像&r，还有多种姿势可选。\\n\\n拿&7雕像&r凿子右键，先选&c宝可梦&r，再选一种姿势，然后选是用&7石头&r还是&6金&r来做，最后调整&7雕像&r的大小。\\n\\n放置一座雕像需要背包里有 5 块&7石头&r或 5 块&6金块&r。\\n\\n你猜对了，这把凿子也没有耐久。"]
+	quest.4BEA1F7E788B50C5.title: "&l&cCobble&fmon &7石像"
 	quest.51E77B9CD3FB6DEA.quest_desc: ["这并非必要，但我发现它非常有用。\\n\\n掘地之爪能为你的双手提升镐的等级。所以你可以单凭拳头就开采到铁矿石！\\n\\n这还包括开采石头、陶瓦和混凝土之类的方块。你甚至可以用手持这些方块来开采它们。\\n\\n老实说这基本上是必备的。"]
 	quest.5716E84828EC0C23.quest_desc: ["塑料建筑砖是通过&l&7气动工艺：再加压&r制作的方块。\\n\\n就像它们的现实对应物一样，踩上去很痛！\\n\\n所以要么穿上鞋子，要么把砖块弄平滑。"]
 	quest.5716E84828EC0C23.title: "塑料建筑砖"
@@ -127,6 +138,7 @@
 	task.0ED255BCB75ECCF1.title: "水晶玻璃"
 	task.104E1A4BF3520D67.title: "反应堆玻璃"
 	task.16EF7FF802D5A2BB.title: "框架方块"
+	task.1704AD6581E815EC.title: "CobbleFurnies"
 	task.195338A3977C682E.title: "神秘农业方块"
 	task.1A66B7FFB4E2163E.title: "原版原木"
 	task.1A7078C3984DD910.title: "下界合金块"

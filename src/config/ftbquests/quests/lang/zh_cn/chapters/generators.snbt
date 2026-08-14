@@ -54,6 +54,11 @@
 	quest.39605F1FEB1A5A1C.title: "保留所有权利"
 	quest.3A4C17878FC8315B.quest_desc: ["&6ATM熔炉&r与下界合金熔炉基本相同。你需要它来制作&3振金熔炉&r。"]
 	quest.3A4C17878FC8315B.title: "&6ATM熔炉"
+	quest.40DB6E3DE87F16EF.quest_desc: [
+		"&d龙息&r是一件强大（而且难闻）又神秘的物品。强大意味着我们能拿它发电，而且发得不少！&5口臭发电机&r就是用&d龙息&r发电的！"
+		""
+		"（顺带一提，你可以用&b&l敌对神经网络&r配&5末影龙数据模型&r来量产&d龙息&r。）"
+	]
 	quest.40DB6E3DE87F16EF.title: "&5口臭发电机"
 	quest.420FE84DEE12CCE0.quest_desc: ["&e金熔炉&r比铁熔炉更好，烹饪时间为120刻。\\n\\n它可以用&7银&r或铁熔炉制作，并且可以制作成&b钻石熔炉&r！"]
 	quest.420FE84DEE12CCE0.title: "&e金熔炉"

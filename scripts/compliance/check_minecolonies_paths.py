@@ -122,8 +122,34 @@ def main():
     depths, cases = collect_paths(mods)
     if not depths:
         # 0 命中就静默通过的闸等于没有闸——2026-07-28 的对抗审计一次抓到三个。
-        print('❌ 在 %s 里一条蓝图路径都没找到。要么 jar 没备齐，要么结构包换了布局；'
-              '这时候「通过」是假的。' % mods)
+        # 但「MineColonies 根本不在这一版整合包里」是另一回事：那时候没有蓝图路径
+        # 是正常的，这道闸也就无从谈起。两者要分开，靠**正面证明**模组不在：
+        # 全包没有一个 jar 提供 assets/minecolonies/ 下的任何文件。
+        # 只看 jar 文件名不够——附属包名字五花八门，得看 jar 里到底有没有这个命名空间。
+        # 先排除「mods 根本没备齐」：0 个 jar 时「模组不在包里」和「包没取到」
+        # 长得一模一样，放过就是静默全绿。真整合包必然有一堆 jar。
+        if not list(mods.glob('*.jar')):
+            print('❌ %s 下一个 jar 都没有——这不是「整合包不带 MineColonies」，'
+                  '是 mods 没备齐或路径不对，判不了就不许放行' % mods)
+            return 1
+        ns_present = False
+        for jar in sorted(mods.glob('*.jar')):
+            try:
+                with zipfile.ZipFile(jar) as z:
+                    if any(n.startswith('assets/minecolonies/') for n in z.namelist()):
+                        ns_present = True
+                        break
+            except Exception:                                  # noqa: BLE001
+                continue
+        if not ns_present:
+            print('ℹ️ 跳过建筑棒蓝图路径检查：本整合包不带 MineColonies'
+                  '（%d 个 jar 里没有一个提供 assets/minecolonies/）。\n'
+                  '   %s 这个模块随之在本包无目标类，留着不出问题；'
+                  '哪天整合包加回 MineColonies，这道闸会自己恢复。'
+                  % (len(list(mods.glob('*.jar'))), MODULE.relative_to(ROOT)))
+            return 0
+        print('❌ 在 %s 里一条蓝图路径都没找到，但 assets/minecolonies/ 是在的——'
+              '要么 jar 没备齐，要么结构包换了布局；这时候「通过」是假的。' % mods)
         return 1
     bad = []
     for cls, subs, exact in load_pairs():

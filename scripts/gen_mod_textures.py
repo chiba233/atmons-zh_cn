@@ -104,11 +104,29 @@ def erase(im, box):
 
 def main(argv, check_only=False):
     jars = books.Jars(mods_dir(argv))
-    n = 0
+    # 0 个 jar 时「模组不在包里」与「mods 没备齐」判不开，放过就是静默少发汉化图。
+    if not jars.index:
+        sys.exit('❌ %s 下一个 jar 都读不到——mods 没备齐或路径不对，'
+                 '判不了就不许放行' % mods_dir(argv))
+    n = skipped = 0
     for rel, spec in sorted(TEXTURES.items()):
         raw = jars.read(rel)
         if raw is None:
-            sys.exit('❌ 在 mods 里找不到 %s' % rel)
+            # 「这个模组根本不在这个整合包里」是合法终态——本表是按模组列的，
+            # 换一个整合包就必然有几条落空。但它跟「模组在、图却找不到了」
+            # （上游改名/挪位，我们量好的坐标全部作废）在这里长得一模一样，
+            # 后者静默跳过就等于悄悄少发一张汉化图。所以要**正面证明**：
+            # 全包没有任何 jar 提供这个命名空间下的任何一个文件，才算模组不在。
+            ns = rel.split('/')[1] if rel.startswith('assets/') else ''
+            prefix = 'assets/%s/' % ns
+            if ns and not any(k.startswith(prefix) for k in jars.index):
+                print('  ℹ️ 跳过 %s：本整合包不带 %s（全包没有一个 jar 提供 %s）'
+                      % (rel, ns, prefix))
+                skipped += 1
+                continue
+            sys.exit('❌ 在 mods 里找不到 %s\n'
+                     '   但 %s 这个命名空间是在的——多半是上游把图改名或挪位了，'
+                     '本表里量好的坐标随之作废，要重新量过。' % (rel, ns))
         got = hashlib.sha1(raw).hexdigest()
         if got != spec['sha1']:
             sys.exit('❌ %s 的源图变了（记的是 %s，实际 %s）——'
@@ -131,7 +149,8 @@ def main(argv, check_only=False):
               % (rel.split('textures/')[1], spec['text'], glyph.height, glyph.width,
                  x, x + glyph.width, y, y + glyph.height))
         n += 1
-    print(('校验通过' if check_only else '已重绘') + ' %d 张模组贴图' % n)
+    print(('校验通过' if check_only else '已重绘') + ' %d 张模组贴图' % n
+          + ('（另有 %d 张因模组不在本整合包里跳过）' % skipped if skipped else ''))
 
 
 if __name__ == '__main__':

@@ -51,6 +51,8 @@ def die(msg):
 def schema_of(mods, book):
     """从整合包的 jar 里现读那本书声明的 schema。找不到就红。"""
     want = IN_JAR % book
+    if not list(Path(mods).glob('*.jar')):
+        die('%s 下一个 jar 都没有——判不了哪本书在这一版整合包里，不许放行' % mods)
     found = []
     for jar in sorted(Path(mods).glob('*.jar')):
         try:
@@ -60,8 +62,19 @@ def schema_of(mods, book):
         except Exception:
             continue
     if not found:
-        die('%s 里没有任何 jar 提供 %s —— 这本书不在这一版整合包里，'
-            '或者 mods 目录不对；判不了就不许放行' % (mods, want))
+        # 「这本书不在这一版整合包里」与「书在、但声明文件缺了」在这里长得一样，
+        # 后者放过就会把译文放到永远不会被读的那条路径上（且不报错）。所以要
+        # **正面证明**：全包没有任何 jar 提供这本书目录下的任何一个文件，才算书不在。
+        prefix = 'assets/oracle_index/books/%s/' % book
+        for jar in sorted(Path(mods).glob('*.jar')):
+            try:
+                with zipfile.ZipFile(jar) as z:
+                    if any(n.startswith(prefix) for n in z.namelist()):
+                        die('%s 提供了 %s 下的文件，却没有 %s —— 声明缺失，'
+                            '判不了就不许放行' % (jar.name, prefix, want))
+            except Exception:
+                continue
+        return None, None
     if len({json.dumps(m, sort_keys=True) for _, m in found}) > 1:
         die('%s 被多个 jar 提供且内容不一致：%s' % (want, [n for n, _ in found]))
     return str(found[0][1].get('schema', '')), found[0][0]
@@ -93,8 +106,15 @@ def main(argv):
         die('%s 下一本书都没有' % root)
 
     bad = []
+    skipped = []
     for b in books:
         schema, jar = schema_of(mods, b)
+        if jar is None:
+            # 这本书对应的模组不在这一版整合包里：译文留着不碍事（永远不会被读），
+            # 但这一版没法核它的目录约定，如实说明并跳过，不算通过也不算失败。
+            skipped.append(b)
+            print('ℹ️ 《%s》本整合包不带这本书，跳过（译文留着，不影响）' % b)
+            continue
         right = 'translated' if schema == '1' else '.translated'
         wrong = '.translated' if schema == '1' else 'translated'
         for lang in sorted({d.name for d in (root / b / wrong).glob('*') if d.is_dir()} |

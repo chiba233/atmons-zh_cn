@@ -1,0 +1,79 @@
+{
+	quest.01B7B66FAAAAEAE5.quest_subtitle: "白色"
+	quest.06B197EB778C17AC.quest_desc: ["跟&d花&r的&6杂交&r一样，&2农作物&r也能这么玩！\\n\\n当&6蜜蜂&r在种着特定&2农作物&r的区域&6授粉&r时，有些会发生&6变异&r。\\n\\n要杂交出哪一种，查&lJEI&r。"]
+	quest.06B197EB778C17AC.title: "&6变异"
+	quest.095024BF19ABA326.quest_desc: ["橙色甜椒和绿色甜椒的组合。"]
+	quest.0D04BCF5940E2AF1.quest_desc: ["蓝玉玉米配阿兹特克黑玉米，得到珍珠甜玉米。"]
+	quest.126CCC6B187C0B18.quest_desc: ["最后，阿兹特克黑玉米配珍珠甜玉米，就得到彩色玉米。"]
+	quest.15474BAF1997CD27.quest_subtitle: "紫色"
+	quest.15474BAF1997CD27.title: "&5桔梗"
+	quest.158978D35BDA805D.quest_desc: ["这是树莓……和金黄番茄的混合？\\n\\n可一个是莓果一个是番茄啊？这根本说不通！"]
+	quest.167554E0A562B60A.quest_desc: ["红色甜椒和黄色甜椒的混合！\\n\\n这个应该挺显而易见的……毕竟是橙色嘛……"]
+	quest.1699BD1B8B348B7C.quest_desc: ["蓝玉玉米配黄马齿玉米，得到阿兹特克黑玉米。"]
+	quest.2117CE8C21A9EE98.quest_desc: ["红色甜椒和黑色甜椒的组合。"]
+	quest.223F47BDD763F306.quest_desc: ["樱桃番茄有几率随机变异成巧克力梨番茄。\\n\\n巧克力和梨是从哪儿冒出来的我也不知道，但行吧！"]
+	quest.244B10862943A802.quest_subtitle: "疯狂世界"
+	quest.2AFB12E742596864.quest_desc: ["&a农场控制器&r是&a&l自动农场&r的核心。这是一座多方块机器，任何农场都适用！\\n\\n怎么搭我放到下一条任务讲，这里只说怎么用。\\n\\n&a&l自动农场&r会让结构里的所有&2农作物&r自己生长、收割、补种。&a&l高效农业&r、&2&l神秘农业&r和&2&l原版&r的&2农作物&r统统都行！\\n\\n所有掉落物都收在控制器里，手动取或者接管道都可以。"]
+	quest.2AFB12E742596864.title: "&a&l自动农场"
+	quest.2BFC97460B4B49F1.quest_desc: ["巧克力梨番茄配黄梨番茄，得到金黄番茄。"]
+	quest.2CFD0DF119CC5E85.quest_desc: [
+		"接下来是搭建部分。先说用什么方块。\\n\\n你会看到一长串可用方块，它们都能拿来搭这座&a&l结构&r。\\n\\n（基本上就是各种砖块和玻璃。）而且可以混着用，它不挑！\\n\\n所谓&a&l结构&r其实就是四面墙加里面的空间。墙要用上面那些方块，里面的体积不能超过某个上限。\\n\\n最小能搭 2x2 的&a&l自动农场&r。最大是内部体积 200 格。说体积是因为它按 2 格高来算，好把作物本身也算进去。也就是说，内部 10x10 就是最大尺寸了。\\n\\n里面放&2耕地&r、&9水&r，或者别的能种东西的介质。&2耕地&r照样需要&9水&r来保湿（推荐用 XyCraft 的&9水方块&r）。\\n\\n在&2农作物&r旁边或&2耕地&r上放肥料和生长加速器，一样能加速生长！"
+		"{image:atm:textures/questpics/pro_farming/farm_autofarm.png width:150 height:100 align:center}"
+	]
+	quest.2CFD0DF119CC5E85.title: "动手搭"
+	quest.2DB404AA2832F81D.quest_subtitle: "蓝色"
+	quest.2DB404AA2832F81D.title: "&9滨海刺芹"
+	quest.2F1B74D45E50A079.quest_subtitle: "群青色"
+	quest.2F1B74D45E50A079.title: "&9大蓝半边莲"
+	quest.3111C0CA63A82E7A.quest_desc: ["蓝玉玉米由黄马齿玉米和矢车菊做成。\\n\\n所以矢车菊的英文才叫 Cornflower（玉米花）嘛！"]
+	quest.33C3C334981AF72E.quest_desc: ["樱桃番茄和它的二段进化（这个梗我是不是已经用过一次了？）巧克力梨番茄，可以合成黄梨番茄。\\n\\n黄色又是哪来的？梨怎么又出现了？"]
+	quest.383EDBE9AAAF4C99.quest_subtitle: "麦克风线"
+	quest.3BB39CC4E8F40B67.quest_subtitle: "喂，1、2……1、2"
+	quest.3CBF4D703AA17199.quest_desc: ["&a&l高效农业&r是（写这段时）最新的一个 Productive 系列模组。\\n\\n它带来了一座自动农场多方块结构、若干新&2农作物&r，还有更多的&d花&r和相应的染料颜色！\\n\\n它还和&6&l资源蜜蜂&r以及&l&cD&6y&ee&an&ba&dm&ci&6c&es&r配合得天衣无缝！"]
+	quest.3CBF4D703AA17199.quest_subtitle: "他到底还要做多少个模组？"
+	quest.3CBF4D703AA17199.title: "&a&l高效农业"
+	quest.3E57854E27545581.quest_desc: ["橙色甜椒和黄色甜椒的混合。"]
+	quest.42AE629EBAA3AA94.quest_subtitle: "紫色"
+	quest.42AE629EBAA3AA94.title: "&5黄芩"
+	quest.439705A42B6DC4D1.quest_subtitle: "棕色"
+	quest.439705A42B6DC4D1.title: "&8香蒲"
+	quest.44DA8B6C651B3456.quest_desc: ["枸杞配金黄树莓，得到神秘果。\\n\\n神秘果有个神奇的本事：它能改造你的味蕾，让你尝不出酸味。于是所有本该发酸的东西，吃起来全是甜的！\\n\\n来，试试看！"]
+	quest.46932B57EF21D346.quest_desc: ["&9灌溉槽&r是另一个能帮上动物的方块。\\n\\n不过它收的不是&c动物饲料&r，而是&9水桶&r！\\n\\n幼年动物待在&9灌溉槽&r附近时，会比不在附近的长得更快。\\n\\n别忘了时不时给它续&9水&r！"]
+	quest.46932B57EF21D346.title: "&9灌溉槽"
+	quest.48323FABB7E3D31E.quest_desc: ["把罗马番茄和它的二段进化牛排番茄合到一起，就得到蓝美人番茄。\\n\\n不过也有几率出成另外两种番茄。"]
+	quest.4B2754CD11FFE247.quest_subtitle: "栗红色"
+	quest.4B2754CD11FFE247.title: "&4孤挺花"
+	quest.507821D8F9C064CF.quest_desc: ["青葡萄配红葡萄，得到康克葡萄。\\n\\n也就是俗称的紫葡萄！"]
+	quest.512A525B513DA118.quest_subtitle: "品红色"
+	quest.512A525B513DA118.title: "&d菊花"
+	quest.523AD3D448DE58A6.quest_subtitle: "灰色"
+	quest.523AD3D448DE58A6.title: "&7铁筷子"
+	quest.53CD2E3D27601F3F.quest_subtitle: "冰蓝色"
+	quest.53CD2E3D27601F3F.title: "&b蓝花丹"
+	quest.540F3CA118762DDB.quest_desc: ["&c饲料槽&r是&a&l高效农业&r加入的方块。\\n\\n它有 9 个格子，每格能放一组&c动物饲料&r，饲料要用管道送进去。\\n\\n什么算&c动物饲料&r？\\n\\n凡是能让两只同种动物繁殖的东西都行！小麦？行！竹子？行！只要保证竹子种在它们旁边就好。"]
+	quest.540F3CA118762DDB.title: "&c饲料槽"
+	quest.5854DA8F791AD71F.quest_subtitle: "绿色"
+	quest.5854DA8F791AD71F.title: "&2刺荨麻"
+	quest.5969AEE09A61EC16.quest_desc: ["把罗马番茄和它的二段进化牛排番茄合到一起，就得到奶白番茄。\\n\\n不过也有几率出成另外两种番茄。"]
+	quest.5B21A7A5ED1DDABB.quest_desc: ["牛排番茄可以由罗马番茄随机变异得来。"]
+	quest.5E4DE1FFA8A45C6D.quest_desc: ["&d花&r！首先，这些漂亮的新&d花&r要怎么弄到？\\n\\n跟别的&d花&r一样，对&2草&r用骨粉就行。抱歉，&d花海&r在&b空岛&r上帮不上什么忙。\\n\\n每种&d花&r长什么样，看它们各自那条任务！\\n\\n不过颜色可能会变。因为我们有了新的&6杂交&r玩法。\\n\\n如果&6蜂箱&r里的&6蜜蜂&r装了&a花粉升级&r，它们&a授粉&r到哪儿，就会把那里&d花&r的种类和颜色&6杂交&r掉。\\n\\n新的&d花&r会长在旧&d花&r附近的&2草&r上，要么和旧&d花&r同种但换一种颜色，要么是两种颜色调和出来的新色。\\n\\n也就是说，你可能会得到&9蓝色的虞美人&f、&4栗红色的香蒲&r，甚至白色郁金香！哦等等，那是&2&l原版&r的&d花&r……"]
+	quest.5E4DE1FFA8A45C6D.title: "&d群芳"
+	quest.60521AAE8BAA32C5.quest_subtitle: "粉红色"
+	quest.60521AAE8BAA32C5.title: "&d绣球花"
+	quest.6479A38086A43E49.quest_subtitle: "琥珀黄色"
+	quest.6479A38086A43E49.title: "&e百日菊"
+	quest.66D27708343F9DB4.quest_desc: ["青葡萄配康克葡萄，得到棉花糖葡萄。\\n\\n它吃起来其实更像生日蛋糕味的葡萄，而不是棉花糖……不过还是很好吃！"]
+	quest.699F91BC5CA58FE2.quest_desc: ["想拿到这些&2农作物&r，得跟农民村民买它们的&2种子&f或&2作物&r。\\n\\n别问他们是从哪弄来的……\\n\\n农民会用&a绿宝石&r跟你换&2种子&f或&2作物&r，一直到 5 级为止——5 级不再有新的&2种子&f或&2作物&r了。\\n\\n农民卖哪一种&2种子&f或&2作物&r是不是完全随机的？没错！所以换堆肥桶换到手软，祝你好运！\\n\\n这种时候，能传送到村庄的道具就派上用场了。"]
+	quest.699F91BC5CA58FE2.title: "&2农作物"
+	quest.6AF7427DCA9D66D2.quest_subtitle: "黑色"
+	quest.6AF7427DCA9D66D2.title: "&0大丽花"
+	quest.6C31A50068FBA0EE.quest_subtitle: "灰色"
+	quest.6C31A50068FBA0EE.title: "&8黑须鸢尾"
+	quest.7264CC40170E461A.quest_desc: ["把罗马番茄和它的二段进化牛排番茄合到一起，就得到黑美人番茄。\\n\\n不过也有几率出成另外两种番茄。"]
+	quest.739C0DB291B1563C.quest_subtitle: "白色"
+	quest.7514CF65A077985E.quest_subtitle: "淡蓝色"
+	quest.7514CF65A077985E.title: "&b藿香叶绿绒蒿"
+	quest.7EF3DB8B5258FA34.quest_subtitle: "岩桃色"
+	quest.7EF3DB8B5258FA34.title: "&6益母草"
+	task.0A074866CCBD8FD5.title: "农场方块"
+}

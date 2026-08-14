@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""为某个 ATM10 版本建 VaultPatcher 的**专属**数据库。
+"""为某个 All the Mons 版本建 VaultPatcher 的**专属**数据库。
 
 ## 为什么要一版一份
 

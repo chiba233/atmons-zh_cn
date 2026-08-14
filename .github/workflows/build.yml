@@ -114,7 +114,7 @@ jobs:
           echo "将构建: $IN"
 
 
-      # ATM10 的某个已发布版本，overrides 内容是不会变的，所以缓存键就用仓库里记的
+      # 整合包的某个已发布版本，overrides 内容是不会变的，所以缓存键就用仓库里记的
       # 那三个指纹——只有我们**有意**改了目标版本时才会失效。
       # 这一步是为了把 CurseForge（全链唯一不可控的外部依赖）从最高频的那道闸上挪开：
       # 命中缓存就完全不联网；未命中才下，且下完必须与 versions/<版本>/overrides.sha256
@@ -130,7 +130,7 @@ jobs:
           # 生成器要读 mod jar 里的 en_us 与注册表，取最新那版一次即可
           # （资源包 lang 按命名空间索引，跨版本通用）。
           NEWEST=$(ls -d versions/[0-9]* | xargs -n1 basename | sort -V | tail -1)
-          echo "以 ATM10 $NEWEST 为生成基准"
+          echo "以 整合包 $NEWEST 为生成基准"
           echo "NEWEST=$NEWEST" >> "$GITHUB_ENV"
           # 新版本首次入库：指纹由**这里**算并写出来，不许拿开发机下载的数当基线
           # （本机可能限速、断流、少下几个 jar，而这些都看不出来）。
@@ -166,7 +166,7 @@ jobs:
         if: env.NEW_VERSION == '1'
         run: |
           set -euo pipefail
-          echo "versions/db/$NEWEST/ 还不存在——这是 ATM10 $NEWEST 第一次进本仓库。"
+          echo "versions/db/$NEWEST/ 还不存在——这是 整合包 $NEWEST 第一次进本仓库。"
           python3 scripts/build_version_db.py "$NEWEST" pack/mods
           python3 scripts/build_en_baseline.py "$NEWEST" pack/mods pack
           # 按键分类的注册名同样是**入库数据**，check.py 的按键闸靠它。漏掉它的话，
@@ -190,7 +190,7 @@ jobs:
       - name: 基线没入库就到此为止
         if: env.NEW_VERSION == '1'
         run: |
-          echo "❌ ATM10 $NEWEST 的基线刚由本次 CI 生成，尚未提交进仓库。"
+          echo "❌ 整合包 $NEWEST 的基线刚由本次 CI 生成，尚未提交进仓库。"
           echo "   下载 artifact「new-version-baseline-$NEWEST」，人工核对后提交："
           echo "     versions/$NEWEST/overrides.sha256   （官方 overrides 的内容指纹）"
           echo "     versions/db/$NEWEST/                （jar 字节基线 / 英文底本）"
@@ -215,7 +215,7 @@ jobs:
             echo "全部在册版本都已有育种结构基线"; exit 0
           fi
           for v in $missing; do
-            echo "───── ATM10 $v 缺基线，现扫 ─────"
+            echo "───── 整合包 $v 缺基线，现扫 ─────"
             python3 scripts/fetch_one_jar.py "$v" productivetrees "build/packsrc/$v/mods"
             python3 scripts/scan_productive_trees.py "$v" "build/packsrc/$v"
           done
@@ -263,7 +263,7 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: atm10-zh_cn-${{ github.event.inputs.patch_version || 'dev' }}
+          name: atmons-zh_cn-${{ github.event.inputs.patch_version || 'dev' }}
           path: dist/*.zip
           retention-days: 30
 

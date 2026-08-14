@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """资源蜜蜂汉化生成器 —— 单一真源，产出双端脚本。
@@ -165,7 +165,7 @@ function pbTranslate(s) {
 }
 '''
 
-    client = ('// ATM10 汉化补丁 · 资源蜜蜂显示层 (蜂笼/基因样本/蜜蜂小食 tooltip + 实体名牌)\n'
+    client = ('// 汉化补丁 · 资源蜜蜂显示层 (蜂笼/基因样本/蜜蜂小食 tooltip + 实体名牌)\n'
               '// Copyright (C) 2026 星野夢華 (Hoshino Yumeka) · SPDX-License-Identifier: GPL-3.0-or-later\n'
               '// !! 本文件由 scripts/gen_pb_hanhua.py 生成，勿手改；译名真源是资源包 zh_cn !!\n'
               'const PB_ID2ZH = ' + j(id2zh) + ';\n'
@@ -213,7 +213,7 @@ console.info('[pb_hanhua] 显示层已注册 (ID:' + Object.keys(PB_ID2ZH).lengt
     + ' EN:' + Object.keys(PB_EN2ZH).length + ' TYPE:' + Object.keys(PB_TYPE2ZH).length + ')')
 ''')
 
-    server = ('// ATM10 汉化补丁 · 资源蜜蜂数据迁移 (服务端)\n'
+    server = ('// 汉化补丁 · 资源蜜蜂数据迁移 (服务端)\n'
               '// Copyright (C) 2026 星野夢華 (Hoshino Yumeka) · SPDX-License-Identifier: GPL-3.0-or-later\n'
               '// !! 本文件由 scripts/gen_pb_hanhua.py 生成，勿手改；译名真源是资源包 zh_cn !!\n'
               '// 只动纯显示字段（蜂笼 custom_data.name / 实体 CustomName），按 NBT 的\n'

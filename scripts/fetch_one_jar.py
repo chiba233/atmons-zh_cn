@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """按版本画像取**单个** jar，而不是为了一个 jar 去下整包。
@@ -57,7 +57,7 @@ def pick(ver, prefix):
         die('%s 里没有 jars 表' % db)
     hit = sorted(n for n in jars if n.lower().startswith(prefix.lower()))
     if len(hit) != 1:
-        die('ATM10 %s 里以 %r 开头的 jar 应恰有一个，实际 %d 个：%s'
+        die('整合包 %s 里以 %r 开头的 jar 应恰有一个，实际 %d 个：%s'
             % (ver, prefix, len(hit), '、'.join(hit) or '（无）'))
     name = hit[0]
     rec = jars[name]
@@ -113,7 +113,7 @@ def main(argv):
         CACHE.mkdir(parents=True, exist_ok=True)
         (CACHE / (rec['sha256'] + '.jar')).write_bytes(data)
     dest.write_bytes(data)
-    print('✅ ATM10 %s 的 %s → %s（%d 字节，%s，sha256 已核）'
+    print('✅ 整合包 %s 的 %s → %s（%d 字节，%s，sha256 已核）'
           % (ver, name, outdir, len(data), source))
     return 0
 

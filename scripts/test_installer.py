@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """安装脚本端到端测试（三平台 CI 共用）。
@@ -138,7 +138,7 @@ for _s in STALE:
     (inst / 'vaultpatcher' / 'modules' / _s).write_text('STALE', encoding='utf-8')
 
 # 模拟释放后的汉化文件夹（与 build_dist.sh 产物同构）
-rel = inst / 'ATM10-7.2-汉化补丁-绿油油版'
+rel = inst / 'ATMons-1.2.0-汉化补丁'
 rel.mkdir()
 for d in ('config', 'kubejs', 'mods', 'vaultpatcher'):
     shutil.copytree(TREE / d, rel / d)
@@ -272,7 +272,7 @@ for i in range(25):
     (spaced / 'mods' / f'modpack-{i}.jar').write_text('x', encoding='utf-8')
 SPACED_OPTS = 'version:4189\nresourcePacks:[]\n'
 (spaced / 'options.txt').write_text(SPACED_OPTS, encoding='utf-8')
-loose = tmp / 'loose' / 'ATM10-hanhua'   # 父目录 tmp/loose 不含 mods/options.txt
+loose = tmp / 'loose' / 'ATMons-hanhua'   # 父目录 tmp/loose 不含 mods/options.txt
 loose.mkdir(parents=True)
 (loose / 'config').mkdir()
 fill_payload(loose)
@@ -360,7 +360,7 @@ fresh = tmp / '全新 实例 never-launched'
 (fresh / 'mods').mkdir(parents=True)
 for i in range(25):
     (fresh / 'mods' / f'modpack-{i}.jar').write_text('x', encoding='utf-8')
-frel = fresh / 'atm10-zh_cn-client'
+frel = fresh / 'atmons-zh_cn-client'
 frel.mkdir()
 for d in ('config', 'kubejs', 'mods', 'vaultpatcher'):
     shutil.copytree(TREE / d, frel / d)
@@ -407,7 +407,7 @@ for i in range(25):
     (played / 'mods' / f'modpack-{i}.jar').write_text('x', encoding='utf-8')
 (played / 'logs').mkdir()                      # 启动过的痕迹
 (played / 'saves').mkdir()
-prel = played / 'ATM10-hanhua'
+prel = played / 'ATMons-hanhua'
 prel.mkdir()
 (prel / 'config').mkdir()
 fill_payload(prel)
@@ -425,7 +425,7 @@ print('✅ 玩过的实例缺 options.txt 时拒绝新建 OK')
 # 结尾的 "]"。但 Minecraft 在 **Windows** 上运行时，Java 的 println 按系统行尾写
 # options.txt，也就是 CRLF；这样的行被 grep 取出来结尾其实是 "]\r" 而不是 "]"，
 # "${body%]}" 匹配不上、什么都不剥，最终拼出
-#   resourcePacks:[...]\r,"file/ATM10汉化包-7.2.zip"]
+#   resourcePacks:[...]\r,"file/ATMons汉化包-1.2.0.zip"]
 # 这种中间多出一个 "]"、还嵌着散落 \r 的坏行——数组语法已经损坏，游戏读出来的
 # 资源包列表是错的，汉化包实际没启用。这种 CRLF 文件不是假设：实例目录如果被
 # 同步/搬去 Windows 上启动过一次，再拿回 Mac/Linux 装这个包，options.txt 就是
@@ -446,7 +446,7 @@ def resline_case(name, opts_text):
     for i in range(25):
         (instd / 'mods' / f'modpack-{i}.jar').write_text('x', encoding='utf-8')
     (instd / 'options.txt').write_bytes(opts_text.encode('utf-8'))
-    reld = instd / 'ATM10-hanhua'
+    reld = instd / 'ATMons-hanhua'
     reld.mkdir()
     (reld / 'config').mkdir()
     fill_payload(reld)
@@ -536,13 +536,13 @@ def _asset(name, digest=True):
 
 
 FAKE_RELEASE = ('{\n  "tag_name": "vr99",\n  "assets": [\n    ' + ',\n    '.join(
-    [_asset('atm10-zh_cn-client-r99-atm%s.zip' % v) for v in ('7.0', '7.1', '7.2')]
-    + [_asset('atm10-zh_cn-server-r99-atm%s.zip' % v) for v in ('7.0', '7.1', '7.2')]
+    [_asset('atmons-zh_cn-client-r99-mons%s.zip' % v) for v in ('1.0.0', '1.1.0', '1.2.0')]
+    + [_asset('atmons-zh_cn-server-r99-mons%s.zip' % v) for v in ('1.0.0', '1.1.0', '1.2.0')]
 ) + '\n  ]\n}\n')
 
 
 def pick_asset(mcver, release_json):
-    """把 install.sh 里的 pick_client_asset 抠出来，按指定 ATM 版本跑一遍。"""
+    """把 install.sh 里的 pick_client_asset 抠出来，按指定整合包版本跑一遍。"""
     src = (ROOT / 'installer' / 'install.sh').read_text(encoding='utf-8').replace('@@MCVER@@', mcver)
     m = re.search(r'^pick_client_asset\(\) \{.*?^\}', src, re.S | re.M)
     assert m, 'install.sh 里找不到 pick_client_asset —— 改名了就要同步改这个测试'
@@ -556,18 +556,18 @@ def pick_asset(mcver, release_json):
 
 
 if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
-    for ver in ('7.0', '7.1', '7.2'):
+    for ver in ('1.0.0', '1.1.0', '1.2.0'):
         rc, got = pick_asset(ver, FAKE_RELEASE)
-        assert rc == 0, f'ATM {ver}：pick_client_asset 退出码 {rc}'
-        want = 'atm10-zh_cn-client-r99-atm%s.zip' % ver
-        assert got and got[0] == want, f'ATM {ver}：挑成了 {got[:1]}，应为 {want}'
-        assert len(got) == 3 and re.fullmatch(r'[0-9a-f]{64}', got[2]), f'ATM {ver}：摘要不对 {got}'
-    rc, got = pick_asset('7.2', FAKE_RELEASE.replace('"digest"', '"nodigest"'))
+        assert rc == 0, f'{ver}：pick_client_asset 退出码 {rc}'
+        want = 'atmons-zh_cn-client-r99-mons%s.zip' % ver
+        assert got and got[0] == want, f'{ver}：挑成了 {got[:1]}，应为 {want}'
+        assert len(got) == 3 and re.fullmatch(r'[0-9a-f]{64}', got[2]), f'{ver}：摘要不对 {got}'
+    rc, got = pick_asset('1.2.0', FAKE_RELEASE.replace('"digest"', '"nodigest"'))
     assert rc != 0 or not got, f'缺 sha256 摘要时不该挑得出 asset：rc={rc} got={got}'
-    only_72 = '{"tag_name": "vr99", "assets": [%s]}' % _asset('atm10-zh_cn-client-r99-atm7.2.zip')
-    rc, got = pick_asset('7.0', only_72)
+    only_one = '{"tag_name": "vr99", "assets": [%s]}' % _asset('atmons-zh_cn-client-r99-mons1.2.0.zip')
+    rc, got = pick_asset('1.0.0', only_one)
     assert rc != 0 or not got, f'该版没有对应包时不该挑到别版：rc={rc} got={got}'
-    print('✅ 一键更新挑包：按 ATM 版本精确匹配 + 缺摘要拒绝 OK')
+    print('✅ 一键更新挑包：按整合包版本精确匹配 + 缺摘要拒绝 OK')
 
 # ---- 一键更新：端到端（离线，本地 HTTP 服务喂一个假 Release）------------
 # 上一段只测了「挑哪个 asset」。这里把剩下的整条链跑一遍：
@@ -630,22 +630,22 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
                       .replace('@@DEFAULT_PACKS@@', DEFAULT_PACKS)
                       .replace('https://api.github.com', BASE))
                 if mark == 'NEW':      # 水印：验证原入口的脚本确实被换成了新版
-                    t += '\n# ATM10-TEST-NEW-INSTALLER\n'
+                    t += '\n# ATMONS-TEST-NEW-INSTALLER\n'
                 (d / s_).write_text(t, encoding='utf-8')
 
-        srcd = instd / 'atm10-zh_cn-client'
+        srcd = instd / 'atmons-zh_cn-client'
         srcd.mkdir()
         payload(srcd, 'OLD')
-        newd = root / 'newpkg' / 'atm10-zh_cn-client'
+        newd = root / 'newpkg' / 'atmons-zh_cn-client'
         newd.mkdir(parents=True)
         payload(newd, 'NEW')
 
-        zname = f'atm10-zh_cn-client-r99-atm{MCVER}.zip'
+        zname = f'atmons-zh_cn-client-r99-atm{MCVER}.zip'
         zpath = root / zname
         with zipfile.ZipFile(zpath, 'w', zipfile.ZIP_DEFLATED) as z:
             for q in newd.rglob('*'):
                 if q.is_file():
-                    z.write(q, ('atm10-zh_cn-client/' + q.relative_to(newd).as_posix()))
+                    z.write(q, ('atmons-zh_cn-client/' + q.relative_to(newd).as_posix()))
         blob = zpath.read_bytes()
         sha = hashlib.sha256(blob).hexdigest()
         if break_digest:
@@ -659,7 +659,7 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
                 'browser_download_url': f'{BASE}/dl/{tag}/{zname}',
             }],
         })
-        SERVED[f'/repos/chiba233/atm10-zh-cn/releases/latest'] = ('application/json',
+        SERVED[f'/repos/chiba233/atmons-zh_cn/releases/latest'] = ('application/json',
                                                                   rel_json.encode())
         SERVED[f'/dl/{tag}/{zname}'] = ('application/zip', blob)
         return instd, srcd
@@ -680,10 +680,10 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
         f'实例里落地的不是新版 payload：\n{out}'
     assert (srcd / 'vaultpatcher' / 'modules' / 'probe.json').read_text(encoding='utf-8') == 'NEW', \
         f'原安装包目录没被换成新版 payload：\n{out}'
-    assert 'ATM10-TEST-NEW-INSTALLER' in (srcd / 'install.sh').read_text(encoding='utf-8'), \
+    assert 'ATMONS-TEST-NEW-INSTALLER' in (srcd / 'install.sh').read_text(encoding='utf-8'), \
         f'原入口的 install.sh 没被换成新版：\n{out}'
     assert any((srcd / 'backups').glob('*')), f'新版安装器的备份没归并回原入口：\n{out}'
-    assert list(instd.glob('.atm10-hanhua-update-*')), f'没留下新版安装器目录：\n{out}'
+    assert list(instd.glob('.atmons-hanhua-update-*')), f'没留下新版安装器目录：\n{out}'
 
     # ② 摘要对不上：必须拒绝，且实例与原入口一个字节都不许动
     instd2, srcd2 = make_case('bad', break_digest=True)
@@ -693,7 +693,7 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
     out2 = (r.stdout or '') + (r.stderr or '')
     assert 'SHA-256' in out2, f'摘要不符时没报出来：\n{out2}'
     assert not (instd2 / 'vaultpatcher').exists(), f'摘要不符却已经动了实例：\n{out2}'
-    assert 'ATM10-TEST-NEW-INSTALLER' not in (srcd2 / 'install.sh').read_text(encoding='utf-8'), \
+    assert 'ATMONS-TEST-NEW-INSTALLER' not in (srcd2 / 'install.sh').read_text(encoding='utf-8'), \
         f'摘要不符却已经换掉了原入口的安装器：\n{out2}'
     # ③ 关闭开关时一步都不许走：不联网、不下载、不动任何文件
     instd3, srcd3 = make_case('off')
@@ -702,7 +702,7 @@ if not IS_WIN:                       # install.sh 只跑在 macOS / Linux
                        timeout=300, env={**UPD_ENV, 'ATM_SKIP_UPDATE_CHECK': '1'})
     out3 = (r.stdout or '') + (r.stderr or '')
     assert not (instd3 / 'vaultpatcher').exists(), f'关了更新检查却还是动了实例：\n{out3}'
-    assert not list(instd3.glob('.atm10-hanhua-update-*')), f'关了更新检查却还是下载了：\n{out3}'
+    assert not list(instd3.glob('.atmons-hanhua-update-*')), f'关了更新检查却还是下载了：\n{out3}'
 
     # ④ 回归：菜单里得真的**列出** [u]，否则一键更新等于不存在
     #
@@ -744,7 +744,7 @@ def build_case(root, opts=OPTS_BEFORE):
     for i in range(25):
         (ins / 'mods' / f'modpack-{i}.jar').write_text('x', encoding='utf-8')
     (ins / 'options.txt').write_text(opts, encoding='utf-8')
-    reld = ins / 'ATM10-汉化补丁'
+    reld = ins / 'ATMons-汉化补丁'
     reld.mkdir()
     for d in ('config', 'kubejs', 'mods', 'vaultpatcher'):
         shutil.copytree(TREE / d, reld / d)

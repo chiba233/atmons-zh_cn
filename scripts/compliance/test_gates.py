@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """闸的反例测试：造一批**故意违规**的样本，验每道闸真的会红。
@@ -202,7 +202,7 @@ def _c15(mods):
     # 夹具自带这份 lang，不去读真文件：ci.yml 里 test_gates 跑在 assemble.py
     # 之前，那时出货树还不存在，靠真文件就等于这条反例在 CI 里从来没撞过——
     # 而且 glob 落空时闸自爆，输出里照样带着规则 id，反例会假绿。
-    d = (mods.parent.parent / 'resourcepacks' / 'ATM10汉化包'
+    d = (mods.parent.parent / 'resourcepacks' / 'ATMons汉化包'
          / 'assets' / 'allthecompressed' / 'lang')
     d.mkdir(parents=True, exist_ok=True)
     (d / 'zh_cn.json').write_text(json.dumps({
@@ -217,7 +217,7 @@ def _c9(mods):
     # issue #8 的形状：`\n` 在 tooltip 里不断行，而是被当成普通字符去查字形，
     # unifont 给控制字符画的是一个写着 LF 的方框。上游 en_us 自己就带这些换行，
     # 升版重导上游译文时会原样带回来，所以要有闸。
-    p = (mods.parent.parent / 'resourcepacks' / 'ATM10汉化包' /
+    p = (mods.parent.parent / 'resourcepacks' / 'ATMons汉化包' /
          'assets' / 'occultism' / 'lang' / 'zh_cn.json')
     d = json.loads(p.read_text(encoding='utf-8')) if p.is_file() else {}
     d['item.occultism.chalk_rainbow.auto_tooltip'] = '可代替任意粉笔符文。\n它可以呈现出任何彩色符文的外观。'
@@ -229,7 +229,7 @@ def _relics_lang(root, extra):
     """夹具自带这份 lang。理由同 _c15：test_gates 跑在 assemble.py 之前，
     出货树还不存在，靠真文件等于反例在 CI 里从来没撞过；而 glob 落空时闸自爆，
     输出里照样带规则 id，反例会假绿。"""
-    p = (root / 'resourcepacks' / 'ATM10汉化包'
+    p = (root / 'resourcepacks' / 'ATMons汉化包'
          / 'assets' / 'relics' / 'lang' / 'zh_cn.json')
     d = {'relics.description.reflective_necklace.ability.reflection.description':
          '当遗物持有者受到伤害时，有%1$s%%的概率生成一个能量球。'}
@@ -466,7 +466,7 @@ def _ijp_fixture(tmp, tiers, keys, make_config=True):
                 encoding='utf-8')
     else:
         up.mkdir(parents=True, exist_ok=True)
-    lang = (tmp / 'ijptree' / 'resourcepacks' / 'ATM10汉化包'
+    lang = (tmp / 'ijptree' / 'resourcepacks' / 'ATMons汉化包'
             / 'assets' / 'ironjetpacks' / 'lang')
     lang.mkdir(parents=True, exist_ok=True)
     (lang / 'zh_cn.json').write_text(
@@ -558,7 +558,7 @@ def _bee_fixture(tmp, en_quest, zh_quest, en_names=None, zh_names=None):
     zq.mkdir(parents=True, exist_ok=True)
     (zq / 'zz_hanhua_c.snbt').write_text('{\n\tquest.AAA.quest_desc: "%s"\n}\n' % zh_quest,
                                          encoding='utf-8')
-    zl = tree / 'resourcepacks' / 'ATM10汉化包' / 'assets' / 'productivebees' / 'lang'
+    zl = tree / 'resourcepacks' / 'ATMons汉化包' / 'assets' / 'productivebees' / 'lang'
     zl.mkdir(parents=True, exist_ok=True)
     (zl / 'zh_cn.json').write_text(json.dumps(zh_names, ensure_ascii=False),
                                    encoding='utf-8')
@@ -927,7 +927,7 @@ def _probe_fixture(tmp, consts, lang, ns_dir=None, drop_lang=False):
         + ''.join("  const %s = '%s'\n" % kv for kv in consts.items())
         + '})()\n', encoding='utf-8')
     if not drop_lang:
-        ld = (tree / 'resourcepacks' / 'ATM10汉化包' / 'assets'
+        ld = (tree / 'resourcepacks' / 'ATMons汉化包' / 'assets'
               / (ns_dir or consts['PROBE_NAMESPACE']) / 'lang')
         ld.mkdir(parents=True, exist_ok=True)
         (ld / 'zh_cn.json').write_text(json.dumps(lang, ensure_ascii=False),
@@ -943,16 +943,16 @@ def _probe_run(tmp, tree):
     return r.returncode, r.stdout + r.stderr
 
 
-_PROBE_OK = {'PROBE_KEY': 'atm10zhcn.pack.version',
-             'PROBE_NAMESPACE': 'atm10zhcn',
+_PROBE_OK = {'PROBE_KEY': 'atmonszhcn.pack.version',
+             'PROBE_NAMESPACE': 'atmonszhcn',
              'PACK_VERSION': 'r19'}
 
 
 @missing_case('探针键名与值都跟脚本对得上 → 必须绿（证明这道闸不是一律红）')
 def _m33(tmp, tree):
-    t = _probe_fixture(tmp, _PROBE_OK, {'atm10zhcn.pack.version': 'r19'})
+    t = _probe_fixture(tmp, _PROBE_OK, {'atmonszhcn.pack.version': 'r19'})
     rc, out = _probe_run(tmp, t)
-    return rc == 0 and 'atm10zhcn.pack.version' in out
+    return rc == 0 and 'atmonszhcn.pack.version' in out
 
 
 @missing_case('资源包里根本没有探针 lang → 必须红')
@@ -964,14 +964,14 @@ def _m34(tmp, tree):
 
 @missing_case('探针键名与脚本里的 PROBE_KEY 不一致 → 必须红')
 def _m35(tmp, tree):
-    t = _probe_fixture(tmp, _PROBE_OK, {'atm10zhcn.pack.ver': 'r19'})
+    t = _probe_fixture(tmp, _PROBE_OK, {'atmonszhcn.pack.ver': 'r19'})
     rc, out = _probe_run(tmp, t)
     return rc != 0 and '没有键' in out
 
 
 @missing_case('探针值与脚本里的 PACK_VERSION 不一致 → 必须红（否则误报旧包）')
 def _m36(tmp, tree):
-    t = _probe_fixture(tmp, _PROBE_OK, {'atm10zhcn.pack.version': 'r18'})
+    t = _probe_fixture(tmp, _PROBE_OK, {'atmonszhcn.pack.version': 'r18'})
     rc, out = _probe_run(tmp, t)
     return rc != 0 and '与脚本对不上' in out
 
@@ -979,15 +979,15 @@ def _m36(tmp, tree):
 @missing_case('版本号还是 @@PATCHVER@@ → 必须红，不许把占位符发出去')
 def _m37(tmp, tree):
     consts = dict(_PROBE_OK, PACK_VERSION='@@PATCHVER@@')
-    t = _probe_fixture(tmp, consts, {'atm10zhcn.pack.version': '@@PATCHVER@@'})
+    t = _probe_fixture(tmp, consts, {'atmonszhcn.pack.version': '@@PATCHVER@@'})
     rc, out = _probe_run(tmp, t)
     return rc != 0 and '还是占位符' in out
 
 
 @missing_case('lang 放到了别的命名空间目录下 → 必须红（顺序自检会认不出自己）')
 def _m38(tmp, tree):
-    t = _probe_fixture(tmp, _PROBE_OK, {'atm10zhcn.pack.version': 'r19'},
-                       ns_dir='atm10hanhua')
+    t = _probe_fixture(tmp, _PROBE_OK, {'atmonszhcn.pack.version': 'r19'},
+                       ns_dir='atmonshanhua')
     rc, out = _probe_run(tmp, t)
     return rc != 0 and '缺少探针文件' in out
 

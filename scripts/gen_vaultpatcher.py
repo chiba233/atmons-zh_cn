@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """产出某个整合包版本的 VaultPatcher 模块。
@@ -191,7 +191,7 @@ def main(ver, out_dir):
         else:
             # 该版本里一个目标类都找不到：模块留着无害（匹配靠 target_class），
             # 但不能瞎填一个不存在的 jar 名。
-            head['desc'] = '硬编码文本汉化（ATM10 %s 里未找到目标类）' % ver
+            head['desc'] = '硬编码文本汉化（整合包 %s 里未找到目标类）' % ver
             head['mods'] = ''
             nojar.append(p.name)
         # 字段顺序照 VaultPatcher 自带样例：name, desc, authors, mods, dynamic, i18n
@@ -280,7 +280,7 @@ def main(ver, out_dir):
     cfg_path.write_text(json.dumps(cfg_out, ensure_ascii=False, indent=2) + '\n',
                         encoding='utf-8')
 
-    print('VaultPatcher 模块：%d 个（ATM10 %s 的 jar 名现填），主配置清单 %d 条'
+    print('VaultPatcher 模块：%d 个（整合包 %s 的 jar 名现填），主配置清单 %d 条'
           % (n, ver, len(names)))
     print('  dynamic 表合计 %d 对 / 预算 %d 对；摊平 @ 前缀 %d 个，去重 %d 对，'
           '片段键保留 @ 并单独成块 %d 条'

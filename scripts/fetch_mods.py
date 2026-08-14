@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """按 `src/mods.lock.json` 把随包分发的第三方 jar 取下来，逐个核 sha256。
@@ -31,7 +31,7 @@ from paths import BUILD, ROOT, SRC
 
 LOCK = SRC / 'mods.lock.json'
 CACHE = BUILD / 'modcache'
-UA = {'User-Agent': 'atm10-zh-cn/1.0 (+https://github.com/chiba233/atm10-zh-cn)'}
+UA = {'User-Agent': 'atmons-zh_cn/1.0 (+https://github.com/chiba233/atmons-zh_cn)'}
 
 
 def sha256(b):

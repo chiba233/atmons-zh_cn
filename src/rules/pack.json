@@ -2,13 +2,13 @@
   {
     "id": "pack-mcmeta-parses",
     "kind": "json_parses",
-    "glob": "resourcepacks/ATM10汉化包/pack.mcmeta",
+    "glob": "resourcepacks/ATMons汉化包/pack.mcmeta",
     "why": "pack.mcmeta 坏了整个资源包不加载，游戏不会报错，玩家看到的就是全英文。"
   },
   {
     "id": "pack-lang-parses",
     "kind": "json_parses",
-    "glob": "resourcepacks/ATM10汉化包/**/lang/*.json",
+    "glob": "resourcepacks/ATMons汉化包/**/lang/*.json",
     "why": "单个 lang 文件解析失败只会让那个命名空间静默回英文，日志里翻不出来。"
   },
   {
@@ -21,12 +21,12 @@
     "id": "js-no-const-inside-block",
     "kind": "js_no_const_inside_block",
     "glob": "kubejs/**/*.js",
-    "why": "2026-08-01 实机事故：更新检查脚本在 try 块里写 const，KubeJS 的 Rhino 抛 TypeError: redeclaration of var——它把块里的 const 提成了函数作用域的 var，执行到声明那句时撞上自己。**运行时才抛**，加载阶段照样 0 errors，躺在事件回调里就表现成「进游戏什么都没发生」，与「功能没被触发」无法区分，同一个坑连踩两次（第一次误判成 $ 前缀，去掉 $ 照样抛）。只拦「最内层花括号不是函数/箭头开的」这一种：拿全套 ATM10 kubejs 验过，上游几十处缩进 const 全在回调体顶层，写进普通块的只有本包一处。"
+    "why": "2026-08-01 实机事故：更新检查脚本在 try 块里写 const，KubeJS 的 Rhino 抛 TypeError: redeclaration of var——它把块里的 const 提成了函数作用域的 var，执行到声明那句时撞上自己。**运行时才抛**，加载阶段照样 0 errors，躺在事件回调里就表现成「进游戏什么都没发生」，与「功能没被触发」无法区分，同一个坑连踩两次（第一次误判成 $ 前缀，去掉 $ 照样抛）。只拦「最内层花括号不是函数/箭头开的」这一种：拿全套 All the Mons kubejs 验过，上游几十处缩进 const 全在回调体顶层，写进普通块的只有本包一处。"
   },
   {
     "id": "occultism-tooltip-no-newline",
     "kind": "lang_value_forbidden",
-    "glob": "resourcepacks/ATM10汉化包/assets/occultism/lang/zh_cn.json",
+    "glob": "resourcepacks/ATMons汉化包/assets/occultism/lang/zh_cn.json",
     "key_regex": "^item\\.occultism\\..*\\.(auto_tooltip|tooltip|tooltip_empty|tooltip_filled)$",
     "value_regex": "\n",
     "message": "{key} 的值里还留着换行符——物品 tooltip 不会换行，玩家看到的是一个「LF」方框",
@@ -35,7 +35,7 @@
   {
     "id": "modularrouters-tooltip-no-newline",
     "kind": "lang_value_forbidden",
-    "glob": "resourcepacks/ATM10汉化包/assets/modularrouters/lang/zh_cn.json",
+    "glob": "resourcepacks/ATMons汉化包/assets/modularrouters/lang/zh_cn.json",
     "key_regex": "^modularrouters\\.itemText\\.",
     "value_regex": "\n",
     "message": "{key} 的值里还留着换行符——物品 tooltip 不会换行，玩家看到的是一个「LF」方框",
@@ -44,7 +44,7 @@
   {
     "id": "relics-relic-is-yiwu",
     "kind": "lang_value_forbidden",
-    "glob": "resourcepacks/ATM10汉化包/assets/relics/lang/zh_cn.json",
+    "glob": "resourcepacks/ATMons汉化包/assets/relics/lang/zh_cn.json",
     "key_regex": "^relics\\.description\\.",
     "value_regex": "收藏品|持眼人",
     "message": "{key} 的值里把 relic 译成了「收藏品」或把 bearer 译成了「持眼人」——本表 118 个键都用「遗物」「遗物持有者」",
@@ -53,7 +53,7 @@
   {
     "id": "gui-choice-must-stay-english",
     "kind": "gui_choice_ascii",
-    "glob": "resourcepacks/ATM10汉化包/**/*.gui",
+    "glob": "resourcepacks/ATMons汉化包/**/*.gui",
     "why": "RFTools 系的 .gui 里 choice(...) 的第一个参数是协议值不是显示文本，翻了会崩。",
     "message": "choice('{value}') 是协议值，必须保持英文（翻译会崩溃）"
   },
@@ -70,20 +70,20 @@
   {
     "id": "productivebees-name-single-source",
     "kind": "pb_single_source",
-    "lang": "resourcepacks/ATM10汉化包/assets/productivebees/lang/zh_cn.json",
+    "lang": "resourcepacks/ATMons汉化包/assets/productivebees/lang/zh_cn.json",
     "script": "kubejs/client_scripts/pb_hanhua_tooltip.js",
     "why": "蜂名的唯一真源是资源包 zh_cn，脚本里的 PB_ID2ZH 由 gen_pb_hanhua.py 生成。两边漂移就会出现「JEI 里叫这个、tooltip 里叫那个」。脚本是生成物不入 git，干净 clone 里不存在时跳过即可。"
   },
   {
     "id": "gui-xml-parses",
     "kind": "xml_parses",
-    "glob": "resourcepacks/ATM10汉化包/assets/*/gui/**/*.xml",
+    "glob": "resourcepacks/ATMons汉化包/assets/*/gui/**/*.xml",
     "why": "界面 XML 坏了不会在构建时报错，要等玩家打开那个界面才崩（2026-07-28 市政厅事故）。"
   },
   {
     "id": "compressed-tier-family",
     "kind": "tiered_family",
-    "glob": "resourcepacks/ATM10汉化包/assets/allthecompressed/lang/zh_cn.json",
+    "glob": "resourcepacks/ATMons汉化包/assets/allthecompressed/lang/zh_cn.json",
     "key_regex": "^block\\.allthecompressed\\.(?P<stem>.+)_(?P<tier>[1-9])x$",
     "value_template": "块{tier}x",
     "why": "AllTheCompressed 的 1791 个方块名是 199 族各九档，词干和档位后缀都能从键名推出来，本来就不该靠人记。没有规则约束的那阵子，同一族里混过「1x远古原木」「远古原木 6x」「三重压缩远古原木」几种写法（2026-07-27 那棵树按这条规则查出 837 处），还出现过同族两档词干不同、JEI 里分不清哪个是哪个。"

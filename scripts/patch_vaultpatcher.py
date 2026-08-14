@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """给随包分发的 VaultPatcher 打两处性能补丁 —— 现拉源、现打、现编、现塞进 jar。
@@ -69,7 +69,7 @@ from paths import BUILD, SRC                                       # noqa: E402
 
 SPEC = SRC / 'mods' / 'vaultpatcher'
 CACHE = BUILD / 'vpcache'
-UA = {'User-Agent': 'atm10-zh-cn/1.0 (+https://github.com/chiba233/atm10-zh-cn)'}
+UA = {'User-Agent': 'atmons-zh_cn/1.0 (+https://github.com/chiba233/atmons-zh_cn)'}
 
 
 def sha256(b):
@@ -253,12 +253,12 @@ def main(tree):
                              '   manifest 的 release.target 要对齐**jar 里原有的 class 版本**，'
                              '不是对齐运行时。' % (name, b, a))
 
-        note = ('本 jar 由 atm10-zh-cn 修改过（GPL-3.0 第 5 条）。\n\n'
+        note = ('本 jar 由 atmons-zh_cn 修改过（GPL-3.0 第 5 条）。\n\n'
                 '基线：VaultPatcher %s（sha256 %s）\n'
                 '改动：%s\n\n'
                 '改动内容与理由见 src/mods/vaultpatcher/ 下的 manifest.json 与两个补丁映射，\n'
                 '构建脚本 scripts/patch_vaultpatcher.py。\n'
-                '仓库：https://github.com/chiba233/atm10-zh-cn\n'
+                '仓库：https://github.com/chiba233/atmons-zh_cn\n'
                 % (man['upstream']['ref'], man['jar']['sha256'],
                    '、'.join(sorted(n for n in man['upstream']['sources']))))
 

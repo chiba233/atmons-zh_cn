@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """自动化之火：把 tooltip 上那行橙色的仪式 ID 换成中文仪式名。
@@ -95,7 +95,7 @@ def main():
         raise SystemExit('❌ 锚点对不上：%s 应为 %r，实为 %r'
                          % (ANCHOR[0], ANCHOR[1], table.get(ANCHOR[0])))
 
-    js = ('// ATM10 汉化补丁 · 自动化之火：tooltip 上那行橙色仪式 ID → 中文仪式名\n'
+    js = ('// 汉化补丁 · 自动化之火：tooltip 上那行橙色仪式 ID → 中文仪式名\n'
           '// Copyright (C) 2026 星野夢華 (Hoshino Yumeka) '
           '· SPDX-License-Identifier: GPL-3.0-or-later\n'
           '// !! 本文件由 scripts/gen_occultism_flame.py 生成，勿手改；'

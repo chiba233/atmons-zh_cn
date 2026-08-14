@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 0xyk3r
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
@@ -223,7 +223,7 @@ def verify_versions(versions, zh):
             continue
         diff = sorted(set(a) ^ set(b)) + sorted(k for k in set(a) & set(b) if a[k] != b[k])
         raise DataError(
-            'ATM10 %s 与 %s 的育种公式不一致，%d 个键分叉：%s\n'
+            '整合包 %s 与 %s 的育种公式不一致，%d 个键分叉：%s\n'
             '   一份共用的生成物已经描述不了所有版本了。把分叉的那版拆成\n'
             '   versions/<版本>/quest_overrides.snbt 的专属覆盖。'
             % (base, v, len(diff), '、'.join(diff[:12]) + ('…' if len(diff) > 12 else '')))

@@ -57,5 +57,5 @@ body:
       options:
         - label: 我搜过现有 issue，没有重复。 / I searched existing issues and didn't find a duplicate.
           required: true
-        - label: 我确认资源包「ATM10汉化包-7.2」已在游戏内启用。 / The resource pack is enabled in-game.
+        - label: 我确认资源包「ATMons汉化包-7.2」已在游戏内启用。 / The resource pack is enabled in-game.
           required: true

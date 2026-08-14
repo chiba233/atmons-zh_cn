@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """把导览书译文反解成映射，存进 src/books/。
@@ -33,7 +33,7 @@ Patchouli / AE2 Guide / Modonomicon 这类导览书，译文是**上游 JSON 的
 改导览书译文的正确流程是**改构建出来的那份**，再反解回映射：
 
     ATM_PACK_ROOT=<整合包目录> ./scripts/generate_all.sh     # 书生成到 build/common
-    $EDITOR build/common/resourcepacks/ATM10汉化包/assets/…/x.json
+    $EDITOR build/common/resourcepacks/ATMons汉化包/assets/…/x.json
     python3 scripts/extract_books.py <整合包目录>/mods        # 反解回 src/books/
 
 本脚本**只更新它在译文树里真正看到的那些文件**，不动其余映射。早先它是「先清空

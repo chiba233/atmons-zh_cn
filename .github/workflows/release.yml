@@ -1,4 +1,4 @@
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 name: Release
@@ -70,7 +70,7 @@ jobs:
           #    还会覆盖已有 Release 的资产。（issue #9 P1-3）
           if [[ "$GITHUB_EVENT_NAME" == "push" && "$GITHUB_REF_TYPE" == "tag" ]]; then
             tag="$GITHUB_REF_NAME"
-            # 补丁版本号已与整合包版本解耦（产物名是 -<补丁版本>-atm<整合包版本>.zip），
+            # 补丁版本号已与整合包版本解耦（产物名是 -<补丁版本>-mons<整合包版本>.zip），
             # 所以 tag 认两种：
             #   新：vR12 / vr12 / v12 / v12.1 / vR12-beta2
             #   旧：v7.2-release11 / v7.2-beta6（历史 tag，继续认，别把老流程弄挂）
@@ -131,7 +131,7 @@ jobs:
         run: ./scripts/fetch_fonts.sh
 
 
-      # ATM10 的某个已发布版本，overrides 内容是不会变的，所以缓存键就用仓库里记的
+      # 整合包的某个已发布版本，overrides 内容是不会变的，所以缓存键就用仓库里记的
       # 那三个指纹——只有我们**有意**改了目标版本时才会失效。
       # 这一步是为了把 CurseForge（全链唯一不可控的外部依赖）从最高频的那道闸上挪开：
       # 命中缓存就完全不联网；未命中才下，且下完必须与 versions/<版本>/overrides.sha256
@@ -235,7 +235,7 @@ jobs:
               '> ## ⚠️ 下载前先看这两行' \
               '>' \
               '> **① 认文件名：带 `client` 的是玩家装的，带 `server` 的只有开服的人才需要。**' \
-              "> 例如 \`atm10-zh_cn-client-${RELEASE_VERSION}-atm${EX_MC}.zip\` 就是客户端的包。" \
+              "> 例如 \`atmons-zh_cn-client-${RELEASE_VERSION}-mons${EX_MC}.zip\` 就是客户端的包。" \
               "> 后面的 \`atm${EX_MC}\` 是**整合包版本**，按你自己那个整合包的版本挑。" \
               '>' \
               '> **② 装完进游戏检查：选项 → 资源包，汉化包必须在「已选」那一侧的最顶部**，' \
@@ -246,7 +246,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
           # 一次发版挂上全部整合包版本的包：
-          #   atm10-zh_cn-{client,server}-<补丁版本>-atm<整合包版本>.zip
+          #   atmons-zh_cn-{client,server}-<补丁版本>-mons<整合包版本>.zip
           # build_dist.sh 直接产出 ASCII 名（连解压出来的文件夹名也是 ASCII）——
           # 中文文件夹名在 Windows 各解压软件下编码不一致，用户拿到手就是乱码。
           # 每个声明过的整合包版本都必须有客户端 + 服务端两个包，缺一个就别发。
@@ -256,7 +256,7 @@ jobs:
           ZIPS=()
           for v in $(ls -d versions/[0-9]* | xargs -n1 basename); do
             for side in client server; do
-              f="dist/atm10-zh_cn-${side}-${RELEASE_VERSION}-atm${v}.zip"
+              f="dist/atmons-zh_cn-${side}-${RELEASE_VERSION}-mons${v}.zip"
               [ -f "$f" ] || { echo "❌ 缺少 $f"; exit 1; }
               ZIPS+=("$f")
             done

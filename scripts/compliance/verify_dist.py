@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """打完包之后，拆开 zip 逐项核内容——**发版前的最后一道闸**。
@@ -19,7 +19,7 @@
 阈值取实测值的八成左右，留出上游增删的正常波动，但拦得住「整块没了」。
 
 用法:
-    python3 scripts/verify_dist.py dist/atm10-zh_cn-client-r12-atm7.2.zip
+    python3 scripts/verify_dist.py dist/atmons-zh_cn-client-r12-mons1.2.0.zip
     python3 scripts/verify_dist.py dist/*.zip
 """
 import hashlib
@@ -124,7 +124,7 @@ def check(path):
         bad.append('包里没有「%s」——从别处拿到 zip 的人就没有任何说明了' % README)
 
     # 占位符必须已被打包脚本填掉。查**包里全部文本文件**，不只是安装器——
-    # 曾经只查 install.sh/ps1，结果 SERVER.md 里那句「适用于 ATM10 7.2 专用服务器」
+    # 曾经只查 install.sh/ps1，结果 SERVER.md 里那句「适用于 All the Mons 7.2 专用服务器」
     # 是写死的，7.0 / 7.1 的包里也印着 7.2，玩家报上来才发现。
     TEXT = ('.sh', '.ps1', '.bat', '.md', '.txt', '.json', '.snbt', '.js', '.mcmeta', '.url')
     # 这几份项目文档是**原样**分发的，不是模板；它们正文里会提到占位符本身

@@ -10,12 +10,12 @@
 - KubeJS 脚本 / VaultPatcher 模块可被恶意输入利用；
 
 请**不要**公开发 Issue，直接发邮件到 **qwq@qwwq.org**，
-标题注明 `[SECURITY] atm10-zh-cn`。会在 72 小时内回复。
+标题注明 `[SECURITY] atmons-zh_cn`。会在 72 小时内回复。
 
 If you find a security issue in this localization patch (installer script
 abuse, unexpected executable content in release packages, exploitable
 KubeJS/VaultPatcher behavior), please do **not** open a public issue.
-Email **qwq@qwwq.org** with subject `[SECURITY] atm10-zh-cn`.
+Email **qwq@qwwq.org** with subject `[SECURITY] atmons-zh_cn`.
 You will get a response within 72 hours.
 
 ## 范围说明 / Scope

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
-# ATM10 @@MCVER@@ 汉化补丁「绿油油版」安装器 (macOS / Linux)
+# All the Mons @@MCVER@@ 汉化补丁「绿油油版」安装器 (macOS / Linux)
 # 版本号一律用 @@MCVER@@ 占位，由 scripts/build_dist.sh 按目标整合包版本填。
-# 写死一个版本号的话，7.0 / 7.1 的包里会印着「ATM10 7.2」——三个包里两个是错的。
-# 用法：把整个汉化文件夹放进 ATM10 实例根目录后运行：
+# 写死一个版本号的话，7.0 / 7.1 的包里会印着「All the Mons 7.2」——三个包里两个是错的。
+# 用法：把整个汉化文件夹放进 All the Mons 实例根目录后运行：
 #   bash install.sh                    # 交互菜单
 #   bash install.sh apply              # 应用汉化（自动先备份，不含可选mods）
 #   bash install.sh apply-with-pinyin  # 应用汉化 + 安装可选 JEI 拼音搜索 mod
@@ -17,7 +17,7 @@ cd "$(dirname "$0")"
 SCRIPT_DIR="$(pwd)"
 TARGET="$(cd .. && pwd)"
 PACK_DIRS="config kubejs mods resourcepacks vaultpatcher"
-PACK_ENTRY='file/ATM10汉化包-@@MCVER@@.zip'
+PACK_ENTRY='file/ATMons汉化包-@@MCVER@@.zip'
 PINYIN_DIR="可选mods-拼音搜索"
 TS=""
 BK=""
@@ -30,7 +30,7 @@ say() { printf '%s\n' "$*"; }
 # ── 版本检查 ────────────────────────────────────────────────────────────
 # 补丁自己的版本号，由 build_dist.sh 现填（写死的话每次发版都得记得改，必然忘）。
 PATCH_VER="@@PATCHVER@@"
-REPO="chiba233/atm10-zh-cn"
+REPO="chiba233/atmons-zh_cn"
 
 # 取仓库最新**正式版**的 tag。GitHub 的 releases/latest 天然跳过预发布，
 # 正合用：测试版不该被当成「最新版」去催人升级。
@@ -105,7 +105,7 @@ check_update() {
 # 判定一个目录是不是游戏实例根目录。
 # 不能只看 options.txt —— **刚装好、一次都没启动过的整合包没有 options.txt**
 # （它是 Minecraft 首次退出时才写的）。也不能只看 mods/ —— 汉化包自己的文件夹里
-# 也有个 mods/（装着 vaultpatcher.jar）。用 jar 数量区分：ATM10 有 400+ 个，汉化包只有 1 个。
+# 也有个 mods/（装着 vaultpatcher.jar）。用 jar 数量区分：All the Mons 有 400+ 个，汉化包只有 1 个。
 # ── 一键更新 ────────────────────────────────────────────────────────────
 # 与 install.ps1 的 Invoke-OneClickUpdate 是同一套流程，逐步对齐：
 # 选 asset → 校验 sha256 → 解包 → 由新版安装器 apply → 归并备份 → 更新源目录。
@@ -126,8 +126,8 @@ sha256_of() {
   fi
 }
 
-# Release 里同时挂着 7.0/7.1/7.2 三个 ATM 版本 × 客户端/服务端共六个包。
-# 必须按**本包的 ATM 版本**精确挑客户端 zip——取第一个 asset 会把 7.0 用户升到 7.2。
+# Release 里同时挂着多个整合包版本 × 客户端/服务端的包。
+# 必须按**本包的整合包版本**精确挑客户端 zip——取第一个 asset 会把用户升到别的版本。
 # 输出三行：文件名 / 下载地址 / sha256；挑不到或没有摘要就返回 1。
 pick_client_asset() {
   flat="$(printf '%s' "$RELEASE_JSON" | tr '\n' ' ')"
@@ -135,7 +135,7 @@ pick_client_asset() {
   # name → …uploader{}… → digest → browser_download_url，所以截断之后
   # **第一个** digest / browser_download_url 就是这个 asset 自己的。
   name="$(printf '%s' "$flat" \
-    | grep -o '"atm10-zh_cn-client-[^"]*-atm@@MCVER@@\.zip"' | head -1 | tr -d '"')"
+    | grep -o '"atmons-zh_cn-client-[^"]*-mons@@MCVER@@\.zip"' | head -1 | tr -d '"')"
   [ -n "$name" ] || return 1
   after="${flat#*\"$name\"}"
   url="$(printf '%s' "$after" \
@@ -214,7 +214,7 @@ do_update() {
 
   asset="$(pick_client_asset || true)"
   if [ -z "$asset" ]; then
-    say "❌ 最新版 $LATEST_TAG 没有 ATM10 @@MCVER@@ 的客户端安装包（或缺少 SHA-256 摘要），未做任何改动。"
+    say "❌ 最新版 $LATEST_TAG 没有 All the Mons @@MCVER@@ 的客户端安装包（或缺少 SHA-256 摘要），未做任何改动。"
     return 0
   fi
   name="$(printf '%s' "$asset" | sed -n '1p')"
@@ -222,7 +222,7 @@ do_update() {
   want="$(printf '%s' "$asset" | sed -n '3p')"
 
   stamp="$(date +%Y%m%d-%H%M%S)"
-  stage="$TARGET/.atm10-hanhua-update-$stamp"
+  stage="$TARGET/.atmons-hanhua-update-$stamp"
   zipf="$stage/$name"
   started=0; installed=0; merged=0; newdir=""
   mkdir -p "$stage"
@@ -232,7 +232,7 @@ do_update() {
   say "正在下载 ${name}……"
   ok=1
   if command -v curl >/dev/null 2>&1; then
-    curl -fsSL --max-time 300 -H 'User-Agent: atm10-zh-cn-installer' -o "$zipf" "$url" || ok=0
+    curl -fsSL --max-time 300 -H 'User-Agent: atmons-zh_cn-installer' -o "$zipf" "$url" || ok=0
   else
     wget -q --timeout=300 -O "$zipf" "$url" || ok=0
   fi
@@ -255,7 +255,7 @@ do_update() {
     say "❌ 一键更新失败：解包失败。"
     say "   新版安装器尚未启动；文件保留在：$stage"
     return 0; }
-  newdir="$(find "$stage" -type d -name 'atm10-zh_cn-client' 2>/dev/null | head -1 || true)"
+  newdir="$(find "$stage" -type d -name 'atmons-zh_cn-client' 2>/dev/null | head -1 || true)"
   if [ -z "$newdir" ] || [ ! -f "$newdir/install.sh" ]; then
     say "❌ 一键更新失败：下载包中没有预期的客户端安装器。"
     say "   新版安装器尚未启动；文件保留在：$stage"
@@ -298,7 +298,7 @@ set_in_place() {
 }
 
 check_target() {
-  # 一键更新时，新版安装器是从 <实例>/.atm10-hanhua-update-*/ 里被调起来的，
+  # 一键更新时，新版安装器是从 <实例>/.atmons-hanhua-update-*/ 里被调起来的，
   # 它的上一级目录不是实例。用这个环境变量把目标传进去（对应 ps1 的 -TargetPath）。
   if [ -n "${ATM_TARGET:-}" ] && is_instance "${ATM_TARGET}"; then
     TARGET="${ATM_TARGET%/}"
@@ -318,7 +318,7 @@ check_target() {
   say "⚠️ 上一级目录不是游戏实例根目录（含 mods/ 的那一层）。"
   if [ -t 0 ]; then
     while :; do
-      printf '请输入 ATM10 实例根目录完整路径（q 退出）: '
+      printf '请输入 All the Mons 实例根目录完整路径（q 退出）: '
       read -r inp || exit 1
       [ "$inp" = "q" ] && exit 1
       # 清洗输入：复制/粘贴/拖拽常带成对引号或反斜杠转义空格
@@ -335,7 +335,7 @@ check_target() {
         set_in_place
         return
       fi
-      say "❌ 该路径下没找到 ATM10 的 mods/（应该有几百个 .jar），请重试。"
+      say "❌ 该路径下没找到 All the Mons 的 mods/（应该有几百个 .jar），请重试。"
     done
   fi
   say "   请把整个汉化文件夹放进实例根目录（含 mods/ 的那一层）后再运行本脚本。"
@@ -481,7 +481,7 @@ clean_legacy_quest_lang() {
   fi
 }
 
-# ATM10 @@MCVER@@ 默认启用的资源包，顺序照抄游戏自己写出来的 options.txt。
+# All the Mons @@MCVER@@ 默认启用的资源包，顺序照抄游戏自己写出来的 options.txt。
 # 为什么要写死这一串：全新实例没有 options.txt，如果只写我们一个包，
 # 游戏首次启动会把这 15 个内置包**全部插到我们后面**（实测汉化包落到第 3 位，
 # 被 mod_resources 和五百多个模组包压在底下，汉化基本不生效）。
@@ -494,7 +494,7 @@ patch_options() {
   # 全新实例还没启动过，options.txt 尚不存在（Minecraft 退出时才写）。
   # 建一份含默认包列表 + 汉化包（放最后）的：Minecraft 启动时会把其余选项
   # 按默认值补齐再回写，部分 options.txt 是合法的。
-  # （不要指望 config/defaultoptions —— ATM10 并没有装 DefaultOptions 模组，
+  # （不要指望 config/defaultoptions —— All the Mons 并没有装 DefaultOptions 模组，
   #   那个目录是历史遗留；本包 R12 起已不再往里写东西。）
   if [ ! -f "$OPT" ]; then
     # ⚠️ 只有**从没启动过**的实例才允许新建 options.txt。
@@ -718,7 +718,7 @@ case "${1:-}" in
   update)            do_update ;;
   *)
     say "══════════════════════════════════════════"
-    say " ATM10 @@MCVER@@ 汉化补丁 · 绿油油版 — 安装器"
+    say " All the Mons @@MCVER@@ 汉化补丁 · 绿油油版 — 安装器"
     say " 目标实例: $TARGET"
     say "══════════════════════════════════════════"
     say " [1] 应用汉化（自动先备份被覆盖文件）"

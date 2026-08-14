@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """任务书里提到某只蜜蜂时，用的必须是玩家在 JEI 里搜得到的那个名字。
@@ -51,7 +51,7 @@ import zipfile
 from pathlib import Path
 
 EN_LANG = 'assets/productivebees/lang/en_us.json'
-ZH_LANG = 'resourcepacks/ATM10汉化包/assets/productivebees/lang/zh_cn.json'
+ZH_LANG = 'resourcepacks/ATMons汉化包/assets/productivebees/lang/zh_cn.json'
 EN_QUESTS = 'config/ftbquests/quests/lang/en_us'
 ZH_QUESTS = 'config/ftbquests/quests/lang/zh_cn'
 KEY = re.compile(r'^[\t ]+([A-Za-z0-9_.]+):\s*(.*)$')

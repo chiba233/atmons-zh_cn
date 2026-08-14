@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 0xyk3r
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
@@ -296,7 +296,7 @@ def main(argv=None):
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(data, ensure_ascii=False, indent=1) + '\n',
                        encoding='utf-8')
-        print('✅ ATM10 %s 育种结构 → %s（副标题 %d、标题 %d，取自 %s）'
+        print('✅ 整合包 %s 育种结构 → %s（副标题 %d、标题 %d，取自 %s）'
               % (args.version, out, len(data['subtitles']), len(data['titles']), jar.name))
         return 0
     except DataError as e:

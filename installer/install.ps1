@@ -1,9 +1,9 @@
-﻿# atmons-zh-cn — All the Mons 简体中文汉化补丁
+﻿# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
-# ATM10 @@MCVER@@ 汉化补丁「绿油油版」安装器 (Windows)
+# All the Mons @@MCVER@@ 汉化补丁「绿油油版」安装器 (Windows)
 # 版本号一律用 @@MCVER@@ 占位，由 scripts/build_dist.sh 按目标整合包版本填。
-# 用法：把整个汉化文件夹放进 ATM10 实例根目录后，双击「双击安装-Windows.bat」，
+# 用法：把整个汉化文件夹放进 All the Mons 实例根目录后，双击「双击安装-Windows.bat」，
 # 或在 PowerShell 中运行：
 #   .\install.ps1                    # 交互菜单
 #   .\install.ps1 apply              # 应用汉化（自动先备份，不含可选mods）
@@ -22,7 +22,7 @@ Set-Location -LiteralPath $ScriptDir
 try { [Console]::OutputEncoding = [Text.UTF8Encoding]::new($false) } catch {}
 $script:Target = if ($TargetPath) { $TargetPath } else { Split-Path -Parent $ScriptDir }
 $PackDirs = @('config', 'kubejs', 'mods', 'resourcepacks', 'vaultpatcher')
-$PackEntry = 'file/ATM10汉化包-@@MCVER@@.zip'
+$PackEntry = 'file/ATMons汉化包-@@MCVER@@.zip'
 $PinyinDir = '可选mods-拼音搜索'
 $script:TS = ''
 $script:BK = ''
@@ -34,12 +34,12 @@ $Utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 # 判定一个目录是不是游戏实例根目录。
 # 不能只看 options.txt —— **刚装好、一次都没启动过的整合包没有 options.txt**
 # （它是 Minecraft 首次退出时才写的）。也不能只看 mods\ —— 汉化包自己的文件夹里
-# 也有个 mods\（装着 vaultpatcher.jar）。用 jar 数量区分：ATM10 有 400+ 个，汉化包只有 1 个。
+# 也有个 mods\（装着 vaultpatcher.jar）。用 jar 数量区分：All the Mons 有 400+ 个，汉化包只有 1 个。
 # ── 版本检查 ────────────────────────────────────────────────────────────
 # 补丁自己的版本号，由 build_dist.sh 现填。
 $script:PatchVer = '@@PATCHVER@@'
 $script:PackMcVer = '@@MCVER@@'
-$script:Repo     = 'chiba233/atm10-zh-cn'
+$script:Repo     = 'chiba233/atmons-zh_cn'
 $script:LatestRelease = $null
 
 # 取仓库最新**正式版**的 tag。releases/latest 天然跳过预发布，正合用：
@@ -53,7 +53,7 @@ function Get-LatestRelease {
         try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
         $r = Invoke-RestMethod -Uri "https://api.github.com/repos/$($script:Repo)/releases/latest" `
                                -Headers @{ 'Accept' = 'application/vnd.github+json'
-                                           'User-Agent' = 'atm10-zh-cn-installer' } `
+                                           'User-Agent' = 'atmons-zh_cn-installer' } `
                                -TimeoutSec 6
         $ProgressPreference = $old
         return $r
@@ -106,14 +106,14 @@ function Invoke-OneClickUpdate {
         return
     }
 
-    # Release 同时带三个 ATM10 版本和客户端/服务端包；必须按当前包的 ATM 版本
+    # Release 同时带多个整合包版本和客户端/服务端包；必须按当前包的整合包版本
     # 精确选择客户端 zip，不能只取 assets[0]，否则会把 7.0 用户升级到 7.2 包。
     $suffix = '-atm' + [regex]::Escape($script:PackMcVer) + '\.zip$'
     $asset = @($release.assets | Where-Object {
-        $_.name -match '^atm10-zh_cn-client-.+' -and $_.name -match $suffix
+        $_.name -match '^atmons-zh_cn-client-.+' -and $_.name -match $suffix
     }) | Select-Object -First 1
     if (-not $asset) {
-        Write-Host "❌ 最新版 $latest 没有 ATM10 $($script:PackMcVer) 的客户端安装包，未做任何改动。"
+        Write-Host "❌ 最新版 $latest 没有 整合包 $($script:PackMcVer) 的客户端安装包，未做任何改动。"
         return
     }
     $digest = [string]$asset.digest
@@ -124,7 +124,7 @@ function Invoke-OneClickUpdate {
     $expectedSha256 = $Matches[1]
 
     $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
-    $stage = Join-Path $script:Target ".atm10-hanhua-update-$stamp"
+    $stage = Join-Path $script:Target ".atmons-hanhua-update-$stamp"
     $zip = Join-Path $stage $asset.name
     $newInstallerStarted = $false
     $newInstallComplete = $false
@@ -133,7 +133,7 @@ function Invoke-OneClickUpdate {
         [void][System.IO.Directory]::CreateDirectory($stage)
         Write-Host "正在下载 $($asset.name)……"
         Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $zip -UseBasicParsing `
-            -Headers @{ 'User-Agent' = 'atm10-zh-cn-installer' } -TimeoutSec 120
+            -Headers @{ 'User-Agent' = 'atmons-zh_cn-installer' } -TimeoutSec 120
         $actualSha256 = (Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash
         if (-not [string]::Equals($actualSha256, $expectedSha256,
                                    [System.StringComparison]::OrdinalIgnoreCase)) {
@@ -141,7 +141,7 @@ function Invoke-OneClickUpdate {
         }
         Expand-Archive -LiteralPath $zip -DestinationPath $stage -Force
         $next = @(Get-ChildItem -LiteralPath $stage -Recurse -Filter 'install.ps1' -File |
-                  Where-Object { $_.Directory.Name -eq 'atm10-zh_cn-client' }) | Select-Object -First 1
+                  Where-Object { $_.Directory.Name -eq 'atmons-zh_cn-client' }) | Select-Object -First 1
         if (-not $next) { throw '下载包中没有预期的客户端安装器。' }
 
         Write-Host '下载完成，正在由新版安装器备份并应用汉化……'
@@ -254,7 +254,7 @@ function Check-Target {
     }
     Write-Host '⚠️ 上一级目录不是游戏实例根目录（含 mods\ 的那一层）。'
     while ($true) {
-        $inp = Read-Host '请输入 ATM10 实例根目录完整路径（q 退出）'
+        $inp = Read-Host '请输入 All the Mons 实例根目录完整路径（q 退出）'
         $inp = $inp.Trim()
         if ($inp -eq 'q' -or [string]::IsNullOrWhiteSpace($inp)) { exit 1 }
         # 去掉整体包裹的成对引号（Windows 拖拽/粘贴带空格路径常加双引号）
@@ -268,7 +268,7 @@ function Check-Target {
             Set-InPlace
             return
         }
-        Write-Host '❌ 该路径下没找到 ATM10 的 mods\（应该有几百个 .jar），请重试。'
+        Write-Host '❌ 该路径下没找到 All the Mons 的 mods\（应该有几百个 .jar），请重试。'
     }
 }
 
@@ -317,7 +317,7 @@ function Do-Backup {
     Write-Host "✅ 已备份 $n 个将被覆盖的文件到 backups/$script:TS/"
 }
 
-# ATM10 @@MCVER@@ 默认启用的资源包，顺序照抄游戏自己写出来的 options.txt。
+# All the Mons @@MCVER@@ 默认启用的资源包，顺序照抄游戏自己写出来的 options.txt。
 # 为什么要写死这一串：全新实例没有 options.txt，如果只写我们一个包，
 # 游戏首次启动会把这 15 个内置包**全部插到我们后面**（实测汉化包落到第 3 位，
 # 被 mod_resources 和五百多个模组包压在底下，汉化基本不生效）。
@@ -437,7 +437,7 @@ function Clear-LegacyCCHelp {
             $rel = $f.FullName.Substring($script:Target.Length).TrimStart('\', '/')
             $dst = Join-Path $script:BK $rel
             # 不用 New-Item：Windows PowerShell 5.1 的 New-Item 没有 -LiteralPath，
-            # 而 -Path 会把 [ ] 当通配符（实例目录叫 [1.21.1]ATM10 很常见）。
+            # 而 -Path 会把 [ ] 当通配符（实例目录叫 [1.21.1]All the Mons 很常见）。
             [void][System.IO.Directory]::CreateDirectory([System.IO.Path]::GetDirectoryName($dst))
             Copy-Item -LiteralPath $f.FullName -Destination $dst -ErrorAction SilentlyContinue
         }
@@ -475,7 +475,7 @@ function Clear-LegacyConfigUI {
                 $to = Join-Path $script:BK 'vaultpatcher\modules'
                 # 不用 New-Item：Windows PowerShell 5.1 的 New-Item 没有 -LiteralPath
                 # （实测 CI 红：NamedParameterNotFound），而 -Path 会把 [ ] 当通配符——
-                # 实例目录叫 [1.21.1]ATM10 这种在 PCL/HMCL 下很常见。
+                # 实例目录叫 [1.21.1]All the Mons 这种在 PCL/HMCL 下很常见。
                 [void][System.IO.Directory]::CreateDirectory($to)
                 Copy-Item -LiteralPath $old -Destination (Join-Path $to $f) -ErrorAction SilentlyContinue
             }
@@ -665,7 +665,7 @@ switch ($Action) {
     'restore'           { Do-Restore $BackupName }
     default {
         Write-Host '══════════════════════════════════════════'
-        Write-Host ' ATM10 @@MCVER@@ 汉化补丁 · 绿油油版 — 安装器'
+        Write-Host ' All the Mons @@MCVER@@ 汉化补丁 · 绿油油版 — 安装器'
         Write-Host " 目标实例: $script:Target"
         Write-Host '══════════════════════════════════════════'
         Write-Host ' [1] 应用汉化（自动先备份被覆盖文件）'

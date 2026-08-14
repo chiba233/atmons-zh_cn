@@ -1,4 +1,4 @@
-# atm10-zh-cn — 构建工具链锁
+# atmons-zh_cn — 构建工具链锁
 #
 # 唯一的第三方依赖是 Pillow（横幅与按钮 PNG 都靠它渲染）。它的 wheel 里
 # 打包着 freetype / zlib / libpng —— 也就是说**产物 PNG 的字节由这个 wheel 决定**。

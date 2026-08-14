@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""把某个版本的 ATM10 整合包备齐成一个能当 ATM_PACK_ROOT 用的目录。
+"""把某个版本的 All the Mons 整合包备齐成一个能当 ATM_PACK_ROOT 用的目录。
 
 两种用法，成本差一个数量级：
 
@@ -106,7 +106,7 @@ def tree_digest(root, only=None):
     和后面下载的 480 个 jar 落在同一个目录下，整目录扫会把 jar 也算进指纹，
     于是「第一次跑过、第二次跑就报指纹不符」。
 
-    ATM10 的某个已发布版本，它的 overrides 内容是**不会变**的。把指纹记进仓库，
+    整合包的某个已发布版本，它的 overrides 内容是**不会变**的。把指纹记进仓库，
     CI 上无论是从缓存拿的还是现下的，都要跟它对得上——CurseForge 哪天换了内容
     （或者下载被人动了手脚），构建当场红，而不是悄悄拿另一份东西去打补丁。
     """
@@ -142,7 +142,7 @@ def check_digest(ver, digest, record=False):
         return
     want = f.read_text(encoding='utf-8').split()[0]
     if want != digest:
-        sys.exit('❌ ATM10 %s 的 overrides 内容与仓库记录的指纹对不上\n'
+        sys.exit('❌ 整合包 %s 的 overrides 内容与仓库记录的指纹对不上\n'
                  '   记录 %s\n   实得 %s\n'
                  '   已发布版本的内容本不该变。要么 CurseForge 换了东西，要么这份下载不干净。\n'
                  '   人工核对无误后再更新 versions/%s/overrides.sha256。'
@@ -156,7 +156,7 @@ def find_file_id(ver):
         if f['displayName'].rsplit('-', 1)[-1].strip() == ver:
             return f['id']
     have = sorted({f['displayName'].rsplit('-', 1)[-1].strip() for f in d['data']})
-    sys.exit('❌ CurseForge 上找不到 ATM10 %s\n   最近 50 个文件里有: %s'
+    sys.exit('❌ CurseForge 上找不到 整合包 %s\n   最近 50 个文件里有: %s'
              % (ver, ' '.join(have)))
 
 
@@ -178,8 +178,8 @@ def main(ver, out, jars=True, record=False):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     fid = find_file_id(ver)
-    print('ATM10 %s → fileID %s' % (ver, fid))
-    z = out.parent / ('atm10-%s.zip' % ver)
+    print('整合包 %s → fileID %s' % (ver, fid))
+    z = out.parent / ('atmons-%s.zip' % ver)
     if not z.exists():
         z.parent.mkdir(parents=True, exist_ok=True)
         z.write_bytes(get('%s/files/%s/download' % (API, fid)))
@@ -333,7 +333,7 @@ if __name__ == '__main__':
         d = Path(a[1])
         # 排除的只有「按 manifest 下载的 jar」与出处文件本身。
         # **不能一刀切排除 mods/**：整合包自己的 overrides 里就可能带 jar
-        # （ATM10 7.2 在 overrides/mods/ 放了 cc-tweaked 1.120.0 去盖掉 manifest
+        # （All the Mons 7.2 在 overrides/mods/ 放了 cc-tweaked 1.120.0 去盖掉 manifest
         # 里那个会崩的 1.113.1），那是指纹的正当组成部分。
         skip = {'mods.provenance.json'}
         pf = d / 'mods.provenance.json'

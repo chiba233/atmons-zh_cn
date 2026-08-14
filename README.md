@@ -1,4 +1,4 @@
-# atmons-zh-cn
+# atmons-zh_cn
 
 All the Mons 的简体中文汉化补丁。
 
@@ -9,7 +9,7 @@ All the Mons 的简体中文汉化补丁。
 
 ## 反馈
 
-[Issues](https://github.com/chiba233/atmons-zh-cn/issues)。报翻译问题请附截图与所在界面。
+[Issues](https://github.com/chiba233/atmons-zh_cn/issues)。报翻译问题请附截图与所在界面。
 
 ## 许可
 

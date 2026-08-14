@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """发版前校验 —— **规则解释器**。
@@ -26,7 +26,7 @@ import re
 import sys
 from pathlib import Path
 
-from paths import COMMON, SRC
+from paths import COMMON, SRC, PACK_NAME
 
 ROOT = Path(__file__).resolve().parent.parent
 RULES_DIR = SRC / 'rules'
@@ -34,7 +34,7 @@ RULES_DIR = SRC / 'rules'
 # 查的是**出货树**（含全部生成物）。默认 build/common；build_dist.sh 会把
 # 「common + 该版上游补丁」合成好的那棵树传进来，于是每个版本都各查一遍。
 TREE = Path(sys.argv[1]) if len(sys.argv) > 1 else COMMON
-PACK_DIR = TREE / 'resourcepacks' / 'ATM10汉化包'
+PACK_DIR = TREE / 'resourcepacks' / PACK_NAME
 
 CJK = re.compile(r'[一-鿿]')
 CHECKERS = {}
@@ -204,7 +204,7 @@ def _xml_parses(rule):
         # 这些 XML 是 gen_literal_books.py 拿 mod jar 现套出来的。没有 jar 的环境
         # （只跑 assemble.py）根本没有它们，这时报错只会教人把闸关掉；有 jar 却一个
         # 都没命中，才是真出事了——所以按「装过书没有」来分。
-        base = TREE / 'resourcepacks' / 'ATM10汉化包' / 'assets'
+        base = TREE / 'resourcepacks' / PACK_NAME / 'assets'
         if not any((base / ns / 'gui').is_dir() for ns in ('minecolonies', 'structurize')):
             # 这条**不接 GATE_STRICT**：0 个 XML 是当前的有意状态，不是生成失败。
             # aafe85f「根因修好之后，撤掉全部为它做的补偿性改动」之后我们不再发任何
@@ -308,7 +308,7 @@ def _js_no_const_inside_block(rule):
     跟「这功能没被触发」完全无法区分。2026-08-01 实机连踩两次，第二次是我误判成
     `$` 前缀的问题、去掉 `$` 之后照样抛，才定位到真正的形状。
 
-    函数体 / 回调体的**顶层** const 是安全的：拿整包 ATM10 的 kubejs 对照过，上游
+    函数体 / 回调体的**顶层** const 是安全的：拿整包的 kubejs 对照过，上游
     几十处缩进 const 全都在 `ServerEvents.recipes(x => {` 这类回调体顶层，没有任何
     一处写进普通块里；写进块里的只有本包那一个文件。所以这里只拦「最内层那个 `{`
     不是函数/箭头开的」这一种，函数体顶层照旧放行。

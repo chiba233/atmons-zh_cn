@@ -20,5 +20,5 @@ Closes #
 
 - [ ] 改动范围与标题一致，没夹带无关重构。 / Scope matches the title.
 - [ ] **没有翻译任何枚举协议值**（`Ignored` / `Copy` / `Move` 等模式选项，翻了会崩游戏）。 / No enum protocol values translated (they crash the game).
-- [ ] 资源包改动改在 `resourcepacks/ATM10汉化包/` 源码目录，**没有提交任何 zip**。 / Resource pack edits go in the source directory; no zips committed.
+- [ ] 资源包改动改在 `resourcepacks/ATMons汉化包/` 源码目录，**没有提交任何 zip**。 / Resource pack edits go in the source directory; no zips committed.
 - [ ] 用户可见改动已更新 `CHANGELOG.md`。 / CHANGELOG.md updated for user-facing changes.

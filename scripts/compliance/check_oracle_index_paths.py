@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """神谕目录的书有两套目录约定，放错那条路径的译文永远不会被读。
@@ -39,7 +39,7 @@ import sys
 import zipfile
 from pathlib import Path
 
-BOOKS = 'resourcepacks/ATM10汉化包/assets/oracle_index/books'
+BOOKS = 'resourcepacks/ATMons汉化包/assets/oracle_index/books'
 IN_JAR = 'assets/oracle_index/books/%s/sinytra-wiki.json'
 
 

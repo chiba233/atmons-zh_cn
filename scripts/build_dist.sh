@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 # 打分发包：客户端包 + 服务端包 分开构建（一团浆糊是不行的）
-#   dist/atm10-zh_cn-client-v<版本>.zip
-#   dist/atm10-zh_cn-server-v<版本>.zip
+#   dist/atmons-zh_cn-client-v<版本>.zip
+#   dist/atmons-zh_cn-server-v<版本>.zip
 # 包名与解压出的文件夹名一律用 ASCII —— Windows 上中文压缩包名/目录名在不同解压软件
 # 之间编码不一致，用户拿到手就是乱码，安装器再去找路径会找不到。
 # 资源包 zip 与服务端 jar 均不入 git，由本脚本从源码目录现场压缩。
@@ -24,8 +24,8 @@ VERSION="${1:?用法: build_dist.sh <补丁版本号，如 r12> [整合包版本
 # 绝不去 CurseForge 现查——那样 ATM 一发新版 CI 就会自动构建一个没验证过的包）
 MC_VERSIONS="${2:-$(ls -d versions/[0-9]* 2>/dev/null | xargs -n1 basename | tr '\n' ' ')}"
 [ -n "${MC_VERSIONS// /}" ] || { echo "❌ versions/ 下没有任何整合包版本目录"; exit 1; }
-CBASE="atm10-zh_cn-client"
-SBASE="atm10-zh_cn-server"
+CBASE="atmons-zh_cn-client"
+SBASE="atmons-zh_cn-server"
 
 # 仓库里没有出货树，先摊 + 生成。这里只查「摊出来了没有」，不查内容——
 # 内容归 check.py（每个版本各查一遍）和 verify_dist.py（拆开 zip 数量）管。
@@ -34,21 +34,21 @@ COMMON="build/common"
   echo "❌ 还没生成出货树 ($COMMON)"
   echo "   先跑: ./scripts/fetch_fonts.sh && ATM_PACK_ROOT=<整合包目录> ./scripts/generate_all.sh"
   exit 1; }
-BANNERS=$(find "$COMMON/resourcepacks/ATM10汉化包/assets/atm/textures/questpics" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
+BANNERS=$(find "$COMMON/resourcepacks/ATMons汉化包/assets/atm/textures/questpics" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 BUTTONS=$(find "$COMMON/config/fancymenu/assets" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 # 导览书全是 gen_books.py 现产的（仓库里一份副本都没有），漏了就是一整套英文导览书。
 # 下限 1300：原先写 1500，是「把与上游逐字节相同的页也照搬进来」那会儿的量。
 # 现在两类页不再输出——套完映射与原文一字不差的（游戏按文件回落到 en_us，
 # 发了也是同样的英文），以及模组自己就带中文的——所以基数本来就该低一截。
-BOOKS=$(find "$COMMON/resourcepacks/ATM10汉化包/assets" \
+BOOKS=$(find "$COMMON/resourcepacks/ATMons汉化包/assets" \
   -path '*patchouli_books*' -o -path '*ae2guide*' -o -path '*oracle-index*' 2>/dev/null | grep -c . || true)
 MISSING=""
 [ "${BOOKS:-0}" -ge 1300 ] || MISSING="$MISSING 导览书(${BOOKS}/1300)"
 [ "${BANNERS:-0}" -ge 200 ] || MISSING="$MISSING 横幅(${BANNERS}/200)"
 [ "${BUTTONS:-0}" -ge 14 ]  || MISSING="$MISSING 按钮(${BUTTONS}/14)"
 for f in \
-  "$COMMON/resourcepacks/ATM10汉化包/assets/hanhua_trophies/lang/zh_cn.json" \
-  "$COMMON/resourcepacks/ATM10汉化包/assets/hanhua_wood_names/lang/zh_cn.json" \
+  "$COMMON/resourcepacks/ATMons汉化包/assets/hanhua_trophies/lang/zh_cn.json" \
+  "$COMMON/resourcepacks/ATMons汉化包/assets/hanhua_wood_names/lang/zh_cn.json" \
   "$COMMON/kubejs/client_scripts/pb_hanhua_tooltip.js" \
   "$COMMON/kubejs/client_scripts/occultism_flame_tooltip.js" \
   "$COMMON/kubejs/server_scripts/pb_hanhua_cage_migrate.js" \
@@ -70,7 +70,7 @@ TREE="build/v/${MC}"
 rm -rf "$TREE"; mkdir -p "build/v"; cp -R "$COMMON" "$TREE"
 UPROOT="build/packsrc/${MC}"
 if [ ! -d "$UPROOT/kubejs" ]; then
-  echo "  取 ATM10 ${MC} 的官方文件（只要 overrides，不下 jar）"
+  echo "  取整合包 ${MC} 的官方文件（只要 overrides，不下 jar）"
   python3 scripts/fetch_pack.py "$MC" "$UPROOT" --no-jars
 fi
 python3 scripts/gen_upstream_patches.py "$UPROOT" "$TREE"
@@ -120,8 +120,8 @@ python3 scripts/compliance/check_item_names_in_quests.py \
 python3 scripts/compliance/check_oracle_index_paths.py "${ATM_PACK_ROOT:-pack}/mods" "$TREE"
 # 资源包**内容**跨版本通用（lang 按命名空间索引，多余键不生效、缺的回退），
 # 所以源目录只有一份；只有产出的 zip 文件名带版本号，方便用户认。
-PACK_SRC="$TREE/resourcepacks/ATM10汉化包"
-PACK_NAME="ATM10汉化包-${MC}"
+PACK_SRC="$TREE/resourcepacks/ATMons汉化包"
+PACK_NAME="ATMons汉化包-${MC}"
 echo "───── 构建 整合包 ${MC} ─────"
 
 # ---------- 客户端包 ----------
@@ -150,7 +150,7 @@ cp "installer/双击安装-Windows.bat" "$CSTAGE/install-windows.bat"
 DP="$(grep -v '^#' "versions/${MC}/default_resource_packs.txt" 2>/dev/null | sed '/^[[:space:]]*$/d' \
      | sed 's/.*/"&"/' | paste -sd, - || true)"
 # 安装器里凡是跟整合包版本有关的字样，一律占位符现填：资源包文件名、界面标题、注释。
-# 以前只用 sed 换资源包文件名，界面上那句「ATM10 7.2 汉化补丁」原样留在 7.0/7.1 的包里。
+# 以前只用 sed 换资源包文件名，界面上那句「某某版本汉化补丁」原样留在 7.0/7.1 的包里。
 # 漏填会被 verify_dist.py 的 @@ 残留检查拦下。
 for f in "$CSTAGE/install.sh" "$CSTAGE/install.ps1"; do
   [ -f "$f" ] || continue
@@ -171,7 +171,7 @@ cp README.md "$CSTAGE/请安装前务必看我.md"
 cp CHANGELOG.md LICENSE LICENSE-GPL-3.0 "$CSTAGE/"
 # 仓库里叫 CREDITS.md（源码侧一律 ASCII），包里给玩家的是中文名
 cp CREDITS.md "$CSTAGE/致谢与技术说明.md"
-printf '[InternetShortcut]\r\nURL=https://github.com/chiba233/atm10-zh-cn\r\n' > "$CSTAGE/项目主页与反馈.url"
+printf '[InternetShortcut]\r\nURL=https://github.com/chiba233/atmons-zh_cn\r\n' > "$CSTAGE/项目主页与反馈.url"
 chmod +x "$CSTAGE/install.sh"
 
 # ---------- 服务端包 ----------
@@ -197,7 +197,7 @@ done
 # 作物名汉化是纯客户端的。
 mkdir -p "$SSTAGE/config"
 cp -R "$TREE/config/ftbquests" "$TREE/config/vaultpatcher_asm" "$SSTAGE/config/"
-# 服务端说明里写着「适用于 ATM10 x.y 专用服务器」，那是**本包**的适用版本，
+# 服务端说明里写着「适用于 All the Mons x.y 专用服务器」，那是**本包**的适用版本，
 # 必须跟着走；写死一个的话 7.0 / 7.1 的包里都印着 7.2（玩家实际报过这个）。
 MC="$MC" NF="$NF" python3 -c "
 import os, pathlib, sys
@@ -208,14 +208,14 @@ dst.write_text(src.read_text(encoding='utf-8')
                encoding='utf-8')
 " SERVER.md "$SSTAGE/请安装前务必看我.md"
 cp LICENSE LICENSE-GPL-3.0 "$SSTAGE/"
-printf '[InternetShortcut]\r\nURL=https://github.com/chiba233/atm10-zh-cn\r\n' > "$SSTAGE/项目主页与反馈.url"
+printf '[InternetShortcut]\r\nURL=https://github.com/chiba233/atmons-zh_cn\r\n' > "$SSTAGE/项目主页与反馈.url"
 
 # ---------- 压缩 ----------
 find dist -name '.DS_Store' -delete
 # 用 mkzip.py 而不是系统 zip：Info-ZIP 不置 UTF-8 标志位，
 # Windows 自带解压会把中文名按 GBK 解成乱码（详见 scripts/mkzip.py）
-CZIP="dist/${CBASE}-${VERSION}-atm${MC}.zip"
-SZIP="dist/${SBASE}-${VERSION}-atm${MC}.zip"
+CZIP="dist/${CBASE}-${VERSION}-mons${MC}.zip"
+SZIP="dist/${SBASE}-${VERSION}-mons${MC}.zip"
 rm -f "$CZIP" "$SZIP"
 python3 scripts/mkzip.py "$CZIP" "$CSTAGE" "${CBASE}"
 python3 scripts/mkzip.py "$SZIP" "$SSTAGE" "${SBASE}"

@@ -1,0 +1,17 @@
+{
+ "attribute.cataclysm.charge_time": "蓄力时间",
+ "attribute.cataclysm.eat_speed": "进食速度",
+ "attribute.coolant.efficiency": "冷却液效率",
+ "attribute.coolant.heat_capacity": "冷却液热容",
+ "attribute.coolant.temperature": "冷却液温度",
+ "attribute.debug.base": "调试基础值",
+ "attribute.failed.modifier_already_present_itemstack": "该物品已存在此修饰符",
+ "attribute.failed.no_modifier_itemstack": "该物品没有此修饰符",
+ "attribute.fuel.burn_ticks": "燃料燃烧时长",
+ "attribute.fuel.energy_density": "燃料能量密度",
+ "attribute.hover_field.inside": "悬浮力场内",
+ "attribute.name.lich.clone_count": "巫妖分身数量",
+ "attribute.name.lich.minion_count": "巫妖仆从数量",
+ "attribute.name.lich.shield_strength": "巫妖护盾强度",
+ "attribute.name.moa_max_jumps": "恐鸟最大跳跃次数"
+}

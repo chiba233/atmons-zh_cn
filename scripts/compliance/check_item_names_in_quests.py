@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """任务书里提到某件物品时，用的必须是玩家在 JEI 里搜得到的那个名字。
@@ -27,7 +27,7 @@ tooltip 已经是「差 / 普通 / 罕见 / 稀有 / 史诗 / 传说 / 神器」
 对每个任务条目：英文原文里出现某件物品的英文名 → 我们的中文里必须出现它的中文名。
 
 英文名取自模组 jar 的 `en_us.json`，中文名取**出货树里实际生效的那一份**：
-我们的资源包盖过模组自带（`resourcepacks/ATM10汉化包/assets/<ns>/lang/zh_cn.json`
+我们的资源包盖过模组自带（`resourcepacks/ATMons汉化包/assets/<ns>/lang/zh_cn.json`
 优先，没有才回退 jar 自带）。判据必须跟玩家看到的一致，所以不能只读 jar。
 
 **最长匹配优先**：`Soul Gem` 会落在 `Empty Soul Gem` 里，不排掉就会误报。
@@ -59,7 +59,7 @@ mob_grinding_utils 和 iceandfire 里各有一件（腐烂鸡蛋 / 烂鸡蛋）�
 
 ## 为什么按 jar 内容找 jar，而不是取排序最后一个
 
-`occultism*.jar` 在 ATM10 里匹配到两个文件，其中一个根本没有 `assets/` ——
+`occultism*.jar` 在 All the Mons 里匹配到两个文件，其中一个根本没有 `assets/` ——
 按文件名排序取最后一个会拿到空的那个，于是「0 对名字」静默通过。
 这里改成**扫所有 jar、谁真有这个命名空间的 lang 就用谁**，并且一个都没找到就红。
 
@@ -93,7 +93,7 @@ QUEST_LANG_BINDINGS = {
     },
 }
 
-PACK_ZH = 'resourcepacks/ATM10汉化包/assets/%s/lang/zh_cn.json'
+PACK_ZH = 'resourcepacks/ATMons汉化包/assets/%s/lang/zh_cn.json'
 EN_QUESTS = 'config/ftbquests/quests/lang/en_us'
 ZH_QUESTS = 'config/ftbquests/quests/lang/zh_cn'
 NAME_KEY = ('item.', 'block.', 'fluid.', 'entity.')

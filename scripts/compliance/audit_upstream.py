@@ -36,7 +36,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # scripts/ 下的公共模块
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-UA = 'atm10-zh-cn-audit/1.0 (+https://github.com/chiba233/atm10-zh-cn)'
+UA = 'atmons-zh_cn-audit/1.0 (+https://github.com/chiba233/atmons-zh_cn)'
 MODRINTH = 'https://api.modrinth.com/v2'
 # 这些目录按设计就含有上游原文（「原文 → 译文」映射），不算搬运，单独归类
 QUOTING = ('src/books/', 'src/kubejs/', 'src/config/', 'src/vaultpatcher/')

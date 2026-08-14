@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """给出货树里所有带补丁版本号的文件填上这次发布的版本。
@@ -9,8 +9,8 @@
 
     kubejs/client_scripts/hanhua_update_check.js   游戏内更新提示，比对 GitHub 最新 tag
     kubejs/client_scripts/hanhua_pack_check.js     资源包生效自检，比对下面那个探针键
-    resourcepacks/<包名>/assets/atm10zhcn/lang/zh_cn.json
-                                                   探针键 atm10zhcn.pack.version
+    resourcepacks/<包名>/assets/atmonszhcn/lang/zh_cn.json
+                                                   探针键 atmonszhcn.pack.version
 
 后两者**必须由同一次替换填同一个值**：自检脚本正是拿自己的版本号去比对资源包里
 读到的探针值，两边不一致就会当成「玩家启用着旧版本的资源包」报给玩家。分成两个
@@ -34,7 +34,7 @@ PLACEHOLDER = '@@PATCHVER@@'
 TARGETS = [
     Path('kubejs/client_scripts/hanhua_update_check.js'),
     Path('kubejs/client_scripts/hanhua_pack_check.js'),
-    Path('resourcepacks') / PACK_NAME / 'assets/atm10zhcn/lang/zh_cn.json',
+    Path('resourcepacks') / PACK_NAME / 'assets/atmonszhcn/lang/zh_cn.json',
 ]
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Iron Jetpacks 的等级名不在 lang 里，在整合包的 config 里——漏一个就静默显示英文。
@@ -42,7 +42,7 @@ import json
 import sys
 from pathlib import Path
 
-PACK_LANG = 'resourcepacks/ATM10汉化包/assets/ironjetpacks/lang/zh_cn.json'
+PACK_LANG = 'resourcepacks/ATMons汉化包/assets/ironjetpacks/lang/zh_cn.json'
 CONFIG_DIR = 'config/ironjetpacks/jetpacks'
 
 

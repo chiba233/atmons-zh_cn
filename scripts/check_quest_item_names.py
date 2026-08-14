@@ -12,7 +12,7 @@ from collections import defaultdict
 
 INST = "/Users/yumeka/Documents/minecraft/.minecraft/versions/All the Mods 10"
 MCROOT = "/Users/yumeka/Documents/minecraft/.minecraft"
-REPO = "/Users/yumeka/Documents/projects/atm10-zh-cn"
+REPO = "/Users/yumeka/Documents/projects/atmons-zh-cn"
 PACK = os.path.join(REPO, "src/pack")
 QDIR = os.path.join(INST, "config/ftbquests/quests")
 # 注意：也要剥掉 &z 这类**非法**颜色码。ATM 任务书里真有 "&zRainbow Plating"，

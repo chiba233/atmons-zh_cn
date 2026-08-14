@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """产出资源包里**必须跟着原版走**的那几个文件：字体覆盖 + pack.mcmeta。
@@ -52,7 +52,7 @@ def _client_font(inst, name):
 PACK_MCMETA = {
     'pack': {
         'pack_format': None,
-        'description': 'ATM10 @@MCVER@@ 汉化包 · 绿油油版（星野夢華整理）',
+        'description': 'All the Mons @@MCVER@@ 汉化包（星野夢華整理）',
         'supported_formats': None,
     },
     'language': {

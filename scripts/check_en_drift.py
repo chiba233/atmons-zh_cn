@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# atmons-zh-cn — All the Mons 简体中文汉化补丁
+# atmons-zh_cn — All the Mons 简体中文汉化补丁
 # Copyright (C) 2026 星野夢華 (Hoshino Yumeka)
 # SPDX-License-Identifier: GPL-3.0-or-later
 """两个整合包版本之间的**英文底本漂移**：上游改了哪些文案。
@@ -67,7 +67,7 @@ def report(title, a, b):
 
 
 def main(old, new):
-    print('英文底本漂移：ATM10 %s → %s' % (old, new))
+    print('英文底本漂移：整合包 %s → %s' % (old, new))
 
     qa, qb = load(old, 'quest_baseline'), load(new, 'quest_baseline')
     _, _, qchanged = report('任务书（我们已有覆盖的那批键）', qa, qb)

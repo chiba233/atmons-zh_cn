@@ -1,5 +1,5 @@
 @echo off
-REM atm10-zh-cn - Simplified Chinese localization patch for All the Mods 10
+REM atmons-zh_cn - Simplified Chinese localization patch for All the Mons
 REM Copyright (C) 2026 Hoshino Yumeka
 REM SPDX-License-Identifier: GPL-3.0-or-later
 REM

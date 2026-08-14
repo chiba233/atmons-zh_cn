@@ -1,0 +1,21 @@
+{
+ "src": "kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json",
+ "edits": [
+  {
+   "find": [
+    "    \"text\": \"Advanced Aquatic gives waterbreathing without a full set\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"碧海新生无需穿戴全套即可获得水下呼吸效果\"\n"
+   ]
+  },
+  {
+   "find": [
+    "    \"text\": \"Advanced Aquatic\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"碧海新生\"\n"
+   ]
+  }
+ ]
+}

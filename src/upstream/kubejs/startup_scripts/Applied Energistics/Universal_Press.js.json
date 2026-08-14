@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/startup_scripts/Applied Energistics/Universal_Press.js",
+ "edits": [
+  {
+   "find": [
+    "        .displayName('Inscriber Universal Press');\n"
+   ],
+   "replace": [
+    "        .displayName('通用压印模板');\n"
+   ]
+  }
+ ]
+}

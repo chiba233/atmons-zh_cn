@@ -1,0 +1,27 @@
+{
+ "src": "kubejs/assets/compactmachines/lang/zh_cn.json",
+ "edits": [
+  {
+   "find": [
+    "  \"machine.compactmachines.colossal\": \"空间压缩机械 (超巨型)\",\n",
+    "  \"machine.compactmachines.giant\": \"空间压缩机械 (巨型)\",\n",
+    "  \"machine.compactmachines.large\": \"空间压缩机械 (大型)\",\n",
+    "  \"machine.compactmachines.normal\": \"空间压缩机械 (标准)\",\n",
+    "  \"machine.compactmachines.small\": \"空间压缩机械 (小型)\",\n",
+    "  \"machine.compactmachines.tiny\": \"空间压缩机械 (微型)\",\n",
+    "  \"machine.compactmachines.soaryn\": \"空间压缩机械 (Soaryn)\",\n",
+    "  \"machine.compactmachines.farming\": \"空间压缩机械 (农业)\"\n"
+   ],
+   "replace": [
+    "  \"machine.compactmachines.colossal\": \"压缩空间机械 (超巨型)\",\n",
+    "  \"machine.compactmachines.giant\": \"压缩空间机械 (巨型)\",\n",
+    "  \"machine.compactmachines.large\": \"压缩空间机械 (大型)\",\n",
+    "  \"machine.compactmachines.normal\": \"压缩空间机械 (标准)\",\n",
+    "  \"machine.compactmachines.small\": \"压缩空间机械 (小型)\",\n",
+    "  \"machine.compactmachines.tiny\": \"压缩空间机械 (微型)\",\n",
+    "  \"machine.compactmachines.soaryn\": \"压缩空间机械 (Soaryn)\",\n",
+    "  \"machine.compactmachines.farming\": \"压缩空间机械 (农业)\"\n"
+   ]
+  }
+ ]
+}

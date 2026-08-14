@@ -1,0 +1,21 @@
+{
+ "src": "kubejs/data/silentgear/silentgear_traits/cure_nausea.json",
+ "edits": [
+  {
+   "find": [
+    "    \"text\": \"Removes nausea effect when equipped\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"装备时移除反胃效果\"\n"
+   ]
+  },
+  {
+   "find": [
+    "    \"text\": \"Cure Nausea\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"治愈反胃\"\n"
+   ]
+  }
+ ]
+}

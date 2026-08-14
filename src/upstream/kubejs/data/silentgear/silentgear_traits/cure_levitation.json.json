@@ -1,0 +1,21 @@
+{
+ "src": "kubejs/data/silentgear/silentgear_traits/cure_levitation.json",
+ "edits": [
+  {
+   "find": [
+    "    \"text\": \"Removes levitation effect when equipped\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"装备时移除飘浮效果\"\n"
+   ]
+  },
+  {
+   "find": [
+    "    \"text\": \"Cure Levitation\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"治愈浮空术\"\n"
+   ]
+  }
+ ]
+}

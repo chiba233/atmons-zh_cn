@@ -1,0 +1,79 @@
+{
+ "src": "kubejs/startup_scripts/CustomAdditions.js",
+ "edits": [
+  {
+   "find": [
+    "    allthemods.create('magical_soil').displayName('§bMagical Soil').grassSoundType().mapColor('grass').hardness(0.6);\n"
+   ],
+   "replace": [
+    "    allthemods.create('magical_soil').displayName('§b魔法土壤').grassSoundType().mapColor('grass').hardness(0.6);\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.create('air_essence_block').displayName('Air Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('earth_essence_block').displayName('Earth Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('fire_essence_block').displayName('Fire Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('water_essence_block').displayName('Water Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n"
+   ],
+   "replace": [
+    "    allthemods.create('air_essence_block').displayName('风之源质块').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('earth_essence_block').displayName('地之源质块').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('fire_essence_block').displayName('火之源质块').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n",
+    "    allthemods.create('water_essence_block').displayName('水之源质块').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.create('blaze_powder_block').displayName('Blaze Powder Block').stoneSoundType().mapColor('stone').hardness(1);\n"
+   ],
+   "replace": [
+    "    allthemods.create('blaze_powder_block').displayName('烈焰粉块').stoneSoundType().mapColor('stone').hardness(1);\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');\n"
+   ],
+   "replace": [
+    "    allthemods.create('starlight_prediction').displayName('通用星光预测产物');\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.create('silent_allthemodium_plate').displayName('Silent Allthemodium Plate').glow(true);\n",
+    "    allthemods.create('silent_vibranium_plate').displayName('Silent Vibranium Plate').glow(true);\n",
+    "    allthemods.create('silent_unobtainium_plate').displayName('Silent Unobtainium Plate').glow(true);\n"
+   ],
+   "replace": [
+    "    allthemods.create('silent_allthemodium_plate').displayName('寂静Allthemodium板').glow(true);\n",
+    "    allthemods.create('silent_vibranium_plate').displayName('寂静振金板').glow(true);\n",
+    "    allthemods.create('silent_unobtainium_plate').displayName('寂静难得素板').glow(true);\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Liquid Souls')\n"
+   ],
+   "replace": [
+    "        .displayName('液态灵魂')\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Unrefined Liquid Souls')\n"
+   ],
+   "replace": [
+    "        .displayName('未精炼液态灵魂')\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Liquid Aureal')\n"
+   ],
+   "replace": [
+    "        .displayName('液态耀金')\n"
+   ]
+  }
+ ]
+}

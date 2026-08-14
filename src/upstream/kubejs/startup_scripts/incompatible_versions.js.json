@@ -1,0 +1,31 @@
+{
+ "src": "kubejs/startup_scripts/incompatible_versions.js",
+ "edits": [
+  {
+   "find": [
+    "  event.checkModVersion(\"jei\", \"19.22.0.316\", \"This version is causing durability tools issues\")\n",
+    "  event.checkModVersion(\"uranus\", \"[2.3.1-bugfix,2.3.1-bugfix2]\", \"This version is causing TPS and memory leak issues\")\n",
+    "  event.checkModVersion(\"octolib\", \"0.6.0.2\", \"This version is causing high CPU usage issues\")\n",
+    "  event.checkModVersion(\"utilitarian\", \"1.21.1-0.15.0\", \"This version is crashing when bonemealing small flowers\")\n",
+    "  event.checkModVersion(\"amendments\", \"1.21-2.0.4\", \"This version is crashing when opening lecterns\")\n"
+   ],
+   "replace": [
+    "  event.checkModVersion(\"jei\", \"19.22.0.316\", \"此版本会导致工具耐久出现问题\")\n",
+    "  event.checkModVersion(\"uranus\", \"[2.3.1-bugfix,2.3.1-bugfix2]\", \"此版本会导致 TPS 和内存泄漏问题\")\n",
+    "  event.checkModVersion(\"octolib\", \"0.6.0.2\", \"此版本会导致 CPU 占用过高\")\n",
+    "  event.checkModVersion(\"utilitarian\", \"1.21.1-0.15.0\", \"当前版本在对小型花朵使用骨粉时会崩溃\")\n",
+    "  event.checkModVersion(\"amendments\", \"1.21-2.0.4\", \"此版本在打开讲台时会崩溃\")\n"
+   ]
+  },
+  {
+   "find": [
+    "  event.checkModLoaded(\"accessories_compat_layer\", \"This mod can cause Curio compatibility issues with other mods\")\n",
+    "  event.checkModLoaded(\"letmedespawn\", \"This mod can cause same items to not stack due to NBT issues\")\n"
+   ],
+   "replace": [
+    "  event.checkModLoaded(\"accessories_compat_layer\", \"该模组可能与其他模组产生饰品类兼容性问题\")\n",
+    "  event.checkModLoaded(\"letmedespawn\", \"该模组可能因NBT问题导致相同物品无法堆叠\")\n"
+   ]
+  }
+ ]
+}

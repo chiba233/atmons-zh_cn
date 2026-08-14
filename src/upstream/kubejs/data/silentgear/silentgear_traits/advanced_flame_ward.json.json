@@ -1,0 +1,21 @@
+{
+ "src": "kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json",
+ "edits": [
+  {
+   "find": [
+    "    \"text\": \"Gives fire resistance without a full set\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"无需穿戴全套即可获得抗火效果\"\n"
+   ]
+  },
+  {
+   "find": [
+    "    \"text\": \"Advanced Flame Ward\"\n"
+   ],
+   "replace": [
+    "    \"text\": \"高级火焰守护\"\n"
+   ]
+  }
+ ]
+}

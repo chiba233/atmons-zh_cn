@@ -1,0 +1,69 @@
+{
+ "src": "kubejs/startup_scripts/Theurgy/SulfurAdditions.js",
+ "edits": [
+  {
+   "find": [
+    "\t\t.sourceName(\"Stellarite Piece\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"流星碎片\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Arcane Crystal\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"神秘水晶\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Rune\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"基础符文\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Salt\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"盐\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Sulfur\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"硫磺\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Prosperity Shard\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"活化水晶碎片\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Iesnium\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"艾瑟金属\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t.sourceName(\"Bort\")\n"
+   ],
+   "replace": [
+    "\t\t.sourceName(\"圆粒金刚石\")\n"
+   ]
+  }
+ ]
+}

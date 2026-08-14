@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/tiers/magical.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"§bMagical\",\n"
+   ],
+   "replace": [
+    "    \"name\": \"§b魔法\",\n"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+	quest.00E4E946891014D9.quest_desc: ["想&5太晶化&r，得先拿到许可。别问为什么，我也不知道。\\n\\n拿到许可的办法是戴上&5太晶珠&r。\\n\\n它得自己合成。有意思的是，材料全是&2&l原版&r的东西。\\n\\n右键就能戴上，也可以从饰品界面装备。"]
+	quest.00E4E946891014D9.title: "&5太晶珠"
+	quest.0CFF4E3560CFFB49.quest_desc: ["每只&c宝可梦&r都要有属于自己的那颗&b超级石&r，才能&b超级进化&r。\\n\\n哪颗对应哪只很好认，因为它们通常就是那只&c宝可梦&r的名字后面加个「ite」。\\n\\n每一颗都要一个&b空白进化石&r、2 个铁锭、一颗&b钻石&r，外加那只&c宝可梦&r专属的一件物品。\\n\\n另外，喷火龙和超梦各有 X、Y 两种&b超级&r形态。"]
+	quest.0CFF4E3560CFFB49.title: "各自专属的&b超级石"
+	quest.117ADB40CE01CE07.quest_desc: ["不知为何，我们的&c宝可梦&r要我们戴上特殊的&e手环&r才肯用&eZ招式&r。\\n\\n不清楚原因……总之得有一颗 Sparkling Stone 才能做，另外还要几样东西。\\n\\n&e手环&r的种类无所谓，只影响外观。我最喜欢&d丽姿的Z手环&r！"]
+	quest.117ADB40CE01CE07.title: "&eZ手环"
+	quest.1690E9F6BBF820D1.quest_desc: ["想给&c宝可梦&5太晶化&r，得攒很多&5太晶碎块&r。\\n\\n用袋子装着会方便得多！\\n\\nTera Pouch 每种&5太晶碎块&r都能装满一组。"]
+	quest.16E0E86A19015F2A.quest_desc: ["要激活&b超级石&r，还得有&b超级手环&r。\\n\\n是是是，我知道它们不全是&b手环&r。\\n\\n手环也好、戒指也好、头饰也好，随便！只要能塞进&b超级进化&r那个饰品槽，戴上就是了。"]
+	quest.16E0E86A19015F2A.title: "&b超级手环"
+	quest.1E01E377A2091AA6.quest_desc: ["任何&c宝可梦&r被击败时，都有 1% 的概率掉落&5星晶太晶碎块&r。\\n\\n对一只&c宝可梦&r用掉 50 个，它就会&5太晶化&r成&5星晶属性&r。这是唯一的获得途径。\\n\\n&5星晶属性&r让所有攻击都得到加成！但它也会被其他&5星晶属性&r克制。好在这种情况相当少见。"]
+	quest.1E01E377A2091AA6.title: "&5星晶太晶碎块"
+	quest.23DBBEFCE729AEA3.quest_desc: ["「当你向星星许愿」\\n\\n你就能给&c宝可梦&c极巨化&r了！\\n\\n&c极巨化&r在对战中使用，能让&c宝可梦&r的招式变成&c极巨&r版本。\\n\\n它们的体型会变得大得多，体力也更高，招式威力更是水涨船高！"]
+	quest.23DBBEFCE729AEA3.title: "许愿星"
+	quest.2C272D1D6DE6C0F1.quest_desc: ["戴着&5太晶珠&r时，对&c宝可梦&r用掉 50 个同种&5太晶碎块&r，就能把它变成那个属性。\\n\\n变成什么属性，当然取决于你用的是哪种&5碎块&r。\\n\\n效果在&c宝可梦&r上场对战时生效。"]
+	quest.2C272D1D6DE6C0F1.title: "&5太晶化"
+	quest.2E6646301ACD332E.quest_desc: ["&eObservatory&r是一座高塔，顶上伸出一台巨大的望远镜。\\n\\n一层堆满了陶罐，还有一台电脑和几个数据显示器。\\n\\n二层有治疗仪，还有我老想像鸟一样撞上去的玻璃。\\n\\n三层有箱子、木桶，以及一个……"]
+	quest.2E6646301ACD332E.title: "&eObservatory"
+	quest.33B301DB0637B6FC.quest_desc: ["在地底深处，你可能会撞见一座&bMegaroid&r！\\n\\n不，这跟增强体格没关系……好吧，除了对&c宝可梦&r而言。\\n\\n它叫 roid 是因为 asteroid（小行星），不是 steroid（类固醇），我就是这个意思！\\n\\n在这座&b超级小行星&r的正中央，埋着钥石矿石。"]
+	quest.33B301DB0637B6FC.title: "&bMegaroid"
+	quest.3642AF6FE63B1C90.quest_desc: ["来对一遍清单。\\n\\n&n宝可梦带着自己的超级石&r？&a有&r！\\n\\n&n你自己戴着超级手环&r？&a有&r！\\n\\n两条都打勾的话，对战时招式下方就会出现一个写着&b超级进化&r的按钮。点它就能启动。\\n\\n然后选一个招式，你的&c宝可梦&r就会变身。\\n\\n注意别同时用&eZ招式&r和&b超级进化&r，一次只能用一种。"]
+	quest.3642AF6FE63B1C90.title: "&b超级进化"
+	quest.380C4222BDD65415.quest_desc: ["要&c极巨化&r，得有一条腕带。\\n\\n就是&c极巨腕带&r。\\n\\n戴上它，我们就能给&c宝可梦&c极巨化&r了。"]
+	quest.380C4222BDD65415.title: "&c极巨腕带"
+	quest.3D6167F673BB5256.quest_desc: ["用&b钻石镐&r（或更好的）挖&bMega水晶&r，就能得到&b空白进化石&r！\\n\\n它本身没什么用，得拿它去做某只&c宝可梦&r专属的&b超级石&r。\\n\\n不是所有&c宝可梦&r都能&b超级进化&r，只有一小部分可以。每一只都要各自专属的&b超级石&r——也就是说，想要多只&b超级宝可梦&r，就得跑多个&bMega Site&r。"]
+	quest.3D6167F673BB5256.title: "&b空白进化石"
+	quest.3FACB48732D14A79.quest_desc: ["在地下偶尔能找到&bMega Site&r。\\n\\n看着有点像被大气层狠狠磨过一遍的&bMegaroid&r。\\n\\n里面除了矿石，还有&bMega水晶&r。"]
+	quest.3FACB48732D14A79.title: "&bMega Site"
+	quest.41CFA175B69E6639.quest_desc: ["是&cWishing Weald&r，不是许愿井。这儿没有水，只有森林里的一座建筑。\\n\\n建筑正中央躺着一颗坠落的星星。\\n\\n许个愿吧！或者拿&b钻石镐&r把那块水晶挖了。"]
+	quest.41CFA175B69E6639.title: "&cWishing Weald"
+	quest.440B61C517B8BD09.quest_desc: ["带上刷子，就能在&eArcheological Site&r的可疑沙子里刷出物品。\\n\\n其中有两样稀有物品：Light Sparkling Stone 和 Dark Sparkling Stone。\\n\\n它们除了能做出不同的&e手环&r之外没有区别——&e手环&r只改外观，不改效果和能力。"]
+	quest.490A35A715E8E20E.quest_desc: ["身上戴着&c极巨腕带&r、附近有&c极巨能量点&r、手里有一只随时能打的&c宝可梦&r，我们就能&c极巨化&r了！\\n\\n你的&c宝可梦&r不需要更高的&c极巨等级&r才能用，等级只是让招式威力更高、体力更多。\\n\\n对战时看招式下方，会出现&c极巨化&r按钮。点它就能把招式变成&c极巨招式&r！"]
+	quest.490A35A715E8E20E.title: "&c极巨化"
+	quest.53A556F14187F399.quest_desc: ["空白的 Z 纯晶！\\n\\n没错，就是空白的！\\n\\n想做出某个具体的&eZ招式&r，还得拿它配上别的材料合成。"]
+	quest.53C0C8BCCB804368.quest_desc: ["现在我们有各式各样的&eZ招式&r了。\\n\\n有些只是把某个招式变得更强，这类通常按属性命名，比如 Normalium-Z。\\n\\n有些会把某只&c宝可梦&r的招式换成另一个，比如&ePikanium-Z&r。\\n\\n还有几个纯属离谱，比如&6Ultranecrozium-Z&r。"]
+	quest.53C0C8BCCB804368.title: "&eZ招式"
+	quest.53F54C6A1EAB9574.quest_desc: ["嫌&eZ招式&f、&c极巨化&f、&b超级进化&f和&5太晶化&r要占掉 4 个饰品槽？\\n\\n那不如试试&bO&5m&en&ci&r Ring！\\n\\n把这宝贝戴进那 4 个槽的任意一个，&eZ手环&f、&c极巨腕带&f、&b超级手环&f和&5太晶珠&r的功能就全在这一件里了。"]
+	quest.53F54C6A1EAB9574.title: "&bO&5m&en&ci&r Ring"
+	quest.56F6B205855AF7F2.quest_desc: ["&c宝可梦&r还不够大？那就&c超极巨化&r！\\n\\n只有部分&c宝可梦&r能用（网上有列表，喷火龙和伊布都在里面）。\\n\\n喂它们一份&c极巨汤&r（如果是武道熊师就喂&c甜味极巨汤&r），它们就能使出&c超极巨招式&r了。"]
+	quest.56F6B205855AF7F2.title: "&c超极巨化"
+	quest.5C34376765740C16.quest_desc: ["&c极巨菇菇&r长在繁茂洞穴里。\\n\\n做&c极巨能量点&r要用到它，另外它还能做几种给&c宝可梦&r吃的食物。\\n\\n&c极巨糖果&r能提升那只&c宝可梦&r的&c极巨等级&r，&c极巨蜂蜜&r能触发&c极巨招式&r，&c极巨汤&r则能让&c宝可梦&c超极巨化&r！"]
+	quest.5C34376765740C16.title: "&c极巨菇菇"
+	quest.6309224455079059.quest_desc: ["&5&lMega Showdown&r是&c&lCobble&fmon&r的一个附属模组，它给我们带来了……一、二、三、四！四种把&c宝可梦&r对战玩出花的方式。\\n\\n&b超级形态&f、&5太晶化&f和&c极巨化&r会在战斗中改变&c宝可梦&r本身；&eZ招式&r则改变&c宝可梦&r的招式。\\n\\n除了&5太晶化&r之外，其余都要跑一趟对应的建筑。\\n\\n用它们还需要装备特定饰品。打开背包，右上角显示你皮肤的地方有「打开饰品界面」，把物品放进去就算装备好了。"]
+	quest.6309224455079059.title: "&5&lMega Showdown！"
+	quest.658D2E531DDB116C.quest_desc: ["首饰戴齐了吗？给&c宝可梦&r装上一个&eZ招式&r，就可以开用了！\\n\\n另外记得确认&c宝可梦&r会那个招式，而且你没在用&b超级进化&r——&b超级进化&r和&eZ招式&r不能同时用。\\n\\n进入对战后，招式下方就会出现使用&eZ招式&r的选项！\\n\\n它会强化或者替换你的招式。"]
+	quest.658D2E531DDB116C.title: "&eZ招式&r实战"
+	quest.69B766907C1226C0.quest_desc: ["&c极巨化&r要求战斗地点 20 格以内有一个&c极巨能量点&r。\\n\\n我不确定这 20 格是从你算、从你的&c宝可梦&r算，还是从对手算……保险起见，离三者都近一点。\\n\\n做一个需要许愿星和&c极巨菇菇&r。"]
+	quest.69B766907C1226C0.title: "&c极巨能量点"
+	quest.6F59C939D62FA6C8.quest_desc: ["&5太晶碎块&r是击败野生&c宝可梦&r后的稀有掉落。\\n\\n掉哪种取决于&c宝可梦&r的属性：一般属性的&c宝可梦&r掉一般太晶碎块，&c火属性宝可梦&r掉&c火太晶碎块&r。\\n\\n每只&c宝可梦&r都有 10% 的概率掉落。另外所有&c宝可梦&r都有 1% 的概率掉落&5星晶太晶碎块&r。"]
+	quest.6F59C939D62FA6C8.title: "&5太晶碎块"
+	quest.747580F66BCFB9B0.quest_desc: ["钥石在&bMegaroid&r的正中央。要挖它得有&b钻石镐&r或更好的。\\n\\n每座只出一块钥石。好在我们也用不了更多！"]
+	quest.7895490EEBDCF601.quest_desc: ["&eArcheological Site&r是一片凿出来的岩石区域，里头塞满了可疑方块。\\n\\n那儿也有箱子和陶罐可以摸战利品，不过还是可疑方块更带劲！"]
+	quest.7895490EEBDCF601.title: "&eArcheological Site"
+	task.15B5242AD0DAF52A.title: "太晶碎块"
+	task.1CBDF43B0961C245.title: "各自专属的超级石"
+	task.217F7677258AF94F.title: "Z手环"
+	task.25A056981B7F62F0.title: "超级手环"
+	task.5FEDBD789E019B8D.title: "Z招式"
+}

@@ -1,0 +1,14 @@
+{
+  "mods/vaultpatcher.jar": {
+    "project": "vault-patcher",
+    "version": "1.5.2",
+    "source": "modrinth",
+    "url": "https://cdn.modrinth.com/data/NLV0Mnpu/versions/Z3IIqvHD/vaultpatcher-all-1.5.2.jar",
+    "sha256": "034b53b79aecabf7635f16937a3216e16a01eb97700919330189a5a35524d67f",
+    "size": 200922,
+    "license": "GPL-3.0-only",
+    "note": "字节码文本替换框架。替换表全在 vaultpatcher/modules/ 里，明文可查。",
+    "license_file": "LICENSE-GPL-3.0",
+    "license_file_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  }
+}

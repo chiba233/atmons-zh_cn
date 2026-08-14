@@ -1,0 +1,34 @@
+{
+ "_why": "产物字节由工具链决定，工具链不进依赖图，产物哈希就没有意义。以前只能『比像素不能比 sha256』，那是绕开症状不是治病因——把工具链本身钉住，sha256 就重新可用了。",
+
+ "canonical_env": {
+  "_why": "唯一被承认能产出可比对字节的环境。CI 在这个镜像里跑；本机想复现就用同一个镜像（scripts/build_in_container.sh）。别的环境照样能构建，但 verify_dist 只会说『这不是标准环境，不比字节』。",
+  "image": "python:3.12-slim-bookworm",
+  "digest": "sha256:d50fb7611f86d04a3b0471b46d7557818d88983fc3136726336b2a4c657aa30b",
+  "python": "3.12"
+ },
+
+ "pip": {
+  "_why": "Pillow 的 wheel 里打包着 freetype / zlib / libpng，也就是说 PNG 的字节由这个 wheel 决定。requirements.lock 列了这一版全部平台的 wheel 哈希，装的时候必须带 --require-hashes。",
+  "requirements": "requirements.lock",
+  "pillow": "12.3.0"
+ },
+
+ "fonts": {
+  "_why": "字形栅格化直接决定横幅与按钮 PNG 的每一个像素。字体不入 git（十来 MB），所以下下来之后必须逐个核哈希，否则上游换一版字体，图就悄悄变了。全部 OFL-1.1，Linux CI 可复现。",
+  "assets-src/fonts/pixel-10.ttf": "03e689d7e62db8dbbdda93ff7b20bdc4ffcb20c40fad6e230af5434c9735bb41",
+  "assets-src/fonts/pixel-12.ttf": "ffa464aae492ed7a8526367debcce62603cec8157f59548cc50cebf1ed81a53f",
+  "assets-src/fonts/bold.otf": "c6cb5a93abaa9edc8ee7463b7ebb7f42d618d40e6ed2f7a5371c97b0b64767c0",
+  "assets-src/fonts/thin.otf": "35cca31cea56b2720c096efaea2cfdffdf1b523bf5de0a80552d16edccfa9c70",
+  "assets-src/fonts/serif.otf": "91dde57622845beeb663f300813999febdb7fcd5e451bde199d7c954a9740cb4"
+ },
+
+ "external_inputs": {
+  "_why": "构建还会从网上取这些东西。每一项都必须有自己的字节锚点，否则『依赖图』还是漏的。",
+  "curseforge_overrides": "versions/<版本>/overrides.sha256（整棵树的指纹）",
+  "curseforge_jars": "versions/db/<版本>/jars.json（每个 jar 的 sha256 + 不可变的 fileID）",
+  "modrinth_jars": "src/mods.lock.json（sha256）",
+  "vaultpatcher_patch": "src/mods/vaultpatcher/manifest.json（上游 ref + 每个源文件 sha256 + 编译依赖 sha256）——随包的 VaultPatcher 要现打性能补丁再编回去，所以 javac 也进了依赖图；容器里由 build.yml 装 default-jdk-headless",
+  "mojang_client": "版本清单自带 sha1，scripts/vanilla.py 逐个核对"
+ }
+}

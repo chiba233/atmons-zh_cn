@@ -7,7 +7,13 @@
 
 中文标点（，。：；！？「」……）在原版字体里是等宽全角，挤在一起很难看，
 本包用 `include/cjk-punctuations` 换成紧凑的一套。做法是在原版的 provider 列表
-**最前面**插一条引用——后面的 provider 覆盖前面的，所以必须插在最前。
+**最前面**插一条引用——**靠前的 provider 优先**，插在最前我们这套才生效。
+
+判据在原版 `default.json` 自己身上：它的顺序是 include/space → include/default
+→ include/unifont，而游戏里拉丁字母显示的是 include/default 那套点阵，不是
+垫底的 unifont。也就是说排在前面的先命中，unifont 只是缺字时的兜底。
+（这行注释先前把方向写反了，说成「后面的覆盖前面的」；做法一直是对的，
+但那个理由会把人引向相反的写法。）
 
 问题在于：这么做需要把原版的 provider 列表整份写下来。写死在仓库里的话，
 Mojang 哪天在 `default.json` 里加一个 provider，我们这份就把它整个吞掉，

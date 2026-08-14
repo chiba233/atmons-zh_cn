@@ -39,19 +39,22 @@ buttons = 14
 # 上面三项是「生成器产出了多少」，下面这组是「zip 里最后有多少」，
 # 由 verify_dist.py 用（下限 = 实测 × 0.95，向下取整，它自己算，不写死）。
 #
-# 数字来源分两种，注在每一项后面：
-#   [CI]  = CI 的 Build 实测打印，最硬
-#   [源]  = 从 src/ 数出来的，构建时原样拷贝，未经打包后复核
-# verify_dist.py 在失败时会把实测的 got 全部打出来，所以任何一项记错了，
-# 下一次 CI 会当场把真值报出来——那时改这里的基线，不许改余量。
+# 每一项后面注了来源。[CI] = CI 的 Build 实测打印，全部十项都是。
+#
+# verify_dist.py 无论过没过都会把实测的 got 打出来，所以任何一项记错了，
+# 下一次 CI 会当场报出真值——那时改这里的基线，不许改余量。
+# client_buttons 就是这么抓出来的：一开始按「生成器报了 14 张按钮」填 14，
+# CI 实测 20，差在这一项数的是整个 fancymenu/assets 目录，不只是按钮。
 #
 client_lang_files  =    262   # [CI] assets/*/lang/zh_cn.json
 client_lang_keys   = 103920   # [CI] 上面那些文件里的键总数
 client_banners     =    162   # [CI] 与生成器侧 banners=162 互相印证
-client_buttons     =     14   # [CI] 与上面的 buttons=14 同一批
-client_vp_modules  =    156   # [CI] 同一次运行打印「VaultPatcher 模块：156 个」
-client_quest_delta =     82   # [CI] 服务端包实测 82，客户端出的是同一棵 config/ftbquests
-client_gui_files   =     24   # [源] src 下 24 个 .gui
+client_buttons     =     20   # [CI] 注意**不是**上面的 buttons=14：那是生成器出的
+                              #      按钮张数，这里数的是包里 config/fancymenu/assets/
+                              #      下的全部 png，实测 20 个
+client_vp_modules  =    156   # [CI]
+client_quest_delta =     82   # [CI]
+client_gui_files   =     24   # [CI]
 client_book_files  =   1097   # [CI] patchouli_books / ae2guide / oracle-index 的文件数
 #
 server_vp_modules  =     10   # [CI]

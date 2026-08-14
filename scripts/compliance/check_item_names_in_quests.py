@@ -335,15 +335,6 @@ def main(argv):
     if not common:
         die('英文与中文一个键都对不上 —— 两棵树不是同一版，判了也没意义')
 
-    # 出货树里与英文原文**逐字节相同**的条目 = 这一条根本没译。
-    # 本包所在的整合包不带 zh_cn 任务书，出货的 zh_cn 是「英文底本 + 我们的覆盖」，
-    # 没译到的位置显式留着英文（见 gen_quest_lang_patches.py）。拿英文去比中文物品名
-    # 必然不符，但那不是「译错了」，是「还没译」——后者由未译条数如实记着，
-    # 不该把它变成构建失败。这道闸只管译错，不管没译。
-    common = [k for k in common if ours[k] != up[k]]
-    if not common:
-        die('出货树里没有一条译过的任务文本（全部与英文原文逐字节相同）—— 判了也没意义')
-
     names, enforced, bindings = collect(mods, tree)
     bad = mismatches(names, enforced, up, ours, common)
     binding_bad = binding_mismatches(bindings, up, ours)

@@ -1,0 +1,447 @@
+{
+	quest.1E6E0001CA7C4111.quest_desc: ["最稀有的宝可梦不会乖乖就范。&6传说&r、&d幻之&r、&b究极异兽&r和&c悖谬&r这几类，必须先带上它们所属地区的&e地区 Pika Star&r，才谈得上对战和收服；即便如此，也得先在对战里赢下它，精灵球才收得住。\\n\\n找它们没有统一的办法。有的沉睡在远古&6神殿&r里，有的要在祭坛上应召唤&d仪式&r而来，还有很多守在自己的纪念碑旁，等你带着对的关键道具上门。另一些则从&b究极虫洞&r里溜进来，或者只留下浅浅的足迹让你追，又或者要等你证明了自己才肯现身。\\n\\n这一章的任务按「在哪找、怎么找」分组，把它们逐个带你走一遍。练一支硬队伍，备齐每位传说要的东西——训练家，祝你好运。"]
+	quest.1E6E0001CA7C4111.quest_subtitle: "全都得靠本事挣来"
+	quest.1E6E0001CA7C4111.title: "&6&l收服传说宝可梦"
+	quest.1E6E0002E57A0C75.quest_desc: ["早在训练家踏上这片土地之前，人们就立起了宏伟的&6神殿&r，用来安置最强大的那些宝可梦。它们至今仍在，按内中传说各自契合的生物群系，在世界各处生成。\\n\\n这里不用操心钥匙或仪式。找到建筑，一路打到最深处的殿堂，等在里面的宝可梦就会转身面对你。带上&b结构罗盘&r能省不少工夫，当然纯靠瞎逛也一样管用。"]
+	quest.1E6E0002E57A0C75.title: "&6远古神殿"
+	quest.1E6E0003C0FFEE01.quest_desc: ["在地表之下极深处，&9Origin Cave&r被水淹没的黑暗里，沉睡着塑造了海洋的那头巨兽。老水手们讲过一头鲸鱼，把海水抬得高过陆地，用无尽的暴雨淹没了世界。\\n\\n一路下到洞穴、抵达它的核心，就能把它唤醒。带一支在水里站得住脚的队伍，等这头远古海之宝可梦真的动起来时，做好迎接风暴的准备。"]
+	quest.1E6E0003C0FFEE01.quest_subtitle: "丰缘"
+	quest.1E6E0003C0FFEE01.title: "盖欧卡"
+	quest.1E6E0004C0FFEE02.quest_desc: ["在&cOrigin Tomb&r的岩浆厅堂深处，安卧着把大陆从海里托起来的那位巨神。它的躯体里流淌着熔岩，每走一步大地都会震动。\\n\\n顶着高温推进到墓穴核心把它唤醒。抗火，加上一支挨得住重击的硬队伍，会让你在这股大地最古老的力量面前好过很多。"]
+	quest.1E6E0004C0FFEE02.quest_subtitle: "丰缘"
+	quest.1E6E0004C0FFEE02.title: "固拉多"
+	quest.1E6E0005C0FFEE03.quest_desc: ["在&aSky Pillar&r的最顶端、云层之上，盘踞着天空的守护者。它在高空漂流了无数岁月，以陨石为食，也只有它才能平息海与陆之间的争端。\\n\\n一路爬到塔顶去挑战它。路很长，摔下去会没命，所以这一趟既要为攀登做准备，也要为塔顶那条龙做准备。"]
+	quest.1E6E0005C0FFEE03.quest_subtitle: "丰缘"
+	quest.1E6E0005C0FFEE03.title: "烈空坐"
+	quest.1E6F000000001001.quest_desc: ["火箭队在一座活火山里凿出了要塞，塞满了被改造出来的传说。这座建筑会在世界里生成，三只强大的宝可梦等在它的内层。\\n\\n杀进去，跟它们硬碰硬。这里讲的是技术和野心，不是远古神话，所以准备好打一场群架，而不是拜神。"]
+	quest.1E6F000000001001.title: "&c火箭队火山"
+	quest.1E6F000000001004.quest_desc: ["火箭队的得意之作坐镇火山中心——一只三亿年前的化石宝可梦，被重建成活体兵器，背上还焊了一门炮。打赢这台机器，底下那只虫子就是你的了。"]
+	quest.1E6F000000001004.quest_subtitle: "合众"
+	quest.1E6F000000001004.title: "盖诺赛克特"
+	quest.1E6F00000000100A.quest_desc: ["被锁在火山里的是属性：空，一只为对抗其他传说而造的合成奇美拉，戴着面罩以封住自身的力量。收服它、把亲密度养起来，它就会卸下面罩，变成银伴战兽。"]
+	quest.1E6F00000000100A.quest_subtitle: "阿罗拉"
+	quest.1E6F00000000100A.title: "属性：空"
+	quest.1E6F000000001010.quest_desc: ["火山深处盘踞着波尔凯尼恩，唯一一只同时是火与水属性的宝可梦。它喷出的蒸汽猛到能把一座山掏空。在岩浆室里把它逼到角落，然后放倒它。"]
+	quest.1E6F000000001010.quest_subtitle: "卡洛斯"
+	quest.1E6F000000001010.title: "波尔凯尼恩"
+	quest.1E6F000000001016.quest_desc: ["在&bAether&r的浮空领域高处，三座地牢围绕&d忠诚三侍从&r重建了起来——它们是一位远古传说的随从。每座地牢守着其中一位，而 Pecharunt Doll 会出现在 Aether 的战利品里。\\n\\n把青铜、白银、黄金三座地牢都清了，三位就都到手了。后面你会需要它们凑在一起。"]
+	quest.1E6F000000001016.title: "&bAether 地牢"
+	quest.1E6F000000001019.quest_desc: ["青铜地牢的首领是愿增猿，&d忠诚三侍从&r里的贤者猴，喜欢站在安全距离外玩弄对手的心智。打通地牢把它收进队伍——桃歹郎会想让它待在身边。"]
+	quest.1E6F000000001019.quest_subtitle: "帕底亚"
+	quest.1E6F000000001019.title: "愿增猿"
+	quest.1E6F00000000101F.quest_desc: ["白银地牢的首领是吉雉鸡，&d忠诚三侍从&r里的爱美之鸟，它的气味能鼓舞同伴、扰乱敌人。清了地牢就能收服它，这是桃歹郎要的三位之一。"]
+	quest.1E6F00000000101F.quest_subtitle: "帕底亚"
+	quest.1E6F00000000101F.title: "吉雉鸡"
+	quest.1E6F000000001025.quest_desc: ["黄金地牢的首领是够赞狗，&d忠诚三侍从&r里的斗殴犬，一身肌肉，凶相毕露。打通地牢把它拿下，听命于桃歹郎的三位就凑齐了。"]
+	quest.1E6F000000001025.quest_subtitle: "帕底亚"
+	quest.1E6F000000001025.title: "够赞狗"
+	quest.1E6F00000000103B.quest_desc: ["有些传说宝可梦在野外是找不到的——必须把它们召来。&dSummoning Altar&r就是干这个用的。\\n\\n把触媒物品放上祭坛，把仪式材料撒在四周地上，再按配方要求垒好方块结构。右键祭坛开始，然后等召唤完成。下面每条任务都写明了各自仪式需要什么——把稀有材料凑齐、把结构搭好，就能把传说拉进这个世界。"]
+	quest.1E6F00000000103B.title: "召唤祭坛"
+	quest.1E6F00000000103D.quest_desc: ["&b美录坦&r在野外找不到——它是被锻出来的。把 Salamander Eye、Black Laser Lens、&c红色网络线缆&r放上祭坛，最后再加一个&6戒指铸模&r（形状勉强算个六边形），然后在一座装满熔融金与钢的运转中熔炉旁边跑这个仪式。\\n\\n这只吃矿的六角螺帽宝可梦会直接从熔融金属里凝出来。先收服一只，再多攒几只——一只美录坦只是个开头，后面还有更大的东西。"]
+	quest.1E6F00000000103D.quest_subtitle: "阿罗拉"
+	quest.1E6F00000000103D.title: "美录坦"
+	quest.1E6F000000001044.quest_desc: ["六只&b美录坦&r能融合成&9美录梅塔&r，传说中的钢铁巨神。这是所有仪式里要求最高的一个。\\n\\n在祭坛下方的地里至少铺 9 个&c高级电驱加热线圈&r——它们只有接上一座运转中的&6熔炉&r才会发光，所以要去造一座给它们供能，别指望线圈上自带开关。祭坛上放三桶灵魂熔岩来驱动热量，触媒用&7金属膜&r。把六只美录坦放到祭坛周围，然后触发仪式——这群家伙会塌缩成一具庞然大物。"]
+	quest.1E6F000000001044.quest_subtitle: "阿罗拉"
+	quest.1E6F000000001044.title: "美录梅塔"
+	quest.1E6F00000000104A.quest_desc: ["&a太乐巴戈斯&r以水晶的形态沉睡着，它本身就是太晶现象的源头。\\n\\n把&5生命宝珠&r放上祭坛，再献上四颗从世上最强悍的对手身上取来的彩色心脏——蓝、黄、红、绿。按仪式要求垒好水晶框架，然后开始。这只星晶宝可梦会从壳里舒展开来，现出真身。"]
+	quest.1E6F00000000104A.quest_subtitle: "帕底亚"
+	quest.1E6F00000000104A.title: "太乐巴戈斯"
+	quest.1E6F000000001053.quest_desc: ["&d超梦&r从来不是生出来的——它是被造出来的，用幻之宝可梦&d梦幻&r的 DNA 克隆而成，被工程化为有记录以来最强的超能力属性宝可梦。\\\\n\\\\n在这里把那场实验重演一遍。带上一份&bAncient DNA Sample&r和一颗&dPika Star&r，像复原化石宝可梦那样走完合成流程把克隆体救活，然后趁它的怒火烧到你身上之前收服它。"]
+	quest.1E6F000000001053.quest_subtitle: "关都"
+	quest.1E6F000000001053.title: "超梦"
+	quest.1E6F000000001058.quest_desc: ["&5桃歹郎&r才是&d忠诚三侍从&r当年侍奉的那位幕后主人，一只用毒锁链驱使他人的幻之宝可梦。\\n\\n要召唤它，你得先把三位——够赞狗、愿增猿、吉雉鸡——都带在队伍里。放下&5Pecharunt Doll&r，把三只放出来，操线的人就会现身。收服它，忠诚三侍从终于自由了。"]
+	quest.1E6F000000001058.quest_subtitle: "帕底亚"
+	quest.1E6F000000001058.title: "桃歹郎"
+	quest.1E6F00000000106D.quest_desc: ["世界各处立着&dLegendary Monuments&r——远古的基座、神殿与祠堂，每一座都是为召唤某一只传说宝可梦而建。\\n\\n找到纪念碑，带上它要的关键道具，激活基座就能召出它的守护者。下面每条任务都写明了对应的建筑和所需道具。如果想再来一次，&6复苏徽章&r能把用过的基座重置。"]
+	quest.1E6F00000000106D.title: "&d传说纪念碑"
+	quest.1E6F000000001070.quest_desc: ["&7洛奇亚&r栖息在海底，是风暴的守护者，也是三只传说之鸟的看管人。\\n\\n找到&bLugia Temple&r，带上一块&9漩涡之石&r——那是你已经驯服急冻鸟、闪电鸟和火焰鸟的凭证。只有这样，这只潜水宝可梦才会浮上来面对你。收服它，大海本身就听你的了。"]
+	quest.1E6F000000001070.quest_subtitle: "城都"
+	quest.1E6F000000001070.title: "洛奇亚"
+	quest.1E6F000000001076.quest_desc: ["&c席多蓝恩&r住在岩浆里，是一头熔钢铸成的野兽，用十字形的脚在洞窟的墙壁和顶上爬行。\\n\\n下到&6Heatran Cave&r，带上一块&c火山镇石&r把它唤醒。做好在高温里硬碰硬的准备——这是少数几只把火山内部当家的宝可梦之一。"]
+	quest.1E6F000000001076.quest_subtitle: "神奥"
+	quest.1E6F000000001076.title: "席多蓝恩"
+	quest.1E6F00000000107C.quest_desc: ["&d梦幻&r是所有宝可梦的祖先，据说它小小的身体里带着一切物种的 DNA。\\n\\n它藏在远海之外的一座孤岛上。跟着&b古老海图&r（丛林神庙里有 50% 的概率能找到）去&dFinal Island&r，把它找出来。梦幻爱玩又怕生，很少露面——但地图会把你带到它等着的地方。"]
+	quest.1E6F00000000107C.quest_subtitle: "关都"
+	quest.1E6F00000000107C.title: "梦幻"
+	quest.1E6F000000001082.quest_desc: ["&e比克提尼&r是胜利宝可梦，据说把它带在身边的训练家从不会输。\\n\\n它被封在&bLiberty Island&r底下。弄到一张&e自由通行证&r（沙漠神殿里有 25% 的概率能找到），进到灯塔下方的密室，把这只燃着无穷能量的小家伙收下。"]
+	quest.1E6F000000001082.quest_subtitle: "合众"
+	quest.1E6F000000001082.title: "比克提尼"
+	quest.1E6F000000001088.quest_desc: ["&5胡帕&r是个爱捣乱的家伙，一只用自己的环扭曲空间（至少动画里是这么演的）、想拐走什么就拐走什么的魔神。\\n\\n它的力量被封在&6Hoopa Pyramid&r里。破解里面的重重考验，拿到&e神殿钥匙&r开门。带着最后一把&e神殿钥匙&r和一个 Prison Bottle（&6金字塔&r里能找到，也可以在对战塔购买），去跟里面那个捣蛋鬼对峙。收服它，那些环就能从世界各处拽来宝物——以及麻烦。"]
+	quest.1E6F000000001088.quest_subtitle: "卡洛斯"
+	quest.1E6F000000001088.title: "胡帕"
+	quest.1E6F00000000109E.quest_desc: ["&f莱希拉姆&r是真实的白色巨龙，尾巴烧得像喷气发动机，猛到足以把世界烧个干净。\\n\\n它在&bDragonspiral Tower&r顶上等着。带上一块&7光明石&r（碎片可以从击败龙属性宝可梦、监守者和凋灵获得）——那是它沉睡时的形态——再配一颗&6火之宝石&r，把这条龙唤醒并挑战它。收服它，真实之炎就归你了。"]
+	quest.1E6F00000000109E.quest_subtitle: "合众"
+	quest.1E6F00000000109E.title: "莱希拉姆"
+	quest.1E6F0000000010A4.quest_desc: ["&8捷克罗姆&r是理想的黑色巨龙，尾巴是一台巨大的发电机，噼啪作响，雷霆奔涌。\\n\\n它以&9黑暗石&r的形态沉睡在&bDragonspiral Tower&r里。&9黑暗石&r的碎片可以从击败龙属性宝可梦、监守者和凋灵获得。把石头带到塔顶，再带一颗&e电之宝石&r把它唤醒，然后与这条龙一战。收服它，理想之雷便应你而来。"]
+	quest.1E6F0000000010A4.quest_subtitle: "合众"
+	quest.1E6F0000000010A4.title: "捷克罗姆"
+	quest.1E6F0000000010AA.quest_desc: ["&b酋雷姆&r是真实与理想被撕走之后剩下的那部分——一条空洞的冰之龙，永远在追寻自己失去的那两半。\\n\\n去冰封的&bKyurem Cave&r找它。你必须同时带上从莱希拉姆和捷克罗姆那里得来的&f真实之瓶&r与&8理想之瓶&r，这条空壳之龙才肯与你相对。"]
+	quest.1E6F0000000010AA.quest_subtitle: "合众"
+	quest.1E6F0000000010AA.title: "酋雷姆"
+	quest.1E6F0000000010B1.quest_desc: ["&9帝牙卢卡&r是时间本身的主宰，一条钢之龙，它的心跳定下了每一刻流逝的节拍。\\n\\n爬到&dSpear Pillar&r，带上一条&d红色锁链&r去束缚它。这只时间宝可梦会撕开当下的一道口子现身——它一出现你就得准备好。"]
+	quest.1E6F0000000010B1.quest_subtitle: "神奥"
+	quest.1E6F0000000010B1.title: "帝牙卢卡"
+	quest.1E6F0000000010B7.quest_desc: ["&d帕路奇亚&r是空间的主宰，一条能把两点之间的距离折叠到相接的龙。\\n\\n在&dSpear Pillar&r，它应的是和帝牙卢卡同一份召唤。把一条&d红色锁链&r带到山顶，就能把这只空间宝可梦从世界之间的虚空里引出来。"]
+	quest.1E6F0000000010B7.quest_subtitle: "神奥"
+	quest.1E6F0000000010B7.title: "帕路奇亚"
+	quest.1E6F0000000010BD.quest_desc: ["&8骑拉帝纳&r因其暴戾被放逐到&5Distortion World&r，是一条幽灵般的龙，从镜子的另一侧注视着我们的世界。\\n\\n找到&5Giratina Island&r，带上一颗&d白金宝珠&r把通路撕开。在它自己那个倒影般的领域里正面它，然后把它带回来。"]
+	quest.1E6F0000000010BD.quest_subtitle: "神奥"
+	quest.1E6F0000000010BD.title: "骑拉帝纳"
+	quest.1E6F0000000010C3.quest_desc: ["&c拉帝亚斯&r是永恒双子里温柔的红色那一半，能把自己藏得看不见，也能感知周围人的心情。\\n\\n它在隐蔽的&aSouthern Island&r上筑巢。献上一份&c拉帝亚斯方块&r，把这条怕生的龙哄出来，赢得它的信任。"]
+	quest.1E6F0000000010C3.quest_subtitle: "丰缘"
+	quest.1E6F0000000010C3.title: "拉帝亚斯"
+	quest.1E6F0000000010C9.quest_desc: ["&9拉帝欧斯&r是永恒双子里高贵的蓝色那一半，快得能甩开喷气机，聪明得能把自己见过的画面展示给别人。\\n\\n它和妹妹共享&aSouthern Island&r。带一份&9拉帝欧斯方块&r把它唤下来，向这条迅捷之龙证明你配得上。"]
+	quest.1E6F0000000010C9.quest_subtitle: "丰缘"
+	quest.1E6F0000000010C9.title: "拉帝欧斯"
+	quest.1E6F0000000010CF.quest_desc: ["&c苍响&r是伽勒尔戴冠的英雄之狼，当年它口衔光辉之剑，把「黑暗的一天」逼退。\\n\\n它在&6Throne Room of Knightly Heroes&r里等着。带上&b英雄之剑&r——它古时挥过的那柄锈刃——再带一个&e不死图腾&r，这只勇士宝可梦就会来试试你的决心。"]
+	quest.1E6F0000000010CF.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000010CF.title: "苍响"
+	quest.1E6F0000000010D5.quest_desc: ["&9藏玛然特&r是伽勒尔持盾的英雄之狼，当年与苍响并肩迎战「黑暗的一天」，挡下了每一次进攻。\\n\\n它守着&6Throne Room of Knightly Heroes&r。带上&b英雄之盾&r——它那面古老锈蚀的护盾——再带一个&e不死图腾&r，这只守护者宝可梦会评判你够不够格。"]
+	quest.1E6F0000000010D5.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000010D5.title: "藏玛然特"
+	quest.1E6F0000000010EB.quest_desc: ["&7雷吉洛克&r是传说巨神里的岩石魔像，身体由巨石拼成，靠一种未知的力量维系在一起。\\n\\n它沉睡在&bSnowpoint Temple&r里。带上&7岩魔像钥匙&r解开它的石室封印，把这具远古造物唤醒。"]
+	quest.1E6F0000000010EB.quest_subtitle: "丰缘"
+	quest.1E6F0000000010EB.title: "雷吉洛克"
+	quest.1E6F0000000010F1.quest_desc: ["&b雷吉艾斯&r是传说巨神里的冰之魔像，身体冻在零下数百度，从不融化。\\n\\n它被封在&bSnowpoint Temple&r里。带上&b冰魔像钥匙&r打开它的密室，挑战这位冰封巨神。"]
+	quest.1E6F0000000010F1.quest_subtitle: "丰缘"
+	quest.1E6F0000000010F1.title: "雷吉艾斯"
+	quest.1E6F0000000010F7.quest_desc: ["&7雷吉斯奇鲁&r是传说巨神里的钢之魔像，身体比任何已知金属都硬，却又能弯能屈。\\n\\n它安卧在&bSnowpoint Temple&r中。带上&7钢魔像钥匙&r打破封印，与这位钢铁巨神对上。"]
+	quest.1E6F0000000010F7.quest_subtitle: "丰缘"
+	quest.1E6F0000000010F7.title: "雷吉斯奇鲁"
+	quest.1E6F0000000010FD.quest_desc: ["&e雷吉艾勒奇&r是电之巨神，一具纯能量之躯，据说能让整个地区都淹没在电流里。\\n\\n它被锁在&bSnowpoint Temple&r深处。带上&e电魔像钥匙&r，把困在里面的那场风暴放出来。"]
+	quest.1E6F0000000010FD.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000010FD.title: "雷吉艾勒奇"
+	quest.1E6F000000001103.quest_desc: ["&5雷吉铎拉戈&r是龙之巨神，由结晶化的龙之能量塑成，饥饿感永不消退。\\n\\n它在&bSnowpoint Temple&r里酣睡。带上&5龙魔像钥匙&r把这位贪食的巨神唤醒，收为己有。"]
+	quest.1E6F000000001103.quest_subtitle: "伽勒尔"
+	quest.1E6F000000001103.title: "雷吉铎拉戈"
+	quest.1E6F000000001109.quest_desc: ["&6雷吉奇卡斯&r是造出那些小巨神的主人，据说它曾用绳索把大陆一块块拖到位。\\n\\n五只雷吉不齐，它不会动。把雷吉洛克、雷吉艾斯、雷吉斯奇鲁、雷吉艾勒奇和雷吉铎拉戈都收齐，再带&6巨人钥匙&r去&bSnowpoint Temple&r唤醒这位巨像。"]
+	quest.1E6F000000001109.quest_subtitle: "神奥"
+	quest.1E6F000000001109.title: "雷吉奇卡斯"
+	quest.1E6F00000000110F.quest_desc: ["&5无极汰那&r是「黑暗的一天」的核心，一条外星之龙，身体本身就是一座无穷能量的活反应堆。\\n\\n它蛰伏在&d无极汰那之茧&r里。攒够&d伽勒尔粒子&r把外壳撑裂，直面极巨化现象的源头。"]
+	quest.1E6F00000000110F.quest_subtitle: "伽勒尔"
+	quest.1E6F00000000110F.title: "无极汰那"
+	quest.1E6F000000001115.quest_desc: ["&c伊裴尔塔尔&r是毁灭宝可梦，大限将至时，它的翅膀会抽干一切生灵的生命。\\n\\n它安眠在&c伊裴尔塔尔之茧&r中。带上它渴求的&8灵魂罐&r把这位死亡先兆唤醒，然后跟它比一比力量。"]
+	quest.1E6F000000001115.quest_subtitle: "卡洛斯"
+	quest.1E6F000000001115.title: "伊裴尔塔尔"
+	quest.1E6F00000000111B.quest_desc: ["&a哲尔尼亚斯&r是生命宝可梦，能分予永恒的生命，据说会化作一株发光的巨树沉睡千年。\\n\\n去&2Tree of Life&r找到它，献上一罐&b极光精华罐&r把这位生命的给予者唤醒。收服它，森林本身都会为之欢欣。"]
+	quest.1E6F00000000111B.quest_subtitle: "卡洛斯"
+	quest.1E6F00000000111B.title: "哲尔尼亚斯"
+	quest.1E6F000000001121.quest_desc: ["&b雪暴马&r是&dCrown Shrine&r的冰之骏马，一匹凶悍的马，散出的寒气足以把它踏过的地面冻住。\\n\\n种出一根&b冰根胡萝卜&r（在塔利克金字塔里能找到，也能在寒冷群系的塔利克耕地上种）把它从祠堂里引出来。驯服这匹冰封的战马——蕾冠王会需要一匹坐骑。"]
+	quest.1E6F000000001121.quest_subtitle: "伽勒尔"
+	quest.1E6F000000001121.title: "雪暴马"
+	quest.1E6F000000001127.quest_desc: ["&8灵幽马&r是&dCrown Shrine&r的幽灵骏马，跑起来快到眼睛跟不上，还会抽走旁观者的生命力。\\n\\n种出一根&5黑根胡萝卜&r（在塔利克金字塔里能找到，种在塔利克沙上）把它引出来。驯服这匹暗影之马——蕾冠王说不定会骑上它。"]
+	quest.1E6F000000001127.quest_subtitle: "伽勒尔"
+	quest.1E6F000000001127.title: "灵幽马"
+	quest.1E6F00000000112D.quest_desc: ["&d蕾冠王&r是曾经统治整个伽勒尔的王，一只沉静温和的宝可梦，据说能看见一切过去与未来。\\n\\n它在&dCrown Shrine&r等着，但王需要坐骑。先把雪暴马和灵幽马都拿下，再走向王座去见这位君主，并挑选你的坐骑。"]
+	quest.1E6F00000000112D.quest_subtitle: "伽勒尔"
+	quest.1E6F00000000112D.title: "蕾冠王"
+	quest.1E6F000000001132.quest_desc: ["&f阿尔宙斯&r是「原初的独一」，据说整个宇宙都由它从自身塑造而出。\\n\\n它的居所在世界之外。吹响&e天界之笛&r——那是你已胜过骑拉帝纳、帝牙卢卡和帕路奇亚的凭证——打开通往&fHall of Origin&r的阶梯，站到创造者面前。能有机会直面神明的人，寥寥无几。"]
+	quest.1E6F000000001132.quest_subtitle: "神奥"
+	quest.1E6F000000001132.title: "阿尔宙斯"
+	quest.1E6F000000001138.quest_desc: ["&d艾姆利多&r是情感之神，神奥三湖的守护者之一，据说是它教会了人们喜与悲。\\n\\n它藏在&bLake Verity&r底下。挣得一份&aProof of Conquest&r，在湖边呈上，把这位情感的精灵召到明处。"]
+	quest.1E6F000000001138.quest_subtitle: "神奥"
+	quest.1E6F000000001138.title: "艾姆利多"
+	quest.1E6F00000000113E.quest_desc: ["&9亚克诺姆&r是意志之神，是那位赋予人们行动与抉择之力的湖之守护者。\\n\\n它栖息在&bLake Valor&r的湖底。把一份&aProof of Conquest&r带到湖畔，召唤这位意志的精灵。"]
+	quest.1E6F00000000113E.quest_subtitle: "神奥"
+	quest.1E6F00000000113E.title: "亚克诺姆"
+	quest.1E6F000000001144.quest_desc: ["&e由克希&r是知识之神，据说是这位湖之守护者赋予了人类建造与梦想的智慧。\\n\\n它住在&bLake Acuity&r底下。带一份&aProof of Conquest&r到岸边，把这位知识的精灵引出来。"]
+	quest.1E6F000000001144.quest_subtitle: "神奥"
+	quest.1E6F000000001144.title: "由克希"
+	quest.1E6F00000000114A.quest_desc: ["&d克雷色利亚&r是新月宝可梦，播撒发光的月牙，带来安眠与好梦。\\n\\n没有哪座祠堂是为她而立的。在夜空下吹响&d满月之笛&r，她就会乘着月光的翅膀降临——收服她，最难缠的噩梦也能驱散。"]
+	quest.1E6F00000000114A.quest_subtitle: "神奥"
+	quest.1E6F00000000114A.title: "克雷色利亚"
+	quest.1E6F00000000114F.quest_desc: ["&8达克莱伊&r是新月之夜的漆黑宝可梦，会潜进梦里，把梦变成无尽的噩梦。\\n\\n它只应黑暗而来。入夜后吹响&8新月哨子&r，把这位噩梦的带来者从暗影里唤出来——有胆量就收服它。"]
+	quest.1E6F00000000114F.quest_subtitle: "神奥"
+	quest.1E6F00000000114F.title: "达克莱伊"
+	quest.1E6F000000001154.quest_desc: ["&b急冻鸟&r是传说三鸟里的冰之鸟，据说会现身于迷失山中的旅人面前，所过之处空气都会结冰。\\n\\n它没有纪念碑。击败 50 只冰属性宝可梦为&b冰霜之瓮&r充能，然后释放瓮里的力量召唤这只冰封之鸟。"]
+	quest.1E6F000000001154.quest_subtitle: "关都"
+	quest.1E6F000000001154.title: "急冻鸟"
+	quest.1E6F000000001159.quest_desc: ["&e闪电鸟&r是传说三鸟里的雷之鸟，从闪电中汲取力量，飞到哪里都会把积雨云染黑。\\n\\n击败 50 只电属性宝可梦为&e风暴之瓮&r充能，然后放出它，把这只风暴之鸟召下来。"]
+	quest.1E6F000000001159.quest_subtitle: "关都"
+	quest.1E6F000000001159.title: "闪电鸟"
+	quest.1E6F00000000115E.quest_desc: ["&c火焰鸟&r是传说三鸟里的火之鸟，振翅时洒落余烬，据说是春天到来的先兆。\\n\\n击败 50 只火属性宝可梦为&c余烬之瓮&r充能，然后放出其中之火，召来这只烈焰之鸟。"]
+	quest.1E6F00000000115E.quest_subtitle: "关都"
+	quest.1E6F00000000115E.title: "火焰鸟"
+	quest.1E6F000000001173.quest_desc: ["&8Treasures of Ruin&r是四件受诅咒的器物，每一件都封着一位远古统治者的怨念——正是他们的野心，当年让一个王国化为废墟。\\n\\n它们各自被仪式的木桩钉在自己的祠堂里。找出散落在世界各处的祠堂，直面封在里面的灾厄。"]
+	quest.1E6F000000001173.title: "&8灾厄之宝"
+	quest.1E6F000000001175.quest_desc: ["&c古玉鱼&r是一条裹着火焰的金鱼，据说它在人心里点燃的嫉妒，曾把山峦烧成灰烬。\\n\\n它被封在&c火灾之祠&r。找到祠堂，直面这件由嫉妒而生的灾厄之宝。"]
+	quest.1E6F000000001175.quest_subtitle: "帕底亚"
+	quest.1E6F000000001175.title: "古玉鱼"
+	quest.1E6F00000000117A.quest_desc: ["&2古简蜗&r是一只远古蜗牛，身后拖着一袭木简织成的斗篷，它无尽的怨恨曾抽干过整片森林的生机。\\n\\n它被缚在&2草凋之祠&r。找出祠堂，直面这件由怨恨而生的灾厄之宝。"]
+	quest.1E6F00000000117A.quest_subtitle: "帕底亚"
+	quest.1E6F00000000117A.title: "古简蜗"
+	quest.1E6F00000000117F.quest_desc: ["&b古剑豹&r是一头长着剑刃般耳朵的野兽，在雪上滑行，据说曾为取乐而引下雪崩，把整座城镇埋在底下。\\n\\n它被封在&b冰裂之祠&r。找到祠堂，挑战这件由残忍而生的灾厄之宝。"]
+	quest.1E6F00000000117F.quest_subtitle: "帕底亚"
+	quest.1E6F00000000117F.title: "古剑豹"
+	quest.1E6F000000001184.quest_desc: ["&6古鼎鹿&r是一头挂满祭器的巨角之兽，据说它散出的恐惧沉重到能压平大地、把旅人整个吞没。\\n\\n它被缚在&6土枯之祠&r。找出祠堂，与这件由恐惧而生的灾厄之宝正面相抗。"]
+	quest.1E6F000000001184.quest_subtitle: "帕底亚"
+	quest.1E6F000000001184.title: "古鼎鹿"
+	quest.1E6F0000000011D4.quest_desc: ["不是每只传说都需要仪式或纪念碑。有些就在世界里游荡，等着一位眼够尖的训练家找到它们。\\n\\n这些宝可梦会作为稀有的野生刷新出现在它们常待的地方——不用建筑，不用召唤道具，也不用钥匙。多跑、多看，球带够。迟早每一只都会露面。"]
+	quest.1E6F0000000011D4.title: "&2野外自然刷新"
+	quest.1E6F0000000011D7.quest_desc: ["&e基拉祈&r是愿望宝可梦，据说写在它头上纸条上的愿望都能实现。\\n\\n它常出没于奇异而有魔力的地方——去&d蘑菇岛&r、&d海市蜃楼岛&r以及其他带魔力的群系找它，它出现的概率非常低。"]
+	quest.1E6F0000000011D7.quest_subtitle: "丰缘"
+	quest.1E6F0000000011D7.title: "基拉祈"
+	quest.1E6F0000000011DB.quest_desc: ["&b玛纳霏&r是航海宝可梦，生于冰冷的海床，却能和遇见的任何生物建立羁绊。\\n\\n它从不上岸——想把这位海之王子弄到手，只能钓。往开阔海面抛一根挂着好饵的钓竿，运气够好的话，玛纳霏就会上钩。"]
+	quest.1E6F0000000011DB.quest_subtitle: "神奥"
+	quest.1E6F0000000011DB.title: "玛纳霏"
+	quest.1E6F0000000011DF.quest_desc: ["&a谢米&r是感谢宝可梦，一只草原上的刺猬，能分解毒素，再把它们化作一片花海散开。\\n\\n它只在&a花丛群系与高地&r的&e露天夜晚&r出现，下雨时绝不露面。去那儿找它、收服它。"]
+	quest.1E6F0000000011DF.quest_subtitle: "神奥"
+	quest.1E6F0000000011DF.title: "谢米"
+	quest.1E6F0000000011E3.quest_desc: ["&a龙卷云&r是旋风宝可梦，尾巴甩起的风足以把房子夷平。\\n\\n它在&2丛林&r和&2竹林&r一带游荡——去那儿追上这场狂暴的风暴，把它逼到走投无路。"]
+	quest.1E6F0000000011E3.quest_subtitle: "合众"
+	quest.1E6F0000000011E3.title: "龙卷云"
+	quest.1E6F0000000011E7.quest_desc: ["&9雷电云&r是雷击宝可梦，用尾巴上的尖刺把闪电甩出去。\\n\\n它在&e平原&r、&7山地&r和&6恶地&r一带游荡，去把这道野雷收了。"]
+	quest.1E6F0000000011E7.quest_subtitle: "合众"
+	quest.1E6F0000000011E7.title: "雷电云"
+	quest.1E6F0000000011EB.quest_desc: ["&6土地云&r是丰饶宝可梦，它踏过的土地会有好收成，因而受农人敬奉。\\n\\n它在&e晴朗天气&r下漫游于&a花丛原野&r、&6热带草原&r和&e沙漠&r，下雨时不出来。去那儿找这位丰饶的带来者。"]
+	quest.1E6F0000000011EB.quest_subtitle: "合众"
+	quest.1E6F0000000011EB.title: "土地云"
+	quest.1E6F0000000011EF.quest_desc: ["&d眷恋云&r是爱之化身宝可梦，它一触碰，大地便从冬眠里醒来，春天随之绽放。\\n\\n它只在&a花丛群系&r的&e雷暴天&r现身。等一场雷暴，把这股最新的自然之力收下。"]
+	quest.1E6F0000000011EF.quest_subtitle: "洗翠"
+	quest.1E6F0000000011EF.title: "眷恋云"
+	quest.1E6F0000000011F3.quest_desc: ["&d蒂安希&r是宝石宝可梦，一只碳素生物，能把周围的空气压成闪亮的钻石。\\n\\n去&1地下深处&r的黑暗里、&d紫水晶&r附近找她——她会在很深的紫水晶晶洞旁露面。带上光源，把她收服。"]
+	quest.1E6F0000000011F3.quest_subtitle: "卡洛斯"
+	quest.1E6F0000000011F3.title: "蒂安希"
+	quest.1E6F0000000011F7.quest_desc: ["&e卡璞・鸣鸣&r是自己那座岛的守护神，一只好奇心重的宝可梦，浑身噼啪作响，蓄满了电。\\n\\n&e白天&r在&2丛林&r、&2热带岛屿&r和&e沙滩&r找到这位岛屿守护神，收服它来赢得它的尊重。"]
+	quest.1E6F0000000011F7.quest_subtitle: "阿罗拉"
+	quest.1E6F0000000011F7.title: "卡璞・鸣鸣"
+	quest.1E6F0000000011FB.quest_desc: ["&d卡璞・蝶蝶&r是守护神，会撒下闪亮的鳞粉，抚慰并治愈他人。\\n\\n去&2丛林&r、&2热带岛屿&r和&e沙滩&r找这位岛屿守护神，把它收服。"]
+	quest.1E6F0000000011FB.quest_subtitle: "阿罗拉"
+	quest.1E6F0000000011FB.title: "卡璞・蝶蝶"
+	quest.1E6F0000000011FF.quest_desc: ["&2卡璞・哞哞&r是守护神，操控草木生长，用巨树划出自己领地的边界。\\n\\n去&2丛林&r、&2热带岛屿&r和&e沙滩&r找到这位牛之守护神，把它放倒。"]
+	quest.1E6F0000000011FF.quest_subtitle: "阿罗拉"
+	quest.1E6F0000000011FF.title: "卡璞・哞哞"
+	quest.1E6F000000001203.quest_desc: ["&b卡璞・鳍鳍&r是守护神，会唤起浓雾迷惑入侵者，也能用雾气净化被污染的水。\\n\\n去&2丛林&r、&2热带岛屿&r和&e沙滩&r找这位岛屿守护神，把它收服。"]
+	quest.1E6F000000001203.quest_subtitle: "阿罗拉"
+	quest.1E6F000000001203.title: "卡璞・鳍鳍"
+	quest.1E6F000000001207.quest_desc: ["&f玛机雅娜&r是人造宝可梦，五百多年前由一位天才发明家造出，能感知其他宝可梦的情绪。\\n\\n这只发条传说在野外找不到——你得自己造。首先，把一个&bSoul-Heart Mechanism&r放在露天处，在它 10 格范围内对战击败 50 只宝可梦为它充能。然后在&6Summoning Ritual Altar&r上、围着充好能的 Soul-Heart 把玛机雅娜的机械躯体垒起来，并让你自己的一只&c波尔凯尼恩&r在场见证，用 Mark of Technomancy 激活祭坛，再用一份&5附魔灵魂&r给这台机器注入生命。"]
+	quest.1E6F000000001207.quest_subtitle: "阿罗拉"
+	quest.1E6F000000001207.title: "玛机雅娜"
+	quest.1E6F00000000120B.quest_desc: ["&e捷拉奥拉&r是雷鸣宝可梦，四肢着地狂奔，快到能跟闪电并驾齐驱。\\n\\n去&e露天&r的&6热带草原&r把它追下来。"]
+	quest.1E6F00000000120B.quest_subtitle: "阿罗拉"
+	quest.1E6F00000000120B.title: "捷拉奥拉"
+	quest.1E6F00000000120F.quest_desc: ["&7熊徒弟&r是武道宝可梦，一只不停苦练、磨炼身心的小熊。\\n\\n去&2丛林&r和&2竹林&r找到它——好好培养，它会进化成强大的&7武道熊师&r，一门绝技足以毁天灭地。"]
+	quest.1E6F00000000120F.quest_subtitle: "伽勒尔"
+	quest.1E6F00000000120F.title: "熊徒弟"
+	quest.1E6F000000001213.quest_desc: ["&2萨戮德&r是恶猴宝可梦，凶猛的群居者，用藤蔓般的手臂在茂密丛林间荡行。\\n\\n去&2丛林&r深处找它，收服这位丛林传说。"]
+	quest.1E6F000000001213.quest_subtitle: "伽勒尔"
+	quest.1E6F000000001213.title: "萨戮德"
+	quest.1E6F000000001217.quest_desc: ["&2厄诡椪&r是面具宝可梦，一只怕生的鬼，躲在面具后面，当年被人错当成了恶徒。\\n\\n去&a花丛原野&r、&2竹林&r和&2丛林&r找到它，赢得这位戴面具的传说的信任。"]
+	quest.1E6F000000001217.quest_subtitle: "帕底亚"
+	quest.1E6F000000001217.title: "厄诡椪"
+	quest.1E6F00000000122B.quest_desc: ["有些传说宝可梦从不安顿下来——它们在世界上无休止地游荡，只留下&2足迹&r。\\n\\n想把它引出来，你得循着足迹走，再放下它偏爱的食物。下面每条任务都写明了那只宝可梦抗拒不了的诱饵。放好饵，等着，等它终于现身时准备开战。"]
+	quest.1E6F00000000122B.title: "&2循迹追踪"
+	quest.1E6F00000000122F.quest_desc: ["&7勾帕路翁&r是正义之剑里冷静清醒的首领，一身钢躯，一道目光就能把野生宝可梦震得服服帖帖。\\n\\n在野外循着它的足迹走，摆出&7特殊肉块&r，把这柄钢之刃引到你面前。"]
+	quest.1E6F00000000122F.quest_subtitle: "合众"
+	quest.1E6F00000000122F.title: "勾帕路翁"
+	quest.1E6F000000001234.quest_desc: ["&6代拉基翁&r是正义之剑之一，冲撞起来能把城墙撞碎，传说中它曾庇护宝可梦免遭人类的残害。\\n\\n跟着它的足迹，放下&6特殊香料&r，把这位碎岩者引到明处。"]
+	quest.1E6F000000001234.quest_subtitle: "合众"
+	quest.1E6F000000001234.title: "代拉基翁"
+	quest.1E6F000000001239.quest_desc: ["&2毕力吉翁&r是正义之剑之一，双角如刃，绕着对手快得让人眼花，把人晃得站都站不稳。\\n\\n追上它，献上&2特殊蔬菜&r，把这柄优雅之刃引到近前。"]
+	quest.1E6F000000001239.quest_subtitle: "合众"
+	quest.1E6F000000001239.title: "毕力吉翁"
+	quest.1E6F00000000123E.quest_desc: ["&b凯路迪欧&r是正义之剑里最年轻的一位，一匹小马驹，能一路奔驰着渡过任何水面，靠战斗证明自己的勇气。\\n\\n循着它的蹄印走到水边，端上一份&b正义咖喱&r，把这位年轻的剑士唤出来。"]
+	quest.1E6F00000000123E.quest_subtitle: "合众"
+	quest.1E6F00000000123E.title: "凯路迪欧"
+	quest.1E6F0000000012C1.quest_desc: ["&c炎帝&r是火山宝可梦，三只传说之兽之一，在&eEcruteak Village&r那座&6Burned Tower&r的灰烬中重生。\\n\\n用 Poketreat Box 和树果做出一份&c炎帝方块&r，带到 Burned Tower 去召唤并收服这头火之兽。"]
+	quest.1E6F0000000012C1.quest_subtitle: "城都"
+	quest.1E6F0000000012C1.title: "炎帝"
+	quest.1E6F0000000012C7.quest_desc: ["&e雷公&r是雷之宝可梦，一头奔如闪电、吼如风暴的传说之兽，在&eEcruteak Village&r的&6Burned Tower&r中重生。\\n\\n做一份&e雷公方块&r带到 Burned Tower，把它召唤出来。"]
+	quest.1E6F0000000012C7.quest_subtitle: "城都"
+	quest.1E6F0000000012C7.title: "雷公"
+	quest.1E6F0000000012CD.quest_desc: ["&b水君&r是极光宝可梦，纯净之水化成的传说之兽，乘北风而行，在&eEcruteak Village&r的&6Burned Tower&r中重生。\\n\\n做一份&b水君方块&r带到 Burned Tower，把它引出来。"]
+	quest.1E6F0000000012CD.quest_subtitle: "城都"
+	quest.1E6F0000000012CD.title: "水君"
+	quest.1E6F0000000012D3.quest_desc: ["&6凤王&r是彩虹宝可梦，据说栖息在 Ecruteak 城镇建筑的&eBell Tower&r顶上，见到它的人都会获得永恒的幸福。传说正是它赋予了下面那三头兽生命。\\n\\n把从炎帝、水君、雷公那里赢来的&c红&r、&b蓝&r、&e黄&r三枚羽毛合成&6虹色羽毛&r，然后登上 Bell Tower 把凤王召下来。"]
+	quest.1E6F0000000012D3.quest_subtitle: "城都"
+	quest.1E6F0000000012D3.title: "凤王"
+	quest.1E6F0000000012E9.quest_desc: ["&d伽勒尔急冻鸟&r是这只传说之鸟威严的伽勒尔形态——一位超能力的飞行者，沉静的目光下藏着冷酷与残忍。\\n\\n用与关都那只应召于冰霜之瓮相仿的办法给&b伽勒尔冰霜之瓮&r充能，只是这次要击败 75 只超能力属性宝可梦，这位对手形态便会掠空而来。"]
+	quest.1E6F0000000012E9.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000012E9.title: "伽勒尔急冻鸟"
+	quest.1E6F0000000012EE.quest_desc: ["&e伽勒尔闪电鸟&r是这只传说之鸟的伽勒尔形态——一位不会飞的斗士，出腿又快又狠，像一记炸雷。\\n\\n击败 75 只格斗属性宝可梦为&e伽勒尔风暴之瓮&r充能，把它召唤出来。"]
+	quest.1E6F0000000012EE.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000012EE.title: "伽勒尔闪电鸟"
+	quest.1E6F0000000012F3.quest_desc: ["&9伽勒尔火焰鸟&r是这只传说之鸟的伽勒尔形态——一位裹着幽蓝冷焰的阴森飞行者，谁对上它燃烧的双眼，精气就会被抽走。\\n\\n击败 75 只恶属性宝可梦为&c伽勒尔余烬之瓮&r充能，把它召唤出来。"]
+	quest.1E6F0000000012F3.quest_subtitle: "伽勒尔"
+	quest.1E6F0000000012F3.title: "伽勒尔火焰鸟"
+	quest.1E6F000000001308.quest_desc: ["&a时拉比&r是时间旅行宝可梦，一位森林守护者，往返于过去与未来之间，歇脚处必留下花朵。\\n\\n&eGS球&r合成不出来——只能跟球果制球师&6Kurt&r交易换取（一位名叫 Kurt 的 PokéMart Trader 村民），再拿它到&2桐树林祠堂&r上，把时拉比跨越时间召来并收服。\\n\\n&c注意：&r给普通村民起名要按原版的办法来（用命名牌）——Kurt 是个自由人，不喜欢被关进&eEasy Villagers&r的交易方块里。"]
+	quest.1E6F000000001308.quest_subtitle: "城都"
+	quest.1E6F000000001308.title: "时拉比"
+	quest.1E6F00000000130D.quest_desc: ["&8玛夏多&r是幽暗宝可梦，一道活的影子，藏在人脚下，看谁一眼就能把谁的招式学去。\\n\\n把&7阴影脓血&r连同&8阴影兜帽&r和&7老格斗家的毛巾&r一起丢进炼药锅里搅（后两者是剑盾地牢或塔利克地牢的战利品），把它从藏身处引出来，然后收服。"]
+	quest.1E6F00000000130D.quest_subtitle: "阿罗拉"
+	quest.1E6F00000000130D.title: "玛夏多"
+	quest.1E6F000000001313.quest_desc: ["&d美洛耶塔&r是旋律宝可梦，它的歌能勾起极深的情感，深到足以让自己的身体在优雅之舞与高亢之声之间变换。\\n\\n用碎片把&b古老之歌唱片&r复原，放进&d美洛耶塔点唱机&r播放，把她召唤出来，然后收服。"]
+	quest.1E6F000000001313.quest_subtitle: "合众"
+	quest.1E6F000000001313.title: "美洛耶塔"
+	quest.1E6F000000001318.quest_desc: ["&9科斯莫古&r是星云宝可梦，一小团从另一个世界飘来的星尘，轻到一阵风就能把它吹走。\\n\\n用&b宇宙之袋&r收集它散落的宇宙尘埃，把科斯莫古引到明处。好好培养，它会先硬化成&9科斯莫姆&r，再飞升为耀眼的&6索尔迦雷欧&r或月之&d露奈雅拉&r——收服一只，整条线就都打开了。"]
+	quest.1E6F000000001318.quest_subtitle: "阿罗拉"
+	quest.1E6F000000001318.title: "科斯莫古"
+	quest.1E6F00000000131D.quest_desc: ["&8奈克洛兹玛&r是棱镜宝可梦，一块远古时代从天而降的活体光之碎片，如今贪求他者的光辉。\\n\\n它独自在野外游荡——追上一只收服它。同时持有&6索尔迦雷欧&r或&d露奈雅拉&r，奈克洛兹玛就会融合成炽烈的&e黄昏之鬃&r或&d拂晓之翼&r形态；而在那之上，还有它的终极姿态&b究极奈克洛兹玛&r。"]
+	quest.1E6F00000000131D.quest_subtitle: "阿罗拉"
+	quest.1E6F00000000131D.title: "奈克洛兹玛"
+	quest.1E6F000000001331.quest_desc: ["&c代欧奇希斯&r是 DNA 宝可梦，一段乘着陨石从深空坠下的外星遗传密码。把它引出来是世上第二难的仪式，只有 Shiny Pika Star 的仪式能与之相比，全程要过三关。\\n\\n第一关，把&eAncient DNA Sample&r和一颗&2钚球&r放上祭坛，在祭坛下方铺一块 3x3 的&7磁铁&r平台，然后在永恒星光的&9Ether River&r里跑这个仪式——而且必须正逢&d流星雨&r，身上还要穿着四件装了防辐射单元的迈克装甲。天空会回应你，一枚&bDeoxys Crystal&r落入世界。\\n\\n这枚水晶还是沉眠的。找到&5Birth Island&r，把水晶投到它的&bDeoxys Base&r上方——它会在陨石地面上乱窜，你得一路追着它、一次次击打，直到它充能到极致、亮着落回基座。\\n\\n水晶点亮之后，围着这座基座布置最后一道仪式：一圈奥术水晶方尖碑，外加两个各自灌满的&b魔源罐&r，每个 10000 点魔源。然后把&e代欧奇希斯陨石&r连同对应它四种形态的四件负重——&e力量护腕&r、&e力量腰带&r、&e力量护裸&r和&e力量负重&r——一起投上祭坛，举行仪式。&c代欧奇希斯&r本尊便会应召而来。"]
+	quest.1E6F000000001331.quest_subtitle: "丰缘"
+	quest.1E6F000000001331.title: "代欧奇希斯"
+	quest.2B1AB9ECAB07A486.quest_desc: [
+		"&a基格尔德&r是世界生态的守护者，坚信保护生态是自己的职责。它由更小的单位组成，即&a基格尔德核心&r与&a基格尔德细胞&r。\\n\\n要把这只&c宝可梦&r重组起来，需要一台&b重组装置&r和一个&a基格尔德多面体&r。手持&a多面体&r右键，就能把&a核心&r和&a细胞&r放进去。\\n\\n&a核心&r和&a细胞&r的数量，决定&a基格尔德&r重组后会是哪种形态。"
+		"&l下一页 ->&r"
+		"{@pagebreak}"
+		"9 个&a细胞&r加 1 个&a核心&r，&a基格尔德&r会成为 10% 形态，重组耗时 2 分钟。\\n\\n49 个&a细胞&r加 1 个&a核心&r，&a基格尔德&r会成为 50% 形态，重组耗时 5 分钟。\\n\\n95 个&a细胞&r和 5 个&a核心&r全齐，&a基格尔德&r会成为「完全体形态」，特性从其他形态的气场破坏变成群聚变形，重组耗时 10 分钟。\\n\\n把&a基格尔德多面体&r用在&b重组装置&r上，重组就开始了。重组完成后，对&b重组装置&r使用任意精灵球即可捕获&a基格尔德&r。\\n\\n这个过程也可以倒过来：手持&a多面体&r右键&a基格尔德&r，再把&a多面体&r用在&b重组装置&r上，就能把&a核心&r和&a细胞&r收回来。"
+	]
+	quest.2B1AB9ECAB07A486.quest_subtitle: "卡洛斯"
+	quest.2B1AB9ECAB07A486.title: "基格尔德"
+	quest.6A6BD8D2955B8476.quest_desc: ["有些传说宝可梦在野外是找不到的——必须把它们召来。对大多数来说，&dSummoning Altar&r就是干这个用的。不过下面这几只不是。"]
+	quest.6A6BD8D2955B8476.title: "不走祭坛的召唤"
+	task.1E6E0003571C0001.title: "找到 Origin Cave"
+	task.1E6E0003CA7C0001.title: "收服盖欧卡"
+	task.1E6E0004571C0002.title: "找到 Origin Tomb"
+	task.1E6E0004CA7C0002.title: "收服固拉多"
+	task.1E6E0005571C0003.title: "找到 Sky Pillar"
+	task.1E6E0005CA7C0003.title: "收服烈空坐"
+	task.1E6F000000001005.title: "找到 Team Rocket Volcano"
+	task.1E6F000000001006.title: "收服盖诺赛克特"
+	task.1E6F00000000100B.title: "找到 Team Rocket Volcano"
+	task.1E6F00000000100C.title: "收服属性：空"
+	task.1E6F000000001011.title: "找到 Team Rocket Volcano"
+	task.1E6F000000001012.title: "收服波尔凯尼恩"
+	task.1E6F00000000101A.title: "清空青铜地牢"
+	task.1E6F00000000101B.title: "收服愿增猿"
+	task.1E6F000000001020.title: "清空白银地牢"
+	task.1E6F000000001021.title: "收服吉雉鸡"
+	task.1E6F000000001026.title: "清空黄金地牢"
+	task.1E6F000000001027.title: "收服够赞狗"
+	task.1E6F000000001041.title: "收服美录坦"
+	task.1E6F000000001047.title: "收服美录梅塔"
+	task.1E6F000000001050.title: "收服太乐巴戈斯"
+	task.1E6F000000001055.title: "收服超梦（目前是坏的）"
+	task.1E6F00000000105A.title: "收服桃歹郎"
+	task.1E6F000000001071.title: "找到 Lugia Temple"
+	task.1E6F000000001073.title: "收服洛奇亚"
+	task.1E6F000000001077.title: "找到 Heatran Cave"
+	task.1E6F000000001079.title: "收服席多蓝恩"
+	task.1E6F00000000107D.title: "找到 Final Island"
+	task.1E6F00000000107F.title: "收服梦幻"
+	task.1E6F000000001083.title: "找到 Liberty Island"
+	task.1E6F000000001085.title: "收服比克提尼"
+	task.1E6F000000001089.title: "找到 Hoopa Pyramid"
+	task.1E6F00000000108B.title: "收服胡帕"
+	task.1E6F00000000109F.title: "找到 Dragonspiral Tower"
+	task.1E6F0000000010A1.title: "收服莱希拉姆"
+	task.1E6F0000000010A5.title: "找到 Dragonspiral Tower"
+	task.1E6F0000000010A7.title: "收服捷克罗姆"
+	task.1E6F0000000010AB.title: "找到 Kyurem Cave"
+	task.1E6F0000000010AE.title: "收服酋雷姆"
+	task.1E6F0000000010B2.title: "找到 Spear Pillar"
+	task.1E6F0000000010B4.title: "收服帝牙卢卡"
+	task.1E6F0000000010B8.title: "找到 Spear Pillar"
+	task.1E6F0000000010BA.title: "收服帕路奇亚"
+	task.1E6F0000000010BE.title: "找到 Giratina Island"
+	task.1E6F0000000010C0.title: "收服骑拉帝纳"
+	task.1E6F0000000010C4.title: "找到 Southern Island"
+	task.1E6F0000000010C6.title: "收服拉帝亚斯"
+	task.1E6F0000000010CA.title: "找到 Southern Island"
+	task.1E6F0000000010CC.title: "收服拉帝欧斯"
+	task.1E6F0000000010D0.title: "找到 Throne Room of Knightly Heroes"
+	task.1E6F0000000010D2.title: "收服苍响"
+	task.1E6F0000000010D6.title: "找到 Throne Room of Knightly Heroes"
+	task.1E6F0000000010D8.title: "收服藏玛然特"
+	task.1E6F0000000010EC.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010EE.title: "收服雷吉洛克"
+	task.1E6F0000000010F2.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010F4.title: "收服雷吉艾斯"
+	task.1E6F0000000010F8.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010FA.title: "收服雷吉斯奇鲁"
+	task.1E6F0000000010FE.title: "找到 Snowpoint Temple"
+	task.1E6F000000001100.title: "收服雷吉艾勒奇"
+	task.1E6F000000001104.title: "找到 Snowpoint Temple"
+	task.1E6F000000001106.title: "收服雷吉铎拉戈"
+	task.1E6F00000000110A.title: "找到 Snowpoint Temple"
+	task.1E6F00000000110C.title: "收服雷吉奇卡斯"
+	task.1E6F000000001110.title: "找到 Eternatus Cocoon"
+	task.1E6F000000001112.title: "收服无极汰那"
+	task.1E6F000000001116.title: "找到 Yveltal Cocoon"
+	task.1E6F000000001118.title: "收服伊裴尔塔尔"
+	task.1E6F00000000111C.title: "找到 Tree of Life"
+	task.1E6F00000000111E.title: "收服哲尔尼亚斯"
+	task.1E6F000000001122.title: "找到 Crown Shrine"
+	task.1E6F000000001124.title: "收服雪暴马"
+	task.1E6F000000001128.title: "找到 Crown Shrine"
+	task.1E6F00000000112A.title: "收服灵幽马"
+	task.1E6F00000000112E.title: "找到 Crown Shrine"
+	task.1E6F00000000112F.title: "收服蕾冠王"
+	task.1E6F000000001133.title: "抵达 Hall of Origin"
+	task.1E6F000000001135.title: "收服阿尔宙斯"
+	task.1E6F000000001139.title: "找到 Lake Verity"
+	task.1E6F00000000113B.title: "收服艾姆利多"
+	task.1E6F00000000113F.title: "找到 Lake Valor"
+	task.1E6F000000001141.title: "收服亚克诺姆"
+	task.1E6F000000001145.title: "找到 Lake Acuity"
+	task.1E6F000000001147.title: "收服由克希"
+	task.1E6F00000000114C.title: "收服克雷色利亚"
+	task.1E6F000000001151.title: "收服达克莱伊"
+	task.1E6F000000001156.title: "收服急冻鸟"
+	task.1E6F00000000115B.title: "收服闪电鸟"
+	task.1E6F000000001160.title: "收服火焰鸟"
+	task.1E6F000000001176.title: "找到火灾之祠"
+	task.1E6F000000001177.title: "收服古玉鱼"
+	task.1E6F00000000117B.title: "找到草凋之祠"
+	task.1E6F00000000117C.title: "收服古简蜗"
+	task.1E6F000000001180.title: "找到冰裂之祠"
+	task.1E6F000000001181.title: "收服古剑豹"
+	task.1E6F000000001185.title: "找到土枯之祠"
+	task.1E6F000000001186.title: "收服古鼎鹿"
+	task.1E6F0000000011D8.title: "收服基拉祈"
+	task.1E6F0000000011DC.title: "收服玛纳霏"
+	task.1E6F0000000011E0.title: "收服谢米"
+	task.1E6F0000000011E4.title: "收服龙卷云"
+	task.1E6F0000000011E8.title: "收服雷电云"
+	task.1E6F0000000011EC.title: "收服土地云"
+	task.1E6F0000000011F0.title: "收服眷恋云"
+	task.1E6F0000000011F4.title: "收服蒂安希"
+	task.1E6F0000000011F8.title: "收服卡璞・鸣鸣"
+	task.1E6F0000000011FC.title: "收服卡璞・蝶蝶"
+	task.1E6F000000001200.title: "收服卡璞・哞哞"
+	task.1E6F000000001204.title: "收服卡璞・鳍鳍"
+	task.1E6F000000001208.title: "收服玛机雅娜"
+	task.1E6F00000000120C.title: "收服捷拉奥拉"
+	task.1E6F000000001210.title: "收服熊徒弟"
+	task.1E6F000000001214.title: "收服萨戮德"
+	task.1E6F000000001218.title: "收服厄诡椪"
+	task.1E6F000000001231.title: "收服勾帕路翁"
+	task.1E6F000000001236.title: "收服代拉基翁"
+	task.1E6F00000000123B.title: "收服毕力吉翁"
+	task.1E6F000000001240.title: "收服凯路迪欧"
+	task.1E6F0000000012C2.title: "进入 Burned Tower"
+	task.1E6F0000000012C3.title: "持有炎帝方块"
+	task.1E6F0000000012C4.title: "收服炎帝"
+	task.1E6F0000000012C8.title: "进入 Burned Tower"
+	task.1E6F0000000012C9.title: "持有雷公方块"
+	task.1E6F0000000012CA.title: "收服雷公"
+	task.1E6F0000000012CE.title: "进入 Burned Tower"
+	task.1E6F0000000012CF.title: "持有水君方块"
+	task.1E6F0000000012D0.title: "收服水君"
+	task.1E6F0000000012D4.title: "登上 Bell Tower"
+	task.1E6F0000000012D5.title: "持有虹色羽毛"
+	task.1E6F0000000012D6.title: "收服凤王"
+	task.1E6F0000000012EA.title: "持有伽勒尔冰霜之瓮"
+	task.1E6F0000000012EB.title: "收服伽勒尔急冻鸟"
+	task.1E6F0000000012EF.title: "持有伽勒尔风暴之瓮"
+	task.1E6F0000000012F0.title: "收服伽勒尔闪电鸟"
+	task.1E6F0000000012F4.title: "持有伽勒尔余烬之瓮"
+	task.1E6F0000000012F5.title: "收服伽勒尔火焰鸟"
+	task.1E6F000000001309.title: "持有GS球"
+	task.1E6F00000000130A.title: "收服时拉比"
+	task.1E6F00000000130E.title: "持有阴影兜帽"
+	task.1E6F00000000130F.title: "持有老格斗家的毛巾"
+	task.1E6F000000001310.title: "收服玛夏多"
+	task.1E6F000000001314.title: "持有古老之歌唱片"
+	task.1E6F000000001315.title: "收服美洛耶塔"
+	task.1E6F000000001319.title: "持有宇宙之袋"
+	task.1E6F00000000131A.title: "收服科斯莫古"
+	task.1E6F00000000131E.title: "收服奈克洛兹玛"
+	task.1E6F000000001332.title: "持有 Ancient DNA Sample"
+	task.1E6F000000001333.title: "持有钚球"
+	task.1E6F000000001334.title: "收服代欧奇希斯"
+	task.1F0B19DDCA4D603F.title: "找到 Birth Island"
+	task.5A94D921FBE617B9.title: "收服基格尔德（目前是坏的）"
+}

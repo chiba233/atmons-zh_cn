@@ -1,4 +1,4 @@
-// ATM10 汉化补丁「绿油油版」客户端资源包自检。
+// ATMons 汉化补丁客户端资源包自检。
 // 只读语言表与资源包列表，不下载、不写任何文件、不发网络请求。
 //
 // 为什么要做：最常见也最致命的一种「汉化坏了」，是玩家根本没在选项里启用资源包，
@@ -7,8 +7,8 @@
 //
 // 两层判据，各管各的，都测**结果**而不是配置：
 //
-//   一、生效。资源包里埋了一个只有我们定义的键 atm10zhcn.pack.version
-//       （assets/atm10zhcn/lang/zh_cn.json，值由构建脚本按发布版本现填）。
+//   一、生效。资源包里埋了一个只有我们定义的键 atmonszhcn.pack.version
+//       （assets/atmonszhcn/lang/zh_cn.json，值由构建脚本按发布版本现填）。
 //       语言表是所有启用的包合并后的最终结果，所以查得到 = 包真的生效了。
 //       读 options.txt 或看包在不在选中列表里都是查「配置」，在「名字对了但
 //       文件坏了」这类情况下会给出错误的绿灯，所以不走那条路。
@@ -39,8 +39,8 @@
 // 整份包在 IIFE 里：KubeJS 的 client_scripts 共用同一个全局作用域，顶层 const
 // 撞名会让**整批脚本**加载失败（cb979c1 踩过一次）。
 (function () {
-  const PROBE_KEY = 'atm10zhcn.pack.version'
-  const PROBE_NAMESPACE = 'atm10zhcn'
+  const PROBE_KEY = 'atmonszhcn.pack.version'
+  const PROBE_NAMESPACE = 'atmonszhcn'
   const PACK_VERSION = '@@PATCHVER@@'
   const LANG_PATH = 'lang/zh_cn.json'
   // 进世界后等 3 秒再说话。loggedIn 在连接阶段就触发，世界真正加载完还要一会儿，
@@ -52,7 +52,7 @@
   let offenders = ''
 
   function say(line) {
-    console.info('[ATM10 汉化] ' + line)
+    console.info('[ATMons 汉化] ' + line)
   }
 
   // ---------- 第一层：包生效了没有 ----------
@@ -103,7 +103,8 @@
       LocClass = Java.loadClass('net.minecraft.resources.ResourceLocation')
       repo = McClass.getInstance().getResourcePackRepository()
       // 越靠后优先级越高。注意这个列表跟资源包界面看到的不是一回事：NeoForge 把
-      // 每个模组自带的资源拆成独立的包，实测 ATM10 7.3 有 534 项，而界面里只有十几项。
+      // 每个模组自带的资源拆成独立的包，实测本包启动日志里 ReloadableResourceManager
+      // 那行有 453 项，而资源包界面里只有十几项。
       list = repo.getSelectedPacks().toArray()
     } catch (err) {
       say('顺序自检取不到包列表，跳过：' + err)
@@ -183,12 +184,12 @@
     if (!player) return
 
     if (result === 'missing') {
-      player.tell(Text.red('[ATM10 汉化] ')
+      player.tell(Text.red('[ATMons 汉化] ')
         .append(Text.yellow('汉化资源包没有生效，游戏里绝大部分文本仍然是英文。')))
       player.tell(Text.gray('  打开 ')
         .append(Text.white('选项 → 资源包'))
         .append(Text.gray('，把 '))
-        .append(Text.white('ATM10汉化包'))
+        .append(Text.white('ATMons汉化包'))
         .append(Text.gray(' 拖到右侧「已选」一列的'))
         .append(Text.white('最顶部'))
         .append(Text.gray('。')))
@@ -196,7 +197,7 @@
     }
 
     if (result === 'order') {
-      player.tell(Text.gold('[ATM10 汉化] ')
+      player.tell(Text.gold('[ATMons 汉化] ')
         .append(Text.yellow('汉化资源包被压在下面了，部分名字会显示成别的译法。')))
       if (blocked !== '') {
         player.tell(Text.gray('  你自己装的 ')
@@ -206,7 +207,7 @@
       player.tell(Text.gray('  打开 ')
         .append(Text.white('选项 → 资源包'))
         .append(Text.gray('，把 '))
-        .append(Text.white('ATM10汉化包'))
+        .append(Text.white('ATMons汉化包'))
         .append(Text.gray(' 拖到「已选」一列的'))
         .append(Text.white('最顶部'))
         .append(Text.gray('。')))
@@ -214,7 +215,7 @@
     }
 
     packed = result.substring('mismatch:'.length)
-    player.tell(Text.red('[ATM10 汉化] ')
+    player.tell(Text.red('[ATMons 汉化] ')
       .append(Text.yellow('资源包版本与汉化本体对不上：包是 ' + packed
         + '，本体是 ' + PACK_VERSION + '。')))
     player.tell(Text.gray('  多半是旧版本的包还留在 resourcepacks 里且被启用着，'

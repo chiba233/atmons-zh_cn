@@ -48,7 +48,9 @@ buttons = 14
 #
 client_lang_files  =    262   # [CI] assets/*/lang/zh_cn.json
 client_lang_keys   = 103920   # [CI] 上面那些文件里的键总数
-client_banners     =    162   # [CI] 与生成器侧 banners=162 互相印证
+client_banners     =    162   # [CI] 资源包里那份，与生成器侧 banners=162 互相印证
+client_kubejs_banners = 162   # [源] kubejs/assets 里那份，与上面同源同数；
+                              #      游戏里真正生效的是这一份（KubeJS 压过资源包）
 client_buttons     =     20   # [CI] 注意**不是**上面的 buttons=14：那是生成器出的
                               #      按钮张数，这里数的是包里 config/fancymenu/assets/
                               #      下的全部 png，实测 20 个

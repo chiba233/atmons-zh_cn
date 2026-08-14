@@ -59,7 +59,7 @@ import toolchain
 MARGIN = 0.95
 
 BASELINE_KEYS = {
-    'client': ('lang_files', 'lang_keys', 'banners', 'buttons',
+    'client': ('lang_files', 'lang_keys', 'banners', 'kubejs_banners', 'buttons',
                'vp_modules', 'quest_delta', 'gui_files', 'book_files'),
     'server': ('vp_modules', 'quest_delta'),
 }
@@ -133,6 +133,12 @@ def check(path):
                                 or 'ae2guide' in n or 'oracle-index' in n)
         got['buttons'] = sum(1 for n in names
                              if '/config/fancymenu/assets/' in n and n.endswith('.png'))
+        # 标题图在 kubejs 那棵树里的那一份。资源包那份（上面的 banners）在游戏里
+        # 会被 KubeJS 的虚拟资源包盖掉，真正生效的是这一份——少了就等于章节
+        # 标题图整片回退成英文艺术字，而且资源包里那份还在，看数字完全看不出来。
+        got['kubejs_banners'] = sum(
+            1 for n in names
+            if '/kubejs/assets/atm/textures/questpics/' in n and n.endswith('.png'))
         # 资源包描述里的版本号要和文件名对得上
         try:
             desc = json.loads(pz.read('pack.mcmeta'))['pack']['description']

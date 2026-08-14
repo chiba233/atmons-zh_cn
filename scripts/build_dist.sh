@@ -90,6 +90,26 @@ if [ ! -d "$UPROOT/kubejs" ]; then
   python3 scripts/fetch_pack.py "$MC" "$UPROOT" --no-jars
 fi
 python3 scripts/gen_upstream_patches.py "$UPROOT" "$TREE"
+# 章节标题图必须**同时**放进 kubejs 那棵树，只放资源包不生效。
+#
+# ATM 把 questpics 注入在 kubejs/assets/atm/textures/questpics/，而 KubeJS 的
+# 虚拟资源包在 ReloadableResourceManager 里排在所有 resourcepacks/ 之后——
+# 同路径的文件是 KubeJS 赢。同一条结论在 atm 的 lang 上已经吃过一次：那份
+# 得靠 src/upstream 定点改 kubejs 里的 zh_cn.json 才生效，光放资源包没用。
+# 实测过一次：玩家装好包之后，任务书章节名（走 config 的 lang）是中文，
+# 而同一屏的标题图仍是英文艺术字，正是这个原因。
+#
+# 资源包那一份照留：万一 KubeJS 哪天改了顺序，它就是兜底；两份内容一样，
+# 谁生效都对。
+QP_SRC="$TREE/resourcepacks/ATMons汉化包/assets/atm/textures/questpics"
+QP_DST="$TREE/kubejs/assets/atm/textures/questpics"
+mkdir -p "$QP_DST"
+cp -R "$QP_SRC/." "$QP_DST/"
+QP_A=$(find "$QP_SRC" -name '*.png' | wc -l | tr -d ' ')
+QP_B=$(find "$QP_DST" -name '*.png' | wc -l | tr -d ' ')
+[ "$QP_A" -gt 0 ] && [ "$QP_A" = "$QP_B" ] || {
+  echo "❌ 标题图拷进 kubejs 树对不上：资源包 $QP_A 张 / kubejs $QP_B 张"; exit 1; }
+echo "  章节标题图 $QP_A 张：资源包与 kubejs/assets 各一份（后者优先级更高）"
 # 任务书语言：把本包的覆盖打进上游那份章节文件，按原文件名出货（含该版专属覆盖）。
 # splitter 的合并顺序在 Linux 上是随机的，同一个键必须只由一份文件持有——
 # 详见 gen_quest_lang_patches.py 顶部。

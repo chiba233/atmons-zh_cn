@@ -6,8 +6,17 @@
 """任务书章节横幅上的艺术字（烤进 PNG，语言文件够不着）。
 
 ATM 的任务书每章顶上挂一张标题图，文字直接画在 PNG 里。原图在整合包自带的
-`kubejs/assets/atm/textures/questpics/`，资源包的加载顺序排在 KubeJS 之后
-（对着 ReloadableResourceManager 日志核过），所以本包放同路径的图即可覆盖。
+`kubejs/assets/atm/textures/questpics/`。
+
+**只放资源包不生效**：KubeJS 的虚拟资源包在 ReloadableResourceManager 里排在
+所有 `resourcepacks/` 之后，同路径的文件是 KubeJS 赢。实测过一次——玩家装好
+包之后，任务书章节名（走 config 的 lang）是中文，同一屏的标题图仍是英文艺术字。
+同一条结论在 atm 的 lang 上也吃过：那份得靠 `src/upstream` 定点改 kubejs 里的
+`zh_cn.json` 才生效。
+
+所以本脚本仍然写进资源包（那是兜底），而 `build_dist.sh` 会把同一批图**再拷一份**
+进出货树的 `kubejs/assets/atm/textures/questpics/`，两份数量必须相等，
+出货核验里也有一项 `kubejs_banners` 单独卡这份。
 
 ## 写什么字：单一真源 = 该图所属章节的中文标题
 

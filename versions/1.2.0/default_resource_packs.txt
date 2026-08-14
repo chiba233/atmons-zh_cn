@@ -6,37 +6,34 @@
 # 提示玩家先启动一次游戏、退出后再运行一次安装器——那一次会把汉化包挪到列表最后
 # 一位，必定正确。伪造一个不全的列表反而会让汉化包被压在内置包底下、还没有任何提示。
 #
-# ── 实测（1.2.0 实例，2026-08-14 那次运行）────────────────────────────────
+# ── 实测来源 ──────────────────────────────────────────────────────────────
 #
-# options.txt 里就是 `resourcePacks:[]`，**空列表是真的**，不是没写全。
+# 1.2.0 实例的 options.txt（28789 字节、589 行）里 resourcePacks 那一行，逐项照抄。
 #
-# 一开始看着像矛盾：同一次运行里有两个 zip 确实在生效（日志两次
-# ReloadableResourceManager 的活动包列表里都有 `RCT Trainers+ [1.6] v2.1.zip`
-# 与 `Maxi's-JM+CM_Pixel-U11.zip`）。空列表配两个生效的包，说不通。
+# 取值时看的是**写全了的那份**。同一个文件早先读到过 `resourcePacks:[]`，那是游戏
+# 还没把这一行写出来的中间态：文件当时的 mtime 停在启动后两分钟，进过世界、干净
+# 退出之后才写成现在这样。**空列表不能采信**——判据是文件写全没有，不是文件在不在。
 #
-# 是 globalpacks。整合包自带的 config/global_packs.toml（mtime 09:50:56，跟
-# modpack.cfg 同一秒，属安装态）写着：
+# 两个 zip 资源包（`RCT Trainers+ [1.6] v2.1.zip`、`Maxi's-JM+CM_Pixel-U11.zip`）
+# 确实在生效（日志 ReloadableResourceManager 的活动包列表里有），但**不在下面这份
+# 列表里**，这是对的：整合包自带的 config/global_packs.toml 写着
 #
 #     [resourcepacks]
 #     required = ["resourcepacks/", "global_packs/required_resources/"]
 #
-# 它把整个 resourcepacks/ 目录当**必需资源包**强制启用。必需包不进玩家的选择列表，
-# 所以不写进 options.txt。两个 zip 的 mtime 都是 09:51，是整合包自己放进去的。
+# globalpacks 把整个 resourcepacks/ 目录当必需资源包强制启用，必需包不进玩家的
+# 选择列表、也就不写进 options.txt。所以「列表里没有它们」不等于「漏了」。
+# （顺带：这条 required 也会强制启用我们的汉化包 zip。）
 #
-# （空的 `global_packs/` 目录不是判据——那只是 required_resources 那一条的挂载点，
-# 里面没东西不代表这个模组没在干活。配置文件叫 global_packs.toml，不叫
-# globalpacks.toml，按后者 grep 会一无所获。）
-#
-# 顺带排掉的：DefaultOptions 的 config/defaultoptions-common.toml 里
-# defaultResourcePacks = []，它没有声明任何默认资源包。
-#
-# ── 那为什么下面还是一项都不填 ────────────────────────────────────────────
-#
-# 因为这份文件目前用「一项都没有」表示「尚未实测」，表达不了「实测就是空的」。
-# 要区分这两种状态得改 installer/install.sh 的分支，而那条分支有
-# scripts/test_installer.py 的断言盯着（不写 resourcePacks 行、不伪造列表、
-# 必须提示两步）——改判据前要先经授权，不自己动。
-#
-# 保持现状不会装错：走两步流程时安装器只写 lang:zh_cn，而汉化包 zip 落在
-# resourcepacks/ 下，globalpacks 那条 required 会直接把它强制启用，第一次启动
-# 汉化就已经生效；第二次运行安装器再把条目补进 options.txt。
+# 别按 `globalpacks` 去 grep 配置——文件名是 `global_packs.toml`；也别拿空的
+# `global_packs/` 目录当「这模组没干活」的判据，那只是 required_resources 的挂载点。
+modularbees:dynamic_assets
+vanilla
+mod_resources
+moonlight:merged_pack
+mod/dyenamicsandfriends:compat_packs/productivemetalworks/
+mod/dyenamicsandfriends:compat_packs/connectedglass/
+mod/dyenamicsandfriends:compat_packs/luminax/
+mod/dyenamicsandfriends:compat_packs/cookingforblockheads/
+mod/dyenamicsandfriends:compat_packs/botanypots/
+mod/dyenamicsandfriends:compat_packs/chromacarvings/

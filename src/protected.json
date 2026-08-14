@@ -882,6 +882,7 @@
     "src/config/ftbquests/quests/lang/zh_cn/chapters/undergarden.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/welcome.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/reward_table.snbt",
+    "src/config/vaultpatcher_asm/config.json",
     "src/config_ui_terms.json",
     "src/keep_english.json",
     "src/kubejs/client_scripts/hanhua_pack_check.js",

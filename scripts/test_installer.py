@@ -388,14 +388,28 @@ assert 'lang:zh_cn' in txt, f'新建的 options.txt 没写入中文语言：\n{t
 # install.ps1 的 $DefaultPacks 是单引号字符串，里面的 "" 原样保留成两个双引号，
 # 写出来的是 resourcePacks:[""vanilla"",...]——数组根本解析不了，游戏回落默认
 # 列表 = 汉化没启用。而「ENTRY in txt」照样成立，测试一路绿。
-want = [n.strip() for n in (ROOT / 'versions' / MCVER / 'default_resource_packs.txt')
-        .read_text(encoding='utf-8').splitlines()
-        if n.strip() and not n.startswith('#')] + [ENTRY]
+declared = [n.strip() for n in (ROOT / 'versions' / MCVER / 'default_resource_packs.txt')
+            .read_text(encoding='utf-8').splitlines()
+            if n.strip() and not n.startswith('#')]
 got = resource_packs(txt)
-assert got is not None, f'新建的 resourcePacks 行解析不出来（语法坏了）：\n{txt!r}'
-assert got == want, ('新建的 resourcePacks 数组与预期不符\n  实际 %r\n  预期 %r\n  原文 %r'
-                     % (got, want, txt))
-print('✅ 全新实例（无 options.txt，路径含中文+空格）OK —— 数组逐项比对')
+if declared:
+    want = declared + [ENTRY]
+    assert got is not None, f'新建的 resourcePacks 行解析不出来（语法坏了）：\n{txt!r}'
+    assert got == want, ('新建的 resourcePacks 数组与预期不符\n  实际 %r\n  预期 %r\n  原文 %r'
+                         % (got, want, txt))
+    print('✅ 全新实例（无 options.txt，路径含中文+空格）OK —— 数组逐项比对')
+else:
+    # 该版还没实测过默认资源包顺序（default_resource_packs.txt 里一条有效项都没有）。
+    # 安装器此时**刻意不写** resourcePacks 行，改走两步流程——伪造一个不全的列表
+    # 会让汉化包被压在内置包底下，而且没有任何提示。这里要断言的正是这个行为：
+    # 语言写了、resourcePacks 一行都没有、并且提示了玩家再跑一次。
+    assert got is None, ('该版尚未实测默认包顺序，安装器不该写出 resourcePacks 行，'
+                         '却写了 %r\n  原文 %r' % (got, txt))
+    assert 'resourcePacks' not in txt, f'不该出现 resourcePacks 字样：\n{txt!r}'
+    assert '两步' in out or '再运行一次' in out or '先启动一次' in out, \
+        f'没有提示玩家走两步流程：\n{out}'
+    print('✅ 全新实例（无 options.txt，路径含中文+空格）OK —— '
+          '该版未实测默认包顺序，走两步流程且不伪造列表')
 
 # ---- 回归：玩过的实例但 options.txt 不见了 → 绝不新建 ----
 # 玩家报过：装完汉化后键位、视频、声音设置全没了。已有 options.txt 的路径是安全的

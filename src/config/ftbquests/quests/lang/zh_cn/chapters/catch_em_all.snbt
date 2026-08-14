@@ -1,0 +1,151 @@
+{
+	quest.07016F654CFFAA20.quest_desc: [
+		"如果你想留个悬念、自己试出哪块&6化石&r出什么，那就别翻页！"
+		"{@pagebreak}"
+		"&e贝壳化石&r - &6菊石&b兽&r \\n&e甲壳化石&r - &6化石&b盔&r \\n&6秘密琥珀&r - &6化石&9翼龙&r \\n&a根状化石&r - &6触手&2百合&r \\n&a爪子化石&r - &6太古&a羽虫&r \\n&c头盖化石&r - &6头盖龙&r \\n&c盾甲化石&r - &6盾甲&7龙&r \\n&5背盖化石&r - &9原盖&6海龟&r \\n&5羽毛化石&r - &6始祖&9小鸟&r \\n&7颚之化石&r - &6宝宝&9暴龙&r \\n&3鳍之化石&r - &6冰&b雪龙&r"
+		"{@pagebreak}"
+		"最后 4 块&6化石&r玩法不同。要拿 2 块这样的&6化石&r合成 1 只&c宝可梦&r。\\n\\n&6化石鸟&r + &a化石龙&r = &e雷鸟&9龙&r \\n&6化石鸟&r + &5化石海兽&r = &e雷鸟&b海兽&r \\n&b化石鱼&r + &a化石龙&r = &b鳃鱼&9龙&r \\n&b化石鱼&r + &5化石海兽&r = &b鳃鱼海兽&r"
+	]
+	quest.07016F654CFFAA20.title: "&6化石"
+	quest.07392142A0166032.quest_desc: [
+		"时间把一具「远古骸骨」封存了下来。\\n\\n骨头周围会有&7可疑的沙砾&f和&e沙子&r。"
+		"{image:atm:textures/questpics/pokemon/find_skeleton.png width:200 height:100 align:center}"
+	]
+	quest.07392142A0166032.title: "史前遗迹：远古骸骨"
+	quest.131ACE9712128876.quest_desc: ["&3宝可搜索器&r，顾名思义！它帮你找&c宝可梦&r！\\n\\n光是拿在手上，屏幕右下角就会出现一张小地图，附近每只&c宝可梦&r都会标成一个 (X)。上面还有坐标和指南针！\\n\\n打开&3宝可搜索器&r就有筛选选项。第一项是&c宝可梦&r名字，拼写要准，这里可没有自动纠错。\\n\\n然后是&c宝可梦&r的属性和标签。属性筛选我这儿好像是坏的，但标签能加各种条件，比如 gen1 筛第一世代的&c宝可梦&r。\\n\\n再往后是基础点数。不同&c宝可梦&r的基础点数各不相同，具体哪只是哪样我可说不上来。不过你可以点选并组合任意多项，来找更具体的&c宝可梦&r！\\n\\n最后一项是这只&c宝可梦&r你收服过没有。"]
+	quest.131ACE9712128876.title: "&3宝可搜索器"
+	quest.16B06A4C0B9F8DFB.quest_desc: [
+		"沼泽里能找到「根系坑」。\\n\\n是&8泥巴&f和&2根&r，外加一点&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_root.png width:200 height:100 align:center}"
+	]
+	quest.16B06A4C0B9F8DFB.title: "史前遗迹：根系坑"
+	quest.21281EC844F00D68.quest_desc: [
+		"这次换一片海！珊瑚海。这里有色彩斑斓的热泉喷口。\\n\\n结构周围能找到&e可疑的沙子&r。"
+		"{image:atm:textures/questpics/pokemon/find_vibrant.png width:200 height:100 align:center}"
+	]
+	quest.21281EC844F00D68.title: "史前遗迹：斑斓热泉喷口"
+	quest.2150D54D18BD85EE.quest_desc: ["终于可以甩&c竿&r了。这会消耗掉那颗&2树果&r。\\n\\n浮标开始扭起来的时候，右键把&c宝可梦&r拽上来！\\n\\n这会直接跟那只&c宝可梦&r开战。\\n\\n然后你得在战斗里花一个回合，朝它扔&c精灵球&r。"]
+	quest.2150D54D18BD85EE.title: "开钓"
+	quest.222E16E832A13624.quest_desc: [
+		"在溶洞深处，你可能会撞见一处绿洲！\\n\\n这里的地面上会生成&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_dripstone.png width:200 height:100 align:center}"
+	]
+	quest.222E16E832A13624.title: "史前遗迹：溶洞绿洲"
+	quest.2444614287B6398E.quest_desc: [
+		"在平原上偶尔能看到几块不一样的方块从地里冒出来，那可能就是「可疑土丘」！\\n\\n&7可疑的沙砾&r生成在&2草方块&r和一些&7石头&r底下。"
+		"{image:atm:textures/questpics/pokemon/find_sus_mound.png width:200 height:100 align:center}"
+	]
+	quest.2444614287B6398E.title: "史前遗迹：可疑土丘"
+	quest.24DB1F587DB99074.quest_desc: [
+		"化石复原多方块结构要 3 个方块：化石分析仪、数据显示器和复原培养皿。按这个样子摆好。"
+		"{image:atm:textures/questpics/pokemon/find_fossil.png width:100 height:100 align:center} "
+		"在开始复原、或者叫复活、或者随便叫什么之前！我们得先有燃料……燃料的来源是一大堆&2农作物&f和&2植物&r类的东西。\\n\\n食物类的比如树果、牛排和蛋糕；液体类的比如蜂蜜或者可疑的炖菜；甚至不能吃的东西也行，比如树苗、花和树叶！\\n\\n培养皿灌满之后，就能把&6化石&r放进化石分析仪。要是用的是那几块特殊&6化石&r，得放 2 块不同的&6化石宝可梦&r进去。\\n\\n开始工作后它会亮起来：屏幕发光，分析仪射出红色激光，培养皿开始冒泡。\\n\\n等一切归于平静，&6化石&r就在培养皿里变成一只完整复原的&c宝可梦&r了。对培养皿用一个&c精灵球&r，就会自动把它收服。"
+	]
+	quest.24DB1F587DB99074.title: "化石复原"
+	quest.25498A20F05FB703.quest_desc: ["如果一位村民没有职业（而且不是&2傻子&r！），在他旁边放一个工作站方块，他就会跑过去就业。\\n\\n放什么方块决定他干什么，我们要的&b渔夫&r对应木桶。\\n持续跟他交易他就会涨经验，等级拉满后所有交易都会解锁。我们需要一位&b渔夫大师&r，才能拿到……\\n\\n&b宝钓竿的锻造模版&r。"]
+	quest.25498A20F05FB703.title: "&b宝钓竿的锻造模版"
+	quest.268DEC15019B7CF0.quest_desc: [
+		"靠近海底的时候，你可能会被拖进热泉喷口。\\n\\n&7可疑的沙砾&r就生成在海底其他&7沙砾&r旁边！"
+		"{image:atm:textures/questpics/pokemon/find_hydrothermal.png width:200 height:100 align:center}"
+	]
+	quest.268DEC15019B7CF0.title: "史前遗迹：热泉喷口"
+	quest.2E4A0D8AEA1AE6B6.quest_desc: [
+		"又一个恶地里的建筑，「焦炙残骸」。我不知道当年发生了什么，但显然有人惹毛了一只&c火属性宝可梦&r。\\n\\n&7可疑的沙砾&r生成在红沙底下。"
+		"{image:atm:textures/questpics/pokemon/find_sunscorched_remains.png width:200 height:100 align:center}"
+	]
+	quest.2E4A0D8AEA1AE6B6.title: "史前遗迹：焦炙残骸"
+	quest.2EC9EC0184C2024D.quest_desc: [
+		"繁茂洞穴里的另一处结构，「苔藓池塘」。\\n\\n&7可疑的沙砾&r生成在&9水&r下面。"
+		"{image:atm:textures/questpics/pokemon/find_mossy.png width:200 height:100 align:center}"
+	]
+	quest.2EC9EC0184C2024D.title: "史前遗迹：苔藓池塘"
+	quest.2F71A83DC5E91615.quest_desc: [
+		"深海底下有不少奇怪的结构，「沉没撞击坑」绝对算最怪的之一。\\n\\n那个近似洞穴的空间里就有&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_submerged_impact.png width:200 height:100 align:center}"
+	]
+	quest.2F71A83DC5E91615.title: "史前遗迹：沉没撞击坑"
+	quest.3308D7EDFBF51190.quest_desc: [
+		"沙漠里到处是土丘，其中还夹着几处「沙地巢穴」！\\n\\n&e可疑的沙子&r就生成在巢穴里。"
+		"{image:atm:textures/questpics/pokemon/find_sandy.png width:200 height:100 align:center}"
+	]
+	quest.3308D7EDFBF51190.title: "史前遗迹：沙地巢穴"
+	quest.397E11CDCB8B4DC4.quest_desc: [
+		"被时间冻住，也被冻在各种冰雪群系里的，是「冰封池塘」。\\n\\n&b冰&r里面就藏着&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_frozen_pond.png width:200 height:100 align:center}"
+	]
+	quest.397E11CDCB8B4DC4.title: "史前遗迹：冰封池塘"
+	quest.3B5578F000D6AD9E.quest_desc: ["把任意一根钓鱼竿、&b宝钓竿的锻造模版&r和一个&c精灵球&r合到一起，就能做出&c宝&r钓竿！\\n\\n用掉的&c精灵球&r只影响&c宝&r钓竿的外观……别拿贵的去做。\\n\\n我最喜欢用&d治愈球&r做的那根！"]
+	quest.3B5578F000D6AD9E.title: "做一根&c宝&r钓竿"
+	quest.3E822975A8A66EBD.quest_desc: [
+		"「泥坑」生成在丛林里，还好它们不是流沙！\\n\\n&7可疑的沙砾&r就在&8泥巴&r底下。"
+		"{image:atm:textures/questpics/pokemon/find_mud.png width:200 height:100 align:center}"
+	]
+	quest.3E822975A8A66EBD.title: "史前遗迹：泥坑"
+	quest.3FC34BEE629F4037.quest_desc: [
+		"到了积雪群系，细雪就是个隐患。它可能让你冻死、摔死，也可能让你挖到化石！\\n\\n&7可疑的沙砾&r在细雪下面。"
+		"{image:atm:textures/questpics/pokemon/find_powder.png width:200 height:100 align:center}"
+	]
+	quest.3FC34BEE629F4037.title: "史前遗迹：细雪矿床"
+	quest.410492282A446A06.quest_desc: ["&a宝可导航器&r能帮你搞清楚附近会（或者能）刷新哪些&c宝可梦&r。\\n\\n它按你所在的生物群系自动切换。\\n\\n打开&a宝可导航器&r，会看到一长串&c宝可梦&r！\\n\\n顶上的按钮分别用来切换刷新稀有度、按从常见到罕见（或反过来）排序，最后一个是刷新列表！\\n\\n把光标移到列表里某只&c宝可梦&r上会显示资料：种类、刷新概率，以及它是在天上刷还是在地上刷。\\n\\n点开某只&c宝可梦&r会显示更详细的刷新条件：时间限制、能刷和不能刷的方块，甚至光照等级。\\n\\n如果某只&c宝可梦&r就在附近，它右上方会出现一个按钮。点一下，屏幕上就会出现指向最近那一只的箭头；再右键一次可以取消。"]
+	quest.410492282A446A06.title: "&a宝可导航器"
+	quest.421C02BBAF6616FC.quest_desc: ["恭喜你找到一处&6化石点&r！……然后呢？\\n\\n拿一把（或者做一把）刷子。对着&e可疑的沙子&f或&7沙砾&r长按右键。\\n\\n这样就能刷开可疑方块，刷出物品来。物品来自随机战利品表，跟地牢箱子一个道理。\\n\\n不过不同地点出的&6化石&r不一样。"]
+	quest.421C02BBAF6616FC.title: "&6&l考古"
+	quest.55BF1E9BB9F0768D.quest_desc: [
+		"规律你应该摸清了：云杉在哪，它们就在哪！\\n\\n顺着原木往下挖就能找到&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_spruce.png width:200 height:100 align:center}"
+	]
+	quest.55BF1E9BB9F0768D.title: "史前遗迹：云杉树"
+	quest.5B8A381EFA3D836B.quest_desc: [
+		"冰雪群系上方那些冰刺里，有的其实是「沉没冰刺」。\\n\\n它们带着&e可疑的沙子&r！"
+		"{image:atm:textures/questpics/pokemon/find_submerged_spike.png width:200 height:100 align:center}"
+	]
+	quest.5B8A381EFA3D836B.title: "史前遗迹：沉没冰刺"
+	quest.5E64DDC28C1AD3FF.quest_desc: ["有些&c宝可梦&r得&b钓&r上来，可怎么知道哪些能&b钓&r到？\\n\\n靠&b垂钓导航器&r！咦，我这怎么一只&c宝可梦&r都不显示？\\n\\n背包里得有一根&c宝&r钓竿，才会显示附近能钓到的&c宝可梦&r。有了之后，它会按你最靠近的那片水域群系（海洋、河流之类）来列。\\n\\n和&a宝可导航器&r一样，它会显示种类、稀有度和刷新概率！"]
+	quest.5E64DDC28C1AD3FF.title: "&b垂钓导航器"
+	quest.5ECE56EAB6773769.quest_desc: ["鱼（以及&c宝可梦&r鱼）才不会往吓人的钩子上凑！除非钩子上挂着好吃的饵。\\n\\n要钓&c宝可梦&r，得有&2树果&r！\\n\\n不同&2树果&r的垂钓效果各不相同：有的让某种属性的&c宝可梦&r更常出现，有的提升能力值，还有的能提高钓上来的&c宝可梦&r等级。\\n\\n用法是钓鱼时把&2树果&r拿在副手。"]
+	quest.5ECE56EAB6773769.title: "钓饵"
+	quest.6F2E30BE5CF82C77.quest_desc: [
+		"又是&9水&r底下，这次是「水下裂隙」。\\n\\n里面到处都能找到&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_underwater.png width:200 height:100 align:center}"
+	]
+	quest.6F2E30BE5CF82C77.title: "史前遗迹：水下裂隙"
+	quest.72DCD32EC59F8E9C.quest_desc: [
+		"哪里生成&b冰&r，哪里就有「冰封尖刺」！\\n\\n和「侵蚀石柱」一样，&7可疑的沙砾&r就生成在尖刺内部。"
+		"{image:atm:textures/questpics/pokemon/find_frozen_spike.png width:200 height:100 align:center}"
+	]
+	quest.72DCD32EC59F8E9C.title: "史前遗迹：冰封尖刺"
+	quest.731A8877EA474D67.quest_desc: [
+		"从色彩斑斓的恶地里刺出来的，是「侵蚀石柱」。\\n\\n&7可疑的沙砾&r就生成在石柱内部。"
+		"{image:atm:textures/questpics/pokemon/find_eroded.png width:200 height:100 align:center}"
+	]
+	quest.731A8877EA474D67.title: "史前遗迹：侵蚀石柱"
+	quest.74285B2AC6E00D20.quest_desc: [
+		"在丛林里穿行时，你可能会遇到一个小凹坑，那就是「繁茂巢穴」！\\n\\n&7可疑的沙砾&r就生成在里面。"
+		"{image:atm:textures/questpics/pokemon/find_lush.png width:200 height:100 align:center}"
+	]
+	quest.74285B2AC6E00D20.title: "史前遗迹：繁茂巢穴"
+	quest.775D4E9974C70D5C.quest_desc: [
+		"只要能找到橡树的地方，就能找到「史前橡树」！\\n\\n原木底下就是&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_oak.png width:200 height:100 align:center}"
+	]
+	quest.775D4E9974C70D5C.title: "史前遗迹：橡树"
+	quest.7781133CB04584AA.quest_desc: [
+		"「水胆玛瑙」这名字挺唬人，说白了就是「繁茂洞穴里的洞穴」！\\n\\n&7可疑的沙砾&r生成在&9水&r下面。"
+		"{image:atm:textures/questpics/pokemon/find_enhydro.png width:200 height:100 align:center}"
+	]
+	quest.7781133CB04584AA.title: "史前遗迹：水胆玛瑙"
+	quest.78FC6687B5FD964F.quest_desc: [
+		"「史前白桦树」在白桦树能生成的地方都会出现。\\n\\n树的原木深处埋着&7可疑的沙砾&r。"
+		"{image:atm:textures/questpics/pokemon/find_birch.png width:200 height:100 align:center}"
+	]
+	quest.78FC6687B5FD964F.title: "史前遗迹：白桦树"
+	quest.7E8CBDC0377013E0.quest_desc: [
+		"恶地里的又一处结构，「焦炙巢穴」。\\n\\n&7可疑的沙砾&r端端正正地坐在巢穴里。"
+		"{image:atm:textures/questpics/pokemon/find_sunscorched_den.png width:200 height:100 align:center}"
+	]
+	quest.7E8CBDC0377013E0.title: "史前遗迹：焦炙巢穴"
+	task.03C72EFDFD9D0F8D.title: "宝钓竿"
+	task.419216305C141D67.title: "宝可搜索器"
+	task.570E6A812FFE21EF.title: "化石"
+	task.6A9462E51E54383F.title: "树果"
+}

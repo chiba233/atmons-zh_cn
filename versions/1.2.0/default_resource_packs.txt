@@ -6,37 +6,37 @@
 # 提示玩家先启动一次游戏、退出后再运行一次安装器——那一次会把汉化包挪到列表最后
 # 一位，必定正确。伪造一个不全的列表反而会让汉化包被压在内置包底下、还没有任何提示。
 #
-# ── 已经量到的事实（1.2.0 实例，2026-08-14 那次运行）────────────────────────
+# ── 实测（1.2.0 实例，2026-08-14 那次运行）────────────────────────────────
 #
-# 那次运行是完整的：09:52 启动、进过世界、10:04:44 走完关闭流程干净退出。
-# 但 options.txt 的 mtime 停在 09:54:27，内容是 resourcePacks:[]，退出时没有再写。
-# 这个 [] **不能采信**，因为同一次运行里有两个 zip 资源包确实在生效
-# （日志的 ReloadableResourceManager 那行里有 `RCT Trainers+ [1.6] v2.1.zip`
-# 与 `Maxi's-JM+CM_Pixel-U11.zip`，两个文件也确实在 resourcepacks/ 下）。
-# 一个空列表配两个生效的包，说明这次拿到的不是那一行的最终值。
+# options.txt 里就是 `resourcePacks:[]`，**空列表是真的**，不是没写全。
 #
-# 关于 DefaultOptions 模组：本包**装着**它（mods/defaultoptions-neoforge-1.21.1-21.1.8.jar，
-# 上一个整合包没装）。它的资源包默认值不在 config/defaultoptions/options.txt（那份只有
-# 44 字节、确实没有 resourcePacks 行），而在 config/defaultoptions-common.toml 的
-# defaultResourcePacks —— 实测是空数组 []，即整合包没有声明任何默认资源包。
+# 一开始看着像矛盾：同一次运行里有两个 zip 确实在生效（日志两次
+# ReloadableResourceManager 的活动包列表里都有 `RCT Trainers+ [1.6] v2.1.zip`
+# 与 `Maxi's-JM+CM_Pixel-U11.zip`）。空列表配两个生效的包，说不通。
 #
-# 所以 options.txt 读到 [] 有可能本来就是对的。要坐实这一点，得解释清楚上面那两个
-# zip 是被谁启用的。已经排掉的：
+# 是 globalpacks。整合包自带的 config/global_packs.toml（mtime 09:50:56，跟
+# modpack.cfg 同一秒，属安装态）写着：
 #
-#   - globalpacks：实例里 global_packs/ 下 optional_data、required_data、
-#     required_resources 三个子目录**全是空的**，config/ 下也没有它的配置文件。
-#     它没有可加载的东西，不是这两个 zip 的来源。
-#   - DefaultOptions：defaultResourcePacks = []，没有声明任何默认资源包。
-#   - RCT Trainers+ 那个 zip 有解释：rctmod 自己加载它，日志里有
-#     `[Radical Cobblemon Trainers/]: Data pack initialized: RCT Trainers+ [1.6] v2.1.zip`，
-#     两次资源重载各一条，不经过 options.txt。
+#     [resourcepacks]
+#     required = ["resourcepacks/", "global_packs/required_resources/"]
 #
-# 还没解释的只剩 `Maxi's-JM+CM_Pixel-U11.zip`：config/ 与 kubejs/ 里都没有任何一处
-# 按名字引用它（grep 到的 Maxi 全是 maximum/máxima 之类的词），日志里除了两次
-# ReloadableResourceManager 的活动包列表之外也再没出现过。两个 zip 的 mtime 都是
-# 09:51，跟整合包安装态同一批，不是玩家自己放进去的。
+# 它把整个 resourcepacks/ 目录当**必需资源包**强制启用。必需包不进玩家的选择列表，
+# 所以不写进 options.txt。两个 zip 的 mtime 都是 09:51，是整合包自己放进去的。
 #
-# 在这一条查清之前不把 [] 当成实测值填进来。
+# （空的 `global_packs/` 目录不是判据——那只是 required_resources 那一条的挂载点，
+# 里面没东西不代表这个模组没在干活。配置文件叫 global_packs.toml，不叫
+# globalpacks.toml，按后者 grep 会一无所获。）
 #
-# 取值办法：起一次全新实例，**停在主菜单**，从游戏内的「选项 → 资源包」里确认列表，
-# 再正常退出，然后读 options.txt 的 resourcePacks: 那一行，按顺序逐项抄到下面。
+# 顺带排掉的：DefaultOptions 的 config/defaultoptions-common.toml 里
+# defaultResourcePacks = []，它没有声明任何默认资源包。
+#
+# ── 那为什么下面还是一项都不填 ────────────────────────────────────────────
+#
+# 因为这份文件目前用「一项都没有」表示「尚未实测」，表达不了「实测就是空的」。
+# 要区分这两种状态得改 installer/install.sh 的分支，而那条分支有
+# scripts/test_installer.py 的断言盯着（不写 resourcePacks 行、不伪造列表、
+# 必须提示两步）——改判据前要先经授权，不自己动。
+#
+# 保持现状不会装错：走两步流程时安装器只写 lang:zh_cn，而汉化包 zip 落在
+# resourcepacks/ 下，globalpacks 那条 required 会直接把它强制启用，第一次启动
+# 汉化就已经生效；第二次运行安装器再把条目补进 options.txt。

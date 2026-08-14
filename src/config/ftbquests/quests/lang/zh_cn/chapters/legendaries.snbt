@@ -78,19 +78,19 @@
 	quest.1E6F0000000010AA.quest_desc: ["&b酋雷姆&r是真实与理想被撕走之后剩下的那部分——一条空洞的冰之龙，永远在追寻自己失去的那两半。\\n\\n去冰封的&bKyurem Cave&r找它。你必须同时带上从莱希拉姆和捷克罗姆那里得来的&f真实之瓶&r与&8理想之瓶&r，这条空壳之龙才肯与你相对。"]
 	quest.1E6F0000000010AA.quest_subtitle: "合众"
 	quest.1E6F0000000010AA.title: "酋雷姆"
-	quest.1E6F0000000010B1.quest_desc: ["&9帝牙卢卡&r是时间本身的主宰，一条钢之龙，它的心跳定下了每一刻流逝的节拍。\\n\\n爬到&dSpear Pillar&r，带上一条&d红色锁链&r去束缚它。这只时间宝可梦会撕开当下的一道口子现身——它一出现你就得准备好。"]
+	quest.1E6F0000000010B1.quest_desc: ["&9帝牙卢卡&r是时间本身的主宰，一条钢之龙，它的心跳定下了每一刻流逝的节拍。\\n\\n爬到&d枪之柱&r，带上一条&d红色锁链&r去束缚它。这只时间宝可梦会撕开当下的一道口子现身——它一出现你就得准备好。"]
 	quest.1E6F0000000010B1.quest_subtitle: "神奥"
 	quest.1E6F0000000010B1.title: "帝牙卢卡"
-	quest.1E6F0000000010B7.quest_desc: ["&d帕路奇亚&r是空间的主宰，一条能把两点之间的距离折叠到相接的龙。\\n\\n在&dSpear Pillar&r，它应的是和帝牙卢卡同一份召唤。把一条&d红色锁链&r带到山顶，就能把这只空间宝可梦从世界之间的虚空里引出来。"]
+	quest.1E6F0000000010B7.quest_desc: ["&d帕路奇亚&r是空间的主宰，一条能把两点之间的距离折叠到相接的龙。\\n\\n在&d枪之柱&r，它应的是和帝牙卢卡同一份召唤。把一条&d红色锁链&r带到山顶，就能把这只空间宝可梦从世界之间的虚空里引出来。"]
 	quest.1E6F0000000010B7.quest_subtitle: "神奥"
 	quest.1E6F0000000010B7.title: "帕路奇亚"
 	quest.1E6F0000000010BD.quest_desc: ["&8骑拉帝纳&r因其暴戾被放逐到&5毁灭的世界&r，是一条幽灵般的龙，从镜子的另一侧注视着我们的世界。\\n\\n找到&5Giratina Island&r，带上一颗&d白金宝珠&r把通路撕开。在它自己那个倒影般的领域里正面它，然后把它带回来。"]
 	quest.1E6F0000000010BD.quest_subtitle: "神奥"
 	quest.1E6F0000000010BD.title: "骑拉帝纳"
-	quest.1E6F0000000010C3.quest_desc: ["&c拉帝亚斯&r是永恒双子里温柔的红色那一半，能把自己藏得看不见，也能感知周围人的心情。\\n\\n它在隐蔽的&aSouthern Island&r上筑巢。献上一份&c拉帝亚斯方块&r，把这条怕生的龙哄出来，赢得它的信任。"]
+	quest.1E6F0000000010C3.quest_desc: ["&c拉帝亚斯&r是永恒双子里温柔的红色那一半，能把自己藏得看不见，也能感知周围人的心情。\\n\\n它在隐蔽的&a南方孤岛&r上筑巢。献上一份&c拉帝亚斯方块&r，把这条怕生的龙哄出来，赢得它的信任。"]
 	quest.1E6F0000000010C3.quest_subtitle: "丰缘"
 	quest.1E6F0000000010C3.title: "拉帝亚斯"
-	quest.1E6F0000000010C9.quest_desc: ["&9拉帝欧斯&r是永恒双子里高贵的蓝色那一半，快得能甩开喷气机，聪明得能把自己见过的画面展示给别人。\\n\\n它和妹妹共享&aSouthern Island&r。带一份&9拉帝欧斯方块&r把它唤下来，向这条迅捷之龙证明你配得上。"]
+	quest.1E6F0000000010C9.quest_desc: ["&9拉帝欧斯&r是永恒双子里高贵的蓝色那一半，快得能甩开喷气机，聪明得能把自己见过的画面展示给别人。\\n\\n它和妹妹共享&a南方孤岛&r。带一份&9拉帝欧斯方块&r把它唤下来，向这条迅捷之龙证明你配得上。"]
 	quest.1E6F0000000010C9.quest_subtitle: "丰缘"
 	quest.1E6F0000000010C9.title: "拉帝欧斯"
 	quest.1E6F0000000010CF.quest_desc: ["&c苍响&r是伽勒尔戴冠的英雄之狼，当年它口衔光辉之剑，把「黑暗的一天」逼退。\\n\\n它在&6Throne Room of Knightly Heroes&r里等着。带上&b英雄之剑&r——它古时挥过的那柄锈刃——再带一个&e不死图腾&r，这只勇士宝可梦就会来试试你的决心。"]
@@ -99,22 +99,22 @@
 	quest.1E6F0000000010D5.quest_desc: ["&9藏玛然特&r是伽勒尔持盾的英雄之狼，当年与苍响并肩迎战「黑暗的一天」，挡下了每一次进攻。\\n\\n它守着&6Throne Room of Knightly Heroes&r。带上&b英雄之盾&r——它那面古老锈蚀的护盾——再带一个&e不死图腾&r，这只守护者宝可梦会评判你够不够格。"]
 	quest.1E6F0000000010D5.quest_subtitle: "伽勒尔"
 	quest.1E6F0000000010D5.title: "藏玛然特"
-	quest.1E6F0000000010EB.quest_desc: ["&7雷吉洛克&r是传说巨神里的岩石魔像，身体由巨石拼成，靠一种未知的力量维系在一起。\\n\\n它沉睡在&bSnowpoint Temple&r里。带上&7岩魔像钥匙&r解开它的石室封印，把这具远古造物唤醒。"]
+	quest.1E6F0000000010EB.quest_desc: ["&7雷吉洛克&r是传说巨神里的岩石魔像，身体由巨石拼成，靠一种未知的力量维系在一起。\\n\\n它沉睡在&b切锋神殿&r里。带上&7岩魔像钥匙&r解开它的石室封印，把这具远古造物唤醒。"]
 	quest.1E6F0000000010EB.quest_subtitle: "丰缘"
 	quest.1E6F0000000010EB.title: "雷吉洛克"
-	quest.1E6F0000000010F1.quest_desc: ["&b雷吉艾斯&r是传说巨神里的冰之魔像，身体冻在零下数百度，从不融化。\\n\\n它被封在&bSnowpoint Temple&r里。带上&b冰魔像钥匙&r打开它的密室，挑战这位冰封巨神。"]
+	quest.1E6F0000000010F1.quest_desc: ["&b雷吉艾斯&r是传说巨神里的冰之魔像，身体冻在零下数百度，从不融化。\\n\\n它被封在&b切锋神殿&r里。带上&b冰魔像钥匙&r打开它的密室，挑战这位冰封巨神。"]
 	quest.1E6F0000000010F1.quest_subtitle: "丰缘"
 	quest.1E6F0000000010F1.title: "雷吉艾斯"
-	quest.1E6F0000000010F7.quest_desc: ["&7雷吉斯奇鲁&r是传说巨神里的钢之魔像，身体比任何已知金属都硬，却又能弯能屈。\\n\\n它安卧在&bSnowpoint Temple&r中。带上&7钢魔像钥匙&r打破封印，与这位钢铁巨神对上。"]
+	quest.1E6F0000000010F7.quest_desc: ["&7雷吉斯奇鲁&r是传说巨神里的钢之魔像，身体比任何已知金属都硬，却又能弯能屈。\\n\\n它安卧在&b切锋神殿&r中。带上&7钢魔像钥匙&r打破封印，与这位钢铁巨神对上。"]
 	quest.1E6F0000000010F7.quest_subtitle: "丰缘"
 	quest.1E6F0000000010F7.title: "雷吉斯奇鲁"
-	quest.1E6F0000000010FD.quest_desc: ["&e雷吉艾勒奇&r是电之巨神，一具纯能量之躯，据说能让整个地区都淹没在电流里。\\n\\n它被锁在&bSnowpoint Temple&r深处。带上&e电魔像钥匙&r，把困在里面的那场风暴放出来。"]
+	quest.1E6F0000000010FD.quest_desc: ["&e雷吉艾勒奇&r是电之巨神，一具纯能量之躯，据说能让整个地区都淹没在电流里。\\n\\n它被锁在&b切锋神殿&r深处。带上&e电魔像钥匙&r，把困在里面的那场风暴放出来。"]
 	quest.1E6F0000000010FD.quest_subtitle: "伽勒尔"
 	quest.1E6F0000000010FD.title: "雷吉艾勒奇"
-	quest.1E6F000000001103.quest_desc: ["&5雷吉铎拉戈&r是龙之巨神，由结晶化的龙之能量塑成，饥饿感永不消退。\\n\\n它在&bSnowpoint Temple&r里酣睡。带上&5龙魔像钥匙&r把这位贪食的巨神唤醒，收为己有。"]
+	quest.1E6F000000001103.quest_desc: ["&5雷吉铎拉戈&r是龙之巨神，由结晶化的龙之能量塑成，饥饿感永不消退。\\n\\n它在&b切锋神殿&r里酣睡。带上&5龙魔像钥匙&r把这位贪食的巨神唤醒，收为己有。"]
 	quest.1E6F000000001103.quest_subtitle: "伽勒尔"
 	quest.1E6F000000001103.title: "雷吉铎拉戈"
-	quest.1E6F000000001109.quest_desc: ["&6雷吉奇卡斯&r是造出那些小巨神的主人，据说它曾用绳索把大陆一块块拖到位。\\n\\n五只雷吉不齐，它不会动。把雷吉洛克、雷吉艾斯、雷吉斯奇鲁、雷吉艾勒奇和雷吉铎拉戈都收齐，再带&6巨人钥匙&r去&bSnowpoint Temple&r唤醒这位巨像。"]
+	quest.1E6F000000001109.quest_desc: ["&6雷吉奇卡斯&r是造出那些小巨神的主人，据说它曾用绳索把大陆一块块拖到位。\\n\\n五只雷吉不齐，它不会动。把雷吉洛克、雷吉艾斯、雷吉斯奇鲁、雷吉艾勒奇和雷吉铎拉戈都收齐，再带&6巨人钥匙&r去&b切锋神殿&r唤醒这位巨像。"]
 	quest.1E6F000000001109.quest_subtitle: "神奥"
 	quest.1E6F000000001109.title: "雷吉奇卡斯"
 	quest.1E6F00000000110F.quest_desc: ["&5无极汰那&r是「黑暗的一天」的核心，一条外星之龙，身体本身就是一座无穷能量的活反应堆。\\n\\n它蛰伏在&d无极汰那之茧&r里。攒够&d伽勒尔粒子&r把外壳撑裂，直面极巨化现象的源头。"]
@@ -135,7 +135,7 @@
 	quest.1E6F00000000112D.quest_desc: ["&d蕾冠王&r是曾经统治整个伽勒尔的王，一只沉静温和的宝可梦，据说能看见一切过去与未来。\\n\\n它在&dCrown Shrine&r等着，但王需要坐骑。先把雪暴马和灵幽马都拿下，再走向王座去见这位君主，并挑选你的坐骑。"]
 	quest.1E6F00000000112D.quest_subtitle: "伽勒尔"
 	quest.1E6F00000000112D.title: "蕾冠王"
-	quest.1E6F000000001132.quest_desc: ["&f阿尔宙斯&r是「原初的独一」，据说整个宇宙都由它从自身塑造而出。\\n\\n它的居所在世界之外。吹响&e天界之笛&r——那是你已胜过骑拉帝纳、帝牙卢卡和帕路奇亚的凭证——打开通往&fHall of Origin&r的阶梯，站到创造者面前。能有机会直面神明的人，寥寥无几。"]
+	quest.1E6F000000001132.quest_desc: ["&f阿尔宙斯&r是「原初的独一」，据说整个宇宙都由它从自身塑造而出。\\n\\n它的居所在世界之外。吹响&e天界之笛&r——那是你已胜过骑拉帝纳、帝牙卢卡和帕路奇亚的凭证——打开通往&f初始之殿&r的阶梯，站到创造者面前。能有机会直面神明的人，寥寥无几。"]
 	quest.1E6F000000001132.quest_subtitle: "神奥"
 	quest.1E6F000000001132.title: "阿尔宙斯"
 	quest.1E6F000000001138.quest_desc: ["&d艾姆利多&r是情感之神，神奥三湖的守护者之一，据说是它教会了人们喜与悲。\\n\\n它藏在&bLake Verity&r底下。挣得一份&aProof of Conquest&r，在湖边呈上，把这位情感的精灵召到明处。"]
@@ -243,16 +243,16 @@
 	quest.1E6F00000000123E.quest_desc: ["&b凯路迪欧&r是正义之剑里最年轻的一位，一匹小马驹，能一路奔驰着渡过任何水面，靠战斗证明自己的勇气。\\n\\n循着它的蹄印走到水边，端上一份&b正义咖喱&r，把这位年轻的剑士唤出来。"]
 	quest.1E6F00000000123E.quest_subtitle: "合众"
 	quest.1E6F00000000123E.title: "凯路迪欧"
-	quest.1E6F0000000012C1.quest_desc: ["&c炎帝&r是火山宝可梦，三只传说之兽之一，在&eEcruteak Village&r那座&6Burned Tower&r的灰烬中重生。\\n\\n用 宝可方块盒 和树果做出一份&c炎帝方块&r，带到 Burned Tower 去召唤并收服这头火之兽。"]
+	quest.1E6F0000000012C1.quest_desc: ["&c炎帝&r是火山宝可梦，三只传说之兽之一，在&e缘之市&r那座&6烧焦塔&r的灰烬中重生。\\n\\n用 宝可方块盒 和树果做出一份&c炎帝方块&r，带到烧焦塔去召唤并收服这头火之兽。"]
 	quest.1E6F0000000012C1.quest_subtitle: "城都"
 	quest.1E6F0000000012C1.title: "炎帝"
-	quest.1E6F0000000012C7.quest_desc: ["&e雷公&r是雷之宝可梦，一头奔如闪电、吼如风暴的传说之兽，在&eEcruteak Village&r的&6Burned Tower&r中重生。\\n\\n做一份&e雷公方块&r带到 Burned Tower，把它召唤出来。"]
+	quest.1E6F0000000012C7.quest_desc: ["&e雷公&r是雷之宝可梦，一头奔如闪电、吼如风暴的传说之兽，在&e缘之市&r的&6烧焦塔&r中重生。\\n\\n做一份&e雷公方块&r带到烧焦塔，把它召唤出来。"]
 	quest.1E6F0000000012C7.quest_subtitle: "城都"
 	quest.1E6F0000000012C7.title: "雷公"
-	quest.1E6F0000000012CD.quest_desc: ["&b水君&r是极光宝可梦，纯净之水化成的传说之兽，乘北风而行，在&eEcruteak Village&r的&6Burned Tower&r中重生。\\n\\n做一份&b水君方块&r带到 Burned Tower，把它引出来。"]
+	quest.1E6F0000000012CD.quest_desc: ["&b水君&r是极光宝可梦，纯净之水化成的传说之兽，乘北风而行，在&e缘之市&r的&6烧焦塔&r中重生。\\n\\n做一份&b水君方块&r带到烧焦塔，把它引出来。"]
 	quest.1E6F0000000012CD.quest_subtitle: "城都"
 	quest.1E6F0000000012CD.title: "水君"
-	quest.1E6F0000000012D3.quest_desc: ["&6凤王&r是彩虹宝可梦，据说栖息在 Ecruteak 城镇建筑的&eBell Tower&r顶上，见到它的人都会获得永恒的幸福。传说正是它赋予了下面那三头兽生命。\\n\\n把从炎帝、水君、雷公那里赢来的&c红&r、&b蓝&r、&e黄&r三枚羽毛合成&6虹色羽毛&r，然后登上 Bell Tower 把凤王召下来。"]
+	quest.1E6F0000000012D3.quest_desc: ["&6凤王&r是彩虹宝可梦，据说栖息在 Ecruteak 城镇建筑的&e铃铛塔&r顶上，见到它的人都会获得永恒的幸福。传说正是它赋予了下面那三头兽生命。\\n\\n把从炎帝、水君、雷公那里赢来的&c红&r、&b蓝&r、&e黄&r三枚羽毛合成&6虹色羽毛&r，然后登上铃铛塔把凤王召下来。"]
 	quest.1E6F0000000012D3.quest_subtitle: "城都"
 	quest.1E6F0000000012D3.title: "凤王"
 	quest.1E6F0000000012E9.quest_desc: ["&d伽勒尔急冻鸟&r是这只传说之鸟威严的伽勒尔形态——一位超能力的飞行者，沉静的目光下藏着冷酷与残忍。\\n\\n用与关都那只应召于冰霜之瓮相仿的办法给&b伽勒尔冰霜之瓮&r充能，只是这次要击败 75 只超能力属性宝可梦，这位对手形态便会掠空而来。"]
@@ -298,11 +298,11 @@
 	task.1E6E0004CA7C0002.title: "收服固拉多"
 	task.1E6E0005571C0003.title: "找到 Sky Pillar"
 	task.1E6E0005CA7C0003.title: "收服烈空坐"
-	task.1E6F000000001005.title: "找到 Team Rocket Volcano"
+	task.1E6F000000001005.title: "找到火箭队火山"
 	task.1E6F000000001006.title: "收服盖诺赛克特"
-	task.1E6F00000000100B.title: "找到 Team Rocket Volcano"
+	task.1E6F00000000100B.title: "找到火箭队火山"
 	task.1E6F00000000100C.title: "收服属性：空"
-	task.1E6F000000001011.title: "找到 Team Rocket Volcano"
+	task.1E6F000000001011.title: "找到火箭队火山"
 	task.1E6F000000001012.title: "收服波尔凯尼恩"
 	task.1E6F00000000101A.title: "清空青铜地牢"
 	task.1E6F00000000101B.title: "收服愿增猿"
@@ -331,31 +331,31 @@
 	task.1E6F0000000010A7.title: "收服捷克罗姆"
 	task.1E6F0000000010AB.title: "找到 Kyurem Cave"
 	task.1E6F0000000010AE.title: "收服酋雷姆"
-	task.1E6F0000000010B2.title: "找到 Spear Pillar"
+	task.1E6F0000000010B2.title: "找到枪之柱"
 	task.1E6F0000000010B4.title: "收服帝牙卢卡"
-	task.1E6F0000000010B8.title: "找到 Spear Pillar"
+	task.1E6F0000000010B8.title: "找到枪之柱"
 	task.1E6F0000000010BA.title: "收服帕路奇亚"
 	task.1E6F0000000010BE.title: "找到 Giratina Island"
 	task.1E6F0000000010C0.title: "收服骑拉帝纳"
-	task.1E6F0000000010C4.title: "找到 Southern Island"
+	task.1E6F0000000010C4.title: "找到南方孤岛"
 	task.1E6F0000000010C6.title: "收服拉帝亚斯"
-	task.1E6F0000000010CA.title: "找到 Southern Island"
+	task.1E6F0000000010CA.title: "找到南方孤岛"
 	task.1E6F0000000010CC.title: "收服拉帝欧斯"
 	task.1E6F0000000010D0.title: "找到 Throne Room of Knightly Heroes"
 	task.1E6F0000000010D2.title: "收服苍响"
 	task.1E6F0000000010D6.title: "找到 Throne Room of Knightly Heroes"
 	task.1E6F0000000010D8.title: "收服藏玛然特"
-	task.1E6F0000000010EC.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010EC.title: "找到切锋神殿"
 	task.1E6F0000000010EE.title: "收服雷吉洛克"
-	task.1E6F0000000010F2.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010F2.title: "找到切锋神殿"
 	task.1E6F0000000010F4.title: "收服雷吉艾斯"
-	task.1E6F0000000010F8.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010F8.title: "找到切锋神殿"
 	task.1E6F0000000010FA.title: "收服雷吉斯奇鲁"
-	task.1E6F0000000010FE.title: "找到 Snowpoint Temple"
+	task.1E6F0000000010FE.title: "找到切锋神殿"
 	task.1E6F000000001100.title: "收服雷吉艾勒奇"
-	task.1E6F000000001104.title: "找到 Snowpoint Temple"
+	task.1E6F000000001104.title: "找到切锋神殿"
 	task.1E6F000000001106.title: "收服雷吉铎拉戈"
-	task.1E6F00000000110A.title: "找到 Snowpoint Temple"
+	task.1E6F00000000110A.title: "找到切锋神殿"
 	task.1E6F00000000110C.title: "收服雷吉奇卡斯"
 	task.1E6F000000001110.title: "找到无极汰那之茧"
 	task.1E6F000000001112.title: "收服无极汰那"
@@ -369,7 +369,7 @@
 	task.1E6F00000000112A.title: "收服灵幽马"
 	task.1E6F00000000112E.title: "找到 Crown Shrine"
 	task.1E6F00000000112F.title: "收服蕾冠王"
-	task.1E6F000000001133.title: "抵达 Hall of Origin"
+	task.1E6F000000001133.title: "抵达初始之殿"
 	task.1E6F000000001135.title: "收服阿尔宙斯"
 	task.1E6F000000001139.title: "找到 Lake Verity"
 	task.1E6F00000000113B.title: "收服艾姆利多"
@@ -411,16 +411,16 @@
 	task.1E6F000000001236.title: "收服代拉基翁"
 	task.1E6F00000000123B.title: "收服毕力吉翁"
 	task.1E6F000000001240.title: "收服凯路迪欧"
-	task.1E6F0000000012C2.title: "进入 Burned Tower"
+	task.1E6F0000000012C2.title: "进入烧焦塔"
 	task.1E6F0000000012C3.title: "持有炎帝方块"
 	task.1E6F0000000012C4.title: "收服炎帝"
-	task.1E6F0000000012C8.title: "进入 Burned Tower"
+	task.1E6F0000000012C8.title: "进入烧焦塔"
 	task.1E6F0000000012C9.title: "持有雷公方块"
 	task.1E6F0000000012CA.title: "收服雷公"
-	task.1E6F0000000012CE.title: "进入 Burned Tower"
+	task.1E6F0000000012CE.title: "进入烧焦塔"
 	task.1E6F0000000012CF.title: "持有水君方块"
 	task.1E6F0000000012D0.title: "收服水君"
-	task.1E6F0000000012D4.title: "登上 Bell Tower"
+	task.1E6F0000000012D4.title: "登上铃铛塔"
 	task.1E6F0000000012D5.title: "持有虹色羽毛"
 	task.1E6F0000000012D6.title: "收服凤王"
 	task.1E6F0000000012EA.title: "持有伽勒尔冰霜之瓮"

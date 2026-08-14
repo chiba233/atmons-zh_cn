@@ -1,0 +1,163 @@
+{
+	quest.00C0536DE2878A36.quest_desc: [
+		"等级上限提升到 53。"
+		""
+		"特征物品是黑奇石。"
+	]
+	quest.01ABEC296643443F.quest_desc: [
+		"等级上限不涨……"
+		""
+		"特征物品是电之宝石。"
+	]
+	quest.01B54F372558DCE5.quest_desc: [
+		"等级上限提升到 65。"
+		""
+		"特征物品是水之宝石。我好像也看出规律了。"
+	]
+	quest.023BF4B6D80621EA.quest_desc: [
+		"等级上限提升到 34。"
+		""
+		"特征物品是恶之宝石。"
+	]
+	quest.072329284468B14C.quest_desc: ["Borrius 地区最后一个要打的，&6Trainer Blue&r。\\\\n\\\\n玩过&4&oRadical Red&r的话，你可能还记得&6Trainer Red&r，这位跟他很像。\\\\n\\\\n他属于可选对手，所以没有特征物品，得去特定生物群系里找他——同样是能生成末地城的那些群系。\\\\n\\\\n打赢他能拿到一大堆奖励，还能成为 Borrius 传奇！"]
+	quest.0C72FEE8AF6A3DDC.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是诅咒之符。"
+	]
+	quest.0EF1ABF3185E4C47.quest_desc: [
+		"等级上限提升到 28。"
+		""
+		"特征物品是疗草。"
+	]
+	quest.1A3CF2D85E20CA99.quest_desc: [
+		"说真的&6Wayne&r，你要是老忘了给我涨等级，我可懒得跟你打！"
+		""
+		"特征物品是联系绳。"
+	]
+	quest.1AAAD0BB67A94487.quest_desc: [
+		"等级上限还是不涨。"
+		""
+		"特征物品是王者之证。"
+	]
+	quest.1CE0095340328C08.quest_desc: ["还不过瘾？还想打更多训练家？\\n\\n竞技场里还有更多可选对手！他们同样刷新在能生成末地城的地方。\\n\\n分别是&5Battleground Alice&f、&5Battleground Benjamin&f、&5Battleground Big Mo&f、&5Battleground Mel&f、&5Battleground Mirskle&f、&5Battleground Tessy&f和&5Battleground Vega&r。\\n把他们全打赢，你就拿下竞技场了！"]
+	quest.1CE0095340328C08.title: "竞技场斗士"
+	quest.1FBF130C71A2112F.quest_desc: [
+		"这次等级上限也不涨。"
+		""
+		"特征物品是一颗末影珍珠。"
+	]
+	quest.201F9E2D3FF0533F.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是黑球果种子。"
+	]
+	quest.23503DF29786B519.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是黑色铁球。"
+	]
+	quest.2B4286EFCE51CC21.quest_desc: [
+		"等级上限提升到 21。"
+		""
+		"特征物品是能力防守。"
+	]
+	quest.2EEA11E6CE65C317.quest_desc: [
+		"等级上限小涨到 38。"
+		""
+		"特征物品是一般宝石。"
+	]
+	quest.3270D40010F5C78A.quest_desc: [
+		"等级上限提升到 41。"
+		""
+		"特征物品是黑球果。"
+	]
+	quest.38FE871A5867D6F3.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是先制之爪。"
+	]
+	quest.3B750DFAF99B858A.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4Trainer Associate&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
+	quest.3B750DFAF99B858A.title: "打通&4&oRadical Red"
+	quest.3C108354DB6D9562.quest_desc: [
+		"等级上限不涨，我算是看出规律了。"
+		""
+		"特征物品是天蓝玉石。"
+	]
+	quest.4160EC0860E9CA4C.quest_desc: ["&4&oUnbound&r的诞生，是因为第二世代的剧情跟第一世代如出一辙。\\\\n\\\\n它沿用火红的机制，只是换上了新的&c宝可梦&r，最重要的是换了一个全新的故事！\\\\n\\\\n照旧：把&4Trainer Card&r交给&4Trainer Associate&r，拿回来时它就设成&4&oUnbound&r了。"]
+	quest.4160EC0860E9CA4C.quest_subtitle: "可选系列"
+	quest.45686EA3EC85C958.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4Trainer Associate&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
+	quest.45686EA3EC85C958.title: "打通&4&oBDSP"
+	quest.4816190648A0F176.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是妖精之羽。"
+	]
+	quest.49264B6A20E2657E.quest_desc: [
+		"这位等级上限也不涨，这家伙是真抠！"
+		""
+		"特征物品是一条紧绑束带。"
+	]
+	quest.49598F74E0F165D1.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是一颗下界之星。"
+	]
+	quest.4A82BC9DA2759C9E.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是遗迹硬币。"
+	]
+	quest.524606135B91B536.quest_desc: [
+		"等级上限提升到 76。"
+		""
+		"特征物品是虫之宝石。"
+	]
+	quest.554FADF336FF2D04.quest_desc: [
+		"等级上限又双叒不涨。"
+		""
+		"特征物品是黑色眼镜。"
+	]
+	quest.5A15FBB64AB9369B.quest_desc: [
+		"等级上限提升到 47。"
+		""
+		"特征物品是刺耳果。"
+	]
+	quest.5F2AB0F9166A6AD5.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是一颗钻石。"
+	]
+	quest.65E76C4AD74338E4.quest_desc: [
+		"等级上限还是不涨？我们到底做错了什么？"
+		""
+		"他这次的特征物品是一个要害攻击。"
+	]
+	quest.67A3611F07575F71.quest_desc: [
+		"等级上限提升到 58。"
+		""
+		"特征物品是格斗宝石。"
+	]
+	quest.6E7DC2CDA7147743.quest_desc: [
+		"等级上限提升到 84。"
+		""
+		"特征物品是一个不死图腾。"
+	]
+	quest.76CA3D98A4772886.quest_desc: ["&4&o系列&r是打完了，但想坐稳&5冠军&r的位子，还得接着打！\\\\n\\\\n之前输给你的一些人回来复仇了，冲着&5冠军&r的头衔来的！\\\\n\\\\n他们是：&5Title Defense Jax&f、&5Title Defense Marlon&f、&5Title Defense Milo&f、&5Title Defense Solenk&f、&5Title Defense Wayne&f和&5Title Defense Zeph&r。\\\\n\\\\n这些是可选对战，所以很遗憾，他们没有特征物品，而是随机刷新在特定生物群系（提示：全是能生成末地城的群系）。\\\\n\\\\n把他们全打赢，你就能拿到 Borrius 头衔！"]
+	quest.76CA3D98A4772886.title: "&5冠军&r保卫战！"
+	quest.7CD47C3C2F1223A1.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是墨囊。"
+	]
+	quest.7D88BBE64DC2A9D0.quest_desc: [
+		"等级上限不涨……为什么这个&4&o系列&r给的等级最少？"
+		""
+		"特征物品是暗之石。"
+	]
+	quest.7F132BF6D4B5F803.quest_desc: [
+		"终于涨等级了。涨到 37。"
+		""
+		"特征物品是飞行宝石。"
+	]
+}

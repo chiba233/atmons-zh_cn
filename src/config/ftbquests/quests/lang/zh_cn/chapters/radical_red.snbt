@@ -1,0 +1,151 @@
+{
+	quest.06AC44758A00C280.quest_desc: [
+		"等级上限提升到 21。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.0AE4F79296B6A4E4.quest_desc: [
+		"等级上限提升到 85。"
+		""
+		"特征物品是&3讲究围巾&r。"
+	]
+	quest.0B7A76864B36BB51.quest_desc: [
+		"等级上限提升到 82。"
+		""
+		"特征物品是&7幸运蛋&r。"
+	]
+	quest.0C92029DF6B9080A.quest_desc: [
+		"等级上限提升到 79。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.1665D7A3BDC93BEA.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是&7安抚&c之铃&r。"
+	]
+	quest.17CADE883895E1C4.quest_desc: [
+		"等级上限提升到 46。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.23A05E86B1DF7B1E.quest_desc: [
+		"等级上限提升到 80。"
+		""
+		"特征物品是&0万能伞&r。"
+	]
+	quest.245203DBA9D45934.quest_desc: [
+		"等级上限提升到 44。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.3150CD77C1E90229.quest_desc: [
+		"等级上限提升到 56。"
+		""
+		"特征物品是&8黑色污泥&r。"
+	]
+	quest.34B53B764112A1BF.quest_desc: [
+		"等级上限提升到 63。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.3D24607A51997B39.quest_desc: [
+		"等级上限不涨。"
+		""
+		"在&cKanto League&r的 3 层。"
+	]
+	quest.49F4016F012BFA95.quest_desc: ["&4&oRadical Red&r是宝可梦红的一个民间改版，剧情跟宝可梦红一样……只是难得多。\\\\n\\\\n没错，这不会轻松。\\\\n\\\\n要开始这个&4&o系列&r，跟&4Trainer Associate&r交易、把&4Trader Card&r交给他就行。"]
+	quest.49F4016F012BFA95.quest_subtitle: "可选系列"
+	quest.4FD9219B6005D90E.quest_desc: ["打通&4&oRadical Red&r之后，你就能找到&6Trainer Red&r——最早那批游戏与作品的主角！\\n\\n他属于可选对手，也就是说他没有特征物品，你得去特定生物群系里找他游荡的身影，也就是能生成末地城的那些群系。\\n\\n他在无数作品里跟训练家打了这么多年，身手相当了得，把你最强的队伍带上！\\n\\n打赢他，你就是关都传奇！"]
+	quest.514A8996A1C18BAF.quest_desc: [
+		"等级上限提升到 29。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.5184669F1F038E9A.quest_desc: [
+		"等级上限提升到 27。"
+		""
+		"特征物品是&e金粒&r。"
+	]
+	quest.51C8B7AAA05EA266.quest_desc: [
+		"有些&a馆主&r&l只&r出现在村庄里生成的&9道馆&r，所以记好你都找到过哪些&a道馆馆主&r！"
+		"&6后面会用得上！！！&r"
+	]
+	quest.51C8B7AAA05EA266.quest_subtitle: "&e&l注意&r"
+	quest.51C8B7AAA05EA266.title: "关都&9道馆"
+	quest.54B5E76DD69EA4CD.quest_desc: [
+		"等级上限提升到 68。"
+		""
+		"特征物品是&5达人带&r。"
+	]
+	quest.5C335DBA0A7C23B5.quest_desc: [
+		"等级上限不涨。"
+		""
+		"在&cKanto League&r的 4 层。"
+	]
+	quest.5D635B2021C98D41.quest_desc: ["想跟&3四天王&r和&5冠军&r打，就得先去 Kanto League Gym！\\n\\n那是一座矗立在&d&l末地&r的高塔，用紫珀块和末地石搭成，正面挂着一个巨大的橙色精灵球。\\n\\n一层有几位 Pokemart Trader、护士，还有可以拿的战利品。往上几层各住着一位&3四天王&r。最高层是&5冠军&r！"]
+	quest.5D635B2021C98D41.title: "Kanto League Gym"
+	quest.60C7BBFC8CA911FF.quest_desc: [
+		"等级上限不涨。"
+		""
+		"在&cKanto League&r的 2 层。"
+	]
+	quest.61CC4CEE94D2B612.quest_desc: [
+		"等级上限提升到 34。"
+		""
+		"特征物品是丝绸围巾。"
+	]
+	quest.6374DDC15639E3C3.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是&9密探斗篷&r。"
+	]
+	quest.643604ECFEE714D4.quest_desc: [
+		"等级上限提升到 81。"
+		""
+		"特征物品是&c红线&r。"
+	]
+	quest.67C1FC2100E5A73C.quest_desc: [
+		"等级上限提升到 73。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+	]
+	quest.68618D5F4FC2F331.quest_desc: [
+		"等级上限不涨。"
+		""
+		"在&cKanto League&r的 1 层。"
+	]
+	quest.71525B9B007ECD34.quest_desc: [
+		"等级上限不涨。"
+		""
+		"特征物品是&8黑玉石&r。"
+	]
+	quest.73AC47B946B9A388.quest_desc: [
+		"等级上限提升到 55。"
+		""
+		"特征物品是升级数据（这就是它的全名）。"
+	]
+	quest.7588ADA67F348B0C.quest_desc: [
+		"等级上限提升到 76。"
+		""
+		"特征物品是&b活力蕾&r。"
+	]
+	quest.78843287D1EB98E2.quest_desc: [
+		"等级上限提升到 81。"
+		""
+		"随机出现在生成于&a#minecraft:village&r的&9道馆&r里"
+		""
+	]
+	quest.7C112EF6EA2BB232.quest_desc: [
+		"等级上限还是不涨，不过嘿，你把&5冠军&r打赢了！"
+		""
+		"在&cKanto League&r的顶层。"
+		""
+		"&5Champion Terry&r是这个&4&o系列&r里最后一个要打的人，但关都地区的事还没完……"
+	]
+	quest.7DF8583CAB36812E.quest_desc: [
+		"等级上限提升到 59。"
+		""
+		"特征物品是&d可疑补丁&r。"
+	]
+}

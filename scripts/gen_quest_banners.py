@@ -553,6 +553,7 @@ BANNERS = {
     'create/create_title.png':                              '机械动力',
     'deepndark/dnd_title.png':                              '更深更暗',
     'draconic/draconic_title.png':                          '龙之进化',
+    'enderio/enderiologo.png':                              '末影接口',
     'eternal/starlight_armor.png':                          '护甲',
     'eternal/starlight_bosses.png':                         '首领',
     'eternal/starlight_items.png':                          '独特物品',
@@ -566,6 +567,7 @@ BANNERS = {
     'generator/generator_galore.png':                       '发电机盛会',
     'gettingstarted/started_title.png':                     '新的开端',
     'gettingstarted/titleimage1.png':                       '第一章',  # 该图是章节序号，不是章名
+    'logo.png':                                             '万物宝可梦',   # 整合包自己的标志
     'id_title.png':                                         '动态\n联合',   # 原图两行，画布 400x400，单行会缩得很小
     'immersive/immersive_title.png':                        '沉浸工程',
     'industrialforegoing/industrial_foregoing_title.png':   '工业先锋',
@@ -593,11 +595,15 @@ BANNERS = {
     'pokemon/find_title.png':                               '全都找出来！',
     'pokemon/find_title_archeology.png':                    '考古',
     'pokemon/find_title_fish.png':                          '钓鱼',
-    'pokemon/farm_title2.png':                              '与宝可梦一起种田',   # 前半张 farm_title1 是 CobbleWorkers 模组标志，留英文
+    'pokemon/farm_title1.png':                              '方块工人',   # CobbleWorkers 的标志，mcmod 无收录，按词义定名
+    'pokemon/farm_title2.png':                              '与宝可梦一起种田',
+    'pokemon/legendary_title1.png':                          '传',        # 原图是花体首字母 L，后半在 title2
+    'pokemon/legendary_title2.png':                          '说宝可梦',
     'pokemon/master_title1.png':                            '大师球',
     'pokemon/master_title2.png':                            '以及制作其他精灵球',
     'pokemon/mega_title.png':                               '超级对决',
     'pokemon/paradox_title.png':                            '悖谬',
+    'pokemon/poke_title.png':                               '方块宝可梦',   # Cobblemon 的标志，mcmod 收录的中文名
     'pokemon/tips_title.png':                               '宝可技巧与窍门',
     'pokemon/ultra_title1.png':                             '究极',      # 原图 Ultra + Beasts 两张，照拆
     'pokemon/ultra_title2.png':                             '异兽',
@@ -611,6 +617,9 @@ BANNERS = {
     'railcraft/railcraft.png':                              '铁路工艺',
     'relics/relics_title.png':                              '遗物',
     'series/atmteam_title.png':                             'ATM 团队系列',
+    'series/bdsp_title.png':                                '晶灿钻石·明亮珍珠',   # 本篇游戏，有官方中文
+    'series/red_radical.png':                               '激进红',      # 民间改版，用社区通行叫法
+    'series/unbound_title.png':                             '解放',        # 同上
     'router/router_title.png':                              '模块化\n路由器',   # 原图就是两行，画布近正方，单行会缩得很小
     'theurgy/theurgy.png':                                  '神通术',
     'tips_and_tricks.png':                                  '技巧与窍门',
@@ -690,6 +699,7 @@ BANNERS = {
     'mek/mek_title_fission.png': '裂变反应堆',
     'mek/mek_title_fusion.png': '聚变反应堆',
     'mek/mek_title_logistics.png': '物流',
+    'mek/mekanism_logo.png':                                '通用机械',
     'mek/mek_title_multi.png':                              '更多多方块结构',
     'mek/mek_title_machines.png': '机器',
     'mek/mek_title_matrix.png': '感应矩阵',

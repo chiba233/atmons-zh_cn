@@ -40,15 +40,15 @@
 	quest.56A11740B93819D4.quest_desc: ["打赢&6&lATM 团队&r每一位成员拿到的徽章，都收在&6ATM徽章盒&r里。\\n\\n用法很简单：右键开关；打开状态下潜行右键就能操作它。"]
 	quest.580A66080AB6B117.quest_desc: ["3 层，太阳厅。&4精英道馆&r里最大的房间。\\n\\n这里有许多藏书室和自习室，但最重要的是那间实验室——&9&lVortex&r就在里面。\\n\\n他是 Discord 里一切捣乱分子的克星，也是&c&lGravitas&r的作者！如果你恨不得&2&lMinecraft&r一点都不许简单，那你会爱上&c&lGravitas&r。\\n\\n他的&9徽章&r是一个&9漩涡&r……这还用问。"]
 	quest.5A7E0848E16A5453.quest_desc: ["&d&lJoey&r现在在&d火箭队火山&r底下。\\n\\n他正在硫磺池边上躺着。\\n\\n&d&lJoey&r没有自己的频道，但他为我们的整合包出了大力！\\n\\n嘿，那也是内容，也是他做出来的，所以我们把他算作内容创作者。\\n\\n他的&d徽章&r是&d热心徽章&r，配得上他帮的那些忙。"]
-	quest.670756F02FD8179F.quest_desc: ["有些&6ATM 团队成员&r没有自己的家。\\n\\n我说的是在&l&cAll&7The&fMons&r里，现实中我们过得都挺好。\\n\\n要找他们，得在&b&l彼岸&r四处转，或者用&4训练家刷怪笼&r！把&4训练家刷怪笼&r放下，给它一块&5难得素块&r，再通上&4红石信号&r开启就行！\\n\\n如果某位&4训练家&r的特征物品正好是&5难得素块&r，他就有可能出现。刷错人了？杀掉就会换一个！\\n\\n&6四处游荡的团队成员&r有：Bored、Drack_ion、Helix Ranmara、Mitchell52、Mutant Gumdrop、ShinyPorygon 和 Ultra Megaa。"]
+	quest.670756F02FD8179F.quest_desc: ["有些&6ATM 团队成员&r没有自己的家。\\n\\n我说的是在&l&cAll&7The&fMons&r里，现实中我们过得都挺好。\\n\\n要找他们，得在&b&l异界&r四处转，或者用&4训练家刷怪笼&r！把&4训练家刷怪笼&r放下，给它一块&5难得素块&r，再通上&4红石信号&r开启就行！\\n\\n如果某位&4训练家&r的特征物品正好是&5难得素块&r，他就有可能出现。刷错人了？杀掉就会换一个！\\n\\n&6四处游荡的团队成员&r有：Bored、Drack_ion、Helix Ranmara、Mitchell52、Mutant Gumdrop、ShinyPorygon 和 Ultra Megaa。"]
 	quest.670756F02FD8179F.title: "打赢&6四处游荡的 ATM 团队成员"
 	quest.671208DA73DF3987.quest_desc: [
 		"相信我，&4精英道馆&r你一看就认得出来。又大又漂亮，里面更好看！\\n\\n别被&4道馆&r的高度吓到，里面有电梯。"
 		"{image:atm:textures/questpics/series/atmteam_elite.png width:125 height:200 align:center}"
 	]
 	quest.671208DA73DF3987.title: "&4精英道馆"
-	quest.68518CCD2EF8B22F.quest_desc: ["其余的&6团队成员&r在&b&l彼岸&r出现。\\n\\n去&c&l下界&r放一块&6传送垫&r。确保两只手都空着，然后潜行右键&6传送垫&r。\\n\\n这样就能到&b&l彼岸&r。"]
-	quest.68518CCD2EF8B22F.title: "&b&l彼岸"
+	quest.68518CCD2EF8B22F.quest_desc: ["其余的&6团队成员&r在&b&l异界&r出现。\\n\\n去&c&l下界&r放一块&6传送垫&r。确保两只手都空着，然后潜行右键&6传送垫&r。\\n\\n这样就能到&b&l异界&r。"]
+	quest.68518CCD2EF8B22F.title: "&b&l异界"
 	quest.6B409AE2D10E174B.quest_desc: ["从一位艺术家到另一位，只是路子不同。\\n\\n大厅里还能找到&e&lRosary&r。\\n\\n&c&lAll&7The&fMons&r里各座定制道馆的设计，大多出自&e&lRosary&r之手。\\n\\n从&3蜜蜂屋&r到&5巧克力飞艇&r再到&4精英道馆&r。他和一群帮忙搭建、让这些建筑真正能用的人，都值得你说声谢谢！\\n\\n那就用抢走他&8徽章&r的方式谢他吧！"]
 	quest.6C57E0C60AA72B9E.quest_desc: ["打赢&lNotch&r之后，我们会得到一份&d远古D&3N&dA&3样本&r。\\n\\n多半是&4精英道馆&r里那些实验的产物。\\n\\n把&d远古D&3N&dA&3样本&r和一颗&e未束缚皮卡之星&r一起放进化石分析仪，就能造出&d超梦&r。\\n\\n记得备齐：化石分析仪，顶上放数据显示器，旁边放复原培养皿，还要有足够的生物燃料把复原培养皿灌满。\\n\\n克隆完成后，对着培养皿用一个&c精灵球&r，就能把&d超梦&r收进来。"]
 	quest.6C57E0C60AA72B9E.title: "收服&d超梦"

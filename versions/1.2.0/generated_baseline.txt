@@ -30,12 +30,26 @@ books = 1294
 # 又补了 12 张章节内的（进化、悖谬、宝可技巧与窍门、究极+异兽、考古、钓鱼、
 # ATM 团队系列、作物、自动农场、花卉、变异）。
 # 仍未补的是章节内部的小标题图，见 gen_quest_banners.py 顶部。
-banners = 199
+#
+# 2026-08-16 重量为 204（+5）：补了极巨化、Z招式、从这里开始、波留斯四张章节
+# 标题图，以及内容创作者那一章的界面底图——那一张是在同一张图上换三处文字
+# （搜索条、左侧竖排、卡片），生成器为此加了 MULTI 与 draw_multi。
+banners = 204
 #
 # ── 主菜单按钮（config/fancymenu/assets）───────────────────────────────
 #
-# 14 张，与上一个整合包相同，没有变化。
-buttons = 14
+# 2026-08-16 改为 20，并且这是一处**修错**，不只是重量。
+#
+# build_dist.sh 里 BUTTONS 数的是 config/fancymenu/assets 下的全部 png（实测 20），
+# 而这里原先填的 14 是生成器自报的按钮张数——两者根本不是同一个量，
+# 于是这道闸一直按 14 卡 20，删掉 6 张也照过。下面 client_buttons 的注释里
+# 早就写明了这个差别，只是没回头把这一项一起改掉。
+#
+# 生成器这一侧本次报「已生成 18 张」：14 张是从整合包取回原图重绘的
+# （单人游戏 / 多人游戏 / 选项 / 退出 / 模组 / 语言 / 租用服务器，各含常态与高亮），
+# 另外 4 张是拿 github 的底稿改出来的汉化包主页与问题反馈。
+# 目录里另有 2 张不经生成器的 png，所以目录总数是 20。
+buttons = 20
 #
 #
 # ══ 打包之后的实测量 ═══════════════════════════════════════════════════
@@ -50,14 +64,14 @@ buttons = 14
 # client_buttons 就是这么抓出来的：一开始按「生成器报了 14 张按钮」填 14，
 # CI 实测 20，差在这一项数的是整个 fancymenu/assets 目录，不只是按钮。
 #
-client_lang_files  =    262   # [CI] assets/*/lang/zh_cn.json
-client_lang_keys   = 103920   # [CI] 上面那些文件里的键总数
-client_banners     =    199   # [CI] 资源包里那份，与生成器侧 banners=199 互相印证
-client_kubejs_banners = 199   # [源] kubejs/assets 里那份，与上面同源同数；
+client_lang_files  =    306   # [CI] assets/*/lang/zh_cn.json
+client_lang_keys   = 108557   # [CI] 上面那些文件里的键总数
+client_banners     =    204   # [CI] 资源包里那份，与生成器侧 banners=204 互相印证
+client_kubejs_banners = 204   # [源] kubejs/assets 里那份，与上面同源同数；
                               #      游戏里真正生效的是这一份（KubeJS 压过资源包）
-client_buttons     =     20   # [CI] 注意**不是**上面的 buttons=14：那是生成器出的
-                              #      按钮张数，这里数的是包里 config/fancymenu/assets/
-                              #      下的全部 png，实测 20 个
+client_buttons     =     20   # [CI] 数的是包里 config/fancymenu/assets/ 下的全部 png。
+                              #      上面的 buttons 原先填 14（生成器自报的张数），
+                              #      与这一项数的不是同一个量，2026-08-16 已一并改为 20。
 client_vp_modules  =    156   # [CI]
 client_quest_delta =     82   # [CI]
 client_gui_files   =     24   # [CI]
@@ -65,3 +79,24 @@ client_book_files  =   1097   # [CI] patchouli_books / ae2guide / oracle-index �
 #
 server_vp_modules  =     10   # [CI]
 server_quest_delta =     82   # [CI]
+#
+# ── 改动记录 ────────────────────────────────────────────────────────────
+#
+# 2026-08-16  chiba233 授权后重量一次，取 CI 的 Build run 31931994043
+#             （commit 6faa72f）里 verify_dist 打印的实测行：
+#
+#   ✅ client  banners=204 book_files=1097 buttons=20 gui_files=24
+#              kubejs_banners=204 lang_files=306 lang_keys=108557
+#              quest_delta=82 vp_modules=156
+#   ✅ server  quest_delta=82 vp_modules=10
+#
+#             改动全部是**上调**：
+#               client_lang_files      262 → 306      新建的语言文件
+#               client_lang_keys    103920 → 108557   新补的键
+#               client_banners         199 → 204      新画的标题图
+#               client_kubejs_banners  199 → 204      同上，同源
+#               banners（生成器侧）     199 → 204
+#               buttons（生成器侧）      14 → 20       修错，见该项注释
+#             其余各项与实测一致，未动。
+#             books=1294 也未动：本次 gen_books.py 的自报数与当初量它时
+#             完全相同（结构型 812 个文件、3633/3633 落位、跳过 713）。

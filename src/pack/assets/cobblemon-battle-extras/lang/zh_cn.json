@@ -1,0 +1,14 @@
+{
+  "_说明": "ACC／CRT／EVA 三个缩写按宝可梦官方能力名译；倍率标签与 PP 是纯符号，照抄。",
+  "battle.stat.abbr.accuracy": "命中",
+  "battle.stat.abbr.crit": "要害",
+  "battle.stat.abbr.evasion": "闪避",
+  "category.cobblemon-battle-extras": "Cobblemon Battle Extras",
+  "config.cobblemon-battle-extras.key_name.unbound": "-",
+  "move.battleinfo.pp": "✦ PP：%d/%d",
+  "tooltip.cobblemon-battle-extras.weakness.multiplier.x0": "x0：",
+  "tooltip.cobblemon-battle-extras.weakness.multiplier.x025": "x1/4：",
+  "tooltip.cobblemon-battle-extras.weakness.multiplier.x05": "x1/2：",
+  "tooltip.cobblemon-battle-extras.weakness.multiplier.x2": "x2：",
+  "tooltip.cobblemon-battle-extras.weakness.multiplier.x4": "x4："
+}

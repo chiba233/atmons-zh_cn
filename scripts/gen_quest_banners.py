@@ -602,6 +602,8 @@ BANNERS = {
     'pokemon/master_title1.png':                            '大师球',
     'pokemon/mega_mega.png':                                '超级进化',
     'pokemon/mega_tera.png':                                '太晶化',
+    'pokemon/mega_dynamax.png':                             '极巨化',      # 与 raiddens 的形态名同一套官方译法
+    'pokemon/mega_z.png':                                   'Z招式',       # 官方译名就带一个拉丁字母 Z
     'pokemon/master_title2.png':                            '以及制作其他精灵球',
     'pokemon/mega_title.png':                               '超级对决',
     'pokemon/paradox_future.png':                           '未来',
@@ -625,6 +627,7 @@ BANNERS = {
     'series/red_kanto.png':                                 '关都',
     'series/bdsp_title.png':                                '晶灿钻石·明亮珍珠',   # 本篇游戏，有官方中文
     'series/red_radical.png':                               '激进红',      # 民间改版，用社区通行叫法
+    'series/red_arrow.png':                                 '从这里开始',   # 文件名叫 arrow，画的却是 Start here；箭头是另一张 helper_arrow
     'series/unbound_title.png':                             '解放',        # 同上
     'router/router_title.png':                              '模块化\n路由器',   # 原图就是两行，画布近正方，单行会缩得很小
     'theurgy/theurgy.png':                                  '神通术',

@@ -77,16 +77,16 @@
 		""
 		"特征物品是先制之爪。"
 	]
-	quest.3B750DFAF99B858A.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4Trainer Associate&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
+	quest.3B750DFAF99B858A.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4训练家协会&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
 	quest.3B750DFAF99B858A.title: "打通&4&oRadical Red"
 	quest.3C108354DB6D9562.quest_desc: [
 		"等级上限不涨，我算是看出规律了。"
 		""
 		"特征物品是天蓝玉石。"
 	]
-	quest.4160EC0860E9CA4C.quest_desc: ["&4&oUnbound&r的诞生，是因为第二世代的剧情跟第一世代如出一辙。\\\\n\\\\n它沿用火红的机制，只是换上了新的&c宝可梦&r，最重要的是换了一个全新的故事！\\\\n\\\\n照旧：把&4Trainer Card&r交给&4Trainer Associate&r，拿回来时它就设成&4&oUnbound&r了。"]
+	quest.4160EC0860E9CA4C.quest_desc: ["&4&oUnbound&r的诞生，是因为第二世代的剧情跟第一世代如出一辙。\\\\n\\\\n它沿用火红的机制，只是换上了新的&c宝可梦&r，最重要的是换了一个全新的故事！\\\\n\\\\n照旧：把&4训练家卡&r交给&4训练家协会&r，拿回来时它就设成&4&oUnbound&r了。"]
 	quest.4160EC0860E9CA4C.quest_subtitle: "可选系列"
-	quest.45686EA3EC85C958.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4Trainer Associate&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
+	quest.45686EA3EC85C958.quest_desc: ["要解锁&4&oUnbound&r，得先打通&4&oRadical Red&r或&4&oBDSP&r之一。\\\\n\\\\n这两个&4&o系列&r排在&4&oUnbound&r前面。其中一个没打完，&4训练家协会&r是不会给你&4&oUnbound&r的。\\\\n\\\\n没错，不用两个都打完，任选一个就行！"]
 	quest.45686EA3EC85C958.title: "打通&4&oBDSP"
 	quest.4816190648A0F176.quest_desc: [
 		"等级上限不涨。"

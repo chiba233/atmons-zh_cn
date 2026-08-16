@@ -1,4 +1,6 @@
 {
   "_说明": "整合包用 kubejs/assets/legendary_monuments/lang/en_us.json 把这条提示改短了——原文里「and to craft Ancient Origin Balls」被删掉，因为本包改了合成。mod 自带的中文还是旧的那句，会让玩家照着一个不存在的合成去做。这里按包改后的英文对齐。注意 kubejs 那份的目录名是 legendary_monuments（带下划线），键里的命名空间才是 legendarymonuments，两者不同不是笔误。",
+  "biome.legendarymonuments.hall_of_origin_world_biome": "初始之殿",
+  "biome.legendarymonuments.reawakening_sanctum_biome": "复苏圣所",
   "item.legendarymonuments.red_chain.tooltip.1": "用于在枪之柱召唤帕路奇亚和帝牙卢卡"
 }

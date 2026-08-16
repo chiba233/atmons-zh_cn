@@ -3,27 +3,27 @@
 	quest.099B7F8D13868CCD.quest_desc: ["她会把你的等级上限提到 20。\\n她的特征物品是&c广角镜&r。"]
 	quest.0BD70EAB43DBD003.quest_desc: ["他又给你涨等级了！这次涨到 39。\\n\\n他这次的特征物品是&b觉醒之石&r。"]
 	quest.0E7C79861D18D885.quest_desc: ["&4&oBrilliant Diamond and Shining Pearl&r是神奥地区的剧本。\\n\\n开启方式和其他&4&o系列&r一样：去村庄附近找&4Trainer Associate&r，或者在没有&4&o系列&r时把&4Trainer Card&r举在手上，他就会随机刷新在你附近。\\n\\n跟他交易就能开始&4&oBDSP 系列&r。\\n\\n这个&4&o系列&r得先打通，才能解锁其他&4&o系列&r，包括&6&oATM &4系列&r！"]
-	quest.11EBB510A604026A.quest_desc: ["这场复仇战会把等级上限提到 49。\\n\\n他这次的特征物品是&9回响碎片&r。Cyrus 你这可不便宜啊！"]
-	quest.11EBB510A604026A.title: "&7Team Galactic Boss Cyrus 复仇战"
-	quest.13FDC88F09F96D0F.quest_desc: ["还没完？是的……他们你还得再打一遍。\\n\\n&3Aaron&r提到 81。\\n\\n&3Bertha&r提到 83。\\n\\n&3Flint&r提到 85。\\n\\n&3Lucian&r提到 88。"]
+	quest.11EBB510A604026A.quest_desc: ["这场复仇战会把等级上限提到 49。\\n\\n他这次的特征物品是&9回响碎片&r。赤日你这可不便宜啊！"]
+	quest.11EBB510A604026A.title: "&7银河队老大赤日复仇战"
+	quest.13FDC88F09F96D0F.quest_desc: ["还没完？是的……他们你还得再打一遍。\\n\\n&3阿柳&r提到 81。\\n\\n&3菊野&r提到 83。\\n\\n&3大叶&r提到 85。\\n\\n&3悟松&r提到 88。"]
 	quest.13FDC88F09F96D0F.title: "又到复仇战时间！"
 	quest.183E4F5F940CBDEA.quest_desc: ["他也不会给你涨等级上限。\\n\\n他的物品是&6对焦镜&r。"]
 	quest.1AB8BB655AFA79E4.quest_desc: ["他会把你的等级上限提到 63。\\n\\n他的特征物品是&c火之石&r。"]
 	quest.207D96D22A9B97F1.quest_desc: ["回来复仇了，这次会把你的等级提到 42。\\n\\n他的特征物品是&4火焰弹&r。"]
-	quest.207D96D22A9B97F1.title: "&7Commander Mars 复仇战"
+	quest.207D96D22A9B97F1.title: "&7干部伙星复仇战"
 	quest.21EE03301BEFB449.quest_desc: ["她会把你的等级上限提到 22。\\n\\n她的特征物品是&7焦点镜&r。"]
 	quest.23F5D39BCBCD7D42.quest_desc: ["她会把你从 59 提到 61。\\n\\n她的特征物品是&5柔软沙子&r。"]
-	quest.27ACBFA9D014D2A6.quest_desc: ["&aVolkner&r会一口气把你的等级上限提到 55。\\n\\n他的特征物品是&a雷之石&r。"]
-	quest.3A12B03FE9C9D925.quest_desc: ["终于要跟&5冠军&f&5Cynthia&r正面交锋了！\\n\\n打赢她，等级上限会提到 69。\\n\\n她的特征物品是&3美丽鳞片&r。"]
+	quest.27ACBFA9D014D2A6.quest_desc: ["&a电次&r会一口气把你的等级上限提到 55。\\n\\n他的特征物品是&a雷之石&r。"]
+	quest.3A12B03FE9C9D925.quest_desc: ["终于要跟&5冠军&f&5竹兰&r正面交锋了！\\n\\n打赢她，等级上限会提到 69。\\n\\n她的特征物品是&3美丽鳞片&r。"]
 	quest.3D63B8A64B561A71.quest_desc: ["他会把你的等级上限提到 36。\\n\\n他这次的特征物品是&d进化奇石&r。\\n\\n你得跟他打 3 次。不只是打，还得赢！"]
-	quest.45135F112E05F9B5.quest_desc: ["这个&4&o系列&r还没完！你还得再跟&3四天王&r和&5Champion Cynthia&r打一轮。\\n\\n他们只出现在各自的群系里，查&4Trainer Card&r！\\n\\n打赢&3Aaron&r等级提到 71。\\n&3Bertha&r提到 73。\\n\\n&3Flint&r提到 75。\\n\\n&3Lucian&r提到 78。\\n\\n&5Champion Cynthia&r提到 79。"]
+	quest.45135F112E05F9B5.quest_desc: ["这个&4&o系列&r还没完！你还得再跟&3四天王&r和&5冠军竹兰&r打一轮。\\n\\n他们只出现在各自的群系里，查&4Trainer Card&r！\\n\\n打赢&3阿柳&r等级提到 71。\\n&3菊野&r提到 73。\\n\\n&3大叶&r提到 75。\\n\\n&3悟松&r提到 78。\\n\\n&5冠军竹兰&r提到 79。"]
 	quest.45135F112E05F9B5.title: "&3四天王&r与&5冠军&r复仇战"
 	quest.4975ADE2D75353CA.quest_desc: ["他不会给你涨等级上限。\\n\\n他的特征物品是&7金属膜&r。"]
 	quest.508CCA2DDD8602AA.quest_desc: ["他会把你的等级上限提到 16。\\n\\n他的特征物品是&e沙沙岩石&r。"]
 	quest.5169625567DC3B75.quest_desc: ["他会把你的等级上限提到 30。\\n\\n他的特征物品是&b不变之石&r。"]
 	quest.54729932639621E3.quest_desc: ["她不会给你涨等级上限。\\n\\n她的特征物品是&0达人带&r，看来她空手道很在行！"]
 	quest.55519316D85D116B.quest_desc: ["他也不会给你涨等级上限。我们到底为什么要打这些人！\\n\\n哦对，因为不得不打。\\n\\n他的特征物品是风弹。"]
-	quest.55519316D85D116B.title: "&7Commander Saturn 复仇战"
+	quest.55519316D85D116B.title: "&7干部镇星复仇战"
 	quest.5596F9B74231AB62.quest_desc: ["又是这家伙？他是不是看上你了？\\n\\n他会把你的等级上限提到 57。\\n\\n他这次的特征物品是光之石。"]
 	quest.57B314DBCE27B06E.quest_desc: ["她会把你的等级上限提到 37。\\n\\n她的特征物品是&a末影之眼&r。"]
 	quest.607E5EBE3696CC26.quest_desc: ["不会改变你的等级上限。\\n\\n他的特征物品是&e向日葵&r。"]
@@ -32,6 +32,6 @@
 	quest.6431628BFD0A9386.quest_desc: ["他会把你提到 66。\\n\\n他的特征物品是&d精神种子&r。"]
 	quest.69EAC857B2CCB045.quest_desc: ["打赢她们，等级上限会提到 48。\\n\\n她们的特征物品是&d烟雾球&r。"]
 	quest.716F9AA2E9011F06.quest_desc: ["他不会给你涨等级上限。\\n\\n他的特征物品是&e时钟&r！"]
-	quest.7F124EAE153EFE7F.quest_desc: ["现在是这个&4&o系列&r的最后一战，跟&5Champion Cynthia&r再打一场就完了。\\n\\n她不会再给你涨等级上限，而是会结束这个&4&o系列&r。之后你就能开新的了，比如&6&oATM&r那个。"]
+	quest.7F124EAE153EFE7F.quest_desc: ["现在是这个&4&o系列&r的最后一战，跟&5冠军竹兰&r再打一场就完了。\\n\\n她不会再给你涨等级上限，而是会结束这个&4&o系列&r。之后你就能开新的了，比如&6&oATM&r那个。"]
 	quest.7F124EAE153EFE7F.title: "打通&4&o系列"
 }

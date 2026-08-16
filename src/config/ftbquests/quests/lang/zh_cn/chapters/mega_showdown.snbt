@@ -14,20 +14,20 @@
 	quest.23DBBEFCE729AEA3.title: "许愿星"
 	quest.2C272D1D6DE6C0F1.quest_desc: ["戴着&5太晶珠&r时，对&c宝可梦&r用掉 50 个同种&5太晶碎块&r，就能把它变成那个属性。\\n\\n变成什么属性，当然取决于你用的是哪种&5碎块&r。\\n\\n效果在&c宝可梦&r上场对战时生效。"]
 	quest.2C272D1D6DE6C0F1.title: "&5太晶化"
-	quest.2E6646301ACD332E.quest_desc: ["&eObservatory&r是一座高塔，顶上伸出一台巨大的望远镜。\\n\\n一层堆满了陶罐，还有一台电脑和几个数据显示器。\\n\\n二层有治疗仪，还有我老想像鸟一样撞上去的玻璃。\\n\\n三层有箱子、木桶，以及一个……"]
-	quest.2E6646301ACD332E.title: "&eObservatory"
-	quest.33B301DB0637B6FC.quest_desc: ["在地底深处，你可能会撞见一座&bMegaroid&r！\\n\\n不，这跟增强体格没关系……好吧，除了对&c宝可梦&r而言。\\n\\n它叫 roid 是因为 asteroid（小行星），不是 steroid（类固醇），我就是这个意思！\\n\\n在这座&b超级小行星&r的正中央，埋着钥石矿石。"]
-	quest.33B301DB0637B6FC.title: "&bMegaroid"
+	quest.2E6646301ACD332E.quest_desc: ["&e天文台&r是一座高塔，顶上伸出一台巨大的望远镜。\\n\\n一层堆满了陶罐，还有一台电脑和几个数据显示器。\\n\\n二层有治疗仪，还有我老想像鸟一样撞上去的玻璃。\\n\\n三层有箱子、木桶，以及一个……"]
+	quest.2E6646301ACD332E.title: "&e天文台"
+	quest.33B301DB0637B6FC.quest_desc: ["在地底深处，你可能会撞见一座&b超级陨石坑&r！\\n\\n不，这跟增强体格没关系……好吧，除了对&c宝可梦&r而言。\\n\\n它英文名 Megaroid 里的 roid 来自 asteroid（小行星），不是 steroid（类固醇），我就是这个意思！\\n\\n在这座&b超级小行星&r的正中央，埋着钥石矿石。"]
+	quest.33B301DB0637B6FC.title: "&b超级陨石坑"
 	quest.3642AF6FE63B1C90.quest_desc: ["来对一遍清单。\\n\\n&n宝可梦带着自己的超级石&r？&a有&r！\\n\\n&n你自己戴着超级手环&r？&a有&r！\\n\\n两条都打勾的话，对战时招式下方就会出现一个写着&b超级进化&r的按钮。点它就能启动。\\n\\n然后选一个招式，你的&c宝可梦&r就会变身。\\n\\n注意别同时用&eZ招式&r和&b超级进化&r，一次只能用一种。"]
 	quest.3642AF6FE63B1C90.title: "&b超级进化"
 	quest.380C4222BDD65415.quest_desc: ["要&c极巨化&r，得有一条腕带。\\n\\n就是&c极巨腕带&r。\\n\\n戴上它，我们就能给&c宝可梦&c极巨化&r了。"]
 	quest.380C4222BDD65415.title: "&c极巨腕带"
-	quest.3D6167F673BB5256.quest_desc: ["用&b钻石镐&r（或更好的）挖&bMega水晶&r，就能得到&b空白进化石&r！\\n\\n它本身没什么用，得拿它去做某只&c宝可梦&r专属的&b超级石&r。\\n\\n不是所有&c宝可梦&r都能&b超级进化&r，只有一小部分可以。每一只都要各自专属的&b超级石&r——也就是说，想要多只&b超级宝可梦&r，就得跑多个&bMega Site&r。"]
+	quest.3D6167F673BB5256.quest_desc: ["用&b钻石镐&r（或更好的）挖&bMega水晶&r，就能得到&b空白进化石&r！\\n\\n它本身没什么用，得拿它去做某只&c宝可梦&r专属的&b超级石&r。\\n\\n不是所有&c宝可梦&r都能&b超级进化&r，只有一小部分可以。每一只都要各自专属的&b超级石&r——也就是说，想要多只&b超级宝可梦&r，就得跑多个&b超级石遗迹&r。"]
 	quest.3D6167F673BB5256.title: "&b空白进化石"
-	quest.3FACB48732D14A79.quest_desc: ["在地下偶尔能找到&bMega Site&r。\\n\\n看着有点像被大气层狠狠磨过一遍的&bMegaroid&r。\\n\\n里面除了矿石，还有&bMega水晶&r。"]
-	quest.3FACB48732D14A79.title: "&bMega Site"
-	quest.41CFA175B69E6639.quest_desc: ["是&cWishing Weald&r，不是许愿井。这儿没有水，只有森林里的一座建筑。\\n\\n建筑正中央躺着一颗坠落的星星。\\n\\n许个愿吧！或者拿&b钻石镐&r把那块水晶挖了。"]
-	quest.41CFA175B69E6639.title: "&cWishing Weald"
+	quest.3FACB48732D14A79.quest_desc: ["在地下偶尔能找到&b超级石遗迹&r。\\n\\n看着有点像被大气层狠狠磨过一遍的&b超级陨石坑&r。\\n\\n里面除了矿石，还有&bMega水晶&r。"]
+	quest.3FACB48732D14A79.title: "&b超级石遗迹"
+	quest.41CFA175B69E6639.quest_desc: ["是&c许愿林&r，不是许愿井。这儿没有水，只有森林里的一座建筑。\\n\\n建筑正中央躺着一颗坠落的星星。\\n\\n许个愿吧！或者拿&b钻石镐&r把那块水晶挖了。"]
+	quest.41CFA175B69E6639.title: "&c许愿林"
 	quest.440B61C517B8BD09.quest_desc: ["带上刷子，就能在&eArcheological Site&r的可疑沙子里刷出物品。\\n\\n其中有两样稀有物品：光之光辉石和暗之光辉石。\\n\\n它们除了能做出不同的&e手环&r之外没有区别——&e手环&r只改外观，不改效果和能力。"]
 	quest.490A35A715E8E20E.quest_desc: ["身上戴着&c极巨腕带&r、附近有&c极巨能量点&r、手里有一只随时能打的&c宝可梦&r，我们就能&c极巨化&r了！\\n\\n你的&c宝可梦&r不需要更高的&c极巨等级&r才能用，等级只是让招式威力更高、体力更多。\\n\\n对战时看招式下方，会出现&c极巨化&r按钮。点它就能把招式变成&c极巨招式&r！"]
 	quest.490A35A715E8E20E.title: "&c极巨化"
@@ -48,7 +48,7 @@
 	quest.69B766907C1226C0.title: "&c极巨能量点"
 	quest.6F59C939D62FA6C8.quest_desc: ["&5太晶碎块&r是击败野生&c宝可梦&r后的稀有掉落。\\n\\n掉哪种取决于&c宝可梦&r的属性：一般属性的&c宝可梦&r掉一般太晶碎块，&c火属性宝可梦&r掉&c火太晶碎块&r。\\n\\n每只&c宝可梦&r都有 10% 的概率掉落。另外所有&c宝可梦&r都有 1% 的概率掉落&5星晶太晶碎块&r。"]
 	quest.6F59C939D62FA6C8.title: "&5太晶碎块"
-	quest.747580F66BCFB9B0.quest_desc: ["钥石在&bMegaroid&r的正中央。要挖它得有&b钻石镐&r或更好的。\\n\\n每座只出一块钥石。好在我们也用不了更多！"]
+	quest.747580F66BCFB9B0.quest_desc: ["钥石在&b超级陨石坑&r的正中央。要挖它得有&b钻石镐&r或更好的。\\n\\n每座只出一块钥石。好在我们也用不了更多！"]
 	quest.7895490EEBDCF601.quest_desc: ["&eArcheological Site&r是一片凿出来的岩石区域，里头塞满了可疑方块。\\n\\n那儿也有箱子和陶罐可以摸战利品，不过还是可疑方块更带劲！"]
 	quest.7895490EEBDCF601.title: "&eArcheological Site"
 	task.15B5242AD0DAF52A.title: "太晶碎块"

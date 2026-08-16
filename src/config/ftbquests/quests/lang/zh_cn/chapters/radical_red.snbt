@@ -52,7 +52,7 @@
 	quest.3D24607A51997B39.quest_desc: [
 		"等级上限不涨。"
 		""
-		"在&cKanto League&r的 3 层。"
+		"在&c石英联盟&r的 3 层。"
 	]
 	quest.49F4016F012BFA95.quest_desc: ["&4&oRadical Red&r是宝可梦红的一个民间改版，剧情跟宝可梦红一样……只是难得多。\\\\n\\\\n没错，这不会轻松。\\\\n\\\\n要开始这个&4&o系列&r，跟&4训练家协会&r交易、把&4Trader Card&r交给他就行。"]
 	quest.49F4016F012BFA95.quest_subtitle: "可选系列"
@@ -81,14 +81,14 @@
 	quest.5C335DBA0A7C23B5.quest_desc: [
 		"等级上限不涨。"
 		""
-		"在&cKanto League&r的 4 层。"
+		"在&c石英联盟&r的 4 层。"
 	]
-	quest.5D635B2021C98D41.quest_desc: ["想跟&3四天王&r和&5冠军&r打，就得先去 Kanto League Gym！\\n\\n那是一座矗立在&d&l末地&r的高塔，用紫珀块和末地石搭成，正面挂着一个巨大的橙色精灵球。\\n\\n一层有几位 Pokemart Trader、护士，还有可以拿的战利品。往上几层各住着一位&3四天王&r。最高层是&5冠军&r！"]
-	quest.5D635B2021C98D41.title: "Kanto League Gym"
+	quest.5D635B2021C98D41.quest_desc: ["想跟&3四天王&r和&5冠军&r打，就得先去 石英联盟道馆！\\n\\n那是一座矗立在&d&l末地&r的高塔，用紫珀块和末地石搭成，正面挂着一个巨大的橙色精灵球。\\n\\n一层有几位 Pokemart Trader、护士，还有可以拿的战利品。往上几层各住着一位&3四天王&r。最高层是&5冠军&r！"]
+	quest.5D635B2021C98D41.title: "石英联盟道馆"
 	quest.60C7BBFC8CA911FF.quest_desc: [
 		"等级上限不涨。"
 		""
-		"在&cKanto League&r的 2 层。"
+		"在&c石英联盟&r的 2 层。"
 	]
 	quest.61CC4CEE94D2B612.quest_desc: [
 		"等级上限提升到 34。"
@@ -113,7 +113,7 @@
 	quest.68618D5F4FC2F331.quest_desc: [
 		"等级上限不涨。"
 		""
-		"在&cKanto League&r的 1 层。"
+		"在&c石英联盟&r的 1 层。"
 	]
 	quest.71525B9B007ECD34.quest_desc: [
 		"等级上限不涨。"
@@ -139,7 +139,7 @@
 	quest.7C112EF6EA2BB232.quest_desc: [
 		"等级上限还是不涨，不过嘿，你把&5冠军&r打赢了！"
 		""
-		"在&cKanto League&r的顶层。"
+		"在&c石英联盟&r的顶层。"
 		""
 		"&5Champion Terry&r是这个&4&o系列&r里最后一个要打的人，但关都地区的事还没完……"
 	]

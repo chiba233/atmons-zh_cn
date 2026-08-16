@@ -19,7 +19,7 @@
 		""
 		"特征物品是恶之宝石。"
 	]
-	quest.072329284468B14C.quest_desc: ["Borrius 地区最后一个要打的，&6训练家青绿&r。\\\\n\\\\n玩过&4&oRadical Red&r的话，你可能还记得&6训练家赤红&r，这位跟他很像。\\\\n\\\\n他属于可选对手，所以没有特征物品，得去特定生物群系里找他——同样是能生成末地城的那些群系。\\\\n\\\\n打赢他能拿到一大堆奖励，还能成为 Borrius 传奇！"]
+	quest.072329284468B14C.quest_desc: ["波留斯地区最后一个要打的，&6训练家青绿&r。\\\\n\\\\n玩过&4&oRadical Red&r的话，你可能还记得&6训练家赤红&r，这位跟他很像。\\\\n\\\\n他属于可选对手，所以没有特征物品，得去特定生物群系里找他——同样是能生成末地城的那些群系。\\\\n\\\\n打赢他能拿到一大堆奖励，还能成为波留斯传奇！"]
 	quest.0C72FEE8AF6A3DDC.quest_desc: [
 		"等级上限不涨。"
 		""
@@ -143,7 +143,7 @@
 		""
 		"特征物品是一个不死图腾。"
 	]
-	quest.76CA3D98A4772886.quest_desc: ["&4&o系列&r是打完了，但想坐稳&5冠军&r的位子，还得接着打！\\\\n\\\\n之前输给你的一些人回来复仇了，冲着&5冠军&r的头衔来的！\\\\n\\\\n他们是：&5Title Defense Jax&f、&5Title Defense Marlon&f、&5Title Defense Milo&f、&5Title Defense Solenk&f、&5Title Defense Wayne&f和&5Title Defense Zeph&r。\\\\n\\\\n这些是可选对战，所以很遗憾，他们没有特征物品，而是随机刷新在特定生物群系（提示：全是能生成末地城的群系）。\\\\n\\\\n把他们全打赢，你就能拿到 Borrius 头衔！"]
+	quest.76CA3D98A4772886.quest_desc: ["&4&o系列&r是打完了，但想坐稳&5冠军&r的位子，还得接着打！\\\\n\\\\n之前输给你的一些人回来复仇了，冲着&5冠军&r的头衔来的！\\\\n\\\\n他们是：&5Title Defense Jax&f、&5Title Defense Marlon&f、&5Title Defense Milo&f、&5Title Defense Solenk&f、&5Title Defense Wayne&f和&5Title Defense Zeph&r。\\\\n\\\\n这些是可选对战，所以很遗憾，他们没有特征物品，而是随机刷新在特定生物群系（提示：全是能生成末地城的群系）。\\\\n\\\\n把他们全打赢，你就能拿到波留斯头衔！"]
 	quest.76CA3D98A4772886.title: "&5冠军&r保卫战！"
 	quest.7CD47C3C2F1223A1.quest_desc: [
 		"等级上限不涨。"

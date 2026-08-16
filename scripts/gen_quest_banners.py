@@ -672,6 +672,7 @@ BANNERS = {
     'series/red_radical.png':                               '激进红',      # 民间改版，用社区通行叫法
     'series/red_arrow.png':                                 '从这里开始',   # 文件名叫 arrow，画的却是 Start here；箭头是另一张 helper_arrow
     'series/unbound_title.png':                             '解放',        # 同上
+    'series/unbound_region.png':                            '波留斯',      # 改版自造的地区名，三处真源都查不到，自主命名；同章的 red_kanto 是关都
     'router/router_title.png':                              '模块化\n路由器',   # 原图就是两行，画布近正方，单行会缩得很小
     'theurgy/theurgy.png':                                  '神通术',
     'tips_and_tricks.png':                                  '技巧与窍门',

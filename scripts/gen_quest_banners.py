@@ -8,11 +8,24 @@
 ATM 的任务书每章顶上挂一张标题图，文字直接画在 PNG 里。原图在整合包自带的
 `kubejs/assets/atm/textures/questpics/`。
 
-**只放资源包不生效**：KubeJS 的虚拟资源包在 ReloadableResourceManager 里排在
-所有 `resourcepacks/` 之后，同路径的文件是 KubeJS 赢。实测过一次——玩家装好
-包之后，任务书章节名（走 config 的 lang）是中文，同一屏的标题图仍是英文艺术字。
-同一条结论在 atm 的 lang 上也吃过：那份得靠 `src/upstream` 定点改 kubejs 里的
-`zh_cn.json` 才生效。
+**在 All the Mons 上只放资源包不生效，这一点与上一个整合包相反。**
+拿两台实例的 `logs` 里 ReloadableResourceManager 那行逐字比过：
+
+    上一个整合包： … KubeJS File Resource Pack [assets], file/ATM10汉化包-8.0.zip, …
+    All the Mons： … ATMons汉化包-1.2.0.zip, KubeJS File Resource Pack [assets], …
+
+越靠后优先级越高。上一个整合包里我们排在 KubeJS 之后，同路径我们赢，所以
+「放同路径的图即可覆盖」当时是对的；All the Mons 里我们排在 KubeJS 之前，
+同路径 KubeJS 赢，同样的做法就整个失效了。
+
+差别的成因是启用方式：上一个整合包里我们是 options.txt 里正常启用的资源包
+（日志里带 `file/` 前缀，排在 mod 提供的包之后）；All the Mons 的
+`config/global_packs.toml` 把整个 `resourcepacks/` 目录设成 required，
+强制启用的包被插在 KubeJS 那几个之前。
+
+症状：玩家装好包之后，任务书章节名（走 config 的 lang）是中文，同一屏的
+标题图仍是英文艺术字。同一条结论在 atm 的 lang 上也吃过：那份得靠
+`src/upstream` 定点改 kubejs 里的 `zh_cn.json` 才生效。
 
 所以本脚本仍然写进资源包（那是兜底），而 `build_dist.sh` 会把同一批图**再拷一份**
 进出货树的 `kubejs/assets/atm/textures/questpics/`，两份数量必须相等，
@@ -582,6 +595,7 @@ BANNERS = {
     'pokemon/find_title_fish.png':                          '钓鱼',
     'pokemon/farm_title2.png':                              '与宝可梦一起种田',   # 前半张 farm_title1 是 CobbleWorkers 模组标志，留英文
     'pokemon/master_title1.png':                            '大师球',
+    'pokemon/master_title2.png':                            '以及制作其他精灵球',
     'pokemon/mega_title.png':                               '超级对决',
     'pokemon/paradox_title.png':                            '悖谬',
     'pokemon/tips_title.png':                               '宝可技巧与窍门',
@@ -676,6 +690,7 @@ BANNERS = {
     'mek/mek_title_fission.png': '裂变反应堆',
     'mek/mek_title_fusion.png': '聚变反应堆',
     'mek/mek_title_logistics.png': '物流',
+    'mek/mek_title_multi.png':                              '更多多方块结构',
     'mek/mek_title_machines.png': '机器',
     'mek/mek_title_matrix.png': '感应矩阵',
     'mek/mek_title_mo.png': '更多机器',

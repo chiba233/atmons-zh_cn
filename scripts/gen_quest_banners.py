@@ -444,15 +444,17 @@ BOXES = {
 # 左上角的 AllTheMons 标志（x 19..363）整个在框外，是品牌名，本来也不译。
 MULTI = {
     'series/content_background.png': [
-        # 搜索条：药丸 x 400..999 / y 15..68 是纯紫，框取其内部
-        dict(box=(34.38, 3.06, 66.88, 8.36), text='怎样打赢内容创作者？',
+        # 搜索条：药丸 x 400..999 / y 15..68 是纯紫，原文 x 402..857 / y 28..71
+        dict(box=(31.25, 2.51, 67.03, 10.31), text='怎样打赢内容创作者？',
              fill=(216, 85, 223), face_rgb=(255, 255, 255), outline=(150, 40, 160)),
-        # 左侧竖排：紫带 x 15..134 是纯色，中文竖排逐字换行，不需要旋转
-        dict(box=(1.56, 10.58, 9.84, 96.80), text='内\n容\n创\n作\n者',
+        # 左侧竖排：紫带 x 15..134 是纯色，原文 x 48..85 / y 77..693。
+        # 中文竖排逐字换行，不需要给生成器加旋转。
+        dict(box=(1.56, 10.31, 9.84, 97.35), text='内\n容\n创\n作\n者',
              fill=(216, 85, 223), face_rgb=(255, 255, 255), outline=(150, 40, 160)),
-        # 第 1 行第 3 张卡片：x 540..676 / y 115..322 是纯灰
-        dict(box=(42.66, 20.89, 52.34, 41.78), text='Joey\n没有频道',
-             fill=(217, 217, 217), face_rgb=(255, 255, 255), outline=(170, 170, 170)),
+        # 第 1 行第 3 张卡片：x 540..676 / y 115..322 是纯灰，原文 x 542..674 / y 230..308。
+        # 框下沿必须盖过 308——第一版切在 300，屏幕上留了半行 Channel。
+        dict(box=(42.19, 30.92, 52.89, 44.29), text='Joey\n没有频道',
+             fill=(217, 217, 217), face_rgb=(255, 255, 255), outline=(176, 176, 176)),
     ],
 }
 
@@ -467,7 +469,9 @@ def draw_multi(im, jobs):
         w, h = r[2] - r[0], r[3] - r[1]
         canvas.paste(Image.new('RGBA', (w, h), tuple(j['fill']) + (255,)), (r[0], r[1]))
         plate = Image.new('RGB', (w, h), tuple(j['face_rgb']))
-        sw = max(2, round(h * 0.045))
+        # 描边宽按**单行行高**算，不是按整框高。竖排那条框有 619px 高，
+        # 按框高 4.5% 会得到 28px 的描边——五个字各糊成一个泡泡，第一版就是这样。
+        sw = max(2, round(h / max(1, j['text'].count('\n') + 1) * 0.045))
         img, _, _ = render_vector(j['text'], w, h, tuple(j['outline']), plate, sw, 'bold')
         canvas.alpha_composite(img, (r[0], r[1]))
     return canvas

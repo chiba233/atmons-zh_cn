@@ -150,8 +150,8 @@
     12,
     "text"
    ],
-   "The $(item)Reinforced Pressure Chamber Valve/$ is an advanced block which can be used to upgrade the maximum air pressure in the Pressure Chamber from the default 5 bar to 20 bar, allowing the Pressure Chamber to store 4 times the air, and possibly unlocking $(ttcolor)$(t:By default all Pressure Chamber recipes require a max of 5 bar, but modpacks may change this)new recipes/$.",
-   "$(item)强化压力室气阀/$是一种高级方块，可用于将压力室的最大气压从默认的 5 bar 提升到 20 bar，使压力室可储存 4 倍的空气，并且还可能解锁 $(ttcolor)$(t:By default all Pressure Chamber recipes require a max of 5 bar, but modpacks may change this)新合成配方/$。"
+   "The $(item)Reinforced Pressure Chamber Valve/$ is an advanced block which can be used to upgrade the maximum air pressure in the Pressure Chamber from the default 5 bar to 20 bar, allowing the Pressure Chamber to store 4 times the air, and possibly unlocking $(ttcolor)$(t:默认情况下所有压力室配方最高只要 5 bar，但整合包可能改过)new recipes/$.",
+   "$(item)强化压力室气阀/$是一种高级方块，可用于将压力室的最大气压从默认的 5 bar 提升到 20 bar，使压力室可储存 4 倍的空气，并且还可能解锁 $(ttcolor)$(t:默认情况下所有压力室配方最高只要 5 bar，但整合包可能改过)新合成配方/$。"
   ],
   [
    [

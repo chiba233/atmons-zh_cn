@@ -96,8 +96,8 @@
     6,
     "text"
    ],
-   "$(ttcolor)$(t:Player-global variables were added in PNC:R 3.0.0, MC 1.18.1)There are two types of global variable/$: $(thing)player-global/$ and $(thing)server-global/$.$(li)Player-global variables are prefixed with '#'. These are shared among a player's drones, but private to each player.$(li)Server-global variables are prefixed with '%'. These variables are shared among $(italic)all/$ players on the server.$(p)Note: in earlier versions of the mod only server-global existed, with a prefix of '#'.",
-   "$(ttcolor)$(t:Player-global variables were added in PNC:R 3.0.0, MC 1.18.1)全局变量分为两种/$：$(thing)玩家全局/$ 和 $(thing)服务器全局/$。$(li)玩家全局变量以前缀“#”表示。这类变量在同一玩家的无人机之间共享，但对每位玩家而言是私有的。$(li)服务器全局变量以前缀“%”表示。这类变量会在服务器上$(italic)所有/$玩家之间共享。$(p)注意：在本模组的较早版本中，只有服务器全局变量存在，其前缀为“#”。"
+   "$(ttcolor)$(t:玩家全局变量是 PNC:R 3.0.0（MC 1.18.1）加入的)There are two types of global variable/$: $(thing)player-global/$ and $(thing)server-global/$.$(li)Player-global variables are prefixed with '#'. These are shared among a player's drones, but private to each player.$(li)Server-global variables are prefixed with '%'. These variables are shared among $(italic)all/$ players on the server.$(p)Note: in earlier versions of the mod only server-global existed, with a prefix of '#'.",
+   "$(ttcolor)$(t:玩家全局变量是 PNC:R 3.0.0（MC 1.18.1）加入的)全局变量分为两种/$：$(thing)玩家全局/$ 和 $(thing)服务器全局/$。$(li)玩家全局变量以前缀“#”表示。这类变量在同一玩家的无人机之间共享，但对每位玩家而言是私有的。$(li)服务器全局变量以前缀“%”表示。这类变量会在服务器上$(italic)所有/$玩家之间共享。$(p)注意：在本模组的较早版本中，只有服务器全局变量存在，其前缀为“#”。"
   ],
   [
    [
@@ -223,7 +223,7 @@
     "text"
    ],
    "You can also display only the X, Y or Z component of the coordinate by suffixing the variable name with $(thing).x/$, $(thing).y/$ or $(thing).z/$ respectively. E.g. to show the drone owner's Y coordinate, use $(thing)${$owner_pos.y}/$.$(p)If the variable is an $(thing)item variable/$, a $(thing).id/$ suffix will get the item's registry ID instead of its display name (which is the default). This is particularly useful for displaying an item on an $(l:machines/aphorism_tile#items)Aphorism Tile/$.",
-   "你还可以通过在变量名后加上 $(thing).x/$、$(thing).y/$ 或 $(thing).z/$，来只显示坐标的 X、Y 或 Z 分量。例如，要显示无人机所有者的 Y 坐标，使用 $(thing)${$owner_pos.y}/$.$(p)如果该变量是一个 $(thing)物品变量/$，那么加上 $(thing).id/$ 后缀将得到该物品的注册表 ID，而不是它的显示名称（默认情况下显示的是名称）。这在格言瓷砖 $(l:machines/aphorism_tile#items)Aphorism Tile/$ 上显示物品时尤其有用。"
+   "你还可以通过在变量名后加上 $(thing).x/$、$(thing).y/$ 或 $(thing).z/$，来只显示坐标的 X、Y 或 Z 分量。例如，要显示无人机所有者的 Y 坐标，使用 $(thing)${$owner_pos.y}/$.$(p)如果该变量是一个 $(thing)物品变量/$，那么加上 $(thing).id/$ 后缀将得到该物品的注册表 ID，而不是它的显示名称（默认情况下显示的是名称）。这在$(l:machines/aphorism_tile#items)格言瓷砖/$ 上显示物品时尤其有用。"
   ],
   [
    [

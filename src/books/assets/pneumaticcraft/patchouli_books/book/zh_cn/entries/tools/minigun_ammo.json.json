@@ -69,8 +69,8 @@
     6,
     "text"
    ],
-   "$(item)Explosive Minigun Ammo/$ has a cartridge size of 250. It has a chance to create a small but highly effective explosion when it hits; beware, this explosion can also injure you. Explosions will not damage terrain $(ttcolor)$(t:See 'B:explosiveAmmoTerrainDamage' in config)by default/$.",
-   "$(item)爆炸机枪弹药/$ 的弹盒容量为 250 发。它在命中时有概率造成一次小型但非常有效的爆炸；不过要小心，这种爆炸也会伤到你。默认情况下，爆炸$(ttcolor)$(t:See 'B:explosiveAmmoTerrainDamage' in config)不会/$破坏地形。"
+   "$(item)Explosive Minigun Ammo/$ has a cartridge size of 250. It has a chance to create a small but highly effective explosion when it hits; beware, this explosion can also injure you. Explosions will not damage terrain $(ttcolor)$(t:见配置里的 'B:explosiveAmmoTerrainDamage')by default/$.",
+   "$(item)爆炸机枪弹药/$ 的弹盒容量为 250 发。它在命中时有概率造成一次小型但非常有效的爆炸；不过要小心，这种爆炸也会伤到你。默认情况下，爆炸$(ttcolor)$(t:见配置里的 'B:explosiveAmmoTerrainDamage')不会/$破坏地形。"
   ],
   [
    [

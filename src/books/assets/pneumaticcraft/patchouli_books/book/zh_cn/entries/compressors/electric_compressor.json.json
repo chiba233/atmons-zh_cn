@@ -15,8 +15,8 @@
     0,
     "text"
    ],
-   "The $(item)Electric Compressor/$ can generate compressed air from $(thing)IndustrialCraft 2's EU/$. By default it has an efficiency of 40%, but this can be $(ttcolor)$(t:See 'I:electricCompressorEfficiency')changed in the config/$.$(p)It behaves like a IC2 tier 1 machine, so it will explode if it receives >32 EU/t. However, you can add IC2 $(item)Transformer Upgrades/$ to allow higher voltages, as in normal IC2 machines.",
-   "$(item)电力压缩机/$可以利用$(thing)工业时代2的 EU/$生成压缩空气。默认效率为 40%，但这可以在$(ttcolor)$(t:See 'I:electricCompressorEfficiency')配置文件中更改/$。$(p)它的行为与 IC2 1 级机器相同，因此如果接收到超过 32 EU/t 的电压就会爆炸。不过，你可以像普通 IC2 机器那样，为其添加 IC2 的 $(item)高压升级/$，以承受更高电压。"
+   "The $(item)Electric Compressor/$ can generate compressed air from $(thing)IndustrialCraft 2's EU/$. By default it has an efficiency of 40%, but this can be $(ttcolor)$(t:见配置项 'I:electricCompressorEfficiency')changed in the config/$.$(p)It behaves like a IC2 tier 1 machine, so it will explode if it receives >32 EU/t. However, you can add IC2 $(item)Transformer Upgrades/$ to allow higher voltages, as in normal IC2 machines.",
+   "$(item)电力压缩机/$可以利用$(thing)工业时代2的 EU/$生成压缩空气。默认效率为 40%，但这可以在$(ttcolor)$(t:见配置项 'I:electricCompressorEfficiency')配置文件中更改/$。$(p)它的行为与 IC2 1 级机器相同，因此如果接收到超过 32 EU/t 的电压就会爆炸。不过，你可以像普通 IC2 机器那样，为其添加 IC2 的 $(item)高压升级/$，以承受更高电压。"
   ],
   [
    [

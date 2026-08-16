@@ -15,8 +15,8 @@
     0,
     "text"
    ],
-   "The Drone Interface is a $(thing)ComputerCraft/OpenComputers peripheral/$ that's used to communicate with $(l:tools/drone)Drones/$. To do so, program a $(item)Drone/$ with a $(l:programming/computer_control)Computer Control puzzle piece/$.$(p)When the Drone executes the Computer Control piece, it'll try to connect to an $(ttcolor)$(t:A Drone Interface can only connect to one Drone at a time)available/$ $(item)Drone Interface/$ located within the puzzle piece's area.",
-   "无人机接口是一种 $(thing)ComputerCraft/OpenComputers 外设/$，用于与 $(l:tools/drone)无人机/$ 通信。为此，需要给 $(item)无人机/$ 编入一个 $(l:programming/computer_control)计算机控制拼图块/$。$(p)当无人机执行这个计算机控制拼图块时，它会尝试连接到位于该拼图块作用范围内、$(ttcolor)$(t:A Drone Interface can only connect to one Drone at a time)可用/$ 的 $(item)无人机接口/$。"
+   "The Drone Interface is a $(thing)ComputerCraft/OpenComputers peripheral/$ that's used to communicate with $(l:tools/drone)Drones/$. To do so, program a $(item)Drone/$ with a $(l:programming/computer_control)Computer Control puzzle piece/$.$(p)When the Drone executes the Computer Control piece, it'll try to connect to an $(ttcolor)$(t:一个无人机接口同时只能连接一台无人机)available/$ $(item)Drone Interface/$ located within the puzzle piece's area.",
+   "无人机接口是一种 $(thing)ComputerCraft/OpenComputers 外设/$，用于与 $(l:tools/drone)无人机/$ 通信。为此，需要给 $(item)无人机/$ 编入一个 $(l:programming/computer_control)计算机控制拼图块/$。$(p)当无人机执行这个计算机控制拼图块时，它会尝试连接到位于该拼图块作用范围内、$(ttcolor)$(t:一个无人机接口同时只能连接一台无人机)可用/$ 的 $(item)无人机接口/$。"
   ],
   [
    [
@@ -51,7 +51,7 @@
     3,
     "text"
    ],
-   "You may notice that the program opposite has to explicitly wait until the Dig (and Goto) actions are done before continuing, unlike when writing Drone programs via the $(l:programming/programmer)Programmer/$. This is because your Lua computer program is running in a separate thread and can't interact with the world directly; it just tells the drone what to do next, and needs to ask the drone if it's done yet.",
+   "You may notice that the program opposite has to explicitly wait until the Dig (and Goto) actions are done before continuing, unlike when writing Drone programs via the $(l:programming/programmer)编程器/$. This is because your Lua computer program is running in a separate thread and can't interact with the world directly; it just tells the drone what to do next, and needs to ask the drone if it's done yet.",
    "你可能会注意到，对面的这个程序必须明确等待 Dig（挖掘）和 Goto（前往）动作完成后才能继续；而通过 $(l:programming/programmer)编程器/$ 编写无人机程序时则不是这样。这是因为你的 Lua 电脑程序运行在独立线程中，无法直接与世界交互；它只能告诉无人机下一步该做什么，并且需要询问无人机是否已经完成。"
   ],
   [
@@ -330,8 +330,8 @@
     33,
     "text"
    ],
-   "$(#800)setAction(<action>)/$$(p)Set an action for the Drone to do. This should be one of the actions returned by $(#800)getAllActions()/$; these correspond directly to programming widgets in the $(l:programming/programmer)Programmer/$ GUI, which shows the action name in widget tooltips when F3+H is toggled.$(p)Note that when the prefix is $(thing)pneumaticcraft:/$, that prefix is optional.",
-   "$(#800)setAction(<action>)/$$(p)为无人机设置一个要执行的动作。这应当是由 $(#800)getAllActions()/$ 返回的动作之一；这些动作与 $(l:programming/programmer)Programmer/$ GUI 中的编程组件直接对应，并且在开启 F3+H 时，会在组件提示框中显示动作名称。$(p)请注意，当前缀为 $(thing)pneumaticcraft:/$ 时，该前缀是可选的。"
+   "$(#800)setAction(<action>)/$$(p)Set an action for the Drone to do. This should be one of the actions returned by $(#800)getAllActions()/$; these correspond directly to programming widgets in the $(l:programming/programmer)编程器/$ GUI, which shows the action name in widget tooltips when F3+H is toggled.$(p)Note that when the prefix is $(thing)pneumaticcraft:/$, that prefix is optional.",
+   "$(#800)setAction(<action>)/$$(p)为无人机设置一个要执行的动作。这应当是由 $(#800)getAllActions()/$ 返回的动作之一；这些动作与 $(l:programming/programmer)编程器/$ GUI 中的编程组件直接对应，并且在开启 F3+H 时，会在组件提示框中显示动作名称。$(p)请注意，当前缀为 $(thing)pneumaticcraft:/$ 时，该前缀是可选的。"
   ],
   [
    [

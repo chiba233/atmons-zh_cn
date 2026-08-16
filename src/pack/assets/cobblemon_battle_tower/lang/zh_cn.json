@@ -6,7 +6,7 @@
   "battletower.command.tasks.reset.player": "你已完成的对战塔任务已被重置（%d 项）。",
   "battletower.command.tasks.reset.player_required": "从控制台运行该指令时必须指定玩家。",
   "battletower.command.tasks.reset.self": "已重置你完成的对战塔任务。",
-  "battletower.command.tasks.reset.target": "已为 %s 重置 %d 项完成的对战塔任务。",
+  "battletower.command.tasks.reset.target": "已为 %2$s 重置 %1$d 项完成的对战塔任务。",
   "battletower.gui.settings.level.100": "Lv100",
   "battletower.gui.settings.level.50": "Lv50",
   "battletower.gui.tasks.battle_points": "%d BP",

@@ -1,0 +1,4 @@
+{
+  "_说明": "整合包在 config/mysticalcustomization/crops/ 里自定义了 10 种作物，作物名由 crop.mysticalcustomization.<id> 给出，神秘农业再按「%s精华」拼出物品名。其中 9 种整合包自己在 kubejs/assets/atm/lang/zh_cn.json 里译过（ATM、蔚蓝银、焦黑石英、绯红铁、暗黑石、恩特罗、苍穹钢、难得素、振金），本包一个字都不动。｜ 只有 unexplored_wood 这一条整合包连英文都没给（en_us 里也只有 9 条），于是物品栏里显示成生键「crop.mysticalcustomization.unexplored_wood精华」。这里只补这一条。｜ 它的原料是 regions_unexplored:logs，而 Regions Unexplored 不在本整合包里（398 个 jar 全查过），所以这个作物在游戏里种不出来，物品仍会出现在物品栏与 JEI 中。名字取 MC 百科登记的模组中文名「未至之地」。",
+  "crop.mysticalcustomization.unexplored_wood": "未至之地木"
+}

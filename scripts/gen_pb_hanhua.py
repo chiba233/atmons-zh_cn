@@ -389,7 +389,14 @@ console.info('[pb_hanhua] 数据迁移已注册 (ID表:' + Object.keys(PB_BID2ZH
     (COMMON / 'kubejs/server_scripts').mkdir(parents=True, exist_ok=True)
     (COMMON / 'kubejs/client_scripts/pb_hanhua_tooltip.js').write_text(client, encoding='utf-8')
     (COMMON / 'kubejs/server_scripts/pb_hanhua_cage_migrate.js').write_text(server, encoding='utf-8')
-    print(f'已生成: ID {len(id2zh)} | EN {len(en2zh)} | TYPE {len(type2zh)} | 迁移 {len(bid2zh)} | 闸门 {len(sys_names)}')
+    print(f'已生成: ID {len(id2zh)} | EN {len(en2zh)} | TYPE {len(type2zh)} '
+          f'| STYLE {len(style2zh)}/{len(canvas_styles)} | 迁移 {len(bid2zh)} | 闸门 {len(sys_names)}')
+    # 样式表推不出来的那些必须打出来：它们在游戏里就是一行英文，
+    # 只有把名单摆在构建日志里，换整合包时才看得见「本来推不出的现在能推了」。
+    unresolved = sorted(canvas_styles - set(style2zh))
+    if unresolved:
+        print('  样式行仍为英文的 %d 种（来源模组不在本整合包里）: %s'
+              % (len(unresolved), '、'.join(unresolved)))
     if ambiguous:
         print(f'歧义英文名（已从显示映射剔除，共 {len(ambiguous)} 个）:')
         for env, zhs in ambiguous:

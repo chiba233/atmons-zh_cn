@@ -22,11 +22,13 @@ books = 1294
 #
 # ── 横幅（章节标题图，assets/atm/textures/questpics）────────────────────
 #
-# 实测 162。gen_quest_banners.py --check 的结论是「校验通过 162 张」，
-# 缺图 0 张——162 就是本版整合包实际拥有的全部标题图。
-# 原先的 200 里有 38 张属于本版没有的模组（iceandfire 22、mahou 12、
-# iron_spells 1、xycraft 1、building_tips 2），已在迁移时从映射里摘掉。
-banners = 162
+# 实测 169。原先是 162：那是从上一个整合包的映射里摘掉「本版没有的模组」
+# （iceandfire 22、mahou 12、iron_spells 1、xycraft 1、building_tips 2）之后的数。
+# 摘对了，但**没往回加**——All the Mons 自己新增的宝可梦章节的标题图从来没进过
+# 那张表，于是侧边栏是中文、章节顶上的艺术字还是英文。2026-08-15 补了 7 张
+# （新的开端、全都找出来！、大师球、超级对决、与宝可梦一起种田、高效+农业）。
+# 仍未补的是章节内部的小标题图，见 gen_quest_banners.py 顶部。
+banners = 169
 #
 # ── 主菜单按钮（config/fancymenu/assets）───────────────────────────────
 #
@@ -48,8 +50,8 @@ buttons = 14
 #
 client_lang_files  =    262   # [CI] assets/*/lang/zh_cn.json
 client_lang_keys   = 103920   # [CI] 上面那些文件里的键总数
-client_banners     =    162   # [CI] 资源包里那份，与生成器侧 banners=162 互相印证
-client_kubejs_banners = 162   # [源] kubejs/assets 里那份，与上面同源同数；
+client_banners     =    169   # [CI] 资源包里那份，与生成器侧 banners=169 互相印证
+client_kubejs_banners = 169   # [源] kubejs/assets 里那份，与上面同源同数；
                               #      游戏里真正生效的是这一份（KubeJS 压过资源包）
 client_buttons     =     20   # [CI] 注意**不是**上面的 buttons=14：那是生成器出的
                               #      按钮张数，这里数的是包里 config/fancymenu/assets/

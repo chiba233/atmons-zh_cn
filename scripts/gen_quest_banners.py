@@ -18,6 +18,17 @@ ATM 的任务书每章顶上挂一张标题图，文字直接画在 PNG 里。�
 进出货树的 `kubejs/assets/atm/textures/questpics/`，两份数量必须相等，
 出货核验里也有一项 `kubejs_banners` 单独卡这份。
 
+## 这张表是手工维护的，换整合包时**要往回加**
+
+下面的 `BANNERS` 是「图 → 画什么字」的清单。从上一个整合包迁过来时，
+只做了减法（摘掉本版没有的模组的图），没做加法——All the Mons 自己新增的
+宝可梦章节的标题图一张都没进表，结果是章节侧边栏已经是中文、章节顶上那条
+艺术字还是英文。2026-08-15 补了 7 张章节级的。
+
+**还没补的**：章节**内部**的小标题图（传说/究极异兽/进化/技巧、ATM 团队的
+各系列、高效农业的作物/花卉/变异等），文件名多半也带 title，约 28 张。
+它们不是章节名，画什么字要逐张看原图定，不能照抄章节标题。
+
 ## 写什么字：单一真源 = 该图所属章节的中文标题
 
 每张标题图都只被一个章节引用（脚本启动时会重新核验），所以直接取那一章
@@ -540,6 +551,7 @@ BANNERS = {
     'forbidden/forbidden_title_relics.png':                 '遗物',
     'furnaces/iron_furnaces.png':                           '更多熔炉',
     'generator/generator_galore.png':                       '发电机盛会',
+    'gettingstarted/started_title.png':                     '新的开端',
     'gettingstarted/titleimage1.png':                       '第一章',  # 该图是章节序号，不是章名
     'id_title.png':                                         '动态\n联合',   # 原图两行，画布 400x400，单行会缩得很小
     'immersive/immersive_title.png':                        '沉浸工程',
@@ -562,6 +574,14 @@ BANNERS = {
     'powah/text/storage_text.png':                          '储能',
     'powah/text/transfer_text.png':                         '传输',
     'powah/text/useful_items_text.png':                     '实用物品',
+    # ── All the Mons 自己新增的宝可梦章节。原先这张表只有上一个整合包的图，
+    #    这几章的标题图从来没进过表，于是侧边栏是中文、横幅还是英文艺术字。
+    'pokemon/find_title.png':                               '全都找出来！',
+    'pokemon/farm_title2.png':                              '与宝可梦一起种田',   # 前半张 farm_title1 是 CobbleWorkers 模组标志，留英文
+    'pokemon/master_title1.png':                            '大师球',
+    'pokemon/mega_title.png':                               '超级对决',
+    'pro_farming/farm_title_1.png':                         '高效',      # 章名被拆成两张：高效 + 农业
+    'pro_farming/farm_title_2.png':                         '农业',
     'pylons/pylon_title.png':                               '实用塔',
     'railcraft/railcraft.png':                              '铁路工艺',
     'relics/relics_title.png':                              '遗物',

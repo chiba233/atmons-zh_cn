@@ -15,7 +15,7 @@
 		"- 在&5祭坛&r附近&a放出 6 只&r来自同一&6地区&r的宝可梦。"
 		"  - &7以&6关都&r为例：&r"
 		"  - &b凯西&r、&b小拉达&r、&b小火龙&r、&b皮卡丘&r、&b臭泥&r、&b海星星&r"
-		"- 用任意&dMega 石&r&e填满展示柜&r。"
+		"- 用任意&d超级石&r&e填满展示柜&r。"
 		"- &a献上 4 颗远古精灵球&r"
 		"- &c献上未束缚皮卡之星&r，&d仪式&r开始。"
 		""
@@ -93,5 +93,8 @@
 	task.0C959B11B37F53C6.title: "祭坛怎么用"
 	task.37F598DD9EEE414F.title: "机械动力的砂纸"
 	task.53851DD297E86E63.title: "地区皮卡之星"
-	task.7ED7D21BBF1C5F3F.title: "Mega Showdown 的 Mega 石"
+	task.7ED7D21BBF1C5F3F.title: "超级对决的超级石"
+	quest.2DBB88E1C147F496.title: "未束缚皮卡之星"
+	quest.38A6963FFAC245AA.title: "全徽章"
+	quest.7A0693A3016549F6.title: "闪光皮卡之星"
 }

@@ -109,4 +109,5 @@
 	task.12433760FD40CB3A.title: "仔细阅读"
 	task.1489DD401D237541.title: "电力"
 	task.1FE598387B609AE5.title: "电力传输"
+	quest.1B4CD5AC8F6C3307.quest_desc: ["&#4497DB超速模块&r能让机器在配方没有运行时也保持效率。代价是把机器锁定在该配方上。"]
 }

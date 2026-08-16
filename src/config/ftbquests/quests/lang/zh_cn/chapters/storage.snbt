@@ -166,4 +166,5 @@
 	task.593CD1E685B4DDAA.title: "破损升级"
 	task.5DEBE38C614EFBB4.title: "保留所有权利"
 	task.6205B6B93B306A12.title: "箱子"
+	quest.1A4B1CA7EC15348E.quest_desc: ["用&a连接工具&r可以把 2 个末影抽屉连起来，让它们的内容同步。\\n\\n用法和末影箱一样，只不过它是抽屉。\\n\\n连接方法：先用&a连接工具&r右击第一个末影抽屉，再左击第二个。"]
 }

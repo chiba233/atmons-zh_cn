@@ -59,4 +59,16 @@
 	quest.73CE51862BA4F68B.quest_desc: ["他正在天上享受与世隔绝的假期……然后你这个玩家来了，把清静砸了个稀碎。\\n\\n你的礼貌呢？人家在离地几百格、名字里带「假」的地方，明摆着是想放松，可你偏偏觉得「赢」更重要。\\n\\n&2&lOly2o6&r主导了许多&6&lATM 衍生整合包&r的开发，其中最有名的就是&b&l空岛&r系列！\\n\\n所以他的定制道馆和&b徽章&r都是&b空岛&r主题。"]
 	quest.7E3857288A505801.quest_desc: ["想在&4&oATM 团队系列&r里往下走，你得在各自的道馆里打赢全部 5 位&6团队成员&r，外加&3&lLobsterJonn&r之前那 2 位&4训练家&r。\\n\\n&2&lOly206&r在他的&2Steve 的宅度假&r，&3&lLobsterJonn&r、&3Lego &f和&3Nektar&r在&3蜜蜂道馆&r，&d&lJoey&r在&d火箭队火山&r底下，&5&lToblerone&r在他的&5巧克力飞艇&r上，&7&lToshiba&r在他的&7卖场&r里。\\n\\n就算这些全打赢了，你还是走不下去。你还得把&6四处游荡的团队成员&r也打赢。\\n\\n那些也赢了，才能继续！"]
 	quest.7E3857288A505801.title: "在各自的道馆打赢全部&6团队成员"
+	quest.13635B28AB1F2E68.title: "&8&lCesarZorak"
+	quest.1E1CF820CF7E88C9.title: "&3&lLobsterjonn"
+	quest.4C15052DCF8371A3.title: "&4&lSatherov"
+	quest.5081E5E0BA982973.title: "&lNotch"
+	quest.54530BFB46624C51.title: "&5&lToblerone0508"
+	quest.56A11740B93819D4.title: "&6ATM 徽章盒"
+	quest.580A66080AB6B117.title: "&9&lThevortex"
+	quest.5A7E0848E16A5453.title: "&d&lJoey"
+	quest.6B409AE2D10E174B.title: "&e&l_Rosary_"
+	quest.6F976023ECB5CA63.title: "&0&lUncandango"
+	quest.71AB7656B8B0C84B.title: "&6&lWhatthedrunk"
+	quest.73CE51862BA4F68B.title: "&2&lOly2o6"
 }

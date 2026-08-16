@@ -89,8 +89,8 @@
 	quest.5AAF6CA41209B365.title: "&3振金工具"
 	quest.5B46B5BF4ADB2BE9.quest_desc: ["是的，它可以开辟路径，别担心！"]
 	quest.5B46B5BF4ADB2BE9.title: "&6ATM合金锹"
-	quest.5BA986D7928BF09F.quest_desc: ["你会想抓它们的，因为在&l&cAll&7The&fMons&r里，这就是拿&e猪巫妖之心&r的办法！\\n\\n配个牧场让你的&ePiglichu&r自由溜达，它们就会开始掉&e猪巫妖之心&r。\\n\\n它们只会把心随手扔在地上，除非旁边有箱子——那样它们会把&e心&r放进去。"]
-	quest.5BA986D7928BF09F.title: "Piglichu 之心？"
+	quest.5BA986D7928BF09F.quest_desc: ["你会想抓它们的，因为在&l&cAll&7The&fMons&r里，这就是拿&e猪巫妖之心&r的办法！\\n\\n配个牧场让你的&e猪巫丘&r自由溜达，它们就会开始掉&e猪巫妖之心&r。\\n\\n它们只会把心随手扔在地上，除非旁边有箱子——那样它们会把&e心&r放进去。"]
+	quest.5BA986D7928BF09F.title: "猪巫丘之心？"
 	quest.66039B738CF0718A.quest_desc: ["&3难得素&r与&6ATM&r的结合！"]
 	quest.66039B738CF0718A.title: "&3振金 - &6ATM合金锭"
 	quest.68E6AE1B9EBCEFFF.title: "&3振金重锤"
@@ -145,4 +145,8 @@
 	task.6AE0DA6AB109A840.title: "开山采石"
 	task.6C974DF242CFDB8E.title: "定位一座远古金字塔"
 	task.7A588081117FA54F.title: "版权所有"
+	quest.24934231538B6492.quest_desc: [
+		"远古金字塔是&b&l彼岸&r三大结构之一。\\n\\n它显然是座金字塔，而且这一座没有地下室！\\n\\n取而代之的是&e猪巫丘&r！\\n\\n没听错，这里已经不是&e猪巫妖&r了，它们变成了一种叫&e猪巫丘&r的&c宝可梦&r。\\n\\n和别的&c宝可梦&r一样，你可以跟它们对战、把它们收服！\\n"
+		"{image:atm:textures/questpics/allthemodium/all_pyramid.png width:200 height:100 align:center}"
+	]
 }

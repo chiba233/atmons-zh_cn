@@ -265,4 +265,14 @@
 	task.75924053D6F5B242.title: "空间存储单元"
 	task.7E0D9E6342295AB0.title: "关于频道的前言"
 	task.7FC3DAA1BD5016A0.title: "ME智能线缆"
+	quest.7C40F1963FC5BF65.quest_desc: [
+		"除了 AE2 官方指南和游戏内的那本，这里再补几份 AE2 教程。"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://allthemods.github.io/alltheguides/mods/ae2/\"},\"color\":\"blue\",\"text\":\"AllTheGuides 的 AE2 指南\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=3htUhkDYbJ8\"},\"color\":\"blue\",\"text\":\"BucketSt 的 AE2 教程视频\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLz9AkOmMlH1lI4H3GeBQ3VzEKlcDDNO8_\"},\"color\":\"blue\",\"text\":\"The MindCrafters 的 AE2 教程合集\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=2_s1srWvq20\"},\"color\":\"blue\",\"text\":\"The MindCrafters 的 Advanced AE 教程\",\"underlined\":true}"
+		"&6&l葡萄牙语（巴西）：&r"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=SyU2B2V4XL4\"},\"color\":\"blue\",\"text\":\"Danrique 的 AE2 完整教程\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=qIV2BhU2Fh0\"},\"color\":\"blue\",\"text\":\"Danrique 的 AE2 自动合成教程\",\"underlined\":true}"
+	]
 }

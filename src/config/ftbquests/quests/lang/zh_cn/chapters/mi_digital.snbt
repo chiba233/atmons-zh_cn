@@ -102,4 +102,5 @@
 	quest.7AF6C95816E82861.quest_desc: ["将&#5B75D4化学反应的&#8F49C4氘&r与&#AABBFA氧气&r反应，将得到&#9C51DB重水&r。这可以重新放入&#45BF56反应堆&r中。"]
 	quest.7C73740F1B515F2C.quest_desc: ["&#C452C4钨粉&r需要被分解成更小的颗粒，以便进行处理。"]
 	task.08F68CC089765088.title: "绕过技巧"
+	quest.50F97171D25CD2EE.quest_desc: ["&#6EDDFF涡轮升级&r每个提升 &#FFEB6E512EU/t&r 的容量。"]
 }

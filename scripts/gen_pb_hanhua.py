@@ -28,6 +28,7 @@ entity.productivebees.* 键。禁止在别处手写第二份蜂名表。
 """
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -66,6 +67,11 @@ def main() -> None:
         en = {k: v for k, v in full.items() if k.startswith('entity.productivebees.')}
         SNAPSHOT.write_text(json.dumps(en, ensure_ascii=False, indent=1), encoding='utf-8')
     pack = json.loads(PACK_LANG.read_text(encoding='utf-8'))
+    # 帆布蜂箱/扩容盒的样式集合。从本包自己的 zh_cn 枚举而不是从 jar：
+    # 这些 block 键本来就要逐个译，漏一个的话下面的样式表也跟着少一条，
+    # 两边同源，不会各自漂移；离线拿快照重跑时也不需要 jar。
+    canvas_styles = {m.group(1) for k in pack
+                     for m in [re.fullmatch(r'block\.productivebees\.advanced_(.+)_canvas_beehive', k)] if m}
 
     # 权威表: base id -> 中文名（来自资源包）
     id2zh = {}
@@ -109,6 +115,65 @@ def main() -> None:
     type2zh = {title_case(base): zh for base, zh in id2zh.items() if base != 'bee'}
 
     zh_alias = {old: id2zh[LEGACY_ZH_TARGET_ID] for old in LEGACY_ZH}
+
+    # 样式行专用表。帆布蜂箱/扩容盒的 tooltip 是
+    # `productivebees.information.canvas.style` = "样式: %s"，%s 由 mod 在运行时
+    # 拿方块 id 首字母大写填进去（snake_block → Snake_block），不过 I18n，
+    # 语言文件够不着——跟基因样本的类型行是同一类问题。
+    #
+    # 译名不另立一份表，从既有译文里推：
+    #   1. block.productivebees.expansion_box_<样式>   去掉「扩容盒」
+    #   2. block.productivebees.<样式>_beehive         去掉「蜂箱」与「高级」
+    #   3. 本包任意语言文件里的 <样式>_planks（去掉「板」，保留木字旁的构词）
+    # 推不出来的一律不进表：那些样式的来源模组不在本整合包里，玩家拿不到，
+    # 硬编个中文只会在换包时变成错译。宁可让那一行留着英文。
+    #
+    # 第 3 条要扫全部命名空间，不能只看资源蜜蜂自己那份：山杨、小叶桃花心木、
+    # 巴西黑黄檀这三种样式的木头来自 productivetrees，它确实在本整合包里，
+    # 只看 pack 会把它们漏掉。
+    other_lang = {}
+    for f in sorted((PACK / 'assets').glob('*/lang/zh_cn.json')):
+        try:
+            other_lang.update(json.loads(f.read_text(encoding='utf-8')))
+        except Exception:
+            pass
+
+    def from_planks(s):
+        """「山杨木板」→「山杨木」；「小叶桃花心木木板」→「小叶桃花心木」。
+
+        只去掉末尾的「板」，让木字旁留在名字里——上面第 1 条推出来的
+        金合欢木、白桦木、樱花木都带「木」，这样两条路径的构词才一致。
+        原名本来就以「木」结尾的（小叶桃花心木木板）不再补，避免叠字。
+        """
+        v = next((vv for kk, vv in other_lang.items() if kk.endswith('.%s_planks' % s)), None)
+        if not v or not v.endswith('板'):
+            return None
+        # 先整段去掉「木板」再按需补「木」。只去「板」会把「小叶桃花心木木板」
+        # 变成「小叶桃花心木木」——它本来就带木字旁，补出来是叠字。
+        v = v[:-2] if v.endswith('木板') else v[:-1]
+        return v if v.endswith('木') else v + '木'
+
+    style2zh = {}
+    for s in sorted(canvas_styles):
+        v = pack.get('block.productivebees.expansion_box_%s' % s)
+        if v:
+            style2zh[s] = v[:-3] if v.endswith('扩容盒') else v
+            continue
+        v = (pack.get('block.productivebees.%s_beehive' % s)
+             or pack.get('block.productivebees.advanced_%s_beehive' % s))
+        if v:
+            n = v[:-2] if v.endswith('蜂箱') else v
+            style2zh[s] = n[2:] if n.startswith('高级') else n
+            continue
+        v = from_planks(s)
+        if v:
+            style2zh[s] = v
+    # 这两个不是木头，推不出来但玩家拿得到，按包内既有译法补：
+    #   comb     蜜脾（the_bumblezone 的旗帜图案就是这么叫的）
+    #   concrete 混凝土（原版 block.minecraft.*_concrete）
+    for s, zh in (('comb', '蜜脾'), ('concrete', '混凝土')):
+        if s in canvas_styles:
+            style2zh.setdefault(s, zh)
 
     # 迁移表: NBT entity/type 完整 id -> 中文名
     bid2zh = {}
@@ -156,6 +221,16 @@ function pbTranslate(s) {
         function (mm, a, b, c, d) {
             return a + b + (pbOwn(PB_TYPE2ZH, c) ? PB_TYPE2ZH[c] : c) + d
         })
+    // 形态6: 样式行 "样式: Snake_block" —— 帆布蜂箱/扩容盒
+    // mod 把方块 id 首字母大写后填进 productivebees.information.canvas.style，
+    // 不过 I18n。这里按小写 id 查表，所以 Snake_block / SNAKE_BLOCK / Snake_Block
+    // 都能命中；查不到就原样留着（那些样式的来源模组不在本包里，玩家拿不到）。
+    // 与形态3 分开写：类型行必须带 "(N%)"，样式行没有百分比，一个正则套不住两者。
+    ns = ns.replace(/(样式|Style)([:：]\\s*)([A-Za-z][A-Za-z0-9_]*)(\\s*)$/gm,
+        function (mm, a, b, c, d) {
+            let k = c.toLowerCase()
+            return a + b + (pbOwn(PB_STYLE2ZH, k) ? PB_STYLE2ZH[k] : c) + d
+        })
     // 形态4: 已废弃的旧中文译名归一
     for (let old in PB_ZH_ALIAS) {
         if (pbOwn(PB_ZH_ALIAS, old) && ns.indexOf(old) >= 0) ns = ns.split(old).join(PB_ZH_ALIAS[old])
@@ -171,6 +246,7 @@ function pbTranslate(s) {
               'const PB_ID2ZH = ' + j(id2zh) + ';\n'
               'const PB_EN2ZH = ' + j(en2zh) + ';\n'
               'const PB_TYPE2ZH = ' + j(type2zh) + ';\n'
+              'const PB_STYLE2ZH = ' + j(style2zh) + ';\n'
               'const PB_ZH_ALIAS = ' + j(zh_alias) + ';\n'
               'const PB_SYS = ' + j(sys_obj) + ';\n'
               + shared + '''
@@ -210,7 +286,7 @@ NativeEvents.onEvent($RenderNameTagEvent, function (event) {
     }
 })
 console.info('[pb_hanhua] 显示层已注册 (ID:' + Object.keys(PB_ID2ZH).length
-    + ' EN:' + Object.keys(PB_EN2ZH).length + ' TYPE:' + Object.keys(PB_TYPE2ZH).length + ')')
+    + ' EN:' + Object.keys(PB_EN2ZH).length + ' TYPE:' + Object.keys(PB_TYPE2ZH).length + ' STYLE:' + Object.keys(PB_STYLE2ZH).length + ')')
 ''')
 
     server = ('// 汉化补丁 · 资源蜜蜂数据迁移 (服务端)\n'

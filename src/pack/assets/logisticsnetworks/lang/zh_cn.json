@@ -1,0 +1,20 @@
+{
+  "_说明": "单位（mB/s、RF/s、SRC/s、/s、%st）与坐标格式串是纯符号，照抄不译；只译真正的文字。",
+  "config.jade.plugin_logisticsnetworks.logistics_node_entity": "物流节点实体",
+  "gui.logisticsnetworks.computer.nodes_unknown": "--",
+  "gui.logisticsnetworks.computer.position": "%s %s,%s,%s",
+  "gui.logisticsnetworks.computer.telemetry.unit.chemicals": "mB/s",
+  "gui.logisticsnetworks.computer.telemetry.unit.energy": "RF/s",
+  "gui.logisticsnetworks.computer.telemetry.unit.fluids": "mB/s",
+  "gui.logisticsnetworks.computer.telemetry.unit.items": "/s",
+  "gui.logisticsnetworks.computer.telemetry.unit.source": "SRC/s",
+  "gui.logisticsnetworks.config.client.connectedNodeTextures": "相连节点的纹理",
+  "gui.logisticsnetworks.config.client.defaultNodeVisibility": "节点默认可见性",
+  "gui.logisticsnetworks.filter.detail.nbt": "NBT",
+  "gui.logisticsnetworks.filter.info.icon": "i",
+  "gui.logisticsnetworks.node.page_info": "%s-%s / %s",
+  "gui.logisticsnetworks.node.value.batch.chemical": "%s mB",
+  "gui.logisticsnetworks.node.value.batch.energy": "%s RF/t",
+  "gui.logisticsnetworks.node.value.batch.fluid": "%s mB",
+  "gui.logisticsnetworks.node.value.tick_delay": "%s 刻"
+}

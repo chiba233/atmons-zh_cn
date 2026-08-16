@@ -1,0 +1,15 @@
+{
+  "_说明": "flywheel 的指令回执，自带零条中文。backend 按机械动力社区的说法作「渲染后端」。",
+  "argument.flywheel_backend.id.unknown": "未知的渲染后端「%s」",
+  "command.flywheel.backend.get": "当前的 Flywheel 渲染后端是「%s」",
+  "command.flywheel.backend.set": "Flywheel 渲染后端已切换为「%s」",
+  "command.flywheel.backend.set.unavailable": "请求的渲染后端「%s」不可用",
+  "command.flywheel.limit_updates.get.off": "更新限制当前已关闭",
+  "command.flywheel.limit_updates.get.on": "更新限制当前已开启",
+  "command.flywheel.limit_updates.set.off": "更新限制已关闭",
+  "command.flywheel.limit_updates.set.on": "更新限制已开启",
+  "command.flywheel.use_light_directions.get.off": "当前未使用光照方向",
+  "command.flywheel.use_light_directions.get.on": "当前正在使用光照方向",
+  "command.flywheel.use_light_directions.set.off": "已关闭光照方向",
+  "command.flywheel.use_light_directions.set.on": "已开启光照方向"
+}

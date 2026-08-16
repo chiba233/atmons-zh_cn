@@ -578,6 +578,8 @@ BANNERS = {
     #    这几章的标题图从来没进过表，于是侧边栏是中文、横幅还是英文艺术字。
     'pokemon/evo_title.png':                                '进化',
     'pokemon/find_title.png':                               '全都找出来！',
+    'pokemon/find_title_archeology.png':                    '考古',
+    'pokemon/find_title_fish.png':                          '钓鱼',
     'pokemon/farm_title2.png':                              '与宝可梦一起种田',   # 前半张 farm_title1 是 CobbleWorkers 模组标志，留英文
     'pokemon/master_title1.png':                            '大师球',
     'pokemon/mega_title.png':                               '超级对决',
@@ -586,10 +588,15 @@ BANNERS = {
     'pokemon/ultra_title1.png':                             '究极',      # 原图 Ultra + Beasts 两张，照拆
     'pokemon/ultra_title2.png':                             '异兽',
     'pro_farming/farm_title_1.png':                         '高效',      # 章名被拆成两张：高效 + 农业
+    'pro_farming/farm_title_crops.png':                     '作物',
+    'pro_farming/farm_title_farm.png':                      '自动农场',
+    'pro_farming/farm_title_flowers.png':                   '花卉',
+    'pro_farming/farm_title_mutants.png':                   '变异',
     'pro_farming/farm_title_2.png':                         '农业',
     'pylons/pylon_title.png':                               '实用塔',
     'railcraft/railcraft.png':                              '铁路工艺',
     'relics/relics_title.png':                              '遗物',
+    'series/atmteam_title.png':                             'ATM 团队系列',
     'router/router_title.png':                              '模块化\n路由器',   # 原图就是两行，画布近正方，单行会缩得很小
     'theurgy/theurgy.png':                                  '神通术',
     'tips_and_tricks.png':                                  '技巧与窍门',

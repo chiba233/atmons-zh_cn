@@ -576,10 +576,15 @@ BANNERS = {
     'powah/text/useful_items_text.png':                     '实用物品',
     # ── All the Mons 自己新增的宝可梦章节。原先这张表只有上一个整合包的图，
     #    这几章的标题图从来没进过表，于是侧边栏是中文、横幅还是英文艺术字。
+    'pokemon/evo_title.png':                                '进化',
     'pokemon/find_title.png':                               '全都找出来！',
     'pokemon/farm_title2.png':                              '与宝可梦一起种田',   # 前半张 farm_title1 是 CobbleWorkers 模组标志，留英文
     'pokemon/master_title1.png':                            '大师球',
     'pokemon/mega_title.png':                               '超级对决',
+    'pokemon/paradox_title.png':                            '悖谬',
+    'pokemon/tips_title.png':                               '宝可技巧与窍门',
+    'pokemon/ultra_title1.png':                             '究极',      # 原图 Ultra + Beasts 两张，照拆
+    'pokemon/ultra_title2.png':                             '异兽',
     'pro_farming/farm_title_1.png':                         '高效',      # 章名被拆成两张：高效 + 农业
     'pro_farming/farm_title_2.png':                         '农业',
     'pylons/pylon_title.png':                               '实用塔',

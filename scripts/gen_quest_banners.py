@@ -600,8 +600,12 @@ BANNERS = {
     'pokemon/legendary_title1.png':                          '传',        # 原图是花体首字母 L，后半在 title2
     'pokemon/legendary_title2.png':                          '说宝可梦',
     'pokemon/master_title1.png':                            '大师球',
+    'pokemon/mega_mega.png':                                '超级进化',
+    'pokemon/mega_tera.png':                                '太晶化',
     'pokemon/master_title2.png':                            '以及制作其他精灵球',
     'pokemon/mega_title.png':                               '超级对决',
+    'pokemon/paradox_future.png':                           '未来',
+    'pokemon/paradox_past.png':                             '过去',
     'pokemon/paradox_title.png':                            '悖谬',
     'pokemon/poke_title.png':                               '方块宝可梦',   # Cobblemon 的标志，mcmod 收录的中文名
     'pokemon/tips_title.png':                               '宝可技巧与窍门',
@@ -617,6 +621,8 @@ BANNERS = {
     'railcraft/railcraft.png':                              '铁路工艺',
     'relics/relics_title.png':                              '遗物',
     'series/atmteam_title.png':                             'ATM 团队系列',
+    'series/bdsp_sinnoh.png':                               '神奥',
+    'series/red_kanto.png':                                 '关都',
     'series/bdsp_title.png':                                '晶灿钻石·明亮珍珠',   # 本篇游戏，有官方中文
     'series/red_radical.png':                               '激进红',      # 民间改版，用社区通行叫法
     'series/unbound_title.png':                             '解放',        # 同上

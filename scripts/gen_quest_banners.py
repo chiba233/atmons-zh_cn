@@ -430,6 +430,49 @@ BOXES = {
 }
 
 
+# 一张图里有**好几处**英文的，走这里：逐框重绘，框外一个像素不动。
+#
+# 与上面 BOXES 的区别：BOXES 是「整张图只有一条文字，但两端挂着装饰」，
+# 一张图仍只画一段字；这里是「一张界面底图上散着好几段字」。
+#
+# 这类图的底是纯色（紫色侧栏、紫色搜索条、灰色卡片），所以不采样、不抠材质：
+# 框内先用底色填平，再用给定的字色/描边色把中文画上去——底色是纯的，
+# 填回去与原样一模一样，不会像 patch_from 那样要去别处取纹理。
+#
+# 框的边界不是目测的：把 PNG 解出来，按底色的连通区间量出「哪一块是纯色底」，
+# 取其内缩后的矩形。搜索条右侧那个放大镜图标起于 x=860，框到 856 就停，不碰它；
+# 左上角的 AllTheMons 标志（x 19..363）整个在框外，是品牌名，本来也不译。
+MULTI = {
+    'series/content_background.png': [
+        # 搜索条：药丸 x 400..999 / y 15..68 是纯紫，框取其内部
+        dict(box=(34.38, 3.06, 66.88, 8.36), text='怎样打赢内容创作者？',
+             fill=(216, 85, 223), face_rgb=(255, 255, 255), outline=(150, 40, 160)),
+        # 左侧竖排：紫带 x 15..134 是纯色，中文竖排逐字换行，不需要旋转
+        dict(box=(1.56, 10.58, 9.84, 96.80), text='内\n容\n创\n作\n者',
+             fill=(216, 85, 223), face_rgb=(255, 255, 255), outline=(150, 40, 160)),
+        # 第 1 行第 3 张卡片：x 540..676 / y 115..322 是纯灰
+        dict(box=(42.66, 20.89, 52.34, 41.78), text='Joey\n没有频道',
+             fill=(217, 217, 217), face_rgb=(255, 255, 255), outline=(170, 170, 170)),
+    ],
+}
+
+
+def draw_multi(im, jobs):
+    """在一张图上逐框替换文字；框内先用纯底色填平，框外原样保留。"""
+    canvas = im.copy()
+    for j in jobs:
+        x0, y0, x1, y1 = j['box']
+        r = (round(im.width * x0 / 100), round(im.height * y0 / 100),
+             round(im.width * x1 / 100), round(im.height * y1 / 100))
+        w, h = r[2] - r[0], r[3] - r[1]
+        canvas.paste(Image.new('RGBA', (w, h), tuple(j['fill']) + (255,)), (r[0], r[1]))
+        plate = Image.new('RGB', (w, h), tuple(j['face_rgb']))
+        sw = max(2, round(h * 0.045))
+        img, _, _ = render_vector(j['text'], w, h, tuple(j['outline']), plate, sw, 'bold')
+        canvas.alpha_composite(img, (r[0], r[1]))
+    return canvas
+
+
 def check_boxes():
     """硬校验：擦除框的边界不许切断任何连通域。
 
@@ -1144,6 +1187,18 @@ def main(check_only=False):
                 else '  ← 与章节标题「%s」不同' % '」「'.join(dict.fromkeys(used)))
         print('  %-48s %-7s %-5s %-10s %dx%d%s'
               % (rel, text, face, how, im.width, im.height, note))
+        n += 1
+    for rel, jobs in sorted(MULTI.items()):
+        src = PICS / rel
+        if not src.exists():
+            sys.exit('❌ 找不到原图 %s（本脚本要对着整合包实例跑）' % src)
+        im = Image.open(src).convert('RGBA')
+        if not check_only:
+            dst = OUT / rel
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            save_png(draw_multi(im, jobs), dst)
+        print('  %-48s %-7s %-5s %-10s %dx%d'
+              % (rel, '%d 处' % len(jobs), 'bold', '纯色底', im.width, im.height))
         n += 1
     print(('校验通过' if check_only else '已生成') + ' %d 张 -> %s' % (n, OUT.relative_to(ROOT)))
 

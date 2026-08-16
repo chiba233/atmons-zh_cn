@@ -1,6 +1,13 @@
 {
   "_说明": "整合包用 kubejs/assets/legendary_monuments/lang/en_us.json 把这条提示改短了——原文里「and to craft Ancient Origin Balls」被删掉，因为本包改了合成。mod 自带的中文还是旧的那句，会让玩家照着一个不存在的合成去做。这里按包改后的英文对齐。注意 kubejs 那份的目录名是 legendary_monuments（带下划线），键里的命名空间才是 legendarymonuments，两者不同不是笔误。",
+  "_说明2": "mod 自带中文把 Snowpoint Temple 译成「切锋神殿」，与结构名对不上。Snowpoint City 官方译名是雪峰市，这座神殿是雪峰神殿（雷吉奇卡斯的封印地），这 6 条按官方地名改。Hall of Origin 官方叫起始之殿，这里仍留 mod 自带的初始之殿——它和 mod 自己的初始块／初始锭／初始钥匙／进入提示是一整套，只改一处反而更乱。",
   "biome.legendarymonuments.hall_of_origin_world_biome": "初始之殿",
   "biome.legendarymonuments.reawakening_sanctum_biome": "复苏圣所",
-  "item.legendarymonuments.red_chain.tooltip.1": "用于在枪之柱召唤帕路奇亚和帝牙卢卡"
+  "item.legendarymonuments.red_chain.tooltip.1": "用于在枪之柱召唤帕路奇亚和帝牙卢卡",
+  "tooltip.legendarymonuments.dragon_golem_key": "解锁雪峰神殿的雷吉艾勒奇/雷吉铎拉戈密室",
+  "tooltip.legendarymonuments.electric_golem_key": "解锁雪峰神殿的雷吉艾勒奇/雷吉铎拉戈密室",
+  "tooltip.legendarymonuments.ice_golem_key": "解锁雪峰神殿的雷吉艾斯密室",
+  "tooltip.legendarymonuments.rock_golem_key": "解锁雪峰神殿的雷吉洛克密室",
+  "tooltip.legendarymonuments.steel_golem_key": "解锁雪峰神殿的雷吉斯蒂尔密室",
+  "tooltip.legendarymonuments.titan_key": "解锁雪峰神殿的雷吉奇卡斯密室"
 }

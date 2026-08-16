@@ -1,6 +1,6 @@
 {
   "_说明": "cobblepedia 自带中文只覆盖了 1031 键，这里补上剩下的 389 键。术语跟这本书自己已有的译法走：held item 用「持有物品」不用「携带道具」，vitamin 用「营养饮料」。钓竿：Cobblemon 把 47 把钓竿的 getDescriptionId 全部写死成 item.cobblemon.poke_rod，游戏里它们一律显示「宝钓竿」，各自的名字只出现在这本百科里，因此按「<球名>钓竿」命名，球名取 Cobblemon 自带中文，颜色后缀挪到词尾（古代精灵球（蓝）→ 古代精灵球钓竿（蓝））。遗址名取 cobblenav 自带中文，玉石系列取 Cobblemon 自带中文——其中「雕纹玉石砖」在 Cobblemon 那边就是两个方块共用同一个中文名，物品栏里就长这样，这里不另造词。",
-  "book.cobblepedia": "宝可梦百科",
+  "book.cobblepedia": "方块宝可梦百科全书",
   "book.cobblepedia.entries.ability_capsule.obtaining.text": "特性胶囊目前无法通过常规途径获得，只能在创造模式物品栏里找到，或者用指令获取。",
   "book.cobblepedia.entries.ability_capsule.text": "$(l)特性胶囊$()是一种$(l:medicine)药品$()，能把使用对象的特性换成它的另一个普通特性。",
   "book.cobblepedia.entries.ability_patch.obtaining.text": "特性膏药目前无法通过常规途径获得，只能在创造模式物品栏里找到，或者用指令获取。",

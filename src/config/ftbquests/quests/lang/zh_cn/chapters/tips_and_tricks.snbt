@@ -17,8 +17,8 @@
 	quest.1CA43B9A95159AD0.quest_desc: ["宝石是在&c宝可梦&r建筑和可疑方块里找到的有趣道具。\\n\\n让&c宝可梦&r携带它，就能强化它使出的第一个对应属性的招式。\\n\\n&b水之宝石&r强化第一个&b水属性招式&r，&c火之宝石&r强化第一个&c火属性招式&r，以此类推。"]
 	quest.219AA017149C36E2.quest_desc: ["陷阱商人地毯会立即杀死任何在其附近生成的流浪商人！\\n\\n这些可能是整个模组包中最好的物品。"]
 	quest.219AA017149C36E2.quest_subtitle: "再也不用担心烦人的商人！"
-	quest.23D1F785BACBD39B.quest_desc: ["有时候就是找不到那只用来&d培育&r的&d雌性&c宝可梦&r。\\n\\n那不如直接把手上的&b雄性&r变成&d雌性&r！反过来也行！\\n拿着 Transmutation Orb 右键&c宝可梦&r，它的性别就换了。\\n\\n不知道能不能对百变怪用，变出个「百变娘」来？"]
-	quest.23D1F785BACBD39B.title: "Transmutation Orb"
+	quest.23D1F785BACBD39B.quest_desc: ["有时候就是找不到那只用来&d培育&r的&d雌性&c宝可梦&r。\\n\\n那不如直接把手上的&b雄性&r变成&d雌性&r！反过来也行！\\n拿着 变换宝珠 右键&c宝可梦&r，它的性别就换了。\\n\\n不知道能不能对百变怪用，变出个「百变娘」来？"]
+	quest.23D1F785BACBD39B.title: "变换宝珠"
 	quest.28E60192912BEBAD.quest_desc: ["在&l&2原版&r中，村民可能非常令人沮丧。轮换交易并不容易，职业有时也很难处理。\\n\\n&l&2简易村民&r是一个让所有这些都更容易处理的模组！首先，你可以通过潜行右键点击来拾起一个村民。然后可以轻松地将他们放置在世界中，或放置在&l&2简易村民&r模组提供的特定方块中！\\n\\n你可以在JEI中搜索 &d@EasyVillagers&r来查看模组提供的方块！"]
 	quest.28E60192912BEBAD.quest_subtitle: "让村民变得简单"
 	quest.28E60192912BEBAD.title: "&l&2简易村民"
@@ -26,11 +26,11 @@
 	quest.32ECD93A8F2FAB8F.title: "&l&6铁喷气背包"
 	quest.3B4BF42C55C8BBBF.quest_desc: ["挖东西的时候方块掉到够不着的地方，是不是特别烦！\\n\\n别担心，我们有&4磁铁&r！拿着&4磁铁&r右键就能开启，然后 5 格半径内所有掉落的物品和方块都会飞到你身上。\\n\\n你也可以把&4磁铁&r放进饰品栏，让它一直生效！\\n\\n不想再用&4磁铁&r了（我在刷怪塔附近就经常这样），再右键一次关掉就行。\\n\\n它还能升级，扩大范围！"]
 	quest.3B4BF42C55C8BBBF.title: "&l&9简易&4磁铁"
-	quest.3DA07EE81C9E13BF.quest_desc: ["Ball Synchronizer 可以给&c宝可梦&r换&c球&r。\\n\\n让&c宝可梦&r携带你想换的那个&c球&r，再对它使用 Ball Synchronizer 就换好了。它原来待的那个&c球&r会被销毁……\\n\\n除非你用的是那些收服之后还有加成的&c球&r，否则我看不出这东西有多大用！"]
-	quest.3DA07EE81C9E13BF.title: "Ball Synchronizer"
+	quest.3DA07EE81C9E13BF.quest_desc: ["精灵球同步器 可以给&c宝可梦&r换&c球&r。\\n\\n让&c宝可梦&r携带你想换的那个&c球&r，再对它使用 精灵球同步器 就换好了。它原来待的那个&c球&r会被销毁……\\n\\n除非你用的是那些收服之后还有加成的&c球&r，否则我看不出这东西有多大用！"]
+	quest.3DA07EE81C9E13BF.title: "精灵球同步器"
 	quest.3FEFD0340A60DD5F.quest_subtitle: "把所有窍门都走一遍！"
-	quest.40708C304424C3FE.quest_desc: ["&4训练家&r多到烦人？用 Trainer Repel Rod 把他们赶走！\\n\\n具体屏蔽多大范围的刷新我也说不准……它没告诉我。\\n\\n好在它不会让&4训练家刷怪笼&r失效。"]
-	quest.40708C304424C3FE.title: "Trainer Repel Rod"
+	quest.40708C304424C3FE.quest_desc: ["&4训练家&r多到烦人？用 训练家驱离杆 把他们赶走！\\n\\n具体屏蔽多大范围的刷新我也说不准……它没告诉我。\\n\\n好在它不会让&4训练家刷怪笼&r失效。"]
+	quest.40708C304424C3FE.title: "训练家驱离杆"
 	quest.47043AF7D1FABC43.quest_desc: [
 		"把附魔从物品上提取到书上有很多办法，这条任务就讲其中的几种。\\n\\n&c超级工厂管理器&r：我能想到的最省的祛魔办法，完全不消耗&a经验&r。把附魔物品和一摞书丢在一块&5黑曜石&r上，然后让一个下落的&8铁砧&r砸在物品和书上面。\\n\\n&6龙之进化祛魔台&r：这个可以从附魔物品里挑一条指定的附魔转到书上。要消耗&a经验&r。"
 		"{@pagebreak}"

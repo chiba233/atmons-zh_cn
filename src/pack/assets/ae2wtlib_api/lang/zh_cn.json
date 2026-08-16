@@ -1,0 +1,7 @@
+{
+  "chat.ae2wtlib.NetworkMismatch": "量子桥与无线访问点连接在了不同的网络上",
+  "chat.ae2wtlib.NetworkNotPowered": "网络没有供电",
+  "chat.ae2wtlib.NoQuantumBridge": "找不到量子网络桥。它是否在已加载的区块内？",
+  "chat.ae2wtlib.NoQuantumBridgeCard": "缺少量子桥卡",
+  "chat.ae2wtlib.SingularityNotPresent": "缺少奇点"
+}

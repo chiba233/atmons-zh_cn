@@ -1,0 +1,6 @@
+{
+  "gui.ae2addonlib.SetAmount": "设置数量",
+  "gui.tooltips.ae2addonlib.Disabled": "已禁用",
+  "gui.tooltips.ae2addonlib.Enabled": "已启用",
+  "gui.tooltips.ae2addonlib.TankAmount": "%s / %s B"
+}

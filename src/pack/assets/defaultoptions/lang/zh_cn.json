@@ -1,0 +1,8 @@
+{
+  "defaultoptions.configuration.defaultDifficulty": "默认难度",
+  "defaultoptions.configuration.defaultDifficulty.tooltip": "新建世界时默认选中的难度",
+  "defaultoptions.configuration.defaultResourcePacks": "默认资源包",
+  "defaultoptions.configuration.defaultResourcePacks.tooltip": "首次启动时默认启用的资源包 ID",
+  "defaultoptions.configuration.lockDifficulty": "锁定难度",
+  "defaultoptions.configuration.lockDifficulty.tooltip": "设为 true 时，新建世界的难度将被锁定"
+}

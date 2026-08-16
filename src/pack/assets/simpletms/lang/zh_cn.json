@@ -1,0 +1,7 @@
+{
+  "_说明": "hold_alt／hold_shift 两条只有按键名与格式码，照抄；TM 按宝可梦官方说法作「招式学习器」。",
+  "simpletms.item.move_learn_item.move_pp": "PP：",
+  "simpletms.item.move_learn_item.tm": "招式学习器",
+  "simpletms.item.tooltip.move_learn_item.hold_alt": " §oALT§r ",
+  "simpletms.item.tooltip.move_learn_item.hold_shift": " §oSHIFT§r "
+}

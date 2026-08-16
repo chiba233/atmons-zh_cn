@@ -1,0 +1,9 @@
+{
+  "_说明": "CurseForge／Modrinth／Wiki 是站点名，不译。",
+  "midnightconfig.action.color_chooser": "打开取色器",
+  "midnightconfig.action.file_chooser": "打开文件选择器",
+  "midnightconfig.action.list_index": "正在编辑列表第 %s 项",
+  "midnightlib.curseforge": "CurseForge",
+  "midnightlib.modrinth": "Modrinth",
+  "midnightlib.wiki": "Wiki"
+}

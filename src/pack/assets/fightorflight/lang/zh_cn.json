@@ -1,0 +1,6 @@
+{
+  "_说明": "按键分类名保留 mod 名。",
+  "fightorflight.behaviour.fights_range.desc": "来自 Fight or Flight 的远程攻击行为，请不要把它用在别处",
+  "fightorflight.behaviour.fights_range.name": "远程攻击（FOF）",
+  "key.fightorflight.categories.fightorflight": "Cobblemon Fight or Flight"
+}

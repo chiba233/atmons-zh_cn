@@ -403,6 +403,9 @@ def pixel_candidates(text):
 # 少数几条与章节标题不同，原因写在行尾。
 # 带装饰的图：(左, 上, 右, 下) 百分比 —— 只有英文字的那个框；框外原样保留。
 # inpaint=True 表示框内是有底纹的（不能直接抹成透明），从 patch_from 那几行取纹理平铺。
+# 标题图与章节标题对不上的，跑完单列一段。见下面 print 处的说明。
+TITLE_MISMATCH = []
+
 BOXES = {
     # 两只怪的爪子和字的阴影连成一块，连通域切不开，硬校验只能豁免；成图逐张看过
     'occultism/occultism_title.png': dict(box=(16, 27, 73, 67), touching=True),   # 左右两只怪要留
@@ -598,7 +601,10 @@ BANNERS = {
     'bumblezone/bumble_title.png':                          '蜜蜂领域',
     'cataclysm/cataclysm_title.png':                        '灾变',
     'create/create_title.png':                              '机械动力',
-    'deepndark/dnd_title.png':                              '更深更暗',
+    # 「幽邃黑暗」不是「更深更暗」：模组名在本包各处早已统一为幽邃黑暗
+    # （src/ 里 8 处，无一处用旧名）。旧名只剩这张横幅还印着，正文与图对不上。
+    # atm10 仓库修过同一条，本仓库建仓时抄的是它修复之前的表——是回归，不是新错。
+    'deepndark/dnd_title.png':                              '幽邃黑暗',
     'draconic/draconic_title.png':                          '龙之进化',
     'enderio/enderiologo.png':                              '末影接口',
     'eternal/starlight_armor.png':                          '护甲',
@@ -1188,8 +1194,14 @@ def main(check_only=False):
             dst.parent.mkdir(parents=True, exist_ok=True)
             save_png(img, dst)
         # 被多个章节共用时把它们都列出来：只报第一个会让人以为另一个不存在。
-        note = ('' if (not used or text in used)
+        mismatch = bool(used) and text not in used
+        note = ('' if not mismatch
                 else '  ← 与章节标题「%s」不同' % '」「'.join(dict.fromkeys(used)))
+        # 标题图与小标题图分开记。小标题图（生物/方块/装备…）与章节标题不同是
+        # 常态，一百多行长得一模一样，真正该看的那一条就淹在里面了——
+        # 「更深更暗」那张标题图印着旧模组名，报告里报过，没人看见。
+        if mismatch and '_title' in rel:
+            TITLE_MISMATCH.append((rel, text, dict.fromkeys(used)))
         print('  %-48s %-7s %-5s %-10s %dx%d%s'
               % (rel, text, face, how, im.width, im.height, note))
         n += 1
@@ -1206,6 +1218,14 @@ def main(check_only=False):
               % (rel, '%d 处' % len(jobs), 'bold', '纯色底', im.width, im.height))
         n += 1
     print(('校验通过' if check_only else '已生成') + ' %d 张 -> %s' % (n, OUT.relative_to(ROOT)))
+    # 标题图印的应当就是章节名。小标题图（生物/方块/装备…）与章节标题不同是常态，
+    # 一百多行混在一起时，真正错的那一条根本看不见——「更深更暗」就是这么漏过去的：
+    # 报告里报了，但它长得和另外 152 行一模一样。这里单独拎出来。
+    if TITLE_MISMATCH:
+        print('  ── 标题图与章节标题不一致 %d 张（小标题图不计）──' % len(TITLE_MISMATCH))
+        for rel, text, used in TITLE_MISMATCH:
+            print('     %-46s 图上「%s」  章节「%s」' % (rel, text, '」「'.join(used)))
+        print('     不一致不一定是错（例如 all_title 印的是「第二章」），但每一条都要有理由。')
 
 
 if __name__ == '__main__':

@@ -1200,7 +1200,10 @@ def main(check_only=False):
         # 标题图与小标题图分开记。小标题图（生物/方块/装备…）与章节标题不同是
         # 常态，一百多行长得一模一样，真正该看的那一条就淹在里面了——
         # 「更深更暗」那张标题图印着旧模组名，报告里报过，没人看见。
-        if mismatch and '_title' in rel:
+        # 判据是**以 _title.png 结尾**，不是「文件名里含 _title」：
+        # bumble_title_armor.png / cataclysm_title_guardian.png 这些是小标题图，
+        # 名字里带 _title_ 但印的是「护甲」「末影守卫」，本来就该与章节名不同。
+        if mismatch and rel.endswith('_title.png'):
             TITLE_MISMATCH.append((rel, text, dict.fromkeys(used)))
         print('  %-48s %-7s %-5s %-10s %dx%d%s'
               % (rel, text, face, how, im.width, im.height, note))

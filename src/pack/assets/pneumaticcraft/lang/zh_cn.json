@@ -226,7 +226,7 @@
   "gui.tooltip.block.pneumaticcraft.elevator_caller": "与电梯基座与电梯框架配合使用，用来把电梯呼叫到它所在的高度。放置在竖直叠加在电梯基座上的电梯框架的旁边。",
   "gui.tooltip.block.pneumaticcraft.elevator_frame": "需要被竖直叠加在电梯基座上来构建正常工作的电梯。",
   "gui.tooltip.block.pneumaticcraft.empty_spawner": "被刷怪笼抽取器抽取后的原版刷怪笼。其自身并无用途，但可用于合成气动刷怪笼。",
-  "gui.tooltip.block.pneumaticcraft.etching_tank": "装满蚀刻酸，然后输入在紫外线灯箱里被照射过的空印刷电路板。可以被加热到50°C以上，从而以显著提升的速率蚀刻（但被加热后将会缓慢消耗蚀刻酸）。\n从侧面抽取未组装的印刷电路板，从顶/底面抽取失效的印刷电路板。",
+  "gui.tooltip.block.pneumaticcraft.etching_tank": "将蚀刻器装满蚀刻酸，再放入在紫外线灯箱里曝光过的空印刷电路板，即可开始蚀刻。\n蚀刻器可以加热到50°C以上，此时蚀刻速度会显著提升，但加热时也会缓慢消耗蚀刻酸。\n未组装的印刷电路板从侧面抽出，失效的印刷电路板从顶面和底面抽出。",
   "gui.tooltip.block.pneumaticcraft.fluid_mixer": "使用压力混合两种流体，生成流体/物品。\n\n提供更高的压力可以加速该机器，但也会使其消耗空气的速率更快。",
   "gui.tooltip.block.pneumaticcraft.flux_compressor": "将FE能量（与RF和许多其他模组的能量兼容）转换为压缩空气。其基础效率为40%%，也即，消耗100FE才能产生40mL压缩空气。速度升级将略微降低这一效率。\n此压缩机会产生热量，必须将其散热以避免效率损失。",
   "gui.tooltip.block.pneumaticcraft.gas_lift": "气举是一种使用压力泵送液体的泵。它需要压力和钻杆才能工作。气举将会把压力管道或者高级压力管道向下放置，直到碰到液体。当管道遇到固体方块时，将对其进行挖掘；挖掘使用的压力与方块的硬度成正比。\n需要的最小压力与深度成正比。",

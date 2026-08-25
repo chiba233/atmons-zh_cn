@@ -26,5 +26,6 @@
   "productivelib.information.upgrade.upgrade_entity_filter.list_item": " - %s",
   "productivelib.information.upgrade.valid_blocks.list_header": "可用方块：",
   "productivelib.information.upgrade.valid_blocks.list_item": " - %s",
-  "productivelib.information.upgrade.valid_blocks.list_item_content": "   %s"
+  "productivelib.information.upgrade.valid_blocks.list_item_content": "   %s",
+  "Valid upgrades:": "适用升级："
 }

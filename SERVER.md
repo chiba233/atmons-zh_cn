@@ -1,12 +1,6 @@
 # 服务端汉化包 · 安装说明
 
-[![GitHub](https://img.shields.io/badge/GitHub-chiba233%2Fatmons--zh__cn-181717?logo=github)](https://github.com/chiba233/atmons-zh_cn)
-[![Contributing](https://img.shields.io/badge/Contributing-guide-blue.svg)](./CONTRIBUTING.md)
-[![Security](https://img.shields.io/badge/Security-policy-red.svg)](./SECURITY.md)
-[![License](https://img.shields.io/badge/License-GPL--3.0-green.svg)](./LICENSE)
-
-> 适用于 All the Mons @@MCVER@@ **专用服务器**（dedicated server）。
-> **单机玩家不需要本包**，客户端包里已经包含所需内容。
+> **单机玩家不需要本包**，装客户端包就够了。本包是给开**专用服务器**的人用的。
 
 ## 兼容版本
 
@@ -16,47 +10,34 @@
 | Minecraft | 1.21.1 |
 | 加载器 | NeoForge @@NEOFORGE@@ |
 
-**客户端包与服务端包必须是同一版本**，且服务器上每个玩家也要装对应的客户端汉化包。
-
-## 包内容
-
-```
-mods/vaultpatcher.jar                           # 字节码文本补丁工具（上游原版，未改）
-vaultpatcher/modules/*.json                     # 10 个 RFTools/mcjty 类定向模块
-kubejs/server_scripts/pb_hanhua_cage_migrate.js # 蜂笼 / 实体显示名迁移
-config/ftbquests/…                              # 任务书中文
-config/vaultpatcher_asm/…                       # VaultPatcher 主配置
-请安装前务必看我.md · LICENSE · 项目主页与反馈.url
-```
-
-⚠️ `config/ftbquests/quests/lang/zh_cn/` 是**整份替换**同名文件，不是往里加文件。
+**必须与整合包版本严格对应，不能跨版本用。** 服务器上每个玩家也要各自装对应版本的客户端包。
 
 ## 安装
 
-1. **先备份**服务器数据目录里的 `config/`、`kubejs/`、`vaultpatcher/`、
-   `mods/vaultpatcher.jar`（若已存在）。本包不带安装器，请手动备份以便回退。
-2. 把本包内的 `mods/` `vaultpatcher/` `kubejs/` `config/` **覆盖**到服务器数据目录
-   （含 `mods/`、`server.properties` 的那一层）。
+1. **先备份**服务器数据目录里的 `config/`、`kubejs/`、`vaultpatcher/`、`mods/vaultpatcher.jar`。本包不带自动安装器。
+2. 把包内的 `mods/` `vaultpatcher/` `kubejs/` `config/` **覆盖**到服务器数据目录（含 `mods/`、`server.properties` 的那一层）。
 3. **完整重启服务器。**
 
-> **之后只更新任务书文本可以不重启**：覆盖 `config/ftbquests/quests/lang/` 后执行
-> `ftbquests reload`，玩家重开任务书或重连一次即可生效。Docker 部署用
-> `docker exec <容器名> rcon-cli ftbquests reload`。
-> VaultPatcher / kubejs 的改动仍需完整重启。
+> 任务书语言文件整份替换、覆盖同名文件是正常的。
+
+**只改了任务书文本时可以不重启**，`ftbquests reload` 即可对在线玩家生效：
+
+```bash
+docker exec <容器名> rcon-cli ftbquests reload
+```
+
+（服务端控制台直接敲同名命令也行。VaultPatcher 与 kubejs 的改动仍需完整重启。）
 
 ## 验证
 
 - 服务器能正常启动、无报错。
-- 进服后：任务书标题 / 描述为中文；建造机未选择时的聊天提示为中文；
-  新抓的蜂与放进背包的老蜂笼名字为中文。
-- 任务书里提到的物品名，与你在 JEI 里搜到的**完全一致**。对不上请
-  [提 Issue](https://github.com/chiba233/atmons-zh_cn/issues) 附任务截图。
+- 进服后：任务书标题 / 描述是中文；建造机未选择时的聊天提示是中文；抓到的新蜂、放进背包的老蜂笼名字是中文。
+- 任务书里提到的物品名，应与你在 JEI 里搜到的完全一致。对不上请[提 Issue](https://github.com/chiba233/atmons-zh_cn/issues) 附截图。
 
-## 两条红线
+## 注意
 
-⚠️ **不要把客户端包的 `config/mysticalcustomization` 放到服务器上。** 会让所有玩家进服时刷
-`An error occurred creating crop with id null`。本服务端包已不含该目录，请确认没有手动复制过去。
+⚠️ **别把客户端包的 `config/mysticalcustomization` 传到服务器**——所有玩家进服会刷
+`error creating crop with id null`。本包不含该目录，确认你没手动复制过去。
 
-⚠️ **不要往服务端加全局替换的 VaultPatcher 模块**（如客户端的蜂名基因模块），会污染
-NBT / 注册名导致存档损坏。服务端只收类定向模块，清单见 `scripts/server_modules.txt`，
-CI 会拦截对该清单的越界变更。
+⚠️ **别把客户端的 VaultPatcher 模块装到服务端**——会污染 NBT 与注册名，损坏存档。
+服务端只用类定向模块（清单见 `scripts/server_modules.txt`）。

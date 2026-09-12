@@ -150,12 +150,17 @@ def check_digest(ver, digest, record=False):
     print('  指纹与 versions/%s/overrides.sha256 一致 ✅' % ver)
 
 
+def display_ver(f):
+    # 1.3.0 那次上游把 displayName 写成了「All the Mons-1.3.0.zip」，带后缀比不上就等于这一版不存在。
+    return f['displayName'].rsplit('-', 1)[-1].strip().removesuffix('.zip')
+
+
 def find_file_id(ver):
     d = json.loads(get('%s/files?pageSize=50' % API))
     for f in d['data']:
-        if f['displayName'].rsplit('-', 1)[-1].strip() == ver:
+        if display_ver(f) == ver:
             return f['id']
-    have = sorted({f['displayName'].rsplit('-', 1)[-1].strip() for f in d['data']})
+    have = sorted({display_ver(f) for f in d['data']})
     sys.exit('❌ CurseForge 上找不到 整合包 %s\n   最近 50 个文件里有: %s'
              % (ver, ' '.join(have)))
 

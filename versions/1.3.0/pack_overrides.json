@@ -6,6 +6,48 @@
     "value": "在这个整合包中，你不能直接创建玩家团队！\n%s",
     "why": "1.3.0 的英文原文从「…directly!」变成「…directly!\\n%s」，多了一个参数用来接整合包给出的替代做法。公共树那份不能带 %s——1.2.0 的调用方不传参，带了会让 TranslatableContents 抛 TranslatableFormatException；不带又会让 1.3.0 上那段说明整个丢掉。所以只在这一版覆盖。"
    }
+  },
+  "eternal_starlight": {
+   "book.eternal_starlight.nocturnal_millet": {
+    "value": "乌黍是一种生于星光维度的作物，其种子隐于以太河畔的石英硫块中。\n乌黍种子可播种在泥土、耕地或蒙尘砂砾之上。待茎秆长成，其顶端便会自然抽穗。\n待到穗粒饱满成熟，与其交互或将其破坏即可获得乌黍。采收后茎秆仍会保留，但亦有小概率就此枯萎，枯萎的乌黍会持续破坏周遭其它种类的作物。若茎秆失去生机，施以骨粉即可使其复苏。\n若将乌黍植于蒙尘砂砾，并在茎秆上施用骨粉，整株作物将陷入遗忘态。处于此状态的穗不再产出寻常乌黍，而是凝结为遗忘乌黍。遗忘态的植株会夺取周遭其它种类的作物的生命力以加速自身成熟。",
+    "why": "1.3.0 去掉了「穗只能交互收获」的限制：第三段英文从 interacting with them 改成 interacting with or destroying them，第四段末尾那两句「异常坚韧／蛮力破坏一无所获」整个删了。1.2.0 仍是旧行为，公共树那份照旧。"
+   }
+  },
+  "artifacts": {
+   "artifacts.config.client.useModdedMimicTextures.description": {
+    "value": "宝箱怪是否使用Quark提供的箱子纹理",
+    "why": "1.3.0 的 artifacts 13.2.3 不再读 Lootr 的纹理，英文从「Lootr or Quark」改成「Quark」。1.2.0 的 13.2.1 仍支持 Lootr，公共树那份照旧写两个。"
+   }
+  },
+  "integratedterminals": {
+   "gui.integratedterminals.terminal_storage.crafting.filter": {
+    "value": "合成过滤与排序",
+    "why": "1.3.0 给这个框加了排序，英文从 Crafting filter 改成 Crafting filter and order。1.2.0 没有排序，写上去就是描述不存在的功能。"
+   },
+   "gui.integratedterminals.terminal_storage.crafting.filter.info": {
+    "value": "按已存储或可合成的材料筛选与排序",
+    "why": "同上，英文从 Filter by… 改成 Filter and order by…。"
+   },
+   "gui.integratedterminals.terminal_storage.crafting.filter.type.all": {
+    "value": "§o两者都显示：可合成的排在后面",
+    "why": "同上，英文从 §oBoth 改成 §oBoth: craftable last，这一档现在还决定排序。"
+   }
+  },
+  "jei": {
+   "jei.tooltip.bookmarks.tooltips.usage": {
+    "value": "[按住“%s”查看配方细节]",
+    "why": "1.3.0 的 JEI 把这个操作从「按一下」改成「按住」，英文从 [Press \"%s\" to show details] 改成 [Hold \"%s\" for recipe details]。jar 自带的 zh_cn 没跟上自己的英文，仍是旧写法；照旧写会让玩家按一下以为坏了。1.2.0 的 JEI 仍是按一下。"
+   },
+   "jei.tooltip.recipe.tag": {
+    "value": "%s 标签：",
+    "why": "1.3.0 的英文从 Accepts Tag: %s 改成 %s Tag:，参数挪到了句首。1.2.0 仍是旧结构。"
+   }
+  },
+  "moonlight": {
+   "gui.moonlight.config.discover_title": {
+    "value": "发现模组",
+    "why": "1.3.0 的 moonlight 把这个标题从「More Mods by Supplementaries Team」改成「Discover Mods」，不再特指某个团队。1.2.0 仍是旧标题。"
+   }
   }
  }
 }

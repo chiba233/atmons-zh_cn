@@ -273,48 +273,9 @@ def _filename_in_upstream_chapters(rule):
     if not hit:
         yield 'glob %r 一个文件都没命中（规则失效了，比不加还危险）' % g
         return
-    known = {p.name for p in hit}
-    reg, err = _absent_chapters(TREE.name, known)
-    if err:
-        yield err
-        return
     for p in hit:
-        if p.name in names:
-            if p.name in reg:
-                yield ('%s 登记在 versions/%s/absent_chapters.json 里说上游没有，'
-                       '实际上游有这个章节——登记过期了，删掉这一条'
-                       % (rel(p), TREE.name))
-            continue
-        if p.name in reg:
-            continue
-        yield msg.format(path=rel(p))
-
-
-def _absent_chapters(version, known):
-    """读该版的「上游没有这个章节」登记表，返回 (已登记的文件名集合, 报错或 None)。
-
-    上游在某一版拆了或删了章节，而别的在册版本还有它。删源文件会把还用得上的
-    老版本一起删掉，所以逐条登记。两头都 fail-closed：登记了但上游其实有 → 红；
-    没登记又对不上 → 红（原行为一个字没松）。
-    """
-    p = ROOT / 'versions' / version / 'absent_chapters.json'
-    if not p.is_file():
-        return set(), None
-    try:
-        doc = json.loads(p.read_text(encoding='utf-8'))
-    except Exception as e:
-        return set(), '%s 解析失败：%s' % (rel(p), e)
-    out = set()
-    for name, ent in (doc.get('chapters') or {}).items():
-        if name not in known:
-            return set(), ('%s 登记了 %s，但 src/ 下没有这份译文——'
-                           '登记错文件与没登记是同一回事' % (rel(p), name))
-        if not str((ent or {}).get('why') or '').strip():
-            return set(), ('%s 里 %s 没写 why。登记一条，必须写清上游在这一版'
-                           '把它改成了什么样——否则下一版没人知道该不该撤掉登记'
-                           % (rel(p), name))
-        out.add(name)
-    return out, None
+        if p.name not in names:
+            yield msg.format(path=rel(p))
 
 
 @checker('filename_prefix')

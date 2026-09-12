@@ -60,7 +60,6 @@ requirements.lock               Pillow 的全平台 wheel 哈希（装的时候�
 versions/<版本>/                手写的版本专属层（任务书覆盖、默认资源包顺序）
 versions/<版本>/overrides.sha256 该版官方 overrides 的整棵树指纹（CI 缓存键 + 门控）
 versions/<版本>/unobtainable.json 该版 manifest 里已从 CurseForge 消失的 jar（必须逐个登记）
-versions/<版本>/absent_chapters.json 上游在该版没有的任务书章节名（必须逐个登记并写 why）
 versions/db/<版本>/             该版的核验数据库与英文底本
 versions/db/<版本>/jars.json    该版每个 jar 的 sha256 + 不可变的 CurseForge fileID
 versions/db/<版本>/keybinds.json 该版全部按键分类与注册名（含拼名字用的字符串原子）

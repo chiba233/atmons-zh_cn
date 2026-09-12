@@ -13,30 +13,30 @@ buttons = 20
 #
 # ══ 打包之后的实测量 ═══════════════════════════════════════════════════
 #
-# ⚠️ 本版**尚未实测**：下面这组暂取同一次 CI 里 1.2.0 的实测行（Build run
-#    34671876869，commit 80954b4），因为 1.3.0 的 verify_dist 还没跑到就缺文件红了。
-#    这是为了让 CI 把 1.3.0 的 got 打出来，不是最终值。拿到真值后必须逐项改到实测，
-#    并在下面的改动记录里写清每一项是上调还是下调。
+# 每一项后面注了来源。[CI] = CI 的 Build 实测打印。
 #
-client_lang_files  =    307   # [暂取 1.2.0 实测]
-client_lang_keys   = 108573   # [暂取 1.2.0 实测]
-client_banners     =    204   # [暂取 1.2.0 实测]
-client_kubejs_banners = 204   # [暂取 1.2.0 实测]
-client_buttons     =     20   # [暂取 1.2.0 实测]
-client_vp_modules  =    157   # [暂取 1.2.0 实测]
-client_quest_delta =    238   # [暂取 1.2.0 实测]
-client_gui_files   =     24   # [暂取 1.2.0 实测]
-client_book_files  =   1097   # [暂取 1.2.0 实测]
+client_lang_files  =    307   # [CI]
+client_lang_keys   = 108573   # [CI]
+client_banners     =    204   # [CI]
+client_kubejs_banners = 204   # [CI]
+client_buttons     =     20   # [CI]
+client_vp_modules  =    157   # [CI]
+client_quest_delta =    239   # [CI] 比 1.2.0 多一份 chapters/hanhua_additions.snbt
+client_gui_files   =     24   # [CI]
+client_book_files  =   1097   # [CI]
 #
-server_vp_modules  =     10   # [暂取 1.2.0 实测]
-server_quest_delta =    238   # [暂取 1.2.0 实测]
+server_vp_modules  =     10   # [CI]
+server_quest_delta =    239   # [CI] 同上
 #
 # ── 改动记录 ────────────────────────────────────────────────────────────
 #
-# 2026-09-12  建档。1.3.0 首次入册，本组暂取同一次 CI 里 1.2.0 的实测行：
+# 2026-09-12  建档并按本版实测改定，取 Build run 34672098441（commit fb52423）：
 #
 #   ✅ client  banners=204 book_files=1097 buttons=20 gui_files=24
 #              kubejs_banners=204 lang_files=307 lang_keys=108573
-#              quest_delta=238 vp_modules=157
+#              quest_delta=239 vp_modules=157
+#   ✅ server  quest_delta=239 vp_modules=10
 #
-#             1.3.0 的真值待下一次 Build 打印后逐项改定。
+#             与 1.2.0 的实测只差一项：quest_delta 238 → 239。多出来的那一份是
+#             chapters/hanhua_additions.snbt——1.3.0 上游删掉的 21 个任务，它们的
+#             40 个键在上游任何章节里都没有归宿，按设计落进这一份。

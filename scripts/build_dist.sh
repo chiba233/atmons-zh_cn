@@ -89,7 +89,7 @@ if [ ! -d "$UPROOT/kubejs" ]; then
   echo "  取整合包 ${MC} 的官方文件（只要 overrides，不下 jar）"
   python3 scripts/fetch_pack.py "$MC" "$UPROOT" --no-jars
 fi
-python3 scripts/gen_upstream_patches.py "$UPROOT" "$TREE"
+python3 scripts/gen_upstream_patches.py "$UPROOT" "$TREE" "$MC"
 # 章节标题图必须**同时**放进 kubejs 那棵树，只放资源包不生效。
 #
 # ATM 把 questpics 注入在 kubejs/assets/atm/textures/questpics/，而 KubeJS 的

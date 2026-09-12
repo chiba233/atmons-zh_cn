@@ -1020,6 +1020,131 @@ def _m40(tmp, tree):
     return 'relics-relic-is-yiwu' not in (r.stdout + r.stderr)
 
 
+# ── 「该版不适用」的上游改动登记 ────────────────────────────────────────
+#
+# `gen_upstream_patches.py` 找不到原文就退出，这条是整套结构的支点。
+# `versions/<版本>/unpatchable.json` 是这个支点上**唯一**的口子：上游只在某一版
+# 改了那段原文（ATM 8.0 重做了三章任务书、重写了公告清单），而别的版本还在，
+# 删映射会把老版本一起删掉。
+#
+# 口子只要开一次，就得有反例证明它没被开大：登记过期（原文又回来了）、序号越界、
+# 没写理由、登记了一个根本不存在的文件——四种写歪的登记都必须红，
+# 否则这个文件就成了「往里加一行就能让任何构建变绿」的开关。
+#
+# 夹具是现造的最小仓库：一个脚本副本 + 一份映射 + 一份官方文件，跟真仓库无关。
+def _up_fixture(tmp, official, edits, reg=None, name='9.9', vedits=None, vsrc='demo.txt'):
+    r = tmp / 'uprepo'
+    (r / 'scripts').mkdir(parents=True, exist_ok=True)
+    shutil.copy(ROOT / 'scripts' / 'gen_upstream_patches.py', r / 'scripts')
+    d = r / 'src' / 'upstream' / 'demo'
+    d.mkdir(parents=True, exist_ok=True)
+    (d / 'demo.txt.json').write_text(
+        json.dumps({'src': 'demo.txt', 'edits': edits}, ensure_ascii=False),
+        encoding='utf-8')
+    (r / 'pack').mkdir(exist_ok=True)
+    (r / 'pack' / 'demo.txt').write_text(official, encoding='utf-8')
+    if reg is not None:
+        v = r / 'versions' / name
+        v.mkdir(parents=True, exist_ok=True)
+        (v / 'unpatchable.json').write_text(json.dumps(reg, ensure_ascii=False),
+                                            encoding='utf-8')
+    if vedits is not None:
+        vd = r / 'versions' / name / 'upstream'
+        vd.mkdir(parents=True, exist_ok=True)
+        (vd / 'demo.json').write_text(
+            json.dumps({'src': vsrc, 'edits': vedits}, ensure_ascii=False),
+            encoding='utf-8')
+    return r
+
+
+def _up_run(r, version='9.9'):
+    argv = [sys.executable, str(r / 'scripts' / 'gen_upstream_patches.py'),
+            str(r / 'pack'), str(r / 'out')]
+    if version is not None:
+        argv.append(version)
+    x = subprocess.run(argv, capture_output=True, text=True, cwd=r)
+    return x.returncode, x.stdout + x.stderr
+
+
+_UP_EDIT = [{'find': ['原文\n'], 'replace': ['译文\n']}]
+_UP_WHY = {'edits': {'demo.txt': {'which': 'all', 'why': '上游在这一版把这行删了'}}}
+
+
+@missing_case('上游删了这段、又没登记 → 必须红（原来的行为，一个字没松）')
+def _m41(tmp, tree):
+    rc, out = _up_run(_up_fixture(tmp, '别的行\n', _UP_EDIT))
+    return rc != 0 and '在官方文件里找不到' in out
+
+
+@missing_case('登记过了 → 绿，且产物就是官方原文（不是「旧上游 + 我们的改动」）')
+def _m42(tmp, tree):
+    r = _up_fixture(tmp, '别的行\n', _UP_EDIT, _UP_WHY)
+    rc, out = _up_run(r)
+    return (rc == 0 and '不出货 1 处' in out
+            and (r / 'out' / 'demo.txt').read_text(encoding='utf-8') == '别的行\n')
+
+
+@missing_case('登记了、原文却还在 → 必须红（登记过期，上游又把它加回来了）')
+def _m43(tmp, tree):
+    rc, out = _up_run(_up_fixture(tmp, '原文\n', _UP_EDIT, _UP_WHY))
+    return rc != 0 and '登记已经过期' in out
+
+
+@missing_case('登记的序号越界 → 必须红（以为登记上了，其实一条都没登记上）')
+def _m44(tmp, tree):
+    reg = {'edits': {'demo.txt': {'which': [2], 'why': '越界'}}}
+    rc, out = _up_run(_up_fixture(tmp, '别的行\n', _UP_EDIT, reg))
+    return rc != 0 and 'which 不对' in out
+
+
+@missing_case('登记没写 why → 必须红（下一版没人知道该不该撤掉它）')
+def _m45(tmp, tree):
+    reg = {'edits': {'demo.txt': {'which': 'all', 'why': '   '}}}
+    rc, out = _up_run(_up_fixture(tmp, '别的行\n', _UP_EDIT, reg))
+    return rc != 0 and '没写 why' in out
+
+
+@missing_case('登记了一个 src/upstream 下没人改的文件 → 必须红（登记写错了地方）')
+def _m46(tmp, tree):
+    reg = {'edits': {'别的.txt': {'which': 'all', 'why': '写错路径'}}}
+    rc, out = _up_run(_up_fixture(tmp, '别的行\n', _UP_EDIT, reg))
+    return rc != 0 and '没有哪份映射改这个文件' in out
+
+
+@missing_case('不传版本 → 必须红（少个参数就等于把整张登记表悄悄作废）')
+def _m47(tmp, tree):
+    rc, out = _up_run(_up_fixture(tmp, '别的行\n', _UP_EDIT, _UP_WHY), version=None)
+    return rc != 0 and 'unpatchable' in out
+
+
+# 该版专属映射：登记只能「这一版不改」，改成了另一副样子还想译，就得单给一份。
+# 它跟通用映射叠加在**同一份文本**上，所以三件事都要撞：叠加真的发生了、
+# 找不到原文照样红、改一个没人管的文件也红（那种映射永远轮不到执行）。
+@missing_case('该版专属映射与通用映射叠加 → 两处都要落在同一份产物里')
+def _m48(tmp, tree):
+    r = _up_fixture(tmp, '原文\n该版专属\n', _UP_EDIT, None,
+                    vedits=[{'find': ['该版专属\n'], 'replace': ['该版译文\n']}])
+    rc, out = _up_run(r)
+    return (rc == 0 and '该版专属改动 1 处' in out
+            and (r / 'out' / 'demo.txt').read_text(encoding='utf-8') == '译文\n该版译文\n')
+
+
+@missing_case('该版专属映射找不到原文 → 必须红（不因为「是该版专属」就放松）')
+def _m49(tmp, tree):
+    r = _up_fixture(tmp, '原文\n', _UP_EDIT, None,
+                    vedits=[{'find': ['没有这一行\n'], 'replace': ['x\n']}])
+    rc, out = _up_run(r)
+    return rc != 0 and '在官方文件里找不到' in out
+
+
+@missing_case('该版专属映射改的文件没有通用映射 → 必须红（它永远不会被套用）')
+def _m50(tmp, tree):
+    r = _up_fixture(tmp, '原文\n', _UP_EDIT, None,
+                    vedits=[{'find': ['原文\n'], 'replace': ['x\n']}], vsrc='别的.txt')
+    rc, out = _up_run(r)
+    return rc != 0 and '永远不会被套用' in out
+
+
 def run_missing(name, fn):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)

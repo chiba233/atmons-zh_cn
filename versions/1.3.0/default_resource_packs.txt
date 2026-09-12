@@ -1,0 +1,39 @@
+# 本文件列出 All the Mons 1.3.0 在**全新实例**上 options.txt 里 resourcePacks 那一行
+# 的内容，一行一项、顺序照抄。安装器靠它决定汉化包插在第几位。
+#
+# 注释行与空行会被 build_dist.sh 剔掉，所以下面一项都没有 = 「尚未实测」。
+# 此时安装器**不伪造** resourcePacks 行，改走两步流程：第一次只写 lang:zh_cn，
+# 提示玩家先启动一次游戏、退出后再运行一次安装器——那一次会把汉化包挪到列表最后
+# 一位，必定正确。伪造一个不全的列表反而会让汉化包被压在内置包底下、还没有任何提示。
+#
+# ── 实测来源 ──────────────────────────────────────────────────────────────
+#
+# 1.3.0 实例的 options.txt（29263 字节、596 行）里 resourcePacks 那一行，逐项照抄。
+#
+# 取值时看的是**写全了的那份**：`resourcePacks:[]` 是游戏还没把这一行写出来的中间态，
+# 空列表不能采信。判据是文件写全没有，不是文件在不在。
+#
+# 整合包自带的 config/global_packs.toml 写着
+#
+#     [resourcepacks]
+#     required = ["resourcepacks/", "global_packs/required_resources/"]
+#
+# globalpacks 把整个 resourcepacks/ 目录当必需资源包强制启用，必需包不进玩家的
+# 选择列表、也就不写进 options.txt。所以玩家自己放的 zip「列表里没有」不等于「漏了」。
+# （顺带：这条 required 也会强制启用我们的汉化包 zip。）
+#
+# 别按 `globalpacks` 去 grep 配置——文件名是 `global_packs.toml`；也别拿空的
+# `global_packs/` 目录当「这模组没干活」的判据，那只是 required_resources 的挂载点。
+#
+# 与 1.2.0 的差别：多了 mod/eternal_starlight:resourcepacks/starlight_3d_mace。
+modularbees:dynamic_assets
+vanilla
+mod_resources
+moonlight:merged_pack
+mod/eternal_starlight:resourcepacks/starlight_3d_mace
+mod/dyenamicsandfriends:compat_packs/productivemetalworks/
+mod/dyenamicsandfriends:compat_packs/connectedglass/
+mod/dyenamicsandfriends:compat_packs/luminax/
+mod/dyenamicsandfriends:compat_packs/cookingforblockheads/
+mod/dyenamicsandfriends:compat_packs/botanypots/
+mod/dyenamicsandfriends:compat_packs/chromacarvings/

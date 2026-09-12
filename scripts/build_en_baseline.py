@@ -34,6 +34,7 @@ VaultPatcher 不在这里——它的底本是字节码里的字符串，由
 import hashlib
 import io
 import json
+import os
 import re
 import sys
 import zipfile
@@ -161,6 +162,57 @@ def quest_en(ov_dir):
     return src
 
 
+def quest_baseline(ov_dir):
+    """只算任务书底本：本包 delta 覆盖的每个键，取该版官方 en_us 的对应英文。"""
+    qsrc = quest_en(ov_dir)
+    out = {}
+    for f in sorted(QDELTA.rglob('*.snbt')):
+        for k in snbt_pairs(f.read_text(encoding='utf-8'), str(f)):
+            if k in qsrc:
+                out[k] = qsrc[k]
+    return out
+
+
+def dump_quest(ver, base):
+    p = ROOT / 'versions' / 'db' / ver / 'quest_baseline.json'
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(base, ensure_ascii=False, indent=0, sort_keys=True) + '\n',
+                 encoding='utf-8')
+    return p
+
+
+def check_quest(ver, ov_dir, write):
+    """任务书底本必须与「拿现在的取值器、对着该版钉的官方文件」算出来的一致。
+
+    基线本身少了键的时候，靠它的 `check_en_drift.py` 不会喊，只会安静地少看——
+    所以必须有人拿现值来对一遍。
+
+    `write=True` 时把重算的结果写回去（给 CI 那一步产 artifact 用），照旧红着等人提交：
+    基线只由 CI 生成、由人过目，不许拿开发机的下载入库。
+    """
+    now = quest_baseline(ov_dir)
+    f = ROOT / 'versions' / 'db' / ver / 'quest_baseline.json'
+    old = json.loads(f.read_text(encoding='utf-8')) if f.is_file() else None
+    if old == now:
+        print('  ✅ %s 的任务书底本与现在算出来的一致（%d 键）' % (ver, len(now)))
+        return True
+    if old is None:
+        print('  ⚠️ %s 还没有任务书底本' % ver)
+    else:
+        add = sorted(set(now) - set(old))
+        gone = sorted(set(old) - set(now))
+        diff = [k for k in set(old) & set(now) if old[k] != now[k]]
+        print('  ❌ %s 的任务书底本过期：现值 %d 键，入库的 %d 键'
+              '（多 %d、少 %d、内容不同 %d）'
+              % (ver, len(now), len(old), len(add), len(gone), len(diff)))
+        for k in (add[:3] + gone[:3] + diff[:3]):
+            print('       %s' % k)
+    if write:
+        dump_quest(ver, now)
+        print('     已重算 versions/db/%s/quest_baseline.json，人工核对后提交' % ver)
+    return False
+
+
 def main(ver, mods_dir, ov_dir):
     en = mod_en(mods_dir)
     base = {'lang': {}, 'quest': {}}
@@ -216,6 +268,11 @@ def main(ver, mods_dir, ov_dir):
 
 
 if __name__ == '__main__':
+    if len(sys.argv) > 1 and sys.argv[1] == '--check-quest':
+        if len(sys.argv) != 4:
+            sys.exit('用法: %s --check-quest <版本> <该版官方文件目录>' % sys.argv[0])
+        sys.exit(0 if check_quest(sys.argv[2], sys.argv[3],
+                                  os.environ.get('BASELINE_WRITE') == '1') else 1)
     if len(sys.argv) < 4:
         sys.exit(__doc__)
     main(sys.argv[1], sys.argv[2], sys.argv[3])

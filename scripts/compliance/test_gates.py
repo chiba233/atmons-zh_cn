@@ -1028,6 +1028,110 @@ def run_missing(name, fn):
     return ok
 
 
+# ── 「上游这一版没有这个章节」的按版本登记 ────────────────────────────────
+#
+# 上游在某一版拆了或删了章节（1.3.0 把 achapter_2r_6the_atm_star 拆成 creative，
+# 另外 21 个任务整个删掉），而别的在册版本还有它。删源文件会把还用得上的老版本
+# 一起删掉，所以走 versions/<版本>/absent_chapters.json 逐条登记。
+# 登记表最容易的失效方式是「以为登记上了、其实没有」，下面每一种都撞一遍。
+AC = []
+
+
+def ac_case(name):
+    def deco(fn):
+        AC.append((name, fn))
+        return fn
+    return deco
+
+
+RULE_AC = 'quest-lang-filename-matches-upstream'
+ZH = 'src/config/ftbquests/quests/lang/zh_cn/chapters'
+
+
+def _ac_fixture(tmp, registry=None, ghost=True):
+    """搭一棵按版本命名的树，上游章节名与 src/ 里那批一一对应，另加一个 ghost。"""
+    ver = '9.9.9'
+    shutil.copytree(ROOT / 'src', tmp / 'src')
+    shutil.copytree(ROOT / 'scripts', tmp / 'scripts')
+    if (ROOT / 'versions' / 'db').is_dir():
+        shutil.copytree(ROOT / 'versions' / 'db', tmp / 'versions' / 'db')
+    tree = tmp / 'build' / 'v' / ver
+    tree.mkdir(parents=True)
+    up = tmp / 'build' / 'packsrc' / ver / 'config/ftbquests/quests/lang/en_us/chapters'
+    up.mkdir(parents=True)
+    for q in sorted((tmp / ZH).glob('*.snbt')):
+        (up / q.name).write_text('{\n}\n', encoding='utf-8')
+    if ghost:
+        (tmp / ZH / 'ghost.snbt').write_text('{\n\tquest.X.title: "x"\n}\n', encoding='utf-8')
+    if registry is not None:
+        d = tmp / 'versions' / ver
+        d.mkdir(parents=True, exist_ok=True)
+        (d / 'absent_chapters.json').write_text(
+            json.dumps(registry, ensure_ascii=False), encoding='utf-8')
+    return tree
+
+
+def _ac_run(tmp, **kw):
+    tree = _ac_fixture(tmp, **kw)
+    env = dict(os.environ)
+    env.pop('ATM_PACK_ROOT', None)
+    r = subprocess.run([sys.executable, str(tmp / 'scripts' / 'check.py'), str(tree)],
+                       capture_output=True, text=True, cwd=tmp, env=env)
+    return r.returncode, r.stdout + r.stderr
+
+
+@ac_case('没登记、上游没有这个章节 → 必须红（原行为一个字没松）')
+def _a1(tmp):
+    rc, out = _ac_run(tmp)
+    return rc != 0 and RULE_AC in out and 'ghost.snbt' in out
+
+
+@ac_case('登记了、上游确实没有 → 这一条放行')
+def _a2(tmp):
+    rc, out = _ac_run(tmp, registry={'chapters': {'ghost.snbt': {'why': '上游这一版删了'}}})
+    return not any(RULE_AC in l and 'ghost.snbt' in l for l in out.splitlines())
+
+
+@ac_case('登记了、上游其实还有 → 必须红（登记过期）')
+def _a3(tmp):
+    name = sorted(p.name for p in (ROOT / ZH).glob('*.snbt'))[0]
+    rc, out = _ac_run(tmp, ghost=False,
+                      registry={'chapters': {name: {'why': '上游这一版删了'}}})
+    return rc != 0 and '登记过期' in out
+
+
+@ac_case('登记了一个 src/ 下没有的文件名 → 必须红（登记错文件＝没登记）')
+def _a4(tmp):
+    rc, out = _ac_run(tmp, ghost=False,
+                      registry={'chapters': {'不存在.snbt': {'why': '随便写的'}}})
+    return rc != 0 and '登记错文件' in out
+
+
+@ac_case('登记了但 why 是空的 → 必须红')
+def _a5(tmp):
+    rc, out = _ac_run(tmp, registry={'chapters': {'ghost.snbt': {'why': '   '}}})
+    return rc != 0 and '没写 why' in out
+
+
+@ac_case('登记表是坏 JSON → 必须红，不许当成「没登记」放过')
+def _a6(tmp):
+    tree = _ac_fixture(tmp)
+    (tmp / 'versions' / '9.9.9').mkdir(parents=True, exist_ok=True)
+    (tmp / 'versions' / '9.9.9' / 'absent_chapters.json').write_text('{坏', encoding='utf-8')
+    env = dict(os.environ)
+    env.pop('ATM_PACK_ROOT', None)
+    r = subprocess.run([sys.executable, str(tmp / 'scripts' / 'check.py'), str(tree)],
+                       capture_output=True, text=True, cwd=tmp, env=env)
+    return r.returncode != 0 and '解析失败' in (r.stdout + r.stderr)
+
+
+def run_ac(name, fn):
+    with tempfile.TemporaryDirectory() as tmp:
+        ok = fn(Path(tmp))
+    print(('✅' if ok else '❌') + ' %s' % name)
+    return ok
+
+
 def main():
     print('闸的反例测试：每条都复刻一次真实事故，验它真的会红\n')
     ok = sum(run_case(*c) for c in CASES)
@@ -1035,7 +1139,10 @@ def main():
     print('\n前提缺失时不许静默放过：\n')
     ok2 = sum(run_missing(*m) for m in MISSING)
     print('\n%d/%d 条' % (ok2, len(MISSING)))
-    if ok != len(CASES) or ok2 != len(MISSING):
+    print('\n「上游这一版没有这个章节」的登记表：\n')
+    ok3 = sum(run_ac(*a) for a in AC)
+    print('\n%d/%d 条' % (ok3, len(AC)))
+    if ok != len(CASES) or ok2 != len(MISSING) or ok3 != len(AC):
         print('有闸没拦住反例——它现在是假闸，修好之前不许发版。')
         return 1
     return 0

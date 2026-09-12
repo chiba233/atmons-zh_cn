@@ -1,5 +1,14 @@
 [
   {
+    "id": "quest-lang-filename-matches-upstream",
+    "kind": "filename_in_upstream_chapters",
+    "glob": "src/config/ftbquests/quests/lang/zh_cn/**/*.snbt",
+    "upstream": "config/ftbquests/quests/lang/en_us",
+    "why": "本包的中文任务书按**上游章节名**整份出货（整合包自带十种语言、没有 zh_cn，底本取 en_us，见 gen_quest_lang_patches.py）。文件名对不上上游任何一个章节，那份译文就永远落不到玩家手里，而且不报错。这条顶替原先的 quest-delta-filename-prefix：那条要求 zz_hanhua_ 前缀，前提是「我们只写 delta、垫在上游中文之上」，本包没有那一层；但它要防的事故是同一个——文件名认错，译文静默不生效（历史上只有 2 个键的 aether.snbt 盖掉了上游同名文件的 167 个键）。",
+    "message": "任务书译文 {path} 的文件名在上游 en_us 章节里找不到——这份译文永远不会生效",
+    "scope": "repo"
+  },
+  {
     "id": "quest-delta-blocks-parse",
     "kind": "snbt_blocks_parse",
     "glob": "config/ftbquests/quests/lang/zh_cn/**/*.snbt",

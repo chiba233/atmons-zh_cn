@@ -29,9 +29,9 @@
 	quest.1E40ACF3E69A4100.quest_desc: ["你需要喝掉它吗？我不知道，它好像就待在那儿就能起作用……\\n\\n装备&6解毒容器&r后，负面效果（如凋零或中毒）的持续时间会缩短！在面对女巫或凋灵骷髅时非常有用。"]
 	quest.1E40ACF3E69A4100.quest_subtitle: "腰带"
 	quest.1E40ACF3E69A4100.title: "&6解毒容器&r"
-	quest.2215FB0777D7029D.quest_desc: ["尖刺、防滑钉、冰爪，管它叫什么！\\n\\n&7坚定靴&r让你站得更稳。你不会因攻击而被击退，也不会再在冰上打滑。"]
+	quest.2215FB0777D7029D.quest_desc: ["尖刺、防滑钉、冰爪，管它叫什么！\\n\\n&7牢固鞋钉&r让你站得更稳。你不会因攻击而被击退，也不会再在冰上打滑。"]
 	quest.2215FB0777D7029D.quest_subtitle: "靴子"
-	quest.2215FB0777D7029D.title: "&7坚定靴&r"
+	quest.2215FB0777D7029D.title: "&7牢固鞋钉&r"
 	quest.221C9EDA651144BA.quest_desc: ["什么&9水&r？\\n\\n装备&3下沉护符&r后，你在&9水&r中移动如同在空气中一样！不过还是不能在水下呼吸……"]
 	quest.221C9EDA651144BA.quest_subtitle: "项链"
 	quest.221C9EDA651144BA.title: "&3下沉护符&r"
@@ -59,7 +59,7 @@
 	quest.3705D303CF423804.quest_desc: ["这是&a狂野之爪&r的另一面，它们能增加你佩戴时造成的伤害。"]
 	quest.3705D303CF423804.quest_subtitle: "手部"
 	quest.3705D303CF423804.title: "&e强力手套&r"
-	quest.3B3BD39BA02DCA13.quest_desc: ["装备&6袖珍活塞&r后，你的攻击范围会大幅提升，能从更远处打中敌人！\\n\\n我在想，哪个会赢，&6袖珍活塞&r还是&7坚定靴&r？"]
+	quest.3B3BD39BA02DCA13.quest_desc: ["装备&6袖珍活塞&r后，你的攻击范围会大幅提升，能从更远处打中敌人！\\n\\n我在想，哪个会赢，&6袖珍活塞&r还是&7牢固鞋钉&r？"]
 	quest.3B3BD39BA02DCA13.quest_subtitle: "手部"
 	quest.3B3BD39BA02DCA13.title: "&6袖珍活塞&r"
 	quest.3E0643EA9183CDAE.quest_desc: ["'是他的帽子，蟹老板！他是第一名！'\\n\\n功能和普通的&6饮水帽&r完全一样，只是看起来酷多了！"]
@@ -100,9 +100,9 @@
 	quest.589F1D502F680075.title: "&d氦气火烈鸟&r"
 	quest.5CE44C58A470E48E.quest_desc: ["&l&3奇异饰品&r是一个很棒的模组，它添加了&l&3神器&r，能让你的Minecraft体验更轻松、更有趣！\\n\\n所有&l&3神器&r都可以通过探索、考古或击杀宝箱怪获得！\\n\\n宝箱怪在地下营地中被发现，它们看起来像普通的箱子！但一旦你靠得太近，它们就会发起攻击！"]
 	quest.5CE44C58A470E48E.title: "&l&3奇异饰品"
-	quest.5DE7C4FD5FA29236.quest_desc: ["每当你要击杀末影人时它却传送逃跑，这不让人恼火吗？不过你不是讨厌它，而是羡慕！你生气是因为嫉妒！你想要这种能力！\\n\\n有了&5紫颂腰带&r你就能得到它！当你受到致命伤害时会被传送走。"]
+	quest.5DE7C4FD5FA29236.quest_desc: ["每当你要击杀末影人时它却传送逃跑，这不让人恼火吗？不过你不是讨厌它，而是羡慕！你生气是因为嫉妒！你想要这种能力！\\n\\n有了&5紫颂图腾&r你就能得到它！当你受到致命伤害时会被传送走。"]
 	quest.5DE7C4FD5FA29236.quest_subtitle: "腰带"
-	quest.5DE7C4FD5FA29236.title: "&5紫颂腰带&r"
+	quest.5DE7C4FD5FA29236.title: "&5紫颂图腾&r"
 	quest.5EB7CE3A1DCD3E9B.quest_desc: ["这是个&c磁铁&r。"]
 	quest.5EB7CE3A1DCD3E9B.quest_subtitle: "腰带"
 	quest.5EB7CE3A1DCD3E9B.title: "&c强力磁铁&r"

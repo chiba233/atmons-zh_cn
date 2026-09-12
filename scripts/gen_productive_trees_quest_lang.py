@@ -153,6 +153,10 @@ def delta_scalars(path):
         key, raw = m.groups()
         try:
             value = json.loads(raw)
+        except ValueError:
+            # SNBT 允许 JSON 不认的转义（本包里有 \& 与 \)）。这里只拿键判归属，
+            # 值一个字都不参与，所以解不了就原样留着，别因此把整份文件判成坏的。
+            value = raw
         except Exception as e:                                   # noqa: BLE001
             raise DataError('%s 第 %d 行的 %s 解析失败：%s' % (path, no, key, e)) from e
         if isinstance(value, str):

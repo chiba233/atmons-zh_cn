@@ -198,7 +198,7 @@
   "artifacts.config.items.thorn_pendant.cooldown.description": "荆棘护符在生效后的冷却时间（秒）",
   "artifacts.config.items.thorn_pendant.maxDamage.description": "荆棘护符激活时造成的最大伤害",
   "artifacts.config.items.thorn_pendant.maxDamage.title": "最大伤害",
-  "artifacts.config.items.thorn_pendant.minDamage.description": "荆棘护符激活时造成的最大伤害",
+  "artifacts.config.items.thorn_pendant.minDamage.description": "荆棘护符激活时造成的最小伤害",
   "artifacts.config.items.thorn_pendant.minDamage.title": "最小伤害",
   "artifacts.config.items.thorn_pendant.strikeChance.description": "荆棘护符反伤的概率",
   "artifacts.config.items.thorn_pendant.strikeChance.title": "反伤概率",

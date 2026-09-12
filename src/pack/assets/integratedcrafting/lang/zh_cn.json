@@ -111,5 +111,20 @@
   "info_book.integratedcrafting.tutorials.autocrafting_trigger.text6": "本节末尾的图示展示了一个完成本教程所需配置部件的示例。",
   "block.integratedcrafting.part_crafting_writer": "部件合成写入器",
   "block.integratedcrafting.part_interface_crafting": "部件接口合成",
-  "block.integratedcrafting.part_interface_crafting_attuned": "部件接口合成已校准"
+  "block.integratedcrafting.part_interface_crafting_attuned": "部件接口合成已校准",
+  "gui.integratedcrafting.partinterface.recipes.click_disable": "点击以禁用该配方",
+  "gui.integratedcrafting.partinterface.recipes.click_drag": "拖动以应用到多个配方",
+  "gui.integratedcrafting.partinterface.recipes.click_enable": "点击以启用该配方",
+  "gui.integratedcrafting.partinterface.recipes.disableall": "禁用",
+  "gui.integratedcrafting.partinterface.recipes.disableall.info": "禁用所有匹配搜索的配方",
+  "gui.integratedcrafting.partinterface.recipes.enableall": "启用",
+  "gui.integratedcrafting.partinterface.recipes.enableall.info": "启用所有匹配搜索的配方",
+  "gui.integratedcrafting.partinterface.recipes.inputs": "输入：",
+  "gui.integratedcrafting.partinterface.recipes.invert": "反选",
+  "gui.integratedcrafting.partinterface.recipes.invert.info": "反转所有匹配搜索的配方",
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes": "调谐配方",
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text1": "&l调谐合成接口&r会把目标机器的&o全部&r配方公开出去，交给网络的配方可能远超你的本意——光一个工作台就有好几百条。因此它的界面会把绑定机器的每一条配方排成产物图标网格，由你决定网络能用哪些。",
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text2": "带&2绿色边框&0的配方已公开给网络。点击一条会让它变成&4红色边框&0并置灰，也就是从网络中移除，新的合成作业不会再用它。再点一次就恢复。把鼠标悬停在配方上会显示它的产物、配方名和所需材料。",
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text3": "要一次改动大量配方，按住鼠标键在它们上面拖动。起点那条配方决定这次拖动是启用还是禁用，所以一个手势两种用法都有。",
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text4": "搜索框可以匹配配方名、模组名和配方 ID。&l启用&r、&l禁用&r和&l反选&r按钮作用于当前搜索匹配到的配方，成千上万条配方的机器正是靠这一点才用得下去：搜索 &ominecraft:&r 再按&l禁用&r，一次就能把所有原版配方藏起来。"
 }

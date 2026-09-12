@@ -294,5 +294,9 @@
   "tooltip.apokinetics.socketed_machine.header": "已镶嵌的宝石",
   "tooltip.apokinetics.socketed_machine.inactive": "在这台机器上不生效",
   "tooltip.apokinetics.wrench": "打开兼容 Create 机器上的神化动力镶孔。",
-  "tooltip.apokinetics.wrench.shift": "镶入机械宝石，调校速度、推力、范围、加热、制冷、流体、物流与动量。"
+  "tooltip.apokinetics.wrench.shift": "镶入机械宝石，调校速度、推力、范围、加热、制冷、流体、物流与动量。",
+  "message.apokinetics.donation.hidden": "本世界已不再显示 Apokinetics 的捐助信息。",
+  "message.apokinetics.donation.hide": "[ 不再显示 ]",
+  "message.apokinetics.donation.hide_hover": "在本世界隐藏这条捐助信息",
+  "message.apokinetics.donation.link_hover": "打开 Apokinetics 的捐助页面"
 }

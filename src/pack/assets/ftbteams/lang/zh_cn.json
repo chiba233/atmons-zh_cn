@@ -105,5 +105,10 @@
   "ftbteams.message.property_not_editable": "属性 %s 不可编辑！",
   "ftbteams.accept": "接受 ✔",
   "ftbteams.decline": "拒绝 ✘",
-  "ftbteams.click_show_info": "点击以显示队伍信息"
+  "ftbteams.click_show_info": "点击以显示队伍信息",
+  "ftbteams.config.server.limited_lives": "队伍生命数上限",
+  "ftbteams.config.server.limited_lives.tooltip": "大于 0 时启用队伍生命数限制：\n• 成员死亡会消耗一条队伍生命\n• 队伍生命耗尽后再有成员死亡，该成员会被踢出队伍\n• 队长死亡时会随机提拔一名成员接任（干事优先）\n• 生命耗尽的队伍无法再邀请新成员。",
+  "ftbteams.config.server.max_party_size": "队伍人数上限",
+  "ftbteams.config.server.max_party_size.tooltip": "大于 0 时，队伍最多只能有这么多名玩家。\n为 0 则不限制队伍人数。\n注意：改动此项时服务器上已存在的超额队伍可以按现有人数继续存在，但不能再邀请新成员。",
+  "ftbteams.party_full": "无法加入新玩家，你的队伍已满！人数上限为 %s 人"
 }

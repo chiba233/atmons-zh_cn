@@ -68,5 +68,10 @@
  "item.generatorgalore.obsidian_to_enchantment_upgrade": "黑曜石→魔咒升级",
  "item.generatorgalore.obsidian_to_ender_upgrade": "黑曜石→末影升级",
  "item.generatorgalore.obsidian_to_magmatic_upgrade": "黑曜石→岩浆升级",
- "itemGroup.generatorgalore": "发电机盛会"
+ "itemGroup.generatorgalore": "发电机盛会",
+ "generatorgalore.recipe.burn_rate": "燃烧速率：%smB/t",
+ "generatorgalore.recipe.burn_time": "燃烧时间：%s",
+ "generatorgalore.recipe.rate": "发电速率：%sFE/t",
+ "generatorgalore.recipe.total": "总计：%sFE",
+ "generatorgalore.recipe.total_bucket": "总计：%sFE/桶"
 }

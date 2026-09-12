@@ -237,5 +237,11 @@
   "tooltip.mega_showdown.zeraorite.tooltip": "§7让捷拉奥拉超级进化成超级捷拉奥拉",
   "tooltip.mega_showdown.zygardite.tooltip": "§7让基格尔德（完全体形态）超级进化成超级基格尔德",
   "ui.mega_showdown.idle": "待命",
-  "ui.mega_showdown.ready": "就绪"
+  "ui.mega_showdown.ready": "就绪",
+  "item.mega_showdown.diantha_mega_charm": "卡露妮的超级坠饰",
+  "item.mega_showdown.zinnia_mega_anklet": "希嘉娜的超级脚镯",
+  "mega_showdown.ui.crown": "王者形态",
+  "mega_showdown.ui.primal": "原始回归",
+  "tooltip.mega_showdown.diantha_mega_charm.tooltip": "§7其中嵌着一颗钥石，能让携带超级石的宝可梦超级进化",
+  "tooltip.mega_showdown.zinnia_mega_anklet.tooltip": "§7其中嵌着一颗钥石，能让携带超级石的宝可梦超级进化"
 }

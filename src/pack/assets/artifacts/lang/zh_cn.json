@@ -441,5 +441,10 @@
   "artifacts.config.general.slots.removeSlotRestrictions.description.1": "(需要 Curios 或 Trinkets，目前与 Accessories 不兼容)",
   "artifacts.config.general.slots.removeSlotRestrictions.title": "移除槽位限制",
   "artifacts.config.general.slots.title": "槽数",
-  "tag.item.artifacts.slot.face": "面部槽位可装备饰品"
+  "tag.item.artifacts.slot.face": "面部槽位可装备饰品",
+  "artifacts.config.client.showArtifactsOnPlayers.description.0": "是否在玩家身上显示已穿戴的饰品",
+  "artifacts.config.client.showArtifactsOnPlayers.description.1": "该选项纯粹是客户端的，不会改变其他玩家看到的样子",
+  "artifacts.config.client.showArtifactsOnPlayers.title": "在玩家身上显示饰品",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.description": "隐形围巾是否让所有状态效果都不再产生粒子",
+  "artifacts.config.items.scarf_of_invisibility.hidesEffectParticles.title": "隐藏效果粒子"
 }

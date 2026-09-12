@@ -682,5 +682,9 @@
   "wood_type.twilightforest.sorting": "分类木",
   "wood_type.twilightforest.time": "时光木",
   "wood_type.twilightforest.trans": "变化木",
-  "effect.supplementaries.bleeding": "流血"
+  "effect.supplementaries.bleeding": "流血",
+  "supplementaries.configuration.globe.sepia_globe": "墨绘地球仪",
+  "supplementaries.configuration.globe.sepia_globe.description": "关闭 antique_ink 功能时，墨绘地球仪会自动一并关闭",
+  "supplementaries.configuration.plunderer.galleon": "大帆船",
+  "supplementaries.configuration.plunderer.galleon.description": "关闭 rope 功能时，大帆船会自动一并关闭"
 }

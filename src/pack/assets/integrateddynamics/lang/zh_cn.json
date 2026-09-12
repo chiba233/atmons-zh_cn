@@ -1774,5 +1774,8 @@
   "aspect.integrateddynamics.read.double.world.tps": "TPS",
   "operator.integrateddynamics.nbt.basename": "NBT %s",
   "info_book.integrateddynamics.tutorials.nbt": "NBT",
-  "info_book.integrateddynamics.manual.logic.value_types.nbt": "NBT"
+  "info_book.integrateddynamics.manual.logic.value_types.nbt": "NBT",
+  "gui.integrateddynamics.aspectsettings.slot.message.invalidtype": "此设定需要 %s 类型的数据，但给出的是 %s 类型",
+  "gui.integrateddynamics.aspectsettings.slot.message.invalidvalue": "该变量的值不被此设定接受",
+  "gui.integrateddynamics.aspectsettings.variable.driven": "此设定由该槽位中的变量决定"
 }

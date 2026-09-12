@@ -247,5 +247,6 @@
   "jukebox_song.allthemons.unwavering_heart": "GameChops - 不动的心",
   "jukebox_song.allthemons.vanville_town": "GameChops - 朝香镇",
   "jukebox_song.allthemons.verdanturf_town": "GameChops - 绿茵镇",
-  "jukebox_song.allthemons.water_type": "GameChops - 水属性"
+  "jukebox_song.allthemons.water_type": "GameChops - 水属性",
+  "allthemons.commands.fix_tethers.fainted": "你有 %s 只宝可梦处于濒死状态——治好它们之前，牧场不会接收"
 }

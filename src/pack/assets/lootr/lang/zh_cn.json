@@ -219,5 +219,7 @@
   "lootr.advancements.trapped_chest.description": "打开你的第一个 Lootr 陷阱箱！",
   "lootr.advancements.trapped_chest.title": "惊喜！",
   "lootr.message.cannot_insert": "物品无法放入带战利品的物品展示框。",
-  "lootr.message.emergency_conversion": "你刚打开的容器已被转换为 Lootr 容器！"
+  "lootr.message.emergency_conversion": "你刚打开的容器已被转换为 Lootr 容器！",
+  "lootr.advancements.emergency_escape_hatch.description": "在符合条件的箱子上触发了 Lootr 的紧急转换预案！",
+  "lootr.advancements.emergency_escape_hatch.title": "紧急逃生舱！"
 }

@@ -62,6 +62,7 @@ versions/<版本>/overrides.sha256 该版官方 overrides 的整棵树指纹（C
 versions/<版本>/unobtainable.json 该版 manifest 里已从 CurseForge 消失的 jar（必须逐个登记）
 versions/<版本>/unpatchable.json 该版套不上的上游改动（逐条登记，必写 why）
 versions/<版本>/upstream/       该版专属的上游映射，叠在通用映射之上
+versions/<版本>/pack_overrides.json 该版专属的资源包译文（同一个键在两版参数个数不同时用）
 versions/db/<版本>/             该版的核验数据库与英文底本
 versions/db/<版本>/jars.json    该版每个 jar 的 sha256 + 不可变的 CurseForge fileID
 versions/db/<版本>/keybinds.json 该版全部按键分类与注册名（含拼名字用的字符串原子）

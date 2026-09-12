@@ -1,0 +1,11 @@
+{
+ "_": "该版专属的资源包译文。资源包译文按命名空间+键索引、版本中立，这里是唯一的例外口子；每条必须写 why。见 scripts/gen_pack_overrides.py。",
+ "lang": {
+  "ftbteams": {
+   "ftbteams.party_api_only": {
+    "value": "在这个整合包中，你不能直接创建玩家团队！\n%s",
+    "why": "1.3.0 的英文原文从「…directly!」变成「…directly!\\n%s」，多了一个参数用来接整合包给出的替代做法。公共树那份不能带 %s——1.2.0 的调用方不传参，带了会让 TranslatableContents 抛 TranslatableFormatException；不带又会让 1.3.0 上那段说明整个丢掉。所以只在这一版覆盖。"
+   }
+  }
+ }
+}

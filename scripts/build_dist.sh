@@ -90,6 +90,9 @@ if [ ! -d "$UPROOT/kubejs" ]; then
   python3 scripts/fetch_pack.py "$MC" "$UPROOT" --no-jars
 fi
 python3 scripts/gen_upstream_patches.py "$UPROOT" "$TREE" "$MC"
+# 资源包译文按命名空间+键索引、版本中立，唯一的例外走 versions/<版本>/pack_overrides.json
+# （同一个键在两版里参数个数不同时，一份中文对不了两版）。
+python3 scripts/gen_pack_overrides.py "$MC" "$TREE"
 # 章节标题图必须**同时**放进 kubejs 那棵树，只放资源包不生效。
 #
 # ATM 把 questpics 注入在 kubejs/assets/atm/textures/questpics/，而 KubeJS 的

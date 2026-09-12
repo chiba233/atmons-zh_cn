@@ -1,0 +1,115 @@
+{
+ "groups": {
+  "arr-hidden-quests": {
+   "why": "上游用来标注版权的隐藏任务，描述里自己写着「这条任务是故意隐藏的，看得到就说明你在编辑模式」，玩家在游戏里碰不到它；两条 task 标题是字面量 AllRightsReserved，译了反而让这条声明认不出来。",
+   "keys": [
+    "quest.0287136D3E986317.quest_desc",
+    "quest.0591F84BFDE50BC2.quest_desc",
+    "quest.1DAEB18081B4F22B.quest_desc",
+    "quest.20198BF0436AC44B.quest_desc",
+    "quest.2CA1E70813BFE6E7.quest_desc",
+    "quest.2CB4138503F71E7A.quest_desc",
+    "quest.357C9381A8155C08.quest_desc",
+    "quest.36B8B3C61E0CFAD1.quest_desc",
+    "quest.3A7120AD61BC6D74.quest_desc",
+    "quest.3B57EEC3E8E67D12.quest_desc",
+    "quest.5AF01BC5631ED1BD.quest_desc",
+    "quest.76BF91F3D73B4E68.quest_desc",
+    "task.07BE9AE873DB60D3.title",
+    "task.08CEADF9CD99EDA7.title",
+    "task.0A55BA7668023573.title",
+    "task.1092D3B8F9A7B0E7.title",
+    "task.1341FBFC95647A1E.title",
+    "task.13DC280F10DD1580.title",
+    "task.187FE4187DF2BDAD.title",
+    "task.18E4A63F487E8C88.title",
+    "task.2162ED741BA0D5EB.title",
+    "task.304D934EA294735D.title",
+    "task.385FFCF622B7C550.title",
+    "task.38EE9A31CBDD5AE8.title",
+    "task.407F0CA54F2E525B.title",
+    "task.40CA123359A44020.title",
+    "task.47FF36EC8F4EDE22.title",
+    "task.495FB1055FFDC998.title",
+    "task.4F74717D8C29890A.title",
+    "task.55C98E26B9B5329B.title",
+    "task.568553C4E059B622.title",
+    "task.5D2F31B6D492426B.title",
+    "task.72B575AD169F9D75.title",
+    "task.7555D68F63A0C8CF.title",
+    "task.7B91C38DD6E214C3.title",
+    "task.7FC2F6F453502ACF.title"
+   ]
+  },
+  "creator-names": {
+   "why": "内容创作者的 ID，本包一律保持英文，README 的「仍是英文的部分」列的就是这一类。",
+   "keys": [
+    "image.005F2C1D67F21641.title",
+    "image.0810906F81D2FA56.title",
+    "image.1376607600353018.title",
+    "image.3B5F32E04DC11D95.title",
+    "image.3D670F332C3AD463.title",
+    "image.46FEC9810F7A065D.title",
+    "image.61F852CA6AA42891.title",
+    "image.6AF76E01F70E71D0.title",
+    "image.6DDABB40D3034FF3.title",
+    "quest.0709CE22181A74BB.title",
+    "quest.13EB9A996928ED60.title",
+    "quest.261E8EE0C7E7E2F0.title",
+    "quest.273605A191309522.title",
+    "quest.31749B21AD674C5F.title",
+    "quest.349E8C0C3F9CC99B.title",
+    "quest.507635FE52E22D7D.title",
+    "quest.508F619C2764FB5B.title",
+    "quest.7AB52F600829F468.title"
+   ]
+  },
+  "image-only-desc": {
+   "why": "整条描述只有一条 {image:…} 图片指令，没有一个字可译。",
+   "keys": [
+    "quest.01B7B66FAAAAEAE5.quest_desc",
+    "quest.15474BAF1997CD27.quest_desc",
+    "quest.2DB404AA2832F81D.quest_desc",
+    "quest.2F1B74D45E50A079.quest_desc",
+    "quest.42AE629EBAA3AA94.quest_desc",
+    "quest.439705A42B6DC4D1.quest_desc",
+    "quest.4B2754CD11FFE247.quest_desc",
+    "quest.512A525B513DA118.quest_desc",
+    "quest.523AD3D448DE58A6.quest_desc",
+    "quest.53CD2E3D27601F3F.quest_desc",
+    "quest.5854DA8F791AD71F.quest_desc",
+    "quest.60521AAE8BAA32C5.quest_desc",
+    "quest.6479A38086A43E49.quest_desc",
+    "quest.6AF7427DCA9D66D2.quest_desc",
+    "quest.6C31A50068FBA0EE.quest_desc",
+    "quest.739C0DB291B1563C.quest_desc",
+    "quest.7514CF65A077985E.quest_desc",
+    "quest.7EF3DB8B5258FA34.quest_desc"
+   ]
+  },
+  "pack-name": {
+   "why": "整合包自己的名字，本包不改。",
+   "keys": [
+    "file.0000000000000001.title"
+   ]
+  },
+  "upstream-blank": {
+   "why": "上游这批奖励标题本身就是空串。",
+   "keys": [
+    "reward.0BAA616086292311.title",
+    "reward.20760BB54C31ED80.title",
+    "reward.2B670BD16B1522CF.title",
+    "reward.2C1EB30D6FA19A2A.title",
+    "reward.2DC3F334D860CD26.title",
+    "reward.2DE762606825FE4E.title",
+    "reward.423FEB123996A793.title",
+    "reward.499B871B4FE08262.title",
+    "reward.618C5C25773A6B26.title",
+    "reward.634BD1679C226F35.title",
+    "reward.67F6093F6B193894.title",
+    "reward.6DFB331C101AAE41.title",
+    "reward.75E9EF5B94A3E352.title"
+   ]
+  }
+ }
+}

@@ -1271,6 +1271,109 @@ def _m67(tmp, tree):
     return rc != 0 and '解析失败' in out
 
 
+# ── 任务书「有意不译」的登记 ──────────────────────────────────────────
+#
+# 底本取上游 en_us，没被覆盖的键原样出英文，产物里「漏译一条」和「有意不译一条」
+# 长得一模一样。1.3.0 拆出 creative 章、又给一条任务补了 title，两个新键因此在
+# 游戏里显示英文，全流水线一声不吭，是靠截图才发现的。
+#
+# 所以口子只有一个：versions/<版本>/quest_untranslated.json 逐条登记。口子开了
+# 就得有反例证明它没被开大——没写理由、登记了上游没有的键、登记了已经译了的键、
+# 同一个键登记两遍、整张表不见、不传版本，六种写歪的登记都必须红，否则这张表
+# 就成了「往里加一行就能让任何漏译变绿」的开关。
+def _qu_fixture(tmp, reg=None, delta_keys=('quest.AAAA.title',)):
+    """最小夹具：上游两个键、我们译一个，剩下那个就是待登记的缺口。"""
+    r = tmp / 'qurepo'
+    (r / 'scripts').mkdir(parents=True, exist_ok=True)
+    for f in ('gen_quest_lang_patches.py', 'paths.py'):
+        shutil.copy(ROOT / 'scripts' / f, r / 'scripts')
+    up = r / 'pack' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'en_us' / 'chapters'
+    up.mkdir(parents=True)
+    (up / 'demo.snbt').write_text(
+        '{\n\tquest.AAAA.title: "Upstream A"\n\tquest.BBBB.title: "Upstream B"\n}\n',
+        encoding='utf-8')
+    zh = r / 'tree' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn' / 'chapters'
+    zh.mkdir(parents=True)
+    (zh / 'zz_hanhua_demo.snbt').write_text(
+        '{\n' + ''.join('\t%s: "中文"\n' % k for k in delta_keys) + '}\n', encoding='utf-8')
+    if reg is not None:
+        d = r / 'versions' / '9.9'
+        d.mkdir(parents=True, exist_ok=True)
+        (d / 'quest_untranslated.json').write_text(
+            json.dumps(reg, ensure_ascii=False), encoding='utf-8')
+    return r
+
+
+def _qu_run(r, version='9.9'):
+    argv = [sys.executable, str(r / 'scripts' / 'gen_quest_lang_patches.py'),
+            str(r / 'pack'), str(r / 'tree')]
+    if version is not None:
+        argv.append(version)
+    x = subprocess.run(argv, capture_output=True, text=True, cwd=r)
+    return x.returncode, x.stdout + x.stderr
+
+
+_QU_OK = {'groups': {'g': {'why': '上游这条本来就是空串', 'keys': ['quest.BBBB.title']}}}
+
+
+@missing_case('缺口登记过 → 绿，并把不译的条数打出来')
+def _m68(tmp, tree):
+    rc, out = _qu_run(_qu_fixture(tmp, _QU_OK))
+    return rc == 0 and '登记为不译 1 条' in out
+
+
+@missing_case('上游新加的键既没译也没登记 → 必须红（1.3.0 那两条就是这么漏的）')
+def _m69(tmp, tree):
+    reg = {'groups': {'g': {'why': 'w', 'keys': ['quest.BBBB.title']}}}
+    r = _qu_fixture(tmp, reg)
+    up = r / 'pack' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'en_us' / 'chapters'
+    (up / 'demo.snbt').write_text(
+        '{\n\tquest.AAAA.title: "A"\n\tquest.BBBB.title: "B"\n\tquest.CCCC.title: "C"\n}\n',
+        encoding='utf-8')
+    rc, out = _qu_run(r)
+    return rc != 0 and '既没译、也没登记为不译' in out and 'quest.CCCC.title' in out
+
+
+@missing_case('登记没写 why → 必须红（没理由的登记跟漏掉分不出来）')
+def _m70(tmp, tree):
+    reg = {'groups': {'g': {'why': '  ', 'keys': ['quest.BBBB.title']}}}
+    rc, out = _qu_run(_qu_fixture(tmp, reg))
+    return rc != 0 and '没写 why' in out
+
+
+@missing_case('登记了底本里没有的键 → 必须红（登记过期，上游删了它）')
+def _m71(tmp, tree):
+    reg = {'groups': {'g': {'why': 'w', 'keys': ['quest.BBBB.title', 'quest.ZZZZ.title']}}}
+    rc, out = _qu_run(_qu_fixture(tmp, reg))
+    return rc != 0 and '底本里没有这个键' in out
+
+
+@missing_case('登记了一个我们已经译了的键 → 必须红（它会替下次的漏译挡住闸）')
+def _m72(tmp, tree):
+    reg = {'groups': {'g': {'why': 'w', 'keys': ['quest.AAAA.title', 'quest.BBBB.title']}}}
+    rc, out = _qu_run(_qu_fixture(tmp, reg))
+    return rc != 0 and '本包已经译了它' in out
+
+
+@missing_case('同一个键登记两遍 → 必须红（撤掉一处以为撤了，其实另一处还在放行）')
+def _m73(tmp, tree):
+    reg = {'groups': {'a': {'why': 'w', 'keys': ['quest.BBBB.title']},
+                      'b': {'why': 'w', 'keys': ['quest.BBBB.title']}}}
+    rc, out = _qu_run(_qu_fixture(tmp, reg))
+    return rc != 0 and '登记了两遍' in out
+
+
+@missing_case('整张登记表不存在 → 必须红，不许当成「没有缺口」放过')
+def _m74(tmp, tree):
+    rc, out = _qu_run(_qu_fixture(tmp))
+    return rc != 0 and 'quest_untranslated.json' in out
+
+
+@missing_case('不传版本 → 必须红（少个参数就等于把整张登记表悄悄作废）')
+def _m75(tmp, tree):
+    rc, out = _qu_run(_qu_fixture(tmp, _QU_OK), version=None)
+    return rc != 0 and '悄悄作废' in out
+
 def run_missing(name, fn):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)

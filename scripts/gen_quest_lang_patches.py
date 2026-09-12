@@ -44,9 +44,13 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 底本决定「有哪些键、哪个文件持有它」。取上游的，这两件事就始终跟着上游走：
 上游加一章、挪一个键，出货文件如实反映，键对不上时下面那几道自检当场报出来。
 
-取英文当底还有一层好处：出货的是**完整**文件，有中文的填中文、没中文的留英文。
-没译到的键不会从文件里消失，缺口也是可数的——本版 9255 键里 7338 条中文、
-1917 条英文。
+取英文当底还有一层好处：出货的是**完整**文件，有中文的填中文、没中文的留英文，
+没译到的键不会从文件里消失。
+
+代价是「漏译一条」和「有意不译一条」在产物里长得一模一样，上游新加的键因此能
+一路静默出到玩家眼前。所以每个没被覆盖的键都要在
+`versions/<版本>/quest_untranslated.json` 里连同理由登记，差额一律红（见
+load_untranslated）。
 
 此时 `src/config/…/lang/zh_cn/` 是**覆盖**（优先级见 collect_delta），盖在英文
 底本上，不参与「有哪些键」的决定。
@@ -62,6 +66,7 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 用法:
     python3 scripts/gen_quest_lang_patches.py <上游目录> <出货树> [整合包版本]
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -150,6 +155,56 @@ def collect_delta(tree, mc):
                 raise SystemExit('❌ 覆盖键 %s 在 %s 与 %s 里都定义了' % (k, owner[k], p.name))
             delta[k], owner[k] = blk, p.name
     return srcs, delta, ver
+
+
+def load_untranslated(version, home, delta):
+    """读该版的「有意不译」登记表，返回 (登记的键集合, 表的路径)。
+
+    底本取上游 en_us 时，没被覆盖的键原样出英文，谁都不会报错——1.3.0 拆出
+    creative 章、又给一条任务补了 title，两个新键因此在游戏里显示英文，是靠
+    截图才发现的。所以「不译」必须是逐条登记过的决定，而不是漏掉的结果。
+
+    登记只认写死的键名，不认通配：通配会把上游**以后**新加的同类键一起放过，
+    那就又变回静默跳过了。
+    """
+    p = ROOT / 'versions' / str(version) / 'quest_untranslated.json'
+    if not p.is_file():
+        raise SystemExit(
+            '❌ 找不到 %s。\n'
+            '   底本是上游 en_us，没被覆盖的键会原样出英文，哪些键有意不译\n'
+            '   必须逐条登记；表不在就等于这道闸没跑。' % p.relative_to(ROOT))
+    doc = json.loads(p.read_text(encoding='utf-8'))
+    groups = doc.get('groups')
+    if not isinstance(groups, dict) or not groups:
+        raise SystemExit('❌ %s 里没有 groups' % p.relative_to(ROOT))
+    owner = {}
+    for name, ent in groups.items():
+        ent = ent or {}
+        if not str(ent.get('why') or '').strip():
+            raise SystemExit(
+                '❌ %s 的分组「%s」没写 why。不译是个决定，下一版得有人能判断\n'
+                '   这个决定还成不成立——没有理由的登记跟漏掉分不出来。'
+                % (p.relative_to(ROOT), name))
+        keys = ent.get('keys')
+        if not (isinstance(keys, list) and keys and all(isinstance(k, str) for k in keys)):
+            raise SystemExit('❌ %s 的分组「%s」的 keys 要是一个非空的键名列表'
+                             % (p.relative_to(ROOT), name))
+        for k in keys:
+            if k in owner:
+                raise SystemExit('❌ %s 里 %s 在「%s」与「%s」下登记了两遍'
+                                 % (p.relative_to(ROOT), k, owner[k], name))
+            if k not in home:
+                raise SystemExit(
+                    '❌ %s 登记了 %s，但该版底本里没有这个键。\n'
+                    '   登记已经过期：上游删了它，把这一条去掉。'
+                    % (p.relative_to(ROOT), k))
+            if k in delta:
+                raise SystemExit(
+                    '❌ %s 登记 %s 不译，可本包已经译了它。\n'
+                    '   登记已经过期：把这一条去掉，否则下次漏译时这一条会替它挡住闸。'
+                    % (p.relative_to(ROOT), k))
+            owner[k] = name
+    return set(owner), p
 
 
 def assert_no_upstream_zh(uproot):
@@ -292,6 +347,23 @@ def main():
         if k not in seen:
             raise SystemExit('❌ 覆盖键 %s 没出现在出货树里' % k)
 
+    # 底本是英文时，没被覆盖的键就原样出英文。漏一条和有意不译一条，在产物里
+    # 长得一模一样，所以后者必须逐条登记过，差额一律红。
+    registered = set()
+    if fallback_en:
+        if not mc:
+            raise SystemExit(
+                '❌ 没传整合包版本，就找不到该版的 quest_untranslated.json——\n'
+                '   少一个参数等于把整张登记表悄悄作废。')
+        registered, regp = load_untranslated(mc, home, delta)
+        stray = sorted(k for k in home if k not in delta and k not in registered)
+        if stray:
+            raise SystemExit(
+                '❌ 上游有 %d 个键既没译、也没登记为不译（如 %s，在 %s）。\n'
+                '   要么补译，要么连同 why 一起登记进 %s。\n'
+                '   不管它的话，玩家在游戏里看到的就是这几条英文。'
+                % (len(stray), stray[0], home[stray[0]], regp.relative_to(ROOT)))
+
     total = sum(len(v) for v in up_pairs.values())
     print('✅ 任务书语言：%d 条覆盖打进底本 %d 个文件%s，底本没有的 %d 条进 %s'
           % (len(placed), len(touched),
@@ -299,8 +371,8 @@ def main():
              len(extra), ADDITIONS))
     if fallback_en:
         # 底本是英文，所以出货文件里没被覆盖到的都还是英文——这个数就是翻译缺口
-        print('   底本 %d 键：中文 %d 条，仍是英文 %d 条'
-              % (total, len(placed), total - len(placed)))
+        print('   底本 %d 键：中文 %d 条，登记为不译 %d 条'
+              % (total, len(placed), len(registered)))
 
 
 if __name__ == '__main__':

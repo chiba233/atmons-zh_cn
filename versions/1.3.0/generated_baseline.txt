@@ -1,0 +1,42 @@
+# All the Mons 1.3.0 上，各类生成物的**实测张数/份数**。
+#
+# 规矩与 versions/1.2.0/generated_baseline.txt 相同：数字必须来自 CI 的 Build 实测，
+# 不许拍脑袋，也不许为了让构建过去而下调。verify_dist.py 无论过没过都会把实测的 got
+# 打出来，所以记错了下一次 CI 会当场报出真值——那时改这里，不许改余量。
+#
+# 生成器侧的 books / banners / buttons 由 build_dist.sh 从**第一个**在册版本的基线读
+# （BASE_MC="${MC_VERSIONS%% *}"，公共出货树只生成一次），所以这一版只需要下面
+# 打包之后的那组；三项照抄以备将来 1.3.0 成为第一个在册版本。
+books = 1294
+banners = 204
+buttons = 20
+#
+# ══ 打包之后的实测量 ═══════════════════════════════════════════════════
+#
+# ⚠️ 本版**尚未实测**：下面这组暂取同一次 CI 里 1.2.0 的实测行（Build run
+#    34671876869，commit 80954b4），因为 1.3.0 的 verify_dist 还没跑到就缺文件红了。
+#    这是为了让 CI 把 1.3.0 的 got 打出来，不是最终值。拿到真值后必须逐项改到实测，
+#    并在下面的改动记录里写清每一项是上调还是下调。
+#
+client_lang_files  =    307   # [暂取 1.2.0 实测]
+client_lang_keys   = 108573   # [暂取 1.2.0 实测]
+client_banners     =    204   # [暂取 1.2.0 实测]
+client_kubejs_banners = 204   # [暂取 1.2.0 实测]
+client_buttons     =     20   # [暂取 1.2.0 实测]
+client_vp_modules  =    157   # [暂取 1.2.0 实测]
+client_quest_delta =    238   # [暂取 1.2.0 实测]
+client_gui_files   =     24   # [暂取 1.2.0 实测]
+client_book_files  =   1097   # [暂取 1.2.0 实测]
+#
+server_vp_modules  =     10   # [暂取 1.2.0 实测]
+server_quest_delta =    238   # [暂取 1.2.0 实测]
+#
+# ── 改动记录 ────────────────────────────────────────────────────────────
+#
+# 2026-09-12  建档。1.3.0 首次入册，本组暂取同一次 CI 里 1.2.0 的实测行：
+#
+#   ✅ client  banners=204 book_files=1097 buttons=20 gui_files=24
+#              kubejs_banners=204 lang_files=307 lang_keys=108573
+#              quest_delta=238 vp_modules=157
+#
+#             1.3.0 的真值待下一次 Build 打印后逐项改定。

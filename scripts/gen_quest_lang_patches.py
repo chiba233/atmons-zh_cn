@@ -129,35 +129,23 @@ def write(path, pairs):
     path.write_text('{\n' + body + '\n}\n', encoding='utf-8')
 
 
-def collect_delta(tree, mc, include_ours=False):
-    """本包的覆盖，按优先级从低到高叠。
+def collect_delta(tree, mc):
+    """本包的覆盖：出货树里的 zz_hanhua_*.snbt，外加该版专属覆盖（优先级最高）。
 
-    - ``include_ours``：上游不带 zh_cn 时，我们自己那棵 zh_cn 树也是覆盖的一部分
-      （它盖的是**英文底本**）。此时优先级最低——生成器现推的东西该压过它。
-    - ``zz_hanhua_*.snbt``：构建时现产的覆盖（如资源树育种副标题，从本版的授粉
-      配方现推）。压过上一条：同一批键上，现推的比搬来的更贴合这一版。
-    - ``versions/<版本>/quest_overrides.snbt``：该版专属，优先级最高。
+    源文件名与上游章节名**无关**，出货时一律发成 {} 空壳，内容按键并进上游那份
+    章节文件。上游拆章、改名、删章因此都碰不到源文件——这一层正是本仓库从
+    atm10 fork 过来要带的东西，别再以「本包上游不带 zh_cn 所以用不上」拿掉它
+    （8d9495c 拿掉过一次，1.3.0 一进来就无解）。
     """
     srcs = sorted((tree / LANG).rglob(DELTA_PREFIX + '*.snbt'))
     if not srcs:
         raise SystemExit('❌ 出货树里一个 %s*.snbt 都没有——assemble.py 没跑？' % DELTA_PREFIX)
     ver = ROOT / 'versions' / str(mc) / 'quest_overrides.snbt' if mc else None
     delta, owner = {}, {}
-    if include_ours:
-        ours = [p for p in sorted((tree / LANG).rglob('*.snbt'))
-                if not p.name.startswith(DELTA_PREFIX)]
-        if not ours:
-            raise SystemExit('❌ 出货树 %s 下一份中文都没有——assemble.py 没跑？' % (tree / LANG))
-        for p in ours:
-            for k, blk in blocks(p):
-                if k in delta:
-                    raise SystemExit('❌ 本包自己重键：%s 同时在 %s 与 %s'
-                                     % (k, owner[k], p.name))
-                delta[k], owner[k] = blk, p.name
     for p in srcs + ([ver] if ver and ver.is_file() else []):
         per_version = ver is not None and p == ver
         for k, blk in blocks(p):
-            if k in delta and not per_version and owner[k].startswith(DELTA_PREFIX):
+            if k in delta and not per_version:
                 # 两个 delta 文件定义同一个键 = 又回到「靠顺序」，check.py 也拦这条
                 raise SystemExit('❌ 覆盖键 %s 在 %s 与 %s 里都定义了' % (k, owner[k], p.name))
             delta[k], owner[k] = blk, p.name
@@ -205,22 +193,21 @@ def main():
     up_files = sorted(base_dir.glob('*.snbt')) + sorted((base_dir / 'chapters').glob('*.snbt'))
     fallback_en = not up_files
 
-    if up_files:
-        srcs, delta, ver = collect_delta(tree, mc)
-        # 上游有 zh_cn，而我们树里同时躺着一批**非 delta**的中文文件——那是「按上游
-        # 章节名整份出货」的形态，会把上游同名文件整个盖掉。两者不能并存。
-        ours = [p for p in sorted((tree / LANG).rglob('*.snbt'))
-                if not p.name.startswith(DELTA_PREFIX)]
-        if ours:
-            raise SystemExit(
-                '❌ 上游开始自带 zh_cn 任务书了（%d 个文件），而本包仍按上游章节名\n'
-                '   整份出货（树里有 %d 份非 delta 的中文，如 %s）。\n'
-                '   照这样发会把上游那份**整个盖掉**——2026-07 只有 2 个键的 aether.snbt\n'
-                '   盖掉上游同名文件 167 个键，就是这个。\n'
-                '   要改回 delta 形态：src/config/…/lang/zh_cn/ 下的文件加 %s 前缀，\n'
-                '   只保留我们真正要改的键。'
-                % (len(up_files), len(ours), ours[0].name, DELTA_PREFIX))
-    else:
+    srcs, delta, ver = collect_delta(tree, mc)
+    # 树里躺着两个前缀都不带的中文文件 = 「按上游章节名整份出货」的老形态（8d9495c
+    # 那一版），会把上游同名文件整个盖掉。delta 模型下不该再有这种文件。
+    stray = [p for p in sorted((tree / LANG).rglob('*.snbt'))
+             if not p.name.startswith(DELTA_PREFIX)
+             and p.name != ADDITIONS.rsplit('/', 1)[-1]]
+    if stray:
+        raise SystemExit(
+            '❌ 出货树里有 %d 份不带 %s 前缀的中文（如 %s）——那是按上游章节名整份\n'
+            '   出货的老形态，会把上游同名文件整个盖掉（2026-07 只有 2 个键的\n'
+            '   aether.snbt 盖掉上游同名文件 167 个键，就是这个）。\n'
+            '   源文件一律带 %s 前缀，与上游章节名脱钩。'
+            % (len(stray), DELTA_PREFIX, stray[0].name, DELTA_PREFIX))
+
+    if not up_files:
         # 上游一条中文都没有 → **底本取上游的 en_us**（见本文件顶部）。
         # 不能拿我们自己那棵 zh_cn 当底：那等于把「我们译过什么」当成「有哪些键」，
         # 没译到的键就从出货文件里整个消失了。取英文当底，出去的是一份**完整**文件，
@@ -230,7 +217,6 @@ def main():
         up_files = sorted(base_dir.glob('*.snbt*')) + sorted((base_dir / 'chapters').glob('*.snbt*'))
         if not up_files:
             raise SystemExit('❌ 上游 %s 下一个 .snbt 都没有——判不了有哪些键' % base_dir)
-        srcs, delta, ver = collect_delta(tree, mc, include_ours=True)
         print('   底本取上游 en_us（%d 个文件）' % len(up_files))
 
     up_pairs, home = {}, {}

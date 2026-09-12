@@ -1,0 +1,8 @@
+{
+ "edits": {
+  "kubejs/startup_scripts/CustomAdditions.js": {
+   "which": [6, 7, 8],
+   "why": "1.3.0 把 Liquid Souls / Unrefined Liquid Souls / Liquid Aureal 三种流体的定义整段删了——整个 overrides 里搜不到这三个名字，也搜不到 liquid_souls / liquid_aureal。1.2.0 仍然有，所以映射不能删。上游哪天把它们加回来，apply_one 会当场报「登记已经过期」。"
+  }
+ }
+}

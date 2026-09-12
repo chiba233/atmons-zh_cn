@@ -14,8 +14,8 @@
 **列出不等于要改译文**：半数是拼写修正（Ingrediant→Ingredient 之类），中文不用动。
 只有行为 / 数值真的变了，才写进 `versions/<版本>/quest_overrides.snbt` 分叉。
 
-这个脚本**只报告，不设闸**：它退出码永远是 0。要不要跟、怎么跟，是人的判断。
-（一个只会打印的东西不该有能力拦住构建。）
+漂移**结果**只报告、不拦构建（要不要跟是人的判断），但**取不到基准要红**：
+一份空的或缺席的底本会让「改动 0 条」这句话变成谎报。
 
 用法:
     python3 scripts/check_en_drift.py 7.2 7.3
@@ -41,7 +41,14 @@ def load(ver, name, required=True):
             return None
         sys.exit('❌ 没有 %s\n   先跑: python3 scripts/build_en_baseline.py %s <该版mods目录> <该版overrides目录>'
                  % (f.relative_to(ROOT), ver))
-    return json.loads(f.read_text(encoding='utf-8'))
+    d = json.loads(f.read_text(encoding='utf-8'))
+    # 空底本与缺底本是同一件事：拿空集去比，`changed` 恒为 0，本脚本会把
+    # 「没有基准」印成「没有漂移」。所以空的也要红，别改成打一行提示放过去。
+    if required and not d:
+        sys.exit('❌ %s 是空的——没有基准可比，「改动 0 条」会是谎报。\n'
+                 '   重跑 build_en_baseline.py --check-quest 生成后再来。'
+                 % f.relative_to(ROOT))
+    return d
 
 
 def clip(s):

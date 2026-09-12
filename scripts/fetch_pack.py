@@ -34,11 +34,31 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent
 PROJECT = 1356598         # CurseForge 上的 All the Mons
 API = 'https://www.curseforge.com/api/v1/mods/%d' % PROJECT
 UA = ('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/126.0 Safari/537.36')
 TRIES = 6
+
+
+def unregistered_missing(ver, missing):
+    """这几个下不来的 fileID 里，哪些没在 versions/<版本>/unobtainable.json 登记。
+
+    CurseForge 删过文件，某些版本的官方 jar 集合是**永久**拿不全的。那不是「下漏了」，
+    但也不能因此放宽门控——残缺的集合会让版本库里的 "missing" 变成假判定（不是这一版
+    没有这个 key，只是我们没看到那个 jar）。所以要求一个个显式登记：登记过的放行，
+    其余照旧红，缺口的边界始终摆在明面上。
+
+    **登记文件不存在 = 一条都没登记**，不是「全都放行」：这道闸的默认必须是红的，
+    否则一次文件名写错就能让整个机制静默失效。fetch_pack 与 build_version_db 都用
+    这一个函数，判据只有一份。
+    """
+    known = {}
+    kf = ROOT / 'versions' / ver / 'unobtainable.json'
+    if kf.is_file():
+        known = json.loads(kf.read_text(encoding='utf-8')).get('files') or {}
+    return [i for i in missing if str(i) not in known]
 
 
 def fetch(url, timeout=180, required=True):
@@ -319,13 +339,22 @@ def main(ver, out, jars=True, record=False):
     # 一个都不许缺。以前的阈值是 98%：482 项里少 9 个照样继续，而少掉的那几个 jar
     # 里的 en_us / 注册表就这么静默地没参与生成——产物少几百条译文，退出码还是 0。
     # 「大部分下到了」不是可复现构建，缺就是缺。（issue #9 P1-5）
-    if len(got) < len(todo):
+    # 唯一的例外：这一版的 manifest 里确有文件被 CurseForge 永久删除（404，重试无用）。
+    # 那不是「下漏了」，是这一版的官方集合**已经拿不全了**，而且必须一个个登记在
+    # versions/<版本>/unobtainable.json 里才算数——登记过的照常放行，没登记的照旧红。
+    # （build_version_db.py 建库时读的是同一份登记，两边的判据是同一个。）
+    undeclared = unregistered_missing(ver, missing)
+    if undeclared:
         for e in errors[:8]:
             print('   %s' % e)
-        sys.exit('❌ jar 没下齐（%d/%d），生成器会漏内容，中止\n'
-                 '   上面是前几条真实错误。403/429 是限速，稍后重跑；'
-                 '404 说明接口变了，得改 fetch_pack.py。'
-                 % (len(got), len(todo)))
+        sys.exit('❌ jar 没下齐（%d/%d），其中以下 fileID 没有登记原因：%s\n'
+                 '   生成器会漏内容，中止。上面是前几条真实错误。\n'
+                 '   403/429 是限速，稍后重跑；404 若是这一版真的被删了，'
+                 '写进 versions/%s/unobtainable.json 说明情况。'
+                 % (len(got), len(todo), undeclared[:8], ver))
+    if missing:
+        print('  ⚠️ 这一版有 %d 个 jar 已在 CurseForge 上取不到（已登记）：%s'
+              % (len(missing), missing))
 
 
 if __name__ == '__main__':

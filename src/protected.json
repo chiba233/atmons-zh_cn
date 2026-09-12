@@ -917,7 +917,7 @@
     "src/mods/vaultpatcher/verify/com/ldtteam/structurize/client/gui/WindowExtendedBuildTool.java",
     "src/module_hashes.json",
     "src/optional-mods-pinyin/LICENSE-just-enough-characters.txt",
-    "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.26.jar",
+    "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.29.jar",
     "src/optional-mods-pinyin/来源与许可.md",
     "src/pack/assets/accessories/lang/zh_cn.json",
     "src/pack/assets/actuallyadditions/lang/zh_cn.json",
@@ -2923,6 +2923,12 @@
       "approved": "8d9495c",
       "date": "2026-09-12",
       "why": "8d9495c 让这批译文按上游章节名整份出货，文件名因此与上游章节名绑死；1.3.0 把 achapter_2r_6the_atm_star 拆成 creative 之后，同一份源文件无法同时满足两个在册版本。改回 fork 自 atm10 的 delta 形态：内容一字未动，改名为 zz_hanhua_<原名>，与上游章节名脱钩，出货时发空壳、按键并进上游那份文件。现在同一内容在 src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_reward_table.snbt。"
+    },
+    {
+      "path": "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.26.jar",
+      "approved": "用户",
+      "date": "2026-09-12",
+      "why": "被同目录的 jecharacters-1.21.1-neoforge-4.5.29.jar 取代。assemble.py 把本目录整个拷进出货树，两个 jar 同时在会让包里带两份同一个模组。"
     }
   ]
 }

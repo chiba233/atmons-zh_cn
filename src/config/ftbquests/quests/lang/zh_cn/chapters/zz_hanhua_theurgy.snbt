@@ -16,7 +16,7 @@
 	quest.0830195863384CF0.quest_desc: ["&b层岩盐&r是最早和最基本的盐，由普通的方块如石头、沙子或黑曜石制成。\\n\\n你可以使用5个&b层岩盐&r来合成&b矿物盐&r。"]
 	quest.0830195863384CF0.title: "&b层岩盐"
 	quest.0854AD352218E1C3.quest_desc: [
-		"你是否讨厌拥有大量电力却无法加热？\\n\\n现在你可以通过热量发射器改变这一点！Shift+右键点击以将其绑定到机器上。然后放置它并供电以发送热量。\\n\\n不能设置为多个机器！"
+		"你是否讨厌拥有大量电力却无法加热？\\n\\n现在你可以通过流态热质发射器改变这一点！Shift+右键点击以将其绑定到机器上。然后放置它并供电以发送热量。\\n\\n不能设置为多个机器！"
 		"{image:atm:textures/questpics/theurgy/theurgy_oven.png width:100 height:100 align:center}"
 	]
 	quest.0854AD352218E1C3.quest_subtitle: "怎么做？"
@@ -59,12 +59,12 @@
 	quest.26B462F2F41A77C7.quest_desc: ["所有来自大自然的礼物……都可以在烤炉中无情地烧成&b盐&r！\\n\\n木头、树叶和农作物可以烤成&b植物盐&r。"]
 	quest.26B462F2F41A77C7.title: "&b植物盐"
 	quest.285B3FB38B12F8CA.quest_desc: [
-		"我们需要这两个方块来制作&d盐铵&r（虽然我并不认为两个方块是一个多块结构）。一个&d盐铵&r储罐在底部，一个&d盐铵&r蓄积器在顶部。\\n\\n&d盐铵&r蓄积器是&9水&r和&d晶体&r的存放处；它可以容纳10,000mb的&9水&r或10桶，以及一堆&d盐铵晶体&r。储罐将容纳生成的&d盐铵&r，并且可以容纳2,000mb或2桶。"
+		"我们需要这两个方块来制作&d硇砂&r（虽然我并不认为两个方块是一个多块结构）。一个&d硇砂&r储罐在底部，一个&d硇砂&r蓄积器在顶部。\\n\\n&d硇砂&r蓄积器是&9水&r和&d晶体&r的存放处；它可以容纳10,000mb的&9水&r或10桶，以及一堆&d硇砂晶体&r。储罐将容纳生成的&d硇砂&r，并且可以容纳2,000mb或2桶。"
 		"{image:atm:textures/questpics/theurgy/theurgy_sal_front.png width:100 height:200 align:center}"
 	]
 	quest.285B3FB38B12F8CA.title: "制作&d盐铵"
 	quest.2B29E9AB9447E1C6.quest_desc: [
-		"现在这是一个多块机器！\\n\\n为了从&e炼金硫&r中获取物品，我们需要进行孵化。这需要孵化器和所有三个容器相邻。顺序无关紧要，只要它们接触底部的一半即可。\\n\\n一旦所有物品都放入容器并加热，孵化器就会开始工作！当烟雾粒子从它那里出来时，你就知道它在工作了。"
+		"现在这是一个多块机器！\\n\\n为了从&e炼金硫&r中获取物品，我们需要进行孵化。这需要培育器和所有三个容器相邻。顺序无关紧要，只要它们接触底部的一半即可。\\n\\n一旦所有物品都放入容器并加热，培育器就会开始工作！当烟雾粒子从它那里出来时，你就知道它在工作了。"
 		"{image:atm:textures/questpics/theurgy/theurgy_incubator.png width:200 height:200 align:center}"
 	]
 	quest.2F0D6267569F740B.quest_desc: ["常见材料比丰富材料更稀有。这些主要是锭和更稀有的生物掉落物，如末影珍珠或兔皮。\\n\\n你可以在标签中看到完整的列表。"]
@@ -74,7 +74,7 @@
 	]
 	quest.36926B5EBFF6E55A.title: "制作&c汞"
 	quest.393DA9C9D808A851.quest_desc: [
-		"&l&6神通术&r的扳手是&c汞&r法杖。你可以Shift+滚动来更改其模式。\\n\\n你可以启用/禁用基本上停止线缆传输。\\n\\n你可以更改物品提取或插入的侧面。\\n\\n你还可以更改频率频道！"
+		"&l&6神通术&r的扳手是&c御汞法杖&r。你可以Shift+滚动来更改其模式。\\n\\n你可以启用/禁用基本上停止线缆传输。\\n\\n你可以更改物品提取或插入的侧面。\\n\\n你还可以更改频率频道！"
 		"{image:atm:textures/questpics/theurgy/theurgy_incubator.png width:200 height:200 align:center}"
 	]
 	quest.393DA9C9D808A851.quest_subtitle: "我以为这是一个魔法模组……"
@@ -83,14 +83,14 @@
 	quest.3B6F723B03C4BF55.title: "消化釜"
 	quest.3C5734448FEC128B.quest_desc: ["最便宜的探测杖，玻璃探测杖。\\n\\n它可以找到所有石镐可以挖掘的矿石。所以铜、煤和铁。没有更高的。"]
 	quest.3EB63AF53E70C931.quest_desc: [
-		"重塑需要汞流来工作！你需要Shift+右键点击所有三个基座与硫流发射器来设置它们。然后放置发射器并供电。\\n\\n之后它应该准备好进行重塑了！"
+		"重塑需要汞流来工作！你需要Shift+右键点击所有三个基座与流态硫发射器来设置它们。然后放置发射器并供电。\\n\\n之后它应该准备好进行重塑了！"
 		"{image:atm:textures/questpics/theurgy/theurgy_reform_setup.png width:200 height:50 align:center}"
 	]
 	quest.3EB63AF53E70C931.title: "步骤4：供电"
 	quest.41ABC09C798CA8BE.quest_desc: ["这个任务由&6AllTheMods Staff&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包都采用&e保留所有权利&r许可证，此任务不得在未经&6AllTheMods团队&r明确许可的情况下用于任何公共包。\\n\\n此任务是故意隐藏的，如果你看到这个，你正在编辑模式。"]
-	quest.457CAE66B0FA4CCF.quest_desc: ["所有&2原版&r矿石都可以用钻石占卜杖找到。它可以找到所有矿石以及下界合金！"]
+	quest.457CAE66B0FA4CCF.quest_desc: ["所有&2原版&r矿石都可以用钻石探测杖找到。它可以找到所有矿石以及下界合金！"]
 	quest.45996B848792379E.quest_desc: [
-		"你可以在&2主世界&r中挖掘&d盐铵晶体&r，但这并不容易。我们仍然需要&9水&r和机器来制作&d盐铵&r以制作&e炼金硫&r。\\n\\n&d晶体&r是可选的，但非常有用；仅用1000mb的水，只能得到100mb的&d盐铵&r。而用1000mb的&9水&r和一个&d盐铵晶体&r，我们则可以得到1000mb的&d盐铵&r。\\n\\n只需多一个物品，就能提高10倍的产量！"
+		"你可以在&2主世界&r中挖掘&d硇砂晶体&r，但这并不容易。我们仍然需要&9水&r和机器来制作&d盐铵&r以制作&e炼金硫&r。\\n\\n&d晶体&r是可选的，但非常有用；仅用1000mb的水，只能得到100mb的&d盐铵&r。而用1000mb的&9水&r和一个&d硇砂晶体&r，我们则可以得到1000mb的&d盐铵&r。\\n\\n只需多一个物品，就能提高10倍的产量！"
 		"{image:atm:textures/questpics/theurgy/theurgy_incubator.png width:200 height:200 align:center}"
 	]
 	quest.45996B848792379E.quest_subtitle: "为什么我们需要机器，如果我们可以直接挖掘呢？"
@@ -124,7 +124,7 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_vessel_2.png width:100 height:125 align:center}"
 	]
 	quest.6A8E748B642DD16F.title: "&b盐&r容器"
-	quest.6C6F4EB5CBE2FBC2.quest_desc: ["铁占卜杖稍微高级一些，可以找到铁镐可以挖掘的矿石！所以钻石、红石和金。"]
+	quest.6C6F4EB5CBE2FBC2.quest_desc: ["铁探测杖稍微高级一些，可以找到铁镐可以挖掘的矿石！所以钻石、红石和金。"]
 	quest.6CAD27627A3F8FD7.quest_desc: [
 		"现在我们终于到了模组的核心，&e炼金硫&r！\\n\\n要制作它们，我们需要一个液化坩埚、一个物品、&d盐铵&r和一个加热器。\\n\\n加热在另一个任务中解释，但你需要将火盆或热量发射器放在坩埚下方以加热它。\\n\\n然后是液态&d盐铵&r。\\n\\n最后是你想转换成&e炼金硫&r的物品。\\n\\n当你看到它冒泡时，你就知道它在工作了。"
 		"{image:atm:textures/questpics/theurgy/theurgy_lique.png width:100 height:100 align:center}"

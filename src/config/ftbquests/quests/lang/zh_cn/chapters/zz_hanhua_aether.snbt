@@ -23,16 +23,16 @@
 	quest.102DD961706E861A.title: "&5刺荆花"
 	quest.1B7B377CB757867E.quest_desc: ["所有&d重力晶工具&r对着它们各自能挖的方块右键，就能把那些方块炸上天！\\n\\n它们也是&l&e天境&r里最好的工具。"]
 	quest.1B7B377CB757867E.title: "&d重力晶&r工具"
-	quest.1ECAEC7BE573BB9C.quest_desc: ["&5&l祭坛&r是个非常有用的方块。\\n\\n它能&5附魔&r物品，也能修复&e&l天境&r或&2&l原版&r的工具。\\n\\n这里说的「附魔」不是&2&l原版&r那种拿附魔书的附魔，它只是把某些&e&l天境&r物品转化成另一种！\\n\\n&5&l祭坛&r烧的燃料是&e神能&r。"]
-	quest.1ECAEC7BE573BB9C.title: "&5&l祭坛"
+	quest.1ECAEC7BE573BB9C.quest_desc: ["&5&l神能炉&r是个非常有用的方块。\\n\\n它能&5附魔&r物品，也能修复&e&l天境&r或&2&l原版&r的工具。\\n\\n这里说的「附魔」不是&2&l原版&r那种拿附魔书的附魔，它只是把某些&e&l天境&r物品转化成另一种！\\n\\n&5&l神能炉&r烧的燃料是&e神能&r。"]
+	quest.1ECAEC7BE573BB9C.title: "&5&l神能炉"
 	quest.1F446EF3AD20DC6B.quest_desc: ["这把&5战锤&r既是近战武器也是远程武器。\\n\\n你可以像平常那样砸怪，也可以右键发射弹体。\\n\\n弹体会像疾风弹一样把生物击退，同时造成伤害。"]
-	quest.1F446EF3AD20DC6B.title: "&5王之战锤"
+	quest.1F446EF3AD20DC6B.title: "&5创世者飞锤"
 	quest.20C2A09007E1309A.quest_desc: ["&d重力晶矿&r不用熔炼，而是拿&5&l祭坛&r&5附魔&r。\\n\\n&5附魔&r之后就能做工具和盔甲了。还能做唱片机！"]
 	quest.20C2A09007E1309A.title: "&d重力晶"
 	quest.20D957B3C350CDE2.quest_desc: ["&d重力晶盔甲&r有20点护甲和8点护甲韧性。\\n\\n五件套穿齐（是的，&d手套&r也算），你就不是跳起来，而是腾空而起！\\n\\n还能免疫摔落伤害！"]
 	quest.20D957B3C350CDE2.title: "&d重力晶&r盔甲"
-	quest.242C183437A4CCD4.quest_desc: ["&7岗哨石靴&r完全免疫摔落伤害！"]
-	quest.242C183437A4CCD4.title: "&7岗哨石靴"
+	quest.242C183437A4CCD4.quest_desc: ["&7哨卫长靴&r完全免疫摔落伤害！"]
+	quest.242C183437A4CCD4.title: "&7哨卫长靴"
 	quest.24E124F12CFF2A50.quest_desc: [
 		"&7&l滑行魔石&r是&7青铜地牢&r的Boss。\\n\\n它是个立方体……有400点&4生命值&r，而且只有镐才能对它造成伤害。镐越好伤害越高。\\n\\n&l&7滑行魔石&r很简单，一次只朝一个方向移动，而且只走几格，很好躲。\\n\\n把它打到剩100点&4生命值&r时，它的眼睛会变&4红&r，移动也会变快。\\n\\n把它「挖」掉之后你会得到……"
 		"{image:atm:textures/questpics/aether/aether_bronze2.png width:200 height:100 align:center}"
@@ -47,7 +47,7 @@
 	quest.2E05F4FB1A1FDE2D.quest_desc: ["&9蓝色史维特&r有6颗&4心&r。\\n\\n它本身不会伤害你……但它会把你困住，然后带着你高高跃起。\\n\\n被困住时唯一的脱身办法就是打它。\\n\\n&9蓝色史维特&r死后掉落&9史维特球&r和&b蓝色境云&r。"]
 	quest.2E05F4FB1A1FDE2D.title: "&9蓝色史维特"
 	quest.31A2B9C5C0962160.quest_desc: ["带火焰附加的&b钻石剑&r。"]
-	quest.31A2B9C5C0962160.title: "&c烈焰之剑"
+	quest.31A2B9C5C0962160.title: "&c烈焰长剑"
 	quest.326452FFA7F5C6CA.quest_desc: ["&e金色史维特&r和&9蓝色史维特&r一个路数，血量、攻击都一样。\\n\\n只是这帮家伙能扛住更高的落差，所以跳得比&9蓝色史维特&r更多、更高。\\n\\n&e金色史维特&r会掉落&e荧石&r！重建&e传送门&r正好用得上。"]
 	quest.326452FFA7F5C6CA.title: "&e金色史维特"
 	quest.3417FF406CF0479E.quest_desc: ["除了&e金橡树&r，&2天根木&r是这里唯一能找到的树。\\n\\n还有水晶树，不过那也是用&2天根原木&r长的，说到底是一回事！\\n\\n&2天根木&r和别的原木一样，能做方块、工具等等。"]
@@ -63,14 +63,14 @@
 	quest.3781DB4807A89375.title: "&5紫晶&r武器"
 	quest.3887FD4B14BB993D.quest_desc: ["&c再生之石&r佩戴时会持续为你回血。\\n\\n而且可以同时带两块，回血效果叠加！"]
 	quest.3887FD4B14BB993D.title: "&c再生之石"
-	quest.38E3ABEEFCE6A0B9.quest_desc: ["佩戴&9斥力之盾&r时，射向你的弹体会被弹开，并原路砸回射它的人身上。\\n\\n不过它是有耐久的……"]
-	quest.38E3ABEEFCE6A0B9.title: "&9斥力之盾"
+	quest.38E3ABEEFCE6A0B9.quest_desc: ["佩戴&9反击之盾&r时，射向你的弹体会被弹开，并原路砸回射它的人身上。\\n\\n不过它是有耐久的……"]
+	quest.38E3ABEEFCE6A0B9.title: "&9反击之盾"
 	quest.39E1211455224291.quest_desc: ["&b西风啸云&r是愤怒的云朵。\\n\\n它们只有2.5颗&4心&r，会朝你发射气弹——就像会射风弹的恶魂。\\n\\n杀死后会掉落寒风境云。"]
 	quest.39E1211455224291.title: "&b西风啸云"
 	quest.3A8AF52A5AE7C6CB.quest_desc: ["提供水下呼吸。"]
 	quest.3A8AF52A5AE7C6CB.title: "&7坚铁气泡"
-	quest.3C62EDBB44D83A41.quest_desc: ["&5自然法杖&r是配合驯服的&9恐鸟&r用的。\\n\\n想让它们坐下？用这根&5法杖&r。"]
-	quest.3C62EDBB44D83A41.title: "&5自然法杖"
+	quest.3C62EDBB44D83A41.quest_desc: ["&5自然权杖&r是配合驯服的&9恐鸟&r用的。\\n\\n想让它们坐下？用这根&5法杖&r。"]
+	quest.3C62EDBB44D83A41.title: "&5自然权杖"
 	quest.3DB036804AD70497.quest_desc: ["&7青铜钥匙&r！\\n\\n宝箱就在&7&l滑行魔石&r原本沉睡的位置下面。"]
 	quest.3DB036804AD70497.title: "&7青铜钥匙"
 	quest.3EE51A812E593135.quest_desc: ["&c&l孵化器&r只干一件事：孵&9恐鸟蛋&r。\\n\\n它烧&e神能火把&r当燃料，每孵一颗&9蛋&r要2根。\\n\\n&9蛋&r孵化后会出生一只&9恐鸟&r幼崽！\\n\\n它需要20分钟长大，长大后配上鞍就能骑。也可以用&5自然法杖&r指挥它们。"]
@@ -81,7 +81,7 @@
 	quest.40AD1851C6851925.title: "哎哟！"
 	quest.4394AEF0823FB4D2.quest_desc: ["和木制工具同级，所以挖不动铁矿和&5紫晶矿&r。\\n\\n但每把&2天根木&r工具都能让掉落翻倍。\\n\\n&2天根木镐&r让矿物翻倍，&2锹&r让泥土翻倍，&2锄&r让作物掉落翻倍。"]
 	quest.4394AEF0823FB4D2.title: "&2天根木&r工具"
-	quest.48530C6C1187F613.quest_desc: ["在&l&e天境&r里放下&c岩浆&r就会生成浮空凝胶。\\n\\n它不会被爆炸破坏，还能做成其他装饰方块！"]
+	quest.48530C6C1187F613.quest_desc: ["在&l&e天境&r里放下&c岩浆&r就会生成气凝胶。\\n\\n它不会被爆炸破坏，还能做成其他装饰方块！"]
 	quest.4974F265003DAEC9.quest_desc: ["&e武神工具&r和普通工具差不多，只是触及距离翻倍！"]
 	quest.4974F265003DAEC9.title: "&e武神工具"
 	quest.4AED9EF9E0F68483.quest_desc: ["&7圣石镐&r能挖&5紫晶&r，但挖不动&d重力晶&r。\\n\\n这一整套工具在破坏方块时都有几率掉落&e神能晶片&r。"]
@@ -127,13 +127,13 @@
 	quest.6797E67E0136D96A.quest_desc: ["&7圣石&r遍地都是，它就是&e&l天境&r的石头。\\n\\n挖它需要镐，可以用来做工具或方块。"]
 	quest.6797E67E0136D96A.title: "&7圣石"
 	quest.6B3328B6AE8704D2.quest_desc: ["&b闪电飞刀&r是投掷型弹体，命中处会召唤闪电！\\n\\n不过扔出去就没了，省着点用。"]
-	quest.6B3328B6AE8704D2.title: "&b闪电飞刀"
+	quest.6B3328B6AE8704D2.title: "&b惊雷飞刀"
 	quest.6C8766679D0AA8F6.quest_desc: ["这把武器一下就能砍死猪、猪灵和僵尸猪灵。\\n\\n两下砍死疣猪兽和僵尸疣猪兽。\\n\\n三下砍死猪灵蛮兵。"]
-	quest.6C8766679D0AA8F6.title: "&d屠猪者"
+	quest.6C8766679D0AA8F6.title: "&d杀猪刀"
 	quest.6D2425DAEA1FC211.quest_desc: ["&c日轮祭坛&r能改变&e&l天境&r的时间。\\n\\n没错，虽然&l&e天境&r里根本没有昼夜循环，这个小方块却能改。\\n\\n想调到几点就滚到几点！\\n\\n调成夜晚之后，你就能在&l&e天境&r里用床设置重生点了。"]
 	quest.6D2425DAEA1FC211.title: "&c日轮祭坛"
-	quest.705AEEDA95C52C99.quest_desc: ["&b&l冰柜&r正如其名，能把某些东西&b冻&r起来。\\n\\n&9水&f变&b冰&f，&b冰&f变&b浮冰&f，&b浮冰&f变&9蓝冰&r，&c岩浆&f变&5黑曜石&r。\\n\\n还能做冰之戒指和吊坠！\\n\\n&b&l冰柜&r烧寒冰石当燃料。"]
-	quest.705AEEDA95C52C99.title: "&b&l冰柜"
+	quest.705AEEDA95C52C99.quest_desc: ["&b&l冷冻器&r正如其名，能把某些东西&b冻&r起来。\\n\\n&9水&f变&b冰&f，&b冰&f变&b浮冰&f，&b浮冰&f变&9蓝冰&r，&c岩浆&f变&5黑曜石&r。\\n\\n还能做冰之戒指和吊坠！\\n\\n&b&l冷冻器&r烧寒冰石当燃料。"]
+	quest.705AEEDA95C52C99.title: "&b&l冷冻器"
 	quest.714960DF26EFFA53.quest_desc: ["所有&5紫晶工具&r在耐久越低时挖得越快。\\n\\n另外&5镐&r能挖&d重力晶&r。"]
 	quest.714960DF26EFFA53.title: "&5紫晶&r工具"
 	quest.72133DD1B3237493.quest_desc: ["&4吸血魔剑&r带吸血效果。\\n\\n造成伤害的同时，你自己会回一点&4心&r！"]

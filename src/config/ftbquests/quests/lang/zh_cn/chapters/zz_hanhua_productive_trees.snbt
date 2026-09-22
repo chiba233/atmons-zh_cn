@@ -13,14 +13,14 @@
 	quest.4281BCDCE233F65B.quest_subtitle: "古代城市箱子"
 	quest.4C3B7BAEA653587B.quest_desc: ["这些可以在沙漠神殿内的箱子中找到。"]
 	quest.4C3B7BAEA653587B.quest_subtitle: "沙漠神殿箱子"
-	quest.543F00603790AD3E.quest_desc: ["(原木) 去皮机使用放入机器中的斧头自动去皮原木。"]
+	quest.543F00603790AD3E.quest_desc: ["剥离器使用放入机器中的斧头自动去皮原木。"]
 	quest.543F00603790AD3E.quest_subtitle: "请不要"
 	quest.543F00603790AD3E.title: "去皮"
 	quest.5577F49A93ADB19C.quest_desc: ["&l丰产树&r是&l资源蜜蜂&r的姊妹模组。\\n\\n为了获得不同的树木，你需要授粉树叶。要获得授粉树叶，你需要花粉。要获得花粉，你需要蜜蜂。\\n\\n在树木附近开花的蜜蜂会自动授粉树叶，或者你可以在蜂巢中安装“升级：花粉筛”来获取和使用花粉！这个免费送你！"]
 	quest.5577F49A93ADB19C.title: "丰产树木"
 	quest.768C07D1B5EB1FEB.quest_desc: ["这些可以在寒带海底废墟中的可疑沙和砾石中找到。"]
 	quest.768C07D1B5EB1FEB.quest_subtitle: "寒带海底废墟可疑方块"
-	quest.76A0592F4C294545.quest_desc: ["锯木厂能把原木锯成锯末，产出的木板也比直接合成得到的更多。锯末可以用来制作纸张。\\n\\n - 染料木原木还会给你染料木。\\n - 巴西红木原木和木原木还会给你血黄素。"]
+	quest.76A0592F4C294545.quest_desc: ["锯木机能把原木锯成锯末，产出的木板也比直接合成得到的更多。锯末可以用来制作纸张。\\n\\n - 染料木原木还会给你染料木。\\n - 巴西红木原木和木原木还会给你血黄素。"]
 	quest.76A0592F4C294545.quest_subtitle: "我也木"
 	quest.76A0592F4C294545.title: "锯削"
 	task.0E7EAD7D7DF5E7C3.title: "保留所有权利"

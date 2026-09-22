@@ -20,7 +20,7 @@
 	quest.0E5AE195158CF344.quest_subtitle: "x32存储升级"
 	quest.0E5AE195158CF344.title: "&d下界合金升级"
 	quest.110D27EA86CDA62B.quest_desc: ["将物品磁吸到背包中。"]
-	quest.11D4EEAC61C7E530.quest_desc: ["收集器升级将使抽屉从一侧吸走物品。"]
+	quest.11D4EEAC61C7E530.quest_desc: ["收集升级将使抽屉从一侧吸走物品。"]
 	quest.11D57C768032E3F7.quest_subtitle: "更多的过滤选项"
 	quest.11D57C768032E3F7.title: "&e高级磁铁升级"
 	quest.122FBF5110E4CFF2.quest_desc: ["铁降级会将抽屉的最大容量降为一组。适合那些想留点库存、但又不想囤太多的场合。"]
@@ -37,7 +37,7 @@
 	quest.17DC77F7F8C68AE6.title: "垃圾桶"
 	quest.1985CFD1F0425E88.quest_subtitle: "更多的过滤选项"
 	quest.1985CFD1F0425E88.title: "&e高级拾取升级"
-	quest.19DFAEB6D88F3580.quest_desc: ["推送器升级允许抽屉将物品推出到任何一侧。"]
+	quest.19DFAEB6D88F3580.quest_desc: ["推出升级允许抽屉将物品推出到任何一侧。"]
 	quest.1A4B1CA7EC15348E.quest_subtitle: "维度抽屉..."
 	quest.1A739D36D5E3B1AD.quest_subtitle: "更多的过滤选项"
 	quest.1A739D36D5E3B1AD.title: "&e高级喂食升级"
@@ -125,7 +125,7 @@
 	quest.6FBAE89EE782DABA.quest_desc: ["当放置并使用&a链接工具&r连接到其他抽屉时，控制器充当\"中心枢纽\"。\\n\\n如果你双击右键此控制器，所有在抽屉网络中有插槽的物品都会被拉入。\\n\\n通过潜行右键点击控制器并手持空物品，你可以打开升级标签页，为这些插槽添加普通存储升级以增加控制器的范围。最大范围为所有方向40个方块，或80x80x80的立方体。"]
 	quest.6FBAE89EE782DABA.quest_subtitle: "抽屉的大脑"
 	quest.70902EF96F060672.quest_desc: ["此升级将使抽屉在所有方向上输出红石信号，信号强度表示抽屉的满/空程度。\\n\\n对于多插槽抽屉，升级可以配置要监控的插槽。\\n\\n0 - 表示空。\\n15 - 表示满。"]
-	quest.7649D648A3688D4A.quest_desc: ["拉取升级允许抽屉从任何方向拉入物品。"]
+	quest.7649D648A3688D4A.quest_desc: ["抽入升级允许抽屉从任何方向拉入物品。"]
 	quest.77F241BEE9902751.quest_desc: ["精妙存储中最大的箱子"]
 	quest.77F241BEE9902751.quest_subtitle: "地方大得很，能整的\"活动\"可多了！"
 	quest.77F241BEE9902751.title: "&d下界合金箱子"

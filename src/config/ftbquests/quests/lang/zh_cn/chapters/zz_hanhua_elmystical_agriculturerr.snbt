@@ -57,7 +57,7 @@
 	quest.1E0F92F07FDD162E.quest_desc: ["你需要&b活化种子基底&r来创建资源作物。"]
 	quest.1E0F92F07FDD162E.quest_subtitle: "我全都要（种子）基底"
 	quest.1E0F92F07FDD162E.title: "&b活化种子基底"
-	quest.1E2B363E3365A62F.quest_desc: ["ATM种子需要在下方放置魔法土壤才能生长。"]
+	quest.1E2B363E3365A62F.quest_desc: ["ATM种子需要在下方放置魔法泥土才能生长。"]
 	quest.1E2B363E3365A62F.quest_subtitle: "等级：&b魔法"
 	quest.1E414D285E7A5FE2.title: "&c中级精华工具"
 	quest.1E7DC8E0493BE99E.quest_subtitle: "等级：&e1"
@@ -102,7 +102,7 @@
 	quest.2AECDD9E2DEA708C.quest_subtitle: "等级：&a2"
 	quest.2AFBE48DA832FF02.quest_subtitle: "等级：&c5"
 	quest.2B0553F307A024F7.quest_subtitle: "等级：&c5"
-	quest.2BC325DEBDD2F5CA.quest_desc: ["振金种子需要在下方放置魔法土壤才能生长。"]
+	quest.2BC325DEBDD2F5CA.quest_desc: ["振金种子需要在下方放置魔法泥土才能生长。"]
 	quest.2BC325DEBDD2F5CA.quest_subtitle: "等级：&b魔法"
 	quest.2C2EF4EBB3C9EAE3.quest_subtitle: "等级：&a2"
 	quest.2C73E3C5113BF2AC.quest_desc: ["哔哔我是一只羊"]
@@ -137,19 +137,19 @@
 	quest.3B884E05AE2EEBFC.quest_subtitle: "等级：&c5"
 	quest.3BB3AA6C29285837.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)"]
 	quest.3BB3AA6C29285837.title: "&2初级精华苹果"
-	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒终极精华锭块。"]
+	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒精华锭块。"]
 	quest.3DDB7C8E61BA048F.quest_subtitle: "等级：&a2"
 	quest.3E555B364FD88B43.quest_subtitle: "范围：&c45&r格"
 	quest.3E555B364FD88B43.title: "&4终极生长加速器"
 	quest.3EA2578C3A56FAE8.quest_desc: ["灵魂提取器允许你通过放入灵魂瓶并使用生物物品来填充它们。例如，添加腐肉将填充一部分僵尸灵魂。"]
-	quest.404AA0F5557D7E35.quest_desc: ["难得素种子需要在其下方放置魔法土壤才能生长。"]
+	quest.404AA0F5557D7E35.quest_desc: ["难得素种子需要在其下方放置魔法泥土才能生长。"]
 	quest.404AA0F5557D7E35.quest_subtitle: "等级：&b魔法"
 	quest.408D8B1CFBA22BAF.quest_desc: ["防凋灵方块、防凋灵砖和防凋灵玻璃具有极高的爆炸抗性，并且不会被凋灵或末影龙破坏。"]
 	quest.408D8B1CFBA22BAF.title: "&0防凋灵方块"
 	quest.409A92D40F539485.quest_subtitle: "等级：&e1"
 	quest.40B13424FA523E11.quest_subtitle: "等级：&a2"
 	quest.41D246E896BD791F.quest_subtitle: "等级：&63"
-	quest.41DBE44D7AA0B623.quest_desc: ["工匠台是你为精华装备添加这些升级的地方！"]
+	quest.41DBE44D7AA0B623.quest_desc: ["工具装配台是你为精华装备添加这些升级的地方！"]
 	quest.4221D6CDDF90DACB.quest_subtitle: "等级：&b4"
 	quest.44B22160850ACAB2.quest_desc: ["下界之星种子需要在其下方放置一个下界之星核心才能生长。"]
 	quest.44B22160850ACAB2.quest_subtitle: "等级：&56"

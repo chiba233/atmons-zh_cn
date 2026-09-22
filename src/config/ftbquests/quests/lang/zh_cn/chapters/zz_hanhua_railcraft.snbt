@@ -21,7 +21,7 @@
 	image.723C2B19439D99F1.title: "轨道：拆除、重铺与铺设"
 	image.73CE36293444E751.title: "储水罐矿车"
 	quest.008D186B4E0ED14F.quest_desc: [
-		"蒸汽烤箱是另一种利用蒸汽的机器。\\n\\n通过将蒸汽输入蒸汽烤箱，它将作为熔炉来处理其中的物品。可以将矿石熔炼成锭，并烹饪食物。\\n\\n它是一个2x2x2的蒸汽烤箱方块组成的机器。"
+		"蒸汽炉是另一种利用蒸汽的机器。\\n\\n通过将蒸汽输入蒸汽炉，它将作为熔炉来处理其中的物品。可以将矿石熔炼成锭，并烹饪食物。\\n\\n它是一个2x2x2的蒸汽炉方块组成的机器。"
 		"{image:atm:textures/questpics/railcraft/rail_oven.png width:100 height:100 align:center}"
 	]
 	quest.008D186B4E0ED14F.title: "蒸汽炉"
@@ -90,7 +90,7 @@
 	quest.365D4B1DC953D406.quest_desc: ["&7矿车&r发射器会像名字一样工作。它可以将任何&7矿车&r发射到它前面的&6轨道&r上。需要红石信号来发射。"]
 	quest.365D4B1DC953D406.title: "&7矿车&r发射器"
 	quest.38451B61E3FC075B.quest_desc: [
-		"等等，我们又有了钢，那是否意味着我们也能重新获得（煤）焦炭？是的！\\n要获得（煤）焦炭，你需要一个焦炉。要制作一个焦炉，你需要26个焦炉砖，并将它们排列成3x3x3的空心结构。建造正确后，你就可以打开GUI，焦炉也会形成完整的外观。\\n\\n放入煤或煤块可以获得（煤）焦炭和杂酚油！也可以放入任意原木来获得木炭和杂酚油。"
+		"等等，我们又有了钢，那是否意味着我们也能重新获得（煤）焦炭？是的！\\n要获得（煤）焦炭，你需要一个炼焦炉。要制作一个炼焦炉，你需要26个焦炉砖，并将它们排列成3x3x3的空心结构。建造正确后，你就可以打开GUI，焦炉也会形成完整的外观。\\n\\n放入煤或煤块可以获得（煤）焦炭和杂酚油！也可以放入任意原木来获得木炭和杂酚油。"
 		"{image:atm:textures/questpics/railcraft/rail_coke.png width:100 height:100 align:center}"
 	]
 	quest.38451B61E3FC075B.title: "焦炉"
@@ -101,7 +101,7 @@
 		"{image:atm:textures/questpics/railcraft/rail_electric.png width:100 height:100 align:center}"
 	]
 	quest.3E8C2E7769DFBF35.title: "&e电力机车"
-	quest.4071BBBE12CACD2D.quest_desc: ["&5火车&r发射器是&7矿车&r发射器的更好版本。它可以发射整个&5机车&r和更多！设置你想要部署的模式，然后给予一个红石信号。"]
+	quest.4071BBBE12CACD2D.quest_desc: ["&5列车发射器&r是&7矿车&r发射器的更好版本。它可以发射整个&5机车&r和更多！设置你想要部署的模式，然后给予一个红石信号。"]
 	quest.4071BBBE12CACD2D.title: "列车发射器"
 	quest.425E375A9EC127EB.quest_desc: [
 		"&6强化轨道&r是普通&6轨道&r的升级版！它们稍微快一些，并且不会爆炸。"

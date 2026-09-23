@@ -6,19 +6,18 @@
 """把 versions/<版本>/pack_overrides.json 叠到该版出货树的资源包上。
 
 资源包译文按**命名空间 + 键**索引，同一个键在哪个整合包版本都是同一个键，
-所以 src/pack 是版本中立的、一份通吃。这个前提会被上游打破：
+所以 src/pack 是版本中立的、一份通吃六个版本。这个前提会被上游打破：
 
-同一个键在两版里**参数个数不同**时，一份中文没法同时对两版成立
-（ftbteams.party_api_only 在 1.3.0 多了一个 %s）。少写参数只是漏掉一段文字；
-多写参数会让 TranslatableContents 抛 TranslatableFormatException，那一行
-直接显示成未替换的模板。此时只能按版本分叉。
+同一个键在两版里**参数个数不同**时，一份中文没法同时对两版成立。少写参数只是
+漏掉一段文字；多写参数会让 TranslatableContents 抛 TranslatableFormatException，
+那一行直接显示成未替换的模板。此时只能按版本分叉。
 
 任务书那一侧早就有 versions/<版本>/quest_overrides.snbt，这里是同一个东西的
 资源包版。除了 lang 单键，还允许引用 `src/pack_overrides/<层名>/` 里的整文件覆盖：
 散文导览书没有可定点替换的键，上游改写正文时只能整页分叉。
 
 **它是例外口子，不是常规去处**：能在 src/pack 里一份写对的，就不要往这里写——
-每多一条，两个版本之间就多一处要各自核对的分叉。
+每多一条，七个版本之间就多一处要各自核对的分叉。
 
 口子两头都 fail-closed：
 

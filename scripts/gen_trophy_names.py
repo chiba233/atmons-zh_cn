@@ -107,6 +107,8 @@ BAKED_NAME_OVERRIDES = {
     'Ice spike Trophy': '冰霜尖刺奖杯',
     'Item frame Trophy': '物品展示框奖杯',
     'Mimic Trophy': '宝箱怪奖杯',
+    'NPC Trophy': 'NPC奖杯',
+    'Seat Trophy': '座椅奖杯',
     'Sentry Trophy': '哨石奖杯',
     'Sheep Trophy': '绵羊奖杯',
     'Skeleton Trophy': '骷髅奖杯',

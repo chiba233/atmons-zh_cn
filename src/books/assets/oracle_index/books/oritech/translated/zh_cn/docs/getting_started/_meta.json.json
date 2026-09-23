@@ -1,0 +1,55 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/zh_cn/docs/getting_started/_meta.json",
+ "sha1": "43f01eb0e8fe2afff46cb9cb61fc23a574a83fad",
+ "t": [
+  [
+   [
+    "alloys.mdx"
+   ],
+   "制作钢（以及其它合金）",
+   "炼钢及其他合金冶炼"
+  ],
+  [
+   [
+    "assembling_components.mdx"
+   ],
+   "装配组件",
+   "组件装配"
+  ],
+  [
+   [
+    "first_generator.mdx"
+   ],
+   "基础发电技术",
+   "基础发电"
+  ],
+  [
+   [
+    "fragmenting.mdx"
+   ],
+   "粉碎矿石",
+   "矿石粉碎"
+  ],
+  [
+   [
+    "gather_resources.mdx"
+   ],
+   "获取资源",
+   "收集资源"
+  ],
+  [
+   [
+    "have_fun.mdx"
+   ],
+   "后续方向",
+   "下一步前往何处"
+  ],
+  [
+   [
+    "lasers.mdx"
+   ],
+   "激！光！以及辐水晶",
+   "镭射器与通量水晶"
+  ]
+ ]
+}

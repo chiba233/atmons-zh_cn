@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/zh_cn/content/machines/_meta.json",
+ "sha1": "1fe80b97d459cca84d05da92036f49025dc5ad68",
+ "t": [
+  [
+   [
+    "augmentations"
+   ],
+   "赛博改造",
+   "植入体"
+  ],
+  [
+   [
+    "machine_core_2.mdx"
+   ],
+   "机器核心",
+   "基础机器核心"
+  ],
+  [
+   [
+    "powergen"
+   ],
+   "发电机",
+   "发电"
+  ],
+  [
+   [
+    "utility"
+   ],
+   "实用",
+   "实用工具"
+  ]
+ ]
+}

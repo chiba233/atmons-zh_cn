@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/zh_cn/content/nuclear/_meta.json",
+ "sha1": "58016883b4a31a48495fb1e80033223c2f76adc9",
+ "t": [
+  [
+   [
+    "reactor_controller.mdx"
+   ],
+   "核反应堆控制面板",
+   "核反应堆控制器"
+  ],
+  [
+   [
+    "reactor_rod.mdx"
+   ],
+   "反应堆棒",
+   "单反应堆棒"
+  ],
+  [
+   [
+    "uranium_pellet.mdx"
+   ],
+   "铀处理",
+   "铀球"
+  ]
+ ]
+}

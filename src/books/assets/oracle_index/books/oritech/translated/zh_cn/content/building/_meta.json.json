@@ -1,0 +1,27 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/zh_cn/content/building/_meta.json",
+ "sha1": "6fb241d48c4f447b01a13687dc7b67252fcc53ae",
+ "t": [
+  [
+   [
+    "hangar_door.mdx"
+   ],
+   "工业机库门(Hangar Door)",
+   "工业机库门"
+  ],
+  [
+   [
+    "industrial_paints.mdx"
+   ],
+   "工业油漆(Industrial Paints)",
+   "橙色机器涂料"
+  ],
+  [
+   [
+    "machine_plating_block.mdx"
+   ],
+   "强化护板",
+   "铜强化护板"
+  ]
+ ]
+}

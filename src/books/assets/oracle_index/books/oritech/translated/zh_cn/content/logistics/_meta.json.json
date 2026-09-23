@@ -1,0 +1,34 @@
+{
+ "src": "assets/oracle_index/books/oritech/translated/zh_cn/content/logistics/_meta.json",
+ "sha1": "ed0147d6896aca8842151d772e66fc69a8e2eb59",
+ "t": [
+  [
+   [
+    "creative_tank_block.mdx"
+   ],
+   "创造流体储罐",
+   "创造储罐"
+  ],
+  [
+   [
+    "item_pipe.mdx"
+   ],
+   "物流管道",
+   "不透明物流管道"
+  ],
+  [
+   [
+    "power_pole_block.mdx"
+   ],
+   "输能杆(Energy Transmission Pole)",
+   "能量输电杆"
+  ],
+  [
+   [
+    "small_tank_block.mdx"
+   ],
+   "便携流体储罐",
+   "便携储罐"
+  ]
+ ]
+}

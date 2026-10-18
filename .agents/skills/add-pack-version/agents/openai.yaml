@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Pack Version"
+  short_description: "给汉化包加一个新的 All the Mons 整合包版本"
+  default_prompt: "Use $add-pack-version to add support for the new All the Mons pack version in one PR."
